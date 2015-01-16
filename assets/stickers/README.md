@@ -9,12 +9,12 @@
 
 The dimensions must follow these [rules](https://github.com/terinjokes/StickerConstructorSpec/issues/8)
 
+### Hex
+
+- `width`: 4.39cm
+- `height`: 5.08cm
+
 ### Triangle
 
 - `width`: 2.18cm
 - `height`: 2.54cm
-
-Hex
-
-- `width`: 4.39cm
-- `height`: 5.08cm
