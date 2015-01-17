@@ -1,0 +1,85 @@
+html, body {
+  overflow-x: hidden;
+  background-color: white;
+}
+
+.container {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+.lnug-header {
+  background-color: rgb(70, 72, 61);
+  height: 350px;
+}
+.lnug-menu {
+  background-color: rgb(83, 85, 74);
+  height: 80px;
+}
+
+.lnug-nextevent {
+  background-color: rgb(245, 245, 245);
+  height: 80px;
+}
+
+.lnug-sectiondesc {
+  color: rgb(196, 200, 175);
+  font-size: 36px;
+  height: 80px;
+  width: 100%;
+}
+
+.talk-label,.sponsor-label {
+  padding: 15px 0;
+  border-bottom: 1px rgb(240, 240, 240) solid;
+}
+
+.lnug-content {
+
+}
+.lnug-singlespeaker {
+  margin-top: 25px;
+  display: table;
+}
+
+.lnug-speakerphoto {
+  display: table-cell;
+  vertical-align: middle;
+  float: none;
+}
+.lnug-speakercard {
+  display: table-cell;
+  float: none;
+}
+
+.lnug-speakercard div {
+  margin: 10px 0;
+  height: 100%;
+}
+
+.lnug-speakername {
+  font-size: 32px;
+  color: black;
+  font-weight: 700;
+}
+
+.lnug-talktitle {
+  font-size: 28px;
+  color: black;
+  font-weight: 400;
+}
+
+.lnug-talkdesc {
+  font-size: 26px;
+  color: black;
+  font-weight: 300;
+}
+
+.lnug-twitterhandle {
+  font-size: 26px;
+  color: rgb(206, 208, 194);
+  font-weight: 300;
+}
+
+
