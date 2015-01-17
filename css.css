@@ -11,6 +11,10 @@ html, body {
 }
 .lnug-header {
   background-color: rgb(70, 72, 61);
+  background-image: url(assets/logo/new-transparent.png);
+  background-repeat: no-repeat;
+  background-size: 50ch;
+  background-position: center;
   height: 350px;
 }
 .lnug-menu {
