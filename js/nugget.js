@@ -101,9 +101,9 @@ Nugget.Session.prototype = {
 		return this.__data.title;
 	},
 	
-	/** @returns {string} */
+	/** @returns {Nugget.Description} */
 	getDescription : function(){
-		return this.__data.description;
+		return new Nugget.Description(this.__data.description);
 	},
 	
 	/** @returns {Nugget.Person} */
@@ -191,3 +191,23 @@ Nugget.Request = function beginRequest(url, onsuccess, onerror){
 	httpRequest.send();
 }
 
+/** @constructor */
+/** @param {object} data */
+Nugget.Description = function Description(data){
+	this.__properties = {};
+	var lines = data.split("\n");
+	for(var i = 0; i < lines.length; i++){
+		var keyvalue = lines[i].split(":");
+		if(keyvalue.length > 0){
+			this.__properties[keyvalue[0].trim()] = keyvalue[1].trim();
+		}
+	}
+}
+Nugget.Description.prototype = {
+	
+	/** @param {string} name */
+	/** @returns {string} */
+	getProperty : function(name){
+		return this.__properties[name] || "";
+	}
+}
