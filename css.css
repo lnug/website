@@ -15,7 +15,7 @@ html, body {
   background-repeat: no-repeat;
   background-size: 50ch;
   background-position: center;
-  height: 350px;
+  height: 220px;
 }
 .lnug-menu {
   background-color: rgb(83, 85, 74);
@@ -39,6 +39,9 @@ html, body {
   line-height: 3.3;
   font-size: 24px;
 }
+.lnug-menu-text a {
+  color:rgba(255,255,255,0.8);
+}
 
 .lnug-nextevent {
   background-color: rgb(245, 245, 245);
@@ -55,6 +58,15 @@ html, body {
 .talk-label,.sponsor-label {
   padding: 15px 0;
   border-bottom: 1px rgb(240, 240, 240) solid;
+}
+.twitter-label {
+  padding: 15px 0;
+  border-bottom: 1px rgb(240, 240, 240) solid;
+}
+
+.twitter-widget {
+  padding-top: 10px;
+  margin: 0 40px;
 }
 
 .lnug-content {
