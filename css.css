@@ -116,4 +116,17 @@ html, body {
   font-weight: 300;
 }
 
+.lnug-footer {
+  background: rgb(83, 85, 74);
+  height: 80px;
+  color: rgba(255,255,255,0.4);
+}
 
+.lnug-footer-text {
+  margin-top: 10px;
+  text-align: center;
+}
+.lnug-footer-text li {
+  display: inline-block;
+  padding: 0 15px;
+}
