@@ -1,0 +1,935 @@
+{
+    "data": [
+        {
+            "id": 37,
+            "date": "January 2015",
+            "lanyrd": "http://lanyrd.com/2015/lnug-january/",
+            "speakers": [
+                {
+                    "name": "Florian Motlik",
+                    "url": "https://twitter.com/flomotlik",
+                    "title": "Continuous Delivery with Codeship"
+                },
+                {
+                    "name": "Ross Kukulinski",
+                    "url": "https://twitter.com/rosskukulinski",
+                    "title": "What to expect when expecting IOJS"
+                },
+                {
+                    "name": "Francisco Ferreira",
+                    "url": "https://twitter.com/fmsf303",
+                    "title": "Javascript Craftsmanship"
+                },
+                {
+                    "name": "Tim Perry",
+                    "url": "https://twitter.com/pimterry",
+                    "title": "Web Components & Microservices Are The Same Thing"
+                }
+            ]
+        },
+        {
+            "id": 36,
+            "date": "November 2014",
+            "lanyrd": "http://lanyrd.com/2014/lnug-november/",
+            "speakers": [
+                {
+                    "name": "Tom Gallacher",
+                    "url": "https://twitter.com/tomgco",
+                    "title": "Async: the battle"
+                },
+                {
+                    "name": "George Ornbo",
+                    "url": "https://twitter.com/shapeshed",
+                    "title": "Realtime Node.js from the trenches"
+                },
+                {
+                    "name": "Tom Cartwright",
+                    "url": "https://twitter.com/tomcartwrightuk",
+                    "title": "Peer connect all the things"
+                }
+            ]
+        },
+        {
+            "id": 35,
+            "date": "October 2014",
+            "lanyrd": "http://lanyrd.com/2014/lnug-october/",
+            "speakers": [
+                {
+                    "name": "Philipp Fehre",
+                    "url": "https://twitter.com/ischi",
+                    "title": "JSON throughout the Stack"
+                },
+                {
+                    "name": "Ben Hall",
+                    "url": "https://twitter.com/ben_hall",
+                    "title": "Node Anti-patterns"
+                },
+                {
+                    "name": "James Halliday",
+                    "url": "https://twitter.com/substack",
+                    "title": "Data Wizzard"
+                }
+            ]
+        },
+        {
+            "id": 34,
+            "date": "September 2014",
+            "lanyrd": "http://lanyrd.com/2014/lnug-september/",
+            "speakers": [
+                {
+                    "name": "Jakub Racek",
+                    "url": "https://twitter.com/racekjakub",
+                    "title": "Scanner and Printer Pi with Node sides"
+                },
+                {
+                    "name": "Francisco Ferreira",
+                    "url": "https://twitter.com/fmsf303",
+                    "title": "JavaScript, Java and Dart! Asynch all around us."
+                }
+            ]
+        },
+        {
+            "id": 33,
+            "date": "August 2014",
+            "lanyrd": "http://lanyrd.com/2014/lnug-august/",
+            "speakers": [
+                {
+                    "name": "Matt Forrester",
+                    "url": "https://twitter.com/forbesmyester",
+                    "title": "Offline Apps and Data Synchronization"
+                },
+                {
+                    "name": "Philipp Fehre",
+                    "url": "https://twitter.com/ischi",
+                    "title": "node.js and native code"
+                },
+                {
+                    "name": "Adam Baldwin",
+                    "url": "https://twitter.com/adam_baldwin",
+                    "title": "node security"
+                }
+            ]
+        },
+        {
+            "id": 32,
+            "date": "July 2014",
+            "lanyrd": "http://lanyrd.com/2014/lnug-july/",
+            "speakers": [
+                {
+                    "name": "Nuno Job",
+                    "url": "https://twitter.com/dscape",
+                    "title": "process.env.NODE_ENV === 'PRODUCTION' for all your 'webscale' apps!"
+                },
+                {
+                    "name": "Andrew Martin",
+                    "url": "https://twitter.com/sublimino",
+                    "title": "Deployment Pipelines: Disproving the Big Bang"
+                },
+                {
+                    "name": "Luke Bond",
+                    "url": "https://twitter.com/lukebond",
+                    "title": "ZeroMQ with Node"
+                }
+            ]
+        },
+        {
+            "id": 31,
+            "date": "June 2014",
+            "lanyrd": "http://lanyrd.com/2014/lnug-june/",
+            "speakers": [
+                {
+                    "name": "Jon Parsons",
+                    "url": "https://twitter.com/cutandpastey",
+                    "title": "Isomorphic Javascript What, Why and How"
+                },
+                {
+                    "name": "Paul Jensen",
+                    "url": "https://twitter.com/paulbjensen",
+                    "title": "Building desktop apps with Node Webkit"
+                },
+                {
+                    "name": "Joe Nash",
+                    "url": "https://twitter.com/jna_sh",
+                    "title": "Functional programming on the clientside with Fay and Elm"
+                }
+            ]
+        },
+        {
+            "id": 30,
+            "date": "May 2014",
+            "lanyrd": "http://lanyrd.com/2014/lnug-may/",
+            "speakers": [
+                {
+                    "name": "Thomas Heymann",
+                    "url": "https://twitter.com/thomasheymann",
+                    "title": "Slicing it up: How we built a micro-service for rendering shared client/server-side one-page apps"
+                },
+                {
+                    "name": "Mauro Pompilio",
+                    "url": "https://twitter.com/malditogeek",
+                    "title": "VMUX 2.0"
+                },
+                {
+                    "name": "Yacine Rezgui",
+                    "url": "https://twitter.com/yrezgui",
+                    "title": "Develop HTML5 mobile apps in 2014"
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "date": "April 2014",
+            "lanyrd": "http://lanyrd.com/2014/lnug-april/",
+            "speakers": [
+                {
+                    "name": "Jeremy Ruston",
+                    "url": "https://twitter.com/Jermolene",
+                    "title": "A Tale of Two Hosts: rebooting TiddlyWiki for Node.js and the browser"
+                },
+                {
+                    "name": "Simon McManus",
+                    "url": "https://twitter.com/simonmcmanus",
+                    "title": "Home Automation With Javascript"
+                },
+                {
+                    "name": "Ismael Celis",
+                    "url": "https://twitter.com/ismasan",
+                    "title": "Streaming downloads proxy service with Node.js"
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "date": "March 2014",
+            "lanyrd": "http://lanyrd.com/2014/lnug-march/",
+            "speakers": [
+                {
+                    "name": "Tim Ruffles",
+                    "url": "https://twitter.com/timruffles",
+                    "title": "NodeUP Podcast Live: featuring Geoff Wagstaff, Forbes Lindesay, Tancredi Trugenberge,Remy Sharp"
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "date": "February 2014",
+            "lanyrd": "http://lanyrd.com/2014/lnug-february/",
+            "speakers": [
+                {
+                    "name": "Tom Gallacher",
+                    "url": "http://twitter.com/tomgco",
+                    "title": "Easy CPU profiling in Nodejs"
+                },
+                {
+                    "name": "Forbes Lindesay",
+                    "url": "http://twitter.com/ForbesLindesay",
+                    "title": "An introduction to the Jade templating language"
+                },
+                {
+                    "name": "Matteo Figus",
+                    "url": "http://twitter.com/matteofigus",
+                    "title": "Performance tests on APIs using Node.js"
+                },
+                {
+                    "name": "Jaime Jorge",
+                    "url": "http://twitter.com/jaimefjorge",
+                    "title": "Node in Codacy"
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "date": "January 2014",
+            "lanyrd": "http://lanyrd.com/2014/lnug-january/",
+            "speakers": [
+                {
+                    "name": "Alex Roche",
+                    "url": "http://twitter.com/alexHacked",
+                    "title": "NodeJS & Arduino; What, Why & How"
+                },
+                {
+                    "name": "Alexandros Marinos",
+                    "url": "http://twitter.com/alexandrosM",
+                    "title": "Resin.io - JS on your Raspberry Pi with a simple 'git push'"
+                },
+                {
+                    "name": "Rowan Manning",
+                    "url": "http://twitter.com/rowanmanning",
+                    "title": "UX For Your Node Modules"
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "date": "November 2013",
+            "lanyrd": "http://lanyrd.com/2013/lnug-november/",
+            "speakers": [
+                {
+                    "name": "Tristan Foureur",
+                    "url": "http://twitter.com/tfoureur",
+                    "title": "Megatron: Javascript-to-javascript compiler"
+                },
+                {
+                    "name": "Jonathan Anthony",
+                    "url": "http://twitter.com/NoWayJA",
+                    "title": "Selling Javascript to Clients"
+                },
+                {
+                    "name": "Alan Shaw",
+                    "url": "http://twitter.com/_alanshaw",
+                    "title": "Hoodie plugins"
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "date": "October 2013",
+            "lanyrd": "http://lanyrd.com/2013/lnug-october/",
+            "speakers": [
+                {
+                    "name": "Remy Sharp",
+                    "url": "http://twitter.com/rem",
+                    "title": "The Bits Behind JS Bin"
+                },
+                {
+                    "name": "David Wynne",
+                    "url": "http://twitter.com/dwynne",
+                    "title": "Something witty about DocPad and SSGs"
+                },
+                {
+                    "name": "Forbes Lindesay",
+                    "url": "http://twitter.com/ForbesLindesay",
+                    "title": "Dissecting a real world node.js application: esdiscuss.org"
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "date": "September 2013",
+            "lanyrd": "http://lanyrd.com/2013/lnug-september/",
+            "speakers": [
+                {
+                    "name": "Hannah Wolfe",
+                    "url": "http://twitter.com/ErisDS",
+                    "title": "Ghost, Just a Blogging Platform"
+                },
+                {
+                    "name": "Tugdual Grall",
+                    "url": "http://twitter.com/tgrall",
+                    "title": "Building a node application with Couchbase, Node and Angular"
+                },
+                {
+                    "name": "Nick O'Leary",
+                    "url": "http://twitter.com/knolleary",
+                    "title": "Node-RED, a visual tool for wiring the Internet of Things"
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "date": "August 2013",
+            "lanyrd": "http://lanyrd.com/2013/lnug-august/",
+            "speakers": [
+                {
+                    "name": "Richard Marr",
+                    "url": "http://twitter.com/richmarr",
+                    "title": "Lightning Talk"
+                },
+                {
+                    "name": "Ben Evans",
+                    "url": "http://twitter.com/kittylyst",
+                    "title": "Lightning Talk"
+                },
+                {
+                    "name": "Rob Tweed",
+                    "url": "http://twitter.com/rtweed",
+                    "title": "Lightning Talk"
+                },
+                {
+                    "name": "Oli Evans",
+                    "url": "http://twitter.com/olizilla",
+                    "title": "Lightning Talk"
+                },
+                {
+                    "name": "Alex Roche",
+                    "url": "http://twitter.com/alexHacked",
+                    "title": "Lightning Talk"
+                },
+                {
+                    "name": "Paul Tanner",
+                    "url": "http://twitter.com/paul_tanner",
+                    "title": "Lightning Talk"
+                },
+                {
+                    "name": "Alan Shaw",
+                    "url": "http://twitter.com/_alanshaw",
+                    "title": "Lightning Talk"
+                },
+                {
+                    "name": "Benjamin Nortier",
+                    "url": "http://twitter.com/bjnortier",
+                    "title": "Lightning Talk"
+                },
+                {
+                    "name": "Daniele Polencic",
+                    "url": "http://twitter.com/danielepolencic",
+                    "title": "Lightning Talk"
+                },
+                {
+                    "name": "Tommy Hall",
+                    "url": "http://twitter.com/thattommyhall",
+                    "title": "Lightning Talk"
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "date": "July 2013",
+            "lanyrd": "http://lanyrd.com/2013/lnug-july/",
+            "speakers": [
+                {
+                    "name": "Tim Ruffles",
+                    "url": "http://twitter.com/timruffles",
+                    "title": "No more pyramids - Approaches to keeping callbacks clean"
+                },
+                {
+                    "name": "Andrew Nesbitt",
+                    "url": "http://twitter.com/teabass",
+                    "title": "Node.js + Quadcopters - What could go wrong?"
+                },
+                {
+                    "name": "Joe Stanton and David Wynne",
+                    "url": "http://twitter.com/joe_stant",
+                    "title": "BBC Now that's what I call Node"
+                },
+                {
+                    "name": "David Wynne and Joe Stanton",
+                    "url": "http://twitter.com/dwynne",
+                    "title": "BBC Now that's what I call Node"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "date": "June 2013",
+            "lanyrd": "http://lanyrd.com/2013/lnug-june/",
+            "speakers": [
+                {
+                    "name": "Adam Yeats",
+                    "url": "http://twitter.com/adamyeats",
+                    "title": "Promises in Node.js"
+                },
+                {
+                    "name": "Mauro Pompilio",
+                    "url": "http://twitter.com/malditogeek",
+                    "title": "WebRTC 101"
+                },
+                {
+                    "name": "Anton Whalley",
+                    "url": "http://twitter.com/antonwhalley",
+                    "title": "Thoughts on LevelDB"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "date": "May 2013",
+            "lanyrd": "http://lanyrd.com/2013/lnug-may/",
+            "speakers": [
+                {
+                    "name": "Shaun Dunne",
+                    "url": "http://twitter.com/shaundunne",
+                    "title": "Grunt your way to Glory"
+                },
+                {
+                    "name": "Mathieu Triay",
+                    "url": "http://twitter.com/MathieuLoutre",
+                    "title": "Up and running with Hapi"
+                },
+                {
+                    "name": "Andrew Newdigate and Mike Bartlett ",
+                    "url": "http://twitter.com/suprememoocow",
+                    "title": "Live Collections with Backbone and Faye"
+                },
+                {
+                    "name": "Mike Bartlett and Andrew Newdigate",
+                    "url": "http://twitter.com/mydigitalself",
+                    "title": "Live Collections with Backbone and Faye"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "date": "April 2013",
+            "lanyrd": "http://lanyrd.com/2013/lnug-april/",
+            "speakers": [
+                {
+                    "name": "Peter Johnson and Tancredi Trugenberge",
+                    "url": "http://twitter.com/insertcoffee",
+                    "title": "All your base are belong to us"
+                },
+                {
+                    "name": "Tancredi Trugenberge and Peter Johnson",
+                    "url": "http://twitter.com/Liquidimage_",
+                    "title": "All your base are belong to us"
+                },
+                {
+                    "name": "Alan Shaw",
+                    "url": "http://twitter.com/_alanshaw",
+                    "title": "Node dependency management - David is watching"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "date": "March 2013",
+            "lanyrd": "http://lanyrd.com/2013/lnug-march/",
+            "speakers": [
+                {
+                    "name": "Bahul Neel Upadhyaya",
+                    "url": "http://twitter.com/bahulneel",
+                    "title": "To infinity and beyond! Protocols and lazy sequences in node #2"
+                },
+                {
+                    "name": "Simon McManus",
+                    "url": "http://twitter.com/simonmcmanus",
+                    "title": "Building Roca style web apps with Sizlate and Node.js"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "date": "February 2013",
+            "lanyrd": "http://lanyrd.com/2013/lnug-february/",
+            "speakers": [
+                {
+                    "name": "Henry Oswald",
+                    "url": "http://twitter.com/henryoswald",
+                    "title": "Practical patterns for building and testing Node.js apps"
+                },
+                {
+                    "name": "Daniel Shaw",
+                    "url": "http://twitter.com/dshaw",
+                    "title": "Adventures in Production Node.js"
+                },
+                {
+                    "name": "Ben Firshman",
+                    "url": "http://twitter.com/bfirsh",
+                    "title": "The future of single-page apps"
+                },
+                {
+                    "name": "Lloyd Watkin",
+                    "url": "http://twitter.com/lloydwatkin",
+                    "title": "pinitto.me: what, why, how"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "date": "January 2013",
+            "lanyrd": "http://lanyrd.com/2013/lnug-january/",
+            "speakers": [
+                {
+                    "name": "Bahul Neel Upadhyaya",
+                    "url": "http://twitter.com/bahulneel",
+                    "title": "To infinity and beyond! Protocols and lazy sequences in node."
+                },
+                {
+                    "name": "Darach Ennis",
+                    "url": "http://twitter.com/darachennis",
+                    "title": "Embedded Event Processing with Streams & Pipes"
+                },
+                {
+                    "name": "Petko D. Petkov",
+                    "url": "http://twitter.com/pdp",
+                    "title": "Node.js Security"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "date": "November 2012",
+            "lanyrd": "http://lanyrd.com/2012/lnug-november/",
+            "speakers": [
+                {
+                    "name": "Paweł Ledwoń",
+                    "url": "http://twitter.com/ludvik_pl",
+                    "title": "Benchmarking Pusher using Node.js"
+                },
+                {
+                    "name": "Henrique Matias",
+                    "url": "http://twitter.com/thatshems",
+                    "title": "Toasted coffee for the lazy"
+                },
+                {
+                    "name": "Domenic Denicola",
+                    "url": "http://twitter.com/domenicdenicola",
+                    "title": "JavaScript on the Desktop"
+                },
+                {
+                    "name": "Tom Hall",
+                    "url": "http://twitter.com/thattommyhall",
+                    "title": "Sound Doodle, A Node Knockout project"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "date": "October 2012",
+            "lanyrd": "http://lanyrd.com/2012/lnug-october/",
+            "speakers": [
+                {
+                    "name": "Paul Serby",
+                    "url": "http://twitter.com/serby",
+                    "title": "The future of wearable computing with node.js, Raspberry PI and bowler hats"
+                },
+                {
+                    "name": "Andrew Nesbitt",
+                    "url": "http://twitter.com/teabass",
+                    "title": "Integrating Node.js into your existing technology stack"
+                },
+                {
+                    "name": "Peter Johnson and Tancredi Trugenberge",
+                    "url": "http://twitter.com/insertcoffee",
+                    "title": "Writing real-time games in coffeescript with node.js + socket.io & HTML5"
+                },
+                {
+                    "name": "Tancredi Trugenberge and Peter Johnson",
+                    "url": "http://twitter.com/Liquidimage_",
+                    "title": "Writing real-time games in coffeescript with node.js + socket.io & HTML5"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "date": "September 2012",
+            "lanyrd": "http://lanyrd.com/2012/lnug-september/",
+            "speakers": [
+                {
+                    "name": "Anton Whalley",
+                    "url": "http://twitter.com/antonwhalley",
+                    "title": "Growing Turtles In Brown Fields : Node in the Microsoft Apps that you have already have"
+                },
+                {
+                    "name": "Dominic Tarr",
+                    "url": "http://twitter.com/dominictarr",
+                    "title": "Writing Custom Streams"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "date": "August 2012",
+            "lanyrd": "http://lanyrd.com/2012/lnug-august/",
+            "speakers": [
+                {
+                    "name": "Tom Hall",
+                    "url": "http://twitter.com/thattommyhall",
+                    "title": "Evolving Genetic Algorithms In The Browser"
+                },
+                {
+                    "name": "Roshan Abraham",
+                    "url": "http://twitter.com/webdigi",
+                    "title": "Using your iPhone as a game controller with NodeJS, HTML5"
+                },
+                {
+                    "name": "Keith Cirkel",
+                    "url": "http://twitter.com/Keithamus",
+                    "title": "A brief history of time"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "date": "July 2012",
+            "lanyrd": "http://lanyrd.com/2012/lnug-july/",
+            "speakers": [
+                {
+                    "name": "Hack Evening",
+                    "url": "#",
+                    "title": "Hack Evening"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "date": "June 2012",
+            "lanyrd": "http://lanyrd.com/2012/lnug-june/",
+            "speakers": [
+                {
+                    "name": "Abhinay Mehta",
+                    "url": "http://twitter.com/abhinay",
+                    "title": "Timothy: writing Hadoop MapReduce jobs in JS"
+                },
+                {
+                    "name": "Julien Biezemans",
+                    "url": "http://twitter.com/jbpros",
+                    "title": "Cucumber.js: Cuke up your JavaScript!"
+                },
+                {
+                    "name": "Phil Deschaine",
+                    "url": "http://twitter.com/vowelnoun",
+                    "title": "Building a Real-Time Twitter Game in Node.js"
+                },
+                {
+                    "name": "Felix Geisendörfer",
+                    "url": "http://twitter.com/felixge",
+                    "title": "As fast as C? Writing high performance JavaScript parsers"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "date": "May 2012",
+            "lanyrd": "http://lanyrd.com/2012/lnug-may/",
+            "speakers": [
+                {
+                    "name": "Matthew Sackman",
+                    "url": "http://twitter.com/hylomorphism",
+                    "title": "Atomize JS - Safe Distributed Shared Objects"
+                },
+                {
+                    "name": "Owen Barnes",
+                    "url": "http://twitter.com/socketstream",
+                    "title": "SocketStream"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "date": "April 2012",
+            "lanyrd": "http://lanyrd.com/2012/lnug-april/",
+            "speakers": [
+                {
+                    "name": "Chris Mowforth",
+                    "url": "http://twitter.com/m0wfo",
+                    "title": "Rhinode"
+                },
+                {
+                    "name": "Nuno Job",
+                    "url": "http://twitter.com/dscape",
+                    "title": "The good and the bad Open-Source"
+                },
+                {
+                    "name": "Pete X. Graham",
+                    "url": "http://twitter.com/petexgraham",
+                    "title": "McLaren F1 and Node.js"
+                },
+                {
+                    "name": "Simon McManus",
+                    "url": "http://twitter.com/simonmcmanus",
+                    "title": "Sizlate and Frameworked"
+                },
+                {
+                    "name": "Tom Hall",
+                    "url": "http://twitter.com/thattommyhall",
+                    "title": "Readability Counts"
+                },
+                {
+                    "name": "Andrew Nesbitt",
+                    "url": "http://twitter.com/teabass",
+                    "title": "Using Node.js and Ruby on Rails for uber productivity"
+                },
+                {
+                    "name": "Dom Harrington",
+                    "url": "http://twitter.com/domharrington",
+                    "title": "Building command line interfaces in Node.js"
+                },
+                {
+                    "name": "Pita Poison",
+                    "url": "http://twitter.com/PitaPoison",
+                    "title": "Etherpad and Etherpad Lite"
+                },
+                {
+                    "name": "Sleepy Fox",
+                    "url": "http://twitter.com/sleepyfox",
+                    "title": "BDD with Jasmine-node and CoffeeScript"
+                },
+                {
+                    "name": "Tony Denyer",
+                    "url": "http://twitter.com/tonydenyer",
+                    "title": "cucumber.js with zombie.js"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "date": "March 2012",
+            "lanyrd": "http://lanyrd.com/2012/lnug-march/",
+            "speakers": [
+                {
+                    "name": "Henry Oswald",
+                    "url": "http://twitter.com/henryoswald",
+                    "title": "sharelatex.com - Experiences building and running a node.js site"
+                },
+                {
+                    "name": "Mike Pilsbury",
+                    "url": "http://twitter.com/mikepilsbury",
+                    "title": "Arduino + Node == Fun"
+                },
+                {
+                    "name": "Chris Munt",
+                    "url": "#",
+                    "title": "Higher Order Software for Node.js"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "date": "February 2012",
+            "lanyrd": "http://lanyrd.com/2012/lnug-february/",
+            "speakers": [
+                {
+                    "name": "Andy Kent",
+                    "url": "http://twitter.com/andykent",
+                    "title": "River and SQL parsing in javascript"
+                },
+                {
+                    "name": "Paul Serby",
+                    "url": "http://twitter.com/PabloSerbo",
+                    "title": "Building for clients with Node.js"
+                },
+                {
+                    "name": "Ramesh Nair",
+                    "url": "http://twitter.com/hiddentao",
+                    "title": "Squel - an SQL query string builder for Javascript"
+                },
+                {
+                    "name": "Keith Cirkel",
+                    "url": "http://twitter.com/Keithamus",
+                    "title": "Time for a new Date()"
+                },
+                {
+                    "name": "Nuno Job",
+                    "url": "http://twitter.com/dscape",
+                    "title": "Streaming JSON parsing"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "date": "February 2012",
+            "lanyrd": "http://lanyrd.com/2012/lnug-february/",
+            "speakers": [
+                {
+                    "name": "Andy Kent",
+                    "url": "http://twitter.com/andykent",
+                    "title": "River and SQL parsing in javascript"
+                },
+                {
+                    "name": "Paul Serby",
+                    "url": "http://twitter.com/PabloSerbo",
+                    "title": "Building for clients with Node.js"
+                },
+                {
+                    "name": "Ramesh Nair",
+                    "url": "http://twitter.com/hiddentao",
+                    "title": "Squel - an SQL query string builder for Javascript"
+                },
+                {
+                    "name": "Keith Cirkel",
+                    "url": "http://twitter.com/Keithamus",
+                    "title": "Time for a new Date()"
+                },
+                {
+                    "name": "Nuno Job",
+                    "url": "http://twitter.com/dscape",
+                    "title": "Streaming JSON parsing"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "date": "January 2012",
+            "lanyrd": "http://lanyrd.com/2012/lnug-january/",
+            "speakers": [
+                {
+                    "name": "Richard Marr",
+                    "url": "http://twitter.com/richmarr",
+                    "title": "Powerful data layers with CouchDB and Elasticsearch"
+                },
+                {
+                    "name": "Simon McManus",
+                    "url": "http://twitter.com/simonmcmanus",
+                    "title": "Sizlate: HTML templating with Sizzle (jQuery) selectors"
+                },
+                {
+                    "name": "Paddy Byers",
+                    "url": "http://twitter.com/paddybyers",
+                    "title": "Node.js for Android"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "date": "November 2011 ",
+            "lanyrd": "http://lanyrd.com/2011/lnug-november/",
+            "speakers": [
+                {
+                    "name": "Alex Young",
+                    "url": "http://twitter.com/alex_young",
+                    "title": "Node Flow Control"
+                },
+                {
+                    "name": "Andrew Appleton",
+                    "url": "http://twitter.com/appltn",
+                    "title": "Introducing Mint Source"
+                },
+                {
+                    "name": "Marek Majkowski",
+                    "url": "http://twitter.com/majek04",
+                    "title": "SockJS - WebSocket Emulation Kept Simple, Stupid"
+                },
+                {
+                    "name": "Martyn Loughran",
+                    "url": "http://twitter.com/mloughran",
+                    "title": "Websockets and the Pusher Pipe"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "date": "October 2011 ",
+            "lanyrd": "http://lanyrd.com/2011/lnug-october/",
+            "speakers": [
+                {
+                    "name": "Mike de Boer",
+                    "url": "http://twitter.com/mikedeboer",
+                    "title": "Developing large NodeJS libraries with Cloud9 IDE"
+                },
+                {
+                    "name": "Andrew Seddon",
+                    "url": "http://twitter.com/seddonandrew",
+                    "title": "Massive-git, a revision controlled database"
+                },
+                {
+                    "name": "Richard Miller-Smith",
+                    "url": "http://twitter.com/detillen",
+                    "title": "State machines and asynchronous programming"
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "date": "September 2011 ",
+            "lanyrd": "http://lanyrd.com/2011/lnug-september/",
+            "speakers": [
+                {
+                    "name": "Andy Kent",
+                    "url": "http://twitter.com/andykent",
+                    "title": "Realtime data analysis over unbounded streams"
+                },
+                {
+                    "name": "Garren Smith",
+                    "url": "http://twitter.com/GarrenSmith",
+                    "title": "These are the ORM's you are looking for"
+                },
+                {
+                    "name": "Rob Tweed",
+                    "url": "http://twitter.com/rtweed",
+                    "title": "The Globals Database: its significance for Node developers"
+                }
+            ]
+        }
+    ]
+}
