@@ -17,3 +17,18 @@ $.getJSON( "js/data.json", function( data ) {
     $(".lnug-content").html(text);
  });
 
+function displayArchive(){
+  $.getJSON("js/archive.json", function (data) {
+  var allmonths = [];
+  data.data.forEach(function(a){
+    var x = [];
+//    date += "<dl><dt>"+a.date+"</dt>";
+
+    a.speakers.forEach(function (b) {
+      x.push("<dd><a href='"+b.url+"'>"+b.name+"</a> - "+b.title+"</dd>")
+    });
+    allmonths.push("<dl><dt>"+a.date+"</dt>"+x.join("")+"</dl>");
+  });
+  $(".lnug-contents").html(allmonths.join(""));
+   }
+  )}
