@@ -14,13 +14,19 @@
 <div class="container">
   <div class="row">
     <div class="col-xs-12 lnug-hero">
-      <div class="lnug-header img-responsive"></div>
+      <div class="lnug-header img-responsive">
+      </div>
+      <div class="lnug-headline text-center"><h1>A meetup hosted monthly in London, LNUG is for people who use Node.js for fun or profit.</h1></div>
       <div class="lnug-menu">
       <ul class="lnug-menu-textblock">
-        <li class="lnug-menu-text"><a href="#">This month</a></li><li class="lnug-menu-text">Archive</li><li class="lnug-menu-text">Discuss</li><li class="lnug-menu-text">Jobs</li>
+        <li class="lnug-menu-text"><a href="/">This month</a></li><li class="lnug-menu-text"><a href="/archive">Archive</a></li><li class="lnug-menu-text"><a href="https://gitter.im/lnug/discuss" target="_blank">Discuss</a></li><li class="lnug-menu-text"><a href="" target="_blank">Jobs</a></li>
       </ul>
       </div>
-      <div class="lnug-nextevent"></div>
+      <div class="lnug-nextevent">
+        <div class="text-center">
+          <p>Next meetup: <span class="lnug-nextmeetup">March 25th</span><script>displayDate();</script></p>
+        </div>
+      </div>
     </div>
   </div>
   
@@ -33,7 +39,7 @@
     </div>
     
     <div class="col-xs-12 col-md-8 col-lg-8 lnug-content">
-
+      <script>displaySpeakers();</script>
     </div>
     
     <div class="col-xs-12 col-md-4 col-lg-4 lnug-sidebar text-center">

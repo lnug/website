@@ -1,6 +1,13 @@
-text = "";
 
-$.getJSON( "js/data.json", function( data ) {
+function displayDate(){
+  $.getJSON( "js/data.json", function( data ) {
+    $(".lnug-nextmeetup").html(data.all[0].date);
+ });
+}
+
+function displaySpeakers(){
+  var text = "";
+  $.getJSON( "js/data.json", function( data ) {
     data.all.forEach(function(a,b,c){ text += 
     "<div class=\"row lnug-singlespeaker\"> \
     <div class=\"col-xs-4 col-md-4 text-center lnug-speakerphoto\"> \
@@ -16,19 +23,18 @@ $.getJSON( "js/data.json", function( data ) {
     });
     $(".lnug-content").html(text);
  });
+}
 
 function displayArchive(){
   $.getJSON("js/archive.json", function (data) {
   var allmonths = [];
   data.data.forEach(function(a){
     var x = [];
-//    date += "<dl><dt>"+a.date+"</dt>";
-
     a.speakers.forEach(function (b) {
       x.push("<dd><a href='"+b.url+"'>"+b.name+"</a> - "+b.title+"</dd>")
     });
-    allmonths.push("<dl><dt>"+a.date+"</dt>"+x.join("")+"</dl>");
+    allmonths.push("<dl><dt>"+a.date+" - <a href='"+a.lanyrd+"'  target='_blank'>Lanyrd</a></dt>"+x.join("")+"</dl>");
   });
-  $(".lnug-contents").html(allmonths.join(""));
+  $(".lnug-archive").html(allmonths.join(""));
    }
   )}

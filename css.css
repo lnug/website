@@ -17,6 +17,18 @@ html, body {
   background-position: center;
   height: 220px;
 }
+.lnug-headline {
+  background-color: rgb(70, 72, 61);
+  color: yellow;
+  font-size: 18px;
+}
+.lnug-headline h1 {
+  margin: 0 !important;
+  padding: 10px 0 !important;
+  font-size: 18px !important;
+  color: rgb(196, 200, 175);
+}
+
 .lnug-menu {
   background-color: rgb(83, 85, 74);
   height: 80px;
@@ -46,6 +58,8 @@ html, body {
 .lnug-nextevent {
   background-color: rgb(245, 245, 245);
   height: 80px;
+  font-size: 24px;
+  padding-top: 20px;
 }
 
 .lnug-sectiondesc {
@@ -72,6 +86,20 @@ html, body {
 .lnug-content {
 
 }
+
+
+.lnug-archive dl {
+  margin: 0 20px;
+}
+
+.lnug-archive dt {
+  font-size: 28px;
+}
+
+.lnug-archive dd {
+  font-size: 16px;
+}
+
 .lnug-singlespeaker {
   margin-top: 25px;
   display: table;
