@@ -87,6 +87,9 @@ html, body {
 
 }
 
+.lnug-content p, .lnug-content h1 {
+  margin-left: 20px;
+}
 
 .lnug-archive dl {
   margin: 0 20px;
@@ -157,4 +160,8 @@ html, body {
 .lnug-footer-text li {
   display: inline-block;
   padding: 0 15px;
+}
+
+.lnug-footer-text a {
+  color: rgba(255,255,255,0.4);
 }
