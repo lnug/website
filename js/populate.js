@@ -5,6 +5,14 @@ function displayDate(){
  });
 }
 
+function displayTickets(){
+  var monthNames = ["January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December"
+];
+var d = new Date();
+$("#lnug-tkt").attr("href","https://ti.to/lnug/"+ monthNames[d.getMonth()].toLowerCase()+"-"+d.getFullYear() );
+}
+
 function displaySpeakers(){
   var text = "";
   $.getJSON( "js/data.json", function( data ) {
