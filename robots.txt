@@ -1,0 +1,6 @@
+User-agent: *
+
+Allow: /
+#Sitemap Reference
+Sitemap:http://lnug.org/sitemap.xml
+
