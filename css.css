@@ -13,7 +13,7 @@ html, body {
   background-color: rgb(70, 72, 61);
   background-image: url(assets/logo/new-transparent.png);
   background-repeat: no-repeat;
-  background-size: 50ch;
+  background-size: contain;
   background-position: center;
   height: 220px;
 }
@@ -31,25 +31,21 @@ html, body {
 
 .lnug-menu {
   background-color: rgb(83, 85, 74);
-  height: 80px;
+  text-align: center;
 }
 
 .lnug-menu-textblock {
   text-align: center;
   height:100%;
-}
-
-.lnug-menu ul li {
-  height: 100%;
-  width: 200px;
-  list-style: none;
   display: inline-block;
 }
+
 .lnug-menu-text {
-  color: white;
-  background-color: rgba(255,255,255,0.2);
+  color: rgba(255,255,255,0.2);
   line-height: 3.3;
   font-size: 24px;
+  height: 80px;
+  float: left;
 }
 .lnug-menu-text a {
   color:rgba(255,255,255,0.8);
