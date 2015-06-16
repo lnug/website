@@ -18,7 +18,7 @@ function displaySpeakers(){
   $.getJSON( "js/data.json", function( data ) {
     data.all.forEach(function(a,b,c){ text += 
     "<div class=\"row lnug-singlespeaker\"> \
-    <div class=\"col-xs-4 col-md-4 text-left lnug-speakerphoto hidden-xs\"> \
+    <div class=\"col-xs-4 col-md-4 text-center lnug-speakerphoto hidden-xs\"> \
      <img class=\"img-circle\" alt=\"140x140\" src=\""+a.avatar+"\" style=\"width: 140px; height: 140px;\"> \
             </div> \
             <div class=\"col-xs-8 col-md-8 lnug-speakercard\"> \
