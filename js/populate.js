@@ -16,7 +16,7 @@ $("#lnug-tkt").attr("href","https://ti.to/lnug/"+ monthNames[d.getMonth()].toLow
 function displaySpeakers(){
   var text = "";
   $.getJSON( "js/data.json", function( data ) {
-    data.all.forEach(function(a,b,c){ text += 
+    data.all.forEach(function(a,b,c){ text +=
     "<div class=\"row lnug-singlespeaker\"> \
     <div class=\"col-xs-4 col-md-4 text-center lnug-speakerphoto hidden-xs\"> \
      <img class=\"img-circle\" alt=\"140x140\" src=\""+a.avatar+"\" style=\"width: 140px; height: 140px;\"> \
@@ -41,7 +41,8 @@ function displayArchive(){
     a.speakers.forEach(function (b) {
       x.push("<dd><a href='"+b.url+"'>"+b.name+"</a> - "+b.title+"</dd>")
     });
-    allmonths.push("<dl><dt>"+a.date+" - <a href='"+a.lanyrd+"'  target='_blank'>Lanyrd</a></dt>"+x.join("")+"</dl>");
+    allmonths.push("<dl><dt>"+a.date+"</dt>"+x.join("")+"</dl>");
+    //allmonths.push("<dl><dt>"+a.date+" - <a href='"+a.lanyrd+"'  target='_blank'>Lanyrd</a></dt>"+x.join("")+"</dl>");
   });
   $(".lnug-archive").html(allmonths.join(""));
    }
