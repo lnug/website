@@ -1,20 +1,20 @@
 {
     "all":[
         {
-            "username":"jdNash",
-            "name":"Joe Nash",
-            "title":"Insert Token: Immersive UX with Tokenization",
-            "avatar":"https://avatars3.githubusercontent.com/u/1790822?v=3",
-            "date":"July 22nd 2015",
-            "desc":"Users of our apps and products yearn to be immersed; but so often, the worlds we build with software show surprising seams, shattering immersion for our users. In this talk, we'll look at the magic of tokenization, and how it can transform the UX of your application."
-        },
-        {
             "username":"mikeal",
             "name":"Mikeal Rogers",
             "title":"Node Foundation Q&A",
             "avatar":"https://avatars1.githubusercontent.com/u/579?v=3",
             "date":"July 22nd 2015",
             "desc":"Mikeal will be answering questions about the Node Foundation. Please submit your questions <a href='https://docs.google.com/forms/d/1XvqIY3OroqUaxQPlfIc1VsCKzsbg1VbzbXrD4IHlx3w/viewform'>here</a>"
+        },
+        {
+            "username":"jdNash",
+            "name":"Joe Nash",
+            "title":"Insert Token: Immersive UX with Tokenization",
+            "avatar":"https://avatars3.githubusercontent.com/u/1790822?v=3",
+            "date":"July 22nd 2015",
+            "desc":"Users of our apps and products yearn to be immersed; but so often, the worlds we build with software show surprising seams, shattering immersion for our users. In this talk, we'll look at the magic of tokenization, and how it can transform the UX of your application."
         },
         {
             "username":"izaakrogan",
