@@ -9,6 +9,12 @@
 var sizlate = require('sizlate');
 var fs = require('fs');
 var data = require('../data/archive.json');
+var nextEvent = require('../lib/next-event');
+
+var async = require('async');
+
+var lanyrdUrl = require('../lib/lanyrd-url');
+
 
 var indexTemplate = fs.readFileSync('./templates/index.html', 'utf8');
 var archiveTemplate = fs.readFileSync('./templates/archive.html', 'utf8');
@@ -28,29 +34,40 @@ function speakerSelectors(speaker) {
   };
 }
 
-var dates = [];
+var markup = [];
+
+
+
 
 data.forEach(function(lnug) {
 
-  dates.push('<dl><dt>', lnug.date, '</dt>');
+  markup.push('<dl><dt>', lnug.date);
 
+  if(lnug.lanyrd) {
+    markup.push(" - <a href='" + lnug.lanyrd + "'  target='_blank'>Lanyrd</a>");
+  }
+
+  markup.push('</dt>');
   lnug.speakers.forEach(function(speaker) {
     var selectors = speakerSelectors(speaker);
-    dates.push(sizlate.doRender(archiveTemplate, selectors));
+    markup.push(sizlate.doRender(archiveTemplate, selectors));
 
   });
-
-  dates.push('</dl>');
+  markup.push('</dl>');
 });
+
+
+
+
 var out = sizlate.doRender(indexTemplate, {
   '.lnug-content': {
-    innerHTML: dates.join(' '),
+    innerHTML: markup.join(' '),
     className: 'lnug-archive'
   },
+  '.lnug-nextmeetup': nextEvent(),
   '.text-center.talk-label': 'Archive'
 });
 
-
-  fs.writeFile('./archive.html', out, function(e) {
-    console.log('Archive has been updated', e);
-  });
+fs.writeFile('./archive.html', out, function(e) {
+  console.log('Archive has been updated', e);
+});

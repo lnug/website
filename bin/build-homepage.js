@@ -9,6 +9,7 @@
 var sizlate = require('sizlate');
 var fs = require('fs');
 var data = require('../data/this-month.json');
+var nextEvent = require('../lib/next-event');
 
 var indexTemplate = fs.readFileSync('./templates/index.html', 'utf8');
 var speakerTemplate = fs.readFileSync('./templates/speaker.html', 'utf8');
@@ -39,6 +40,7 @@ var speakers = data.map(function(speaker) {
 });
 
 var out = sizlate.doRender(indexTemplate, {
+  '.lnug-nextmeetup': nextEvent(),
   '.lnug-content': speakers.join(' ')
 });
 
