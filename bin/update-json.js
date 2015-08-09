@@ -29,7 +29,8 @@ function modelTalk(talk) {
   return {
     // if assigned return assigned url if not fall back to the creator.
     // this is used lated to fetch the name and avatar shown against the talk.
-    speakerUrl: (talk.assignee) ? talk.assignee.url : talk.user.url,
+    apiSpeakerUrl: (talk.assignee) ? talk.assignee.url : talk.user.url,
+    speakerUrl: (talk.assignee) ? talk.assignee.html_url : talk.user.html_url,
     title: talk.title,
     description: marked(talk.body),
     milestone: talk.milestone.title
@@ -64,7 +65,7 @@ superagent.get('https://api.github.com/repos/lnug/speakers/issues')
     async.map(acceptedTalks, function(talk, next) {
 
       superagent
-          .get(talk.speakerUrl)
+          .get(talk.apiSpeakerUrl)
           .end(function(error, data) {
             if (error) {
               error.message = 'Getting  ' +

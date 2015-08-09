@@ -1,6 +1,26 @@
 [
     {
         "date": "August 2015",
+        "speakers": [
+            {
+                "name": "Tomasz Janczuk",
+                "url": "https://github.com/tjanczuk",
+                "title": "Rethinking backend with webtasks"
+            },
+            {
+                "name": "Dan Jenkins",
+                "url": "https://github.com/danjenkins",
+                "title": "WebRTC Reborn"
+            },
+            {
+                "name": "Tim Perry",
+                "url": "https://github.com/pimterry",
+                "title": "TypeScript will finally bring peace to your troubled soul"
+            }
+        ]
+    },
+    {
+        "date": "August 2015",
         "lanyrd": "http://lanyrd.com/2015/lnug-August/",
         "speakers": [
             {

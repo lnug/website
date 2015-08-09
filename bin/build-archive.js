@@ -25,6 +25,7 @@ var archiveTemplate = fs.readFileSync('./templates/archive.html', 'utf8');
  * @return {Object}         Sizlate selector object.
  */
 function speakerSelectors(speaker) {
+
   return {
     'a': {
       innerHTML: speaker.name,
