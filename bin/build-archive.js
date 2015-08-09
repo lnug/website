@@ -29,10 +29,12 @@ function speakerSelectors(speaker) {
 }
 
 var dates = [];
-Object.keys(data).reverse().forEach(function(key) {
-  dates.push('<dl><dt>', data[key].date, '</dt>');
 
-  data[key].speakers.forEach(function(speaker) {
+data.forEach(function(lnug) {
+
+  dates.push('<dl><dt>', lnug.date, '</dt>');
+
+  lnug.speakers.forEach(function(speaker) {
     var selectors = speakerSelectors(speaker);
     dates.push(sizlate.doRender(archiveTemplate, selectors));
 
@@ -40,7 +42,6 @@ Object.keys(data).reverse().forEach(function(key) {
 
   dates.push('</dl>');
 });
-
 var out = sizlate.doRender(indexTemplate, {
   '.lnug-content': {
     innerHTML: dates.join(' '),
@@ -49,4 +50,7 @@ var out = sizlate.doRender(indexTemplate, {
   '.text-center.talk-label': 'Archive'
 });
 
-fs.writeFileSync('./archive.html', out, 'utf8');
+
+  fs.writeFile('./archive.html', out, function(e) {
+    console.log('Archive has been updated', e);
+  });
