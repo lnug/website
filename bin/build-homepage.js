@@ -22,7 +22,7 @@ function speakerSelectors(speaker) {
   return {
     '.name': speaker.name,
     '.title': speaker.title,
-    '.desc': speaker.desc,
+    '.desc': speaker.description,
     img: {
       src: speaker.img
     },

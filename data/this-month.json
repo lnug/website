@@ -9,15 +9,6 @@
         "name": "Tomasz Janczuk"
     },
     {
-        "speakerUrl": "https://api.github.com/users/burtonjc",
-        "title": "How Waffle.io separated its API from its core web app",
-        "description": "<p>At Waffle.io, we recently built a public API to gain access to Waffle&#39;s data (in private beta now). We knew we wanted the API to be deployed, scaled, and monitored separately from our core app. We also wanted the app to use the same API we were providing to our users. Carving the API out as its own service consumed by our app provided some interesting challenges and produced some surprising benefits. This talk will describe the design we came up with, the challenges we faced, and the largely unexpected benefits we received.</p>\n",
-        "milestone": "September 23rd 2015",
-        "img": "https://avatars.githubusercontent.com/u/443084?v=3",
-        "handle": "burtonjc",
-        "name": "Jacob Burton"
-    },
-    {
         "speakerUrl": "https://api.github.com/users/danjenkins",
         "title": "WebRTC Reborn",
         "description": "<p>WebRTC has had a real tough 3 or 4 years, and so have those working with it. Only a few short years ago, the development world were excited about WebRTC and proclaiming how awesome it was. </p>\n<p>You might have played with the technology a couple of years ago, only to find the extra infrastructure requirements were painful to implement and poorly documented. This probably left a bitter taste in your mouth, especially when things went wrong.</p>\n<p>Those in the industry have been working hard to sweeten the deal again - efforts have been made to bring WebRTC into the mainstream and as a result the technology is experiencing a rebirth. Thanks to those who have remained dedicated to improving the situation for those around them, WebRTC is finally starting to fulfil the original expectations that were had of it. Both the technology and the support networks have been built up to make experimenting with it again a pleasure, not a pain.</p>\n<p>WebRTC has grown up; in this talk you will learn how far along the tech has come, its current capabilities, the amazing things that people are starting to do with it, and how simple getting started with the new toolsets available.</p>\n",
