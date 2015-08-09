@@ -4,6 +4,3 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
-
-/index.html
-/archive.html
