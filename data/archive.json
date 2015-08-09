@@ -1,5 +1,45 @@
 [
     {
+        "date": "August 2015",
+        "speakers": [
+            {
+                "name": "Tomasz Janczuk",
+                "url": "https://api.github.com/users/tjanczuk",
+                "title": "Rethinking backend with webtasks"
+            },
+            {
+                "name": "Dan Jenkins",
+                "url": "https://api.github.com/users/danjenkins",
+                "title": "WebRTC Reborn"
+            },
+            {
+                "name": "Tim Perry",
+                "url": "https://api.github.com/users/pimterry",
+                "title": "TypeScript will finally bring peace to your troubled soul"
+            }
+        ]
+    },
+    {
+        "date": "August 2015",
+        "speakers": [
+            {
+                "name": "Tomasz Janczuk",
+                "url": "https://api.github.com/users/tjanczuk",
+                "title": "Rethinking backend with webtasks"
+            },
+            {
+                "name": "Dan Jenkins",
+                "url": "https://api.github.com/users/danjenkins",
+                "title": "WebRTC Reborn"
+            },
+            {
+                "name": "Tim Perry",
+                "url": "https://api.github.com/users/pimterry",
+                "title": "TypeScript will finally bring peace to your troubled soul"
+            }
+        ]
+    },
+    {
         "date": "July 2015",
         "speakers": [
             {
@@ -20,28 +60,6 @@
         ],
         "id": 44,
         "lanyrd": "http://lanyrd.com/2015/lnug-July/"
-    },
-    {
-        "date": "June 2015",
-        "speakers": [
-            {
-                "url": "https://github.com/hxoliverrumbelow",
-                "name": "hxoliverrumbelow",
-                "title": "Blowing out the LAMP"
-            },
-            {
-                "url": "https://github.com/mikemaccana",
-                "name": "mikemaccana",
-                "title": "Deploying and running Node apps in 2015"
-            },
-            {
-                "url": "https://github.com/maxwellito",
-                "name": "maxwellito",
-                "title": "Liwe, an open source remote control for WebApps"
-            }
-        ],
-        "id": 43,
-        "lanyrd": "http://lanyrd.com/2015/lnug-June/"
     },
     {
         "date": "June 2015",
@@ -921,38 +939,6 @@
         ],
         "id": 6,
         "lanyrd": "http://lanyrd.com/2012/lnug-march/"
-    },
-    {
-        "date": "February 2012",
-        "speakers": [
-            {
-                "url": "http://twitter.com/andykent",
-                "name": "Andy Kent",
-                "title": "River and SQL parsing in javascript"
-            },
-            {
-                "url": "http://twitter.com/PabloSerbo",
-                "name": "Paul Serby",
-                "title": "Building for clients with Node.js"
-            },
-            {
-                "url": "http://twitter.com/hiddentao",
-                "name": "Ramesh Nair",
-                "title": "Squel - an SQL query string builder for Javascript"
-            },
-            {
-                "url": "http://twitter.com/Keithamus",
-                "name": "Keith Cirkel",
-                "title": "Time for a new Date()"
-            },
-            {
-                "url": "http://twitter.com/dscape",
-                "name": "Nuno Job",
-                "title": "Streaming JSON parsing"
-            }
-        ],
-        "id": 5,
-        "lanyrd": "http://lanyrd.com/2012/lnug-february/"
     },
     {
         "date": "February 2012",
