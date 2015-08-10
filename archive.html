@@ -1,15 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
 <head>
-<script src="//code.jquery.com/jquery.min.js"></script>
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-<script src="js/populate.js"></script>
-  <link href='//fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="css.css">
   <meta charset="utf-8">
   <title>LNUG - London Node User Group - Talks Archive</title>
   <meta name="description" content="London Node.js User Group is a meetup for developers but everyone is welcome. We meet every month to talk about Node, Javascript and to network">
+  <!-- og  + meta data -->
+  <meta property="og:title" content="LNUG - London Node User Group">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://lnug.org">
+  <meta property="og:image" content="https://cloud.githubusercontent.com/assets/1097232/8071106/f07e3f4e-0efe-11e5-84f7-f4d4debe9ec7.png">
+  <meta property="og:site_name" content="LNUG - London Node User Group">
+  <meta property="og:description" content="London Node.js User Group is a meetup for developers but everyone is welcome. We meet every month to talk about Node, Javascript and to network.">
+
+  <meta name="twitter:site" content="@lnugorg">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="LNUG - London Node User Group">
+  <meta name="twitter:description" content="London Node.js User Group is a meetup for developers but everyone is welcome. We meet every month to talk about Node, Javascript and to network.">
+  <meta name="twitter:image" content="http://i.imgur.com/BBVehHB.png">
+  <meta name="twitter:url" content="http://www.lnug.org">
+  <meta name="google-site-verification" content="gnZ_Oz6_k7Gv93jmtpCeY6Rjz6E_rjh_1n5dlYgMcJw">
+  <script src="//code.jquery.com/jquery.min.js"></script>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -25,13 +38,13 @@
               <div class="lnug-menu-text col-xs-12 col-lg-3"><a href="/">This month</a></div>
               <div class="lnug-menu-text col-xs-12 col-lg-3"><a href="/archive">Archive</a></div>
               <div class="lnug-menu-text col-xs-12 col-lg-3"><a href="https://gitter.im/lnug/discuss" target="_blank">Discuss</a></div>
-              <div class="lnug-menu-text col-xs-12 col-lg-3"><a id="lnug-tkt" href="" target="_blank">Free Tickets</a><script>displayTickets();</script></div>
+              <div class="lnug-menu-text col-xs-12 col-lg-3"><a id="lnug-tkt" href="https://ti.to/lnug/august-2015" target="_blank">Free Tickets</a></div>
             </div>
         </div>
       </div>
       <div class="lnug-nextevent">
         <div class="text-center">
-          <p>Next meetup: <span class="lnug-nextmeetup">March 25th</span><script>displayDate();</script></p>
+          <p>Next meetup: <span class="lnug-nextmeetup">August 26th 2015</span></p>
         </div>
       </div>
     </div>
@@ -42,65 +55,503 @@
   <div class="row">
     <div class="row lnug-sectiondesc">
        <div class="col-xs-12 col-md-8 text-center talk-label ">Archive</div>
-       <div class="col-xs-12 col-md-4 text-center sponsor-label hidden-sm hidden-xs">Sponsors</div>
+       <div class="col-xs-12 col-md-4 text-center sponsor-label hidden-xs hidden-sm">Sponsors</div>
     </div>
 
-    <div class="col-xs-12 col-md-8 col-lg-8 lnug-archive">
-    <script type="text/javascript">displayArchive();</script>
-    </div>
+    <div class="col-xs-12 col-md-8 col-lg-8 lnug-content lnug-archive"><dl><dt> August 2015  - <a href="http://lanyrd.com/2015/lnug-August/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="https://github.com/tjanczuk">Tomasz Janczuk</a><span> - Rethinking backend with webtasks</span>
+</dd>
+ <dd>
+  <a href="https://github.com/danjenkins">Dan Jenkins</a><span> - WebRTC Reborn</span>
+</dd>
+ <dd>
+  <a href="https://github.com/pimterry">Tim Perry</a><span> - TypeScript will finally bring peace to your troubled soul</span>
+</dd>
+ </dl> <dl><dt> July 2015  - <a href="http://lanyrd.com/2015/lnug-July/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="https://github.com/jdNash">Joe Nash</a><span> - Insert Token: Immersive UX with Tokenization</span>
+</dd>
+ <dd>
+  <a href="https://github.com/mikeal">Mikeal Rogers</a><span> - Node Foundation Q&amp;A</span>
+</dd>
+ <dd>
+  <a href="https://github.com/izaakrogan">Izaak Rogan</a><span> - Founders &amp; Coders</span>
+</dd>
+ </dl> <dl><dt> June 2015  - <a href="http://lanyrd.com/2015/lnug-June/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="https://github.com/hxoliverrumbelow">hxoliverrumbelow</a><span> - Blowing out the LAMP</span>
+</dd>
+ <dd>
+  <a href="https://github.com/mikemaccana">mikemaccana</a><span> - Deploying and running Node apps in 2015</span>
+</dd>
+ <dd>
+  <a href="https://github.com/maxwellito">maxwellito</a><span> - Liwe, an open source remote control for WebApps</span>
+</dd>
+ </dl> <dl><dt> May 2015  - <a href="http://lanyrd.com/2015/lnug-May/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="https://github.com/ohjames">ohjames</a><span> - The state of web asset pipelines and the description of a new pipeline that combines the best of all worlds.</span>
+</dd>
+ <dd>
+  <a href="https://github.com/sideshowcoder">sideshowcoder</a><span> - Server mocking with canned</span>
+</dd>
+ </dl> <dl><dt> April 2015  - <a href="http://lanyrd.com/2015/lnug-April/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="https://github.com/achingbrain">achingbrain</a><span> - Guvnor: running your processes like a boss</span>
+</dd>
+ <dd>
+  <a href="https://github.com/jamesallardice">jamesallardice</a><span> - Writing and publishing ES6 code today</span>
+</dd>
+ <dd>
+  <a href="https://github.com/simonmcmanus">simonmcmanus</a><span> - Progressive Enhancement Strategies</span>
+</dd>
+ </dl> <dl><dt> March 2015  - <a href="http://lanyrd.com/2015/lnug-March/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="https://github.com/Globegitter">Globegitter</a><span> - Benefits of using Convention over Configuration</span>
+</dd>
+ <dd>
+  <a href="https://github.com/rosskukulinski">rosskukulinski</a><span> - Building NodeJS Applications with Docker &amp; CoreOS</span>
+</dd>
+ <dd>
+  <a href="https://github.com/alanshaw">alanshaw</a><span> - Super simple service health monitoring with upmon</span>
+</dd>
+ </dl> <dl><dt> February 2015  - <a href="http://lanyrd.com/2015/lnug-February/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="https://github.com/ForbesLindesay">ForbesLindesay</a><span> - Everything you didn't dare asking about jade</span>
+</dd>
+ <dd>
+  <a href="https://github.com/lukebond">lukebond</a><span> - Service discovery for your Node.js applications</span>
+</dd>
+ <dd>
+  <a href="https://github.com/basicallydan">basicallydan</a><span> - I'm a Node Module Maintainer (And so can you!)</span>
+</dd>
+ </dl> <dl><dt> January 2015  - <a href="http://lanyrd.com/2015/lnug-january/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="https://twitter.com/flomotlik">Florian Motlik</a><span> - Continuous Delivery with Codeship</span>
+</dd>
+ <dd>
+  <a href="https://twitter.com/rosskukulinski">Ross Kukulinski</a><span> - What to expect when expecting IOJS</span>
+</dd>
+ <dd>
+  <a href="https://twitter.com/fmsf303">Francisco Ferreira</a><span> - Javascript Craftsmanship</span>
+</dd>
+ <dd>
+  <a href="https://twitter.com/pimterry">Tim Perry</a><span> - Web Components &amp; Microservices Are The Same Thing</span>
+</dd>
+ </dl> <dl><dt> November 2014  - <a href="http://lanyrd.com/2014/lnug-november/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="https://twitter.com/tomgco">Tom Gallacher</a><span> - Async: the battle</span>
+</dd>
+ <dd>
+  <a href="https://twitter.com/shapeshed">George Ornbo</a><span> - Realtime Node.js from the trenches</span>
+</dd>
+ <dd>
+  <a href="https://twitter.com/tomcartwrightuk">Tom Cartwright</a><span> - Peer connect all the things</span>
+</dd>
+ </dl> <dl><dt> October 2014  - <a href="http://lanyrd.com/2014/lnug-october/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="https://twitter.com/ischi">Philipp Fehre</a><span> - JSON throughout the Stack</span>
+</dd>
+ <dd>
+  <a href="https://twitter.com/ben_hall">Ben Hall</a><span> - Node Anti-patterns</span>
+</dd>
+ <dd>
+  <a href="https://twitter.com/substack">James Halliday</a><span> - Data Wizzard</span>
+</dd>
+ </dl> <dl><dt> September 2014  - <a href="http://lanyrd.com/2014/lnug-september/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="https://twitter.com/racekjakub">Jakub Racek</a><span> - Scanner and Printer Pi with Node sides</span>
+</dd>
+ <dd>
+  <a href="https://twitter.com/fmsf303">Francisco Ferreira</a><span> - JavaScript, Java and Dart! Asynch all around us.</span>
+</dd>
+ </dl> <dl><dt> August 2014  - <a href="http://lanyrd.com/2014/lnug-august/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="https://twitter.com/forbesmyester">Matt Forrester</a><span> - Offline Apps and Data Synchronization</span>
+</dd>
+ <dd>
+  <a href="https://twitter.com/ischi">Philipp Fehre</a><span> - node.js and native code</span>
+</dd>
+ <dd>
+  <a href="https://twitter.com/adam_baldwin">Adam Baldwin</a><span> - node security</span>
+</dd>
+ </dl> <dl><dt> July 2014  - <a href="http://lanyrd.com/2014/lnug-july/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="https://twitter.com/dscape">Nuno Job</a><span> - process.env.NODE_ENV === 'PRODUCTION' for all your 'webscale' apps!</span>
+</dd>
+ <dd>
+  <a href="https://twitter.com/sublimino">Andrew Martin</a><span> - Deployment Pipelines: Disproving the Big Bang</span>
+</dd>
+ <dd>
+  <a href="https://twitter.com/lukebond">Luke Bond</a><span> - ZeroMQ with Node</span>
+</dd>
+ </dl> <dl><dt> June 2014  - <a href="http://lanyrd.com/2014/lnug-june/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="https://twitter.com/cutandpastey">Jon Parsons</a><span> - Isomorphic Javascript What, Why and How</span>
+</dd>
+ <dd>
+  <a href="https://twitter.com/paulbjensen">Paul Jensen</a><span> - Building desktop apps with Node Webkit</span>
+</dd>
+ <dd>
+  <a href="https://twitter.com/jna_sh">Joe Nash</a><span> - Functional programming on the clientside with Fay and Elm</span>
+</dd>
+ </dl> <dl><dt> May 2014  - <a href="http://lanyrd.com/2014/lnug-may/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="https://twitter.com/thomasheymann">Thomas Heymann</a><span> - Slicing it up: How we built a micro-service for rendering shared client/server-side one-page apps</span>
+</dd>
+ <dd>
+  <a href="https://twitter.com/malditogeek">Mauro Pompilio</a><span> - VMUX 2.0</span>
+</dd>
+ <dd>
+  <a href="https://twitter.com/yrezgui">Yacine Rezgui</a><span> - Develop HTML5 mobile apps in 2014</span>
+</dd>
+ </dl> <dl><dt> April 2014  - <a href="http://lanyrd.com/2014/lnug-april/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="https://twitter.com/Jermolene">Jeremy Ruston</a><span> - A Tale of Two Hosts: rebooting TiddlyWiki for Node.js and the browser</span>
+</dd>
+ <dd>
+  <a href="https://twitter.com/simonmcmanus">Simon McManus</a><span> - Home Automation With Javascript</span>
+</dd>
+ <dd>
+  <a href="https://twitter.com/ismasan">Ismael Celis</a><span> - Streaming downloads proxy service with Node.js</span>
+</dd>
+ </dl> <dl><dt> March 2014  - <a href="http://lanyrd.com/2014/lnug-march/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="https://twitter.com/timruffles">Tim Ruffles</a><span> - NodeUP Podcast Live: featuring Geoff Wagstaff, Forbes Lindesay, Tancredi Trugenberge,Remy Sharp</span>
+</dd>
+ </dl> <dl><dt> February 2014  - <a href="http://lanyrd.com/2014/lnug-february/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="http://twitter.com/tomgco">Tom Gallacher</a><span> - Easy CPU profiling in Nodejs</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/ForbesLindesay">Forbes Lindesay</a><span> - An introduction to the Jade templating language</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/matteofigus">Matteo Figus</a><span> - Performance tests on APIs using Node.js</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/jaimefjorge">Jaime Jorge</a><span> - Node in Codacy</span>
+</dd>
+ </dl> <dl><dt> January 2014  - <a href="http://lanyrd.com/2014/lnug-january/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="http://twitter.com/alexHacked">Alex Roche</a><span> - NodeJS &amp; Arduino; What, Why &amp; How</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/alexandrosM">Alexandros Marinos</a><span> - Resin.io - JS on your Raspberry Pi with a simple 'git push'</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/rowanmanning">Rowan Manning</a><span> - UX For Your Node Modules</span>
+</dd>
+ </dl> <dl><dt> November 2013  - <a href="http://lanyrd.com/2013/lnug-november/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="http://twitter.com/tfoureur">Tristan Foureur</a><span> - Megatron: Javascript-to-javascript compiler</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/NoWayJA">Jonathan Anthony</a><span> - Selling Javascript to Clients</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/_alanshaw">Alan Shaw</a><span> - Hoodie plugins</span>
+</dd>
+ </dl> <dl><dt> October 2013  - <a href="http://lanyrd.com/2013/lnug-october/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="http://twitter.com/rem">Remy Sharp</a><span> - The Bits Behind JS Bin</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/dwynne">David Wynne</a><span> - Something witty about DocPad and SSGs</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/ForbesLindesay">Forbes Lindesay</a><span> - Dissecting a real world node.js application: esdiscuss.org</span>
+</dd>
+ </dl> <dl><dt> September 2013  - <a href="http://lanyrd.com/2013/lnug-september/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="http://twitter.com/ErisDS">Hannah Wolfe</a><span> - Ghost, Just a Blogging Platform</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/tgrall">Tugdual Grall</a><span> - Building a node application with Couchbase, Node and Angular</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/knolleary">Nick O'Leary</a><span> - Node-RED, a visual tool for wiring the Internet of Things</span>
+</dd>
+ </dl> <dl><dt> August 2013  - <a href="http://lanyrd.com/2013/lnug-august/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="http://twitter.com/richmarr">Richard Marr</a><span> - Lightning Talk</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/kittylyst">Ben Evans</a><span> - Lightning Talk</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/rtweed">Rob Tweed</a><span> - Lightning Talk</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/olizilla">Oli Evans</a><span> - Lightning Talk</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/alexHacked">Alex Roche</a><span> - Lightning Talk</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/paul_tanner">Paul Tanner</a><span> - Lightning Talk</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/_alanshaw">Alan Shaw</a><span> - Lightning Talk</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/bjnortier">Benjamin Nortier</a><span> - Lightning Talk</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/danielepolencic">Daniele Polencic</a><span> - Lightning Talk</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/thattommyhall">Tommy Hall</a><span> - Lightning Talk</span>
+</dd>
+ </dl> <dl><dt> July 2013  - <a href="http://lanyrd.com/2013/lnug-july/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="http://twitter.com/timruffles">Tim Ruffles</a><span> - No more pyramids - Approaches to keeping callbacks clean</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/teabass">Andrew Nesbitt</a><span> - Node.js + Quadcopters - What could go wrong?</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/joe_stant">Joe Stanton and David Wynne</a><span> - BBC Now that's what I call Node</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/dwynne">David Wynne and Joe Stanton</a><span> - BBC Now that's what I call Node</span>
+</dd>
+ </dl> <dl><dt> June 2013  - <a href="http://lanyrd.com/2013/lnug-june/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="http://twitter.com/adamyeats">Adam Yeats</a><span> - Promises in Node.js</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/malditogeek">Mauro Pompilio</a><span> - WebRTC 101</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/antonwhalley">Anton Whalley</a><span> - Thoughts on LevelDB</span>
+</dd>
+ </dl> <dl><dt> May 2013  - <a href="http://lanyrd.com/2013/lnug-may/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="http://twitter.com/shaundunne">Shaun Dunne</a><span> - Grunt your way to Glory</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/MathieuLoutre">Mathieu Triay</a><span> - Up and running with Hapi</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/suprememoocow">Andrew Newdigate and Mike Bartlett </a><span> - Live Collections with Backbone and Faye</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/mydigitalself">Mike Bartlett and Andrew Newdigate</a><span> - Live Collections with Backbone and Faye</span>
+</dd>
+ </dl> <dl><dt> April 2013  - <a href="http://lanyrd.com/2013/lnug-april/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="http://twitter.com/insertcoffee">Peter Johnson and Tancredi Trugenberge</a><span> - All your base are belong to us</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/Liquidimage_">Tancredi Trugenberge and Peter Johnson</a><span> - All your base are belong to us</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/_alanshaw">Alan Shaw</a><span> - Node dependency management - David is watching</span>
+</dd>
+ </dl> <dl><dt> March 2013  - <a href="http://lanyrd.com/2013/lnug-march/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="http://twitter.com/bahulneel">Bahul Neel Upadhyaya</a><span> - To infinity and beyond! Protocols and lazy sequences in node #2</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/simonmcmanus">Simon McManus</a><span> - Building Roca style web apps with Sizlate and Node.js</span>
+</dd>
+ </dl> <dl><dt> February 2013  - <a href="http://lanyrd.com/2013/lnug-february/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="http://twitter.com/henryoswald">Henry Oswald</a><span> - Practical patterns for building and testing Node.js apps</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/dshaw">Daniel Shaw</a><span> - Adventures in Production Node.js</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/bfirsh">Ben Firshman</a><span> - The future of single-page apps</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/lloydwatkin">Lloyd Watkin</a><span> - pinitto.me: what, why, how</span>
+</dd>
+ </dl> <dl><dt> January 2013  - <a href="http://lanyrd.com/2013/lnug-january/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="http://twitter.com/bahulneel">Bahul Neel Upadhyaya</a><span> - To infinity and beyond! Protocols and lazy sequences in node.</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/darachennis">Darach Ennis</a><span> - Embedded Event Processing with Streams &amp; Pipes</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/pdp">Petko D. Petkov</a><span> - Node.js Security</span>
+</dd>
+ </dl> <dl><dt> November 2012  - <a href="http://lanyrd.com/2012/lnug-november/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="http://twitter.com/ludvik_pl">Paweł Ledwoń</a><span> - Benchmarking Pusher using Node.js</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/thatshems">Henrique Matias</a><span> - Toasted coffee for the lazy</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/domenicdenicola">Domenic Denicola</a><span> - JavaScript on the Desktop</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/thattommyhall">Tom Hall</a><span> - Sound Doodle, A Node Knockout project</span>
+</dd>
+ </dl> <dl><dt> October 2012  - <a href="http://lanyrd.com/2012/lnug-october/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="http://twitter.com/serby">Paul Serby</a><span> - The future of wearable computing with node.js, Raspberry PI and bowler hats</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/teabass">Andrew Nesbitt</a><span> - Integrating Node.js into your existing technology stack</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/insertcoffee">Peter Johnson and Tancredi Trugenberge</a><span> - Writing real-time games in coffeescript with node.js + socket.io &amp; HTML5</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/Liquidimage_">Tancredi Trugenberge and Peter Johnson</a><span> - Writing real-time games in coffeescript with node.js + socket.io &amp; HTML5</span>
+</dd>
+ </dl> <dl><dt> September 2012  - <a href="http://lanyrd.com/2012/lnug-september/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="http://twitter.com/antonwhalley">Anton Whalley</a><span> - Growing Turtles In Brown Fields : Node in the Microsoft Apps that you have already have</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/dominictarr">Dominic Tarr</a><span> - Writing Custom Streams</span>
+</dd>
+ </dl> <dl><dt> August 2012  - <a href="http://lanyrd.com/2012/lnug-august/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="http://twitter.com/thattommyhall">Tom Hall</a><span> - Evolving Genetic Algorithms In The Browser</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/webdigi">Roshan Abraham</a><span> - Using your iPhone as a game controller with NodeJS, HTML5</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/Keithamus">Keith Cirkel</a><span> - A brief history of time</span>
+</dd>
+ </dl> <dl><dt> July 2012  - <a href="http://lanyrd.com/2012/lnug-july/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="#">Hack Evening</a><span> - Hack Evening</span>
+</dd>
+ </dl> <dl><dt> June 2012  - <a href="http://lanyrd.com/2012/lnug-june/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="http://twitter.com/abhinay">Abhinay Mehta</a><span> - Timothy: writing Hadoop MapReduce jobs in JS</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/jbpros">Julien Biezemans</a><span> - Cucumber.js: Cuke up your JavaScript!</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/vowelnoun">Phil Deschaine</a><span> - Building a Real-Time Twitter Game in Node.js</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/felixge">Felix Geisendörfer</a><span> - As fast as C? Writing high performance JavaScript parsers</span>
+</dd>
+ </dl> <dl><dt> May 2012  - <a href="http://lanyrd.com/2012/lnug-may/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="http://twitter.com/hylomorphism">Matthew Sackman</a><span> - Atomize JS - Safe Distributed Shared Objects</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/socketstream">Owen Barnes</a><span> - SocketStream</span>
+</dd>
+ </dl> <dl><dt> April 2012  - <a href="http://lanyrd.com/2012/lnug-april/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="http://twitter.com/m0wfo">Chris Mowforth</a><span> - Rhinode</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/dscape">Nuno Job</a><span> - The good and the bad Open-Source</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/petexgraham">Pete X. Graham</a><span> - McLaren F1 and Node.js</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/simonmcmanus">Simon McManus</a><span> - Sizlate and Frameworked</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/thattommyhall">Tom Hall</a><span> - Readability Counts</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/teabass">Andrew Nesbitt</a><span> - Using Node.js and Ruby on Rails for uber productivity</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/domharrington">Dom Harrington</a><span> - Building command line interfaces in Node.js</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/PitaPoison">Pita Poison</a><span> - Etherpad and Etherpad Lite</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/sleepyfox">Sleepy Fox</a><span> - BDD with Jasmine-node and CoffeeScript</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/tonydenyer">Tony Denyer</a><span> - cucumber.js with zombie.js</span>
+</dd>
+ </dl> <dl><dt> March 2012  - <a href="http://lanyrd.com/2012/lnug-march/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="http://twitter.com/henryoswald">Henry Oswald</a><span> - sharelatex.com - Experiences building and running a node.js site</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/mikepilsbury">Mike Pilsbury</a><span> - Arduino + Node == Fun</span>
+</dd>
+ <dd>
+  <a href="#">Chris Munt</a><span> - Higher Order Software for Node.js</span>
+</dd>
+ </dl> <dl><dt> February 2012  - <a href="http://lanyrd.com/2012/lnug-february/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="http://twitter.com/andykent">Andy Kent</a><span> - River and SQL parsing in javascript</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/PabloSerbo">Paul Serby</a><span> - Building for clients with Node.js</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/hiddentao">Ramesh Nair</a><span> - Squel - an SQL query string builder for Javascript</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/Keithamus">Keith Cirkel</a><span> - Time for a new Date()</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/dscape">Nuno Job</a><span> - Streaming JSON parsing</span>
+</dd>
+ </dl> <dl><dt> January 2012  - <a href="http://lanyrd.com/2012/lnug-january/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="http://twitter.com/richmarr">Richard Marr</a><span> - Powerful data layers with CouchDB and Elasticsearch</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/simonmcmanus">Simon McManus</a><span> - Sizlate: HTML templating with Sizzle (jQuery) selectors</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/paddybyers">Paddy Byers</a><span> - Node.js for Android</span>
+</dd>
+ </dl> <dl><dt> November 2011  - <a href="http://lanyrd.com/2011/lnug-november/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="http://twitter.com/alex_young">Alex Young</a><span> - Node Flow Control</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/appltn">Andrew Appleton</a><span> - Introducing Mint Source</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/majek04">Marek Majkowski</a><span> - SockJS - WebSocket Emulation Kept Simple, Stupid</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/mloughran">Martyn Loughran</a><span> - Websockets and the Pusher Pipe</span>
+</dd>
+ </dl> <dl><dt> October 2011  - <a href="http://lanyrd.com/2011/lnug-october/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="http://twitter.com/mikedeboer">Mike de Boer</a><span> - Developing large NodeJS libraries with Cloud9 IDE</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/seddonandrew">Andrew Seddon</a><span> - Massive-git, a revision controlled database</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/detillen">Richard Miller-Smith</a><span> - State machines and asynchronous programming</span>
+</dd>
+ </dl> <dl><dt> September 2011  - <a href="http://lanyrd.com/2011/lnug-september/" target="_blank">Lanyrd</a> </dt> <dd>
+  <a href="http://twitter.com/andykent">Andy Kent</a><span> - Realtime data analysis over unbounded streams</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/GarrenSmith">Garren Smith</a><span> - These are the ORM's you are looking for</span>
+</dd>
+ <dd>
+  <a href="http://twitter.com/rtweed">Rob Tweed</a><span> - The Globals Database: its significance for Node developers</span>
+</dd>
+ </dl></div>
 
     <div class="col-xs-12 col-md-4 col-lg-4 lnug-sidebar text-center">
-        <ul class="list-unstyled">
-          <li>
-            <a href="http://www.stackoverflow.com" target="_blank" title="Stackoverflow homepage, proud sponsor of LNUG">
-              <img src="./public/stackoverflow.jpg" alt="Stackoverflow">
-            </a>
-          </li>
-          <li>
-            <a href="http://www.yld.io" target="_blank" title="YLD homepage, proud sponsor of LNUG">
-              <img   src="./public/yld.jpg" alt="YLD">
-            </a>
-          </li>
-          <li>
-            <a href="http://www.artificial.io" target="_blank" title="Artificial homepage, proud sponsor of LNUG">
-              <img src="./public/artificial-labs.jpg" alt="Artificial Labs">
-            </a>
-          </li>
-          <li>
-            <a href="http://www.nexttick.io" target="_blank" title="Nexttick homepage, proud sponsor of LNUG">
-              <img  src="./public/nexttick.jpg" alt="Nexttick">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.braintreepayments.com/" target="_blank" title="BrainTree Payments homepage, proud sponsor of LNUG">
-              <img src="./public/braintree.png" alt="BrainTree Payments">
-            </a>
-          </li>
-          <li>
-            <a href="http://www.opentable.com/" target="_blank" title="Open Table homepage, proud sponsor of LNUG">
-              <img src="./public/opentable.jpg" alt="Open Table">
-            </a>
-          </li>
+      <ul class="list-unstyled">
+        <li>
+          <a href="http://www.stackoverflow.com" target="_blank" title="Stackoverflow homepage, proud sponsor of LNUG">
+            <img src="./public/stackoverflow.jpg" alt="Stackoverflow">
+          </a>
+        </li>
+        <li>
+          <a href="http://www.nexttick.io" target="_blank" title="Nexttick homepage, proud sponsor of LNUG">
+            <img src="./public/nexttick.jpg" alt="Nexttick">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.braintreepayments.com/" target="_blank" title="BrainTree Payments homepage, proud sponsor of LNUG">
+            <img src="./public/braintree.png" alt="BrainTree Payments">
+          </a>
+        </li>
+        <li>
+          <a href="http://www.opentable.com/" target="_blank" title="Open Table homepage, proud sponsor of LNUG">
+            <img src="./public/opentable.jpg" alt="Open Table">
+          </a>
+        </li>
+        <li>
+          <a href="http://www.yld.io" target="_blank" title="YLD homepage, proud sponsor of LNUG">
+            <img src="./public/yld.jpg" alt="YLD">
+          </a>
+        </li>
+        <li>
+          <a href="http://www.artificial.io" target="_blank" title="Artificial homepage, proud sponsor of LNUG">
+            <img src="./public/artificial-labs.jpg" alt="Artificial Labs">
+          </a>
+        </li>
+      </ul>
 
-        </ul>
-    <div class="twitter-label lnug-sectiondesc">Tweets</div>
-    <div class="twitter-widget"><a class="twitter-timeline" data-dnt="true" href="https://twitter.com/LNUGorg" data-widget-id="568413083740422144">@LNUGORG</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+      <div class="twitter-label lnug-sectiondesc">Tweets</div>
+      <div class="twitter-widget">
+        <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/LNUGorg" data-widget-id="568413083740422144">@LNUGORG</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </div>
     </div>
-  </div>
 
-
-   <!--<div class="row lnug-sectiondesc">
-       <div class="col-xs-12 text-center talk-label ">Latest Jobs</div>
-
-    </div> -->
 
   <div class="row">
     <div class="col-xs-12 lnug-footer">
       <ul class="lnug-footer-text">
         <li><a href="code-of-conduct" title="code-of-conduct">Code of Conduct</a></li>
         <li><a href="mailto:contact@lnug.org?Subject=LNUG+site+question">Contacts</a></li>
-        <li><a href="http://nexttick.us8.list-manage.com/subscribe?u=9ebd291b0179eceff6533b0da&id=f7e81cdb7a" target="_blank" title="The monthly newsletter">Newsletter</a></li>
+        <li><a href="http://nexttick.us8.list-manage.com/subscribe?u=9ebd291b0179eceff6533b0da&amp;id=f7e81cdb7a" target="_blank" title="The monthly newsletter">Newsletter</a></li>
         <li><a href="//github.com/lnug/speak" target="_blank" title="speakers application">Apply to Speak</a></li>
       </ul>
       <ul class="lnug-footer-text">
@@ -109,5 +560,15 @@
     </div>
   </div>
 </div>
+</div>
 </body>
+<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet" type="text/css">
+<script>
+  !function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(
+  arguments)};d=s.createElement(q);q=s.getElementsByTagName(q)[0];
+  d.src='//d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.
+  insertBefore(d,q)}(window,document,'script','_gs');
+
+  _gs('GSN-057421-B');
+</script>
 </html>

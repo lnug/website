@@ -69,6 +69,11 @@ html, body {
   width: 100%;
 }
 
+html body .lnug-section p {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
 .talk-label,.sponsor-label {
   padding: 15px 0;
   border-bottom: 1px rgb(240, 240, 240) solid;
@@ -87,7 +92,7 @@ html, body {
 
 }
 
-.lnug-content p, .lnug-content h1 {
+.lnug-content h1 p, .lnug-content h1 {
   margin-left: 20px;
 }
 
