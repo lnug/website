@@ -1,10 +1,9 @@
-lnug.github.io
-==============
+lnug.org
+
 
 The London Node User Group Website
 
 
-Runs on github pages so there is no serverside code.
 
 
 
@@ -26,6 +25,8 @@ Basically it pulls in the speaker from the github issues and updates the json fi
 It then generates the html for the index and archive.html files.
 
 
+Check the package.json file for a full list of commands you can run.
+
 
 
 How to run
@@ -35,10 +36,8 @@ You can serve this with *any* static web server, but we'll use [mongoose](https:
 1. `git clone git@github.com:lnug/lnug.github.io.git`
 2. `cd lnug.github.io`
 3. `brew install mongoose`
-4. `mongoose .`
+4. `npm start`
 5. go to http://localhost:8080
-
-
 
 
 # Install
@@ -47,23 +46,3 @@ You can serve this with *any* static web server, but we'll use [mongoose](https:
 To run the update you need permission to execute the bin directory.
 
 chmod 775 ./bin/*
-
-
-
-#Branches:
-
-Master stores the code used to generate the website.
-
-The gh-pages branch stores the generated website and is what can be seen on the website.
-
-
-
-#Publishing
-
-git checkout master
-npm run build
-git stash
-git checkout gh-pages
-git stash pop
-git add .
-git commit

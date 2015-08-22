@@ -15,7 +15,6 @@ var async = require('async');
 
 var lanyrdUrl = require('../lib/lanyrd-url');
 
-
 var indexTemplate = fs.readFileSync('./templates/index.html', 'utf8');
 var archiveTemplate = fs.readFileSync('./templates/archive.html', 'utf8');
 
@@ -37,14 +36,11 @@ function speakerSelectors(speaker) {
 
 var markup = [];
 
-
-
-
 data.forEach(function(lnug) {
 
   markup.push('<dl><dt>', lnug.date);
 
-  if(lnug.lanyrd) {
+  if (lnug.lanyrd) {
     markup.push(" - <a href='" + lnug.lanyrd + "'  target='_blank'>Lanyrd</a>");
   }
 
@@ -56,9 +52,6 @@ data.forEach(function(lnug) {
   });
   markup.push('</dl>');
 });
-
-
-
 
 var out = sizlate.doRender(indexTemplate, {
   '.lnug-content': {

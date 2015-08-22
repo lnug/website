@@ -12,7 +12,6 @@ var archive = require('../lib/archive');
 var formatMilestone = require('../lib/format-milestone');
 var lanyrdUrl = require('../lib/lanyrd-url');
 
-
 var Encoder = require('node-html-encoder').Encoder;
 
 // entity type encoder
@@ -33,7 +32,7 @@ function isReady(talk) {
 function modelTalk(talk) {
   return {
     // if assigned return assigned url if not fall back to the creator.
-    // this is used lated to fetch the name and avatar shown against the talk.
+    // this is used later to fetch the name and avatar shown against the talk.
     apiSpeakerUrl: (talk.assignee) ? talk.assignee.url : talk.user.url,
     speakerUrl: (talk.assignee) ? talk.assignee.html_url : talk.user.html_url,
     title: encoder.htmlEncode(talk.title),
@@ -45,10 +44,6 @@ function modelTalk(talk) {
 console.log('Fetching data from https://api.github.com/repos/lnug/speakers/issues')
 superagent.get('https://api.github.com/repos/lnug/speakers/issues')
   .end(function(error, data) {
-
-    // var data = {
-    //   body: require('../data/mock')
-    // }
 
     if (error) {
       error.message = 'Getting issues list failed' + error.message;
@@ -62,13 +57,13 @@ superagent.get('https://api.github.com/repos/lnug/speakers/issues')
 //       return formatMilestone(i.milestone).short;
 //     }));
 //     acceptedDates.push('dsfdsf');
-//     async.redudce(acceptedDates, lanyrdUrl, function(e, d) {
+//     async.reduce(acceptedDates, lanyrdUrl, function(e, d) {
 // console.log('d', d);
 //     });
 
 
     async.map(acceptedTalks, function(talk, next) {
-    // get details about the speaker.
+      // get details about the speaker.
       superagent
           .get(talk.apiSpeakerUrl)
           .end(function(error, data) {
