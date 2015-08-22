@@ -44,6 +44,26 @@ You can serve this with *any* static web server, but we'll use [mongoose](https:
 # Install
 
 
-To run the update you need permission to execute the bin directory. 
+To run the update you need permission to execute the bin directory.
 
 chmod 775 ./bin/*
+
+
+
+#Branches:
+
+Master stores the code used to generate the website.
+
+The gh-pages branch stores the generated website and is what can be seen on the website.
+
+
+
+#Publishing
+
+git checkout master
+npm run build
+git stash
+git checkout gh-pages
+git stash pop
+git add .
+git commit

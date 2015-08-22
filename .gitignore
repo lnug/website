@@ -4,3 +4,8 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
+
+
+# ignore generated scripts
+index.html
+code-of-conduct.html
