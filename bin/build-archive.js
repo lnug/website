@@ -37,7 +37,7 @@ function speakerSelectors(speaker) {
 var markup = [];
 
 data.forEach(function(lnug) {
-
+  // todo: this should be done with sizlate
   markup.push('<dl><dt>', lnug.date);
 
   if (lnug.lanyrd) {
