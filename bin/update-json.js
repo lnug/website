@@ -4,45 +4,16 @@
 
 var superagent = require('superagent');
 var fs = require('fs');
-var marked = require('marked');
 var async = require('async');
-var _ = require('lodash');
 
 var archive = require('../lib/archive');
-var formatMilestone = require('../lib/format-milestone');
-var lanyrdUrl = require('../lib/lanyrd-url');
+var isReady = require('../lib/talk-is-ready');
+var modelTalk = require('../lib/model-talk');
+var getSpeakerDetails = require('../lib/recent-months-by-milestone');
 
-var Encoder = require('node-html-encoder').Encoder;
-
-// entity type encoder
-var encoder = new Encoder('entity');
-
-/**
-    Returns true if talk (issues object from github api) is assigned and labelled as Accepted and Scheduled.
-**/
-function isReady(talk) {
-
-  var isAccepted = talk.labels.filter(function(label) {
-    return (label.name === 'Accepted & Scheduled');
-  }).length;
-
-  return (isAccepted);
-}
-
-function modelTalk(talk) {
-  return {
-    // if assigned return assigned url if not fall back to the creator.
-    // this is used later to fetch the name and avatar shown against the talk.
-    apiSpeakerUrl: (talk.assignee) ? talk.assignee.url : talk.user.url,
-    speakerUrl: (talk.assignee) ? talk.assignee.html_url : talk.user.html_url,
-    title: encoder.htmlEncode(talk.title),
-    description: marked(encoder.htmlEncode(talk.body)),
-    milestone: talk.milestone.title
-  };
-}
-
-console.log('Fetching data from https://api.github.com/repos/lnug/speakers/issues')
-superagent.get('https://api.github.com/repos/lnug/speakers/issues')
+console.log('Fetching data from https://api.github.com/repos/lnug/speakers/issues');
+superagent
+  .get('https://api.github.com/repos/lnug/speakers/issues')
   .end(function(error, data) {
 
     if (error) {
@@ -52,34 +23,7 @@ superagent.get('https://api.github.com/repos/lnug/speakers/issues')
 
     var acceptedTalks = data.body.filter(isReady).map(modelTalk);
 
-// - can check for the event on lanyrd.
-//     var acceptedDates = _.unique(acceptedTalks.map(function(i) {
-//       return formatMilestone(i.milestone).short;
-//     }));
-//     acceptedDates.push('dsfdsf');
-//     async.reduce(acceptedDates, lanyrdUrl, function(e, d) {
-// console.log('d', d);
-//     });
-
-
-    async.map(acceptedTalks, function(talk, next) {
-      // get details about the speaker.
-      superagent
-          .get(talk.apiSpeakerUrl)
-          .end(function(error, data) {
-            if (error) {
-              error.message = 'Getting  ' +
-                talk.speakerUrl + ' failed: ' +
-                error.message;
-              throw error;
-            }
-
-            talk.img = data.body.avatar_url;
-            talk.handle = data.body.login;
-            talk.name  = data.body.name;
-            next(null,  talk);
-          });
-    }, function(err, completeAcceptedTalks) {
+    async.map(acceptedTalks, getSpeakerDetails, function(err, completeAcceptedTalks) {
 
       if (err) {
         throw err;
