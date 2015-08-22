@@ -82,7 +82,7 @@ describe('archive', function() {
       before(function() {
         newTalks = [
           {
-            title: 'WebRTC Reborn - BUT WITH A NEW TITLE',
+            title: 'WebRTC Reborn - BUT WITH A NEW TITLE &',
             milestone: 'August 26th 2015',
           }
         ];

@@ -18,6 +18,8 @@ var lanyrdUrl = require('../lib/lanyrd-url');
 var indexTemplate = fs.readFileSync('./templates/index.html', 'utf8');
 var archiveTemplate = fs.readFileSync('./templates/archive.html', 'utf8');
 
+var Encoder = require('node-html-encoder').Encoder;
+var encoder = new Encoder('entity');
 /**
  * Turns speaker object into selector object to be used by sizlate.
  * @param  {Object} speaker Speaker take from ./js/data.json
@@ -30,7 +32,7 @@ function speakerSelectors(speaker) {
       innerHTML: speaker.name,
       href: speaker.url
     },
-    'span': ' - ' + speaker.title
+    'span': (' - ' + encoder.htmlEncode(speaker.title))
   };
 }
 
