@@ -12,10 +12,6 @@ var data = require('../data/this-month.json');
 var nextEvent = require('../lib/next-event');
 
 
-var Encoder = require('node-html-encoder').Encoder;
-
-// entity type encoder
-var encoder = new Encoder('entity');
 
 
 var indexTemplate = fs.readFileSync('./templates/index.html', 'utf8');
@@ -29,8 +25,8 @@ var speakerTemplate = fs.readFileSync('./templates/speaker.html', 'utf8');
 function speakerSelectors(speaker) {
   return {
     '.name': speaker.name,
-    '.title': encoder.htmlEncode(speaker.title),
-    '.desc': encoder.htmlEncode(speaker.description),
+    '.title': speaker.title,
+    '.desc': speaker.description,
     img: {
       src: speaker.img
     },

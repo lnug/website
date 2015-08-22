@@ -13,6 +13,11 @@ var formatMilestone = require('../lib/format-milestone');
 var lanyrdUrl = require('../lib/lanyrd-url');
 
 
+var Encoder = require('node-html-encoder').Encoder;
+
+// entity type encoder
+var encoder = new Encoder('entity');
+
 /**
     Returns true if talk (issues object from github api) is assigned and labelled as Accepted and Scheduled.
 **/
@@ -31,8 +36,8 @@ function modelTalk(talk) {
     // this is used lated to fetch the name and avatar shown against the talk.
     apiSpeakerUrl: (talk.assignee) ? talk.assignee.url : talk.user.url,
     speakerUrl: (talk.assignee) ? talk.assignee.html_url : talk.user.html_url,
-    title: talk.title,
-    description: marked(talk.body),
+    title: encoder.htmlEncode(talk.title),
+    description: marked(encoder.htmlEncode(talk.body)),
     milestone: talk.milestone.title
   };
 }
@@ -41,9 +46,9 @@ console.log('Fetching data from https://api.github.com/repos/lnug/speakers/issue
 superagent.get('https://api.github.com/repos/lnug/speakers/issues')
   .end(function(error, data) {
 
-    var data = {
-      body: require('../data/mock')
-    }
+    // var data = {
+    //   body: require('../data/mock')
+    // }
 
     if (error) {
       error.message = 'Getting issues list failed' + error.message;
@@ -63,7 +68,7 @@ superagent.get('https://api.github.com/repos/lnug/speakers/issues')
 
 
     async.map(acceptedTalks, function(talk, next) {
-
+    // get details about the speaker.
       superagent
           .get(talk.apiSpeakerUrl)
           .end(function(error, data) {
