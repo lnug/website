@@ -6,7 +6,9 @@ var superagent = require('superagent');
 var fs = require('fs');
 var async = require('async');
 
-var archive = require('../lib/archive');
+var archive = require('./data/archive.json');
+
+var makeArchive = require('../lib/archive');
 var isReady = require('../lib/talk-is-ready');
 var modelTalk = require('../lib/model-talk');
 var getSpeakerDetails = require('../lib/recent-months-by-milestone');
@@ -32,7 +34,12 @@ superagent
       fs.writeFile('./data/this-month.json', JSON.stringify(completeAcceptedTalks, null, 4), function() {
         console.log('Data file has been updated');
       });
+      console.log(JSON.stringify(completeAcceptedTalks, null, 4));
+      var newArchive = makeArchive(completeAcceptedTalks, archive);
 
-      archive(completeAcceptedTalks);
+      fs.writeFile('./data/archive.json', JSON.stringify(newArchive, null, 4), function() {
+        console.log('Archive file has been updated');
+      });
+
     });
   });
