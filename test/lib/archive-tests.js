@@ -41,7 +41,6 @@ describe('archive', function() {
 
     });
 
-
     describe('Given no new talks', function() {
 
       before(function() {
@@ -55,38 +54,50 @@ describe('archive', function() {
 
     });
 
-
     describe('Given a new month with new talks (do not exist in the archive)', function() {
 
       before(function() {
-        newTalks = [];
+        newTalks = [
+          {
+            title: 'Dans Second talk',
+            milestone: 'September 26th 2015',
+          }
+        ];
         archived = archive(newTalks, oldTalks);
       });
 
       it('should create a new month in the archive', function() {
-
-      });
-    })
-
-    describe('Given talks with already exist in the archive', function() {
-      it('should update the talk in the archive', function() {
-
+        expect(archived[0].date).to.equal('September 2015');
       });
 
-      it('should not change the length of the arhive', function() {
-
+      it('should add the new talk to the new month', function() {
+        expect(archived[0].speakers[0].title).to.equal(newTalks[0].title);
       });
-
     });
 
-    describe('Given a new talk in a month that already exists in the archive', function() {
+    describe('Given talks which already exist in the archive but a change to the title', function() {
+      before(function() {
+        newTalks = [
+          {
+            title: 'WebRTC Reborn - BUT WITH A NEW TITLE',
+            milestone: 'August 26th 2015',
+          }
+        ];
+        archived = archive(newTalks, oldTalks);
+      });
 
+      it('should not create a new month', function() {
+        expect(archived.length).to.equal(oldTalks.length);
+      });
+
+      it('should replace all existing speakers from that month', function() {
+
+        expect(archived[0].speakers.length).to.equal(newTalks.length);
+      });
+
+      it('should replace that months speakers with the new data', function() {
+        expect(archived[0].speakers[0].title).to.equal(newTalks[0].title);
+      });
     });
   });
-
-
-
-  // describe('Given a talk which has been updated');
-
-
 });
