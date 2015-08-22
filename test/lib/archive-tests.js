@@ -1,6 +1,5 @@
 var expect = require('chai').expect;
 
-
 describe('archive', function() {
 
   var archive;
@@ -66,7 +65,11 @@ describe('archive', function() {
         archived = archive(newTalks, oldTalks);
       });
 
-      it('should create a new month in the archive', function() {
+      it('should increase the size of the archive', function() {
+        expect(archived.length).to.equal(oldTalks.length + 1);
+      });
+
+      it('should create a new month as the first item in the archive', function() {
         expect(archived[0].date).to.equal('September 2015');
       });
 
@@ -91,7 +94,6 @@ describe('archive', function() {
       });
 
       it('should replace all existing speakers from that month', function() {
-
         expect(archived[0].speakers.length).to.equal(newTalks.length);
       });
 
