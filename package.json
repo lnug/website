@@ -1,0 +1,35 @@
+{
+  "name": "lnug.github.io",
+  "version": "1.0.0",
+  "description": "lnug.github.io",
+  "main": "build.js",
+  "scripts": {
+    "test": "mocha --recursive test",
+    "update": "./bin/update-json.js",
+    "homepage": "./bin/build-homepage.js",
+    "archive": "./bin/build-archive.js",
+    "start": "mongoose .",
+    "build": "npm run update && npm run homepage && npm run archive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lnug/lnug.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lnug/lnug.github.io/issues"
+  },
+  "homepage": "https://github.com/lnug/lnug.github.io",
+  "devDependencies": {
+    "async": "^1.3.0",
+    "chai": "^3.2.0",
+    "html-entities": "^1.1.3",
+    "lodash": "^3.10.0",
+    "marked": "^0.3.3",
+    "moment": "^2.10.3",
+    "sizlate": "^0.9.0",
+    "superagent": "^1.3.0",
+    "node-html-encoder": "0.0.2"
+  }
+}

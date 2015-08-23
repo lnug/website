@@ -1,0 +1,32 @@
+[
+    {
+        "apiSpeakerUrl": "https://api.github.com/users/tjanczuk",
+        "speakerUrl": "https://github.com/tjanczuk",
+        "title": "Rethinking backend with webtasks",
+        "description": "<p>You are writing a mobile or HTML5 web application that needs just a little bit of a backend. Maybe you want to access MongoDB, send an SMS, or an e-mail. Do you really need to host your own Node.js service to run this small snippet of backend logic?&#13;&#10;&#13;&#10;In this talk I will take a hard look at the role of the backend in modern applications. I will introduce the concept of a <a href=\"https://webtask.io\">webtask</a> - a lightweight representation of backend logic that can safely be embedded in a client application. I will show how you can use modern container technologies based on CoreOS and Docker to build a generic, multi-tenant runtime for securely executing webtasks directly from a mobile or HTML5 application. You don&rsquo;t need a backend to run backend code.&#13;&#10;&#13;&#10;This talk is based on lessons learned when building the Node.js sandboxing technology for internal use in our core operations at Auth0.&#13;&#10;&#13;&#10;Find out more:&#13;&#10;<a href=\"http://tomasz.janczuk.org/2015/04/rethinking-backend-with-webtasks.html\">Webtask concepts</a>&#13;&#10;<a href=\"https://github.com/auth0/wt-cli\">Webtask CLI</a>&#13;&#10;<a href=\"https://webtask.io\">Webtask playground</a>&#13;&#10;<a href=\"https://medium.com/aws-activate-startup-blog/sandboxing-code-in-the-era-of-containers-294edb3a674\">Webtask technology</a>&#13;&#10;</p>\n",
+        "milestone": "August 26th 2015",
+        "img": "https://avatars.githubusercontent.com/u/822369?v=3",
+        "handle": "tjanczuk",
+        "name": "Tomasz Janczuk"
+    },
+    {
+        "apiSpeakerUrl": "https://api.github.com/users/danjenkins",
+        "speakerUrl": "https://github.com/danjenkins",
+        "title": "WebRTC Reborn",
+        "description": "<p>WebRTC has had a real tough 3 or 4 years, and so have those working with it. Only a few short years ago, the development world were excited about WebRTC and proclaiming how awesome it was. &#13;&#10;&#13;&#10;You might have played with the technology a couple of years ago, only to find the extra infrastructure requirements were painful to implement and poorly documented. This probably left a bitter taste in your mouth, especially when things went wrong.&#13;&#10;&#13;&#10;Those in the industry have been working hard to sweeten the deal again - efforts have been made to bring WebRTC into the mainstream and as a result the technology is experiencing a rebirth. Thanks to those who have remained dedicated to improving the situation for those around them, WebRTC is finally starting to fulfil the original expectations that were had of it. Both the technology and the support networks have been built up to make experimenting with it again a pleasure, not a pain.&#13;&#10;&#13;&#10;WebRTC has grown up; in this talk you will learn how far along the tech has come, its current capabilities, the amazing things that people are starting to do with it, and how simple getting started with the new toolsets available.&#13;&#10;</p>\n",
+        "milestone": "August 26th 2015",
+        "img": "https://avatars.githubusercontent.com/u/243117?v=3",
+        "handle": "danjenkins",
+        "name": "Dan Jenkins"
+    },
+    {
+        "apiSpeakerUrl": "https://api.github.com/users/pimterry",
+        "speakerUrl": "https://github.com/pimterry",
+        "title": "TypeScript will finally bring peace to your troubled soul",
+        "description": "<p>You&#39;ve heard of TypeScript, but you&#39;re not sure if it&#39;s a good idea, and you&#39;ve never really seen it in action. TypeScript is powerful though, rapidly gaining momentum, and has a lot more to offer than just JS + classes. Let&#39;s take a proper look.&#13;&#10;&#13;&#10;In this talk, we&#39;ll dig a bit deeper and play around with some of the more interesting features TypeScript gives you. We&#39;ll walk through the extras that TypeScript provides and how they&#39;ll solve your every woe, learn a bit about where the types come in and why you care, and see how exactly you might put it into action on your next Node project.</p>\n",
+        "milestone": "August 26th 2015",
+        "img": "https://avatars.githubusercontent.com/u/1526883?v=3",
+        "handle": "pimterry",
+        "name": "Tim Perry"
+    }
+]
