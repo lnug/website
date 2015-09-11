@@ -1,32 +1,32 @@
 [
     {
-        "apiSpeakerUrl": "https://api.github.com/users/tjanczuk",
-        "speakerUrl": "https://github.com/tjanczuk",
-        "title": "Rethinking backend with webtasks",
-        "description": "<p>You are writing a mobile or HTML5 web application that needs just a little bit of a backend. Maybe you want to access MongoDB, send an SMS, or an e-mail. Do you really need to host your own Node.js service to run this small snippet of backend logic?&#13;&#10;&#13;&#10;In this talk I will take a hard look at the role of the backend in modern applications. I will introduce the concept of a <a href=\"https://webtask.io\">webtask</a> - a lightweight representation of backend logic that can safely be embedded in a client application. I will show how you can use modern container technologies based on CoreOS and Docker to build a generic, multi-tenant runtime for securely executing webtasks directly from a mobile or HTML5 application. You don&rsquo;t need a backend to run backend code.&#13;&#10;&#13;&#10;This talk is based on lessons learned when building the Node.js sandboxing technology for internal use in our core operations at Auth0.&#13;&#10;&#13;&#10;Find out more:&#13;&#10;<a href=\"http://tomasz.janczuk.org/2015/04/rethinking-backend-with-webtasks.html\">Webtask concepts</a>&#13;&#10;<a href=\"https://github.com/auth0/wt-cli\">Webtask CLI</a>&#13;&#10;<a href=\"https://webtask.io\">Webtask playground</a>&#13;&#10;<a href=\"https://medium.com/aws-activate-startup-blog/sandboxing-code-in-the-era-of-containers-294edb3a674\">Webtask technology</a>&#13;&#10;</p>\n",
-        "milestone": "August 26th 2015",
-        "img": "https://avatars.githubusercontent.com/u/822369?v=3",
-        "handle": "tjanczuk",
-        "name": "Tomasz Janczuk"
+        "apiSpeakerUrl": "https://api.github.com/users/bodil",
+        "speakerUrl": "https://github.com/bodil",
+        "title": "The Miracle of Generators",
+        "description": "<p>The ECMAScript 2015 specification introduced <em>iterators</em>, which generalise iteration over common data structures, as well as providing an interface for allowing you to iterate over any custom data structures using common language constructs. ES2015 also introduced <em>generator functions</em>, which make writing arbitrary iterators a lot easier and less boilerplatey.&#13;&#10;&#13;&#10;But generators aren&#39;t just for making simple iterators over data structures. Because they&#39;re bidirectional&mdash;they don&#39;t only produce output, they can also take input&mdash;they&#39;re actually <em>coroutines</em>, which means there&#39;s no end to the sort of fun you can apply them to. We&#39;re going to explore how we can use them to make asynchronous programming in JavaScript a lot more elegant&mdash;to chart a path out of callback hell. And then we&#39;re going to take a look at what we&#39;ve really discovered: one of the most fearsome mysteries of computer science, suddenly laid bare before us.</p>\n",
+        "milestone": "September 23rd 2015",
+        "img": "https://avatars.githubusercontent.com/u/17880?v=3",
+        "handle": "bodil",
+        "name": "Bodil Stokke"
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/danjenkins",
-        "speakerUrl": "https://github.com/danjenkins",
-        "title": "WebRTC Reborn",
-        "description": "<p>WebRTC has had a real tough 3 or 4 years, and so have those working with it. Only a few short years ago, the development world were excited about WebRTC and proclaiming how awesome it was. &#13;&#10;&#13;&#10;You might have played with the technology a couple of years ago, only to find the extra infrastructure requirements were painful to implement and poorly documented. This probably left a bitter taste in your mouth, especially when things went wrong.&#13;&#10;&#13;&#10;Those in the industry have been working hard to sweeten the deal again - efforts have been made to bring WebRTC into the mainstream and as a result the technology is experiencing a rebirth. Thanks to those who have remained dedicated to improving the situation for those around them, WebRTC is finally starting to fulfil the original expectations that were had of it. Both the technology and the support networks have been built up to make experimenting with it again a pleasure, not a pain.&#13;&#10;&#13;&#10;WebRTC has grown up; in this talk you will learn how far along the tech has come, its current capabilities, the amazing things that people are starting to do with it, and how simple getting started with the new toolsets available.&#13;&#10;</p>\n",
-        "milestone": "August 26th 2015",
-        "img": "https://avatars.githubusercontent.com/u/243117?v=3",
-        "handle": "danjenkins",
-        "name": "Dan Jenkins"
+        "apiSpeakerUrl": "https://api.github.com/users/hassy",
+        "speakerUrl": "https://github.com/hassy",
+        "title": "Load-testing for fun and profit",
+        "description": "<p>This talk will (briefly) outline why load-testing should be a part of your testing activities and then dive into an overview of tooling and strategies &amp; processes to get the most out of it when working on a production system. We&#39;ll also explore how load-testing can improve our understanding of both our own code and components that our code depends on.</p>\n",
+        "milestone": "September 23rd 2015",
+        "img": "https://avatars.githubusercontent.com/u/1490?v=3",
+        "handle": "hassy",
+        "name": "hassy veldstra"
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/pimterry",
-        "speakerUrl": "https://github.com/pimterry",
-        "title": "TypeScript will finally bring peace to your troubled soul",
-        "description": "<p>You&#39;ve heard of TypeScript, but you&#39;re not sure if it&#39;s a good idea, and you&#39;ve never really seen it in action. TypeScript is powerful though, rapidly gaining momentum, and has a lot more to offer than just JS + classes. Let&#39;s take a proper look.&#13;&#10;&#13;&#10;In this talk, we&#39;ll dig a bit deeper and play around with some of the more interesting features TypeScript gives you. We&#39;ll walk through the extras that TypeScript provides and how they&#39;ll solve your every woe, learn a bit about where the types come in and why you care, and see how exactly you might put it into action on your next Node project.</p>\n",
-        "milestone": "August 26th 2015",
-        "img": "https://avatars.githubusercontent.com/u/1526883?v=3",
-        "handle": "pimterry",
-        "name": "Tim Perry"
+        "apiSpeakerUrl": "https://api.github.com/users/burtonjc",
+        "speakerUrl": "https://github.com/burtonjc",
+        "title": "How Waffle.io separated its API from its core web app",
+        "description": "<p>At Waffle.io, we recently built a public API to gain access to Waffle&#39;s data (in private beta now). We knew we wanted the API to be deployed, scaled, and monitored separately from our core app. We also wanted the app to use the same API we were providing to our users. Carving the API out as its own service consumed by our app provided some interesting challenges and produced some surprising benefits. This talk will describe the design we came up with, the challenges we faced, and the largely unexpected benefits we received.</p>\n",
+        "milestone": "September 23rd 2015",
+        "img": "https://avatars.githubusercontent.com/u/443084?v=3",
+        "handle": "burtonjc",
+        "name": "Jacob Burton"
     }
 ]

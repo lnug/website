@@ -1,5 +1,25 @@
 [
     {
+        "date": "September 2015",
+        "speakers": [
+            {
+                "name": "Bodil Stokke",
+                "url": "https://github.com/bodil",
+                "title": "The Miracle of Generators"
+            },
+            {
+                "name": "hassy veldstra",
+                "url": "https://github.com/hassy",
+                "title": "Load-testing for fun and profit"
+            },
+            {
+                "name": "Jacob Burton",
+                "url": "https://github.com/burtonjc",
+                "title": "How Waffle.io separated its API from its core web app"
+            }
+        ]
+    },
+    {
         "date": "August 2015",
         "lanyrd": "http://lanyrd.com/2015/lnug-August/",
         "speakers": [
