@@ -1,32 +1,22 @@
 [
     {
-        "apiSpeakerUrl": "https://api.github.com/users/bodil",
-        "speakerUrl": "https://github.com/bodil",
-        "title": "The Miracle of Generators",
-        "description": "<p>The ECMAScript 2015 specification introduced <em>iterators</em>, which generalise iteration over common data structures, as well as providing an interface for allowing you to iterate over any custom data structures using common language constructs. ES2015 also introduced <em>generator functions</em>, which make writing arbitrary iterators a lot easier and less boilerplatey.&#13;&#10;&#13;&#10;But generators aren&#39;t just for making simple iterators over data structures. Because they&#39;re bidirectional&mdash;they don&#39;t only produce output, they can also take input&mdash;they&#39;re actually <em>coroutines</em>, which means there&#39;s no end to the sort of fun you can apply them to. We&#39;re going to explore how we can use them to make asynchronous programming in JavaScript a lot more elegant&mdash;to chart a path out of callback hell. And then we&#39;re going to take a look at what we&#39;ve really discovered: one of the most fearsome mysteries of computer science, suddenly laid bare before us.</p>\n",
-        "milestone": "September 23rd 2015",
-        "img": "https://avatars.githubusercontent.com/u/17880?v=3",
-        "handle": "bodil",
-        "name": "Bodil Stokke"
+        "apiSpeakerUrl": "https://api.github.com/users/alistairstead",
+        "speakerUrl": "https://github.com/alistairstead",
+        "title": "Full-stack BDD and its side effects",
+        "description": "<p>This is not yet another how do you do BDD in JavaScript talk. This is a talk about how you can apply widespread software design practices such as Design Patterns, BDD, TDD, DDD and SOLID to full-stack development. Less how to use these practices, more how to select and use them effectively.&#13;&#10;&#13;&#10;Just using these tools on their own can lead to unnecessary complexity that can be hard to understand or avoid. So let&rsquo;s set aside discussions of the language syntax or capabilities and focus on what is important - delivering value to the customer.&#13;&#10;&#13;&#10;This presentation will show how BDD practices can be applied to the different contexts of developing features through a multi-layer stack whilst smoothing the communication, providing detailed direction and showing the value for business owners and developers alike. The result is a feature that meets the business owner&rsquo;s expectations with happy side effects such as the code being clean, well designed, understandable, fully tested and documented.</p>\n",
+        "milestone": "October 28th 2015",
+        "img": "https://avatars.githubusercontent.com/u/62936?v=3",
+        "handle": "alistairstead",
+        "name": "Alistair Stead"
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/hassy",
-        "speakerUrl": "https://github.com/hassy",
-        "title": "Load-testing for fun and profit",
-        "description": "<p>This talk will (briefly) outline why load-testing should be a part of your testing activities and then dive into an overview of tooling and strategies &amp; processes to get the most out of it when working on a production system. We&#39;ll also explore how load-testing can improve our understanding of both our own code and components that our code depends on.</p>\n",
-        "milestone": "September 23rd 2015",
-        "img": "https://avatars.githubusercontent.com/u/1490?v=3",
-        "handle": "hassy",
-        "name": "hassy veldstra"
-    },
-    {
-        "apiSpeakerUrl": "https://api.github.com/users/burtonjc",
-        "speakerUrl": "https://github.com/burtonjc",
-        "title": "How Waffle.io separated its API from its core web app",
-        "description": "<p>At Waffle.io, we recently built a public API to gain access to Waffle&#39;s data (in private beta now). We knew we wanted the API to be deployed, scaled, and monitored separately from our core app. We also wanted the app to use the same API we were providing to our users. Carving the API out as its own service consumed by our app provided some interesting challenges and produced some surprising benefits. This talk will describe the design we came up with, the challenges we faced, and the largely unexpected benefits we received.</p>\n",
-        "milestone": "September 23rd 2015",
-        "img": "https://avatars.githubusercontent.com/u/443084?v=3",
-        "handle": "burtonjc",
-        "name": "Jacob Burton"
+        "apiSpeakerUrl": "https://api.github.com/users/tomgco",
+        "speakerUrl": "https://github.com/tomgco",
+        "title": "White water streams",
+        "description": "<p>We use streams on a daily basis when handling data with our Node.js applications, but how do they work, and more importantly, how do we keep them efficient and performant?&#13;&#10;&#13;&#10;This talk focus mainly on analysing applications that utilises streaming data, identifying bottlenecks and making improvements. Be wow&rsquo;ed by Flame{graphs,charts}, awed by benchmarks and take away some tips in writing decent stream implementations.</p>\n",
+        "milestone": "October 28th 2015",
+        "img": "https://avatars.githubusercontent.com/u/524382?v=3",
+        "handle": "tomgco",
+        "name": "Tom Gallacher"
     }
 ]
