@@ -10,6 +10,7 @@ var sizlate = require('sizlate');
 var fs = require('fs');
 var data = require('../data/archive.json');
 var nextEvent = require('../lib/next-event');
+var titoLink = require('../lib/tito-link');
 
 var async = require('async');
 
@@ -61,7 +62,11 @@ var out = sizlate.doRender(indexTemplate, {
     className: 'lnug-archive'
   },
   '.lnug-nextmeetup': nextEvent(),
-  '.text-center.talk-label': 'Archive'
+  '.text-center.talk-label': 'Archive',
+  '#lnug-tkt': {
+      href: titoLink()
+  }
+
 });
 
 fs.writeFile('./archive.html', out, function(e) {
