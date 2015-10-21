@@ -1,5 +1,15 @@
 [
     {
+        "apiSpeakerUrl": "https://api.github.com/users/bananaoomarang",
+        "speakerUrl": "https://github.com/bananaoomarang",
+        "title": "Flux to Redux, Thinking with Data",
+        "description": "<p>Flux is one of the newer cool kids on the block, but it has it&#39;s fair share of problems. With all of the different implementations fighting for recognition, to first time users and abusers it can seem overly complicated.&#13;&#10;&#13;&#10;Redux is one Flux framework which has gained a lot of traction recently, thanks to its novel take on the architecture (vastly simpler than Facebooks sample implementation, for instance) and neat debugging features.&#13;&#10;&#13;&#10;This talk can show the differences between Redux&#39;s approach and more &#39;traditional&#39; Flux architectures, running over its benefits for developers. It will also briefly explain the difference between Flux applications and other MVC implementations, for anyone curious and unfamiliar.</p>\n",
+        "milestone": "October 28th 2015",
+        "img": "https://avatars.githubusercontent.com/u/815831?v=3",
+        "handle": "bananaoomarang",
+        "name": "Milo Mordaunt"
+    },
+    {
         "apiSpeakerUrl": "https://api.github.com/users/alistairstead",
         "speakerUrl": "https://github.com/alistairstead",
         "title": "Full-stack BDD and its side effects",

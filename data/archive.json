@@ -3,6 +3,11 @@
         "date": "October 2015",
         "speakers": [
             {
+                "name": "Milo Mordaunt",
+                "url": "https://github.com/bananaoomarang",
+                "title": "Flux to Redux, Thinking with Data"
+            },
+            {
                 "name": "Alistair Stead",
                 "url": "https://github.com/alistairstead",
                 "title": "Full-stack BDD and its side effects"
