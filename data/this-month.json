@@ -22,8 +22,8 @@
     {
         "apiSpeakerUrl": "https://api.github.com/users/forbesmyester",
         "speakerUrl": "https://github.com/forbesmyester",
-        "title": "Short Talk on DB DiaYAML",
-        "description": "<p>Hi LNUG,&#13;&#10;&#13;&#10;I&#39;d like to do a short talk on DB DiaYAML, which is a journey-to-work and weekend project for drawing simple database diagrams. It&#39;s not particularly a serious project but it scratches an itch I had and has a nice MVP feel to it. There&#39;s a blog post about it at <a href=\"http://keyboardwritescode.blogspot.co.uk/2015/07/weekend-project-db-diayaml.html\">http://keyboardwritescode.blogspot.co.uk/2015/07/weekend-project-db-diayaml.html</a> </p>\n",
+        "title": "MVP Diagrams that can do things",
+        "description": "<p>A short talk on DB DiaYAML, which is a journey-to-work and weekend project for drawing simple database diagrams. It&#39;s not particularly a serious project but it scratches an itch I had and has a nice MVP feel to it. There&#39;s a blog post about it at <a href=\"http://keyboardwritescode.blogspot.co.uk/2015/07/weekend-project-db-diayaml.html\">http://keyboardwritescode.blogspot.co.uk/2015/07/weekend-project-db-diayaml.html</a> </p>\n",
         "milestone": "November 25th 2015",
         "img": "https://avatars.githubusercontent.com/u/3470771?v=3",
         "handle": "forbesmyester",
