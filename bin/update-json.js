@@ -24,13 +24,16 @@ superagent
       throw error;
     }
 
-    var nextEventDate = nextEvent(data.body.filter(isReady));
 
-    var isNextEvent = function(talk) {
-        return (talk.milestone.title === nextEventDate);
+    var readyTalks = data.body.filter(isReady);
+
+    var nextEventDate = nextEvent(readyTalks);
+
+    function isNextEvent(talk) {
+      return (talk.milestone.title === nextEventDate);
     }
 
-    var acceptedTalks = data.body.filter(isReady).filter(isNextEvent).map(modelTalk);
+    var acceptedTalks = readyTalks.filter(isNextEvent).map(modelTalk);
 
     async.map(acceptedTalks, getSpeakerDetails, function(err, completeAcceptedTalks) {
 
