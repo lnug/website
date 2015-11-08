@@ -9,7 +9,7 @@
 var sizlate = require('sizlate');
 var fs = require('fs');
 var data = require('../data/archive.json');
-var nextEvent = require('../lib/next-event');
+var nextEvent = require('../lib/next-event-from-file');
 var titoLink = require('../lib/tito-link');
 
 var async = require('async');

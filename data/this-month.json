@@ -1,32 +1,32 @@
 [
     {
-        "apiSpeakerUrl": "https://api.github.com/users/bananaoomarang",
-        "speakerUrl": "https://github.com/bananaoomarang",
-        "title": "Flux to Redux, Thinking with Data",
-        "description": "<p>Flux is one of the newer cool kids on the block, but it has it&#39;s fair share of problems. With all of the different implementations fighting for recognition, to first time users and abusers it can seem overly complicated.&#13;&#10;&#13;&#10;Redux is one Flux framework which has gained a lot of traction recently, thanks to its novel take on the architecture (vastly simpler than Facebooks sample implementation, for instance) and neat debugging features.&#13;&#10;&#13;&#10;This talk can show the differences between Redux&#39;s approach and more &#39;traditional&#39; Flux architectures, running over its benefits for developers. It will also briefly explain the difference between Flux applications and other MVC implementations, for anyone curious and unfamiliar.</p>\n",
-        "milestone": "October 28th 2015",
-        "img": "https://avatars.githubusercontent.com/u/815831?v=3",
-        "handle": "bananaoomarang",
-        "name": "Milo Mordaunt"
+        "apiSpeakerUrl": "https://api.github.com/users/BenHall",
+        "speakerUrl": "https://github.com/BenHall",
+        "title": "Scaling Node.js using Docker",
+        "description": "<p>With great load comes great scaling responsibility. If we need to scale then hopefully it means we&#39;re doing something right. The problem is how to scale without increasing complexity and re-writing the application.&#13;&#10;&#13;&#10;In this talk, Ben will discuss how he scales Katacoda.com, an online learning platform for developers. Ben will show how to deploy Node.js applications with Docker. Once deployed, Ben will highlight how to scale the processes and take advantage of container based deployments.</p>\n",
+        "milestone": "November 25th 2015",
+        "img": "https://avatars.githubusercontent.com/u/82614?v=3",
+        "handle": "BenHall",
+        "name": "Ben Hall"
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/alistairstead",
-        "speakerUrl": "https://github.com/alistairstead",
-        "title": "Full-stack BDD and its side effects",
-        "description": "<p>This is not yet another how do you do BDD in JavaScript talk. This is a talk about how you can apply widespread software design practices such as Design Patterns, BDD, TDD, DDD and SOLID to full-stack development. Less how to use these practices, more how to select and use them effectively.&#13;&#10;&#13;&#10;Just using these tools on their own can lead to unnecessary complexity that can be hard to understand or avoid. So let&rsquo;s set aside discussions of the language syntax or capabilities and focus on what is important - delivering value to the customer.&#13;&#10;&#13;&#10;This presentation will show how BDD practices can be applied to the different contexts of developing features through a multi-layer stack whilst smoothing the communication, providing detailed direction and showing the value for business owners and developers alike. The result is a feature that meets the business owner&rsquo;s expectations with happy side effects such as the code being clean, well designed, understandable, fully tested and documented.</p>\n",
-        "milestone": "October 28th 2015",
-        "img": "https://avatars.githubusercontent.com/u/62936?v=3",
-        "handle": "alistairstead",
-        "name": "Alistair Stead"
+        "apiSpeakerUrl": "https://api.github.com/users/fabiosantoscode",
+        "speakerUrl": "https://github.com/fabiosantoscode",
+        "title": "A javascript to c++ transpiler!",
+        "description": "<p>A talk about an in-development javascript to c++ transpiler which currently kind of works and implements closures, numbers, objects, functions and strings.&#13;&#10;&#13;&#10;Watch it compile and run hello world, and beat node in an EPIC FIB() BENCHMARK!&#13;&#10;&#13;&#10;Be compelled by the power of tern.js to figure out what you think you&#39;re actually writing!</p>\n",
+        "milestone": "November 25th 2015",
+        "img": "https://avatars.githubusercontent.com/u/1611595?v=3",
+        "handle": "fabiosantoscode",
+        "name": "Fábio Santos"
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/tomgco",
-        "speakerUrl": "https://github.com/tomgco",
-        "title": "White water streams",
-        "description": "<p>We use streams on a daily basis when handling data with our Node.js applications, but how do they work, and more importantly, how do we keep them efficient and performant?&#13;&#10;&#13;&#10;This talk focus mainly on analysing applications that utilises streaming data, identifying bottlenecks and making improvements. Be wow&rsquo;ed by Flame{graphs,charts}, awed by benchmarks and take away some tips in writing decent stream implementations.</p>\n",
-        "milestone": "October 28th 2015",
-        "img": "https://avatars.githubusercontent.com/u/524382?v=3",
-        "handle": "tomgco",
-        "name": "Tom Gallacher"
+        "apiSpeakerUrl": "https://api.github.com/users/forbesmyester",
+        "speakerUrl": "https://github.com/forbesmyester",
+        "title": "Short Talk on DB DiaYAML",
+        "description": "<p>Hi LNUG,&#13;&#10;&#13;&#10;I&#39;d like to do a short talk on DB DiaYAML, which is a journey-to-work and weekend project for drawing simple database diagrams. It&#39;s not particularly a serious project but it scratches an itch I had and has a nice MVP feel to it. There&#39;s a blog post about it at <a href=\"http://keyboardwritescode.blogspot.co.uk/2015/07/weekend-project-db-diayaml.html\">http://keyboardwritescode.blogspot.co.uk/2015/07/weekend-project-db-diayaml.html</a> </p>\n",
+        "milestone": "November 25th 2015",
+        "img": "https://avatars.githubusercontent.com/u/3470771?v=3",
+        "handle": "forbesmyester",
+        "name": "Matt Forrester"
     }
 ]

@@ -8,6 +8,7 @@ var async = require('async');
 
 var archive = require('../data/archive.json');
 
+var nextEvent = require('../lib/next-event');
 var makeArchive = require('../lib/archive');
 var isReady = require('../lib/talk-is-ready');
 var modelTalk = require('../lib/model-talk');
@@ -23,7 +24,16 @@ superagent
       throw error;
     }
 
-    var acceptedTalks = data.body.filter(isReady).map(modelTalk);
+
+    var readyTalks = data.body.filter(isReady);
+
+    var nextEventDate = nextEvent(readyTalks);
+
+    function isNextEvent(talk) {
+      return (talk.milestone.title === nextEventDate);
+    }
+
+    var acceptedTalks = readyTalks.filter(isNextEvent).map(modelTalk);
 
     async.map(acceptedTalks, getSpeakerDetails, function(err, completeAcceptedTalks) {
 
