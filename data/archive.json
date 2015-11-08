@@ -1,5 +1,25 @@
 [
     {
+        "date": "November 2015",
+        "speakers": [
+            {
+                "name": "Ben Hall",
+                "url": "https://github.com/BenHall",
+                "title": "Scaling Node.js using Docker"
+            },
+            {
+                "name": "Fábio Santos",
+                "url": "https://github.com/fabiosantoscode",
+                "title": "A javascript to c++ transpiler!"
+            },
+            {
+                "name": "Matt Forrester",
+                "url": "https://github.com/forbesmyester",
+                "title": "Short Talk on DB DiaYAML"
+            }
+        ]
+    },
+    {
         "date": "October 2015",
         "speakers": [
             {

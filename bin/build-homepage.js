@@ -9,7 +9,7 @@
 var sizlate = require('sizlate');
 var fs = require('fs');
 var data = require('../data/this-month.json');
-var nextEvent = require('../lib/next-event');
+var nextEvent = require('../lib/next-event-from-file');
 var titoLink = require('../lib/tito-link');
 
 var indexTemplate = fs.readFileSync('./templates/index.html', 'utf8');
