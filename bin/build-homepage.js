@@ -14,6 +14,8 @@ var titoLink = require('../lib/tito-link');
 
 var indexTemplate = fs.readFileSync('./templates/index.html', 'utf8');
 var speakerTemplate = fs.readFileSync('./templates/speaker.html', 'utf8');
+var sponsorsTemplate = fs.readFileSync('./sponsors.html', 'utf8');
+var cocTemplate = fs.readFileSync('./code-of-conduct.html', 'utf8');
 
 /**
  * Turns speaker object into selector object to be used by sizlate.
@@ -48,4 +50,12 @@ var out = sizlate.doRender(indexTemplate, {
   }
 });
 
+var out_sponsors = sizlate.doRender(sponsorsTemplate, {
+  '.lnug-nextmeetup': nextEvent(),
+  '#lnug-tkt': {
+      href: titoLink()
+  }
+});
+
 fs.writeFileSync('./index.html', out, 'utf8');
+fs.writeFileSync('./sponsors.html', out_sponsors, 'utf8');
