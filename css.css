@@ -92,6 +92,7 @@ html body .lnug-section p {
 
 }
 
+
 .lnug-content h1 p, .lnug-content h1 {
   margin-left: 20px;
 }
@@ -150,6 +151,10 @@ html body .lnug-section p {
   font-size: 26px;
   color: rgb(206, 208, 194);
   font-weight: 300;
+}
+
+.lnug-code-of-conduct{
+  padding-left: 30px;
 }
 
 .lnug-footer {
