@@ -175,3 +175,31 @@ html body .lnug-section p {
 .lnug-footer-text a {
   color: rgba(255,255,255,0.4);
 }
+
+/* Sponsorship Styles */
+
+.lnug-sponsor-logo-gold {
+  max-width: 172px;
+}
+.lnug-sponsor-logo-silver {
+  max-width: 164px;
+}
+.lnug-sponsor-logo-bronze {
+  max-width: 132px;
+}
+.lnug-sponsor-logo-community {
+  max-width: 124px;
+}
+
+.lnug-sponsor-heading {
+  color: rgb(196, 200, 175);
+  font-size: 36px;
+  height: 50px;
+  width: 100%;
+}
+
+.lnug-sponosr-desc {
+  font-size: 16px;
+  color: black;
+  font-weight: 300;
+}
