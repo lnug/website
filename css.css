@@ -52,7 +52,6 @@ html, body {
 }
 #lnug-tkt {
   color:rgba(190,213,46,0.8);
-
 }
 
 .lnug-nextevent {
@@ -178,17 +177,9 @@ html body .lnug-section p {
 
 /* Sponsorship Styles */
 
-.lnug-sponsor-logo-gold {
-  max-width: 172px;
-}
-.lnug-sponsor-logo-silver {
-  max-width: 164px;
-}
-.lnug-sponsor-logo-bronze {
-  max-width: 132px;
-}
-.lnug-sponsor-logo-community {
-  max-width: 124px;
+.lnug-sposor-card {
+  padding: 15px 0;
+  border-bottom: 1px rgb(240, 240, 240) solid;
 }
 
 .lnug-sponsor-heading {
@@ -202,4 +193,24 @@ html body .lnug-section p {
   font-size: 16px;
   color: black;
   font-weight: 300;
+}
+
+.lnug-sponsor-logo {
+  text-align: center;
+}
+.lnug-sponsor-logo-gold {
+  max-width: 196px;
+}
+.lnug-sponsor-logo-silver {
+  max-width: 164px;
+}
+.lnug-sponsor-logo-bronze {
+  max-width: 124px;
+}
+.lnug-sponsor-logo-community {
+  max-width: 96px;
+}
+
+.lnug-sponsor-info {
+  margin-bottom: 20px;
 }
