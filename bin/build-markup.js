@@ -88,7 +88,7 @@ var spec = {
     spec: {
       '.markdown': {
         component: 'empty',
-        data: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/related-meetups/master/README.md')
+        data: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/resources/master/sponsors.md')
       }
     }
   },
