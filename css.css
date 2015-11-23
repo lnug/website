@@ -52,7 +52,6 @@ html, body {
 }
 #lnug-tkt {
   color:rgba(190,213,46,0.8);
-
 }
 
 .lnug-nextevent {
@@ -91,6 +90,7 @@ html body .lnug-section p {
 .lnug-content {
 
 }
+
 
 .lnug-content h1 p, .lnug-content h1 {
   margin-left: 20px;
@@ -152,6 +152,10 @@ html body .lnug-section p {
   font-weight: 300;
 }
 
+.lnug-code-of-conduct{
+  padding-left: 30px;
+}
+
 .lnug-footer {
   background: rgb(83, 85, 74);
   height: 80px;
@@ -169,4 +173,46 @@ html body .lnug-section p {
 
 .lnug-footer-text a {
   color: rgba(255,255,255,0.4);
+}
+
+/* Sponsorship Styles */
+
+.lnug-sponsor-card {
+  padding: 15px 0;
+  border-bottom: 1px rgb(240, 240, 240) solid;
+}
+
+.lnug-sponsor-heading {
+  color: rgb(196, 200, 175);
+  font-size: 36px;
+  height: 50px;
+  width: 100%;
+}
+
+.lnug-sponosr-desc {
+  font-size: 16px;
+  color: black;
+  font-weight: 300;
+}
+
+.lnug-sponsor-logo {
+  text-align: center;
+  padding: 20px;
+}
+
+.lnug-sponsor-logo-gold {
+  max-width: 196px;
+}
+.lnug-sponsor-logo-silver {
+  max-width: 164px;
+}
+.lnug-sponsor-logo-bronze {
+  max-width: 124px;
+}
+.lnug-sponsor-logo-community {
+  max-width: 96px;
+}
+
+.lnug-sponsor-info {
+  margin-bottom: 20px;
 }
