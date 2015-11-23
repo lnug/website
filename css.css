@@ -177,7 +177,7 @@ html body .lnug-section p {
 
 /* Sponsorship Styles */
 
-.lnug-sposor-card {
+.lnug-sponsor-card {
   padding: 15px 0;
   border-bottom: 1px rgb(240, 240, 240) solid;
 }
@@ -197,7 +197,9 @@ html body .lnug-section p {
 
 .lnug-sponsor-logo {
   text-align: center;
+  padding: 20px;
 }
+
 .lnug-sponsor-logo-gold {
   max-width: 196px;
 }
