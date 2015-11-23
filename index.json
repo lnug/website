@@ -4,8 +4,15 @@
         ".lnug-ticket": {
             "component": "ticket",
             "data": {
-                ".lnug-nextmeetup": "12th October 2014",
-                ".venue": "Royal Albert Hall"
+                ".lnug-nextmeetup": "November 25th 2015",
+                ".venue": "Stack Exchange",
+                "address": "168-172 Bentima House<br />Old Street<br />London<br />EC1V 9BP",
+                ".address a": {
+                    "href": "https://www.google.co.uk/maps/search/168-172 Bentima House, Old Street, London, EC1V 9BP"
+                },
+                "a.cta": {
+                    "href": "https://ti.to/lnug/november-2015"
+                }
             }
         },
         ".map": {

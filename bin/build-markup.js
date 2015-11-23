@@ -2,9 +2,12 @@
 
 'use strict';
 
+var nextEvent = require('../lib/next-event-from-file');
+var speclate = require('speclate');
+var generateMaps = require('../lib/generate-maps');
+var titoLink = require('../lib/tito-link');
 
-
-var eventDate = '12th October 2014';
+var eventDate = nextEvent();
 var venue =  {
     title: 'Stack Exchange',
     address: [
@@ -32,14 +35,6 @@ var venue =  {
 };
 
 
-
-
-var speclate = require('speclate');
-
-var generateMaps = require('../lib/generate-maps');
-
-
-
 var spec = {
   '/index.html': {
     page: 'home',
@@ -48,7 +43,14 @@ var spec = {
         component: 'ticket',
         data: {
           '.lnug-nextmeetup': eventDate,
-          '.venue': 'Royal Albert Hall'
+          '.venue': venue.title,
+          'address': venue.address.join('<br />'),
+          '.address a': {
+              href: 'https://www.google.co.uk/maps/search/' + venue.address.join(', ')
+          },
+          'a.cta': {
+              'href': titoLink()
+          }
         }
       },
       '.map': {
@@ -56,7 +58,7 @@ var spec = {
         data: {}
       },
       '.lnug-content': {
-    component: 'speaker',
+          component: 'speaker',
         data: require('../lib/speaker-selectors')
       },
       '.lnug-mailing-list': {
@@ -112,82 +114,7 @@ var spec = {
       }
     }
   }
-
 };
 
 generateMaps(venue.location);
-
 speclate.generate(spec);
-
-
-
-
-
-//
-// /**
-//  * Adds speaker details to the index page.
-//  */
-//
-// var sizlate = require('sizlate');
-// var fs = require('fs');
-// var data = require('../data/this-month.json');
-// var nextEvent = require('../lib/next-event-from-file');
-// var titoLink = require('../lib/tito-link');
-//
-// var indexTemplate = fs.readFileSync('./templates/index.html', 'utf8');
-// var speakerTemplate = fs.readFileSync('./templates/speaker.html', 'utf8');
-// var sponsorsTemplate = fs.readFileSync('./sponsors.html', 'utf8');
-// var cocContent = fs.readFileSync('./code-of-conduct-content.html', 'utf8');
-//
-// /**
-//  * Turns speaker object into selector object to be used by sizlate.
-//  * @param  {Object} speaker Speaker take from ./js/data.json
-//  * @return {Object}         Sizlate selector object.
-//  */
-// function speakerSelectors(speaker) {
-//   return {
-//     '.name': speaker.name,
-//     '.title': speaker.title,
-//     '.desc': speaker.description,
-//     img: {
-//       src: speaker.img
-//     },
-//     '.lnug-twitterhandle a': {
-//       innerHTML: '@' + speaker.handle,
-//       href: 'https://github.com/' + speaker.handle
-//     }
-//   };
-// }
-//
-// var speakers = data.map(function(speaker) {
-//   var selectors = speakerSelectors(speaker);
-//   return sizlate.doRender(speakerTemplate, selectors);
-// });
-// var nextEventDate = nextEvent();
-// var out = sizlate.doRender(indexTemplate, {
-//   '.lnug-nextmeetup': nextEvent(),
-//   '.lnug-content': speakers.join(' '),
-//   '#lnug-tkt': {
-//       href: titoLink()
-//   }
-// });
-//
-// var out_sponsors = sizlate.doRender(sponsorsTemplate, {
-//   '.lnug-nextmeetup': nextEvent(),
-//   '#lnug-tkt': {
-//       href: titoLink()
-//   }
-// });
-//
-// var out_coc = sizlate.doRender(indexTemplate, {
-//   '.lnug-nextmeetup': nextEvent(),
-//   '.lnug-content': cocContent,
-//   '.talk-label': 'Code of conduct at LNUG events',
-//   '#lnug-tkt': {
-//       href: titoLink()
-//   }
-// });
-//
-// fs.writeFileSync('./index.html', out, 'utf8');
-// fs.writeFileSync('./sponsors.html', out_sponsors, 'utf8');
-// fs.writeFileSync('./code-of-conduct.html', out_coc, 'utf8');
