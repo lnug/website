@@ -53,10 +53,6 @@ var spec = {
           }
         }
       },
-      '.map': {
-        component: 'map',
-        data: {}
-      },
       '.lnug-content': {
           component: 'speaker',
         data: require('../lib/speaker-selectors')

@@ -15,10 +15,6 @@
                 }
             }
         },
-        ".map": {
-            "component": "map",
-            "data": {}
-        },
         ".lnug-content": {
             "component": "speaker",
             "data": [
