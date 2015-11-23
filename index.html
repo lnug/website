@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml" manifest="/speclate123.appcache">
+ <!-- manifest="/speclate.appcache" -->
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>LNUG - London Node User Group</title>
   <meta name="description" content="London Node.js User Group is a meetup for developers but everyone is welcome. We meet every month to talk about Node, Javascript and to network">
+  
   <!-- og  + meta data -->
   <meta property="og:title" content="LNUG - London Node User Group">
   <meta property="og:type" content="website">
@@ -19,127 +22,156 @@
   <meta name="twitter:image" content="http://i.imgur.com/BBVehHB.png">
   <meta name="twitter:url" content="http://www.lnug.org">
   <meta name="google-site-verification" content="gnZ_Oz6_k7Gv93jmtpCeY6Rjz6E_rjh_1n5dlYgMcJw">
-  <script src="//code.jquery.com/jquery.min.js"></script>
-  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="css.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-2845245-14', 'auto');
-    ga('send', 'pageview');
-  </script>
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="./images/favicon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./images/favicon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./images/favicon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./images/favicon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="./images/favicon/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="./images/favicon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="./images/favicon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="./images/favicon/apple-touch-icon-152x152.png">
+  <link rel="icon" type="image/png" href="./images/favicon/favicon-196x196.png" sizes="196x196">
+  <link rel="icon" type="image/png" href="./images/favicon/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="./images/favicon/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="./images/favicon/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="./images/favicon/favicon-128.png" sizes="128x128">
+  <meta name="application-name" content="&nbsp;">
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+  <meta name="msapplication-TileImage" content="./images/favicon/mstile-144x144.png">
+  <meta name="msapplication-square70x70logo" content="./images/favicon/mstile-70x70.png">
+  <meta name="msapplication-square150x150logo" content="./images/favicon/mstile-150x150.png">
+  <meta name="msapplication-wide310x150logo" content="./images/favicon/mstile-310x150.png">
+  <meta name="msapplication-square310x310logo" content="./images/favicon/mstile-310x310.png">
+  <meta name="theme-color" content="#46483D">
+
+  <link rel="stylesheet" href="./css.css">
 </head>
 <body>
-  <div class="container">
+  <header>
+    <div class="container">
+      <a href="./index.html">
+      <object class="header-logo" data="images/lnug-logo.svg" type="image/svg+xml"></object>
+      </a>
+  
+      <nav class="header-menu">
+        <a href="./speak.html">Speak</a>
+        <a href="./sponsor.html">Sponsor</a>
+        <a href="./contact.html">Contact</a>
+      </nav>      
+    </div>
+  </header>
 
-    <div class="row">
-      <div class="col-xs-12 lnug-hero">
-        <div class="lnug-header img-responsive"></div>
-        <div class="lnug-headline text-center">
-          <h1>A meetup hosted monthly in London, LNUG is for people who use Node.js for fun or profit.</h1>
-        </div>
-        <div class="row">
-          <div class="lnug-menu col-lg-12">
-            <div class="lnug-menu-textblock col-lg-8 col-lg-offset-2">
-              <div class="lnug-menu-text col-xs-12 col-lg-3"><a href="/">This month</a></div>
-              <div class="lnug-menu-text col-xs-12 col-lg-3"><a id="lnug-tkt" href="https://ti.to/lnug/november-2015" target="_blank">Free Tickets</a></div>
-              <div class="lnug-menu-text col-xs-12 col-lg-3"><a href="https://gitter.im/lnug/discuss" target="_blank">Discuss</a></div>
-              <div class="lnug-menu-text col-xs-12 col-lg-3"><a href="/sponsors">Sponsors</a></div>
-            </div>
-          </div>
-        </div>
-        <div class="lnug-nextevent">
-          <div class="text-center">
-            <p>Next meetup: <span class="lnug-nextmeetup">November 25th 2015</span></p>
-          </div>
-        </div>
+  <div id="container"><div class="map-holder">
+  <div class="lnug-ticket"><div class="box split">
+  <div class="inner">
+    <h1>Next meetup - <span class="lnug-nextmeetup">12th October 2014</span></h1>
+    <div class="info clearfix">
+      <div class="wp desc">A friendly monthly meetup for people using Node.js for fun or profit.</div>
+      <div class="wp">Start<h2>7:00</h2>pm</div>
+      <div class="wp address">
+        <a href="https://www.google.co.uk/maps/place/London+EC1V+9BP/@51.5251346,-0.0907117,17z/data=!3m1!4b1!4m2!3m1!1s0x48761ca885072c25:0x72e05218b2259c62?hl=en" target="_blank"><strong>Stack Exchange</strong><br>
+             168-172 Bentima House<br>
+              Old Street<br>
+              London EC1V 9BP</a>
       </div>
     </div>
+  </div>
+</div>
 
-    <div class="row">
-      <div class="row lnug-sectiondesc">
-        <div class="col-xs-12 col-md-8 text-center talk-label ">Talks</div>
-        <div class="col-xs-12 col-md-4 text-center sponsor-label hidden-xs hidden-sm">Tweets</div>
-      </div>
-
-      <div class="col-xs-12 col-md-8 col-lg-8 lnug-content"><div class="row lnug-singlespeaker">
-  <div class="col-xs-4 col-md-4 text-center lnug-speakerphoto">
-    <img class="img-circle" alt="140x140" style="width: 140px; height: 140px;" src="https://avatars.githubusercontent.com/u/82614?v=3">
-  </div>
-  <div class="col-xs-8 col-md-8 lnug-speakercard">
-    <div class="col-xs-12 lnug-speakername name">Ben Hall</div>
-    <div class="col-xs-12 lnug-talktitle title">Scaling Node.js using Docker</div>
-    <div class="col-xs-12 lnug-talkdesc desc"><p>With great load comes great scaling responsibility. If we need to scale then hopefully it means we&#39;re doing something right. The problem is how to scale without increasing complexity and re-writing the application.&#13;&#10;&#13;&#10;In this talk, Ben will discuss how he scales Katacoda.com, an online learning platform for developers. Ben will show how to deploy Node.js applications with Docker. Once deployed, Ben will highlight how to scale the processes and take advantage of container based deployments.</p>
-</div>
-    <div class="col-xs-12 lnug-twitterhandle">
-      <a href="https://github.com/BenHall">@BenHall</a>
-      </div>
-  </div>
-</div> <div class="row lnug-singlespeaker">
-  <div class="col-xs-4 col-md-4 text-center lnug-speakerphoto">
-    <img class="img-circle" alt="140x140" style="width: 140px; height: 140px;" src="https://avatars.githubusercontent.com/u/1611595?v=3">
-  </div>
-  <div class="col-xs-8 col-md-8 lnug-speakercard">
-    <div class="col-xs-12 lnug-speakername name">Fábio Santos</div>
-    <div class="col-xs-12 lnug-talktitle title">A javascript to c++ transpiler!</div>
-    <div class="col-xs-12 lnug-talkdesc desc"><p>A talk about an in-development javascript to c++ transpiler which currently kind of works and implements closures, numbers, objects, functions and strings.&#13;&#10;&#13;&#10;Watch it compile and run hello world, and beat node in an EPIC FIB() BENCHMARK!&#13;&#10;&#13;&#10;Be compelled by the power of tern.js to figure out what you think you&#39;re actually writing!</p>
-</div>
-    <div class="col-xs-12 lnug-twitterhandle">
-      <a href="https://github.com/fabiosantoscode">@fabiosantoscode</a>
-      </div>
-  </div>
-</div> <div class="row lnug-singlespeaker">
-  <div class="col-xs-4 col-md-4 text-center lnug-speakerphoto">
-    <img class="img-circle" alt="140x140" style="width: 140px; height: 140px;" src="https://avatars.githubusercontent.com/u/3470771?v=3">
-  </div>
-  <div class="col-xs-8 col-md-8 lnug-speakercard">
-    <div class="col-xs-12 lnug-speakername name">Matt Forrester</div>
-    <div class="col-xs-12 lnug-talktitle title">MVP Diagrams that can do things</div>
-    <div class="col-xs-12 lnug-talkdesc desc"><p>A short talk on DB DiaYAML, which is a journey-to-work and weekend project for drawing simple database diagrams. It&#39;s not particularly a serious project but it scratches an itch I had and has a nice MVP feel to it. There&#39;s a blog post about it at <a href="http://keyboardwritescode.blogspot.co.uk/2015/07/weekend-project-db-diayaml.html">http://keyboardwritescode.blogspot.co.uk/2015/07/weekend-project-db-diayaml.html</a> </p>
-</div>
-    <div class="col-xs-12 lnug-twitterhandle">
-      <a href="https://github.com/forbesmyester">@forbesmyester</a>
-      </div>
-  </div>
+<div class="total clearfix ticket split">
+  <a id="lnug-tkt" class="buy cta" href="https://ti.to/lnug/august-2015" target="_blank">Free Ticket</a>
 </div></div>
+  <div class="map"><!-- <div id="map" style="background:url(http://maps.googleapis.com/maps/api/staticmap?size=1000x200&key=AIzaSyC6RI2RdQ4YQJunBCKsiHOm4tsyb3plqg4&markers=EC1V9BP&center=51.5241333,-0.0960868&scale=2)"></div> -->
+<!-- <img id="map" src="http://maps.googleapis.com/maps/api/staticmap?size=1000x200&key=AIzaSyC6RI2RdQ4YQJunBCKsiHOm4tsyb3plqg4&markers=EC1V9BP&center=51.5241333,-0.0960868&scale=2&style:element:labels|visibility:off" /> -->
+<!-- <img id="map" src="https://api.mapbox.com/v4/mapbox.emerald/-0.0960868,51.5241333,17/1280x300@2x.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6IlhHVkZmaW8ifQ.hAMX5hSW-QnTeRCMAy9A8Q" /> -->
+</div>
+</div>
 
-      <div class="col-xs-12 col-md-4 col-lg-4 lnug-sidebar text-center">
-        <div class="twitter-widget">
-          <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/LNUGorg" data-widget-id="568413083740422144">@LNUGORG</a>
-          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-        </div>
-      </div>
+<div class="container">
 
-      <div class="row">
-        <div class="col-xs-12 lnug-footer">
-          <ul class="lnug-footer-text">
-            <li><a href="//github.com/lnug/speak" target="_blank" title="speakers application">Apply to Speak</a></li>
-            <li><a href="http://nexttick.us8.list-manage.com/subscribe?u=9ebd291b0179eceff6533b0da&amp;id=f7e81cdb7a" target="_blank" title="The monthly newsletter">Newsletter</a></li>
-            <li><a href="mailto:contact@lnug.org?Subject=LNUG+site+question">Contact Us</a></li>
-            <li><a href="code-of-conduct" title="code-of-conduct">Code of Conduct</a></li>
-            <li><a href="archive">Archive</a></li>
-          </ul>
-          <ul class="lnug-footer-text">
-            <li>LNUG 2015 - THE nodejs meetup in London</li>
-          </ul>
-        </div>
-      </div>
-    </div>
+  <h1>Talks</h1>
+  <ul class="lnug-content"><li class="row lnug-talk">
+  <h2 class="title">Scaling Node.js using Docker</h2>
+  <div>
+    <img class="img-circle avatar" alt="Speaker image" src="https://avatars.githubusercontent.com/u/82614?v=3">
+    <span class="name">Ben Hall</span>
   </div>
+  <div class="desc"><p>With great load comes great scaling responsibility. If we need to scale then hopefully it means we&#39;re doing something right. The problem is how to scale without increasing complexity and re-writing the application.&#13;&#10;&#13;&#10;In this talk, Ben will discuss how he scales Katacoda.com, an online learning platform for developers. Ben will show how to deploy Node.js applications with Docker. Once deployed, Ben will highlight how to scale the processes and take advantage of container based deployments.</p>
+</div>
+</li>
+<li class="row lnug-talk">
+  <h2 class="title">A javascript to c++ transpiler!</h2>
+  <div>
+    <img class="img-circle avatar" alt="Speaker image" src="https://avatars.githubusercontent.com/u/1611595?v=3">
+    <span class="name">Fábio Santos</span>
+  </div>
+  <div class="desc"><p>A talk about an in-development javascript to c++ transpiler which currently kind of works and implements closures, numbers, objects, functions and strings.&#13;&#10;&#13;&#10;Watch it compile and run hello world, and beat node in an EPIC FIB() BENCHMARK!&#13;&#10;&#13;&#10;Be compelled by the power of tern.js to figure out what you think you&#39;re actually writing!</p>
+</div>
+</li>
+<li class="row lnug-talk">
+  <h2 class="title">MVP Diagrams that can do things</h2>
+  <div>
+    <img class="img-circle avatar" alt="Speaker image" src="https://avatars.githubusercontent.com/u/3470771?v=3">
+    <span class="name">Matt Forrester</span>
+  </div>
+  <div class="desc"><p>A short talk on DB DiaYAML, which is a journey-to-work and weekend project for drawing simple database diagrams. It&#39;s not particularly a serious project but it scratches an itch I had and has a nice MVP feel to it. There&#39;s a blog post about it at <a href="http://keyboardwritescode.blogspot.co.uk/2015/07/weekend-project-db-diayaml.html">http://keyboardwritescode.blogspot.co.uk/2015/07/weekend-project-db-diayaml.html</a> </p>
+</div>
+</li>
+</ul>
+
+  <div class="lnug-mailing-list"><form id="mc-embedded-subscribe-form" action="//enhanceconf.us10.list-manage.com/subscribe/post?u=51dfdc2ed16b49dcad396dd73&amp;id=e8e09541e1" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate="" class="validate">
+	<div id="mc_embed_signup_scroll">
+	  Stay in touch
+
+	  <input id="mce-EMAIL" type="email" value="" name="EMAIL" placeholder="email address" required class="email">
+	  <input id="mc-embedded-subscribe" type="submit" value="Subscribe" name="subscribe" class="button cta"><!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+	  <div style="position: absolute; left: -5000px;">
+	    <input type="text" name="b_51dfdc2ed16b49dcad396dd73_e8e09541e1" tabindex="-1" value="">
+	  </div>
+	</div>
+</form></div>
+
+  <p class="secondary-title">sponsored by</p>
+  <div class="sponsors">
+    <a href="http://www.stackoverflow.com" target="_blank" title="Stackoverflow homepage, proud sponsor of LNUG">
+      <img src="./images/sponsors/stackoverflow.jpg" alt="Stackoverflow">
+    </a><a href="http://www.nexttick.io" target="_blank" title="Nexttick homepage, proud sponsor of LNUG">
+      <img src="./images/sponsors/nexttick.jpg" alt="Nexttick">
+    </a><a href="https://www.braintreepayments.com/" target="_blank" title="BrainTree Payments homepage, proud sponsor of LNUG">
+      <img src="./images/sponsors/braintree.png" alt="BrainTree Payments">
+    </a><a href="http://www.opentable.com/" target="_blank" title="Open Table homepage, proud sponsor of LNUG">
+      <img src="./images/sponsors/opentable.jpg" alt="Open Table">
+    </a><a href="http://www.yld.io" target="_blank" title="YLD homepage, proud sponsor of LNUG">
+      <img src="./images/sponsors/yld.jpg" alt="YLD">
+    </a><a href="http://www.artificial.io" target="_blank" title="Artificial homepage, proud sponsor of LNUG">
+      <img src="./images/sponsors/artificial-labs.jpg" alt="Artificial Labs">
+    </a>
+  </div>
+</div>
+</div>
+
+  <footer>
+    <div class="container">
+      <object class="footer-logo" data="images/lnug-logo-monochrome.svg" type="image/svg+xml"></object>
+      <ul class="footer-links">
+        <li><a href="./related-meetups.html" title="related meetups">Related Meetups</a></li>
+        <li><a href="./archive.html" title="archive">Archive</a></li>
+        <li><a href="./code-of-conduct.html" title="Code of conduct">Code of Conduct</a></li>
+      </ul>
+    </div> 
+  </footer>
 </body>
 
 <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet" type="text/css">
-  <script>
-  !function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(
-    arguments)};d=s.createElement(q);q=s.getElementsByTagName(q)[0];
-    d.src='//d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.
-    insertBefore(d,q)}(window,document,'script','_gs');
 
-    _gs('GSN-057421-B');
-  </script>
+<script>
+
+  !function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(
+  arguments)};d=s.createElement(q);q=s.getElementsByTagName(q)[0];
+  d.src='//d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.
+  insertBefore(d,q)}(window,document,'script','_gs');
+
+  _gs('GSN-057421-B');
+</script>
 </html>

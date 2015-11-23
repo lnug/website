@@ -2,5 +2,8 @@
 **.DS_Store
 node_modules
 
+
 # Users Environment Variables
 .lock-wscript
+
+npm-debug.log
