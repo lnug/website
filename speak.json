@@ -1,0 +1,11 @@
+{
+    "page": "empty",
+    "spec": {
+        ".markdown": {
+            "component": "empty",
+            "data": {
+                "div": "<h1 id=\"lnug-talks\">LNUG Talks</h1>\n<p>A repo for organising talk proposals and discussing talks with speakers</p>\n<h2 id=\"talk-format\">Talk Format</h2>\n<ul>\n<li>Each event has 3 speaker slots available.  </li>\n<li>Each talk is allocated 20 minutes, however, this can be altered on a per-case basis.</li>\n<li>Talks are recorded and posted onto the LNUG <a href=\"https://www.youtube.com/channel/UC-qjgj2TnRoI1ZmFFaN3FeQ\">Youtube</a> channel.  * Your permission is implied.</li>\n</ul>\n<h2 id=\"how\">How</h2>\n<p>Its simple. <a href=\"https://github.com/lnug/speakers/issues/new\">Open an issue</a> to submit a talk.  </p>\n<p>Please structure the issue as following:</p>\n<ul>\n<li>Title: [Talk Title]</li>\n<li>Body: [Abstract of your talk]</li>\n</ul>\n<p>If you are looking for feedback on your talk or have additional question, reply to your issue with  <strong>extra comments</strong> stating your questions but please keep them off the body of the original issue text itself</p>\n<h3 id=\"please-conform-to-the-issue-structure-so-that-we-can-use-the-api-to-automate-some-of-the-event-admin-\">Please conform to the issue structure so that we can use the api to automate some of the event admin.</h3>\n<h2 id=\"confirmation\">Confirmation</h2>\n<ul>\n<li>Once your issue is assigned a milestone, it has been approved and confirmed.  </li>\n<li>Check the milestone date for confirmation of the event date.</li>\n</ul>\n<h2 id=\"after-the-event\">After the event</h2>\n<p>Please tweet a url to your slides and put the link in your proposal as a comment.</p>\n<p>Thanks,</p>\n<p>&lt;3 LNUGorg team</p>\n<p><a href=\"https://gitter.im/lnug/discuss\"><img src=\"https://badges.gitter.im/gitterHQ/gitter.png\" alt=\"Gitter chat\"></a></p>\n"
+            }
+        }
+    }
+}
