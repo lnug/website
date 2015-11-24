@@ -6,7 +6,12 @@ var nextEvent = require('../lib/next-event-from-file');
 var speclate = require('speclate');
 var generateMaps = require('../lib/generate-maps');
 var titoLink = require('../lib/tito-link');
+var sponsorSelectors = require('../lib/sponsors-selectors');
 
+// these three should really be handled by speclate.
+var fs = require('fs');
+var sizlate = require('sizlate');
+var sponsorsTemplate = fs.readFileSync('./components/sponsor/sponsor.html');
 var eventDate = nextEvent();
 var venue =  {
     title: 'Stack Exchange',
@@ -34,7 +39,50 @@ var venue =  {
     }
 };
 
-
+var sponsors = {
+    gold: [
+        {
+            url: 'https://www.braintreepayments.com/',
+            name: 'BrainTree Payments',
+            img: './public/braintree.png'
+        },
+        {
+            url: 'https://stackoverflow.com/',
+            name: 'Stack Overflow',
+            img: './public/stackoverflow.jpg'
+        },
+        {
+            url: 'https://strongloop.com/',
+            name: 'Strongloop',
+            img: './public/strongloop.png'
+        },
+        {
+            url: 'http://yld.io',
+            name: 'YLD!',
+            img: './public/yld.jpg'
+        }
+    ],
+    silver: [
+        {
+            url: 'https://artificial.io/',
+            name: 'artificial labs',
+            img: './public/artificial-labs.jpg'
+        },
+        {
+            url: 'https://jscrambler.com/',
+            name: 'JScrambler',
+            img: './public/jscramble.png'
+        }
+    ],
+    bronze: [],
+    community: [
+        {
+            url: 'http://nexttick.io',
+            name: 'Nexttick',
+            img: './public/nexttick.jpg'
+        }
+    ]
+}
 var spec = {
   '/index.html': {
     page: 'home',
@@ -84,32 +132,56 @@ var spec = {
     }
   },
   '/sponsor.html': {
-    page: 'empty',
-    spec: {
-      '.markdown': {
-        component: 'empty',
-        data: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/resources/master/sponsors.md')
-      }
-    }
+      page: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/resources/master/sponsors.md'),
+    //   spec: {
+    //     '.gold-sponsor': {
+    //         component: 'sponsor',
+    //         data: sponsorSelectors(sponsors.gold)
+    //     },
+    //     '.silver-sponsor': {
+    //         component: 'sponsor',
+    //         data: sponsorSelectors(sponsors.silver)
+    //     },
+    //     '.bronze-sponsor': {
+    //         component: 'sponsor',
+    //         data: sponsorSelectors(sponsors.bronze)
+    //     },
+    //     // '.community-sponsor': {
+    //     //     component: 'sponsor',
+    //     //     data: sponsorSelectors(sponsors.community)
+    //     // }
+    //   }
+    //
+    // spec: {
+    //   '.markdown': {
+    //     component: 'empty',
+    //     data: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/resources/master/sponsors.md', {
+    //         '.gold-sponsor': sizlate.render(sponsorsTemplate, sponsorSelectors(sponsors.gold)),
+    //         '.silver-sponsor': sizlate.render(sponsorsTemplate, sponsorSelectors(sponsors.silver)),
+    //         '.bronze-sponsor': sizlate.render(sponsorsTemplate, sponsorSelectors(sponsors.bronze)),
+    //         '.community-sponsor': sizlate.render(sponsorsTemplate, sponsorSelectors(sponsors.community)),
+    //     })
+    //   }
+    // }
   },
-  '/contact.html': {
-    page: 'empty',
-    spec: {
-      '.markdown': {
-        component: 'empty',
-        data: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/feedback/master/ORGANISERS.md')
-      }
-    }
-  },
-  '/related-meetups.html': {
-    page: 'empty',
-    spec: {
-      '.markdown': {
-        component: 'empty',
-        data: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/related-meetups/master/README.md')
-      }
-    }
-  }
+  // '/contact.html': {
+  //   page: 'empty',
+  //   spec: {
+  //     '.markdown': {
+  //       component: 'empty',
+  //       data: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/feedback/master/ORGANISERS.md')
+  //     }
+  //   }
+  // },
+  // '/related-meetups.html': {
+  //   page: 'empty',
+  //   spec: {
+  //     '.markdown': {
+  //       component: 'empty',
+  //       data: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/related-meetups/master/README.md')
+  //     }
+  //   }
+  // }
 };
 
 generateMaps(venue.location);
