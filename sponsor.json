@@ -1,11 +1,1 @@
-{
-    "page": "empty",
-    "spec": {
-        ".markdown": {
-            "component": "empty",
-            "data": {
-                "div": "<h1 id=\"sponsor-us\">Sponsor Us</h1>\n<p>Our aim is to offer a range of sponsorship tiers to cater for everyone. If you are interesting in supporing the Node community in London, please email us for a sponsorship pack at contact@lnug.org</p>\n<h2 id=\"gold\">Gold</h2>\n<p>The goal of our Gold tier sponsorship is to build long stading partnerships with established brands who are looking to maintain a prescence in the London market.</p>\n<h2 id=\"silver\">Silver</h2>\n<p>The goal of our Silver tier sponsorship is to enable established companies ad-hoc sponsorship at the times when its a best fits their objectives.</p>\n<h2 id=\"bronze\">Bronze</h2>\n<p>The goal of our Bronze tier sponsorship is to enable local startups, who dont necessarily have the budgets of the larger enterprises to have the opportunity to build their brand.</p>\n<h2 id=\"community\">Community</h2>\n<p>The goal of our Community tier sponsorship is to reward those who consistently make significant contributions to LNUG of around 20 hours a month.</p>\n"
-            }
-        }
-    }
-}
+{}
