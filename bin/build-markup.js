@@ -8,10 +8,6 @@ var generateMaps = require('../lib/generate-maps');
 var titoLink = require('../lib/tito-link');
 var sponsorSelectors = require('../lib/sponsors-selectors');
 
-// these three should really be handled by speclate.
-var fs = require('fs');
-var sizlate = require('sizlate');
-var sponsorsTemplate = fs.readFileSync('./components/sponsor/sponsor.html');
 var eventDate = nextEvent();
 var venue =  {
     title: 'Stack Exchange',
@@ -123,13 +119,7 @@ var spec = {
     page: 'code-of-conduct'
   },
   '/speak.html': {
-    page: 'empty',
-    spec: {
-      '.markdown': {
-        component: 'empty',
-        data: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/speakers/master/README.md')
-      }
-    }
+      page: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/speakers/master/README.md')
   },
   '/sponsor.html': {
       page: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/resources/master/sponsors.md'),
@@ -164,24 +154,12 @@ var spec = {
     //   }
     // }
   },
-  // '/contact.html': {
-  //   page: 'empty',
-  //   spec: {
-  //     '.markdown': {
-  //       component: 'empty',
-  //       data: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/feedback/master/ORGANISERS.md')
-  //     }
-  //   }
-  // },
-  // '/related-meetups.html': {
-  //   page: 'empty',
-  //   spec: {
-  //     '.markdown': {
-  //       component: 'empty',
-  //       data: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/related-meetups/master/README.md')
-  //     }
-  //   }
-  // }
+  '/contact.html': {
+      page: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/feedback/master/ORGANISERS.md')
+  },
+  '/related-meetups.html': {
+    page: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/related-meetups/master/README.md')
+  }
 };
 
 generateMaps(venue.location);

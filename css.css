@@ -34,8 +34,11 @@ h1 {
   padding: 1em 0 .5em;
   font-size: 2.5em;
   color: #1D1D1D;
-  border-bottom: 1px dashed #eee;
+  border-bottom: 2px dashed #eee;
   font-family: 'Open Sans', sans-serif;
+}
+h2 {
+    border-bottom: 1px dashed #eee;
 }
 
 
@@ -43,7 +46,11 @@ h1 {
 .container {
   max-width: 1200px;
   margin: auto;
-  padding: 0 2em;
+  padding: 1em 2em;
+}
+
+#container,  #container ul {
+  padding:0 2em;
 }
 
 .split {
@@ -276,11 +283,55 @@ header, footer {
 
 
 /* Sponsors ***************************************/
-.sponsors img {
+
+ul.sponsors {
+    width: 100vp;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: ceter;
+}
+
+ul.sponsors li{
+    display: flex;
+    padding: 0.5em;
+
+}
+
+.lnug-sponsor-logo-gold {
+    max-width: 196px;
+}
+.lnug-sponsor-logo-silver {
+    max-width: 164px;
+}
+
+.lnug-sponsor-logo-community {
+    max-width: 96px;
+}
+
+.lnug-sponsor-logo-community {
+    max-width: 96px;
+}
+
+.lnug-sponsor-logo {
+    text-align: center;
+    padding: 20px;
+}
+img {
+    vertical-align: middle;
+}
+
+/*.sponsors  {
   max-width: 180px;
   width: 48%;
 }
 
+.lnug-sponsor-logo {
+    text-align: center;
+    padding: 20px;
+}
+
+.lnug-sponsor-logo-gold {
+}*/
 
 /* Footer *****************************************/
 footer {
