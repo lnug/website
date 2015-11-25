@@ -43,14 +43,16 @@ h2 {
 
 
 /* Meta classes ***********************************/
-.container {
+.container  {
   max-width: 1200px;
   margin: auto;
-  padding: 1em 2em;
+  padding: 0 2em;
 }
 
-#container,  #container ul {
-  padding:0 2em;
+#container > *,
+#container ul
+{
+  padding:1em 2em;
 }
 
 .split {

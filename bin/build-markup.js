@@ -79,6 +79,7 @@ var sponsors = {
         }
     ]
 }
+
 var spec = {
   '/index.html': {
     page: 'home',
