@@ -1,0 +1,32 @@
+[
+    {
+        "apiSpeakerUrl": "https://api.github.com/users/BenHall",
+        "speakerUrl": "https://github.com/BenHall",
+        "title": "Scaling Node.js using Docker",
+        "description": "<p>With great load comes great scaling responsibility. If we need to scale then hopefully it means we&#39;re doing something right. The problem is how to scale without increasing complexity and re-writing the application.&#13;&#10;&#13;&#10;In this talk, Ben will discuss how he scales Katacoda.com, an online learning platform for developers. Ben will show how to deploy Node.js applications with Docker. Once deployed, Ben will highlight how to scale the processes and take advantage of container based deployments.</p>\n",
+        "milestone": "November 25th 2015",
+        "img": "https://avatars.githubusercontent.com/u/82614?v=3",
+        "handle": "BenHall",
+        "name": "Ben Hall"
+    },
+    {
+        "apiSpeakerUrl": "https://api.github.com/users/fabiosantoscode",
+        "speakerUrl": "https://github.com/fabiosantoscode",
+        "title": "A javascript to c++ transpiler!",
+        "description": "<p>A talk about an in-development javascript to c++ transpiler which currently kind of works and implements closures, numbers, objects, functions and strings.&#13;&#10;&#13;&#10;Watch it compile and run hello world, and beat node in an EPIC FIB() BENCHMARK!&#13;&#10;&#13;&#10;Be compelled by the power of tern.js to figure out what you think you&#39;re actually writing!</p>\n",
+        "milestone": "November 25th 2015",
+        "img": "https://avatars.githubusercontent.com/u/1611595?v=3",
+        "handle": "fabiosantoscode",
+        "name": "Fábio Santos"
+    },
+    {
+        "apiSpeakerUrl": "https://api.github.com/users/forbesmyester",
+        "speakerUrl": "https://github.com/forbesmyester",
+        "title": "MVP Diagrams that can do things",
+        "description": "<p>A short talk on DB DiaYAML, which is a journey-to-work and weekend project for drawing simple database diagrams. It&#39;s not particularly a serious project but it scratches an itch I had and has a nice MVP feel to it. There&#39;s a blog post about it at <a href=\"http://keyboardwritescode.blogspot.co.uk/2015/07/weekend-project-db-diayaml.html\">http://keyboardwritescode.blogspot.co.uk/2015/07/weekend-project-db-diayaml.html</a> </p>\n",
+        "milestone": "November 25th 2015",
+        "img": "https://avatars.githubusercontent.com/u/3470771?v=3",
+        "handle": "forbesmyester",
+        "name": "Matt Forrester"
+    }
+]
