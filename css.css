@@ -53,7 +53,7 @@ h1 {
 }
 
 .markdown {
-  padding: 1em;
+  margin: 1em 3em;
   padding-bottom: 3em;
 }
 
@@ -208,7 +208,7 @@ h1.talks {
 }
 
 .map-holder {
-  background: url('https://api.mapbox.com/v4/mapbox.emerald/pin-m+BED52E(-0.0960868,51.5241333)/-0.0960868,51.5258033,17/700x700.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6IlhHVkZmaW8ifQ.hAMX5hSW-QnTeRCMAy9A8Q');
+  background: url('/images/maps/thin.png');
   height: 700px;
   background-position: center;
   min-width: 300px;
@@ -388,7 +388,7 @@ footer {
     height: 300px;
     padding-bottom: 0px;
     margin-right: 50%;
-    background-image: url('https://api.mapbox.com/v4/mapbox.emerald/pin-m+BED52E(-0.0960868,51.5241333,17)/-0.0998068,51.5241333,17/1280x400.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6IlhHVkZmaW8ifQ.hAMX5hSW-QnTeRCMAy9A8Q');
+    background-image: url('/images/maps/wide.png');
     max-width: 1280px;
     padding: auto 20%;
     background-position: right;
