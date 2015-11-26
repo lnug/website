@@ -1,5 +1,20 @@
 [
     {
+        "date": "January 2016",
+        "speakers": [
+            {
+                "name": "Hugo",
+                "url": "https://github.com/HugoDF",
+                "title": "Going cross-platform with React: ~1 codebase, 3 platforms"
+            },
+            {
+                "name": "Phil Nash",
+                "url": "https://github.com/philnash",
+                "title": "2FA, WTF?"
+            }
+        ]
+    },
+    {
         "date": "November 2015",
         "speakers": [
             {

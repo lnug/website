@@ -24,35 +24,21 @@ a, a:hover, a:link, a:active {
   color: inherit;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-}
-
 h1 {
   margin:0;
   padding: 1em 0 .5em;
   font-size: 2.5em;
   color: #1D1D1D;
-  border-bottom: 2px dashed #eee;
+  border-bottom: 1px dashed #eee;
   font-family: 'Open Sans', sans-serif;
-}
-h2 {
-    border-bottom: 1px dashed #eee;
 }
 
 
 /* Meta classes ***********************************/
-.container  {
+.container {
   max-width: 1200px;
   margin: auto;
   padding: 0 2em;
-}
-
-#container > *,
-#container ul
-{
-  padding:1em 2em;
 }
 
 .split {
@@ -70,6 +56,7 @@ h2 {
 }
 
 .markdown {
+  padding: 1em;
   padding-bottom: 3em;
 }
 
@@ -216,7 +203,7 @@ header, footer {
 }
 
 .map-holder {
-  background: url('/images/maps/thin.png');
+  background: url('https://api.mapbox.com/v4/mapbox.emerald/pin-m+BED52E(-0.0960868,51.5241333)/-0.0960868,51.5258033,17/700x700.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6IlhHVkZmaW8ifQ.hAMX5hSW-QnTeRCMAy9A8Q');
   height: 700px;
   background-position: center;
   min-width: 300px;
@@ -285,7 +272,6 @@ header, footer {
 
 
 /* Sponsors ***************************************/
-
 ul.sponsors {
     width: 100vp;
     display: flex;
@@ -321,19 +307,6 @@ ul.sponsors li{
 img {
     vertical-align: middle;
 }
-
-/*.sponsors  {
-  max-width: 180px;
-  width: 48%;
-}
-
-.lnug-sponsor-logo {
-    text-align: center;
-    padding: 20px;
-}
-
-.lnug-sponsor-logo-gold {
-}*/
 
 /* Footer *****************************************/
 footer {
@@ -410,7 +383,7 @@ footer {
     height: 300px;
     padding-bottom: 0px;
     margin-right: 50%;
-    background-image: url('/images/maps/wide.png');
+    background-image: url('https://api.mapbox.com/v4/mapbox.emerald/pin-m+BED52E(-0.0960868,51.5241333,17)/-0.0998068,51.5241333,17/1280x400.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6IlhHVkZmaW8ifQ.hAMX5hSW-QnTeRCMAy9A8Q');
     max-width: 1280px;
     padding: auto 20%;
     background-position: right;
