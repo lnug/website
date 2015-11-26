@@ -88,6 +88,10 @@ header, footer {
 
 
 /* Map ********************************************/
+
+h1.talks {
+    padding-top: 1.5em;
+}
 .lnug-ticket {
   min-width: 200px;
   text-align: center;
