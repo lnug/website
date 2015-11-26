@@ -18,5 +18,11 @@
         "img": "https://avatars.githubusercontent.com/u/31462?v=3",
         "handle": "philnash",
         "name": "Phil Nash"
+    },
+    {
+        "title": "Slot available",
+        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
+        "img": "/images/favicon/favicon-128.png",
+        "milestone": "January 27th 2016"
     }
 ]

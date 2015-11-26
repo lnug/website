@@ -20,6 +20,7 @@ var venue =  {
     location: {
         lat: '51.5241333',
         long: '-0.0960868',
+        scale: 17,
         wide: {
             long: '-0.0998068',
             lat: '51.5241333',
@@ -30,6 +31,27 @@ var venue =  {
             long: '-0.0960868',
             lat: '51.5258033',
             scale: '17',
+            size: '700x700.png'
+        }
+    }
+};
+
+
+var venue =  {
+    title: 'Unknown',
+    address: [
+    ],
+    location: {
+        wide: {
+            lat: '51.5241333',
+            scale: 11,
+            long: '-0.0960868',
+            size: '1280x400.png'
+        },
+        thin: {
+            lat: '51.5741333',
+            long: '-0.0960868',
+            scale: 11,
             size: '700x700.png'
         }
     }

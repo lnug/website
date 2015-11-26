@@ -5,10 +5,10 @@
             "component": "ticket",
             "data": {
                 ".lnug-nextmeetup": "January 27th 2016",
-                ".venue": "Stack Exchange",
-                "address": "168-172 Bentima House<br />Old Street<br />London<br />EC1V 9BP",
+                ".venue": "Unknown",
+                "address": "",
                 ".address a": {
-                    "href": "https://www.google.co.uk/maps/search/168-172 Bentima House, Old Street, London, EC1V 9BP"
+                    "href": "https://www.google.co.uk/maps/search/"
                 },
                 "a.cta": {
                     "href": "https://ti.to/lnug/january-2016"
@@ -40,6 +40,17 @@
                     ".lnug-twitterhandle a": {
                         "innerHTML": "@philnash",
                         "href": "https://github.com/philnash"
+                    }
+                },
+                {
+                    ".title": "Slot available",
+                    ".desc": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
+                    "img": {
+                        "src": "/images/favicon/favicon-128.png"
+                    },
+                    ".lnug-twitterhandle a": {
+                        "innerHTML": "@undefined",
+                        "href": "https://github.com/undefined"
                     }
                 }
             ]

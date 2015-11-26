@@ -41,6 +41,14 @@ superagent
         throw err;
       }
 
+      while(completeAcceptedTalks.length < 3) {
+        completeAcceptedTalks.push({
+            title: 'Slot available',
+            description: 'This slot is still available, help us out: <a href="/speak.html">Submit a talk proposal</a>.',
+            img: '/images/favicon/favicon-128.png',
+            milestone: completeAcceptedTalks[0].milestone
+        });
+      }
       fs.writeFile('./data/this-month.json', JSON.stringify(completeAcceptedTalks, null, 4), function() {
         console.log('Data file has been updated');
       });
