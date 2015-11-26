@@ -27,15 +27,12 @@
     "lodash": "^3.10.0",
     "marked": "^0.3.3",
     "moment": "^2.10.3",
-    "sizlate": "^0.9.0",
+    "sizlate": "^1.0.0",
     "superagent": "^1.3.0",
-    "node-html-encoder": "0.0.2"
+    "node-html-encoder": "0.0.2",
+    "speclate": "^2.0.0"
   },
   "dependencies": {
-    "marked": "^0.3.5",
-    "moment": "^2.10.6",
-    "serve-me": "^0.8.2",
-    "speclate": "^1.2.0",
-    "superagent": "^1.4.0"
+    "serve-me": "^0.8.2"
   }
 }

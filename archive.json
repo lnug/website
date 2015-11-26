@@ -5,6 +5,10 @@
             "component": "archive",
             "data": [
                 {
+                    ".date": "January 2016",
+                    ".speakers": "<li>Going cross-platform with React: ~1 codebase, 3 platforms -  <a href=\"https://github.com/HugoDF\">Hugo</a> </li> <li>2FA, WTF? -  <a href=\"https://github.com/philnash\">Phil Nash</a> </li>"
+                },
+                {
                     ".date": "November 2015",
                     ".speakers": "<li>Scaling Node.js using Docker -  <a href=\"https://github.com/BenHall\">Ben Hall</a> </li> <li>A javascript to c++ transpiler! -  <a href=\"https://github.com/fabiosantoscode\">Fábio Santos</a> </li> <li>MVP Diagrams that can do things -  <a href=\"https://github.com/forbesmyester\">Matt Forrester</a> </li>"
                 },
