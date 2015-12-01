@@ -54,6 +54,10 @@ h1 {
 
 .markdown {
   margin: 1em 3em;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 2em;
+
   padding-bottom: 3em;
 }
 
