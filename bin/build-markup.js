@@ -2,8 +2,9 @@
 
 'use strict';
 
-var nextEvent = require('../lib/next-event-from-file');
 var speclate = require('speclate');
+
+var nextEvent = require('../lib/next-event-from-file');
 var generateMaps = require('../lib/generate-maps');
 var titoLink = require('../lib/tito-link');
 var sponsorSelectors = require('../lib/sponsors-selectors');
