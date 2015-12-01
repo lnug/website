@@ -123,7 +123,7 @@ h1.talks {
   min-height:100px;
   max-width: 40em;
   background-color: #ffffff;
-  background-image: url(http://www.transparenttextures.com/patterns/groovepaper.png);
+  background-image: url(/images/texture.png);
   float: right;
   padding:8px;
 }
