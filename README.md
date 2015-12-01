@@ -1,11 +1,10 @@
-lnug.org
-
 
 The London Node User Group Website
 
+http://lnug.org
+
 
 # Install
-
 
 
 How to run
@@ -14,15 +13,14 @@ You can serve this with *any* static web server, but we'll use [mongoose](https:
 
 1. `git clone git@github.com:lnug/lnug.github.io.git`
 2. `cd lnug.github.io`
-3. `brew install mongoose`
-4. `npm start`
-5. go to http://localhost:8080
-
+3. `npm install`
+4. `npm run build`
+3. `npm start`
+4. go to http://localhost:5001
 
 #Update
 
-
-This site can be updated by running
+This site can be updated by running:
 
 ```
   npm run build
