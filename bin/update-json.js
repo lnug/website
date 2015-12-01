@@ -44,15 +44,17 @@ superagent
       while(completeAcceptedTalks.length < 3) {
         completeAcceptedTalks.push({
             title: 'Slot available',
+            name: 'Submit your talk!',
             description: 'This slot is still available, help us out: <a href="/speak.html">Submit a talk proposal</a>.',
             img: '/images/favicon/favicon-128.png',
+            speakerUrl: '/speak.html',
             milestone: completeAcceptedTalks[0].milestone
         });
       }
       fs.writeFile('./data/this-month.json', JSON.stringify(completeAcceptedTalks, null, 4), function() {
         console.log('Data file has been updated');
       });
-      console.log('-->', JSON.stringify(completeAcceptedTalks, null, 4));
+
       var newArchive = makeArchive(completeAcceptedTalks, archive);
 
       fs.writeFile('./data/archive.json', JSON.stringify(newArchive, null, 4), function() {
