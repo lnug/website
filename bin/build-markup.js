@@ -1,15 +1,16 @@
 #!/usr/bin/env node
 
-'use strict';
+'use strict'
 
-var speclate = require('speclate');
+var speclate = require('speclate')
 
-var nextEvent = require('../lib/next-event-from-file');
-var generateMaps = require('../lib/generate-maps');
-var titoLink = require('../lib/tito-link');
-var sponsorSelectors = require('../lib/sponsors-selectors');
+var nextEvent = require('../lib/next-event-from-file')
+var generateMaps = require('../lib/generate-maps')
+var titoLink = require('../lib/tito-link')
 
-var eventDate = nextEvent();
+//  var sponsorSelectors = require('../lib/sponsors-selectors')
+
+var eventDate = nextEvent()
 
 // commenting out becuase this gets overriden below. This needs to get moved into separate files so it can be easily switched out.
 
@@ -40,26 +41,26 @@ var eventDate = nextEvent();
 //     }
 // };
 
-var venue =  {
-    title: '',
-    address: [
-    ],
-    detail: 'Venue - Unknown <hr /> Could your company host LNUG? <a href="mailto:contact@lnug.com">contact@lnug.com</a>',
-    location: {
-        wide: {
-            lat: '51.5021333',
-            scale: 11,
-            long: '-0.0960868',
-            size: '1280x400.png'
-        },
-        thin: {
-            lat: '51.5741333',
-            long: '-0.0960868',
-            scale: 11,
-            size: '700x700.png'
-        }
+var venue = {
+  title: '',
+  address: [
+  ],
+  detail: 'Venue - Unknown <hr /> Could your company host LNUG? <a href="mailto:contact@lnug.com">contact@lnug.com</a>',
+  location: {
+    wide: {
+      lat: '51.5021333',
+      scale: 11,
+      long: '-0.0960868',
+      size: '1280x400.png'
+    },
+    thin: {
+      lat: '51.5741333',
+      long: '-0.0960868',
+      scale: 11,
+      size: '700x700.png'
     }
-};
+  }
+}
 
 // not in use yet.
 // var sponsors = {
@@ -120,15 +121,15 @@ var spec = {
 
           'address': venue.address.join('<br />'),
           '.address a': {
-              href: 'https://www.google.co.uk/maps/search/' + venue.address.join(', ')
+            href: 'https://www.google.co.uk/maps/search/' + venue.address.join(', ')
           },
           'a.cta': {
-              'href': titoLink()
+            'href': titoLink()
           }
         }
       },
       '.lnug-content': {
-          component: 'speaker',
+        component: 'speaker',
         data: require('../lib/speaker-selectors')
       },
       '.lnug-mailing-list': {
@@ -149,10 +150,10 @@ var spec = {
     page: 'code-of-conduct'
   },
   '/speak.html': {
-      page: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/speakers/master/README.md')
+    page: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/speakers/master/README.md')
   },
   '/sponsor.html': {
-      page: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/resources/master/sponsors.md'),
+    page: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/resources/master/sponsors.md')
     // there is a bug in speclate which needs fixing to get this working, for the time being sponsors are hard coded in the markdown file.
     //   spec: {
     //     '.gold-sponsor': {
@@ -174,12 +175,12 @@ var spec = {
     //   }
   },
   '/contact.html': {
-      page: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/feedback/master/ORGANISERS.md')
+    page: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/feedback/master/ORGANISERS.md')
   },
   '/related-meetups.html': {
     page: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/related-meetups/master/README.md')
   }
-};
+}
 
-generateMaps(venue.location);
-speclate.generate(spec);
+generateMaps(venue.location)
+speclate.generate(spec)
