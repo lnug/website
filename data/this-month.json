@@ -21,8 +21,10 @@
     },
     {
         "title": "Slot available",
+        "name": "Submit your talk!",
         "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
         "img": "/images/favicon/favicon-128.png",
+        "speakerUrl": "/speak.html",
         "milestone": "January 27th 2016"
     }
 ]
