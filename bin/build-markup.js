@@ -36,14 +36,14 @@ var venue =  {
     }
 };
 
-
 var venue =  {
-    title: 'Unknown',
+    title: '',
     address: [
     ],
+    detail: 'Venue - Unknown <hr /> Could your company host LNUG? <a href="mailto:contact@lnug.com">contact@lnug.com</a>',
     location: {
         wide: {
-            lat: '51.5241333',
+            lat: '51.5021333',
             scale: 11,
             long: '-0.0960868',
             size: '1280x400.png'
@@ -57,50 +57,51 @@ var venue =  {
     }
 };
 
-var sponsors = {
-    gold: [
-        {
-            url: 'https://www.braintreepayments.com/',
-            name: 'BrainTree Payments',
-            img: './public/braintree.png'
-        },
-        {
-            url: 'https://stackoverflow.com/',
-            name: 'Stack Overflow',
-            img: './public/stackoverflow.jpg'
-        },
-        {
-            url: 'https://strongloop.com/',
-            name: 'Strongloop',
-            img: './public/strongloop.png'
-        },
-        {
-            url: 'http://yld.io',
-            name: 'YLD!',
-            img: './public/yld.jpg'
-        }
-    ],
-    silver: [
-        {
-            url: 'https://artificial.io/',
-            name: 'artificial labs',
-            img: './public/artificial-labs.jpg'
-        },
-        {
-            url: 'https://jscrambler.com/',
-            name: 'JScrambler',
-            img: './public/jscramble.png'
-        }
-    ],
-    bronze: [],
-    community: [
-        {
-            url: 'http://nexttick.io',
-            name: 'Nexttick',
-            img: './public/nexttick.jpg'
-        }
-    ]
-}
+// not in use yet.
+// var sponsors = {
+//     gold: [
+//         {
+//             url: 'https://www.braintreepayments.com/',
+//             name: 'BrainTree Payments',
+//             img: './public/braintree.png'
+//         },
+//         {
+//             url: 'https://stackoverflow.com/',
+//             name: 'Stack Overflow',
+//             img: './public/stackoverflow.jpg'
+//         },
+//         {
+//             url: 'https://strongloop.com/',
+//             name: 'Strongloop',
+//             img: './public/strongloop.png'
+//         },
+//         {
+//             url: 'http://yld.io',
+//             name: 'YLD!',
+//             img: './public/yld.jpg'
+//         }
+//     ],
+//     silver: [
+//         {
+//             url: 'https://artificial.io/',
+//             name: 'artificial labs',
+//             img: './public/artificial-labs.jpg'
+//         },
+//         {
+//             url: 'https://jscrambler.com/',
+//             name: 'JScrambler',
+//             img: './public/jscramble.png'
+//         }
+//     ],
+//     bronze: [],
+//     community: [
+//         {
+//             url: 'http://nexttick.io',
+//             name: 'Nexttick',
+//             img: './public/nexttick.jpg'
+//         }
+//     ]
+// }
 
 var spec = {
   '/index.html': {
@@ -111,6 +112,8 @@ var spec = {
         data: {
           '.lnug-nextmeetup': eventDate,
           '.venue': venue.title,
+          '.detail': venue.detail,
+
           'address': venue.address.join('<br />'),
           '.address a': {
               href: 'https://www.google.co.uk/maps/search/' + venue.address.join(', ')
@@ -146,6 +149,7 @@ var spec = {
   },
   '/sponsor.html': {
       page: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/resources/master/sponsors.md'),
+    // there is a bug in speclate which needs fixing to get this working, for the time being sponsors are hard coded in the markdown file.
     //   spec: {
     //     '.gold-sponsor': {
     //         component: 'sponsor',
@@ -164,18 +168,6 @@ var spec = {
     //     //     data: sponsorSelectors(sponsors.community)
     //     // }
     //   }
-    //
-    // spec: {
-    //   '.markdown': {
-    //     component: 'empty',
-    //     data: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/resources/master/sponsors.md', {
-    //         '.gold-sponsor': sizlate.render(sponsorsTemplate, sponsorSelectors(sponsors.gold)),
-    //         '.silver-sponsor': sizlate.render(sponsorsTemplate, sponsorSelectors(sponsors.silver)),
-    //         '.bronze-sponsor': sizlate.render(sponsorsTemplate, sponsorSelectors(sponsors.bronze)),
-    //         '.community-sponsor': sizlate.render(sponsorsTemplate, sponsorSelectors(sponsors.community)),
-    //     })
-    //   }
-    // }
   },
   '/contact.html': {
       page: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/feedback/master/ORGANISERS.md')

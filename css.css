@@ -164,6 +164,10 @@ h1.talks {
   border-top: 1px solid #F7F3F3;
 }
 
+.total.ticket {
+    display: none;
+}
+
 .ticket {
   text-align: center;
   display: block;
@@ -362,6 +366,7 @@ footer {
   }
   .info .wp.address {
     text-align: right;
+    width: 50%;
     float: right;
   }
 }
@@ -418,7 +423,7 @@ footer {
   }
 
   .lnug-talk .title {
-    height: 3em;
+    min-height: 3em;
   }
 }
 

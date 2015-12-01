@@ -5,7 +5,8 @@
             "component": "ticket",
             "data": {
                 ".lnug-nextmeetup": "January 27th 2016",
-                ".venue": "Unknown",
+                ".venue": "",
+                ".detail": "Venue - Unknown <hr /> Could your company host LNUG? <a href=\"mailto:contact@lnug.com\">contact@lnug.com</a>",
                 "address": "",
                 ".address a": {
                     "href": "https://www.google.co.uk/maps/search/"
