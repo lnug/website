@@ -1,32 +1,30 @@
 [
     {
-        "apiSpeakerUrl": "https://api.github.com/users/BenHall",
-        "speakerUrl": "https://github.com/BenHall",
-        "title": "Scaling Node.js using Docker",
-        "description": "<p>With great load comes great scaling responsibility. If we need to scale then hopefully it means we&#39;re doing something right. The problem is how to scale without increasing complexity and re-writing the application.&#13;&#10;&#13;&#10;In this talk, Ben will discuss how he scales Katacoda.com, an online learning platform for developers. Ben will show how to deploy Node.js applications with Docker. Once deployed, Ben will highlight how to scale the processes and take advantage of container based deployments.</p>\n",
-        "milestone": "November 25th 2015",
-        "img": "https://avatars.githubusercontent.com/u/82614?v=3",
-        "handle": "BenHall",
-        "name": "Ben Hall"
+        "apiSpeakerUrl": "https://api.github.com/users/HugoDF",
+        "speakerUrl": "https://github.com/HugoDF",
+        "title": "Going cross-platform with React: ~1 codebase, 3 platforms",
+        "description": "<p>What&#39;s the fastest way to ship a Web, iOS and Android app?&#13;&#10;&#13;&#10;React Native goes beyond making native apps with web technology. You use javascript (granted that&#39;s a web technology) to make a fully fledged React app, using native components.&#13;&#10;&#13;&#10;It&#39;s more than leveraging the power of the (state) =&gt; (UI) mapping of React. It&#39;s about code reuse. Being this DRY hurts. All the high-level logic is portable and you have <strong>one</strong> single codebase for all three target platforms. &#13;&#10;&#13;&#10;All of this is free, as long as you embrace React.</p>\n",
+        "milestone": "January 27th 2016",
+        "img": "https://avatars.githubusercontent.com/u/6459679?v=3",
+        "handle": "HugoDF",
+        "name": "Hugo"
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/fabiosantoscode",
-        "speakerUrl": "https://github.com/fabiosantoscode",
-        "title": "A javascript to c++ transpiler!",
-        "description": "<p>A talk about an in-development javascript to c++ transpiler which currently kind of works and implements closures, numbers, objects, functions and strings.&#13;&#10;&#13;&#10;Watch it compile and run hello world, and beat node in an EPIC FIB() BENCHMARK!&#13;&#10;&#13;&#10;Be compelled by the power of tern.js to figure out what you think you&#39;re actually writing!</p>\n",
-        "milestone": "November 25th 2015",
-        "img": "https://avatars.githubusercontent.com/u/1611595?v=3",
-        "handle": "fabiosantoscode",
-        "name": "Fábio Santos"
+        "apiSpeakerUrl": "https://api.github.com/users/philnash",
+        "speakerUrl": "https://github.com/philnash",
+        "title": "2FA, WTF?",
+        "description": "<p>Everyone is hacking everything. Everything is vulnerable. Your site, your users, even you. Are you worried about this? You should be!&#13;&#10;&#13;&#10;Don&#39;t worry, I&#39;m not trying to scare you (that much). We have plenty of safeguards against attempts on our applications&#39; user data. We all (hopefully) recognise Two Factor Auth as one of those safeguards, but what actually goes on under the hood of 2FA?&#13;&#10;&#13;&#10;We&#39;ll take a look into generating one time passwords in JavaScript, implementing 2FA in Node.js applications and the only real life compelling use case for QR codes. Together, we&#39;ll make the web a more secure place.</p>\n",
+        "milestone": "January 27th 2016",
+        "img": "https://avatars.githubusercontent.com/u/31462?v=3",
+        "handle": "philnash",
+        "name": "Phil Nash"
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/forbesmyester",
-        "speakerUrl": "https://github.com/forbesmyester",
-        "title": "MVP Diagrams that can do things",
-        "description": "<p>A short talk on DB DiaYAML, which is a journey-to-work and weekend project for drawing simple database diagrams. It&#39;s not particularly a serious project but it scratches an itch I had and has a nice MVP feel to it. There&#39;s a blog post about it at <a href=\"http://keyboardwritescode.blogspot.co.uk/2015/07/weekend-project-db-diayaml.html\">http://keyboardwritescode.blogspot.co.uk/2015/07/weekend-project-db-diayaml.html</a> </p>\n",
-        "milestone": "November 25th 2015",
-        "img": "https://avatars.githubusercontent.com/u/3470771?v=3",
-        "handle": "forbesmyester",
-        "name": "Matt Forrester"
+        "title": "Slot available",
+        "name": "Submit your talk!",
+        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
+        "img": "/images/favicon/favicon-128.png",
+        "speakerUrl": "/speak.html",
+        "milestone": "January 27th 2016"
     }
 ]

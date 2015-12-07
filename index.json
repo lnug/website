@@ -1,0 +1,64 @@
+{
+    "page": "home",
+    "spec": {
+        ".lnug-ticket": {
+            "component": "ticket",
+            "data": {
+                ".lnug-nextmeetup": "January 27th 2016",
+                ".venue": "",
+                ".detail": "Venue - Unknown <hr /> Could your company host LNUG? <a href=\"mailto:contact@lnug.com\">contact@lnug.com</a>",
+                "address": "",
+                ".address a": {
+                    "href": "https://www.google.co.uk/maps/search/"
+                },
+                "a.cta": {
+                    "href": "https://ti.to/lnug/january-2016"
+                }
+            }
+        },
+        ".lnug-content": {
+            "component": "speaker",
+            "data": [
+                {
+                    ".name": "Hugo",
+                    ".title": "Going cross-platform with React: ~1 codebase, 3 platforms",
+                    ".desc": "<p>What&#39;s the fastest way to ship a Web, iOS and Android app?&#13;&#10;&#13;&#10;React Native goes beyond making native apps with web technology. You use javascript (granted that&#39;s a web technology) to make a fully fledged React app, using native components.&#13;&#10;&#13;&#10;It&#39;s more than leveraging the power of the (state) =&gt; (UI) mapping of React. It&#39;s about code reuse. Being this DRY hurts. All the high-level logic is portable and you have <strong>one</strong> single codebase for all three target platforms. &#13;&#10;&#13;&#10;All of this is free, as long as you embrace React.</p>\n",
+                    "img": {
+                        "src": "https://avatars.githubusercontent.com/u/6459679?v=3"
+                    },
+                    ".lnug-twitterhandle a": {
+                        "innerHTML": "@HugoDF",
+                        "href": "https://github.com/HugoDF"
+                    }
+                },
+                {
+                    ".name": "Phil Nash",
+                    ".title": "2FA, WTF?",
+                    ".desc": "<p>Everyone is hacking everything. Everything is vulnerable. Your site, your users, even you. Are you worried about this? You should be!&#13;&#10;&#13;&#10;Don&#39;t worry, I&#39;m not trying to scare you (that much). We have plenty of safeguards against attempts on our applications&#39; user data. We all (hopefully) recognise Two Factor Auth as one of those safeguards, but what actually goes on under the hood of 2FA?&#13;&#10;&#13;&#10;We&#39;ll take a look into generating one time passwords in JavaScript, implementing 2FA in Node.js applications and the only real life compelling use case for QR codes. Together, we&#39;ll make the web a more secure place.</p>\n",
+                    "img": {
+                        "src": "https://avatars.githubusercontent.com/u/31462?v=3"
+                    },
+                    ".lnug-twitterhandle a": {
+                        "innerHTML": "@philnash",
+                        "href": "https://github.com/philnash"
+                    }
+                },
+                {
+                    ".name": "Submit your talk!",
+                    ".title": "Slot available",
+                    ".desc": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
+                    "img": {
+                        "src": "/images/favicon/favicon-128.png"
+                    },
+                    ".lnug-twitterhandle a": {
+                        "innerHTML": "@undefined",
+                        "href": "https://github.com/undefined"
+                    }
+                }
+            ]
+        },
+        ".lnug-mailing-list": {
+            "component": "sign-up"
+        }
+    }
+}

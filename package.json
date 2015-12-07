@@ -4,12 +4,11 @@
   "description": "lnug.github.io",
   "main": "build.js",
   "scripts": {
-    "test": "mocha --recursive test",
+    "test": "standard && mocha --recursive test",
     "update": "./bin/update-json.js",
-    "homepage": "./bin/build-homepage.js",
-    "archive": "./bin/build-archive.js",
-    "start": "mongoose .",
-    "build": "npm run update && npm run homepage && npm run archive"
+    "build-markup": "./bin/build-markup.js",
+    "start": "./bin/server.js",
+    "build": "npm run update && npm run build-markup"
   },
   "repository": {
     "type": "git",
@@ -28,8 +27,13 @@
     "lodash": "^3.10.0",
     "marked": "^0.3.3",
     "moment": "^2.10.3",
-    "sizlate": "^0.9.0",
-    "superagent": "^1.3.0",
-    "node-html-encoder": "0.0.2"
+    "node-html-encoder": "0.0.2",
+    "sizlate": "^1.0.0",
+    "speclate": "^2.0.0",
+    "standard": "^5.4.1",
+    "superagent": "^1.3.0"
+  },
+  "dependencies": {
+    "serve-me": "^0.8.2"
   }
 }
