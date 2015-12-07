@@ -3,6 +3,7 @@ The London Node User Group Website
 
 http://lnug.org
 
+![Supporting 24PullRequests](https://img.shields.io/badge/Supporting-24PullRequests-red.svg)
 
 # Install
 
