@@ -214,6 +214,9 @@ h1.talks {
   max-width: 10em;
   /* width: 40em; */
 }
+.cta:hover {
+  cursor: pointer;
+}
 
 .map-holder {
   background: url('/images/maps/thin.png');
