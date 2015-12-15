@@ -93,7 +93,6 @@ header a, footer a {
 
 
 /* Map ********************************************/
-
 h1.talks {
     padding-top: 1.5em;
 }
@@ -232,6 +231,11 @@ h1.talks {
 
 
 /* Talks ******************************************/
+ul.lnug-content {
+  margin: 0;
+  padding: 0;
+}
+
 .lnug-talk {
   width: auto;
   text-align: left;
@@ -260,11 +264,12 @@ h1.talks {
 
 /* Mailing list ***********************************/
 .lnug-mailing-list {
-  font-size: 1.4em;
   padding: .6em 0;
-  vertical-align: middle;
   border-top: 1px dashed #eee;
   border-bottom: 1px dashed #eee;
+  margin-bottom: 2em;
+  font-size: 1.4em;
+  vertical-align: middle;
 }
 .lnug-mailing-list p {
   color: white;
@@ -289,40 +294,34 @@ h1.talks {
 
 /* Sponsors ***************************************/
 ul.sponsors {
-    width: 100vp;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: ceter;
+  margin: 0;
+  padding: 0;
 }
 
-ul.sponsors li{
-    display: flex;
-    padding: 0.5em;
-
+ul.sponsors li {
+  display: inline-block;
+  width: 48%;
 }
 
-.lnug-sponsor-logo-gold {
-    max-width: 196px;
-}
-.lnug-sponsor-logo-silver {
-    max-width: 164px;
+ul.sponsors a, ul.sponsors img {
+  width: 100%;
 }
 
-.lnug-sponsor-logo-community {
-    max-width: 96px;
+.gold-sponsor li {
+  max-width: 196px;
+}
+.silver-sponsor li {
+  max-width: 164px;
+}
+.bronze-sponsor li {
+  max-width: 96px;
+}
+.community-sponsor li {
+  max-width: 96px;
 }
 
-.lnug-sponsor-logo-community {
-    max-width: 96px;
-}
 
-.lnug-sponsor-logo {
-    text-align: center;
-    padding: 20px;
-}
-img {
-    vertical-align: middle;
-}
+
 
 /* Footer *****************************************/
 footer {
