@@ -45,17 +45,17 @@ var venue = {
   title: '',
   address: [
   ],
-  detail: 'Venue - Unknown <hr /> Could your company host LNUG? <a href="mailto:contact@lnug.com">contact@lnug.com</a>',
+  detail: 'Venue - Makers Academy <hr /> 50 - 52 Commercial St <br>  London E1 6LT',
   location: {
     wide: {
-      lat: '51.5021333',
+      lat: '51.517320',
       scale: 11,
-      long: '-0.0960868',
+      long: '-0.073281',
       size: '1280x400.png'
     },
     thin: {
-      lat: '51.5741333',
-      long: '-0.0960868',
+      lat: '51.517320',
+      long: '-0.073281',
       scale: 11,
       size: '700x700.png'
     }
