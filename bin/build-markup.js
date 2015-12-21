@@ -14,32 +14,53 @@ var eventDate = nextEvent()
 
 // commenting out becuase this gets overriden below. This needs to get moved into separate files so it can be easily switched out.
 
-// var venue =  {
-//     title: 'Stack Exchange',
-//     address: [
-//         '168-172 Bentima House',
-//         'Old Street',
-//         'London',
-//         'EC1V 9BP'
-//     ],
-//     location: {
-//         lat: '51.5241333',
-//         long: '-0.0960868',
-//         scale: 17,
-//         wide: {
-//             long: '-0.0998068',
-//             lat: '51.5241333',
-//             scale: '17',
-//             size: '1280x400.png'
-//         },
-//         thin: {
-//             long: '-0.0960868',
-//             lat: '51.5258033',
-//             scale: '17',
-//             size: '700x700.png'
-//         }
-//     }
-// };
+ //var venue =  {
+ //    title: 'Stack Exchange',
+ //    address: [
+ //        '168-172 Bentima House',
+ //        'Old Street',
+ //        'London',
+ //        'EC1V 9BP'
+ //    ],
+ //    location: {
+ //        lat: '51.5241333',
+ //        long: '-0.0960868',
+ //        scale: 17,
+ //        wide: {
+ //            long: '-0.0998068',
+ //            lat: '51.5241333',
+ //            scale: '17',
+ //            size: '1280x400.png'
+ //        },
+ //        thin: {
+ //            long: '-0.0960868',
+ //            lat: '51.5258033',
+ //            scale: '17',
+ //            size: '700x700.png'
+ //        }
+ //    }
+ //};
+
+//var venue = {
+//  title: '',
+//  address: [
+//  ],
+//  detail: 'Venue - Unknown <hr /> Could your company host LNUG? <a href="mailto:contact@lnug.com">contact@lnug.com</a>',
+//  location: {
+//    wide: {
+//      lat: '51.5021333',
+//      scale: 11,
+//      long: '-0.0960868',
+//      size: '1280x400.png'
+//    },
+//    thin: {
+//      lat: '51.5741333',
+//      long: '-0.0960868',
+//      scale: 11,
+//      size: '700x700.png'
+//    }
+//  }
+//}
 
 var venue = {
   title: '',
