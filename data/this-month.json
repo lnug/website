@@ -1,5 +1,15 @@
 [
     {
+        "apiSpeakerUrl": "https://api.github.com/users/hxoliverrumbelow",
+        "speakerUrl": "https://github.com/hxoliverrumbelow",
+        "title": "NodeJS Supercomputing?!",
+        "description": "<p>Join me in a wild adventure to take a computationally heavy single-use NodeJS application and automagically scale it across many cores and many servers in the hunt for lazy performance. Disclaimer: This is all for fun, games and science.</p>\n",
+        "milestone": "January 27th 2016",
+        "img": "https://avatars.githubusercontent.com/u/3088374?v=3",
+        "handle": "hxoliverrumbelow",
+        "name": "Oliver Rumbelow"
+    },
+    {
         "apiSpeakerUrl": "https://api.github.com/users/HugoDF",
         "speakerUrl": "https://github.com/HugoDF",
         "title": "Going cross-platform with React: ~1 codebase, 3 platforms",
@@ -18,13 +28,5 @@
         "img": "https://avatars.githubusercontent.com/u/31462?v=3",
         "handle": "philnash",
         "name": "Phil Nash"
-    },
-    {
-        "title": "Slot available",
-        "name": "Submit your talk!",
-        "description": "<p>This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.</p>\n",
-        "img": "/images/favicon/favicon-128.png",
-        "speakerUrl": "/speak.html",
-        "milestone": "January 27th 2016"
     }
 ]

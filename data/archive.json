@@ -3,6 +3,11 @@
         "date": "January 2016",
         "speakers": [
             {
+                "name": "Oliver Rumbelow",
+                "url": "https://github.com/hxoliverrumbelow",
+                "title": "NodeJS Supercomputing?!"
+            },
+            {
                 "name": "Hugo",
                 "url": "https://github.com/HugoDF",
                 "title": "Going cross-platform with React: ~1 codebase, 3 platforms"
@@ -11,11 +16,6 @@
                 "name": "Phil Nash",
                 "url": "https://github.com/philnash",
                 "title": "2FA, WTF?"
-            },
-            {
-                "name": "Submit your talk!",
-                "url": "/speak.html",
-                "title": "Slot available"
             }
         ]
     },
