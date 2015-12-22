@@ -10,88 +10,10 @@ var titoLink = require('../lib/tito-link')
 
 //  var sponsorSelectors = require('../lib/sponsors-selectors')
 
-var venues = require('../data/venue.json')
-
-// select the relevant venue from the available choices
-var venue = venues[2];
+var venue = require('../data/venues/makers.json')
 
 var eventDate = nextEvent()
-
 // commenting out becuase this gets overriden below. This needs to get moved into separate files so it can be easily switched out.
-
- //var venue =  {
- //    title: 'Stack Exchange',
- //    address: [
- //        '168-172 Bentima House',
- //        'Old Street',
- //        'London',
- //        'EC1V 9BP'
- //    ],
- //    location: {
- //        lat: '51.5241333',
- //        long: '-0.0960868',
- //        scale: 17,
- //        wide: {
- //            long: '-0.0998068',
- //            lat: '51.5241333',
- //            scale: '17',
- //            size: '1280x400.png'
- //        },
- //        thin: {
- //            long: '-0.0960868',
- //            lat: '51.5258033',
- //            scale: '17',
- //            size: '700x700.png'
- //        }
- //    }
- //};
-
-//var venue = {
-//  title: '',
-//  address: [
-//  ],
-//  detail: 'Venue - Unknown <hr /> Could your company host LNUG? <a href="mailto:contact@lnug.com">contact@lnug.com</a>',
-//  location: {
-//    wide: {
-//      lat: '51.5021333',
-//      scale: 11,
-//      long: '-0.0960868',
-//      size: '1280x400.png'
-//    },
-//    thin: {
-//      lat: '51.5741333',
-//      long: '-0.0960868',
-//      scale: 11,
-//      size: '700x700.png'
-//    }
-//  }
-//}
-
-//var venue = {
-//  title: 'Makers Academy',
-//  address: [
-//    '50 - 52 Commercial St',
-//    'London E1 6LT'
-//  ],
-//  //detail: 'Venue - Makers Academy <hr /> 50 - 52 Commercial St <br>  London E1 6LT',
-//  location: {
-//    lat: '51.517320',
-//    long: '-0.073281',
-//    scale: 17.5,
-//    wide: {
-//      lat: '51.517320',
-//      long: '-0.073281',
-//      scale: 17.5,
-//      size: '1280x400.png'
-//    },
-//    thin: {
-//      lat: '51.517320',
-//      long: '-0.073281',
-//      scale: 17.5,
-//      size: '700x700.png'
-//    }
-//  }
-//}
 
 // not in use yet.
 // var sponsors = {

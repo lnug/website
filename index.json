@@ -19,6 +19,18 @@
             "component": "speaker",
             "data": [
                 {
+                    ".name": "Oliver Rumbelow",
+                    ".title": "NodeJS Supercomputing?!",
+                    ".desc": "<p>Join me in a wild adventure to take a computationally heavy single-use NodeJS application and automagically scale it across many cores and many servers in the hunt for lazy performance. Disclaimer: This is all for fun, games and science.</p>\n",
+                    "img": {
+                        "src": "https://avatars.githubusercontent.com/u/3088374?v=3"
+                    },
+                    ".lnug-twitterhandle a": {
+                        "innerHTML": "@hxoliverrumbelow",
+                        "href": "https://github.com/hxoliverrumbelow"
+                    }
+                },
+                {
                     ".name": "Hugo",
                     ".title": "Going cross-platform with React: ~1 codebase, 3 platforms",
                     ".desc": "<p>What&#39;s the fastest way to ship a Web, iOS and Android app?&#13;&#10;&#13;&#10;React Native goes beyond making native apps with web technology. You use javascript (granted that&#39;s a web technology) to make a fully fledged React app, using native components.&#13;&#10;&#13;&#10;It&#39;s more than leveraging the power of the (state) =&gt; (UI) mapping of React. It&#39;s about code reuse. Being this DRY hurts. All the high-level logic is portable and you have <strong>one</strong> single codebase for all three target platforms. &#13;&#10;&#13;&#10;All of this is free, as long as you embrace React.</p>\n",
@@ -40,18 +52,6 @@
                     ".lnug-twitterhandle a": {
                         "innerHTML": "@philnash",
                         "href": "https://github.com/philnash"
-                    }
-                },
-                {
-                    ".name": "Submit your talk!",
-                    ".title": "Slot available",
-                    ".desc": "<p>This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.</p>",
-                    "img": {
-                        "src": "/images/favicon/favicon-128.png"
-                    },
-                    ".lnug-twitterhandle a": {
-                        "innerHTML": "@undefined",
-                        "href": "https://github.com/undefined"
                     }
                 }
             ]
