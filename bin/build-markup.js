@@ -63,21 +63,26 @@ var eventDate = nextEvent()
 //}
 
 var venue = {
-  title: '',
+  title: 'Makers Academy',
   address: [
+    '50 - 52 Commercial St',
+    'London E1 6LT'
   ],
-  detail: 'Venue - Makers Academy <hr /> 50 - 52 Commercial St <br>  London E1 6LT',
+  //detail: 'Venue - Makers Academy <hr /> 50 - 52 Commercial St <br>  London E1 6LT',
   location: {
+    lat: '51.517320',
+    long: '-0.073281',
+    scale: 17.5,
     wide: {
       lat: '51.517320',
-      scale: 11,
       long: '-0.073281',
+      scale: 17.5,
       size: '1280x400.png'
     },
     thin: {
       lat: '51.517320',
       long: '-0.073281',
-      scale: 11,
+      scale: 17.5,
       size: '700x700.png'
     }
   }
