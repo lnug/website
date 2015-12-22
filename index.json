@@ -5,11 +5,10 @@
             "component": "ticket",
             "data": {
                 ".lnug-nextmeetup": "January 27th 2016",
-                ".venue": "",
-                ".detail": "Venue - Makers Academy <hr /> 50 - 52 Commercial St <br>  London E1 6LT",
-                "address": "",
+                ".venue": "Makers Academy",
+                "address": "50 - 52 Commercial St<br />London E1 6LT",
                 ".address a": {
-                    "href": "https://www.google.co.uk/maps/search/"
+                    "href": "https://www.google.co.uk/maps/search/50 - 52 Commercial St, London E1 6LT"
                 },
                 "a.cta": {
                     "href": "https://ti.to/lnug/january-2016"

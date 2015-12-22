@@ -10,6 +10,11 @@ var titoLink = require('../lib/tito-link')
 
 //  var sponsorSelectors = require('../lib/sponsors-selectors')
 
+var venues = require('../data/venue.json')
+
+// select the relevant venue from the available choices
+var venue = venues[2];
+
 var eventDate = nextEvent()
 
 // commenting out becuase this gets overriden below. This needs to get moved into separate files so it can be easily switched out.
@@ -62,31 +67,31 @@ var eventDate = nextEvent()
 //  }
 //}
 
-var venue = {
-  title: 'Makers Academy',
-  address: [
-    '50 - 52 Commercial St',
-    'London E1 6LT'
-  ],
-  //detail: 'Venue - Makers Academy <hr /> 50 - 52 Commercial St <br>  London E1 6LT',
-  location: {
-    lat: '51.517320',
-    long: '-0.073281',
-    scale: 17.5,
-    wide: {
-      lat: '51.517320',
-      long: '-0.073281',
-      scale: 17.5,
-      size: '1280x400.png'
-    },
-    thin: {
-      lat: '51.517320',
-      long: '-0.073281',
-      scale: 17.5,
-      size: '700x700.png'
-    }
-  }
-}
+//var venue = {
+//  title: 'Makers Academy',
+//  address: [
+//    '50 - 52 Commercial St',
+//    'London E1 6LT'
+//  ],
+//  //detail: 'Venue - Makers Academy <hr /> 50 - 52 Commercial St <br>  London E1 6LT',
+//  location: {
+//    lat: '51.517320',
+//    long: '-0.073281',
+//    scale: 17.5,
+//    wide: {
+//      lat: '51.517320',
+//      long: '-0.073281',
+//      scale: 17.5,
+//      size: '1280x400.png'
+//    },
+//    thin: {
+//      lat: '51.517320',
+//      long: '-0.073281',
+//      scale: 17.5,
+//      size: '700x700.png'
+//    }
+//  }
+//}
 
 // not in use yet.
 // var sponsors = {
