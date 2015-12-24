@@ -5,11 +5,10 @@
             "component": "ticket",
             "data": {
                 ".lnug-nextmeetup": "January 27th 2016",
-                ".venue": "",
-                ".detail": "Venue - Makers Academy <hr /> 50 - 52 Commercial St <br>  London E1 6LT",
-                "address": "",
+                ".venue": "Makers Academy",
+                "address": "50 - 52 Commercial St<br />London E1 6LT",
                 ".address a": {
-                    "href": "https://www.google.co.uk/maps/search/"
+                    "href": "https://www.google.co.uk/maps/search/50 - 52 Commercial St, London E1 6LT"
                 },
                 "a.cta": {
                     "href": "https://ti.to/lnug/january-2016"
@@ -19,6 +18,18 @@
         ".lnug-content": {
             "component": "speaker",
             "data": [
+                {
+                    ".name": "Oliver Rumbelow",
+                    ".title": "NodeJS Supercomputing?!",
+                    ".desc": "<p>Join me in a wild adventure to take a computationally heavy single-use NodeJS application and automagically scale it across many cores and many servers in the hunt for lazy performance. Disclaimer: This is all for fun, games and science.</p>\n",
+                    "img": {
+                        "src": "https://avatars.githubusercontent.com/u/3088374?v=3"
+                    },
+                    ".lnug-twitterhandle a": {
+                        "innerHTML": "@hxoliverrumbelow",
+                        "href": "https://github.com/hxoliverrumbelow"
+                    }
+                },
                 {
                     ".name": "Hugo",
                     ".title": "Going cross-platform with React: ~1 codebase, 3 platforms",
@@ -41,18 +52,6 @@
                     ".lnug-twitterhandle a": {
                         "innerHTML": "@philnash",
                         "href": "https://github.com/philnash"
-                    }
-                },
-                {
-                    ".name": "Submit your talk!",
-                    ".title": "Slot available",
-                    ".desc": "<p>This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.</p>",
-                    "img": {
-                        "src": "/images/favicon/favicon-128.png"
-                    },
-                    ".lnug-twitterhandle a": {
-                        "innerHTML": "@undefined",
-                        "href": "https://github.com/undefined"
                     }
                 }
             ]
