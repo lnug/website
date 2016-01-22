@@ -21,21 +21,25 @@
     },
     {
         "date": "November 2015",
+        "playlist-url": "https://www.youtube.com/playlist?list=PLam_80-FY3vQczbx9kqFfzbXoCiTAGKnm"
         "speakers": [
             {
                 "name": "Ben Hall",
                 "url": "https://github.com/BenHall",
-                "title": "Scaling Node.js using Docker"
+                "title": "Scaling Node.js using Docker",
+                "video": "https://youtu.be/nBBJh75SqS4?list=PLam_80-FY3vQczbx9kqFfzbXoCiTAGKnm"
             },
             {
                 "name": "Fábio Santos",
                 "url": "https://github.com/fabiosantoscode",
-                "title": "A javascript to c++ transpiler!"
+                "title": "A javascript to c++ transpiler!",
+                "video": "https://youtu.be/6RKxkINidvk?list=PLam_80-FY3vQczbx9kqFfzbXoCiTAGKnm"
             },
             {
                 "name": "Matt Forrester",
                 "url": "https://github.com/forbesmyester",
-                "title": "MVP Diagrams that can do things"
+                "title": "MVP Diagrams that can do things",
+                "video": "https://youtu.be/qPCF4JUyllc?list=PLam_80-FY3vQczbx9kqFfzbXoCiTAGKnm"
             }
         ]
     },
