@@ -35,5 +35,10 @@
   },
   "dependencies": {
     "serve-me": "^0.8.2"
-  }
+  },
+  "standard": {
+    "ignore": [
+      "app-cache-nanny.js"
+    ]
+}
 }

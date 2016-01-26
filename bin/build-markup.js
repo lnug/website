@@ -138,9 +138,9 @@ var spec = {
 generateMaps(venue.location)
 speclate.generate(spec)
 speclate.appCache(spec, [
-    '/css.css',
-    '/',
-    '/images/lnug-logo.svg',
-    '/images/maps/thin.png',
-    '/images/maps/wide.png'
+  '/css.css',
+  '/',
+  '/images/lnug-logo.svg',
+  '/images/maps/thin.png',
+  '/images/maps/wide.png'
 ])
