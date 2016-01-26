@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml" manifest="/speclate123.appcache">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -43,7 +43,6 @@
   <meta name="msapplication-wide310x150logo" content="./images/favicon/mstile-310x150.png">
   <meta name="msapplication-square310x310logo" content="./images/favicon/mstile-310x310.png">
   <meta name="theme-color" content="#46483D">
-
   <link rel="stylesheet" href="./css.css">
 </head>
 <body>
@@ -74,7 +73,11 @@
 <p>Please structure the issue as following:</p>
 <ul>
 <li>Title: [Talk Title]</li>
-<li>Body: [Abstract of your talk]</li>
+<li>Body: <ul>
+<li>[Abstract of your talk]</li>
+<li>[A bit about you, e.g. current job, twitter handle, etc.]</li>
+</ul>
+</li>
 </ul>
 <p>If you are looking for feedback on your talk or have additional question, reply to your issue with  <strong>extra comments</strong> stating your questions but please keep them off the body of the original issue text itself</p>
 <h3 id="please-conform-to-the-issue-structure-so-that-we-can-use-the-api-to-automate-some-of-the-event-admin-">Please conform to the issue structure so that we can use the api to automate some of the event admin.</h3>
@@ -108,6 +111,7 @@
 </body>
 
 <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet" type="text/css">
+<script src="./app-cache-nanny.js"></script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -117,5 +121,8 @@
 
   ga('create', 'UA-2845245-14', 'auto');
   ga('send', 'pageview');
+  if(appCacheNanny) {
+      appCacheNanny.start();
+  }
 </script>
 </html>
