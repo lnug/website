@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml" manifest="/speclate123.appcache">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -43,7 +43,7 @@
   <meta name="msapplication-wide310x150logo" content="./images/favicon/mstile-310x150.png">
   <meta name="msapplication-square310x310logo" content="./images/favicon/mstile-310x310.png">
   <meta name="theme-color" content="#46483D">
-
+  <script src="./app-cache-nanny.js" async></script>
   <link rel="stylesheet" href="./css.css">
 </head>
 <body>
@@ -161,5 +161,7 @@
 
   ga('create', 'UA-2845245-14', 'auto');
   ga('send', 'pageview');
+
+    appCacheNanny.start()
 </script>
 </html>

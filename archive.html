@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml" manifest="/speclate123.appcache">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -43,7 +43,7 @@
   <meta name="msapplication-wide310x150logo" content="./images/favicon/mstile-310x150.png">
   <meta name="msapplication-square310x310logo" content="./images/favicon/mstile-310x310.png">
   <meta name="theme-color" content="#46483D">
-
+  <script src="./app-cache-nanny.js" async></script>
   <link rel="stylesheet" href="./css.css">
 </head>
 <body>
@@ -71,7 +71,7 @@
 </dd>
 <h2 class="date">November 2015</h2>
 <a class="lanyrd"></a>
-<ul class="speakers"><li>Scaling Node.js using Docker -  <a href="https://github.com/BenHall">Ben Hall</a> </li> <li>A javascript to c++ transpiler! -  <a href="https://github.com/fabiosantoscode">F&aacute;bio Santos</a> </li> <li>MVP Diagrams that can do things -  <a href="https://github.com/forbesmyester">Matt Forrester</a> </li></ul>
+<ul class="speakers"><li><a href="https://youtu.be/nBBJh75SqS4?list=PLam_80-FY3vQczbx9kqFfzbXoCiTAGKnm" target="_blank">Scaling Node.js using Docker</a> - <a href="https://github.com/BenHall">Ben Hall</a> </li> <li><a href="https://youtu.be/6RKxkINidvk?list=PLam_80-FY3vQczbx9kqFfzbXoCiTAGKnm" target="_blank">A javascript to c++ transpiler!</a> - <a href="https://github.com/fabiosantoscode">F&aacute;bio Santos</a> </li> <li><a href="https://youtu.be/qPCF4JUyllc?list=PLam_80-FY3vQczbx9kqFfzbXoCiTAGKnm" target="_blank">MVP Diagrams that can do things</a> - <a href="https://github.com/forbesmyester">Matt Forrester</a> </li></ul>
 <dd>
   <span></span>
 </dd>
@@ -381,5 +381,7 @@
 
   ga('create', 'UA-2845245-14', 'auto');
   ga('send', 'pageview');
+
+    appCacheNanny.start()
 </script>
 </html>
