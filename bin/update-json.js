@@ -27,6 +27,8 @@ superagent
 
     var nextEventDate = nextEvent(readyTalks)
 
+    console.log(nextEventDate);
+
     function isNextEvent (talk) {
       return (talk.milestone.title === nextEventDate)
     }
