@@ -5,9 +5,9 @@
   "main": "build.js",
   "scripts": {
     "test": "standard && mocha --recursive test",
-    "update": "./bin/update-json.js",
-    "build-markup": "./bin/build-markup.js",
-    "start": "./bin/server.js",
+    "update": "node ./bin/update-json.js",
+    "build-markup": "node ./bin/build-markup.js",
+    "start": "node ./bin/server.js",
     "build": "npm run update && npm run build-markup"
   },
   "repository": {

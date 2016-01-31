@@ -49,3 +49,18 @@ Check the package.json file for a full list of commands you can run.
 To run the update you need permission to execute the bin directory.
 
   chmod 775 ./bin/*
+
+--- 
+
+# Changelog (Branches)
+
+##image-gallery-#97
+
+Adding image gallery as requested here [Issue #97](https://github.com/lnug/lnug.github.io/issues/97)
+
+###Features
+- xxx
+- xxx
+- xxx
+
+--- 
