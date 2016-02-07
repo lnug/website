@@ -102,6 +102,9 @@ var spec = {
   '/code-of-conduct.html': {
     page: 'code-of-conduct'
   },
+  '/image-gallery.html': {
+    page: 'image-gallery'
+  },
   '/speak.html': {
     page: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/speakers/master/README.md')
   },

@@ -54,7 +54,7 @@ To run the update you need permission to execute the bin directory.
 
 # Changelog (Branches)
 
-##image-gallery-#97
+##add-image-gallery
 
 Adding image gallery as requested here [Issue #97](https://github.com/lnug/lnug.github.io/issues/97)
 
