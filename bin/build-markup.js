@@ -100,25 +100,19 @@ var spec = {
         }
     },
     '/code-of-conduct.html': {
-        page: 'code-of-conduct',
-        spec: {
-            'ul.archive': {
-                component: 'archive',
-                data: require('../lib/archive-selectors')
-            }
-        }
+        page: 'code-of-conduct'
+    },
+    '/speak.html': {
+        page: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/speakers/master/README.md')
     },
     '/image-gallery.html': {
         page: 'image-gallery',
         spec: {
-            '.image-gallery': {
+            '.image-gallery-container': {
                 component: 'image-gallery',
                 data: require('../lib/image-gallery')
             },
         }
-    },
-    '/speak.html': {
-        page: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/speakers/master/README.md')
     },
     '/sponsor.html': {
         page: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/resources/master/sponsors.md')
