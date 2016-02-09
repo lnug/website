@@ -3,437 +3,479 @@
  *
  */
 
-
 @import url(http://fonts.googleapis.com/css?family=Arvo);
 @import url(http://fonts.googleapis.com/css?family=Noticia+Text);
 
-
 /* Generic tags ***********************************/
-html, body {
-  overflow-x: hidden;
-  background-color: white;
+
+html,
+body {
+    overflow-x: hidden;
+    background-color: white;
 }
 
 body {
-  margin: 0;
-  font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
-
-
 h1 {
-  margin:0;
-  padding: 1em 0 .5em;
-  font-size: 2.5em;
-  color: #1D1D1D;
-  border-bottom: 1px dashed #eee;
-  font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 1em 0 .5em;
+    font-size: 2.5em;
+    color: #1D1D1D;
+    border-bottom: 1px dashed #eee;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
 /* Meta classes ***********************************/
+
 .container {
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 2em;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 2em;
 }
 
 .split {
-  display: inline-block;
+    display: inline-block;
 }
 
 .img-circle {
-  border-radius: 50%;
+    border-radius: 50%;
 }
 
 .secondary-title {
-  text-transform: uppercase;
-  color: #CCC;
-  font-family: "Open Sans";
+    text-transform: uppercase;
+    color: #CCC;
+    font-family: "Open Sans";
 }
 
 .markdown {
-  margin: 1em 3em;
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 2em;
-
-  padding-bottom: 3em;
+    margin: 1em 3em;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 2em;
+    padding-bottom: 3em;
 }
 
 
 /* Header *****************************************/
-header, footer {
-  padding: 1em 0;
-  color: #fff;
-  text-align: center;
-  background-color: #46483D;
+
+header,
+footer {
+    padding: 1em 0;
+    color: #fff;
+    text-align: center;
+    background-color: #46483D;
 }
 
-header a, footer a {
+header a,
+footer a {
     text-decoration: none;
     color: inherit;
 }
+
 .header-logo {
-  height: 80px;
+    height: 80px;
 }
 
 .header-menu {
-  text-align: center;
-  display: flex;
-  justify-content: space-around;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
 }
 
 .header-menu a {
-  width: 100%;
-  max-width: 180px;
-  font-family:"Open Sans";
-  font-size: 1em;
+    width: 100%;
+    max-width: 180px;
+    font-family: "Open Sans";
+    font-size: 1em;
 }
 
 
 /* Map ********************************************/
+
 h1.talks {
     padding-top: 1.5em;
 }
+
 .lnug-ticket {
-  min-width: 200px;
-  text-align: center;
+    min-width: 200px;
+    text-align: center;
 }
 
 .box {
-  color:#333;
-  top: 35px;
-  transition: top .2s ease-in, transform .2s ease-in;
-  position: relative;
-  text-transform:uppercase;
-  padding:1em;
-  margin: 1em;
-  text-align: center;
-  width: auto;
-  font-weight:bold;
-  font-family:"arvo";
-  font-size: 11px;
+    color: #333;
+    top: 35px;
+    transition: top .2s ease-in, transform .2s ease-in;
+    position: relative;
+    text-transform: uppercase;
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+    width: auto;
+    font-weight: bold;
+    font-family: "arvo";
+    font-size: 11px;
 }
 
 .inner {
-  border: #EFEFEF;
-  border: 2px solid #E1E0DD;
-  min-height:100px;
-  max-width: 40em;
-  background-color: #ffffff;
-  background-image: url(/images/texture.png);
-  float: right;
-  padding:8px;
+    border: #EFEFEF;
+    border: 2px solid #E1E0DD;
+    min-height: 100px;
+    max-width: 40em;
+    background-color: #ffffff;
+    background-image: url(/images/texture.png);
+    float: right;
+    padding: 8px;
 }
 
 .inner h1 {
-  padding:5px 0px;
-  margin:0px;
-  font-size:18px;
-  border-bottom: 1px solid #F7F3F3;
-  text-align:center;
+    padding: 5px 0px;
+    margin: 0px;
+    font-size: 18px;
+    border-bottom: 1px solid #F7F3F3;
+    text-align: center;
 }
 
 .info {
-  width:auto;
-  margin:2em;
+    width: auto;
+    margin: 2em;
 }
 
 .info .wp {
-  padding: 5px;
-  text-align: center;
-  border-bottom: 1px solid #F7F3F3;
-  margin: 1em 0;
+    padding: 5px;
+    text-align: center;
+    border-bottom: 1px solid #F7F3F3;
+    margin: 1em 0;
 }
 
 .info .wp.desc {
-  text-transform: none;
-  font-size: 1.2em;
-  line-height: 2em;
-  width: 100%;
+    text-transform: none;
+    font-size: 1.2em;
+    line-height: 2em;
+    width: 100%;
 }
 
 .info .wp h2 {
-  margin: 8px;
+    margin: 8px;
 }
 
 .info li {
-  text-align: left;
-  text-transform: none;
+    text-align: left;
+    text-transform: none;
 }
 
 .total {
-  border-top: 1px solid #F7F3F3;
+    border-top: 1px solid #F7F3F3;
 }
 
 .ticket {
-  text-align: center;
-  display: block;
-  margin: 1em;
-  /* max-width: 40em; */
+    text-align: center;
+    display: block;
+    margin: 1em;
+    /* max-width: 40em; */
 }
 
 .total h2 {
-  padding-left:15px;
-  margin:10px 0px;
-  font-size: 15px;
+    padding-left: 15px;
+    margin: 10px 0px;
+    font-size: 15px;
 }
 
 .total p {
-  float:right;
-  margin:0px;
-  margin-right: 15px;
+    float: right;
+    margin: 0px;
+    margin-right: 15px;
 }
 
 .clearfix:after {
-  content: ".";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
 }
 
 .cta {
-  color:#1b1b1b;
-  text-align:center;
-  text-decoration:none;
-  display:block;
-  background:#BED52E;
-  border-radius: 5px;
-  padding: 2em;
-  margin:10px auto 0;
-  font-size:25px;
-  padding: .3em 1em;
-  border: 0 !important;
-  max-width: 10em;
-  /* width: 40em; */
+    color: #1b1b1b;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    background: #BED52E;
+    border-radius: 5px;
+    padding: 2em;
+    margin: 10px auto 0;
+    font-size: 25px;
+    padding: .3em 1em;
+    border: 0 !important;
+    max-width: 10em;
+    /* width: 40em; */
 }
+
 .cta:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .map-holder {
-  background: url('/images/maps/thin.png');
-  height: 700px;
-  background-position: center;
-  min-width: 300px;
-  padding-bottom: 490px;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  box-shadow: inset 3em 0em 6em #fff, inset -3em 0em 6em #fff, inset 0 .5em .5em #ABA7A7;
+    background: url('/images/maps/thin.png');
+    height: 700px;
+    background-position: center;
+    min-width: 300px;
+    padding-bottom: 490px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    box-shadow: inset 3em 0em 6em #fff, inset -3em 0em 6em #fff, inset 0 .5em .5em #ABA7A7;
 }
 
 
 /* Talks ******************************************/
+
 ul.lnug-content {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .lnug-talk {
-  width: auto;
-  text-align: left;
-  padding: 0;
-  margin-top: 1em;
-  margin-bottom: 2em;
-  list-style: none;
+    width: auto;
+    text-align: left;
+    padding: 0;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    list-style: none;
 }
 
 .lnug-talk .title {
-  margin:.4em 0;
+    margin: .4em 0;
 }
 
 .lnug-talk .name {
-  font-weight: normal;
-  line-height: 2.5em;
-  color: #8A8585;
-  vertical-align: top;
+    font-weight: normal;
+    line-height: 2.5em;
+    color: #8A8585;
+    vertical-align: top;
 }
 
 .lnug-talk .avatar {
-  height: 2.5em;
-  margin-right: .25em;
+    height: 2.5em;
+    margin-right: .25em;
 }
 
 
 /* Mailing list ***********************************/
+
 .lnug-mailing-list {
-  padding: .6em 0;
-  border-top: 1px dashed #eee;
-  border-bottom: 1px dashed #eee;
-  margin-bottom: 2em;
-  font-size: 1.4em;
-  vertical-align: middle;
+    padding: .6em 0;
+    border-top: 1px dashed #eee;
+    border-bottom: 1px dashed #eee;
+    margin-bottom: 2em;
+    font-size: 1.4em;
+    vertical-align: middle;
 }
+
 .lnug-mailing-list p {
-  color: white;
-  text-align: center;
+    color: white;
+    text-align: center;
 }
 
 .lnug-mailing-list input {
-  display: inline;
-  line-height: 2em;
-  padding: 0 .5em;
-  font-size: 1em;
-  border: 1px solid #ddd;
-  box-sizing: border-box;
-  border-radius: 4px;
-  max-width: 100%;
+    display: inline;
+    line-height: 2em;
+    padding: 0 .5em;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    border-radius: 4px;
+    max-width: 100%;
 }
+
 #mc_embed_signup_scroll {
-  text-align: center;
-  line-height: 2em;
+    text-align: center;
+    line-height: 2em;
 }
 
 
 /* Sponsors ***************************************/
+
 ul.sponsors {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 ul.sponsors li {
-  display: inline-block;
-  width: 48%;
+    display: inline-block;
+    width: 48%;
 }
 
-ul.sponsors a, ul.sponsors img {
-  width: 100%;
+ul.sponsors a,
+ul.sponsors img {
+    width: 100%;
 }
 
 .gold-sponsor li {
-  max-width: 196px;
+    max-width: 196px;
 }
+
 .silver-sponsor li {
-  max-width: 164px;
+    max-width: 164px;
 }
+
 .bronze-sponsor li {
-  max-width: 96px;
+    max-width: 96px;
 }
+
 .community-sponsor li {
-  max-width: 96px;
+    max-width: 96px;
 }
-
-
 
 
 /* Footer *****************************************/
+
 footer {
-  padding-bottom: 3em;
-  text-align: left;
-  color: #aaa;
+    padding-bottom: 3em;
+    text-align: left;
+    color: #aaa;
 }
 
 .footer-logo {
-  height: 70px;
+    height: 70px;
 }
 
 .footer-links {
-  padding: 0;
-  margin: 0;
-  list-style: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 
 
+/* Image Gallery *****************************************/
+
+#gallery {
+    padding: 5rem;
+    overflow: auto;
+}
+
+#gallery img {
+    width: 100%;
+}
+
+#gallery .single-image {
+    float: left;
+    // margin: 1%;
+    // width: 31.3333%;
+}
 
 @media (min-width: 700px) {
-
-  /* Header *****************************************/
-  header {
-    text-align: left;
-  }
-  .header-menu {
-    float: right;
-    height: 80px;
-    justify-content: flex-end;
-    align-items: center;
-  }
-  .header-menu a {
-    vertical-align: middle;
-    font-size: 1.25em;
-    margin: 0 1.5em;
-    line-height: 100%;
-  }
-
-  /* Map ********************************************/
-  .box {
-    width:50%;
-    transform: rotate(-2deg);
-  }
-  .info .wp {
-    float: left;
-    border-bottom: 0 !important;
-  }
-  .info .wp.address {
-    text-align: right;
-    width: 50%;
-    float: right;
-  }
+    /* Header *****************************************/
+    header {
+        text-align: left;
+    }
+    .header-menu {
+        float: right;
+        height: 80px;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .header-menu a {
+        vertical-align: middle;
+        font-size: 1.25em;
+        margin: 0 1.5em;
+        line-height: 100%;
+    }
+    /* Map ********************************************/
+    .box {
+        width: 50%;
+        transform: rotate(-2deg);
+    }
+    .info .wp {
+        float: left;
+        border-bottom: 0 !important;
+    }
+    .info .wp.address {
+        text-align: right;
+        width: 50%;
+        float: right;
+    }
+    #gallery .single-image {
+        margin: 1%;
+        width: 100%;
+    }
 }
 
 @media (min-width: 750px) {
+    /* Map ********************************************/
+    .buy.cta {
+        display: inline-block;
+        top: 8.5em;
+        position: relative;
+        float: left;
+    }
+    .ticket {
+        margin: 0;
+    }
+    .box {
+        float: left;
+    }
+    .map-holder {
+        height: 300px;
+        padding-bottom: 0px;
+        margin-right: 50%;
+        background-image: url('/images/maps/wide.png');
+        max-width: 1280px;
+        padding: auto 20%;
+        background-position: right;
+        box-shadow: inset 6em 0em 10em #fff, inset -6em 0em 10em #fff, inset 0 .5em .5em #ABA7A7;
+    }
+    /* Footer *****************************************/
+    .footer-logo {
+        float: right;
+    }
+    #gallery .single-image {
+        margin: 1%;
+        width: 100%;
+    }
 
-  /* Map ********************************************/
-  .buy.cta {
-    display: inline-block;
-    top: 8.5em;
-    position: relative;
-    float: left;
-  }
+}
 
-  .ticket {
-    margin: 0;
-  }
-
-  .box {
-    float: left;
-  }
-
-  .map-holder {
-    height: 300px;
-    padding-bottom: 0px;
-    margin-right: 50%;
-    background-image: url('/images/maps/wide.png');
-    max-width: 1280px;
-    padding: auto 20%;
-    background-position: right;
-    box-shadow: inset 6em 0em 10em #fff, inset -6em 0em 10em #fff, inset 0 .5em .5em #ABA7A7;
-  }
-
-  /* Footer *****************************************/
-  .footer-logo {
-    float: right;
-  }
+@media (min-width: 950px) {
+   #gallery .single-image {
+        margin: 1%;
+        width: 100%;
+    }
 }
 
 @media (min-width: 1200px) {
-
-  /* Talks ******************************************/
-  .lnug-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
-
-  .lnug-talk {
-    width: auto;
-    display: inline-block;
-    vertical-align: top;
-    max-width: 31%;
-  }
-
-  .lnug-talk .title {
-    min-height: 3em;
-  }
+    /* Talks ******************************************/
+    .lnug-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .lnug-talk {
+        width: auto;
+        display: inline-block;
+        vertical-align: top;
+        max-width: 31%;
+    }
+    .lnug-talk .title {
+        min-height: 3em;
+    }
+    #gallery .single-image {
+        margin: 1%;
+        width: 48%;
+    }
 }
 
 @media (min-width: 1536px) {
-
-  /* Map ********************************************/
-  .map-holder  {
-      margin: auto 20%;
-      width: 100%;
-  }
+    /* Map ********************************************/
+    .map-holder {
+        margin: auto 20%;
+        width: 100%;
+    }
+    #gallery .single-image {
+        margin: 1%;
+        width: 31.3333%;
+    }
 }

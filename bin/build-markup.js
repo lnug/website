@@ -108,7 +108,7 @@ var spec = {
     '/image-gallery.html': {
         page: 'image-gallery',
         spec: {
-            '.image-gallery-container': {
+            'section#gallery': {
                 component: 'image-gallery',
                 data: require('../lib/image-gallery')
             },
