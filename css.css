@@ -353,7 +353,7 @@ footer {
 /* Image Gallery *****************************************/
 
 #gallery {
-    padding: 5rem;
+    padding: 1rem;
     overflow: auto;
 }
 
@@ -363,8 +363,8 @@ footer {
 
 #gallery .single-image {
     float: left;
-    // margin: 1%;
-    // width: 31.3333%;
+    margin: 0;
+    width: 100%;
 }
 
 @media (min-width: 700px) {
@@ -436,13 +436,12 @@ footer {
         margin: 1%;
         width: 100%;
     }
-
 }
 
 @media (min-width: 950px) {
-   #gallery .single-image {
+    #gallery .single-image {
         margin: 1%;
-        width: 100%;
+        width: 48%;
     }
 }
 
@@ -461,6 +460,9 @@ footer {
     }
     .lnug-talk .title {
         min-height: 3em;
+    }
+    #gallery {
+        padding: 5rem;
     }
     #gallery .single-image {
         margin: 1%;
