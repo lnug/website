@@ -97,8 +97,11 @@ var spec = {
   }
 }
 
-speclate.generate(spec)
-
+speclate.generate(spec, function(error) {
+    if(error) {
+        console.log('Error generating site: ', error);
+    }
+})
 speclate.appCache(spec, [
   '/css.css',
   '/app-cache-nanny.js',
