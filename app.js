@@ -1,7 +1,7 @@
 var mainDiv = document.getElementById('home-gallery')
 
 if (mainDiv) {
-  var xhttp = new XMLHttpRequest()
+  var xhttp = new window.XMLHttpRequest()
   xhttp.onreadystatechange = function () {
     if (xhttp.readyState === 4 && xhttp.status === 200) {
       var count, img1, img2, img3
