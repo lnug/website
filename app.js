@@ -1,35 +1,38 @@
-// $(function () {
-//   $('img.lazy').lazyload({
-//     'effect': 'fadeIn'
-//   })
+var mainDiv = document.getElementById('home-gallery')
 
-//   // add 3 random images to home page
-//   if ($('#home-gallery').length > 0) {
-//     $.getJSON('image-gallery.json', function (data) {
-//       if (data.spec['section#gallery'].data) {
-//         var images = data.spec['section#gallery'].data
-//         var img1, img2, img3, count
+if (mainDiv) {
+  var xhttp = new XMLHttpRequest()
+  xhttp.onreadystatechange = function () {
+    if (xhttp.readyState === 4 && xhttp.status === 200) {
+      var count, img1, img2, img3
+      var images = JSON.parse(xhttp.responseText).spec['section#gallery'].data
+      if (!images) return
+      while (true) {
+        count += 1
+        img1 = Math.floor((Math.random() * images.length))
+        img2 = Math.floor((Math.random() * images.length))
+        img3 = Math.floor((Math.random() * images.length))
+        if (img1 !== img2 && img1 !== img3 && img2 !== img3) {
+          break
+        }
 
-//         while (true) {
-//           count += 1
-//           img1 = Math.floor((Math.random() * images.length))
-//           img2 = Math.floor((Math.random() * images.length))
-//           img3 = Math.floor((Math.random() * images.length))
-//           if (img1 !== img2 && img1 !== img3 && img2 !== img3) {
-//             break
-//           }
+        // yeah I know, this is not the most elegant solution
+        // but just want to guarantee we don't fall on a endless-loop caused by some black magic voodoo :o)
+        if (count > 100) {
+          break
+        }
+      }
 
-//           // yeah I know, this is not the most elegant solution
-//           // but just to guarantee we don't fall on a endless-loop due to some black magic :o)
-//           if (count > 100) {
-//             break
-//           }
-//         }
+      addImage(images[img1].a.href)
+      addImage(images[img2].a.href)
+      addImage(images[img3].a.href)
+    }
+  }
+  xhttp.open('GET', 'image-gallery.json', true)
+  xhttp.send()
+}
 
-//         $('#home-gallery').append("<a href='./image-gallery.html'><img src='" + images[img1].a.href + "'></a>")
-//         $('#home-gallery').append("<a href='./image-gallery.html'><img src='" + images[img2].a.href + "'></a>")
-//         $('#home-gallery').append("<a href='./image-gallery.html'><img src='" + images[img3].a.href + "'></a>")
-//       }
-//     })
-//   }
-// })
+function addImage (url) {
+  var str = '<a href="./image-gallery.html"><img src="' + url + '"></a>'
+  mainDiv.innerHTML += str
+}
