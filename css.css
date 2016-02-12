@@ -376,11 +376,6 @@ footer {
 
 #gallery img {
     width: 100%;
-    transition: opacity 150ms;
-}
-
-#gallery img:hover {
-    opacity: 0.6;
 }
 
 #gallery .single-image {

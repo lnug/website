@@ -45,6 +45,9 @@ Once you have built the site confirm it works locally before pushing to master a
 
 Check the package.json file for a full list of commands you can run.
 
+For the image-gallery, just dump all your photos inside the folder **images/gallery**.
+Then `npm run build` will read the files from that folder and create the markup for the image-gallery page.
+The 3 random images on the home page are inserted there using Javascript with every page refresh
 
 To run the update you need permission to execute the bin directory.
 
@@ -58,9 +61,9 @@ To run the update you need permission to execute the bin directory.
 
 Adding image gallery as requested here [Issue #97](https://github.com/lnug/lnug.github.io/issues/97)
 
+
 ###Features
-- xxx
-- xxx
-- xxx
+- [**Magnific-Popup**](https://github.com/dimsemenov/Magnific-Popup/) Light and responsive lightbox script with focus on performance
+- [**Lazy-Load**](https://github.com/tuupola/jquery_lazyload/) jQuery plugin for lazy loading images
 
 --- 
