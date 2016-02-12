@@ -3,16 +3,6 @@ $(function() {
         effect: "fadeIn"
     });
 
-    // we shouldn't apply the magnificPopup to smaller devices 
-    if ($(window).width() > 950) {
-        $('#gallery').magnificPopup({
-            delegate: 'a', // child items selector, by clicking on it popup will open
-            type: 'image',
-            gallery: {
-                enabled: true
-            },
-        });
-    }
 
     // add 3 random images to home page
     if ($("#home-gallery").length > 0) {
