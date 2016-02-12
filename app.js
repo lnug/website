@@ -14,6 +14,7 @@ $(function() {
         });
     }
 
+    // add 3 random images to home page
     if ($("#home-gallery").length > 0) {
         $.getJSON("image-gallery.json", function(data) {
             if (data.spec["section#gallery"].data) {
@@ -28,20 +29,9 @@ $(function() {
                     }
                 }
 
-
-                // var items = [];
-                // $.each(data, function(key, val) {
-                //     items.push("<li id='" + key + "'>" + val + "</li>");
-                // });
-
-
-                $("#home-gallery").append("<img src='" + images[img1].a.href + "'>");
-                $("#home-gallery").append("<img src='" + images[img2].a.href + "'>");
-                $("#home-gallery").append("<img src='" + images[img3].a.href + "'>");
-                // $("<ul/>", {
-                //     "class": "my-new-list",
-                //     html: items.join("")
-                // }).appendTo("body");
+                $("#home-gallery").append("<a href='./image-gallery.html'><img src='" + images[img1].a.href + "'></a>");
+                $("#home-gallery").append("<a href='./image-gallery.html'><img src='" + images[img2].a.href + "'></a>");
+                $("#home-gallery").append("<a href='./image-gallery.html'><img src='" + images[img3].a.href + "'></a>");
             }
         });
     }

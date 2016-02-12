@@ -353,15 +353,17 @@ footer {
 /* Image Gallery (on Home Page) *****************************************/
 
 #home-gallery {
+    margin-top: 4rem;
     overflow: auto;
     clear: both;
 }
 
 #home-gallery img {
     float: left;
-    width: 20%;
-    display: block;
-    margin: auto;
+    width: 29%;
+    margin: 2%;
+    // display: block;
+    // margin: auto;
 }
 
 
