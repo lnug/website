@@ -61,9 +61,4 @@ To run the update you need permission to execute the bin directory.
 
 Adding image gallery as requested here [Issue #97](https://github.com/lnug/lnug.github.io/issues/97)
 
-
-###Features
-- [**Magnific-Popup**](https://github.com/dimsemenov/Magnific-Popup/) Light and responsive lightbox script with focus on performance
-- [**Lazy-Load**](https://github.com/tuupola/jquery_lazyload/) jQuery plugin for lazy loading images
-
 --- 
