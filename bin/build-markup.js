@@ -62,60 +62,59 @@ var eventDate = nextEvent()
 // }
 
 var spec = {
-    '/index.html': {
-        page: 'home',
-        spec: {
-            '.lnug-ticket': {
-                component: 'ticket',
-                data: {
-                    '.lnug-nextmeetup': eventDate,
-                    '.venue': venue.title,
-                    '.detail': venue.detail,
-
-                    'address': venue.address.join('<br />'),
-                    '.address a': {
-                        href: 'https://www.google.co.uk/maps/search/' + venue.address.join(', ')
-                    },
-                    'a.cta': {
-                        'href': titoLink()
-                    }
-                }
-            },
-            '.lnug-content': {
-                component: 'speaker',
-                data: require('../lib/speaker-selectors')
-            },
-            '.lnug-mailing-list': {
-                component: 'sign-up'
-            }
+  '/index.html': {
+    page: 'home',
+    spec: {
+      '.lnug-ticket': {
+        component: 'ticket',
+        data: {
+          '.lnug-nextmeetup': eventDate,
+          '.venue': venue.title,
+          '.detail': venue.detail,
+          'address': venue.address.join('<br />'),
+          '.address a': {
+            href: 'https://www.google.co.uk/maps/search/' + venue.address.join(', ')
+          },
+          'a.cta': {
+            'href': titoLink()
+          }
         }
-    },
-    '/archive.html': {
-        page: 'archive',
-        spec: {
-            'ul.archive': {
-                component: 'archive',
-                data: require('../lib/archive-selectors')
-            }
-        }
-    },
-    '/code-of-conduct.html': {
-        page: 'code-of-conduct'
-    },
-    '/speak.html': {
-        page: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/speakers/master/README.md')
-    },
-    '/image-gallery.html': {
-        page: 'image-gallery',
-        spec: {
-            'section#gallery': {
-                component: 'image-gallery',
-                data: require('../lib/image-gallery')
-            },
-        }
-    },
-    '/sponsor.html': {
-        page: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/resources/master/sponsors.md')
+      },
+      '.lnug-content': {
+        component: 'speaker',
+        data: require('../lib/speaker-selectors')
+      },
+      '.lnug-mailing-list': {
+        component: 'sign-up'
+      }
+    }
+  },
+  '/archive.html': {
+    page: 'archive',
+    spec: {
+      'ul.archive': {
+        component: 'archive',
+        data: require('../lib/archive-selectors')
+      }
+    }
+  },
+  '/code-of-conduct.html': {
+    page: 'code-of-conduct'
+  },
+  '/speak.html': {
+    page: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/speakers/master/README.md')
+  },
+  '/image-gallery.html': {
+    page: 'image-gallery',
+    spec: {
+      'section#gallery': {
+        component: 'image-gallery',
+        data: require('../lib/image-gallery')
+      }
+    }
+  },
+  '/sponsor.html': {
+    page: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/resources/master/sponsors.md')
             // there is a bug in speclate which needs fixing to get this working, for the time being sponsors are hard coded in the markdown file.
             //   spec: {
             //     '.gold-sponsor': {
@@ -135,22 +134,22 @@ var spec = {
             //     //     data: sponsorSelectors(sponsors.community)
             //     // }
             //   }
-    },
-    '/contact.html': {
-        page: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/feedback/master/ORGANISERS.md')
-    },
-    '/related-meetups.html': {
-        page: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/related-meetups/master/README.md')
-    }
+  },
+  '/contact.html': {
+    page: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/feedback/master/ORGANISERS.md')
+  },
+  '/related-meetups.html': {
+    page: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/related-meetups/master/README.md')
+  }
 }
 
 generateMaps(venue.location)
 speclate.generate(spec)
 speclate.appCache(spec, [
-    '/css.css',
-    '/app-cache-nanny.js',
-    '/',
-    '/images/lnug-logo.svg',
-    '/images/maps/thin.png',
-    '/images/maps/wide.png'
+  '/css.css',
+  '/app-cache-nanny.js',
+  '/',
+  '/images/lnug-logo.svg',
+  '/images/maps/thin.png',
+  '/images/maps/wide.png'
 ])
