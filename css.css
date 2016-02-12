@@ -350,7 +350,22 @@ footer {
 }
 
 
-/* Image Gallery *****************************************/
+/* Image Gallery (on Home Page) *****************************************/
+
+#home-gallery {
+    overflow: auto;
+    clear: both;
+}
+
+#home-gallery img {
+    float: left;
+    width: 20%;
+    display: block;
+    margin: auto;
+}
+
+
+/* Image Gallery (Page) *****************************************/
 
 #gallery {
     padding: 1rem;
@@ -359,12 +374,20 @@ footer {
 
 #gallery img {
     width: 100%;
+    transition: opacity 150ms;
+}
+
+#gallery img:hover {
+    opacity: 0.6;
 }
 
 #gallery .single-image {
     float: left;
-    margin: 0;
-    width: 100%;
+    height: auto;
+}
+
+#gallery .single-image:nth-child(3n+1) {
+    clear: left
 }
 
 @media (min-width: 700px) {
