@@ -23,16 +23,16 @@ if (mainDiv) {
         }
       }
 
-      addImage(images[img1].a.href)
-      addImage(images[img2].a.href)
-      addImage(images[img3].a.href)
+      addImage(images[img1].a.href, images[img1].img.src)
+      addImage(images[img1].a.href, images[img2].img.src)
+      addImage(images[img1].a.href, images[img3].img.src)
     }
   }
   xhttp.open('GET', 'image-gallery.json', true)
   xhttp.send()
 }
 
-function addImage (url) {
-  var str = '<a href="./image-gallery.html"><img src="' + url + '"></a>'
+function addImage (imgURL, thumbURL) {
+  var str = '<a target="_blank" href="' + imgURL + '"><img src="' + thumbURL + '"></a>'
   mainDiv.innerHTML += str
 }

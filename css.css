@@ -362,8 +362,11 @@ footer {
     float: left;
     width: 29%;
     margin: 2%;
-    // display: block;
-    // margin: auto;
+    transition: opacity 200ms;
+}
+
+#home-gallery img:hover {
+    opacity: 0.7;
 }
 
 
@@ -376,6 +379,11 @@ footer {
 
 #gallery img {
     width: 100%;
+    transition: opacity 200ms;
+}
+
+#gallery img:hover {
+    opacity: 0.7;
 }
 
 #gallery .single-image {
