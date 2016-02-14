@@ -33,6 +33,6 @@ if (mainDiv) {
 }
 
 function addImage (imgURL, thumbURL) {
-  var str = '<a target="_blank" href="' + imgURL + '"><img src="' + thumbURL + '"></a>'
+  var str = '<li class="lnug-image"><a target="_blank" href="' + imgURL + '"><img src="' + thumbURL + '"></a></li>'
   mainDiv.innerHTML += str
 }
