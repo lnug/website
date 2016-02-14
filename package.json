@@ -7,7 +7,7 @@
     "test": "standard && mocha --recursive test",
     "update": "node ./bin/update-json.js",
     "build-markup": "node ./bin/build-markup.js",
-    "make-thumbs": "node ./bin/make-thumbs.js",
+    "photos": "node ./bin/photos.js",
     "start": "node ./bin/server.js",
     "build": "npm run update && npm run build-markup"
   },
