@@ -49,6 +49,9 @@ For the image-gallery, just dump all your photos inside the folder **images/gall
 Then `npm run build` will read the files from that folder and create the markup for the image-gallery page.
 The 3 random images on the home page are inserted there using Javascript with every page refresh
 
+To create **thumbnails** just drop your pics inside folder **gallery** and then run `npm run photos`
+It will create a 350x350 thumbnail for every pic and store it inside **gallery/thumbnails**.
+
 To run the update you need permission to execute the bin directory.
 
   chmod 775 ./bin/*
@@ -58,7 +61,8 @@ To run the update you need permission to execute the bin directory.
 # Changelog (Branches)
 
 ##add-image-gallery
-
-Adding image gallery as requested here [Issue #97](https://github.com/lnug/lnug.github.io/issues/97)
+- Adding image gallery as requested here [Issue #97](https://github.com/lnug/lnug.github.io/issues/97)
+- The image gallery uses this npm module [Easy Image](https://www.npmjs.com/package/easyimage) for thumbnails creation
+- Adding 3 images to the home-page (they change randomly with every page refresh)
 
 --- 
