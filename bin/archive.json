@@ -1,8 +1,0 @@
-{
-    "page": "archive",
-    "spec": {
-        "ul.archive": {
-            "component": "archive"
-        }
-    }
-}
