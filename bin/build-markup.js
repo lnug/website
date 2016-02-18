@@ -68,26 +68,25 @@ var spec = {
     }
   },
   '/sponsor.html': {
-
     page: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/resources/master/sponsors.md'),
-     spec: {
-        '.gold-sponsor': {
-            component: 'sponsor',
-            data: sponsorSelectors(sponsors.gold)
-        },
-        '.silver-sponsor': {
-            component: 'sponsor',
-            data: sponsorSelectors(sponsors.silver)
-        },
-        '.bronze-sponsor': {
-            component: 'sponsor',
-            data: sponsorSelectors(sponsors.bronze)
-        },
-        '.community-sponsor': {
-            component: 'sponsor',
-            data: sponsorSelectors(sponsors.community)
-        }
-     }
+    spec: {
+      '.gold-sponsor': {
+        component: 'sponsor',
+        data: sponsorSelectors(sponsors.gold)
+      },
+      '.silver-sponsor': {
+        component: 'sponsor',
+        data: sponsorSelectors(sponsors.silver)
+      },
+      '.bronze-sponsor': {
+        component: 'sponsor',
+        data: sponsorSelectors(sponsors.bronze)
+      },
+      '.community-sponsor': {
+        component: 'sponsor',
+        data: sponsorSelectors(sponsors.community)
+      }
+    }
   },
   '/contact.html': {
     page: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/feedback/master/ORGANISERS.md')
@@ -97,10 +96,10 @@ var spec = {
   }
 }
 
-speclate.generate(spec, function(error) {
-    if(error) {
-        console.log('Error generating site: ', error);
-    }
+speclate.generate(spec, function (error) {
+  if (error) {
+    console.log('Error generating site: ', error)
+  }
 })
 
 speclate.api(spec, function (error) {
@@ -108,8 +107,6 @@ speclate.api(spec, function (error) {
     console.log('Error generating API: ', error)
   }
 })
-
-
 
 speclate.appCache(spec, [
   '/css.css',
