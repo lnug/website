@@ -5,7 +5,7 @@
 var speclate = require('speclate')
 
 var nextEvent = require('../lib/next-event-from-file')
-var generateMaps = require('../lib/generate-maps')
+
 var titoLink = require('../lib/tito-link')
 
 //  var sponsorSelectors = require('../lib/sponsors-selectors')
@@ -143,7 +143,6 @@ var spec = {
   }
 }
 
-generateMaps(venue.location)
 speclate.generate(spec)
 speclate.appCache(spec, [
   '/css.css',

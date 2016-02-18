@@ -8,6 +8,7 @@
     "update": "node ./bin/update-json.js",
     "build-markup": "node ./bin/build-markup.js",
     "photos": "node ./bin/photos.js",
+    "map": "node ./bin/generate-maps.js",
     "start": "node ./bin/server.js",
     "build": "npm run update && npm run build-markup"
   },
