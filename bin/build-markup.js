@@ -102,6 +102,15 @@ speclate.generate(spec, function(error) {
         console.log('Error generating site: ', error);
     }
 })
+
+speclate.api(spec, function (error) {
+  if (error) {
+    console.log('Error generating API: ', error)
+  }
+})
+
+
+
 speclate.appCache(spec, [
   '/css.css',
   '/app-cache-nanny.js',
