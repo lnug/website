@@ -58,15 +58,6 @@ var spec = {
   '/speak.html': {
     page: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/speakers/master/README.md')
   },
-  '/image-gallery.html': {
-    page: 'image-gallery',
-    spec: {
-      'section#gallery': {
-        component: 'image-gallery',
-        data: require('../lib/image-gallery')
-      }
-    }
-  },
   '/sponsor.html': {
     page: require('../lib/markdown')('https://raw.githubusercontent.com/lnug/resources/master/sponsors.md'),
     spec: {
