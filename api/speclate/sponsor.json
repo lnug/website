@@ -36,6 +36,14 @@
         "page": "code-of-conduct"
     },
     "/speak.html": {},
+    "/image-gallery.html": {
+        "page": "image-gallery",
+        "spec": {
+            "section#gallery": {
+                "component": "image-gallery"
+            }
+        }
+    },
     "/sponsor.html": {
         "spec": {
             ".gold-sponsor": {
