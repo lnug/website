@@ -10,10 +10,10 @@ var titoLink = require('../lib/tito-link')
 
 var sponsorSelectors = require('../lib/sponsors-selectors')
 
-var venue = require('../data/venues/makers.json')
+var venue = require('../api/venues/makers.json')
 
 var eventDate = nextEvent()
-var sponsors = require('../data/sponsors.json');
+var sponsors = require('../api/sponsors.json')
 
 var spec = {
   '/index.html': {
