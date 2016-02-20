@@ -24,8 +24,8 @@ if (mainDiv) {
       }
 
       addImage(images[img1].a.href, images[img1].img.src)
-      addImage(images[img1].a.href, images[img2].img.src)
-      addImage(images[img1].a.href, images[img3].img.src)
+      addImage(images[img2].a.href, images[img2].img.src)
+      addImage(images[img3].a.href, images[img3].img.src)
     }
   }
   xhttp.open('GET', 'image-gallery.json', true)
