@@ -16,45 +16,7 @@
             }
         },
         ".lnug-content": {
-            "component": "speaker",
-            "data": [
-                {
-                    ".name": "Guy Podjarny",
-                    ".title": "Stranger Danger: addressing the security risk in npm dependencies",
-                    ".desc": "<p>Open source modules, and especially npm, are undoubtedly awesome. However, they also represent an undeniable and massive risk. You&rsquo;re introducing someone else&rsquo;s code into your system, often with little or no scrutiny. Each component may have vulnerabilities (~14% of them do!), may be compromised, or even be outright malicious. Multiply that risk by hundreds of dependencies, and you have a recipe for disaster.&#13;&#10;&#13;&#10;In this talk we&rsquo;ll show how you can mitigate this risk without losing productivity. We&rsquo;ll share more data more about the risk; show how to find &amp; fix known vulnerabilities in these dependencies; discuss how to prioritize the ones worthy of manual inspection &amp; suggest what to monitor in production. </p>\n",
-                    "img": {
-                        "src": "https://avatars.githubusercontent.com/u/1106394?v=3"
-                    },
-                    ".lnug-twitterhandle a": {
-                        "innerHTML": "@guypod",
-                        "href": "https://github.com/guypod"
-                    }
-                },
-                {
-                    ".name": "Shane Osbourne",
-                    ".title": "Taming Asynchronous Programming with RxJS",
-                    ".desc": "<p>Asynchronous programs can be confusing, hard to follow, difficult to debug and, quite frankly, just down right <em>annoying</em> to write. &#13;&#10;&#13;&#10;Mouse &amp; touch events in the browser, XHR requests, node&#39;s various event emitters... - what if there was a way to model all of these eventual values in the exact same way? RxJS allows us to do exactly this with the Observable. Boasting a rich set of composable operators, you can begin to unravel your spaghetti code and author declarative transformation pipelines that are simply not possible otherwise.</p>\n",
-                    "img": {
-                        "src": "https://avatars.githubusercontent.com/u/1643522?v=3"
-                    },
-                    ".lnug-twitterhandle a": {
-                        "innerHTML": "@shakyShane",
-                        "href": "https://github.com/shakyShane"
-                    }
-                },
-                {
-                    ".name": "Zhivko Siderov",
-                    ".title": "How to build a real-time application with Node",
-                    ".desc": "<p>I would like to do a beginner level talk on Node. As someone who is just starting to learn Node, I want to share my experience and make a walkthrough presentation. I haven&#39;t decided whether I will be building a game or not.</p>\n",
-                    "img": {
-                        "src": "https://avatars.githubusercontent.com/u/11786608?v=3"
-                    },
-                    ".lnug-twitterhandle a": {
-                        "innerHTML": "@zsid",
-                        "href": "https://github.com/zsid"
-                    }
-                }
-            ]
+            "component": "speaker"
         },
         ".lnug-mailing-list": {
             "component": "sign-up"
