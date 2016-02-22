@@ -45,10 +45,13 @@ Once you have built the site confirm it works locally before pushing to master a
 
 Check the package.json file for a full list of commands you can run.
 
-For the image-gallery, just dump all your photos inside the folder **images/gallery**.
-Then `npm run build` will read the files from that folder and create the markup for the image-gallery page.
+###For the image-gallery
+For the image-gallery, is is necessary to manually update the file data/gallery.json (this is an interim solution for now Feb/2016)
+When running the command `npm run build` it will read the contents from that file and create the markup for the image-gallery page.
 The 3 random images on the home page are inserted there using Javascript with every page refresh
 
+
+###To create thumbnails
 To create **thumbnails** just drop your pics inside folder **gallery** and then run `npm run photos`
 It will create a 350x350 thumbnail for every pic and store it inside **gallery/thumbnails**.
 
