@@ -14,7 +14,7 @@ gallery.map(function (photo) {
     var id = shortid.generate()
     var thumbnailPath = './images/gallery/' + id + '.jpg'
     var writeStream = fs.createWriteStream(thumbnailPath)
-    var resize = im().resize('350x350').quality(90)
+    var resize = im().resize('500x500').crop('350x350').quality(90)
     fetchStream.pipe(resize).pipe(writeStream)
     photo.thumb = thumbnailPath
   }
