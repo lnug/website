@@ -1,5 +1,25 @@
 [
     {
+        "date": "March 2016",
+        "speakers": [
+            {
+                "name": "Tanzim",
+                "url": "https://github.com/tanzim",
+                "title": "Computing at scale. Why you should already be using AWS Lambda"
+            },
+            {
+                "name": "Submit your talk!",
+                "url": "/speak.html",
+                "title": "Slot available"
+            },
+            {
+                "name": "Submit your talk!",
+                "url": "/speak.html",
+                "title": "Slot available"
+            }
+        ]
+    },
+    {
         "date": "February 2016",
         "speakers": [
             {
