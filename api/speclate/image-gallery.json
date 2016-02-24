@@ -1,0 +1,8 @@
+{
+    "page": "image-gallery",
+    "spec": {
+        "section#gallery": {
+            "component": "image-gallery"
+        }
+    }
+}
