@@ -151,17 +151,17 @@
         "speakers": [
             {
                 "url": "https://github.com/hxoliverrumbelow",
-                "name": "hxoliverrumbelow",
+                "name": "Oliver Rumbelow",
                 "title": "Blowing out the LAMP"
             },
             {
                 "url": "https://github.com/mikemaccana",
-                "name": "mikemaccana",
+                "name": "Mike MacCana",
                 "title": "Deploying and running Node apps in 2015"
             },
             {
                 "url": "https://github.com/maxwellito",
-                "name": "maxwellito",
+                "name": "Max Dulduc",
                 "title": "Liwe, an open source remote control for WebApps"
             }
         ],
@@ -173,12 +173,12 @@
         "speakers": [
             {
                 "url": "https://github.com/ohjames",
-                "name": "ohjames",
+                "name": "James Pike",
                 "title": "The state of web asset pipelines and the description of a new pipeline that combines the best of all worlds."
             },
             {
                 "url": "https://github.com/sideshowcoder",
-                "name": "sideshowcoder",
+                "name": "Philipp Fehre",
                 "title": "Server mocking with canned"
             }
         ],
@@ -190,17 +190,17 @@
         "speakers": [
             {
                 "url": "https://github.com/achingbrain",
-                "name": "achingbrain",
+                "name": "Alex Potsides",
                 "title": "Guvnor: running your processes like a boss"
             },
             {
                 "url": "https://github.com/jamesallardice",
-                "name": "jamesallardice",
+                "name": "James Allardice",
                 "title": "Writing and publishing ES6 code today"
             },
             {
                 "url": "https://github.com/simonmcmanus",
-                "name": "simonmcmanus",
+                "name": "Simon McManus",
                 "title": "Progressive Enhancement Strategies"
             }
         ],
@@ -212,17 +212,17 @@
         "speakers": [
             {
                 "url": "https://github.com/Globegitter",
-                "name": "Globegitter",
+                "name": "Markus Padourek",
                 "title": "Benefits of using Convention over Configuration"
             },
             {
                 "url": "https://github.com/rosskukulinski",
-                "name": "rosskukulinski",
+                "name": "Ross Kukulinski",
                 "title": "Building NodeJS Applications with Docker & CoreOS"
             },
             {
                 "url": "https://github.com/alanshaw",
-                "name": "alanshaw",
+                "name": "Alan Shaw",
                 "title": "Super simple service health monitoring with upmon"
             }
         ],
@@ -234,17 +234,17 @@
         "speakers": [
             {
                 "url": "https://github.com/ForbesLindesay",
-                "name": "ForbesLindesay",
+                "name": "Forbes Lindesay",
                 "title": "Everything you didn't dare asking about jade"
             },
             {
                 "url": "https://github.com/lukebond",
-                "name": "lukebond",
+                "name": "Luke Bond",
                 "title": "Service discovery for your Node.js applications"
             },
             {
                 "url": "https://github.com/basicallydan",
-                "name": "basicallydan",
+                "name": "Daniel Hough",
                 "title": "I'm a Node Module Maintainer (And so can you!)"
             }
         ],
