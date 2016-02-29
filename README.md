@@ -45,7 +45,7 @@ Once you have built the site confirm it works locally before pushing to master a
 
 Check the package.json file for a full list of commands you can run.
 
-###For the image-gallery, 
+###For the image-gallery:
 Just add the URLS to the images inside file `api\gallery.json`.
 Then you run `npm run photos`, and this will happen:
 - for each entry, it will read the field "source" with image URL
