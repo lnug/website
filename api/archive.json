@@ -21,21 +21,25 @@
     },
     {
         "date": "January 2016",
+        "playlist-url": "https://www.youtube.com/playlist?list=PLam_80-FY3vSSYKqfaj0YB9X06Vi5un5j",
         "speakers": [
             {
                 "name": "Oliver Rumbelow",
                 "url": "https://github.com/hxoliverrumbelow",
-                "title": "NodeJS Supercomputing?!"
+                "title": "NodeJS Supercomputing?!",
+                "video": "https://youtu.be/1mYl6v0Kzt0?list=PLam_80-FY3vSSYKqfaj0YB9X06Vi5un5j"
             },
             {
-                "name": "Hugo",
+                "name": "Hugo Di Francesco",
                 "url": "https://github.com/HugoDF",
-                "title": "Going cross-platform with React: ~1 codebase, 3 platforms"
+                "title": "Going cross-platform with React: ~1 codebase, 3 platforms",
+                "video": "https://youtu.be/b3wYEn2r_Ac?list=PLam_80-FY3vSSYKqfaj0YB9X06Vi5un5j"
             },
             {
                 "name": "Phil Nash",
                 "url": "https://github.com/philnash",
-                "title": "2FA, WTF?"
+                "title": "2FA, WTF?",
+                "video": "https://youtu.be/Wuc4Nh3lmSE?list=PLam_80-FY3vSSYKqfaj0YB9X06Vi5un5j"
             }
         ]
     },
@@ -65,21 +69,25 @@
     },
     {
         "date": "October 2015",
+        "playlist-url": "https://www.youtube.com/playlist?list=PLam_80-FY3vT--2u55HKoZRAwfrHHP1aC",
         "speakers": [
             {
                 "name": "Milo Mordaunt",
                 "url": "https://github.com/bananaoomarang",
-                "title": "Flux to Redux, Thinking with Data"
+                "title": "Flux to Redux, Thinking with Data",
+                "video": "https://youtu.be/n99Jhop6K8Y?list=PLam_80-FY3vT--2u55HKoZRAwfrHHP1aC"
             },
             {
                 "name": "Alistair Stead",
                 "url": "https://github.com/alistairstead",
-                "title": "Full-stack BDD and its side effects"
+                "title": "Full-stack BDD and its side effects",
+                "video": "https://youtu.be/YP_YIH4GoGE?list=PLam_80-FY3vT--2u55HKoZRAwfrHHP1aC"
             },
             {
                 "name": "Tom Gallacher",
                 "url": "https://github.com/tomgco",
-                "title": "White water streams"
+                "title": "White water streams",
+                "video": "https://youtu.be/iBEjz38ppe4?list=PLam_80-FY3vT--2u55HKoZRAwfrHHP1aC"
             }
         ]
     },
@@ -92,7 +100,7 @@
                 "title": "The Miracle of Generators"
             },
             {
-                "name": "hassy veldstra",
+                "name": "Hassy Veldstra",
                 "url": "https://github.com/hassy",
                 "title": "Load-testing for fun and profit"
             },
@@ -106,41 +114,49 @@
     {
         "date": "August 2015",
         "lanyrd": "http://lanyrd.com/2015/lnug-August/",
+        "playlist-url": "https://www.youtube.com/playlist?list=PLam_80-FY3vQ-qa-AqFDWCAjGHhDRcKoQ",
         "speakers": [
             {
                 "name": "Tomasz Janczuk",
                 "url": "https://github.com/tjanczuk",
-                "title": "Rethinking backend with webtasks"
+                "title": "Rethinking backend with webtasks",
+                "video": "https://youtu.be/bhQ3Ov4niPs?list=PLam_80-FY3vQ-qa-AqFDWCAjGHhDRcKoQ"
             },
             {
                 "name": "Dan Jenkins",
                 "url": "https://github.com/danjenkins",
-                "title": "WebRTC Reborn"
+                "title": "WebRTC Reborn",
+                "video": "https://youtu.be/tB9z4ZOoSwg?list=PLam_80-FY3vQ-qa-AqFDWCAjGHhDRcKoQ"
             },
             {
                 "name": "Tim Perry",
                 "url": "https://github.com/pimterry",
-                "title": "TypeScript will finally bring peace to your troubled soul"
+                "title": "TypeScript will finally bring peace to your troubled soul",
+                "video": "https://youtu.be/UI9cgrMxGi0?list=PLam_80-FY3vQ-qa-AqFDWCAjGHhDRcKoQ"
             }
         ]
     },
     {
         "date": "July 2015",
+        "playlist-url": "https://www.youtube.com/playlist?list=PLam_80-FY3vSRhu1NfVXVN01xBX0Gf8EV",
         "speakers": [
             {
                 "url": "https://github.com/jdNash",
                 "name": "Joe Nash",
-                "title": "Insert Token: Immersive UX with Tokenization"
+                "title": "Insert Token: Immersive UX with Tokenization",
+                "video": "https://youtu.be/3pwsbVOxvYk?list=PLam_80-FY3vSRhu1NfVXVN01xBX0Gf8EV"
             },
             {
                 "url": "https://github.com/mikeal",
                 "name": "Mikeal Rogers",
-                "title": "Node Foundation Q&A"
+                "title": "Node Foundation Q&A",
+                "video": "https://youtu.be/AIr_dkcql9E?list=PLam_80-FY3vSRhu1NfVXVN01xBX0Gf8EV"
             },
             {
-                "url": "https://github.com/izaakrogan",
-                "name": "Izaak Rogan",
-                "title": "Founders & Coders"
+                "url": "https://github.com/sofer",
+                "name": "Dan Sofer",
+                "title": "Founders & Coders",
+                "video": "https://youtu.be/3oXhmHDDEro?list=PLam_80-FY3vSRhu1NfVXVN01xBX0Gf8EV"
             }
         ],
         "id": 44,
@@ -187,21 +203,25 @@
     },
     {
         "date": "April 2015",
+        "playlist-url": "https://www.youtube.com/playlist?list=PLam_80-FY3vQ9tBPgllITvduAI_g86YYA",
         "speakers": [
             {
                 "url": "https://github.com/achingbrain",
                 "name": "Alex Potsides",
-                "title": "Guvnor: running your processes like a boss"
+                "title": "Guvnor: running your processes like a boss",
+                "video": "https://youtu.be/LZEShD2fOzo?list=PLam_80-FY3vQ9tBPgllITvduAI_g86YYA"
             },
             {
                 "url": "https://github.com/jamesallardice",
                 "name": "James Allardice",
-                "title": "Writing and publishing ES6 code today"
+                "title": "Writing and publishing ES6 code today",
+                "video": "https://youtu.be/w0mGM5rFqeA?list=PLam_80-FY3vQ9tBPgllITvduAI_g86YYA"
             },
             {
                 "url": "https://github.com/simonmcmanus",
                 "name": "Simon McManus",
-                "title": "Progressive Enhancement Strategies"
+                "title": "Progressive Enhancement Strategies",
+                "video": "https://youtu.be/KPrC-udTDi8?list=PLam_80-FY3vQ9tBPgllITvduAI_g86YYA"
             }
         ],
         "id": 41,
@@ -209,21 +229,25 @@
     },
     {
         "date": "March 2015",
+        "playlist-url": "https://www.youtube.com/playlist?list=PLam_80-FY3vSpdpbWLhHF7sdS0GIfGkJW",
         "speakers": [
             {
                 "url": "https://github.com/Globegitter",
                 "name": "Markus Padourek",
-                "title": "Benefits of using Convention over Configuration"
+                "title": "Benefits of using Convention over Configuration",
+                "video": "https://youtu.be/uVtXNNmvYwg?list=PLam_80-FY3vSpdpbWLhHF7sdS0GIfGkJW"
             },
             {
                 "url": "https://github.com/rosskukulinski",
                 "name": "Ross Kukulinski",
-                "title": "Building NodeJS Applications with Docker & CoreOS"
+                "title": "Building NodeJS Applications with Docker & CoreOS",
+                "video": "https://youtu.be/s0qfSevw2UU?list=PLam_80-FY3vSpdpbWLhHF7sdS0GIfGkJW"
             },
             {
                 "url": "https://github.com/alanshaw",
                 "name": "Alan Shaw",
-                "title": "Super simple service health monitoring with upmon"
+                "title": "Super simple service health monitoring with upmon",
+                "video": "https://youtu.be/hC0xwgUpz6M?list=PLam_80-FY3vSpdpbWLhHF7sdS0GIfGkJW"
             }
         ],
         "id": 39,
@@ -231,21 +255,25 @@
     },
     {
         "date": "February 2015",
+        "playlist-url": "https://www.youtube.com/playlist?list=PLam_80-FY3vTopJJMuZ1iM-Uo0Omk72Ai",
         "speakers": [
             {
                 "url": "https://github.com/ForbesLindesay",
                 "name": "Forbes Lindesay",
-                "title": "Everything you didn't dare asking about jade"
+                "title": "Everything you didn't dare asking about jade",
+                "video": "https://youtu.be/m7oosgdDdSY?list=PLam_80-FY3vTopJJMuZ1iM-Uo0Omk72Ai"
             },
             {
                 "url": "https://github.com/lukebond",
                 "name": "Luke Bond",
-                "title": "Service discovery for your Node.js applications"
+                "title": "Paz: A Simple Docker PaaS Written in Node.js",
+                "video": "https://youtu.be/cQOPoDmkFg8?list=PLam_80-FY3vTopJJMuZ1iM-Uo0Omk72Ai"
             },
             {
                 "url": "https://github.com/basicallydan",
                 "name": "Daniel Hough",
-                "title": "I'm a Node Module Maintainer (And so can you!)"
+                "title": "I'm a Node Module Maintainer (And so can you!)",
+                "video": "https://youtu.be/rCM2paoike0?list=PLam_80-FY3vTopJJMuZ1iM-Uo0Omk72Ai"
             }
         ],
         "id": 38,
@@ -253,26 +281,31 @@
     },
     {
         "date": "January 2015",
+        "playlist-url": "https://www.youtube.com/playlist?list=PLam_80-FY3vQR3NZJAUNeVdtYTYuP1qlS",
         "speakers": [
             {
                 "url": "https://twitter.com/flomotlik",
                 "name": "Florian Motlik",
-                "title": "Continuous Delivery with Codeship"
+                "title": "Servers Are Dead, Long Live the Service",
+                "video": "https://youtu.be/bU5Dre5MrI8?list=PLam_80-FY3vQR3NZJAUNeVdtYTYuP1qlS"
             },
             {
                 "url": "https://twitter.com/rosskukulinski",
                 "name": "Ross Kukulinski",
-                "title": "What to expect when expecting IOJS"
+                "title": "What to expect when expecting IOJS",
+                "video": "https://youtu.be/JhEf6JngpdQ?list=PLam_80-FY3vQR3NZJAUNeVdtYTYuP1qlS"
             },
             {
                 "url": "https://twitter.com/fmsf303",
                 "name": "Francisco Ferreira",
-                "title": "Javascript Craftsmanship"
+                "title": "Javascript Craftsmanship",
+                "video": "https://youtu.be/g-1cefQvFYc?list=PLam_80-FY3vQR3NZJAUNeVdtYTYuP1qlS"
             },
             {
                 "url": "https://twitter.com/pimterry",
                 "name": "Tim Perry",
-                "title": "Web Components & Microservices Are The Same Thing"
+                "title": "Web Components & Microservices Are The Same Thing",
+                "video": "https://youtu.be/EivKc3HpElQ?list=PLam_80-FY3vQR3NZJAUNeVdtYTYuP1qlS"
             }
         ],
         "id": 37,
