@@ -164,21 +164,25 @@
     },
     {
         "date": "June 2015",
+        "playlist-url": "https://www.youtube.com/playlist?list=PLam_80-FY3vSVQxWpSQD5vi8ZSgtQUcLB",
         "speakers": [
             {
                 "url": "https://github.com/hxoliverrumbelow",
                 "name": "Oliver Rumbelow",
-                "title": "Blowing out the LAMP"
+                "title": "Blowing out the LAMP",
+                "video": "https://youtu.be/L5JO1KCLGX4?list=PLam_80-FY3vSVQxWpSQD5vi8ZSgtQUcLB"
             },
             {
                 "url": "https://github.com/mikemaccana",
                 "name": "Mike MacCana",
-                "title": "Deploying and running Node apps in 2015"
+                "title": "Deploying and running Node apps in 2015",
+                "video": "https://youtu.be/ivzVLM1Zknw?list=PLam_80-FY3vSVQxWpSQD5vi8ZSgtQUcLB"
             },
             {
                 "url": "https://github.com/maxwellito",
                 "name": "Max Dulduc",
-                "title": "Liwe, an open source remote control for WebApps"
+                "title": "Liwe, an open source remote control for WebApps",
+                "video": "https://youtu.be/Vr9sH9fZN-8?list=PLam_80-FY3vSVQxWpSQD5vi8ZSgtQUcLB"
             }
         ],
         "id": 42,
@@ -186,6 +190,7 @@
     },
     {
         "date": "May 2015",
+        "playlist-url": "https://www.youtube.com/playlist?list=PLam_80-FY3vQ1Z6PXeG4xOuwDFtGuSBmh",
         "speakers": [
             {
                 "url": "https://github.com/ohjames",
@@ -196,6 +201,12 @@
                 "url": "https://github.com/sideshowcoder",
                 "name": "Philipp Fehre",
                 "title": "Server mocking with canned"
+            },
+            {
+                "url": "http://twitter.com/matteofigus",
+                "name": "Matteo Figus",
+                "title": "OpenComponents as microservices in the front-end world",
+                "video": "https://youtu.be/rrEsXvoU0Go?list=PLam_80-FY3vQ1Z6PXeG4xOuwDFtGuSBmh"
             }
         ],
         "id": 41,
@@ -335,21 +346,25 @@
     },
     {
         "date": "October 2014",
+        "playlist-url": "https://www.youtube.com/playlist?list=PLam_80-FY3vShsm-u6lmGrgHCYPVv4wiX",
         "speakers": [
             {
                 "url": "https://twitter.com/ischi",
                 "name": "Philipp Fehre",
-                "title": "JSON throughout the Stack"
+                "title": "JSON throughout the Stack",
+                "video": "https://youtu.be/mZKp3xuzKeQ?list=PLam_80-FY3vShsm-u6lmGrgHCYPVv4wiX"
             },
             {
                 "url": "https://twitter.com/ben_hall",
                 "name": "Ben Hall",
-                "title": "Node Anti-patterns"
+                "title": "Node Anti-patterns",
+                "video": "https://youtu.be/YyR4PdX-1O4?list=PLam_80-FY3vShsm-u6lmGrgHCYPVv4wiX"
             },
             {
                 "url": "https://twitter.com/substack",
                 "name": "James Halliday",
-                "title": "Data Wizzard"
+                "title": "Data Wizzard",
+                "video": "https://youtu.be/ID8hP4aXdBg?list=PLam_80-FY3vShsm-u6lmGrgHCYPVv4wiX"
             }
         ],
         "id": 35,
