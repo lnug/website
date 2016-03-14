@@ -1,31 +1,32 @@
 #!/usr/bin/env node
 'use strict'
 
-var easyimage = require('easyimage')
+var gallery = require('../api/gallery.json')
+var superagent = require('superagent')
+var shortid = require('shortid')
 var fs = require('fs')
+var im = require('imagemagick-stream')
 
-fs.readdir('./images/gallery', function (err, items) {
-  if (err) throw err
+gallery.map(function (photo) {
+  if (!photo.thumb) {
+    console.log('Fetching thumbnail for ', photo.source)
+    var fetchStream = superagent.get(photo.source)
+    var id = shortid.generate()
+    var thumbnailPath = './images/gallery/' + id + '.jpg'
+    var writeStream = fs.createWriteStream(thumbnailPath)
+    var resize = im().resize('500x500').crop('350x350').quality(90)
+    fetchStream.pipe(resize).pipe(writeStream)
+    photo.thumb = thumbnailPath
+  }
+  return photo
+})
 
-  for (var i = 0; i < items.length; i++) {
-    if (!fs.lstatSync('./images/gallery/' + items[i]).isDirectory()) {
-      easyimage.rescrop({
-        src: './images/gallery/' + items[i],
-        dst: './images/gallery/thumbs/' + items[i],
-        width: 500,
-        height: 500,
-        cropwidth: 350,
-        cropheight: 350,
-        x: 0,
-        y: 0
-      }).then(
-        function (image) {
-          console.log('Resized and cropped: ' + image.width + ' x ' + image.height)
-        },
-        function (err) {
-          console.log(err)
-        }
-      )
-    }
+var galleryString = JSON.stringify(gallery, null, 2)
+
+fs.writeFile('./api/gallery.json', galleryString, function (error, data) {
+  if (error) {
+    console.log('Error updating gallery.json', error)
+  } else {
+    console.log('Updated gallery.json')
   }
 })

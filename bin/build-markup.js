@@ -43,6 +43,15 @@ var spec = {
       }
     }
   },
+  '/image-gallery.html': {
+    page: 'image-gallery',
+    spec: {
+      'section#gallery': {
+        component: 'image-gallery',
+        data: require('../lib/image-gallery')
+      }
+    }
+  },
   '/archive.html': {
     page: 'archive',
     spec: {
