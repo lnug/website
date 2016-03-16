@@ -4,14 +4,14 @@
         ".lnug-ticket": {
             "component": "ticket",
             "data": {
-                ".lnug-nextmeetup": "February 24th 2016",
+                ".lnug-nextmeetup": "March 23rd 2016",
                 ".venue": "Makers Academy",
                 "address": "50 - 52 Commercial St<br />London E1 6LT",
                 ".address a": {
                     "href": "https://www.google.co.uk/maps/search/50 - 52 Commercial St, London E1 6LT"
                 },
                 "a.cta": {
-                    "href": "https://ti.to/lnug/february-2016"
+                    "href": "https://ti.to/lnug/march-2016"
                 }
             }
         },
