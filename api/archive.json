@@ -3,14 +3,14 @@
         "date": "March 2016",
         "speakers": [
             {
+                "name": "Mike Elsmore",
+                "url": "https://github.com/ukmadlz",
+                "title": "NoSQL is a lie"
+            },
+            {
                 "name": "Tanzim",
                 "url": "https://github.com/tanzim",
                 "title": "Computing at scale. Why you should already be using AWS Lambda"
-            },
-            {
-                "name": "Submit your talk!",
-                "url": "/speak.html",
-                "title": "Slot available"
             },
             {
                 "name": "Submit your talk!",
