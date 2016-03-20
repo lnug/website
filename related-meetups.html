@@ -190,6 +190,10 @@
   ga('send', 'pageview');
   if(appCacheNanny) {
       appCacheNanny.start();
+      appCacheNanny.on('updateready', function() {
+        location.reload();
+      });
   }
+
 </script>
 </html>

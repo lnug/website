@@ -64,7 +64,7 @@
   <p>A archive of the past London Node User group meetups.</p>
   <ul class="archive"><h2 class="date">March 2016</h2>
 <a class="lanyrd"></a>
-<ul class="speakers"><li>NoSQL is a lie -  <a href="https://github.com/ukmadlz">Mike Elsmore</a> </li> <li>Computing at scale. Why you should already be using AWS Lambda -  <a href="https://github.com/tanzim">Tanzim</a> </li> <li>Slot available -  <a href="/speak.html">Submit your talk!</a> </li></ul>
+<ul class="speakers"><li>Microservices development in node.js -  <a href="https://github.com/pelger">Peter Elger</a> </li> <li>NoSQL is a lie -  <a href="https://github.com/ukmadlz">Mike Elsmore</a> </li> <li>Computing at scale. Why you should already be using AWS Lambda -  <a href="https://github.com/tanzim">Tanzim</a> </li></ul>
 <dd>
   <span></span>
 </dd>
@@ -398,6 +398,10 @@
   ga('send', 'pageview');
   if(appCacheNanny) {
       appCacheNanny.start();
+      appCacheNanny.on('updateready', function() {
+        location.reload();
+      });
   }
+
 </script>
 </html>

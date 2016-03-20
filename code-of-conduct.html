@@ -124,6 +124,10 @@ LNUG is dedicated to providing a harassment-free meetup experience for everyone.
   ga('send', 'pageview');
   if(appCacheNanny) {
       appCacheNanny.start();
+      appCacheNanny.on('updateready', function() {
+        location.reload();
+      });
   }
+
 </script>
 </html>
