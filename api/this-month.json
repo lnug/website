@@ -1,32 +1,30 @@
 [
     {
-        "apiSpeakerUrl": "https://api.github.com/users/pelger",
-        "speakerUrl": "https://github.com/pelger",
-        "title": "Microservices development in node.js",
-        "description": "<p><strong>Abstract:</strong>&#13;&#10;Whilst micro-service based architectures promise many benefits in production, such as rapid continuous deployment cycles. Current developer tools are lagging behind. Irrespective of platform our current toolchains are very much oriented around the construction of monolithic application stacks and are unwieldy and cumbersome when applied to micro-service based systems. This talk will demonstrate a dynamic and responsive developer toolchain for micro-services implemented in and targeting node.js, that is more aligned with this architectural style. This talk will cover the tools that nearForm use to develop micro-services in the wild, something we&#39;ve discovered and iterated on over the last three years.&#13;&#10;&#13;&#10;<strong>Bio</strong>&#13;&#10;Peter Elger is Director of Engineering with nearForm, a Node.js consultancy - <a href=\"http://nearform.com.&#13;&#10;Formerly\">http://nearform.com.&#13;&#10;Formerly</a> a physicist working on the JET nuclear fusion research project, Peter has been co-founder &#13;&#10;and CTO of two companies prior to nearForm and holds degrees in theoretical physics and computer science. Based in Ireland, Peter has spoken and run workshops at many international conferences including, Node Interactive, nodeConfEU, Node Summit, node day (NYC), DevOpsCon, JS Conf.&#13;&#10;Twitter: @pelger&#13;&#10;</p>\n",
-        "milestone": "March 23rd 2016",
-        "img": "https://avatars.githubusercontent.com/u/211351?v=3",
-        "handle": "pelger",
-        "name": "Peter Elger"
+        "apiSpeakerUrl": "https://api.github.com/users/michaellennox",
+        "speakerUrl": "https://github.com/michaellennox",
+        "title": "What learning to code in 12 weeks really means",
+        "description": "<p>With Makers Academy currently hosting LNUG I thought it might be a great chance to give a talk to cover a few things about it including:&#13;&#10;a) what a bootcamp is, &#13;&#10;b) what they teach, &#13;&#10;c) what is actually meant by the concept of &#39;learning to code in 12 weeks&#39;,&#13;&#10;d) what it feels like as a student to push yourself to go from very little coding capacity at the start to being able to write, test and deploy applications 3/4 months later,&#13;&#10;e) the contrast between CS and bootcamp style education and why there is such a demand for alternate education sources in the current market&#13;&#10;&#13;&#10;I would be very interested in giving a talk of how Makers Academy has shaped my transition from a very different career path into a junior developer passionate about what I do. The talk would be rather technology agnostic, although node is one of the technologies I have had the pleasure of working with (and had to get to grips with very rapidly during a craft-a-thon), it would be much more based around trying to let people know about the trials and tribulations of the Makers Academy student journey.&#13;&#10;&#13;&#10;I&#39;m Michael, a junior developer who&#39;s just finished here at Makers&#13;&#10;You can learn a little more about me at <a href=\"http://www.michaellennox.me/blog/\">michaellennox.me/blog</a></p>\n",
+        "milestone": "April 27th 2016",
+        "img": "https://avatars.githubusercontent.com/u/14293463?v=3",
+        "handle": "michaellennox",
+        "name": "Michael Lennox"
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/ukmadlz",
-        "speakerUrl": "https://github.com/ukmadlz",
-        "title": "NoSQL is a lie",
-        "description": "<p>NoSQL is a term on the rise, and it&#39;s a lie. NoSQL is a catch-all term and I will point out why a catch all means missing tools that may help solve your problems. Going through a few popular DB&#39;s we will walk through the use cases and why they&#39;re good at what they do.&#13;&#10;&#13;&#10;Job: Developer Advocate @ IBM Cloud Data Services&#13;&#10;Twitter: @ukmadlz</p>\n",
-        "milestone": "March 23rd 2016",
-        "img": "https://avatars.githubusercontent.com/u/804683?v=3",
-        "handle": "ukmadlz",
-        "name": "Mike Elsmore"
+        "apiSpeakerUrl": "https://api.github.com/users/mikemaccana",
+        "speakerUrl": "https://github.com/mikemaccana",
+        "title": "Shotguns and Scalpels: Cheerio and Casper at scale",
+        "description": "<p>Two very different techniques to get Other People&#39;s Data. Cheerio to make the easy stuff easy, and Casper to make the hard stuff possible. Casper is complex: this talk makes it painless.</p>\n",
+        "milestone": "April 27th 2016",
+        "img": "https://avatars.githubusercontent.com/u/172594?v=3",
+        "handle": "mikemaccana",
+        "name": "Mike MacCana"
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/tanzim",
-        "speakerUrl": "https://github.com/tanzim",
-        "title": "Computing at scale. Why you should already be using AWS Lambda",
-        "description": "<p>Title: [Computing at scale. Why you should already be using AWS Lambda]&#13;&#10;Body: [Node.js is awesome for I/O. But what happens when you need to use CPU bound operations? Or what happens when you don&#39;t want to bog down your server with lots of long running tasks? Lambda from AWS gives you just the medicine to solve these headaches and more. Join me for a quick overview and how we solved some real world problems elegantly leveraging the power of Lambda]&#13;&#10;&#13;&#10;Additional links:&#13;&#10;&#13;&#10;<a href=\"http://aws.amazon.com/documentation/lambda\">http://aws.amazon.com/documentation/lambda</a></p>\n",
-        "milestone": "March 23rd 2016",
-        "img": "https://avatars.githubusercontent.com/u/1591642?v=3",
-        "handle": "tanzim",
-        "name": "Tanzim"
+        "title": "Slot available",
+        "name": "Submit your talk!",
+        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
+        "img": "/images/favicon/favicon-128.png",
+        "speakerUrl": "/speak.html",
+        "milestone": "April 27th 2016"
     }
 ]
