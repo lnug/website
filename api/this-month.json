@@ -1,5 +1,15 @@
 [
     {
+        "apiSpeakerUrl": "https://api.github.com/users/nelsonic",
+        "speakerUrl": "https://github.com/nelsonic",
+        "title": "Infinitely scalable chat",
+        "description": "<p>Last month @tanzim <em>introduced</em> you to AWS Lambda ... &#13;&#10;this time we&#39;re going to <em>show</em> you how to build a chat/messenger app that scales to <strong><em>hundreds of thousands of messages per second</em></strong> without deploying a single Docker Container or manage a Database. &#13;&#10;&#13;&#10;Overview&#13;&#10;+ Instead of using a (<em>traditional</em>) Node.js Web Server, we&#39;ll be using Lambda Functions. (<em>Don&#39;t worry, its still node.js</em>...)&#13;&#10;+ Instead of a (<em>traditional</em>) Database, DynamoDB.&#13;&#10;+ Instead of Pub/Sub and Socket.IO we will use <a href=\"https://aws.amazon.com/sns/\">AWS SNS</a>&#13;&#10;+ If there&#39;s time we can also show how to do Facebook/Twitter/Google Auth using <a href=\"https://aws.amazon.com/cognito/\">AWS Cognito</a>&#13;&#10;&#13;&#10;We will be writing the code for the app over the next couple of weekends. &#13;&#10;It will be similar to our previous demo app: <a href=\"https://github.com/dwyl/hapi-socketio-redis-chat-example&#13;&#10;in\">https://github.com/dwyl/hapi-socketio-redis-chat-example&#13;&#10;in</a> that there will be <strong><em>end-to-end tests</em></strong> <em>and</em> <strong><em>detailed documentation</em></strong>, but that&#39;s where the similarity ends!&#13;&#10;&#13;&#10;During the talk we will do a full stack/code/deployment walkthrough (<em>aprox 15 mins</em>)&#13;&#10;and then do AMA/Q&amp;A (<em>5 mins</em>)&#13;&#10;&#13;&#10;We already have <em>extensive practical</em> notes on using AWS Lambda: <a href=\"https://github.com/dwyl/learn-aws-lambda\">https://github.com/dwyl/learn-aws-lambda</a> ... these are going to be expanded into an end-to-end tutorial which <em>everyone</em> can follow. &#13;&#10;&#13;&#10;If you are <em>curious</em> about the <em>future</em> of web apps, give us a thumbs up.</p>\n",
+        "milestone": "April 27th 2016",
+        "img": "https://avatars.githubusercontent.com/u/194400?v=3",
+        "handle": "nelsonic",
+        "name": "Nelson"
+    },
+    {
         "apiSpeakerUrl": "https://api.github.com/users/michaellennox",
         "speakerUrl": "https://github.com/michaellennox",
         "title": "What learning to code in 12 weeks really means",
@@ -18,13 +28,5 @@
         "img": "https://avatars.githubusercontent.com/u/172594?v=3",
         "handle": "mikemaccana",
         "name": "Mike MacCana"
-    },
-    {
-        "title": "Slot available",
-        "name": "Submit your talk!",
-        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
-        "img": "/images/favicon/favicon-128.png",
-        "speakerUrl": "/speak.html",
-        "milestone": "April 27th 2016"
     }
 ]

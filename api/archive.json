@@ -3,6 +3,11 @@
         "date": "April 2016",
         "speakers": [
             {
+                "name": "Nelson",
+                "url": "https://github.com/nelsonic",
+                "title": "Infinitely scalable chat"
+            },
+            {
                 "name": "Michael Lennox",
                 "url": "https://github.com/michaellennox",
                 "title": "What learning to code in 12 weeks really means"
@@ -11,11 +16,6 @@
                 "name": "Mike MacCana",
                 "url": "https://github.com/mikemaccana",
                 "title": "Shotguns and Scalpels: Cheerio and Casper at scale"
-            },
-            {
-                "name": "Submit your talk!",
-                "url": "/speak.html",
-                "title": "Slot available"
             }
         ]
     },
