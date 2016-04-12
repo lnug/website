@@ -22,7 +22,9 @@ You can serve this with *any* static web server, but we'll use [mongoose](https:
 
 # Contributing
 
-Please note the HTML files in the root of this repository are generated. 
+Please note the HTML files in the root of this repository are generated.
+
+See ./spec.js to see how the pages are put together.
 
 If you want to change the templates look in the pages folder.
 
@@ -39,9 +41,11 @@ This site can be updated by running:
 
 build pulls in the speakers from the github issues and updates the json files.
 
-It then generates the html for the index and archive.html files.
+It then generates the html for the site.
 
-Once you have built the site confirm it works locally before pushing to master as that will deploy the site.
+Once you have built the site confirm it works locally before making a pull request.
+
+The site will be deployed when merged into master.
 
 Check the package.json file for a full list of commands you can run.
 
@@ -58,4 +62,4 @@ To run the update you need permission to execute the bin directory.
 
   chmod 775 ./bin/*
 
---- 
+---
