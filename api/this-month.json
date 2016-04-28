@@ -1,32 +1,32 @@
 [
     {
-        "apiSpeakerUrl": "https://api.github.com/users/nelsonic",
-        "speakerUrl": "https://github.com/nelsonic",
-        "title": "Infinitely scalable chat",
-        "description": "<p>Last month @tanzim <em>introduced</em> you to AWS Lambda ... &#13;&#10;this time we&#39;re going to <em>show</em> you how to build a chat/messenger app that scales to <strong><em>hundreds of thousands of messages per second</em></strong> without deploying a single Docker Container or manage a Database. &#13;&#10;&#13;&#10;Overview&#13;&#10;+ Instead of using a (<em>traditional</em>) Node.js Web Server, we&#39;ll be using Lambda Functions. (<em>Don&#39;t worry, its still node.js</em>...)&#13;&#10;+ Instead of a (<em>traditional</em>) Database, DynamoDB.&#13;&#10;+ Instead of Pub/Sub and Socket.IO we will use <a href=\"https://aws.amazon.com/sns/\">AWS SNS</a>&#13;&#10;+ If there&#39;s time we can also show how to do Facebook/Twitter/Google Auth using <a href=\"https://aws.amazon.com/cognito/\">AWS Cognito</a>&#13;&#10;&#13;&#10;We will be writing the code for the app over the next couple of weekends. &#13;&#10;It will be similar to our previous demo app: <a href=\"https://github.com/dwyl/hapi-socketio-redis-chat-example&#13;&#10;in\">https://github.com/dwyl/hapi-socketio-redis-chat-example&#13;&#10;in</a> that there will be <strong><em>end-to-end tests</em></strong> <em>and</em> <strong><em>detailed documentation</em></strong>, but that&#39;s where the similarity ends!&#13;&#10;&#13;&#10;During the talk we will do a full stack/code/deployment walkthrough (<em>aprox 15 mins</em>)&#13;&#10;and then do AMA/Q&amp;A (<em>5 mins</em>)&#13;&#10;&#13;&#10;We already have <em>extensive practical</em> notes on using AWS Lambda: <a href=\"https://github.com/dwyl/learn-aws-lambda\">https://github.com/dwyl/learn-aws-lambda</a> ... these are going to be expanded into an end-to-end tutorial which <em>everyone</em> can follow. &#13;&#10;&#13;&#10;If you are <em>curious</em> about the <em>future</em> of web apps, give us a thumbs up.</p>\n",
-        "milestone": "April 27th 2016",
-        "img": "https://avatars.githubusercontent.com/u/194400?v=3",
-        "handle": "nelsonic",
-        "name": "Nelson"
+        "apiSpeakerUrl": "https://api.github.com/users/alexjeffburke",
+        "speakerUrl": "https://github.com/alexjeffburke",
+        "title": "Declaratively mocking HTTP",
+        "description": "<p>I am a co-maintainer and the second largest contributor to an open source library named <a href=\"https://github.com/unexpectedjs/unexpected-mitm\">unexpected-mitm</a>. This is a plugin for <a href=\"http://unexpected.js.org\">Unexpected</a>, an extensible assertion tooklit, which enables HTTP mocking using declarative descriptions written in plain JavaScript. Unexpected itself is an open project is supported by a small but growing community. MY goal would be to give a basic introduction to Unexpected assertion syntax, some elements of it&#39;s extension API and combine those with an introduction to the functionality in unexptected-mitm.&#13;&#10;&#13;&#10;My name is Alex J Burke, I currently work as the Lead Platform Developer at a small company in London. I have worked on node the node platform building web application backends and associated software from version 0.6 onwards. I&#39;ve a Computer Science degree from King&#39;s College London and lived for three years in Copenhagen where for a time I worked for a medium size web hosting firm. My handle around the internet is alexjeffburke.</p>\n",
+        "milestone": "May 25th 2016",
+        "img": "https://avatars.githubusercontent.com/u/721814?v=3",
+        "handle": "alexjeffburke",
+        "name": "Alex J Burke"
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/michaellennox",
-        "speakerUrl": "https://github.com/michaellennox",
-        "title": "What learning to code in 12 weeks really means",
-        "description": "<p>With Makers Academy currently hosting LNUG I thought it might be a great chance to give a talk to cover a few things about it including:&#13;&#10;a) what a bootcamp is, &#13;&#10;b) what they teach, &#13;&#10;c) what is actually meant by the concept of &#39;learning to code in 12 weeks&#39;,&#13;&#10;d) what it feels like as a student to push yourself to go from very little coding capacity at the start to being able to write, test and deploy applications 3/4 months later,&#13;&#10;e) the contrast between CS and bootcamp style education and why there is such a demand for alternate education sources in the current market&#13;&#10;&#13;&#10;I would be very interested in giving a talk of how Makers Academy has shaped my transition from a very different career path into a junior developer passionate about what I do. The talk would be rather technology agnostic, although node is one of the technologies I have had the pleasure of working with (and had to get to grips with very rapidly during a craft-a-thon), it would be much more based around trying to let people know about the trials and tribulations of the Makers Academy student journey.&#13;&#10;&#13;&#10;I&#39;m Michael, a junior developer who&#39;s just finished here at Makers&#13;&#10;You can learn a little more about me at <a href=\"http://www.michaellennox.me/blog/\">michaellennox.me/blog</a></p>\n",
-        "milestone": "April 27th 2016",
-        "img": "https://avatars.githubusercontent.com/u/14293463?v=3",
-        "handle": "michaellennox",
-        "name": "Michael Lennox"
+        "apiSpeakerUrl": "https://api.github.com/users/theninj4",
+        "speakerUrl": "https://github.com/theninj4",
+        "title": "A Day in the Life of a NodeJS Developer",
+        "description": "<p>I&#39;d like to share two stories about bugs encountered during the day-to-day use of NodeJS. The first story is about a bug that plagued 3x developers in the office, the second story is about a major bug in production. These bugs are fat juicy and obscure, relating to non-obvious behaviour in the NodeJS core. I&#39;ll be presenting both stories as a timeline of their discovery through mitigation, understanding and resolution.</p>\n",
+        "milestone": "May 25th 2016",
+        "img": "https://avatars.githubusercontent.com/u/3055120?v=3",
+        "handle": "theninj4",
+        "name": "Oliver Rumbelow"
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/mikemaccana",
-        "speakerUrl": "https://github.com/mikemaccana",
-        "title": "Shotguns and Scalpels: Cheerio and Casper at scale",
-        "description": "<p>Two very different techniques to get Other People&#39;s Data. Cheerio to make the easy stuff easy, and Casper to make the hard stuff possible. Casper is complex: this talk makes it painless.</p>\n",
-        "milestone": "April 27th 2016",
-        "img": "https://avatars.githubusercontent.com/u/172594?v=3",
-        "handle": "mikemaccana",
-        "name": "Mike MacCana"
+        "apiSpeakerUrl": "https://api.github.com/users/srounce",
+        "speakerUrl": "https://github.com/srounce",
+        "title": "Debugging Node.JS",
+        "description": "<p>Blah blah blah I need to do a talk in</p>\n",
+        "milestone": "May 25th 2016",
+        "img": "https://avatars.githubusercontent.com/u/60792?v=3",
+        "handle": "srounce",
+        "name": "Samuel Rounce"
     }
 ]
