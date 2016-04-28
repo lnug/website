@@ -23,7 +23,7 @@
         "apiSpeakerUrl": "https://api.github.com/users/srounce",
         "speakerUrl": "https://github.com/srounce",
         "title": "Debugging Node.JS",
-        "description": "<p>Blah blah blah I need to do a talk in</p>\n",
+        "description": "",
         "milestone": "May 25th 2016",
         "img": "https://avatars.githubusercontent.com/u/60792?v=3",
         "handle": "srounce",
