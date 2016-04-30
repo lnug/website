@@ -55,10 +55,10 @@ module.exports = {
     page: 'code-of-conduct'
   },
   '/speak.html': {
-    page: require('./lib/markdown')('https://raw.githubusercontent.com/lnug/speakers/master/README.md')
+    page: 'speak'
   },
   '/sponsor.html': {
-    page: require('./lib/markdown')('https://raw.githubusercontent.com/lnug/resources/master/sponsors.md'),
+    page: 'sponsor',
     spec: {
       '.gold-sponsor': {
         component: 'sponsor',
@@ -79,9 +79,9 @@ module.exports = {
     }
   },
   '/contact.html': {
-    page: require('./lib/markdown')('https://raw.githubusercontent.com/lnug/feedback/master/ORGANISERS.md')
+    page: 'contact'
   },
   '/related-meetups.html': {
-    page: require('./lib/markdown')('https://raw.githubusercontent.com/lnug/related-meetups/master/README.md')
+    page: 'related'
   }
 }
