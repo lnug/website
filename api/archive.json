@@ -8,14 +8,14 @@
                 "title": "Declaratively mocking HTTP"
             },
             {
-                "name": "Oliver Rumbelow",
-                "url": "https://github.com/theninj4",
-                "title": "A Day in the Life of a NodeJS Developer"
-            },
-            {
                 "name": "Samuel Rounce",
                 "url": "https://github.com/srounce",
                 "title": "Debugging Node.JS"
+            },
+            {
+                "name": "Tanzim",
+                "url": "https://github.com/tanzim",
+                "title": "I&#39;ve got swagger. Have you?"
             }
         ]
     },

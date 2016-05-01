@@ -10,16 +10,6 @@
         "name": "Alex J Burke"
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/theninj4",
-        "speakerUrl": "https://github.com/theninj4",
-        "title": "A Day in the Life of a NodeJS Developer",
-        "description": "<p>I&#39;d like to share two stories about bugs encountered during the day-to-day use of NodeJS. The first story is about a bug that plagued 3x developers in the office, the second story is about a major bug in production. These bugs are fat juicy and obscure, relating to non-obvious behaviour in the NodeJS core. I&#39;ll be presenting both stories as a timeline of their discovery through mitigation, understanding and resolution.</p>\n",
-        "milestone": "May 25th 2016",
-        "img": "https://avatars.githubusercontent.com/u/3055120?v=3",
-        "handle": "theninj4",
-        "name": "Oliver Rumbelow"
-    },
-    {
         "apiSpeakerUrl": "https://api.github.com/users/srounce",
         "speakerUrl": "https://github.com/srounce",
         "title": "Debugging Node.JS",
@@ -28,5 +18,15 @@
         "img": "https://avatars.githubusercontent.com/u/60792?v=3",
         "handle": "srounce",
         "name": "Samuel Rounce"
+    },
+    {
+        "apiSpeakerUrl": "https://api.github.com/users/tanzim",
+        "speakerUrl": "https://github.com/tanzim",
+        "title": "I&#39;ve got swagger. Have you?",
+        "description": "<p>OpenAPI Specification, formerly known as Swagger is a well established standard for defining REST API interfaces. In this talk I&#39;d like to quickly go over Swagger, how you can integrate it with node.js and a few best practices that goes a long way to deliver robust enterprise class API service&#13;&#10;&#13;&#10;Additional links:&#13;&#10;- <a href=\"https://github.com/OAI/OpenAPI-Specification&#13;&#10;-\">https://github.com/OAI/OpenAPI-Specification&#13;&#10;-</a> <a href=\"https://github.com/swagger-api/swagger-node\">https://github.com/swagger-api/swagger-node</a></p>\n",
+        "milestone": "May 25th 2016",
+        "img": "https://avatars.githubusercontent.com/u/1591642?v=3",
+        "handle": "tanzim",
+        "name": "Tanzim"
     }
 ]
