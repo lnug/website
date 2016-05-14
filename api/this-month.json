@@ -13,7 +13,7 @@
         "apiSpeakerUrl": "https://api.github.com/users/srounce",
         "speakerUrl": "https://github.com/srounce",
         "title": "Debugging Node.JS",
-        "description": "",
+        "description": "<p><em>&quot;What&#39;s a debugger?&quot;</em>, <em>&quot;What&#39;s the </em>point<em> of debugging?&quot;</em>, <em>&quot;How do I debug Node?&quot;</em>, <em>&quot;But what about TDD?&quot;</em>, and <strong><em>&quot;Why the &fnof;#@|{ doesn&#39;t my code run?&quot;</em></strong>. &#13;&#10;Life&#39;s great questions. &#13;&#10;Join me, as we peel back the layers of preconceived debugging drudgery, to reveal the answers to these questions &mdash; and some others you never asked.</p>\n",
         "milestone": "May 25th 2016",
         "img": "https://avatars.githubusercontent.com/u/60792?v=3",
         "handle": "srounce",
