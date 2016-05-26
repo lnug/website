@@ -1,5 +1,25 @@
 [
     {
+        "date": "June 2016",
+        "speakers": [
+            {
+                "name": "Keith Woods",
+                "url": "https://github.com/KeithWoods",
+                "title": "Building Complex SPAs with React and ESP"
+            },
+            {
+                "name": "Oliver Rumbelow",
+                "url": "https://github.com/theninj4",
+                "title": "A Day in the Life of a NodeJS Developer"
+            },
+            {
+                "name": "luca mezzalira",
+                "url": "https://github.com/lucamezzalira",
+                "title": "Isomorphic apps with Hapi.js and React"
+            }
+        ]
+    },
+    {
         "date": "May 2016",
         "speakers": [
             {

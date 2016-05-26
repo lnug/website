@@ -1,32 +1,32 @@
 [
     {
-        "apiSpeakerUrl": "https://api.github.com/users/alexjeffburke",
-        "speakerUrl": "https://github.com/alexjeffburke",
-        "title": "Declaratively mocking HTTP",
-        "description": "<p>I am a co-maintainer and the second largest contributor to an open source library named <a href=\"https://github.com/unexpectedjs/unexpected-mitm\">unexpected-mitm</a>. This is a plugin for <a href=\"http://unexpected.js.org\">Unexpected</a>, an extensible assertion tooklit, which enables HTTP mocking using declarative descriptions written in plain JavaScript. Unexpected itself is an open project is supported by a small but growing community. MY goal would be to give a basic introduction to Unexpected assertion syntax, some elements of it&#39;s extension API and combine those with an introduction to the functionality in unexptected-mitm.&#13;&#10;&#13;&#10;My name is Alex J Burke, I currently work as the Lead Platform Developer at a small company in London. I have worked on node the node platform building web application backends and associated software from version 0.6 onwards. I&#39;ve a Computer Science degree from King&#39;s College London and lived for three years in Copenhagen where for a time I worked for a medium size web hosting firm. My handle around the internet is alexjeffburke.</p>\n",
-        "milestone": "May 25th 2016",
-        "img": "https://avatars.githubusercontent.com/u/721814?v=3",
-        "handle": "alexjeffburke",
-        "name": "Alex J Burke"
+        "apiSpeakerUrl": "https://api.github.com/users/KeithWoods",
+        "speakerUrl": "https://github.com/KeithWoods",
+        "title": "Building Complex SPAs with React and ESP",
+        "description": "<p>What does it take to build a complex single page application (SPA)? How do you model state in a way that can be reasoned with yet scales with functionality and remains maintainable? How do you separate your view code from your state and update state in a deterministic manor? We&#39;ll answer these questions using a real world open source sample application, <a href=\"https://github.com/AdaptiveConsulting/ReactiveTraderCloud\">Reactive Trader</a>, build on <a href=\"https://facebook.github.io/react/\">React</a> and Evented State Processor (<a href=\"https://github.com/esp/esp-js\">esp-js</a>).&#13;&#10;&#13;&#10;Keith Woods has been working in the city for several years on real time push based FX trading platforms.&#13;&#10;Consulting at various banks he has helped developed some of the worlds leading FX platforms using a range of differing technologies (including .Net, Java and JS). He works right across the stack. He is the author of ESP (<a href=\"https://github.com/esp/esp-js\">esp-js</a>, <a href=\"https://github.com/esp/esp-net\">esp-net</a>), build to solve complex state modelling problems.</p>\n",
+        "milestone": "June 22nd 2016",
+        "img": "https://avatars.githubusercontent.com/u/2853674?v=3",
+        "handle": "KeithWoods",
+        "name": "Keith Woods"
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/srounce",
-        "speakerUrl": "https://github.com/srounce",
-        "title": "Debugging Node.JS",
-        "description": "<p><em>&quot;What&#39;s a debugger?&quot;</em>, <em>&quot;What&#39;s the </em>point<em> of debugging?&quot;</em>, <em>&quot;How do I debug Node?&quot;</em>, <em>&quot;But what about TDD?&quot;</em>, and <strong><em>&quot;Why the &fnof;#@|{ doesn&#39;t my code run?&quot;</em></strong>. &#13;&#10;Life&#39;s great questions. &#13;&#10;Join me, as we peel back the layers of preconceived debugging drudgery, to reveal the answers to these questions &mdash; and some others you never asked.</p>\n",
-        "milestone": "May 25th 2016",
-        "img": "https://avatars.githubusercontent.com/u/60792?v=3",
-        "handle": "srounce",
-        "name": "Samuel Rounce"
+        "apiSpeakerUrl": "https://api.github.com/users/theninj4",
+        "speakerUrl": "https://github.com/theninj4",
+        "title": "A Day in the Life of a NodeJS Developer",
+        "description": "<p>I&#39;d like to share two stories about bugs encountered during the day-to-day use of NodeJS. The first story is about a bug that plagued 3x developers in the office, the second story is about a major bug in production. These bugs are fat juicy and obscure, relating to non-obvious behaviour in the NodeJS core. I&#39;ll be presenting both stories as a timeline of their discovery through mitigation, understanding and resolution.</p>\n",
+        "milestone": "June 22nd 2016",
+        "img": "https://avatars.githubusercontent.com/u/3055120?v=3",
+        "handle": "theninj4",
+        "name": "Oliver Rumbelow"
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/tanzim",
-        "speakerUrl": "https://github.com/tanzim",
-        "title": "I&#39;ve got swagger. Have you?",
-        "description": "<p>OpenAPI Specification, formerly known as Swagger is a well established standard for defining REST API interfaces. In this talk I&#39;d like to quickly go over Swagger, how you can integrate it with node.js and a few best practices that goes a long way to deliver robust enterprise class API service&#13;&#10;&#13;&#10;Additional links:&#13;&#10;- <a href=\"https://github.com/OAI/OpenAPI-Specification&#13;&#10;-\">https://github.com/OAI/OpenAPI-Specification&#13;&#10;-</a> <a href=\"https://github.com/swagger-api/swagger-node\">https://github.com/swagger-api/swagger-node</a></p>\n",
-        "milestone": "May 25th 2016",
-        "img": "https://avatars.githubusercontent.com/u/1591642?v=3",
-        "handle": "tanzim",
-        "name": "Tanzim"
+        "apiSpeakerUrl": "https://api.github.com/users/lucamezzalira",
+        "speakerUrl": "https://github.com/lucamezzalira",
+        "title": "Isomorphic apps with Hapi.js and React",
+        "description": "<p>In this talk I&#39;d like to show a quick example on how to create an isomorphic application with Hapi.js and React, in particular focusing why Hapi.js allows to create configurable and well organised code and how to use React as views for your isomorphic application.&#13;&#10;&#13;&#10;<strong>Speaker</strong>: Luca Mezzalira&#13;&#10;<strong>Linkedin</strong>: <a href=\"https://uk.linkedin.com/in/lucamezzalira&#13;&#10;**Twitter**\">https://uk.linkedin.com/in/lucamezzalira&#13;&#10;**Twitter**</a>: <a href=\"https://twitter.com/lucamezzalira&#13;&amp;#10\">https://twitter.com/lucamezzalira&#13;&amp;#10</a>;</p>\n",
+        "milestone": "June 22nd 2016",
+        "img": "https://avatars.githubusercontent.com/u/210272?v=3",
+        "handle": "lucamezzalira",
+        "name": "luca mezzalira"
     }
 ]
