@@ -12,8 +12,8 @@
     {
         "apiSpeakerUrl": "https://api.github.com/users/theninj4",
         "speakerUrl": "https://github.com/theninj4",
-        "title": "A Day in the Life of a NodeJS Developer",
-        "description": "<p>I&#39;d like to share two stories about bugs encountered during the day-to-day use of NodeJS. The first story is about a bug that plagued 3x developers in the office, the second story is about a major bug in production. These bugs are fat juicy and obscure, relating to non-obvious behaviour in the NodeJS core. I&#39;ll be presenting both stories as a timeline of their discovery through mitigation, understanding and resolution.</p>\n",
+        "title": "NodeJS Failure in Production - a Blameless PostMortem",
+        "description": "<p>Failure happens. Are you ready for it? Here at Holiday Extras we&#39;ve been running NodeJS in production for 5 years, it&#39;s been a critical part of our infrastructure for the last 3 years. In June 2015 we thought we had solved failure... then one day our API crumbled around us. We followed the incident with a Blameless PostMortem which forms the basis for this talk. I&#39;m going to run through how we&#39;re using NodeJS in production, the countermeasures we had in place and a chronological run through of what happened, the metrics we care about, the mitigations and the solutions.</p>\n",
         "milestone": "June 22nd 2016",
         "img": "https://avatars.githubusercontent.com/u/3055120?v=3",
         "handle": "theninj4",
