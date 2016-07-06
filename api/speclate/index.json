@@ -4,7 +4,7 @@
         ".lnug-ticket": {
             "component": "ticket",
             "data": {
-                ".lnug-nextmeetup": "June 22nd 2016",
+                ".lnug-nextmeetup": "July 27th 2016",
                 ".venue": "Makers Academy",
                 "address": "50 - 52 Commercial St<br />London E1 6LT",
                 ".address a": {

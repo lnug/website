@@ -1,32 +1,28 @@
 [
     {
-        "apiSpeakerUrl": "https://api.github.com/users/KeithWoods",
-        "speakerUrl": "https://github.com/KeithWoods",
-        "title": "Building Complex SPAs with React and ESP",
-        "description": "<p>What does it take to build a complex single page application (SPA)? How do you model state in a way that can be reasoned with yet scales with functionality and remains maintainable? How do you separate your view code from your state and update state in a deterministic manor? We&#39;ll answer these questions using a real world open source sample application, <a href=\"https://github.com/AdaptiveConsulting/ReactiveTraderCloud\">Reactive Trader</a>, build on <a href=\"https://facebook.github.io/react/\">React</a> and Evented State Processor (<a href=\"https://github.com/esp/esp-js\">esp-js</a>).&#13;&#10;&#13;&#10;Keith Woods has been working in the city for several years on real time push based FX trading platforms.&#13;&#10;Consulting at various banks he has helped developed some of the worlds leading FX platforms using a range of differing technologies (including .Net, Java and JS). He works right across the stack. He is the author of ESP (<a href=\"https://github.com/esp/esp-js\">esp-js</a>, <a href=\"https://github.com/esp/esp-net\">esp-net</a>), build to solve complex state modelling problems.</p>\n",
-        "milestone": "June 22nd 2016",
-        "img": "https://avatars.githubusercontent.com/u/2853674?v=3",
-        "handle": "KeithWoods",
-        "name": "Keith Woods"
+        "apiSpeakerUrl": "https://api.github.com/users/novemberborn",
+        "speakerUrl": "https://github.com/novemberborn",
+        "title": "AVA: Futuristic JavaScript test runner",
+        "description": "<p>AVA is a futuristic JavaScript runner. It&#39;s designed to make testing easier and perhaps even fun. Let&#39;s talk about its design philosophy, some of it&#39;s powerful features and what&#39;s next.&#13;&#10;&#13;&#10;---&#13;&#10;&#13;&#10;I&#39;m Mark, member of the AVA core team. I try and spend my time doing Node/JavaScript contracting and open source work.&#13;&#10;</p>\n",
+        "milestone": "July 27th 2016",
+        "img": "https://avatars.githubusercontent.com/u/33538?v=3",
+        "handle": "novemberborn",
+        "name": "Mark Wubben"
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/theninj4",
-        "speakerUrl": "https://github.com/theninj4",
-        "title": "NodeJS Failure in Production - a Blameless PostMortem",
-        "description": "<p>Failure happens. Are you ready for it? Here at Holiday Extras we&#39;ve been running NodeJS in production for 5 years, it&#39;s been a critical part of our infrastructure for the last 3 years. In June 2015 we thought we had solved failure... then one day our API crumbled around us. We followed the incident with a Blameless PostMortem which forms the basis for this talk. I&#39;m going to run through how we&#39;re using NodeJS in production, the countermeasures we had in place and a chronological run through of what happened, the metrics we care about, the mitigations and the solutions.</p>\n",
-        "milestone": "June 22nd 2016",
-        "img": "https://avatars.githubusercontent.com/u/3055120?v=3",
-        "handle": "theninj4",
-        "name": "Oliver Rumbelow"
+        "title": "Slot available",
+        "name": "Submit your talk!",
+        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
+        "img": "/images/favicon/favicon-128.png",
+        "speakerUrl": "/speak.html",
+        "milestone": "July 27th 2016"
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/lucamezzalira",
-        "speakerUrl": "https://github.com/lucamezzalira",
-        "title": "Isomorphic apps with Hapi.js and React",
-        "description": "<p>In this talk I&#39;d like to show a quick example on how to create an isomorphic application with Hapi.js and React, in particular focusing why Hapi.js allows to create configurable and well organised code and how to use React as views for your isomorphic application.&#13;&#10;&#13;&#10;<strong>Speaker</strong>: Luca Mezzalira&#13;&#10;<strong>Linkedin</strong>: <a href=\"https://uk.linkedin.com/in/lucamezzalira&#13;&#10;**Twitter**\">https://uk.linkedin.com/in/lucamezzalira&#13;&#10;**Twitter**</a>: <a href=\"https://twitter.com/lucamezzalira&#13;&amp;#10\">https://twitter.com/lucamezzalira&#13;&amp;#10</a>;</p>\n",
-        "milestone": "June 22nd 2016",
-        "img": "https://avatars.githubusercontent.com/u/210272?v=3",
-        "handle": "lucamezzalira",
-        "name": "luca mezzalira"
+        "title": "Slot available",
+        "name": "Submit your talk!",
+        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
+        "img": "/images/favicon/favicon-128.png",
+        "speakerUrl": "/speak.html",
+        "milestone": "July 27th 2016"
     }
 ]
