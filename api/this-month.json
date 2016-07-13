@@ -1,5 +1,15 @@
 [
     {
+        "apiSpeakerUrl": "https://api.github.com/users/meteatamel",
+        "speakerUrl": "https://github.com/meteatamel",
+        "title": "Node.js on Google Cloud",
+        "description": "<p>In this session, I will show how to deploy your Node.js app to Google Cloud, talk about versioning and traffic splitting for your Node.js app, portability with Docker and if there&#39;s time, briefly talk about live debugging and tracing using Stackdriver.&#13;&#10;&#13;&#10;I&#39;m a Developer Advocate at Google for Google Cloud Platform. @meteatamel</p>\n",
+        "milestone": "July 27th 2016",
+        "img": "https://avatars.githubusercontent.com/u/1177542?v=3",
+        "handle": "meteatamel",
+        "name": "Mete Atamel"
+    },
+    {
         "apiSpeakerUrl": "https://api.github.com/users/novemberborn",
         "speakerUrl": "https://github.com/novemberborn",
         "title": "AVA: Futuristic JavaScript test runner",
@@ -8,14 +18,6 @@
         "img": "https://avatars.githubusercontent.com/u/33538?v=3",
         "handle": "novemberborn",
         "name": "Mark Wubben"
-    },
-    {
-        "title": "Slot available",
-        "name": "Submit your talk!",
-        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
-        "img": "/images/favicon/favicon-128.png",
-        "speakerUrl": "/speak.html",
-        "milestone": "July 27th 2016"
     },
     {
         "title": "Slot available",
