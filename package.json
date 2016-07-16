@@ -41,6 +41,7 @@
     "speclate-fetch-markdown": "1.x.x",
     "standard": "^5.4.1",
     "superagent": "^1.3.0",
+    "ga-browser": "^1.0.0",
     "appcache-nanny": "^1.1.0"
   },
   "dependencies": {
@@ -48,8 +49,8 @@
   },
   "standard": {
     "globals": [
-        "$",
-        "location"
+      "$",
+      "location"
     ],
     "ignore": [
       "app-cache-nanny.js",
