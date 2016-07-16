@@ -5,9 +5,9 @@
 var speclate = require('speclate')
 var spec = require('../spec')
 speclate.site.markup(spec, function (error) {
-    if (error) {
-        console.log('Error generating site: ', error)
-    }
+  if (error) {
+    console.log('Error generating site: ', error)
+  }
 })
 
 speclate.site.appCache(spec, [

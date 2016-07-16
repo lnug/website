@@ -47,8 +47,13 @@
     "serve-me": "^0.8.2"
   },
   "standard": {
+    "globals": [
+        "$",
+        "location"
+    ],
     "ignore": [
-      "app-cache-nanny.js"
+      "app-cache-nanny.js",
+      "client/index-compiled.js"
     ]
   }
 }

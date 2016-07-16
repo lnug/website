@@ -39,7 +39,7 @@ module.exports = {
   '/image-gallery.html': {
     page: 'image-gallery',
     selectors: {
-      'title': 'Image Gallery - LNUG',
+      'title': 'Image Gallery - LNUG'
     },
     spec: {
       'section#gallery': {
@@ -51,7 +51,7 @@ module.exports = {
   '/archive.html': {
     page: 'archive',
     selectors: {
-      'title': 'Archive - LNUG',
+      'title': 'Archive - LNUG'
     },
     spec: {
       'ul.archive': {
@@ -63,7 +63,7 @@ module.exports = {
   '/code-of-conduct.html': {
     page: 'code-of-conduct',
     selectors: {
-      'title': 'Code of Conduct - LNUG',
+      'title': 'Code of Conduct - LNUG'
     }
   },
   '/speak.html': {
@@ -109,7 +109,7 @@ module.exports = {
       'title': 'Contact - LNUG',
       'nav a.contact': {
         className: 'active'
-      },
+      }
     }
   },
   '/related-meetups.html': {
