@@ -4,20 +4,13 @@
 
 var speclate = require('speclate')
 var spec = require('../spec')
-
-speclate.generate(spec, function (error) {
+speclate.site.markup(spec, function (error) {
   if (error) {
     console.log('Error generating site: ', error)
   }
 })
 
-speclate.api(spec, function (error) {
-  if (error) {
-    console.log('Error generating API: ', error)
-  }
-})
-
-speclate.appCache(spec, [
+speclate.site.appCache(spec, [
   '/css.css',
   '/app-cache-nanny.js',
   '/',
