@@ -59,6 +59,11 @@ h1 {
     padding-bottom: 3em;
 }
 
+nav a.active {
+    color: #ABA7A7;
+    cursor: default;
+}
+
 
 /* Header *****************************************/
 
