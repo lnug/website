@@ -11,6 +11,11 @@ router(spec, {
   },
   after: function () {
     $('html,body').scrollTop($('#container'))
+    analytics('send', 'pageview', {
+        page: window.location.pathname,
+        title: document.title
+    })
+
   }
 })
 
