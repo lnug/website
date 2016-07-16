@@ -1,7 +1,7 @@
 var spec = require('../spec')
 var router = require('speclate-router')
 var appCacheNanny = require('appcache-nanny')
-var analytics = require('ga-browser')()
+var analytics = require('ga-browser')(window)
 
 window.$ = require('jquery')
 
@@ -10,7 +10,7 @@ router(spec, {
     $('nav a.active').removeClass('active')
   },
   after: function () {
-    $('body').scrollTop($('#container'))
+    $('html,body').scrollTop($('#container'))
   }
 })
 
