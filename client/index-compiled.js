@@ -1483,7 +1483,6 @@ var appCacheNanny = require('appcache-nanny')
 var analytics = require('ga-browser')(window)
 
 window.$ = require('jquery')
-
 router(spec, {
   before: function () {
     $('nav a.active').removeClass('active')
@@ -1495,6 +1494,9 @@ router(spec, {
         title: document.title
     })
 
+  },
+  error: function(err) {
+    location.reload();
   }
 })
 
@@ -15004,10 +15006,15 @@ var superagent = require('superagent');
 exports.readFile = function(file, options, callback) {
     superagent.get( window.location.origin +  file )
     .end(function(err, res) {
+
+        if(err) {
+            return callback(err);
+        }
+
         if (res.ok) {
             callback(null, res.text); // passing null error param to keep same interface as fs.readfile.
         } else {
-            callback(err || res.body);
+            callback(res.body);
         }
     });
 };
@@ -33096,7 +33103,7 @@ var loadComponents = speclate.components.load
 /**
  * used for client side render.
  */
-module.exports = function (page, options, callback) {
+module.exports = function (page, options) {
   async.parallel({
     pageLayout: function (next) {
       var pageLayoutPath = '/pages/' + page.page + '/' + page.page + '.html'
@@ -33112,16 +33119,17 @@ module.exports = function (page, options, callback) {
   }, function (err, data) {
 
     if (err) {
-      return callback(err)
+      options.error && options.error(err);
+      return;
     }
-    options.before();
+    options.before && options.before();
 
     sizlate.render($('html'), {
       '#container': data.pageLayout
     })
 
     var markup = doSizlate(page, $('html'), data.components)
-    options.after(null, markup);
+    options.after && options.after(null, markup);
   })
 }
 
@@ -33134,10 +33142,14 @@ module.exports = function(file, callback) {
 
     superagent.get( window.location.origin +  file )
     .end(function(err, res) {
+
+        if(err) {
+            return callback(err)
+        }
         if(res.ok) {
             callback(null, res.text); // passing null error param to keep same interface as fs.readfile.
         }else {
-            callback(err || res.body);
+            callback(res.body);
         }
     });
 };
