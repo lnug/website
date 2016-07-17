@@ -4,7 +4,6 @@ var appCacheNanny = require('appcache-nanny')
 var analytics = require('ga-browser')(window)
 
 window.$ = require('jquery')
-
 router(spec, {
   before: function () {
     $('nav a.active').removeClass('active')
@@ -16,6 +15,9 @@ router(spec, {
         title: document.title
     })
 
+  },
+  error: function(err) {
+    location.reload();
   }
 })
 
