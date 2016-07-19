@@ -8,6 +8,9 @@ var sponsors = require('./api/sponsors.json')
 module.exports = {
   '/index.html': {
     page: 'home',
+    selectors: {
+      title: 'London Node User Group - LNUG'
+    },
     spec: {
       '.lnug-ticket': {
         component: 'ticket',
@@ -35,6 +38,9 @@ module.exports = {
   },
   '/image-gallery.html': {
     page: 'image-gallery',
+    selectors: {
+      'title': 'Image Gallery - LNUG'
+    },
     spec: {
       'section#gallery': {
         component: 'image-gallery',
@@ -44,6 +50,9 @@ module.exports = {
   },
   '/archive.html': {
     page: 'archive',
+    selectors: {
+      'title': 'Archive - LNUG'
+    },
     spec: {
       'ul.archive': {
         component: 'archive',
@@ -52,13 +61,29 @@ module.exports = {
     }
   },
   '/code-of-conduct.html': {
-    page: 'code-of-conduct'
+    page: 'code-of-conduct',
+    selectors: {
+      'title': 'Code of Conduct - LNUG'
+    }
   },
   '/speak.html': {
-    page: require('./lib/markdown')('https://raw.githubusercontent.com/lnug/speakers/master/README.md')
+    page: 'speak',
+    selectors: {
+      'nav a.speak': {
+        className: 'active'
+      },
+      'title': 'Speak - LNUG'
+    }
+
   },
   '/sponsor.html': {
-    page: require('./lib/markdown')('https://raw.githubusercontent.com/lnug/resources/master/sponsors.md'),
+    page: 'sponsor',
+    selectors: {
+      'nav a.sponsor': {
+        className: 'active'
+      },
+      'title': 'Sponsor - LNUG'
+    },
     spec: {
       '.gold-sponsor': {
         component: 'sponsor',
@@ -79,9 +104,18 @@ module.exports = {
     }
   },
   '/contact.html': {
-    page: require('./lib/markdown')('https://raw.githubusercontent.com/lnug/feedback/master/ORGANISERS.md')
+    page: 'contact',
+    selectors: {
+      'title': 'Contact - LNUG',
+      'nav a.contact': {
+        className: 'active'
+      }
+    }
   },
   '/related-meetups.html': {
-    page: require('./lib/markdown')('https://raw.githubusercontent.com/lnug/related-meetups/master/README.md')
+    page: 'related-meetups',
+    selectors: {
+      'title': 'Related Meetups - LNUG'
+    }
   }
 }

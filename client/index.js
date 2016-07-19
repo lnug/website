@@ -1,0 +1,31 @@
+var spec = require('../spec')
+var router = require('speclate-router')
+var appCacheNanny = require('appcache-nanny')
+var analytics = require('ga-browser')(window)
+
+window.$ = require('jquery')
+router(spec, {
+  before: function () {
+    $('nav a.active').removeClass('active')
+  },
+  after: function () {
+    $('html,body').scrollTop($('#container'))
+    analytics('send', 'pageview', {
+      page: window.location.pathname,
+      title: document.title
+    })
+  },
+  error: function (err) {
+    if (err) {
+      location.reload()
+    }
+  }
+})
+
+analytics('create', 'UA-2845245-14', 'auto')
+analytics('send', 'pageview')
+
+appCacheNanny.start()
+appCacheNanny.on('updateready', function (a, b, c) {
+  location.reload()
+})
