@@ -3,6 +3,11 @@
         "date": "July 2016",
         "speakers": [
             {
+                "name": "Dominique Guinard",
+                "url": "https://github.com/domguinard",
+                "title": "Node.js, the Web and the IoT"
+            },
+            {
                 "name": "Mete Atamel",
                 "url": "https://github.com/meteatamel",
                 "title": "Node.js on Google Cloud"
@@ -11,11 +16,6 @@
                 "name": "Mark Wubben",
                 "url": "https://github.com/novemberborn",
                 "title": "AVA: Futuristic JavaScript test runner"
-            },
-            {
-                "name": "Submit your talk!",
-                "url": "/speak.html",
-                "title": "Slot available"
             }
         ]
     },

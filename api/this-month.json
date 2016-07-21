@@ -1,5 +1,15 @@
 [
     {
+        "apiSpeakerUrl": "https://api.github.com/users/domguinard",
+        "speakerUrl": "https://github.com/domguinard",
+        "title": "Node.js, the Web and the IoT",
+        "description": "<p>Everyone talks about the Internet of Things, but the lack of interoperability in the IoT today means what we really have is a series of isolated &quot;Intranets of Things&quot;. This fragmentation and the high costs of integration required to overcome it, shows that we&#39;re failing to realize the full potential of the IoT.&#13;&#10;&#13;&#10;Just like the Internet needed the Web to become successful, the Internet of Things needs an application layer to truly blossom. The Web of Things (WoT) approach offers a compelling solution to this problem. The core of the Web of Things (<a href=\"http://webofthings.org\">http://webofthings.org</a>) approach is quite simple: why don&#39;t we re-use Web standards to build the APIs of Things?&#13;&#10;&#13;&#10;In this talk I&#39;d like to introduce a book we just published at Manning press (<a href=\"http://book.webofthings.io\">http://book.webofthings.io</a>) on how to build an open IoT using Web technologies. The talk will look at the layers of integration to the Web, from IoT networks, to Web APIs, the semantic Web and the programmable Web all of this illustrated with Node examples (as the book is based on Node.js code for the Raspberry Pi).&#13;&#10;&#13;&#10;About me:&#13;&#10;Twitter: @domguinard and @webofthings&#13;&#10;CTO and co-founder @EVRYTHNG&#13;&#10;<a href=\"http://dom.guinard.org&#13;&#10;&#13;&amp;#10\">http://dom.guinard.org&#13;&#10;&#13;&amp;#10</a>;</p>\n",
+        "milestone": "July 27th 2016",
+        "img": "https://avatars.githubusercontent.com/u/513953?v=3",
+        "handle": "domguinard",
+        "name": "Dominique Guinard"
+    },
+    {
         "apiSpeakerUrl": "https://api.github.com/users/meteatamel",
         "speakerUrl": "https://github.com/meteatamel",
         "title": "Node.js on Google Cloud",
@@ -18,13 +28,5 @@
         "img": "https://avatars.githubusercontent.com/u/33538?v=3",
         "handle": "novemberborn",
         "name": "Mark Wubben"
-    },
-    {
-        "title": "Slot available",
-        "name": "Submit your talk!",
-        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
-        "img": "/images/favicon/favicon-128.png",
-        "speakerUrl": "/speak.html",
-        "milestone": "July 27th 2016"
     }
 ]

@@ -4,6 +4,11 @@ module.exports=[
         "date": "July 2016",
         "speakers": [
             {
+                "name": "Dominique Guinard",
+                "url": "https://github.com/domguinard",
+                "title": "Node.js, the Web and the IoT"
+            },
+            {
                 "name": "Mete Atamel",
                 "url": "https://github.com/meteatamel",
                 "title": "Node.js on Google Cloud"
@@ -12,11 +17,6 @@ module.exports=[
                 "name": "Mark Wubben",
                 "url": "https://github.com/novemberborn",
                 "title": "AVA: Futuristic JavaScript test runner"
-            },
-            {
-                "name": "Submit your talk!",
-                "url": "/speak.html",
-                "title": "Slot available"
             }
         ]
     },
@@ -1422,6 +1422,16 @@ module.exports={
 },{}],4:[function(require,module,exports){
 module.exports=[
     {
+        "apiSpeakerUrl": "https://api.github.com/users/domguinard",
+        "speakerUrl": "https://github.com/domguinard",
+        "title": "Node.js, the Web and the IoT",
+        "description": "<p>Everyone talks about the Internet of Things, but the lack of interoperability in the IoT today means what we really have is a series of isolated &quot;Intranets of Things&quot;. This fragmentation and the high costs of integration required to overcome it, shows that we&#39;re failing to realize the full potential of the IoT.&#13;&#10;&#13;&#10;Just like the Internet needed the Web to become successful, the Internet of Things needs an application layer to truly blossom. The Web of Things (WoT) approach offers a compelling solution to this problem. The core of the Web of Things (<a href=\"http://webofthings.org\">http://webofthings.org</a>) approach is quite simple: why don&#39;t we re-use Web standards to build the APIs of Things?&#13;&#10;&#13;&#10;In this talk I&#39;d like to introduce a book we just published at Manning press (<a href=\"http://book.webofthings.io\">http://book.webofthings.io</a>) on how to build an open IoT using Web technologies. The talk will look at the layers of integration to the Web, from IoT networks, to Web APIs, the semantic Web and the programmable Web all of this illustrated with Node examples (as the book is based on Node.js code for the Raspberry Pi).&#13;&#10;&#13;&#10;About me:&#13;&#10;Twitter: @domguinard and @webofthings&#13;&#10;CTO and co-founder @EVRYTHNG&#13;&#10;<a href=\"http://dom.guinard.org&#13;&#10;&#13;&amp;#10\">http://dom.guinard.org&#13;&#10;&#13;&amp;#10</a>;</p>\n",
+        "milestone": "July 27th 2016",
+        "img": "https://avatars.githubusercontent.com/u/513953?v=3",
+        "handle": "domguinard",
+        "name": "Dominique Guinard"
+    },
+    {
         "apiSpeakerUrl": "https://api.github.com/users/meteatamel",
         "speakerUrl": "https://github.com/meteatamel",
         "title": "Node.js on Google Cloud",
@@ -1440,14 +1450,6 @@ module.exports=[
         "img": "https://avatars.githubusercontent.com/u/33538?v=3",
         "handle": "novemberborn",
         "name": "Mark Wubben"
-    },
-    {
-        "title": "Slot available",
-        "name": "Submit your talk!",
-        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
-        "img": "/images/favicon/favicon-128.png",
-        "speakerUrl": "/speak.html",
-        "milestone": "July 27th 2016"
     }
 ]
 },{}],5:[function(require,module,exports){
@@ -1490,13 +1492,14 @@ router(spec, {
   after: function () {
     $('html,body').scrollTop($('#container'))
     analytics('send', 'pageview', {
-        page: window.location.pathname,
-        title: document.title
+      page: window.location.pathname,
+      title: document.title
     })
-
   },
-  error: function(err) {
-    location.reload();
+  error: function (err) {
+    if (err) {
+      location.reload()
+    }
   }
 })
 
@@ -1625,15 +1628,12 @@ module.exports = function (sponsors) {
 }
 
 },{}],12:[function(require,module,exports){
-var nextEvent = require('./next-event-from-file')
 
 module.exports = function () {
-  var nextEventDate = nextEvent()
-  return 'http://www.meetup.com/london-nodejs/';
-  // return 'https://ti.to/lnug/' + nextEventDate.split(' ')[0].toLowerCase() + '-' + nextEventDate.split(' ')[2]
+  return 'http://www.meetup.com/london-nodejs/'
 }
 
-},{"./next-event-from-file":9}],13:[function(require,module,exports){
+},{}],13:[function(require,module,exports){
 // appCacheNanny
 // =============
 //
@@ -33281,34 +33281,96 @@ module.exports = {
 // shim for using process in browser
 
 var process = module.exports = {};
+
+// cached from whatever global is present so that test runners that stub it
+// don't break things.  But we need to wrap it in a try catch in case it is
+// wrapped in strict mode code which doesn't define any globals.  It's inside a
+// function because try/catches deoptimize in certain engines.
+
+var cachedSetTimeout;
+var cachedClearTimeout;
+
+(function () {
+  try {
+    cachedSetTimeout = setTimeout;
+  } catch (e) {
+    cachedSetTimeout = function () {
+      throw new Error('setTimeout is not defined');
+    }
+  }
+  try {
+    cachedClearTimeout = clearTimeout;
+  } catch (e) {
+    cachedClearTimeout = function () {
+      throw new Error('clearTimeout is not defined');
+    }
+  }
+} ())
 var queue = [];
 var draining = false;
+var currentQueue;
+var queueIndex = -1;
+
+function cleanUpNextTick() {
+    if (!draining || !currentQueue) {
+        return;
+    }
+    draining = false;
+    if (currentQueue.length) {
+        queue = currentQueue.concat(queue);
+    } else {
+        queueIndex = -1;
+    }
+    if (queue.length) {
+        drainQueue();
+    }
+}
 
 function drainQueue() {
     if (draining) {
         return;
     }
+    var timeout = cachedSetTimeout(cleanUpNextTick);
     draining = true;
-    var currentQueue;
+
     var len = queue.length;
     while(len) {
         currentQueue = queue;
         queue = [];
-        var i = -1;
-        while (++i < len) {
-            currentQueue[i]();
+        while (++queueIndex < len) {
+            if (currentQueue) {
+                currentQueue[queueIndex].run();
+            }
         }
+        queueIndex = -1;
         len = queue.length;
     }
+    currentQueue = null;
     draining = false;
+    cachedClearTimeout(timeout);
 }
+
 process.nextTick = function (fun) {
-    queue.push(fun);
-    if (!draining) {
-        setTimeout(drainQueue, 0);
+    var args = new Array(arguments.length - 1);
+    if (arguments.length > 1) {
+        for (var i = 1; i < arguments.length; i++) {
+            args[i - 1] = arguments[i];
+        }
+    }
+    queue.push(new Item(fun, args));
+    if (queue.length === 1 && !draining) {
+        cachedSetTimeout(drainQueue, 0);
     }
 };
 
+// v8 likes predictible objects
+function Item(fun, array) {
+    this.fun = fun;
+    this.array = array;
+}
+Item.prototype.run = function () {
+    this.fun.apply(null, this.array);
+};
 process.title = 'browser';
 process.browser = true;
 process.env = {};
@@ -33330,7 +33392,6 @@ process.binding = function (name) {
     throw new Error('process.binding is not supported');
 };
 
-// TODO(shtylman)
 process.cwd = function () { return '/' };
 process.chdir = function (dir) {
     throw new Error('process.chdir is not supported');
