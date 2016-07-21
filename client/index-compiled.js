@@ -1490,13 +1490,14 @@ router(spec, {
   after: function () {
     $('html,body').scrollTop($('#container'))
     analytics('send', 'pageview', {
-        page: window.location.pathname,
-        title: document.title
+      page: window.location.pathname,
+      title: document.title
     })
-
   },
-  error: function(err) {
-    location.reload();
+  error: function (err) {
+    if (err) {
+      location.reload()
+    }
   }
 })
 
@@ -1505,7 +1506,34 @@ analytics('send', 'pageview')
 
 appCacheNanny.start()
 appCacheNanny.on('updateready', function (a, b, c) {
-  location.reload()
+
+    $('#notice').addClass('on');
+    var duration = 30000;
+    var refreshTime = Date.now() + duration
+    var refreshIntervalId = setInterval(function() {
+        var remaining = refreshTime  -  Date.now() ;
+        $('#notice .countdown').html( Math.ceil(remaining / 1000))
+    }, 1000);
+
+
+    var hideDuration = 1000;
+    setTimeout(function() {
+        clearInterval(refreshIntervalId);
+
+        $('#notice').addClass('hide');
+
+        setTimeout(function() {
+            location.reload();
+        }, hideDuration)
+
+    }, duration - hideDuration);
+
+
+    // var refreshTime = Date.now() + 30000
+    // setInterval(function() {
+    //     var remaining = Math.ceil( (refreshTime -  Date.now() )  );
+    //     $('#notice .countdown').html(remaining / 1000)
+    // }, 1000);
 })
 
 },{"../spec":61,"appcache-nanny":13,"ga-browser":15,"jquery":16,"speclate-router":18}],7:[function(require,module,exports){
@@ -1625,15 +1653,12 @@ module.exports = function (sponsors) {
 }
 
 },{}],12:[function(require,module,exports){
-var nextEvent = require('./next-event-from-file')
 
 module.exports = function () {
-  var nextEventDate = nextEvent()
-  return 'http://www.meetup.com/london-nodejs/';
-  // return 'https://ti.to/lnug/' + nextEventDate.split(' ')[0].toLowerCase() + '-' + nextEventDate.split(' ')[2]
+  return 'http://www.meetup.com/london-nodejs/'
 }
 
-},{"./next-event-from-file":9}],13:[function(require,module,exports){
+},{}],13:[function(require,module,exports){
 // appCacheNanny
 // =============
 //

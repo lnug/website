@@ -27,5 +27,32 @@ analytics('send', 'pageview')
 
 appCacheNanny.start()
 appCacheNanny.on('updateready', function (a, b, c) {
-  location.reload()
+
+    $('#notice').addClass('on');
+    var duration = 30000;
+    var refreshTime = Date.now() + duration
+    var refreshIntervalId = setInterval(function() {
+        var remaining = refreshTime  -  Date.now() ;
+        $('#notice .countdown').html( Math.ceil(remaining / 1000))
+    }, 1000);
+
+
+    var hideDuration = 1000;
+    setTimeout(function() {
+        clearInterval(refreshIntervalId);
+
+        $('#notice').addClass('hide');
+
+        setTimeout(function() {
+            location.reload();
+        }, hideDuration)
+
+    }, duration - hideDuration);
+
+
+    // var refreshTime = Date.now() + 30000
+    // setInterval(function() {
+    //     var remaining = Math.ceil( (refreshTime -  Date.now() )  );
+    //     $('#notice .countdown').html(remaining / 1000)
+    // }, 1000);
 })
