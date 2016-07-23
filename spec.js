@@ -6,7 +6,7 @@ var eventDate = nextEvent()
 var sponsors = require('./api/sponsors.json')
 
 module.exports = {
-  '/index.html': {
+  '/': {
     page: 'home',
     selectors: {
       title: 'London Node User Group - LNUG'
