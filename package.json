@@ -12,6 +12,7 @@
     "map": "node ./bin/generate-maps.js",
     "start": "node ./bin/server.js",
     "build": "npm run update && npm run build-markup && npm run client",
+    "build-client": "npm run build-markup && npm run client",
     "client": "browserify ./client/index.js > ./client/index-compiled.js",
     "watch": "watchify ./client/index.js -o ./client/index-compiled.js"
   },
