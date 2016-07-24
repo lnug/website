@@ -33162,7 +33162,7 @@ var eventDate = nextEvent()
 var sponsors = require('./api/sponsors.json')
 
 module.exports = {
-  '/index.html': {
+  '/': {
     page: 'home',
     selectors: {
       title: 'London Node User Group - LNUG'
@@ -33195,7 +33195,10 @@ module.exports = {
   '/image-gallery.html': {
     page: 'image-gallery',
     selectors: {
-      'title': 'Image Gallery - LNUG'
+      'title': 'Image Gallery - LNUG',
+      'a[href="./image-gallery.html"]': {
+        className: 'active'
+      }
     },
     spec: {
       'section#gallery': {
@@ -33207,7 +33210,11 @@ module.exports = {
   '/archive.html': {
     page: 'archive',
     selectors: {
-      'title': 'Archive - LNUG'
+      'title': 'Archive - LNUG',
+      'a[href="./archive.html"]': {
+        className: 'active'
+      }
+
     },
     spec: {
       'ul.archive': {
@@ -33219,7 +33226,10 @@ module.exports = {
   '/code-of-conduct.html': {
     page: 'code-of-conduct',
     selectors: {
-      'title': 'Code of Conduct - LNUG'
+      'title': 'Code of Conduct - LNUG',
+      'a[href="./code-of-conduct.html"]': {
+        className: 'active'
+      }
     }
   },
   '/speak.html': {
@@ -33271,6 +33281,9 @@ module.exports = {
   '/related-meetups.html': {
     page: 'related-meetups',
     selectors: {
+       'a[href="./related-meetups.html"]': {
+        className: 'active'
+      },
       'title': 'Related Meetups - LNUG'
     }
   }
