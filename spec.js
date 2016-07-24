@@ -125,7 +125,7 @@ module.exports = {
   '/related-meetups.html': {
     page: 'related-meetups',
     selectors: {
-       'a[href="./related-meetups.html"]': {
+      'a[href="./related-meetups.html"]': {
         className: 'active'
       },
       'title': 'Related Meetups - LNUG'
