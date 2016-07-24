@@ -12,6 +12,7 @@
     "map": "node ./bin/generate-maps.js",
     "start": "node ./bin/server.js",
     "build": "npm run update && npm run build-markup && npm run client",
+    "build-client": "npm run build-markup && npm run client",
     "client": "browserify ./client/index.js > ./client/index-compiled.js",
     "watch": "watchify ./client/index.js -o ./client/index-compiled.js"
   },
@@ -34,7 +35,7 @@
     "moment": "^2.10.3",
     "node-html-encoder": "0.0.2",
     "shortid": "^2.2.4",
-    "speclate": "4.x.x",
+    "speclate": "^5.1.x",
     "speclate-router": "2.x.x",
     "speclate-fetch-markdown": "1.x.x",
     "standard": "^5.4.1",

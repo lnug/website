@@ -28,6 +28,14 @@ h1 {
     font-family: 'Open Sans', sans-serif;
 }
 
+/*#container {
+    opacity: 1;
+    transition:  opacity 0.4s;
+}
+#container.hide {
+    opacity: 0;
+}*/
+
 
 /* Meta classes ***********************************/
 
@@ -59,9 +67,15 @@ h1 {
     padding-bottom: 3em;
 }
 
+a.active {
+    cursor: default;
+}
+
 nav a.active {
     color: #ABA7A7;
-    cursor: default;
+}
+footer a.active {
+    color: #55564e;
 }
 
 
@@ -84,6 +98,7 @@ footer a {
 .header-logo {
     height: 80px;
 }
+
 
 .header-menu {
     text-align: center;
