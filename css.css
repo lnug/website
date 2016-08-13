@@ -59,6 +59,10 @@ h1 {
     padding-bottom: 3em;
 }
 
+nav a {
+      transition: color .3s;
+}
+
 nav a.active {
     color: #ABA7A7;
     cursor: default;
