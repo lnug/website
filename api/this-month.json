@@ -10,12 +10,14 @@
         "name": "Daniel Magliola"
     },
     {
-        "title": "Slot available",
-        "name": "Submit your talk!",
-        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
-        "img": "/images/favicon/favicon-128.png",
-        "speakerUrl": "/speak.html",
-        "milestone": "August 24th 2016"
+        "apiSpeakerUrl": "https://api.github.com/users/bernardbaker",
+        "speakerUrl": "https://github.com/bernardbaker",
+        "title": "NodeJS a professional case study",
+        "description": "<p>Hiring people from these events work! And small NodeJS apps that get things done.&#13;&#10;&#13;&#10;When I came to a previous event I was asked if I was hiring... I was, and found a great candidate and now a new team member for our development team.&#13;&#10;&#13;&#10;She will describe her working day and the different things she has been doing with us at Sky Works since she started.&#13;&#10;&#13;&#10;After that I will take you through the build and development of a small NodeJS app which gets a single task done well. We use it to update obfuscated JavaScript files.&#13;&#10;&#13;&#10;I&#39;ll explain the project/technical/functional brief and then take you through the development in steps of progress, there will be live coding of parts of the application and an explanation of how the libraries used work.&#13;&#10;&#13;&#10;At the end I will present the live application which is hosted on Heroku.&#13;&#10;&#13;&#10;Twitter: @bernibear2000&#13;&#10;Github: bernardbaker</p>\n",
+        "milestone": "August 24th 2016",
+        "img": "https://avatars.githubusercontent.com/u/13556172?v=3",
+        "handle": "bernardbaker",
+        "name": "Bernard Baker"
     },
     {
         "title": "Slot available",
