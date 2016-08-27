@@ -4,7 +4,10 @@ var sponsorSelectors = require('./lib/sponsors-selectors')
 var venue = require('./api/venues/makers.json')
 var eventDate = nextEvent()
 var sponsors = require('./api/sponsors.json')
+var imageGallery = require('./lib/image-gallery')
 
+var speakerSelectors = require('./lib/speaker-selectors')
+var archiveSelectors = require('./lib/archive-selectors')
 module.exports = {
   '/index.html': {
     page: 'home',
@@ -29,7 +32,7 @@ module.exports = {
       },
       '.lnug-content': {
         component: 'speaker',
-        data: require('./lib/speaker-selectors')
+        data: speakerSelectors()
       },
       '.lnug-mailing-list': {
         component: 'sign-up'
@@ -44,7 +47,7 @@ module.exports = {
     spec: {
       'section#gallery': {
         component: 'image-gallery',
-        data: require('./lib/image-gallery')
+        data: imageGallery()
       }
     }
   },
@@ -56,7 +59,7 @@ module.exports = {
     spec: {
       'ul.archive': {
         component: 'archive',
-        data: require('./lib/archive-selectors')
+        data: archiveSelectors()
       }
     }
   },
