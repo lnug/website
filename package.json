@@ -11,6 +11,8 @@
     "photos": "node ./bin/photos.js",
     "map": "node ./bin/generate-maps.js",
     "start": "node ./bin/server.js",
+
+    "front-end": "npm run client && npm run service-worker && npm run build-markup && npm run spec",
     "build": "npm run update && npm run front-end",
     "client": "browserify --debug ./client/index.js > ./client/index-compiled.js",
     "spec": "browserify ./spec.js > ./client/spec-compiled.js",
