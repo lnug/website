@@ -8,6 +8,22 @@ var imageGallery = require('./lib/image-gallery')
 
 var speakerSelectors = require('./lib/speaker-selectors')
 var archiveSelectors = require('./lib/archive-selectors')
+
+var options = {
+  outputDir: '/docs',
+  files: [
+    'css.css',
+    'images/texture.png',
+    'client/index-compiled.js',
+    'images/lnug-logo-monochrome.svg',
+    'images/lnug-logo.svg',
+    'images/maps/thin.png',
+    'images/maps/wide.png',
+    'images/favicon/favicon-16x16.png',
+    'images/favicon/favicon-128.png',
+    'manifest.json'
+  ]
+}
 module.exports = {
   '/index.html': {
     page: 'home',
@@ -120,5 +136,6 @@ module.exports = {
     selectors: {
       'title': 'Related Meetups - LNUG'
     }
-  }
+  },
+  options: options
 }
