@@ -4,7 +4,7 @@ var PORT = 5001
 
 var serveMe = require('serve-me')({
   debug: true,
-  directory: './'
+  directory: './docs'
 })
 
 serveMe.start(PORT)
