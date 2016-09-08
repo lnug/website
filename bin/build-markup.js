@@ -4,17 +4,18 @@
 
 var speclate = require('speclate')
 var spec = require('../spec')
+
 speclate.site.markup(spec, function (error) {
   if (error) {
     console.log('Error generating site: ', error)
   }
 })
 
-speclate.site.appCache(spec, [
-  '/css.css',
-  '/app-cache-nanny-compiled.js',
-  '/',
-  '/images/lnug-logo.svg',
-  '/images/maps/thin.png',
-  '/images/maps/wide.png'
-])
+// moves static files into /docs dir
+speclate.site.files(spec, function () {
+  console.log('moved files')
+})
+
+speclate.site.api(spec, function () {
+  console.log('generated api')
+})
