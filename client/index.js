@@ -20,9 +20,7 @@ speclateRouter(spec, {
 })
 
 
-
 window.$ = require('jquery')
-
 
 router({
   before: function () {
@@ -54,4 +52,3 @@ if ('serviceWorker' in navigator) {
     console.log('ServiceWorker registration failed: ', err)
   })
 }
-
