@@ -12,6 +12,7 @@ var archiveSelectors = require('./lib/archive-selectors')
 var options = {
   outputDir: '/docs',
   files: [
+    //'images/gallery/*',
     'css.css',
     'images/texture.png',
     'client/index-compiled.js',
@@ -22,13 +23,34 @@ var options = {
     'images/favicon/favicon-16x16.png',
     'images/favicon/favicon-128.png',
     'manifest.json'
-  ]
+  ],
+  scanSpecForFiles: function (spec) {
+    // get image gallery
+      var galleryThumbs = require(process.cwd() + '/api/gallery.json').map(function (item) {
+        return item.thumb
+      })
+
+      var sponsorCategories = spec['/contribute.html'].spec;
+      var sponsorImages = [];
+      Object.keys(sponsorCategories).forEach(function(sponsorCategory) {
+          sponsorCategories[sponsorCategory].data.forEach(function(sponsor) {
+            sponsorImages.push(sponsor.img.src)
+          })
+      })
+
+
+     spec.options.files = spec.options.files.concat(galleryThumbs, sponsorImages)
+      return spec
+  }
 }
 module.exports = {
   '/index.html': {
     page: 'home',
     selectors: {
-      title: 'London Node User Group - LNUG'
+      title: 'London Node User Group - LNUG',
+      h1: {
+        className: 'animated bounceInTop'
+      }
     },
     spec: {
       '.lnug-ticket': {
@@ -95,8 +117,8 @@ module.exports = {
     }
 
   },
-  '/sponsor.html': {
-    page: 'sponsor',
+  '/contribute.html': {
+    page: 'contribute',
     selectors: {
       'nav a.sponsor': {
         className: 'active'
@@ -139,3 +161,4 @@ module.exports = {
   },
   options: options
 }
+
