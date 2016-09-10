@@ -6,7 +6,7 @@ var superagent = require('superagent')
 var fs = require('fs')
 var async = require('async')
 
-var archive = require('../api/archive.json')
+var archive = require('../data/archive.json')
 
 var nextEvent = require('../lib/next-event')
 var makeArchive = require('../lib/archive')
@@ -48,13 +48,13 @@ superagent
           milestone: completeAcceptedTalks[0].milestone
         })
       }
-      fs.writeFile('./api/this-month.json', JSON.stringify(completeAcceptedTalks, null, 4), function () {
+      fs.writeFile('./data/this-month.json', JSON.stringify(completeAcceptedTalks, null, 4), function () {
         console.log('Data file has been updated')
       })
 
       var newArchive = makeArchive(completeAcceptedTalks, archive)
 
-      fs.writeFile('./api/archive.json', JSON.stringify(newArchive, null, 4), function () {
+      fs.writeFile('./data/archive.json', JSON.stringify(newArchive, null, 4), function () {
         console.log('Archive file has been updated')
       })
     })

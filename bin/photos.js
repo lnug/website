@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 'use strict'
 
-var gallery = require('../api/gallery.json')
+var gallery = require('../data/gallery.json')
 var superagent = require('superagent')
 var shortid = require('shortid')
 var fs = require('fs')
@@ -23,7 +23,7 @@ gallery.map(function (photo) {
 
 var galleryString = JSON.stringify(gallery, null, 2)
 
-fs.writeFile('./api/gallery.json', galleryString, function (error, data) {
+fs.writeFile('./data/gallery.json', galleryString, function (error, data) {
   if (error) {
     console.log('Error updating gallery.json', error)
   } else {
