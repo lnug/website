@@ -1,9 +1,7 @@
 var nextEvent = require('./lib/next-event-from-file')
 var titoLink = require('./lib/tito-link')
-var sponsorSelectors = require('./lib/sponsors-selectors')
 var venue = require('./api/venues/makers.json')
 var eventDate = nextEvent()
-var sponsors = require('./api/sponsors.json')
 var imageGallery = require('./lib/image-gallery')
 
 var speakerSelectors = require('./lib/speaker-selectors')
@@ -25,22 +23,22 @@ var options = {
     'manifest.json'
   ],
   scanSpecForFiles: function (spec) {
-    // get image gallery
-      var galleryThumbs = require(process.cwd() + '/api/gallery.json').map(function (item) {
-        return item.thumb
-      })
 
-      var sponsorCategories = spec['/contribute.html'].spec;
-      var sponsorImages = [];
-      Object.keys(sponsorCategories).forEach(function(sponsorCategory) {
-          sponsorCategories[sponsorCategory].data.forEach(function(sponsor) {
-            sponsorImages.push(sponsor.img.src)
+
+    var getImages = function (selectors) {
+      var images = [];
+      Object.keys(selectors).forEach(function (selector) {
+          selectors[selector].data.forEach(function (item) {
+            images.push(item.img.src)
           })
       })
+      return images;
+    };
+    // get image gallery
+    var galleryThumbs = getImages(spec['/image-gallery.html'].spec)
 
-
-     spec.options.files = spec.options.files.concat(galleryThumbs, sponsorImages)
-      return spec
+    spec.options.files = spec.options.files.concat(galleryThumbs)
+    return spec
   }
 }
 module.exports = {
@@ -50,7 +48,8 @@ module.exports = {
       title: 'London Node User Group - LNUG',
       h1: {
         className: 'animated bounceInTop'
-      }
+      },
+      'small.notice': "Map provided by © <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> &amp; © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a>"
     },
     spec: {
       '.lnug-ticket': {
@@ -124,24 +123,6 @@ module.exports = {
         className: 'active'
       },
       'title': 'Sponsor - LNUG'
-    },
-    spec: {
-      '.gold-sponsor': {
-        component: 'sponsor',
-        data: sponsorSelectors(sponsors.gold)
-      },
-      '.silver-sponsor': {
-        component: 'sponsor',
-        data: sponsorSelectors(sponsors.silver)
-      },
-      '.bronze-sponsor': {
-        component: 'sponsor',
-        data: sponsorSelectors(sponsors.bronze)
-      },
-      '.community-sponsor': {
-        component: 'sponsor',
-        data: sponsorSelectors(sponsors.community)
-      }
     }
   },
   '/contact.html': {
