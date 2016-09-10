@@ -54,7 +54,8 @@
       "ga"
     ],
     "ignore": [
-      "client/app-cache-nanny-compiled.js",
+      "docs",
+      "app-cache-nanny.js",
       "client/index-compiled.js"
     ]
   }

@@ -1,6 +1,6 @@
 var nextEvent = require('./lib/next-event-from-file')
 var titoLink = require('./lib/tito-link')
-var venue = require('./api/venues/makers.json')
+var venue = require('./data/venues/makers.json')
 var eventDate = nextEvent()
 var imageGallery = require('./lib/image-gallery')
 
@@ -10,7 +10,6 @@ var archiveSelectors = require('./lib/archive-selectors')
 var options = {
   outputDir: '/docs',
   files: [
-    //'images/gallery/*',
     'css.css',
     'images/texture.png',
     'client/index-compiled.js',
@@ -23,17 +22,15 @@ var options = {
     'manifest.json'
   ],
   scanSpecForFiles: function (spec) {
-
-
     var getImages = function (selectors) {
-      var images = [];
+      var images = []
       Object.keys(selectors).forEach(function (selector) {
-          selectors[selector].data.forEach(function (item) {
-            images.push(item.img.src)
-          })
+        selectors[selector].data.forEach(function (item) {
+          images.push(item.img.src)
+        })
       })
-      return images;
-    };
+      return images
+    }
     // get image gallery
     var galleryThumbs = getImages(spec['/image-gallery.html'].spec)
 
