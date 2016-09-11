@@ -12,7 +12,7 @@ gallery.map(function (photo) {
     console.log('Fetching thumbnail for ', photo.source)
     var fetchStream = superagent.get(photo.source)
     var id = shortid.generate()
-    var thumbnailPath = './images/gallery/' + id + '.jpg'
+    var thumbnailPath = 'images/gallery/' + id + '.jpg'
     var writeStream = fs.createWriteStream(thumbnailPath)
     var resize = im().resize('500x500').crop('350x350').quality(90)
     fetchStream.pipe(resize).pipe(writeStream)
