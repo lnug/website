@@ -12,7 +12,6 @@ var options = {
   files: [
     'css.css',
     'images/texture.png',
-    'client/index-compiled.js',
     'images/lnug-logo-monochrome.svg',
     'images/lnug-logo.svg',
     'images/maps/thin.png',
@@ -21,7 +20,7 @@ var options = {
     'images/favicon/favicon-128.png',
     'manifest.json'
   ],
-  scanSpecForFiles: function (spec) {
+  scanSpecForFiles: function (spec, offline) {
     var getImages = function (selectors) {
       var images = []
       Object.keys(selectors).forEach(function (selector) {
@@ -33,8 +32,12 @@ var options = {
     }
     // get image gallery
     var galleryThumbs = getImages(spec['/image-gallery.html'].spec)
-
-    spec.options.files = spec.options.files.concat(galleryThumbs)
+    var otherFiles = [];
+    // we only need to move this for offline (its already in the docs folder)
+    if (offline) {
+      otherFiles.push('client/index-compiled.js')
+    }
+    spec.options.files = spec.options.files.concat(galleryThumbs, otherFiles)
     return spec
   }
 }
