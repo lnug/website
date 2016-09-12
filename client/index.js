@@ -33,9 +33,10 @@ router({
       title: document.title
     })
   },
-  error: function (err) {
+  error: function (err, $container) {
     if (err) {
-      location.reload()
+      $('nav a.active').removeClass('active')
+      $container.html('<div class="markdown"><h1>Error</h1><p>Something went wrong fetching the page.</p><p>' + err + '</p></div>')
     }
   }
 })
