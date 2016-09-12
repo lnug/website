@@ -1518,21 +1518,18 @@ module.exports={
 
 },{}],6:[function(require,module,exports){
 var spec = require('../spec')
-var router = require('speclate-router')
+var speclateRouter = require('speclate-router')
 var appCacheNanny = require('appcache-nanny')
-var analytics = require('ga-browser')(window)
-
 window.$ = require('jquery')
-router(spec, {
+
+speclateRouter(spec, {
   before: function () {
     $('nav a.active').removeClass('active')
   },
   after: function () {
     $('html,body').scrollTop($('#container'))
-    analytics('send', 'pageview', {
-      page: window.location.pathname,
-      title: document.title
-    })
+    ga('set', 'page', window.location.pathname);
+    ga('send', 'pageview')
   },
   error: function (err) {
     if (err) {
@@ -1541,17 +1538,14 @@ router(spec, {
   }
 })
 
-//analytics('create', 'UA-2845245-14', 'auto')
-analytics('create', 'UA-83214271-2', 'auto')  // simons trackingcode
 
-analytics('send', 'pageview')
 
 appCacheNanny.start()
 appCacheNanny.on('updateready', function (a, b, c) {
   location.reload()
 })
 
-},{"../spec":57,"appcache-nanny":13,"ga-browser":15,"jquery":16,"speclate-router":18}],7:[function(require,module,exports){
+},{"../spec":55,"appcache-nanny":13,"jquery":14,"speclate-router":16}],7:[function(require,module,exports){
 'use strict'
 
 var archive = require('../api/archive.json')
@@ -1579,7 +1573,7 @@ module.exports = function (callback) {
   return speakers
 }
 
-},{"../api/archive.json":1,"node-html-encoder":17}],8:[function(require,module,exports){
+},{"../api/archive.json":1,"node-html-encoder":15}],8:[function(require,module,exports){
 'use strict'
 
 var items = require('../api/gallery.json')
@@ -2102,189 +2096,6 @@ module.exports = function () {
 })
 
 },{}],14:[function(require,module,exports){
-/*!
- * escape-html
- * Copyright(c) 2012-2013 TJ Holowaychuk
- * Copyright(c) 2015 Andreas Lubbe
- * Copyright(c) 2015 Tiancheng "Timothy" Gu
- * MIT Licensed
- */
-
-'use strict';
-
-/**
- * Module variables.
- * @private
- */
-
-var matchHtmlRegExp = /["'&<>]/;
-
-/**
- * Module exports.
- * @public
- */
-
-module.exports = escapeHtml;
-
-/**
- * Escape special characters in the given string of html.
- *
- * @param  {string} string The string to escape for inserting into HTML
- * @return {string}
- * @public
- */
-
-function escapeHtml(string) {
-  var str = '' + string;
-  var match = matchHtmlRegExp.exec(str);
-
-  if (!match) {
-    return str;
-  }
-
-  var escape;
-  var html = '';
-  var index = 0;
-  var lastIndex = 0;
-
-  for (index = match.index; index < str.length; index++) {
-    switch (str.charCodeAt(index)) {
-      case 34: // "
-        escape = '&quot;';
-        break;
-      case 38: // &
-        escape = '&amp;';
-        break;
-      case 39: // '
-        escape = '&#39;';
-        break;
-      case 60: // <
-        escape = '&lt;';
-        break;
-      case 62: // >
-        escape = '&gt;';
-        break;
-      default:
-        continue;
-    }
-
-    if (lastIndex !== index) {
-      html += str.substring(lastIndex, index);
-    }
-
-    lastIndex = index + 1;
-    html += escape;
-  }
-
-  return lastIndex !== index
-    ? html + str.substring(lastIndex, index)
-    : html;
-}
-
-},{}],15:[function(require,module,exports){
-(function (global){
-'use strict';
-var htmlEscape = require('escape-html');
-
-/**
- * @module ga-browser
- */
-module.exports = function(windowObject)
-{
-        var window = windowObject || global.window;
-
-        if (!window)
-        {
-                // e.g. server side in node.js
-                return function() { /* noop */ };
-        }
-
-        var ga = function googleAnalytics()
-        {
-                return window[ga.globalName].apply(window, arguments);
-        };
-
-        ga.globalName = 'ga';
-        if (typeof window.GoogleAnalyticsObject === 'string')
-        {
-                ga.globalName = window.GoogleAnalyticsObject.trim() || 'ga';
-        }
-
-        if (!window[ga.globalName])
-        {
-                window[ga.globalName] = function()
-                {
-                        (window[ga.globalName].q = window[ga.globalName].q || []).push(arguments);
-                };
-
-                window[ga.globalName].l = +new Date();
-        }
-
-        return ga;
-};
-
-/**
- * URL referencing Google's Universal Analytics script
- * @type {string}
- */
-module.exports.scriptUrl = '//www.google-analytics.com/analytics.js';
-
-/**
- * URL referencing the debug version of Google's Universal Analytics script
- * @type {string}
- */
-module.exports.debugScriptUrl = '//www.google-analytics.com/analytics_debug.js';
-
-/**
- * Returns the html markup of the script element for the google analytics script
- * @param {Boolean} [debug=false] If set, use the debug version instead
- * @returns {string}
- */
-module.exports.getScriptMarkup = function(debug)
-{
-        var url = debug ? module.exports.debugScriptUrl : module.exports.scriptUrl;
-        return '<script async="async" src="' + htmlEscape(url) + '"></script>';
-};
-
-/**
- * Add a script element for the google analytics script to the given DOM document
- * @param {HTMLDocument|HTMLHeadElement} documentOrHead
- * @param {Boolean} [debug=false] If set, use the debug version instead
- * @returns {HTMLScriptElement}
- */
-module.exports.insertScript = function(documentOrHead, debug)
-{
-        if (!documentOrHead)
-        {
-                throw Error('Missing argument');
-        }
-
-        var document = documentOrHead.nodeType === 9 // DOCUMENT_NODE
-                ? documentOrHead
-                : documentOrHead.ownerDocument;
-
-        var head = documentOrHead.nodeType === 1 // ELEMENT_NODE
-                ? documentOrHead
-                : document.getElementsByTagName('head')[0];
-
-        var url = debug
-                ? module.exports.debugScriptUrl
-                : module.exports.scriptUrl;
-
-        if (!head)
-        {
-                throw Error('Missing <head> element');
-        }
-
-        var script = document.createElement('script');
-        script.setAttribute('async', 'async');
-        script.setAttribute('src', url);
-        head.appendChild(script);
-        return script;
-};
-
-}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"escape-html":14}],16:[function(require,module,exports){
 /*!
  * jQuery JavaScript Library v2.2.4
  * http://jquery.com/
@@ -12100,7 +11911,7 @@ if ( !noGlobal ) {
 return jQuery;
 }));
 
-},{}],17:[function(require,module,exports){
+},{}],15:[function(require,module,exports){
 /**
  * NodeJS wrapper for JavaScript HTML Encoder library http://www.strictly-software.com/htmlencode
  * Pavel Minchenkov
@@ -12316,7 +12127,7 @@ exports.Encoder = function(type) {
     }
 }
 
-},{}],18:[function(require,module,exports){
+},{}],16:[function(require,module,exports){
 'use strict';
 
 var page = require('page');
@@ -12343,7 +12154,7 @@ module.exports = function(spec, options, pageRenderCallback) {
     }
     page();
 };
-},{"./page-render":56,"page":21,"speclate":34}],19:[function(require,module,exports){
+},{"./page-render":54,"page":19,"speclate":32}],17:[function(require,module,exports){
 (function (process,global){
 (function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
@@ -17561,12 +17372,12 @@ module.exports = function(spec, options, pageRenderCallback) {
 
 }));
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"_process":58}],20:[function(require,module,exports){
+},{"_process":56}],18:[function(require,module,exports){
 module.exports = Array.isArray || function (arr) {
   return Object.prototype.toString.call(arr) == '[object Array]';
 };
 
-},{}],21:[function(require,module,exports){
+},{}],19:[function(require,module,exports){
 (function (process){
   /* globals require, module */
 
@@ -18192,7 +18003,7 @@ module.exports = Array.isArray || function (arr) {
   page.sameOrigin = sameOrigin;
 
 }).call(this,require('_process'))
-},{"_process":58,"path-to-regexp":22}],22:[function(require,module,exports){
+},{"_process":56,"path-to-regexp":20}],20:[function(require,module,exports){
 var isarray = require('isarray')
 
 /**
@@ -18584,7 +18395,7 @@ function pathToRegexp (path, keys, options) {
   return stringToRegexp(path, keys, options)
 }
 
-},{"isarray":20}],23:[function(require,module,exports){
+},{"isarray":18}],21:[function(require,module,exports){
 'use strict';
 
 exports.load = function (str) {
@@ -18614,7 +18425,7 @@ exports.get = function (item) {
     return $(item);
 };
 
-},{}],24:[function(require,module,exports){
+},{}],22:[function(require,module,exports){
 /**
  * In the case of input we should update the value and not just set the innerHTML property.
  * @param  {Object} $node sizzle object
@@ -18638,7 +18449,7 @@ module.exports = function ($node, data) {
 	return $node;
 };
 
-},{}],25:[function(require,module,exports){
+},{}],23:[function(require,module,exports){
 'use strict';
 
 module.exports = function (data, options) {
@@ -18657,7 +18468,7 @@ module.exports = function (data, options) {
     return retArray;
 };
 
-},{}],26:[function(require,module,exports){
+},{}],24:[function(require,module,exports){
 'use strict';
 
 var dom = require('../server/dom.js');
@@ -18686,7 +18497,7 @@ module.exports = function (str, selectors) {
     }
 };
 
-},{"../server/dom.js":23,"./update-node":29}],27:[function(require,module,exports){
+},{"../server/dom.js":21,"./update-node":27}],25:[function(require,module,exports){
 'use strict';
 
 // given a regex or function updates the value.
@@ -18699,7 +18510,7 @@ module.exports = function (oldValue, newValue) {
     return newValue;
 };
 
-},{}],28:[function(require,module,exports){
+},{}],26:[function(require,module,exports){
 'use strict';
 
 var newValue = require('./new-value');
@@ -18760,7 +18571,7 @@ module.exports = function ($node, obj) {
     return $node;
 };
 
-},{"../server/dom":23,"./new-value":27}],29:[function(require,module,exports){
+},{"../server/dom":21,"./new-value":25}],27:[function(require,module,exports){
 'use strict';
 var checkForInputs = require('./check-for-inputs');
 var updateNodeWithObject = require('./update-node-with-object');
@@ -18802,11 +18613,11 @@ function updateNode($node, selector, data, $) {
 
 module.exports = updateNode;
 
-},{"./check-for-inputs":24,"./update-node-with-object":28}],30:[function(require,module,exports){
+},{"./check-for-inputs":22,"./update-node-with-object":26}],28:[function(require,module,exports){
 exports.render = require('./lib/do-render');
 exports.classifyKeys = require('./lib/classify-keys');
 
-},{"./lib/classify-keys":25,"./lib/do-render":26}],31:[function(require,module,exports){
+},{"./lib/classify-keys":23,"./lib/do-render":24}],29:[function(require,module,exports){
 'use strict';
 
 require('whatwg-fetch');
@@ -18832,7 +18643,7 @@ exports.readFile = function(file, options, callback) {
     });
 };
 
-},{"whatwg-fetch":32}],32:[function(require,module,exports){
+},{"whatwg-fetch":30}],30:[function(require,module,exports){
 (function(self) {
   'use strict';
 
@@ -19267,7 +19078,7 @@ exports.readFile = function(file, options, callback) {
   self.fetch.polyfill = true
 })(typeof self !== 'undefined' ? self : this);
 
-},{}],33:[function(require,module,exports){
+},{}],31:[function(require,module,exports){
 'use strict';
 
 var speclateFetch = require('speclate-fetch');
@@ -19275,7 +19086,7 @@ var speclateFetch = require('speclate-fetch');
 
 // override readfile with request to fetch.
 exports.readFile = speclateFetch.readFile;
-},{"speclate-fetch":54}],34:[function(require,module,exports){
+},{"speclate-fetch":52}],32:[function(require,module,exports){
 
 exports.site = {
   markup: require('./lib/site/generate-markup'),
@@ -19293,7 +19104,7 @@ exports.components = {
 }
 
 
-},{"./lib/page/do-sizlate":36,"./lib/page/load-components":37,"./lib/page/loader":39,"./lib/site/app-cache":40,"./lib/site/generate-api":41,"./lib/site/generate-markup":42}],35:[function(require,module,exports){
+},{"./lib/page/do-sizlate":34,"./lib/page/load-components":35,"./lib/page/loader":37,"./lib/site/app-cache":38,"./lib/site/generate-api":39,"./lib/site/generate-markup":40}],33:[function(require,module,exports){
 (function (process){
 'use strict'
 
@@ -19318,7 +19129,7 @@ module.exports = function (component, callback) {
 }
 
 }).call(this,require('_process'))
-},{"_process":58,"fs":33}],36:[function(require,module,exports){
+},{"_process":56,"fs":31}],34:[function(require,module,exports){
 var sizlate = require('sizlate')
 
 /**
@@ -19352,7 +19163,7 @@ module.exports = function (page, layout, renderedComponents) {
   }
 }
 
-},{"sizlate":53}],37:[function(require,module,exports){
+},{"sizlate":51}],35:[function(require,module,exports){
 'use strict'
 
 var async = require('async')
@@ -19428,7 +19239,7 @@ module.exports = function (components, callback) {
   })
 }
 
-},{"../load-component":35,"async":44,"lodash":45,"sizlate":53}],38:[function(require,module,exports){
+},{"../load-component":33,"async":42,"lodash":43,"sizlate":51}],36:[function(require,module,exports){
 (function (process){
 'use strict'
 
@@ -19474,7 +19285,7 @@ module.exports = function (layout, callback) {
 }
 
 }).call(this,require('_process'))
-},{"_process":58,"async":44,"fs":33,"sizlate":53}],39:[function(require,module,exports){
+},{"_process":56,"async":42,"fs":31,"sizlate":51}],37:[function(require,module,exports){
 'use strict'
 
 var loadLayout = require('./load-layout')
@@ -19512,7 +19323,7 @@ module.exports = function (page, callback) {
   })
 }
 
-},{"./do-sizlate":36,"./load-components":37,"./load-layout":38,"async":44}],40:[function(require,module,exports){
+},{"./do-sizlate":34,"./load-components":35,"./load-layout":36,"async":42}],38:[function(require,module,exports){
 (function (process){
 'use strict'
 
@@ -19536,7 +19347,7 @@ module.exports = function (spec, customFiles, callback) {
 }
 
 }).call(this,require('_process'))
-},{"_process":58,"fs":33}],41:[function(require,module,exports){
+},{"_process":56,"fs":31}],39:[function(require,module,exports){
 (function (process){
 'use strict'
 
@@ -19562,7 +19373,7 @@ module.exports = function (spec, callback) {
 }
 
 }).call(this,require('_process'))
-},{"./loader":43,"_process":58,"async":44,"fs":33}],42:[function(require,module,exports){
+},{"./loader":41,"_process":56,"async":42,"fs":31}],40:[function(require,module,exports){
 (function (process){
 'use strict'
 
@@ -19592,7 +19403,7 @@ module.exports = function (spec, callback) {
 }
 
 }).call(this,require('_process'))
-},{"./loader":43,"_process":58,"async":44,"fs":33}],43:[function(require,module,exports){
+},{"./loader":41,"_process":56,"async":42,"fs":31}],41:[function(require,module,exports){
 'use strict'
 
 var getPage = require('../page/loader')
@@ -19615,9 +19426,9 @@ module.exports = function (spec, callback) {
   }, callback)
 }
 
-},{"../page/loader":39,"async":44}],44:[function(require,module,exports){
-arguments[4][19][0].apply(exports,arguments)
-},{"_process":58,"dup":19}],45:[function(require,module,exports){
+},{"../page/loader":37,"async":42}],42:[function(require,module,exports){
+arguments[4][17][0].apply(exports,arguments)
+},{"_process":56,"dup":17}],43:[function(require,module,exports){
 (function (global){
 /**
  * @license
@@ -36354,27 +36165,27 @@ arguments[4][19][0].apply(exports,arguments)
 }.call(this));
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],46:[function(require,module,exports){
+},{}],44:[function(require,module,exports){
+arguments[4][21][0].apply(exports,arguments)
+},{"dup":21}],45:[function(require,module,exports){
+arguments[4][22][0].apply(exports,arguments)
+},{"dup":22}],46:[function(require,module,exports){
 arguments[4][23][0].apply(exports,arguments)
 },{"dup":23}],47:[function(require,module,exports){
 arguments[4][24][0].apply(exports,arguments)
-},{"dup":24}],48:[function(require,module,exports){
+},{"../server/dom.js":44,"./update-node":50,"dup":24}],48:[function(require,module,exports){
 arguments[4][25][0].apply(exports,arguments)
 },{"dup":25}],49:[function(require,module,exports){
 arguments[4][26][0].apply(exports,arguments)
-},{"../server/dom.js":46,"./update-node":52,"dup":26}],50:[function(require,module,exports){
+},{"../server/dom":44,"./new-value":48,"dup":26}],50:[function(require,module,exports){
 arguments[4][27][0].apply(exports,arguments)
-},{"dup":27}],51:[function(require,module,exports){
+},{"./check-for-inputs":45,"./update-node-with-object":49,"dup":27}],51:[function(require,module,exports){
 arguments[4][28][0].apply(exports,arguments)
-},{"../server/dom":46,"./new-value":50,"dup":28}],52:[function(require,module,exports){
+},{"./lib/classify-keys":46,"./lib/do-render":47,"dup":28}],52:[function(require,module,exports){
 arguments[4][29][0].apply(exports,arguments)
-},{"./check-for-inputs":47,"./update-node-with-object":51,"dup":29}],53:[function(require,module,exports){
+},{"dup":29,"whatwg-fetch":53}],53:[function(require,module,exports){
 arguments[4][30][0].apply(exports,arguments)
-},{"./lib/classify-keys":48,"./lib/do-render":49,"dup":30}],54:[function(require,module,exports){
-arguments[4][31][0].apply(exports,arguments)
-},{"dup":31,"whatwg-fetch":55}],55:[function(require,module,exports){
-arguments[4][32][0].apply(exports,arguments)
-},{"dup":32}],56:[function(require,module,exports){
+},{"dup":30}],54:[function(require,module,exports){
 'use strict'
 
 var async = require('async')
@@ -36422,7 +36233,7 @@ module.exports = function (page, options) {
   })
 }
 
-},{"async":19,"sizlate":30,"speclate":34,"speclate-fetch":31}],57:[function(require,module,exports){
+},{"async":17,"sizlate":28,"speclate":32,"speclate-fetch":29}],55:[function(require,module,exports){
 var nextEvent = require('./lib/next-event-from-file')
 var titoLink = require('./lib/tito-link')
 var sponsorSelectors = require('./lib/sponsors-selectors')
@@ -36545,7 +36356,7 @@ module.exports = {
   }
 }
 
-},{"./api/sponsors.json":3,"./api/venues/makers.json":5,"./lib/archive-selectors":7,"./lib/image-gallery":8,"./lib/next-event-from-file":9,"./lib/speaker-selectors":10,"./lib/sponsors-selectors":11,"./lib/tito-link":12}],58:[function(require,module,exports){
+},{"./api/sponsors.json":3,"./api/venues/makers.json":5,"./lib/archive-selectors":7,"./lib/image-gallery":8,"./lib/next-event-from-file":9,"./lib/speaker-selectors":10,"./lib/sponsors-selectors":11,"./lib/tito-link":12}],56:[function(require,module,exports){
 // shim for using process in browser
 
 var process = module.exports = {};

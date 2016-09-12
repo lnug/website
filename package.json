@@ -11,7 +11,7 @@
     "photos": "node ./bin/photos.js",
     "map": "node ./bin/generate-maps.js",
     "start": "node ./bin/server.js",
-    "build": "npm run update && npm run build-markup && npm run client",
+    "build": "npm run update &&  npm run client && npm run build-markup",
     "client": "browserify ./client/index.js > ./client/index-compiled.js",
     "watch": "watchify ./client/index.js -o ./client/index-compiled.js"
   },

@@ -1,19 +1,16 @@
 var spec = require('../spec')
-var router = require('speclate-router')
+var speclateRouter = require('speclate-router')
 var appCacheNanny = require('appcache-nanny')
-var analytics = require('ga-browser')(window)
-
 window.$ = require('jquery')
-router(spec, {
+
+speclateRouter(spec, {
   before: function () {
     $('nav a.active').removeClass('active')
   },
   after: function () {
     $('html,body').scrollTop($('#container'))
-    analytics('send', 'pageview', {
-      page: window.location.pathname,
-      title: document.title
-    })
+    ga('set', 'page', window.location.pathname);
+    ga('send', 'pageview')
   },
   error: function (err) {
     if (err) {
@@ -22,10 +19,7 @@ router(spec, {
   }
 })
 
-//analytics('create', 'UA-2845245-14', 'auto')
-analytics('create', 'UA-83214271-2', 'auto')  // simons trackingcode
 
-analytics('send', 'pageview')
 
 appCacheNanny.start()
 appCacheNanny.on('updateready', function (a, b, c) {
