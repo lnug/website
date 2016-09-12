@@ -1541,7 +1541,9 @@ router(spec, {
   }
 })
 
-analytics('create', 'UA-2845245-14', 'auto')
+//analytics('create', 'UA-2845245-14', 'auto')
+analytics('create', 'UA-83214271-2', 'auto')
+
 analytics('send', 'pageview')
 
 appCacheNanny.start()
