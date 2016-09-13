@@ -12,7 +12,7 @@ speclate.site.markup(spec, function (error) {
 
 speclate.site.appCache(spec, [
   '/css.css',
-  '/app-cache-nanny.js',
+  '/app-cache-nanny-compiled.js',
   '/',
   '/images/lnug-logo.svg',
   '/images/maps/thin.png',
