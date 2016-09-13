@@ -20,11 +20,13 @@
         "name": "Loïc Faugeron"
     },
     {
-        "title": "Slot available",
-        "name": "Submit your talk!",
-        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
-        "img": "/images/favicon/favicon-128.png",
-        "speakerUrl": "/speak.html",
-        "milestone": "September 28th 2016"
+        "apiSpeakerUrl": "https://api.github.com/users/tanzim",
+        "speakerUrl": "https://github.com/tanzim",
+        "title": "I&#39;ve got swagger. Have you?",
+        "description": "<p>OpenAPI Specification, formerly known as Swagger is a well established standard for defining REST API interfaces. In this talk I&#39;d like to quickly go over Swagger, how you can integrate it with node.js and a few best practices that goes a long way to deliver robust enterprise class API service&#13;&#10;&#13;&#10;Additional links:&#13;&#10;- <a href=\"https://github.com/OAI/OpenAPI-Specification&#13;&#10;-\">https://github.com/OAI/OpenAPI-Specification&#13;&#10;-</a> <a href=\"https://github.com/swagger-api/swagger-node\">https://github.com/swagger-api/swagger-node</a></p>\n",
+        "milestone": "September 28th 2016",
+        "img": "https://avatars.githubusercontent.com/u/1591642?v=3",
+        "handle": "tanzim",
+        "name": "Tanzim"
     }
 ]
