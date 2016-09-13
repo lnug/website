@@ -11,8 +11,9 @@
     "photos": "node ./bin/photos.js",
     "map": "node ./bin/generate-maps.js",
     "start": "node ./bin/server.js",
-    "build": "npm run update &&  npm run client && npm run build-markup",
+    "build": "npm run update &&  npm run client && npm run app-cache-nanny && npm run build-markup",
     "client": "browserify ./client/index.js > ./client/index-compiled.js",
+    "app-cache-nanny": "browserify ./client/app-cache-nanny.js > ./client/app-cache-nanny-compiled.js",
     "watch": "watchify ./client/index.js -o ./client/index-compiled.js"
   },
   "repository": {
@@ -48,10 +49,11 @@
   "standard": {
     "globals": [
       "$",
-      "location"
+      "location",
+      "ga"
     ],
     "ignore": [
-      "app-cache-nanny.js",
+      "client/app-cache-nanny-compiled.js",
       "client/index-compiled.js"
     ]
   }
