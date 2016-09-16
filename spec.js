@@ -1,5 +1,4 @@
 var nextEvent = require('./lib/next-event-from-file')
-var titoLink = require('./lib/tito-link')
 var sponsorSelectors = require('./lib/sponsors-selectors')
 var venue = require('./api/venues/makers.json')
 var eventDate = nextEvent()
@@ -23,7 +22,7 @@ module.exports = {
             href: 'https://www.google.co.uk/maps/search/' + venue.address.join(', ')
           },
           'a.cta': {
-            'href': titoLink()
+            'href': 'http://www.meetup.com/london-nodejs/'
           }
         }
       },
