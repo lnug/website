@@ -1,24 +1,8 @@
-var spec = require('../spec')
-var speclateRouter = require('speclate-router')
+
+
+var router = require('speclate-router')
+var analytics = require('ga-browser')(window)
 var appCacheNanny = require('appcache-nanny')
-window.$ = require('jquery')
-
-speclateRouter(spec, {
-  before: function () {
-    $('nav a.active').removeClass('active')
-  },
-  after: function () {
-    $('html,body').scrollTop($('#container'))
-    ga('set', 'page', window.location.pathname);
-    ga('send', 'pageview')
-  },
-  error: function (err) {
-    if (err) {
-      location.reload()
-    }
-  }
-})
-
 
 window.$ = require('jquery')
 
@@ -35,6 +19,7 @@ router({
   },
   error: function (err, $container) {
     if (err) {
+      console.log(err)
       $('nav a.active').removeClass('active')
       $container.html('<div class="markdown"><h1>Error</h1><p>Something went wrong fetching the page.</p><p>' + err + '</p></div>')
     }
@@ -47,9 +32,15 @@ analytics('send', 'pageview')
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/service-worker.js').then(function (registration) {
     // Registration was successful
-    console.log('ServiceWorker registration successful with scope: ', registration.scope)
+//    console.log('ServiceWorker registration successful with scope: ', registration.scope)
   }).catch(function (err) {
     // registration failed :(
     console.log('ServiceWorker registration failed: ', err)
   })
+ } else {
+  appCacheNanny.start()
 }
+
+appCacheNanny.on('updateready', function () {
+  location.reload()
+})
