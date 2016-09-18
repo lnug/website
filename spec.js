@@ -9,6 +9,9 @@ var archiveSelectors = require('./lib/archive-selectors')
 
 var options = {
   outputDir: '/docs',
+  appCacheFiles: [
+    'appcache-loader.html'
+  ],
   files: [
     'css.css',
     'images/texture.png',
@@ -18,7 +21,8 @@ var options = {
     'images/maps/wide.png',
     'images/favicon/favicon-16x16.png',
     'images/favicon/favicon-128.png',
-    'manifest.json'
+    'manifest.json',
+    'client/index-compiled.js'
   ],
   scanSpecForFiles: function (spec, offline) {
     var getImages = function (selectors) {
@@ -32,7 +36,7 @@ var options = {
     }
     // get image gallery
     var galleryThumbs = getImages(spec['/image-gallery.html'].spec)
-    var otherFiles = [];
+    var otherFiles = []
     // we only need to move this for offline (its already in the docs folder)
     if (offline) {
       otherFiles.push('client/index-compiled.js')
