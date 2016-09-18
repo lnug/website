@@ -13,7 +13,7 @@
     "start": "node ./bin/server.js",
     "make": "npm run client && speclate --all",
     "build": "npm run update && npm run make",
-    "client": "browserify --debug ./client/index.js > ./docs/client/index-compiled.js  && npm run service-worker",
+    "client": "mkdir -p ./docs/client && browserify  ./client/index.js > ./docs/client/index-compiled.js  && npm run service-worker",
     "watch": "watchify ./client/index.js -o ./docs/client/index-compiled.js && watchify ./docs/client/service-worker.js -o ./service-worker.js",
     "service-worker": "browserify ./client/service-worker.js > ./docs/service-worker.js"
   },
@@ -45,7 +45,8 @@
     "ga-browser": "^1.0.0"
   },
   "dependencies": {
-    "serve-me": "^0.8.2"
+    "serve-me": "^0.8.2",
+    "speclate-service-worker": "^1.2.0"
   },
   "standard": {
     "globals": [
