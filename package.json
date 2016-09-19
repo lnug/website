@@ -10,7 +10,7 @@
     "fetch-markdown": "node ./bin/fetch-markdown.js",
     "photos": "node ./bin/photos.js",
     "map": "node ./bin/generate-maps.js",
-    "start": "node ./bin/server.js",
+    "start": "speclate --debug",
     "make": "npm run client && speclate --all",
     "build": "npm run update && npm run make",
     "client": "mkdir -p ./docs/client && browserify  ./client/index.js > ./docs/client/index-compiled.js  && npm run service-worker",
