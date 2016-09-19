@@ -38,15 +38,14 @@
     "shortid": "^2.2.4",
     "speclate": "7.x.x",
     "speclate-router": "4.x.x",
+    "appcache-nanny": "^1.1.0",
+    "speclate-service-worker": "1.x.x",
     "speclate-fetch-markdown": "1.x.x",
     "standard": "^5.4.1",
     "superagent": "^1.3.0",
     "ga-browser": "^1.0.0"
   },
   "dependencies": {
-    "appcache-nanny": "^1.1.0",
-    "serve-me": "^0.8.2",
-    "speclate-service-worker": "^1.2.0"
   },
   "standard": {
     "globals": [
