@@ -1,0 +1,19 @@
+{
+  "name": "London Node User Group",
+  "start_url": "./?utm_source=web_app_manifest",
+  "short_name": "LNUG",
+  "theme_color": "#46483D",
+  "background_color": "#46483D",
+  "default_locale": "en",
+  "description": "London Node User Group",
+   "icons": [{
+      "src": "/images/favicon/favicon-128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }, {
+      "src": "/images/favicon/favicon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+    ]
+}
