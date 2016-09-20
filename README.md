@@ -49,6 +49,22 @@ The site will be deployed when merged into master.
 
 Check the package.json file for a full list of commands you can run.
 
+
+#Caching
+
+The introduction of service workers has changed the way we update the browser cache.
+
+If you are just updating the speakers or venue the update should appear straight away as it uses a network first cache.
+
+All other static resources will require a bump in the version number in client/service-worker.js
+
+There are plans to automate this also.
+
+
+##Ways to update
+ * Bump version number in ./client/service-worker.js
+ *
+
 ###For the image-gallery:
 Just add the URLS to the images inside file `api\gallery.json`.
 Then you run `npm run photos`, and this will happen:

@@ -1,0 +1,9 @@
+{
+    "page": "contact",
+    "selectors": {
+        "title": "Contact - LNUG",
+        "nav a.contact": {
+            "className": "active"
+        }
+    }
+}

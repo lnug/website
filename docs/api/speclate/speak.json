@@ -1,0 +1,9 @@
+{
+    "page": "speak",
+    "selectors": {
+        "nav a.speak": {
+            "className": "active"
+        },
+        "title": "Speak - LNUG"
+    }
+}

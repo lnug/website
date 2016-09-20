@@ -1,0 +1,67 @@
+{
+    "page": "home",
+    "selectors": {
+        "title": "London Node User Group - LNUG",
+        "h1": {
+            "className": "animated bounceInTop"
+        },
+        "small.notice": "Map provided by © <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> &amp; © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a>"
+    },
+    "spec": {
+        ".lnug-ticket": {
+            "component": "ticket",
+            "data": {
+                ".lnug-nextmeetup": "September 28th 2016",
+                ".venue": "Makers Academy",
+                "address": "50 - 52 Commercial St<br />London E1 6LT",
+                ".address a": {
+                    "href": "https://www.google.co.uk/maps/search/50 - 52 Commercial St, London E1 6LT"
+                },
+                "a.cta": {
+                    "href": "http://www.meetup.com/london-nodejs/"
+                }
+            }
+        },
+        ".lnug-content": {
+            "component": "speaker",
+            "data": [
+                {
+                    ".name": "Fox Reymann",
+                    ".title": "Ace JavaScript Interviews: Scoping and Hoisting",
+                    ".desc": "<p>Back to basics of JavaScript. Informative, interesting and entertaining talk. Great knowledge refreshment for those who know JavaScript. Essential education for those who never learned JavaScript properly.&#13;&#10;&#13;&#10;Node.js Developer. Web Development Trainer. Looking for new opportunities. @foxreymann</p>\n",
+                    "img": {
+                        "src": "https://avatars.githubusercontent.com/u/807661?v=3"
+                    },
+                    ".lnug-twitterhandle a": {
+                        "href": "https://github.com/foxreymann"
+                    }
+                },
+                {
+                    ".name": "Loïc Faugeron",
+                    ".title": "Event Driven Architecture",
+                    ".desc": "<p>When <a href=\"https://nodejs.org/en/\">Node.Js</a> says &quot;<code>event-driven, non-blocking I/O</code>&quot;, have you ever felt it was some sort of black magic? Well in this talk we&#39;ll <a href=\"https://blog.8thlight.com/uncle-bob/2015/08/06/let-the-magic-die.html\">make the magic go away</a> by implementing our own simple HTTP server, Event Loop, Scheduler, Deferer/Promise and <a href=\"http://screencrush.com/442/files/2016/02/deadpool-2-boyfriend-pic.jpg?w=720&amp;cdnnode=1\">Thread Pool</a>.&#13;&#10;&#13;&#10;Oh, Hi by the way! I&#39;m Lo&iuml;c (it&#39;s pronounced Low-ic), a &quot;Lead Engineer&quot; (read Lead Dev) at <a href=\"http://constant.co/\">Constant Commerce</a>. You&#39;ll find that I <a href=\"https://twitter.com/epiloic\">tweet</a> and <a href=\"http://gnugat.github.io/\">blog</a> a lot about tech. I aslo <a href=\"https://github.com/gnugat\">contribute a bit</a> to FOSS projects.</p>\n",
+                    "img": {
+                        "src": "https://avatars.githubusercontent.com/u/793185?v=3"
+                    },
+                    ".lnug-twitterhandle a": {
+                        "href": "https://github.com/gnugat"
+                    }
+                },
+                {
+                    ".name": "Tanzim",
+                    ".title": "I&#39;ve got swagger. Have you?",
+                    ".desc": "<p>OpenAPI Specification, formerly known as Swagger is a well established standard for defining REST API interfaces. In this talk I&#39;d like to quickly go over Swagger, how you can integrate it with node.js and a few best practices that goes a long way to deliver robust enterprise class API service&#13;&#10;&#13;&#10;Additional links:&#13;&#10;- <a href=\"https://github.com/OAI/OpenAPI-Specification&#13;&#10;-\">https://github.com/OAI/OpenAPI-Specification&#13;&#10;-</a> <a href=\"https://github.com/swagger-api/swagger-node\">https://github.com/swagger-api/swagger-node</a></p>\n",
+                    "img": {
+                        "src": "https://avatars.githubusercontent.com/u/1591642?v=3"
+                    },
+                    ".lnug-twitterhandle a": {
+                        "href": "https://github.com/tanzim"
+                    }
+                }
+            ]
+        },
+        ".lnug-mailing-list": {
+            "component": "sign-up"
+        }
+    }
+}
