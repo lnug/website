@@ -7,7 +7,6 @@ http://lnug.org
 
 # Install
 
-
 How to run
 ----------
 You can serve this with *any* static web server, but we'll use [mongoose](https://code.google.com/p/mongoose/).
