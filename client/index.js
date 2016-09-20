@@ -3,7 +3,6 @@ var analytics = require('ga-browser')(window)
 var appCacheNanny = require('appcache-nanny')
 
 window.$ = require('jquery')
-
 router({
   before: function () {
     $('nav a.active').removeClass('active')
