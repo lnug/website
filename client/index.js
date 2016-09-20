@@ -1,5 +1,3 @@
-
-
 var router = require('speclate-router')
 var analytics = require('ga-browser')(window)
 var appCacheNanny = require('appcache-nanny')
@@ -36,7 +34,7 @@ if ('serviceWorker' in navigator) {
     // registration failed :(
     console.log('ServiceWorker registration failed: ', err)
   })
- } else {
+} else {
   appCacheNanny.start()
 }
 
