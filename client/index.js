@@ -20,7 +20,6 @@ router({
   error: function (err, $container) {
     if (err) {
       $('nav a.active').removeClass('active')
-      console.log(err)
       $container.html('<div class="markdown"><h1>Error</h1><p>Something went wrong fetching the page.</p><p>' + err + '</p></div>')
     }
   }
