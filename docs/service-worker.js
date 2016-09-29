@@ -9,6 +9,26 @@ serviceWorker(spec, version)
 },{"../spec":14,"speclate-service-worker":12}],2:[function(require,module,exports){
 module.exports=[
     {
+        "date": "October 2016",
+        "speakers": [
+            {
+                "name": "Alex Booker",
+                "url": "https://github.com/alexbooker",
+                "title": "Write More Resilient JavaScript with Flow"
+            },
+            {
+                "name": "lazlojuly",
+                "url": "https://github.com/lazlojuly",
+                "title": "Design, document, mock and test a RESTful API in 20 minutes"
+            },
+            {
+                "name": "Mike MacCana",
+                "url": "https://github.com/mikemaccana",
+                "title": "Quick wins with node and Google AMP"
+            }
+        ]
+    },
+    {
         "date": "September 2016",
         "speakers": [
             {
@@ -1430,34 +1450,34 @@ module.exports=[
 },{}],4:[function(require,module,exports){
 module.exports=[
     {
-        "apiSpeakerUrl": "https://api.github.com/users/foxreymann",
-        "speakerUrl": "https://github.com/foxreymann",
-        "title": "Ace JavaScript Interviews: Scoping and Hoisting",
-        "description": "<p>Back to basics of JavaScript. Informative, interesting and entertaining talk. Great knowledge refreshment for those who know JavaScript. Essential education for those who never learned JavaScript properly.&#13;&#10;&#13;&#10;Node.js Developer. Web Development Trainer. Looking for new opportunities. @foxreymann</p>\n",
-        "milestone": "September 28th 2016",
-        "img": "https://avatars.githubusercontent.com/u/807661?v=3",
-        "handle": "foxreymann",
-        "name": "Fox Reymann"
+        "apiSpeakerUrl": "https://api.github.com/users/alexbooker",
+        "speakerUrl": "https://github.com/alexbooker",
+        "title": "Write More Resilient JavaScript with Flow",
+        "description": "<p><strong>Abstract</strong>&#13;&#10;&#13;&#10;Flow is a static type checker for JavaScript (an otherwise dynamically-typed language). You can think of it as a productivity tool that catches common errors <em>before</em> they run. &#13;&#10;&#13;&#10;Take the infamous &quot;&#39;Undefined&#39; is not a function&quot; error as an example. When writing vanilla JavaScript, you would have to wait until runtime to receive this arduous error. Flow - on the other hand - integrates with your favorite editor and analyzes the correctness of your code as you write it. If you were to reference a non-existent function, Flow would not only tell you immediately but also provide additional context that makes the error easier to fix.&#13;&#10;&#13;&#10;Whilst Flow is predominantly used with front-end technologies like React, I have been using it with great success for my Node.js projects and in this talk, I&#39;ll not only show you how to get up and running with Flow, I&#39;ll also share my experience with you. I&#39;ll also take a moment at the end of my talk to touch on the differences between Flow and TypeScript.&#13;&#10;&#13;&#10;<strong>Alex Booker</strong>&#13;&#10;&#13;&#10;Alex Booker is a Developer Advocate at <a href=\"https://pusher.com/\">Pusher</a>. There, he spends his time learning and writing about interesting, emerging technologies, and representing Pusher at events around the world. In his spare time, he runs a YouTube channel called <a href=\"https://www.youtube.com/c/codecast\">Code Cast</a> where he uploads educational screencasts about Linux and JavaScript. You can find him on Twitter <a href=\"https://twitter.com/bookercodes\">@bookercodes</a>.</p>\n",
+        "milestone": "October 26th 2016",
+        "img": "https://avatars.githubusercontent.com/u/11927968?v=3",
+        "handle": "alexbooker",
+        "name": "Alex Booker"
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/gnugat",
-        "speakerUrl": "https://github.com/gnugat",
-        "title": "Event Driven Architecture",
-        "description": "<p>When <a href=\"https://nodejs.org/en/\">Node.Js</a> says &quot;<code>event-driven, non-blocking I/O</code>&quot;, have you ever felt it was some sort of black magic? Well in this talk we&#39;ll <a href=\"https://blog.8thlight.com/uncle-bob/2015/08/06/let-the-magic-die.html\">make the magic go away</a> by implementing our own simple HTTP server, Event Loop, Scheduler, Deferer/Promise and <a href=\"http://screencrush.com/442/files/2016/02/deadpool-2-boyfriend-pic.jpg?w=720&amp;cdnnode=1\">Thread Pool</a>.&#13;&#10;&#13;&#10;Oh, Hi by the way! I&#39;m Lo&iuml;c (it&#39;s pronounced Low-ic), a &quot;Lead Engineer&quot; (read Lead Dev) at <a href=\"http://constant.co/\">Constant Commerce</a>. You&#39;ll find that I <a href=\"https://twitter.com/epiloic\">tweet</a> and <a href=\"http://gnugat.github.io/\">blog</a> a lot about tech. I aslo <a href=\"https://github.com/gnugat\">contribute a bit</a> to FOSS projects.</p>\n",
-        "milestone": "September 28th 2016",
-        "img": "https://avatars.githubusercontent.com/u/793185?v=3",
-        "handle": "gnugat",
-        "name": "Loïc Faugeron"
+        "apiSpeakerUrl": "https://api.github.com/users/lazlojuly",
+        "speakerUrl": "https://github.com/lazlojuly",
+        "title": "Design, document, mock and test a RESTful API in 20 minutes",
+        "description": "<p>This talk introduces 4 open-source projects that can be used together in a powerful combination to document, mock and test APIs.&#13;&#10;&#13;&#10;Talk agenda:&#13;&#10;1. Write a simple <a href=\"https://apiblueprint.org/\">API Blueprint</a> documentation&#13;&#10;2. Render documentation as HTML with <a href=\"https://github.com/danielgtaylor/aglio\">aglio</a>&#13;&#10;3. Setup API testing with with <a href=\"https://github.com/apiaryio/dredd\">Dredd</a>&#13;&#10;4. Implement a simple endpoint manually (pass a failing test)&#13;&#10;5. Mock all endpoints with <a href=\"https://github.com/Aconex/drakov\">Drakov</a>&#13;&#10;&#13;&#10;The tools:&#13;&#10;<em> <a href=\"https://apiblueprint.org/\">API Blueprint</a> is a Markdown-based document format that lets you write API descriptions and documentation in a simple and straightforward way.&#13;&#10;</em> <a href=\"https://github.com/danielgtaylor/aglio\">aglio</a> is API Blueprint renderer that outputs static HTML that can be served by any web host.&#13;&#10;<em> <a href=\"https://github.com/apiaryio/dredd\">Dredd</a> is a language-agnostic command-line tool for validating API description documents. It now supports both API Blueprint and Swagger description formats.&#13;&#10;</em> <a href=\"https://github.com/Aconex/drakov\">Drakov</a> is a mock server that implements the API Blueprint specification.&#13;&#10;&#13;&#10;&#13;&#10;Bio: I am a JavaScript Engineer. Connect with me on <a href=\"https://twitter.com/lazlojuly\">Twitter</a>, <a href=\"https://www.linkedin.com/in/lazlojuly\">LinkedIn</a> or <a href=\"https://github.com/lazlojuly\">GitHub</a>&#13;&#10;</p>\n",
+        "milestone": "October 26th 2016",
+        "img": "https://avatars.githubusercontent.com/u/7015868?v=3",
+        "handle": "lazlojuly",
+        "name": "lazlojuly"
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/tanzim",
-        "speakerUrl": "https://github.com/tanzim",
-        "title": "I&#39;ve got swagger. Have you?",
-        "description": "<p>OpenAPI Specification, formerly known as Swagger is a well established standard for defining REST API interfaces. In this talk I&#39;d like to quickly go over Swagger, how you can integrate it with node.js and a few best practices that goes a long way to deliver robust enterprise class API service&#13;&#10;&#13;&#10;Additional links:&#13;&#10;- <a href=\"https://github.com/OAI/OpenAPI-Specification&#13;&#10;-\">https://github.com/OAI/OpenAPI-Specification&#13;&#10;-</a> <a href=\"https://github.com/swagger-api/swagger-node\">https://github.com/swagger-api/swagger-node</a></p>\n",
-        "milestone": "September 28th 2016",
-        "img": "https://avatars.githubusercontent.com/u/1591642?v=3",
-        "handle": "tanzim",
-        "name": "Tanzim"
+        "apiSpeakerUrl": "https://api.github.com/users/mikemaccana",
+        "speakerUrl": "https://github.com/mikemaccana",
+        "title": "Quick wins with node and Google AMP",
+        "description": "<p>Google&#39;s Accelerated Mobile Pages (AMP) is a subset of HTML designed to load as quickly as possible. AMP pages keep your users happy, get you higher in search engine results pages, and related features like structured data can get you right to the top. Here&#39;s how a little node engineering can mean more money in your pocket. &#13;&#10;&#13;&#10;# Talk Description&#13;&#10;&#13;&#10;What AMP is:&#13;&#10; - What you gain (pagerank, content previews inside Google search, low latency)&#13;&#10; - What still works and what breaks (analytics, conversion tracking etc support is still ongoing)&#13;&#10;&#13;&#10;Implementing AMP in a node app:&#13;&#10;&#13;&#10; - Creating an AMP version of your existing layout&#13;&#10; - Converting output from your existing template engine to AMPHTML via server-side DOM manipulation&#13;&#10; - Handing analytics in an AMPHTML world&#13;&#10;&#13;&#10;I&#39;ve written and Open Soured some express-compatible middleware to make this job easier, see <a href=\"https://www.npmjs.com/package/amps-in-the-trunk&#13;&#10;&#13;&#10;##\">https://www.npmjs.com/package/amps-in-the-trunk&#13;&#10;&#13;&#10;##</a> Bio&#13;&#10;&#13;&#10;Mike MacCana is the founder of CertSimple, a startup that provides EV HTTPS certs - the ones where they check who you are - 40-500x faster than it&#39;s competitors. He&#39;s previously built web apps for Google, Adobe and Microsoft.</p>\n",
+        "milestone": "October 26th 2016",
+        "img": "https://avatars.githubusercontent.com/u/172594?v=3",
+        "handle": "mikemaccana",
+        "name": "Mike MacCana"
     }
 ]
 },{}],5:[function(require,module,exports){

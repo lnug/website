@@ -8,6 +8,10 @@
             "component": "archive",
             "data": [
                 {
+                    ".date": "October 2016",
+                    ".speakers": "<li>Write More Resilient JavaScript with Flow -  <a href=\"https://github.com/alexbooker\">Alex Booker</a> </li> <li>Design, document, mock and test a RESTful API in 20 minutes -  <a href=\"https://github.com/lazlojuly\">lazlojuly</a> </li> <li>Quick wins with node and Google AMP -  <a href=\"https://github.com/mikemaccana\">Mike MacCana</a> </li>"
+                },
+                {
                     ".date": "September 2016",
                     ".speakers": "<li>Ace JavaScript Interviews: Scoping and Hoisting -  <a href=\"https://github.com/foxreymann\">Fox Reymann</a> </li> <li>Event Driven Architecture -  <a href=\"https://github.com/gnugat\">Lo&iuml;c Faugeron</a> </li> <li>I&#39;ve got swagger. Have you? -  <a href=\"https://github.com/tanzim\">Tanzim</a> </li>"
                 },
