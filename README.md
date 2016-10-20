@@ -18,7 +18,6 @@ You can serve this with *any* static web server, but we'll use [mongoose](https:
 3. `npm start`
 4. go to http://localhost:5001
 
-
 # Contributing
 
 Please note the HTML files in the root of this repository are generated.
