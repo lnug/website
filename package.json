@@ -43,7 +43,8 @@
     "speclate-fetch-markdown": "1.x.x",
     "standard": "^5.4.1",
     "superagent": "^1.3.0",
-    "ga-browser": "^1.0.0"
+    "ga-browser": "^1.0.0",
+    "marked": "^0.3.6"
   },
   "dependencies": {
   },
