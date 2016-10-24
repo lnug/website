@@ -20,13 +20,12 @@ You can serve this with *any* static web server, but we'll use [mongoose](https:
 
 # Contributing
 
-Please note the HTML files in the root of this repository are generated.
 
 See ./spec.js to see how the pages are put together.
 
 If you want to change the templates look in the pages folder.
 
-Please ensure that any changes you make persist after you run the update command documented below.
+Please ensure that any changes you make persist after you run the update command documented above.
 
 
 # Update
