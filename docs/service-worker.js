@@ -12,8 +12,8 @@ module.exports=[
         "date": "October 2016",
         "speakers": [
             {
-                "name": "Alex Booker",
-                "url": "https://github.com/alexbooker",
+                "name": "Booker ⚡",
+                "url": "https://github.com/bookercodes",
                 "title": "Write More Resilient JavaScript with Flow"
             },
             {
@@ -1450,14 +1450,14 @@ module.exports=[
 },{}],4:[function(require,module,exports){
 module.exports=[
     {
-        "apiSpeakerUrl": "https://api.github.com/users/alexbooker",
-        "speakerUrl": "https://github.com/alexbooker",
+        "apiSpeakerUrl": "https://api.github.com/users/bookercodes",
+        "speakerUrl": "https://github.com/bookercodes",
         "title": "Write More Resilient JavaScript with Flow",
         "description": "<p><strong>Abstract</strong>&#13;&#10;&#13;&#10;Flow is a static type checker for JavaScript (an otherwise dynamically-typed language). You can think of it as a productivity tool that catches common errors <em>before</em> they run. &#13;&#10;&#13;&#10;Take the infamous &quot;&#39;Undefined&#39; is not a function&quot; error as an example. When writing vanilla JavaScript, you would have to wait until runtime to receive this arduous error. Flow - on the other hand - integrates with your favorite editor and analyzes the correctness of your code as you write it. If you were to reference a non-existent function, Flow would not only tell you immediately but also provide additional context that makes the error easier to fix.&#13;&#10;&#13;&#10;Whilst Flow is predominantly used with front-end technologies like React, I have been using it with great success for my Node.js projects and in this talk, I&#39;ll not only show you how to get up and running with Flow, I&#39;ll also share my experience with you. I&#39;ll also take a moment at the end of my talk to touch on the differences between Flow and TypeScript.&#13;&#10;&#13;&#10;<strong>Alex Booker</strong>&#13;&#10;&#13;&#10;Alex Booker is a Developer Advocate at <a href=\"https://pusher.com/\">Pusher</a>. There, he spends his time learning and writing about interesting, emerging technologies, and representing Pusher at events around the world. In his spare time, he runs a YouTube channel called <a href=\"https://www.youtube.com/c/codecast\">Code Cast</a> where he uploads educational screencasts about Linux and JavaScript. You can find him on Twitter <a href=\"https://twitter.com/bookercodes\">@bookercodes</a>.</p>\n",
         "milestone": "October 26th 2016",
         "img": "https://avatars.githubusercontent.com/u/11927968?v=3",
-        "handle": "alexbooker",
-        "name": "Alex Booker"
+        "handle": "bookercodes",
+        "name": "Booker ⚡"
     },
     {
         "apiSpeakerUrl": "https://api.github.com/users/lazlojuly",
