@@ -8,6 +8,10 @@
             "component": "archive",
             "data": [
                 {
+                    ".date": "November 2016",
+                    ".speakers": "<li>Null Can&#39;t Hurt You Anymore -  <a href=\"https://github.com/svozza\">Stefano Vozza</a> </li> <li>Readable Microservices, with functional programming. -  <a href=\"https://github.com/jc888\">James Chow (dsc)</a> </li> <li>Keep calm and curry on -  <a href=\"https://github.com/cullophid\">Andreas M&Oslash;ller</a> </li>"
+                },
+                {
                     ".date": "October 2016",
                     ".speakers": "<li>Write More Resilient JavaScript with Flow -  <a href=\"https://github.com/bookercodes\">Booker &#9889;</a> </li> <li>How to build a RESTful API -  <a href=\"https://github.com/lazlojuly\">lazlojuly</a> </li> <li>Quick wins with node and Google AMP -  <a href=\"https://github.com/mikemaccana\">Mike MacCana</a> </li>"
                 },

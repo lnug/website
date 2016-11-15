@@ -11,7 +11,7 @@
         ".lnug-ticket": {
             "component": "ticket",
             "data": {
-                ".lnug-nextmeetup": "October 26th 2016",
+                ".lnug-nextmeetup": "November 23rd 2016",
                 ".venue": "Makers Academy",
                 "address": "50 - 52 Commercial St<br />London E1 6LT",
                 ".address a": {
@@ -26,36 +26,36 @@
             "component": "speaker",
             "data": [
                 {
-                    ".name": "Booker ⚡",
-                    ".title": "Write More Resilient JavaScript with Flow",
-                    ".desc": "<p><strong>Abstract</strong>&#13;&#10;&#13;&#10;Flow is a static type checker for JavaScript (an otherwise dynamically-typed language). You can think of it as a productivity tool that catches common errors <em>before</em> they run. &#13;&#10;&#13;&#10;Take the infamous &quot;&#39;Undefined&#39; is not a function&quot; error as an example. When writing vanilla JavaScript, you would have to wait until runtime to receive this arduous error. Flow - on the other hand - integrates with your favorite editor and analyzes the correctness of your code as you write it. If you were to reference a non-existent function, Flow would not only tell you immediately but also provide additional context that makes the error easier to fix.&#13;&#10;&#13;&#10;Whilst Flow is predominantly used with front-end technologies like React, I have been using it with great success for my Node.js projects and in this talk, I&#39;ll not only show you how to get up and running with Flow, I&#39;ll also share my experience with you. I&#39;ll also take a moment at the end of my talk to touch on the differences between Flow and TypeScript.&#13;&#10;&#13;&#10;<strong>Alex Booker</strong>&#13;&#10;&#13;&#10;Alex Booker is a Developer Advocate at <a href=\"https://pusher.com/\">Pusher</a>. There, he spends his time learning and writing about interesting, emerging technologies, and representing Pusher at events around the world. In his spare time, he runs a YouTube channel called <a href=\"https://www.youtube.com/c/codecast\">Code Cast</a> where he uploads educational screencasts about Linux and JavaScript. You can find him on Twitter <a href=\"https://twitter.com/bookercodes\">@bookercodes</a>.</p>\n",
+                    ".name": "Stefano Vozza",
+                    ".title": "Null Can&#39;t Hurt You Anymore",
+                    ".desc": "<p>This talk follows on from @cullophid&#39;s session and seeks to build on those foundations with larger abstractions that can help developers to avoid common pitfalls when writing JavaScript such as null references (<code>Maybe</code>s), uncaught exceptions (<code>Either</code>s) and asynchronous control flow (<code>Future</code>s). These abstractions help to encapsulate uncertainty allowing us to code the happy path whilst ultimately enforcing the handling of error conditions and as the data types all share a common interface it allows us to compose them in predictable ways.&#13;&#10;&#13;&#10;Stefano Vozza is a tech lead at Trinity Mirror and has a keen interest in functional programming, DevOps and continuous delivery. He is a main contributor to several open source Javascript FP libraries such as <a href=\"https://github.com/sanctuary-js/sanctuary\">Sanctuary</a>, <a href=\"https://github.com/cullophid/date-fp\">date-fp</a> and <a href=\"https://github.com/caolan/highland\">Highland</a>. &#13;&#10;</p>\n",
                     "img": {
-                        "src": "https://avatars.githubusercontent.com/u/11927968?v=3"
+                        "src": "https://avatars.githubusercontent.com/u/8573472?v=3"
                     },
                     ".lnug-twitterhandle a": {
-                        "href": "https://github.com/bookercodes"
+                        "href": "https://github.com/svozza"
                     }
                 },
                 {
-                    ".name": "lazlojuly",
-                    ".title": "How to build a RESTful API",
-                    ".desc": "<p>Talk agenda:&#13;&#10;1. The REST Design&#13;&#10;2. Specification&#13;&#10;3. Mocking&#13;&#10;4. Testing&#13;&#10;&#13;&#10;This talk will also look at some popular API tools.&#13;&#10;&#13;&#10;Bio: I am a JavaScript Engineer. Connect with me on <a href=\"https://twitter.com/lazlojuly\">Twitter</a>, <a href=\"https://www.linkedin.com/in/lazlojuly\">LinkedIn</a> or <a href=\"https://github.com/lazlojuly\">GitHub</a></p>\n",
+                    ".name": "James Chow (dsc)",
+                    ".title": "Readable Microservices, with functional programming.",
+                    ".desc": "<p>In the final talk James Chow will talk about how the principles &#13;&#10;of functional programming aligns itself with modern distributed architectures.&#13;&#10;Join him as he builds a fully functional microservice application&#13;&#10;using our new functional programming toolbox. James shows us how all the various&#13;&#10;parts of functional programming comes together to create safe efficient code&#13;&#10;that is easily readable and extendable. &#13;&#10;&#13;&#10;James chow has been a software contractor for over 10 years.  He is currently Devops Engineer for Discovery where he manages Infrastructure, and advises on constructing applications.</p>\n",
                     "img": {
-                        "src": "https://avatars.githubusercontent.com/u/7015868?v=3"
+                        "src": "https://avatars.githubusercontent.com/u/3694261?v=3"
                     },
                     ".lnug-twitterhandle a": {
-                        "href": "https://github.com/lazlojuly"
+                        "href": "https://github.com/jc888"
                     }
                 },
                 {
-                    ".name": "Mike MacCana",
-                    ".title": "Quick wins with node and Google AMP",
-                    ".desc": "<p>Google&#39;s Accelerated Mobile Pages (AMP) is a subset of HTML designed to load as quickly as possible. AMP pages keep your users happy, get you higher in search engine results pages, and related features like structured data can get you right to the top. Here&#39;s how a little node engineering can mean more money in your pocket. &#13;&#10;&#13;&#10;# Talk Description&#13;&#10;&#13;&#10;What AMP is:&#13;&#10; - What you gain (pagerank, content previews inside Google search, low latency)&#13;&#10; - What still works and what breaks (analytics, conversion tracking etc support is still ongoing)&#13;&#10;&#13;&#10;Implementing AMP in a node app:&#13;&#10;&#13;&#10; - Creating an AMP version of your existing layout&#13;&#10; - Converting output from your existing template engine to AMPHTML via server-side DOM manipulation&#13;&#10; - Handing analytics in an AMPHTML world&#13;&#10;&#13;&#10;I&#39;ve written and Open Soured some express-compatible middleware to make this job easier, see <a href=\"https://www.npmjs.com/package/amps-in-the-trunk&#13;&#10;&#13;&#10;##\">https://www.npmjs.com/package/amps-in-the-trunk&#13;&#10;&#13;&#10;##</a> Bio&#13;&#10;&#13;&#10;Mike MacCana is the founder of CertSimple, a startup that provides EV HTTPS certs - the ones where they check who you are - 40-500x faster than it&#39;s competitors. He&#39;s previously built web apps for Google, Adobe and Microsoft.</p>\n",
+                    ".name": "Andreas Møller",
+                    ".title": "Keep calm and curry on",
+                    ".desc": "<p>In this first talk we will look at the fundamental principles that underpin the functional programming paradigm.&#13;&#10;&#13;&#10;We introduce some of basic techniques that makes functional programming so powerful. &#13;&#10;These are techniques you can easily apply to your codebase to increase readability and reusability.&#13;&#10;&#13;&#10;Andreas M&Oslash;ller is a London based full stack JavaScript developer. Andreas splits his time between contracting and his role as CTO of his analytics startup Sentia.&#13;&#10;</p>\n",
                     "img": {
-                        "src": "https://avatars.githubusercontent.com/u/172594?v=3"
+                        "src": "https://avatars.githubusercontent.com/u/1183585?v=3"
                     },
                     ".lnug-twitterhandle a": {
-                        "href": "https://github.com/mikemaccana"
+                        "href": "https://github.com/cullophid"
                     }
                 }
             ]
