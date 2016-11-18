@@ -14,17 +14,17 @@ module.exports=[
             {
                 "name": "Stefano Vozza",
                 "url": "https://github.com/svozza",
-                "title": "Null Can&#39;t Hurt You Anymore"
+                "title": "2. Null Can&#39;t Hurt You Anymore"
             },
             {
                 "name": "James Chow (dsc)",
                 "url": "https://github.com/jc888",
-                "title": "Readable Microservices, with functional programming."
+                "title": "3. Readable Microservices, with functional programming."
             },
             {
                 "name": "Andreas Møller",
                 "url": "https://github.com/cullophid",
-                "title": "Keep calm and curry on"
+                "title": "1. Keep calm and curry on"
             }
         ]
     },
@@ -1472,7 +1472,7 @@ module.exports=[
     {
         "apiSpeakerUrl": "https://api.github.com/users/svozza",
         "speakerUrl": "https://github.com/svozza",
-        "title": "Null Can&#39;t Hurt You Anymore",
+        "title": "2. Null Can&#39;t Hurt You Anymore",
         "description": "<p>This talk follows on from @cullophid&#39;s session and seeks to build on those foundations with larger abstractions that can help developers to avoid common pitfalls when writing JavaScript such as null references (<code>Maybe</code>s), uncaught exceptions (<code>Either</code>s) and asynchronous control flow (<code>Future</code>s). These abstractions help to encapsulate uncertainty allowing us to code the happy path whilst ultimately enforcing the handling of error conditions and as the data types all share a common interface it allows us to compose them in predictable ways.&#13;&#10;&#13;&#10;Stefano Vozza is a tech lead at Trinity Mirror and has a keen interest in functional programming, DevOps and continuous delivery. He is a main contributor to several open source Javascript FP libraries such as <a href=\"https://github.com/sanctuary-js/sanctuary\">Sanctuary</a>, <a href=\"https://github.com/cullophid/date-fp\">date-fp</a> and <a href=\"https://github.com/caolan/highland\">Highland</a>. &#13;&#10;</p>\n",
         "milestone": "November 23rd 2016",
         "img": "https://avatars.githubusercontent.com/u/8573472?v=3",
@@ -1482,7 +1482,7 @@ module.exports=[
     {
         "apiSpeakerUrl": "https://api.github.com/users/jc888",
         "speakerUrl": "https://github.com/jc888",
-        "title": "Readable Microservices, with functional programming.",
+        "title": "3. Readable Microservices, with functional programming.",
         "description": "<p>In the final talk James Chow will talk about how the principles &#13;&#10;of functional programming aligns itself with modern distributed architectures.&#13;&#10;Join him as he builds a fully functional microservice application&#13;&#10;using our new functional programming toolbox. James shows us how all the various&#13;&#10;parts of functional programming comes together to create safe efficient code&#13;&#10;that is easily readable and extendable. &#13;&#10;&#13;&#10;James chow has been a software contractor for over 10 years.  He is currently Devops Engineer for Discovery where he manages Infrastructure, and advises on constructing applications.</p>\n",
         "milestone": "November 23rd 2016",
         "img": "https://avatars.githubusercontent.com/u/3694261?v=3",
@@ -1492,7 +1492,7 @@ module.exports=[
     {
         "apiSpeakerUrl": "https://api.github.com/users/cullophid",
         "speakerUrl": "https://github.com/cullophid",
-        "title": "Keep calm and curry on",
+        "title": "1. Keep calm and curry on",
         "description": "<p>In this first talk we will look at the fundamental principles that underpin the functional programming paradigm.&#13;&#10;&#13;&#10;We introduce some of basic techniques that makes functional programming so powerful. &#13;&#10;These are techniques you can easily apply to your codebase to increase readability and reusability.&#13;&#10;&#13;&#10;Andreas M&Oslash;ller is a London based full stack JavaScript developer. Andreas splits his time between contracting and his role as CTO of his analytics startup Sentia.&#13;&#10;</p>\n",
         "milestone": "November 23rd 2016",
         "img": "https://avatars.githubusercontent.com/u/1183585?v=3",
@@ -1613,9 +1613,14 @@ function speakerSelectors (speaker) {
     }
   }
 }
+var sortByTitle = function(a, b) {
+  if(a.title < b.title) return -1;
+  if(a.title > b.title) return 1;
+  return 0;
+}
 
 module.exports = function (callback) {
-  return thisMonth.map(speakerSelectors)
+  return thisMonth.sort(sortByTitle).map(speakerSelectors)
 }
 
 },{"../data/this-month.json":4}],10:[function(require,module,exports){
