@@ -28,26 +28,26 @@
   },
   "homepage": "https://github.com/lnug/lnug.github.io",
   "devDependencies": {
+    "appcache-nanny": "^1.1.0",
     "async": "^1.3.0",
+    "browserify": "^13.3.0",
     "chai": "^3.2.0",
+    "ga-browser": "^1.0.0",
     "html-entities": "^1.1.3",
     "imagemagick-stream": "^4.0.1",
     "jquery": "^2.2.4",
+    "marked": "^0.3.6",
     "moment": "^2.10.3",
     "node-html-encoder": "0.0.2",
     "shortid": "^2.2.4",
     "speclate": "7.x.x",
-    "speclate-router": "4.x.x",
-    "appcache-nanny": "^1.1.0",
-    "speclate-service-worker": "1.x.x",
     "speclate-fetch-markdown": "1.x.x",
+    "speclate-router": "4.x.x",
+    "speclate-service-worker": "1.x.x",
     "standard": "^5.4.1",
-    "superagent": "^1.3.0",
-    "ga-browser": "^1.0.0",
-    "marked": "^0.3.6"
+    "superagent": "^1.3.0"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "standard": {
     "globals": [
       "$",
