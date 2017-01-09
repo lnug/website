@@ -1,32 +1,30 @@
 [
     {
-        "apiSpeakerUrl": "https://api.github.com/users/svozza",
-        "speakerUrl": "https://github.com/svozza",
-        "title": "2. Null Can&#39;t Hurt You Anymore",
-        "description": "<p>This talk follows on from @cullophid&#39;s session and seeks to build on those foundations with larger abstractions that can help developers to avoid common pitfalls when writing JavaScript such as null references (<code>Maybe</code>s), uncaught exceptions (<code>Either</code>s) and asynchronous control flow (<code>Future</code>s). These abstractions help to encapsulate uncertainty allowing us to code the happy path whilst ultimately enforcing the handling of error conditions and as the data types all share a common interface it allows us to compose them in predictable ways.&#13;&#10;&#13;&#10;Stefano Vozza is a tech lead at Trinity Mirror and has a keen interest in functional programming, DevOps and continuous delivery. He is a main contributor to several open source Javascript FP libraries such as <a href=\"https://github.com/sanctuary-js/sanctuary\">Sanctuary</a>, <a href=\"https://github.com/cullophid/date-fp\">date-fp</a> and <a href=\"https://github.com/caolan/highland\">Highland</a>. &#13;&#10;</p>\n",
-        "milestone": "November 23rd 2016",
-        "img": "https://avatars.githubusercontent.com/u/8573472?v=3",
-        "handle": "svozza",
-        "name": "Stefano Vozza"
+        "apiSpeakerUrl": "https://api.github.com/users/clementhannicq",
+        "speakerUrl": "https://github.com/clementhannicq",
+        "title": "GraphQL: an API convention that you will actually follow",
+        "description": "<p>REST is recognized as the &quot;good practice&quot; in terms of web APIs, but can quickly become a hassle as your application grows and evolves.&#13;&#10;QraphQL is a new paradigm, allowing developers to request deeply nested information in a single call, without cluttering the response with unneeded fields.&#13;&#10;In this talk, I will show how GraphQL overcomes the rest limitations to send only the information a caller wants, without changing anything on your backend.&#13;&#10;&#13;&#10;I am currently working at Theodo (<a href=\"http://www.theodo.co.uk/\">http://www.theodo.co.uk/</a>) and have been for the past 18 months, as a fullstack developer.</p>\n",
+        "milestone": "January 25th 2017",
+        "img": "https://avatars.githubusercontent.com/u/9348088?v=3",
+        "handle": "clementhannicq",
+        "name": "Clement Hannicq"
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/jc888",
-        "speakerUrl": "https://github.com/jc888",
-        "title": "3. Readable Microservices, with functional programming.",
-        "description": "<p>In the final talk James Chow will talk about how the principles &#13;&#10;of functional programming aligns itself with modern distributed architectures.&#13;&#10;Join him as he builds a fully functional microservice application&#13;&#10;using our new functional programming toolbox. James shows us how all the various&#13;&#10;parts of functional programming comes together to create safe efficient code&#13;&#10;that is easily readable and extendable. &#13;&#10;&#13;&#10;James chow has been a software contractor for over 10 years.  He is currently Devops Engineer for Discovery where he manages Infrastructure, and advises on constructing applications.</p>\n",
-        "milestone": "November 23rd 2016",
-        "img": "https://avatars.githubusercontent.com/u/3694261?v=3",
-        "handle": "jc888",
-        "name": "James Chow (dsc)"
+        "apiSpeakerUrl": "https://api.github.com/users/clarkie",
+        "speakerUrl": "https://github.com/clarkie",
+        "title": "A year with AWS",
+        "description": "<p>Moving from a company where everything ran on &#39;bare metal&#39; in a DC on Goswell Road to a startup where everything was already running in AWS has proven to be an interesting learning curve.&#10;This talk will take you through some of my learnings along the way and some of the ways we use bits of the AWS toolkit now at Tido. &#10;&#10;Clarkie&#10;CTO @ <a href=\"http://tidomusicapp.com/\">Tido</a>&#10;@clarkieclarkie &#10;</p>\n",
+        "milestone": "January 25th 2017",
+        "img": "https://avatars.githubusercontent.com/u/2292639?v=3",
+        "handle": "clarkie",
+        "name": "Clarkie"
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/cullophid",
-        "speakerUrl": "https://github.com/cullophid",
-        "title": "1. Keep calm and curry on",
-        "description": "<p>In this first talk we will look at the fundamental principles that underpin the functional programming paradigm.&#13;&#10;&#13;&#10;We introduce some of basic techniques that makes functional programming so powerful. &#13;&#10;These are techniques you can easily apply to your codebase to increase readability and reusability.&#13;&#10;&#13;&#10;Andreas M&Oslash;ller is a London based full stack JavaScript developer. Andreas splits his time between contracting and his role as CTO of his analytics startup Sentia.&#13;&#10;</p>\n",
-        "milestone": "November 23rd 2016",
-        "img": "https://avatars.githubusercontent.com/u/1183585?v=3",
-        "handle": "cullophid",
-        "name": "Andreas Møller"
+        "title": "Slot available",
+        "name": "Submit your talk!",
+        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
+        "img": "/images/favicon/favicon-128.png",
+        "speakerUrl": "/speak.html",
+        "milestone": "January 25th 2017"
     }
 ]

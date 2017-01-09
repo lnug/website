@@ -1,5 +1,25 @@
 [
     {
+        "date": "January 2017",
+        "speakers": [
+            {
+                "name": "Clement Hannicq",
+                "url": "https://github.com/clementhannicq",
+                "title": "GraphQL: an API convention that you will actually follow"
+            },
+            {
+                "name": "Clarkie",
+                "url": "https://github.com/clarkie",
+                "title": "A year with AWS"
+            },
+            {
+                "name": "Submit your talk!",
+                "url": "/speak.html",
+                "title": "Slot available"
+            }
+        ]
+    },
+    {
         "date": "November 2016",
         "speakers": [
             {
