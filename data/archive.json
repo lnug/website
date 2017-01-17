@@ -3,6 +3,11 @@
         "date": "January 2017",
         "speakers": [
             {
+                "name": "Andy Trevorah",
+                "url": "https://github.com/trevorah",
+                "title": " Native app tips to save your sanity"
+            },
+            {
                 "name": "Clement Hannicq",
                 "url": "https://github.com/clementhannicq",
                 "title": "GraphQL: an API convention that you will actually follow"
@@ -11,11 +16,6 @@
                 "name": "Clarkie",
                 "url": "https://github.com/clarkie",
                 "title": "A year with AWS"
-            },
-            {
-                "name": "Submit your talk!",
-                "url": "/speak.html",
-                "title": "Slot available"
             }
         ]
     },

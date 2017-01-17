@@ -12,6 +12,11 @@ module.exports=[
         "date": "January 2017",
         "speakers": [
             {
+                "name": "Andy Trevorah",
+                "url": "https://github.com/trevorah",
+                "title": " Native app tips to save your sanity"
+            },
+            {
                 "name": "Clement Hannicq",
                 "url": "https://github.com/clementhannicq",
                 "title": "GraphQL: an API convention that you will actually follow"
@@ -20,11 +25,6 @@ module.exports=[
                 "name": "Clarkie",
                 "url": "https://github.com/clarkie",
                 "title": "A year with AWS"
-            },
-            {
-                "name": "Submit your talk!",
-                "url": "/speak.html",
-                "title": "Slot available"
             }
         ]
     },
@@ -1490,6 +1490,16 @@ module.exports=[
 },{}],4:[function(require,module,exports){
 module.exports=[
     {
+        "apiSpeakerUrl": "https://api.github.com/users/trevorah",
+        "speakerUrl": "https://github.com/trevorah",
+        "title": " Native app tips to save your sanity",
+        "description": "<p>9 months after you&rsquo;ve started writing a hybrid app, you&rsquo;re going to stumble across some unexpected native problems that don&rsquo;t show up in tutorials. This talk will go over these and other oddities that most web developers wouldn&rsquo;t expect.&#13;&#10;&#13;&#10;Talk includes:&#13;&#10;<em> classic Android and iOS architecture for restful apps&#13;&#10;</em> weird native bugs (with fixes)&#13;&#10;* great things that javascript/web should have&#13;&#10;&#13;&#10;I&#39;m Andy Trevorah, app developer for hire.&#13;&#10;Twitter: <code>@trevorah_</code>&#13;&#10;Website: <a href=\"https://trev.sh\">https://trev.sh</a></p>\n",
+        "milestone": "January 25th 2017",
+        "img": "https://avatars.githubusercontent.com/u/298742?v=3",
+        "handle": "trevorah",
+        "name": "Andy Trevorah"
+    },
+    {
         "apiSpeakerUrl": "https://api.github.com/users/clementhannicq",
         "speakerUrl": "https://github.com/clementhannicq",
         "title": "GraphQL: an API convention that you will actually follow",
@@ -1508,14 +1518,6 @@ module.exports=[
         "img": "https://avatars.githubusercontent.com/u/2292639?v=3",
         "handle": "clarkie",
         "name": "Clarkie"
-    },
-    {
-        "title": "Slot available",
-        "name": "Submit your talk!",
-        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
-        "img": "/images/favicon/favicon-128.png",
-        "speakerUrl": "/speak.html",
-        "milestone": "January 25th 2017"
     }
 ]
 },{}],5:[function(require,module,exports){

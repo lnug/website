@@ -26,6 +26,17 @@
             "component": "speaker",
             "data": [
                 {
+                    ".name": "Andy Trevorah",
+                    ".title": " Native app tips to save your sanity",
+                    ".desc": "<p>9 months after you&rsquo;ve started writing a hybrid app, you&rsquo;re going to stumble across some unexpected native problems that don&rsquo;t show up in tutorials. This talk will go over these and other oddities that most web developers wouldn&rsquo;t expect.&#13;&#10;&#13;&#10;Talk includes:&#13;&#10;<em> classic Android and iOS architecture for restful apps&#13;&#10;</em> weird native bugs (with fixes)&#13;&#10;* great things that javascript/web should have&#13;&#10;&#13;&#10;I&#39;m Andy Trevorah, app developer for hire.&#13;&#10;Twitter: <code>@trevorah_</code>&#13;&#10;Website: <a href=\"https://trev.sh\">https://trev.sh</a></p>\n",
+                    "img": {
+                        "src": "https://avatars.githubusercontent.com/u/298742?v=3"
+                    },
+                    ".lnug-twitterhandle a": {
+                        "href": "https://github.com/trevorah"
+                    }
+                },
+                {
                     ".name": "Clarkie",
                     ".title": "A year with AWS",
                     ".desc": "<p>Moving from a company where everything ran on &#39;bare metal&#39; in a DC on Goswell Road to a startup where everything was already running in AWS has proven to be an interesting learning curve.&#10;This talk will take you through some of my learnings along the way and some of the ways we use bits of the AWS toolkit now at Tido. &#10;&#10;Clarkie&#10;CTO @ <a href=\"http://tidomusicapp.com/\">Tido</a>&#10;@clarkieclarkie &#10;</p>\n",
@@ -45,17 +56,6 @@
                     },
                     ".lnug-twitterhandle a": {
                         "href": "https://github.com/clementhannicq"
-                    }
-                },
-                {
-                    ".name": "Submit your talk!",
-                    ".title": "Slot available",
-                    ".desc": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
-                    "img": {
-                        "src": "/images/favicon/favicon-128.png"
-                    },
-                    ".lnug-twitterhandle a": {
-                        "href": "https://github.com/undefined"
                     }
                 }
             ]
