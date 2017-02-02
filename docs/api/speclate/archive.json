@@ -8,6 +8,10 @@
             "component": "archive",
             "data": [
                 {
+                    ".date": "February 2017",
+                    ".speakers": "<li>Modelling with Pencils (and JavaScript) -  <a href=\"https://github.com/jonnyarnold\">Jonny Arnold</a> </li> <li>Slot available -  <a href=\"/speak.html\">Submit your talk!</a> </li> <li>Slot available -  <a href=\"/speak.html\">Submit your talk!</a> </li>"
+                },
+                {
                     ".date": "January 2017",
                     ".speakers": "<li> Native app tips to save your sanity -  <a href=\"https://github.com/trevorah\">Andy Trevorah</a> </li> <li>GraphQL: an API convention that you will actually follow -  <a href=\"https://github.com/clementhannicq\">Clement Hannicq</a> </li> <li>A year with AWS -  <a href=\"https://github.com/clarkie\">Clarkie</a> </li>"
                 },

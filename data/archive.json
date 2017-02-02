@@ -1,5 +1,25 @@
 [
     {
+        "date": "February 2017",
+        "speakers": [
+            {
+                "name": "Jonny Arnold",
+                "url": "https://github.com/jonnyarnold",
+                "title": "Modelling with Pencils (and JavaScript)"
+            },
+            {
+                "name": "Submit your talk!",
+                "url": "/speak.html",
+                "title": "Slot available"
+            },
+            {
+                "name": "Submit your talk!",
+                "url": "/speak.html",
+                "title": "Slot available"
+            }
+        ]
+    },
+    {
         "date": "January 2017",
         "speakers": [
             {
