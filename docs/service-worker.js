@@ -12,14 +12,14 @@ module.exports=[
         "date": "February 2017",
         "speakers": [
             {
+                "name": "Marcel Cutts",
+                "url": "https://github.com/MarcelCutts",
+                "title": "Serverless and You"
+            },
+            {
                 "name": "Jonny Arnold",
                 "url": "https://github.com/jonnyarnold",
                 "title": "Modelling with Pencils (and JavaScript)"
-            },
-            {
-                "name": "Submit your talk!",
-                "url": "/speak.html",
-                "title": "Slot available"
             },
             {
                 "name": "Submit your talk!",
@@ -1510,6 +1510,16 @@ module.exports=[
 },{}],4:[function(require,module,exports){
 module.exports=[
     {
+        "apiSpeakerUrl": "https://api.github.com/users/MarcelCutts",
+        "speakerUrl": "https://github.com/MarcelCutts",
+        "title": "Serverless and You",
+        "description": "<p>Cloud computing services such as AWS, Azure and Google Compute have rapidly changed how we think and feel about our infrastructure. DevOps deployment is no longer copy-pasting a zip folder full of code onto a physical machine&#39;s network drive - and nothing is pushing the engine of change more than Serverless.&#13;&#10;&#13;&#10;Serverless allows us to create event driven node micro-services with absolute ease, perfectly fitting into continuous integration / continuous deployment workflows. It boasts a wide range of plugins, and more importantly, allows us to effortlessly scale any number of stages to the nth degree.&#13;&#10;&#13;&#10;Is Serverless for you? Quite probably! Lets find out.&#13;&#10;&#13;&#10;Marcel (@marcelcutts) is a shifty vagabond type often found near laptops, currently belonging to the street gang known as Red Badger. Over his ten or so years in software he has worked on everything from scientific Fortran to the most hipster React code and will be your personal best friend forever should you feed him a BLT.</p>\n",
+        "milestone": "February 22nd 2017",
+        "img": "https://avatars.githubusercontent.com/u/5721314?v=3",
+        "handle": "MarcelCutts",
+        "name": "Marcel Cutts"
+    },
+    {
         "apiSpeakerUrl": "https://api.github.com/users/jonnyarnold",
         "speakerUrl": "https://github.com/jonnyarnold",
         "title": "Modelling with Pencils (and JavaScript)",
@@ -1518,14 +1528,6 @@ module.exports=[
         "img": "https://avatars.githubusercontent.com/u/3803030?v=3",
         "handle": "jonnyarnold",
         "name": "Jonny Arnold"
-    },
-    {
-        "title": "Slot available",
-        "name": "Submit your talk!",
-        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
-        "img": "/images/favicon/favicon-128.png",
-        "speakerUrl": "/speak.html",
-        "milestone": "February 22nd 2017"
     },
     {
         "title": "Slot available",

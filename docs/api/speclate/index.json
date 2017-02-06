@@ -37,14 +37,14 @@
                     }
                 },
                 {
-                    ".name": "Submit your talk!",
-                    ".title": "Slot available",
-                    ".desc": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
+                    ".name": "Marcel Cutts",
+                    ".title": "Serverless and You",
+                    ".desc": "<p>Cloud computing services such as AWS, Azure and Google Compute have rapidly changed how we think and feel about our infrastructure. DevOps deployment is no longer copy-pasting a zip folder full of code onto a physical machine&#39;s network drive - and nothing is pushing the engine of change more than Serverless.&#13;&#10;&#13;&#10;Serverless allows us to create event driven node micro-services with absolute ease, perfectly fitting into continuous integration / continuous deployment workflows. It boasts a wide range of plugins, and more importantly, allows us to effortlessly scale any number of stages to the nth degree.&#13;&#10;&#13;&#10;Is Serverless for you? Quite probably! Lets find out.&#13;&#10;&#13;&#10;Marcel (@marcelcutts) is a shifty vagabond type often found near laptops, currently belonging to the street gang known as Red Badger. Over his ten or so years in software he has worked on everything from scientific Fortran to the most hipster React code and will be your personal best friend forever should you feed him a BLT.</p>\n",
                     "img": {
-                        "src": "/images/favicon/favicon-128.png"
+                        "src": "https://avatars.githubusercontent.com/u/5721314?v=3"
                     },
                     ".lnug-twitterhandle a": {
-                        "href": "https://github.com/undefined"
+                        "href": "https://github.com/MarcelCutts"
                     }
                 },
                 {

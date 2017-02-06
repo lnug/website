@@ -3,14 +3,14 @@
         "date": "February 2017",
         "speakers": [
             {
+                "name": "Marcel Cutts",
+                "url": "https://github.com/MarcelCutts",
+                "title": "Serverless and You"
+            },
+            {
                 "name": "Jonny Arnold",
                 "url": "https://github.com/jonnyarnold",
                 "title": "Modelling with Pencils (and JavaScript)"
-            },
-            {
-                "name": "Submit your talk!",
-                "url": "/speak.html",
-                "title": "Slot available"
             },
             {
                 "name": "Submit your talk!",
