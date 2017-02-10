@@ -28,9 +28,12 @@ var options = {
     var getImages = function (selectors) {
       var images = []
       Object.keys(selectors).forEach(function (selector) {
-        selectors[selector].data.forEach(function (item) {
-          images.push(item.img.src)
-        })
+        if(selectors[selector].data) {
+          selectors[selector].data.forEach(function (item) {
+            images.push(item.img.src)
+          })
+
+        }
       })
       return images
     }
@@ -48,14 +51,13 @@ var options = {
 module.exports = {
   '/index.html': {
     page: 'home',
-    selectors: {
+    spec: {
       title: 'London Node User Group - LNUG',
       h1: {
         className: 'animated bounceInTop'
       },
-      'small.notice': "Map provided by © <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> &amp; © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a>"
-    },
-    spec: {
+      'small.notice': "Map provided by © <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> &amp; © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a>",
+
       '.lnug-ticket': {
         component: 'ticket',
         data: {
@@ -64,7 +66,7 @@ module.exports = {
           '.detail': venue.detail,
           'address': venue.address.join('<br />'),
           '.address a': {
-            href: 'https://www.google.co.uk/maps/search/' + venue.address.join(', ')
+            href: 'https://www.google.co.uk/maps/search/' + venue.address.join(',%20')
           },
           'a.cta': {
             'href': titoLink()
@@ -82,10 +84,8 @@ module.exports = {
   },
   '/image-gallery.html': {
     page: 'image-gallery',
-    selectors: {
-      'title': 'Image Gallery - LNUG'
-    },
     spec: {
+      'title': 'Image Gallery - LNUG',
       'section#gallery': {
         component: 'image-gallery',
         data: imageGallery()
@@ -94,10 +94,8 @@ module.exports = {
   },
   '/archive.html': {
     page: 'archive',
-    selectors: {
-      'title': 'Archive - LNUG'
-    },
     spec: {
+      'title': 'Archive - LNUG',
       'ul.archive': {
         component: 'archive',
         data: archiveSelectors()
@@ -106,13 +104,13 @@ module.exports = {
   },
   '/code-of-conduct.html': {
     page: 'code-of-conduct',
-    selectors: {
+    spec: {
       'title': 'Code of Conduct - LNUG'
     }
   },
   '/speak.html': {
     page: 'speak',
-    selectors: {
+    spec: {
       'nav a.speak': {
         className: 'active'
       },
@@ -122,7 +120,7 @@ module.exports = {
   },
   '/contribute.html': {
     page: 'contribute',
-    selectors: {
+    spec: {
       'nav a.sponsor': {
         className: 'active'
       },
@@ -131,7 +129,7 @@ module.exports = {
   },
   '/contact.html': {
     page: 'contact',
-    selectors: {
+    spec: {
       'title': 'Contact - LNUG',
       'nav a.contact': {
         className: 'active'
@@ -140,7 +138,7 @@ module.exports = {
   },
   '/related-meetups.html': {
     page: 'related-meetups',
-    selectors: {
+    spec: {
       'title': 'Related Meetups - LNUG'
     }
   },
