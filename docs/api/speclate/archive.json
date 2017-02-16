@@ -13,19 +13,19 @@
                 },
                 {
                     ".date": "January 2017",
-                    ".speakers": "<li> Native app tips to save your sanity -  <a href=\"https://github.com/trevorah\">Andy Trevorah</a> </li> <li>GraphQL: an API convention that you will actually follow -  <a href=\"https://github.com/clementhannicq\">Clement Hannicq</a> </li> <li>A year with AWS -  <a href=\"https://github.com/clarkie\">Clarkie</a> </li>"
+                    ".speakers": "<li><a href=\"https://youtu.be/UpELu7rfRVk?list=PLam_80-FY3vTFIdJyDA-EJCOEYCVGO85F\" target = \"_blank\">Native app tips to save your sanity</a> - <a href=\"https://github.com/trevorah\">Andy Trevorah</a> </li> <li><a href=\"https://youtu.be/Bv89egC_v6A?list=PLam_80-FY3vTFIdJyDA-EJCOEYCVGO85F\" target = \"_blank\">GraphQL: an API convention that you will actually follow</a> - <a href=\"https://github.com/clementhannicq\">Clement Hannicq</a> </li> <li><a href=\"https://youtu.be/4yxHjeWvnR4?list=PLam_80-FY3vTFIdJyDA-EJCOEYCVGO85F\" target = \"_blank\">A year with AWS</a> - <a href=\"https://github.com/clarkie\">Clarkie</a> </li>"
                 },
                 {
                     ".date": "November 2016",
-                    ".speakers": "<li>2. Null Can&#39;t Hurt You Anymore -  <a href=\"https://github.com/svozza\">Stefano Vozza</a> </li> <li>3. Readable Microservices, with functional programming. -  <a href=\"https://github.com/jc888\">James Chow (dsc)</a> </li> <li>1. Keep calm and curry on -  <a href=\"https://github.com/cullophid\">Andreas M&Oslash;ller</a> </li>"
+                    ".speakers": "<li><a href=\"https://youtu.be/4SGqCiU1_9E?list=PLam_80-FY3vRiyq1PZW3iaT114EKdEIRL\" target = \"_blank\">Keep calm and curry on</a> - <a href=\"https://github.com/cullophid\">Andreas M&Oslash;ller</a> </li> <li><a href=\"https://youtu.be/-FV3ia_SyxA?list=PLam_80-FY3vRiyq1PZW3iaT114EKdEIRL\" target = \"_blank\">Null Can&#39;t Hurt You Anymore</a> - <a href=\"https://github.com/svozza\">Stefano Vozza</a> </li> <li><a href=\"https://youtu.be/enXqi3jGHIs?list=PLam_80-FY3vRiyq1PZW3iaT114EKdEIRL\" target = \"_blank\">Readable Microservices, with functional programming.</a> - <a href=\"https://github.com/jc888\">James Chow (dsc)</a> </li>"
                 },
                 {
                     ".date": "October 2016",
-                    ".speakers": "<li>Write More Resilient JavaScript with Flow -  <a href=\"https://github.com/bookercodes\">Booker &#9889;</a> </li> <li>How to build a RESTful API -  <a href=\"https://github.com/lazlojuly\">lazlojuly</a> </li> <li>Quick wins with node and Google AMP -  <a href=\"https://github.com/mikemaccana\">Mike MacCana</a> </li>"
+                    ".speakers": "<li><a href=\"https://youtu.be/RTtujG65DiE?list=PLam_80-FY3vRuXxmiB74vjZzWZRAUPowu\" target = \"_blank\">Write More Resilient JavaScript with Flow</a> - <a href=\"https://github.com/bookercodes\">Booker &#9889;</a> </li> <li><a href=\"https://youtu.be/2SPBrczIzr0?list=PLam_80-FY3vRuXxmiB74vjZzWZRAUPowu\" target = \"_blank\">How to build a RESTful API</a> - <a href=\"https://github.com/lazlojuly\">lazlojuly</a> </li> <li><a href=\"https://youtu.be/0sVjKPTvOMA?list=PLam_80-FY3vRuXxmiB74vjZzWZRAUPowu\" target = \"_blank\">Quick wins with node and Google AMP</a> - <a href=\"https://github.com/mikemaccana\">Mike MacCana</a> </li>"
                 },
                 {
                     ".date": "September 2016",
-                    ".speakers": "<li>Ace JavaScript Interviews: Scoping and Hoisting -  <a href=\"https://github.com/foxreymann\">Fox Reymann</a> </li> <li>Event Driven Architecture -  <a href=\"https://github.com/gnugat\">Lo&iuml;c Faugeron</a> </li> <li>I&#39;ve got swagger. Have you? -  <a href=\"https://github.com/tanzim\">Tanzim</a> </li>"
+                    ".speakers": "<li><a href=\"https://youtu.be/hr61xyYSP6k?list=PLam_80-FY3vQm4oeCUsqhgIjcs3TojrbE\" target = \"_blank\">Ace JavaScript Interviews: Scoping and Hoisting</a> - <a href=\"https://github.com/foxreymann\">Fox Reymann</a> </li> <li><a href=\"https://youtu.be/BwqouUxn-bg?list=PLam_80-FY3vQm4oeCUsqhgIjcs3TojrbE\" target = \"_blank\">Event Driven Architecture</a> - <a href=\"https://github.com/gnugat\">Lo&iuml;c Faugeron</a> </li> <li><a href=\"https://youtu.be/Dlo3e-0wB1E?list=PLam_80-FY3vQm4oeCUsqhgIjcs3TojrbE\" target = \"_blank\">I&#39;ve got swagger. Have you?</a> - <a href=\"https://github.com/tanzim\">Tanzim</a> </li>"
                 },
                 {
                     ".date": "August 2016",
@@ -49,7 +49,7 @@
                 },
                 {
                     ".date": "March 2016",
-                    ".speakers": "<li>Microservices development in node.js -  <a href=\"https://github.com/pelger\">Peter Elger</a> </li> <li>NoSQL is a lie -  <a href=\"https://github.com/ukmadlz\">Mike Elsmore</a> </li> <li>Computing at scale. Why you should already be using AWS Lambda -  <a href=\"https://github.com/tanzim\">Tanzim</a> </li>"
+                    ".speakers": "<li><a href=\"https://youtu.be/idOuNyE6cXY\" target = \"_blank\">Rethink DB and Node.js</a> - <a href=\"https://github.com/ordishs\">Simon Ordish</a> </li> <li><a href=\"https://youtu.be/gECA-f78kWI\" target = \"_blank\">NoSQL is a lie</a> - <a href=\"https://github.com/ukmadlz\">Mike Elsmore</a> </li> <li><a href=\"https://youtu.be/r4a7aIBNlg0\" target = \"_blank\">Computing at scale. Why you should already be using AWS Lambda</a> - <a href=\"https://github.com/tanzim\">Tanzim</a> </li>"
                 },
                 {
                     ".date": "February 2016",
