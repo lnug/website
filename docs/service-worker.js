@@ -12,6 +12,11 @@ module.exports=[
         "date": "February 2017",
         "speakers": [
             {
+                "name": "B. August",
+                "url": "https://github.com/TheBenji",
+                "title": "Promises &amp; Generator in node.js"
+            },
+            {
                 "name": "Marcel Cutts",
                 "url": "https://github.com/MarcelCutts",
                 "title": "Serverless and You"
@@ -20,11 +25,6 @@ module.exports=[
                 "name": "Jonny Arnold",
                 "url": "https://github.com/jonnyarnold",
                 "title": "Modelling with Pencils (and JavaScript)"
-            },
-            {
-                "name": "Submit your talk!",
-                "url": "/speak.html",
-                "title": "Slot available"
             }
         ]
     },
@@ -1529,6 +1529,16 @@ module.exports=[
 },{}],4:[function(require,module,exports){
 module.exports=[
     {
+        "apiSpeakerUrl": "https://api.github.com/users/TheBenji",
+        "speakerUrl": "https://github.com/TheBenji",
+        "title": "Promises &amp; Generator in node.js",
+        "description": "<p>As part of ES6 node finally has a native support for promises and generator.&#13;&#10;In this talk I&#39;d like to introduce you to the concept and syntax of both, show you some ways you may use them in the real world and give a quick lookout what&#39;s up next.&#13;&#10;&#13;&#10;Hey, my name is Ben, I&rsquo;m a dev from Germany.&#13;&#10;The first time I came in contact with code I was probably around 12 years old.&#13;&#10;My dad gave me a little model train set and we hooked it up to an old computer so I could program (with QBasic, fun times!) the trains and make them automatically drive around and stop at train stations and fun stuff like that.&#13;&#10;&#13;&#10;By now I learned a little more about software development and worked in a variety of different companies mostly buildings APIs with a node stack in one form or another.</p>\n",
+        "milestone": "February 22nd 2017",
+        "img": "https://avatars.githubusercontent.com/u/1070666?v=3",
+        "handle": "TheBenji",
+        "name": "B. August"
+    },
+    {
         "apiSpeakerUrl": "https://api.github.com/users/MarcelCutts",
         "speakerUrl": "https://github.com/MarcelCutts",
         "title": "Serverless and You",
@@ -1547,14 +1557,6 @@ module.exports=[
         "img": "https://avatars.githubusercontent.com/u/3803030?v=3",
         "handle": "jonnyarnold",
         "name": "Jonny Arnold"
-    },
-    {
-        "title": "Slot available",
-        "name": "Submit your talk!",
-        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
-        "img": "/images/favicon/favicon-128.png",
-        "speakerUrl": "/speak.html",
-        "milestone": "February 22nd 2017"
     }
 ]
 },{}],5:[function(require,module,exports){

@@ -9,7 +9,7 @@
             "data": [
                 {
                     ".date": "February 2017",
-                    ".speakers": "<li>Serverless and You -  <a href=\"https://github.com/MarcelCutts\">Marcel Cutts</a> </li> <li>Modelling with Pencils (and JavaScript) -  <a href=\"https://github.com/jonnyarnold\">Jonny Arnold</a> </li> <li>Slot available -  <a href=\"/speak.html\">Submit your talk!</a> </li>"
+                    ".speakers": "<li>Promises &amp; Generator in node.js -  <a href=\"https://github.com/TheBenji\">B. August</a> </li> <li>Serverless and You -  <a href=\"https://github.com/MarcelCutts\">Marcel Cutts</a> </li> <li>Modelling with Pencils (and JavaScript) -  <a href=\"https://github.com/jonnyarnold\">Jonny Arnold</a> </li>"
                 },
                 {
                     ".date": "January 2017",

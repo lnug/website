@@ -3,6 +3,11 @@
         "date": "February 2017",
         "speakers": [
             {
+                "name": "B. August",
+                "url": "https://github.com/TheBenji",
+                "title": "Promises &amp; Generator in node.js"
+            },
+            {
                 "name": "Marcel Cutts",
                 "url": "https://github.com/MarcelCutts",
                 "title": "Serverless and You"
@@ -11,11 +16,6 @@
                 "name": "Jonny Arnold",
                 "url": "https://github.com/jonnyarnold",
                 "title": "Modelling with Pencils (and JavaScript)"
-            },
-            {
-                "name": "Submit your talk!",
-                "url": "/speak.html",
-                "title": "Slot available"
             }
         ]
     },

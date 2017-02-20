@@ -37,6 +37,17 @@
                     }
                 },
                 {
+                    ".name": "B. August",
+                    ".title": "Promises &amp; Generator in node.js",
+                    ".desc": "<p>As part of ES6 node finally has a native support for promises and generator.&#13;&#10;In this talk I&#39;d like to introduce you to the concept and syntax of both, show you some ways you may use them in the real world and give a quick lookout what&#39;s up next.&#13;&#10;&#13;&#10;Hey, my name is Ben, I&rsquo;m a dev from Germany.&#13;&#10;The first time I came in contact with code I was probably around 12 years old.&#13;&#10;My dad gave me a little model train set and we hooked it up to an old computer so I could program (with QBasic, fun times!) the trains and make them automatically drive around and stop at train stations and fun stuff like that.&#13;&#10;&#13;&#10;By now I learned a little more about software development and worked in a variety of different companies mostly buildings APIs with a node stack in one form or another.</p>\n",
+                    "img": {
+                        "src": "https://avatars.githubusercontent.com/u/1070666?v=3"
+                    },
+                    ".lnug-twitterhandle a": {
+                        "href": "https://github.com/TheBenji"
+                    }
+                },
+                {
                     ".name": "Marcel Cutts",
                     ".title": "Serverless and You",
                     ".desc": "<p>Cloud computing services such as AWS, Azure and Google Compute have rapidly changed how we think and feel about our infrastructure. DevOps deployment is no longer copy-pasting a zip folder full of code onto a physical machine&#39;s network drive - and nothing is pushing the engine of change more than Serverless.&#13;&#10;&#13;&#10;Serverless allows us to create event driven node micro-services with absolute ease, perfectly fitting into continuous integration / continuous deployment workflows. It boasts a wide range of plugins, and more importantly, allows us to effortlessly scale any number of stages to the nth degree.&#13;&#10;&#13;&#10;Is Serverless for you? Quite probably! Lets find out.&#13;&#10;&#13;&#10;Marcel (@marcelcutts) is a shifty vagabond type often found near laptops, currently belonging to the street gang known as Red Badger. Over his ten or so years in software he has worked on everything from scientific Fortran to the most hipster React code and will be your personal best friend forever should you feed him a BLT.</p>\n",
@@ -45,17 +56,6 @@
                     },
                     ".lnug-twitterhandle a": {
                         "href": "https://github.com/MarcelCutts"
-                    }
-                },
-                {
-                    ".name": "Submit your talk!",
-                    ".title": "Slot available",
-                    ".desc": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
-                    "img": {
-                        "src": "/images/favicon/favicon-128.png"
-                    },
-                    ".lnug-twitterhandle a": {
-                        "href": "https://github.com/undefined"
                     }
                 }
             ]
