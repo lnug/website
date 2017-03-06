@@ -1,32 +1,28 @@
 [
     {
-        "apiSpeakerUrl": "https://api.github.com/users/TheBenji",
-        "speakerUrl": "https://github.com/TheBenji",
-        "title": "Promises &amp; Generator in node.js",
-        "description": "<p>As part of ES6 node finally has a native support for promises and generator.&#13;&#10;In this talk I&#39;d like to introduce you to the concept and syntax of both, show you some ways you may use them in the real world and give a quick lookout what&#39;s up next.&#13;&#10;&#13;&#10;Hey, my name is Ben, I&rsquo;m a dev from Germany.&#13;&#10;The first time I came in contact with code I was probably around 12 years old.&#13;&#10;My dad gave me a little model train set and we hooked it up to an old computer so I could program (with QBasic, fun times!) the trains and make them automatically drive around and stop at train stations and fun stuff like that.&#13;&#10;&#13;&#10;By now I learned a little more about software development and worked in a variety of different companies mostly buildings APIs with a node stack in one form or another.</p>\n",
-        "milestone": "February 22nd 2017",
-        "img": "https://avatars.githubusercontent.com/u/1070666?v=3",
-        "handle": "TheBenji",
-        "name": "B. August"
+        "apiSpeakerUrl": "https://api.github.com/users/tonyyates",
+        "speakerUrl": "https://github.com/tonyyates",
+        "title": "Our future is in little hands",
+        "description": "<p>I am a huge advocate of women in technology, and I am active in the Health Tech Women movement. I think it is essential that we teach children both boys and girls the fundamentals of computing and engineering at an early age.&#13;&#10;&#13;&#10;I practice what I preach with my own daughter who hacked a chromebook at 3 years old. We also took some unique approaches to her homework which she has shared with school.&#13;&#10;Basically the aim of my talk is to encourage others to get involved with technology and their children at an early age, they love it more than gazing at iPads too.&#13;&#10;&#13;&#10;I wrote a <a href=\"http://www.tonyyates.co.uk/my-3-year-old-daughter-hacked-a-google-chromebook/ &quot;My 3 year old hacked a chromebook&quot;\">blog post</a> which shows one of the many projects we have create. We also done some using nodered, arduiono and shrimpkit which form the basis of my talk.&#13;&#10;&#13;&#10;About Me&#13;&#10;&#13;&#10;@TonyYates on Twitter&#13;&#10;I am currently lead technical architect for NHS.UK, Citizen ID, Personal Health Records, and NHS Public WIFI all these are going through a major transformation at the moment but that is another talk as we use nodejs heavily.&#13;&#10;&#13;&#10;Lover of most technologies (except Ruby, I don&#39;t know why), keen cyclist, dad to 3 children under 5 years old so I get little sleep.</p>\n",
+        "milestone": "March 22nd 2017",
+        "img": "https://avatars1.githubusercontent.com/u/769623?v=3",
+        "handle": "tonyyates",
+        "name": "Tony Yates"
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/MarcelCutts",
-        "speakerUrl": "https://github.com/MarcelCutts",
-        "title": "Serverless and You",
-        "description": "<p>Cloud computing services such as AWS, Azure and Google Compute have rapidly changed how we think and feel about our infrastructure. DevOps deployment is no longer copy-pasting a zip folder full of code onto a physical machine&#39;s network drive - and nothing is pushing the engine of change more than Serverless.&#13;&#10;&#13;&#10;Serverless allows us to create event driven node micro-services with absolute ease, perfectly fitting into continuous integration / continuous deployment workflows. It boasts a wide range of plugins, and more importantly, allows us to effortlessly scale any number of stages to the nth degree.&#13;&#10;&#13;&#10;Is Serverless for you? Quite probably! Lets find out.&#13;&#10;&#13;&#10;Marcel (@marcelcutts) is a shifty vagabond type often found near laptops, currently belonging to the street gang known as Red Badger. Over his ten or so years in software he has worked on everything from scientific Fortran to the most hipster React code and will be your personal best friend forever should you feed him a BLT.</p>\n",
-        "milestone": "February 22nd 2017",
-        "img": "https://avatars.githubusercontent.com/u/5721314?v=3",
-        "handle": "MarcelCutts",
-        "name": "Marcel Cutts"
+        "title": "Slot available",
+        "name": "Submit your talk!",
+        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
+        "img": "/images/favicon/favicon-128.png",
+        "speakerUrl": "/speak.html",
+        "milestone": "March 22nd 2017"
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/jonnyarnold",
-        "speakerUrl": "https://github.com/jonnyarnold",
-        "title": "Modelling with Pencils (and JavaScript)",
-        "description": "<p><em>Abstract</em>&#13;&#10;&#13;&#10;Often the work of a software developer is to write down complicated things in an unambiguous way. In this talk I&#39;d like to remind you about mathematical modelling - writing down mathematical relations that approximate a situation - and give a real story about how I should have started with a pencil rather than a keyboard.&#13;&#10;&#13;&#10;<em>About Me</em>&#13;&#10;&#13;&#10;<a href=\"http://jonnyarnold.uk/\">Jonny Arnold</a> has been a software developer professionally for 5 years and  as an amateur for another 5. Having worked with C# and Ruby in the past, Jonny is now using JavaScript to build an online mortgage broker at <a href=\"http://www.trussle.com/\">Trussle</a>.</p>\n",
-        "milestone": "February 22nd 2017",
-        "img": "https://avatars.githubusercontent.com/u/3803030?v=3",
-        "handle": "jonnyarnold",
-        "name": "Jonny Arnold"
+        "title": "Slot available",
+        "name": "Submit your talk!",
+        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
+        "img": "/images/favicon/favicon-128.png",
+        "speakerUrl": "/speak.html",
+        "milestone": "March 22nd 2017"
     }
 ]

@@ -1,5 +1,45 @@
 [
     {
+        "date": "June 2017",
+        "speakers": [
+            {
+                "name": "Daniel Khan",
+                "url": "https://github.com/danielkhan",
+                "title": "Don&#39;t Let Just Node.js Take the Blame!"
+            },
+            {
+                "name": "Submit your talk!",
+                "url": "/speak.html",
+                "title": "Slot available"
+            },
+            {
+                "name": "Submit your talk!",
+                "url": "/speak.html",
+                "title": "Slot available"
+            }
+        ]
+    },
+    {
+        "date": "March 2017",
+        "speakers": [
+            {
+                "name": "Tony Yates",
+                "url": "https://github.com/tonyyates",
+                "title": "Our future is in little hands"
+            },
+            {
+                "name": "Submit your talk!",
+                "url": "/speak.html",
+                "title": "Slot available"
+            },
+            {
+                "name": "Submit your talk!",
+                "url": "/speak.html",
+                "title": "Slot available"
+            }
+        ]
+    },
+    {
         "date": "February 2017",
         "speakers": [
             {
