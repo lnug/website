@@ -23,14 +23,14 @@
         "date": "March 2017",
         "speakers": [
             {
+                "name": "artem avetisyan",
+                "url": "https://github.com/artemave",
+                "title": "Fullstack integration testing that doesn&#39;t suck"
+            },
+            {
                 "name": "Tony Yates",
                 "url": "https://github.com/tonyyates",
                 "title": "Our future is in little hands"
-            },
-            {
-                "name": "Submit your talk!",
-                "url": "/speak.html",
-                "title": "Slot available"
             },
             {
                 "name": "Submit your talk!",

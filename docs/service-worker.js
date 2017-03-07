@@ -32,14 +32,14 @@ module.exports=[
         "date": "March 2017",
         "speakers": [
             {
+                "name": "artem avetisyan",
+                "url": "https://github.com/artemave",
+                "title": "Fullstack integration testing that doesn&#39;t suck"
+            },
+            {
                 "name": "Tony Yates",
                 "url": "https://github.com/tonyyates",
                 "title": "Our future is in little hands"
-            },
-            {
-                "name": "Submit your talk!",
-                "url": "/speak.html",
-                "title": "Slot available"
             },
             {
                 "name": "Submit your talk!",
@@ -1569,6 +1569,16 @@ module.exports=[
 },{}],4:[function(require,module,exports){
 module.exports=[
     {
+        "apiSpeakerUrl": "https://api.github.com/users/artemave",
+        "speakerUrl": "https://github.com/artemave",
+        "title": "Fullstack integration testing that doesn&#39;t suck",
+        "description": "<p>With the help of electron, it is now possible to run your entire web stack (SPA + backend) in a single process. When applied to testing, this becomes a compelling alternative to webdriver based testing, as it is much faster and easier to debug.&#13;&#10;&#13;&#10;In this talk, I am going to start with setting some base terminology of what types of tests there are in a typical web app and what they&#39;re for, and then show off a <a href=\"https://github.com/featurist/full-stack-js-testing-demo\">real example</a>.&#13;&#10;&#13;&#10;My name is Artem Avetisyan. I work at <a href=\"http://www.featurist.co.uk/\">Featurist</a>. We&#39;re a small bunch of like minded individuals who believe that Javascript is the one. We&#39;re also very serious about testing and we like good tools. Oh, and we&#39;re hiring too.</p>\n",
+        "milestone": "March 22nd 2017",
+        "img": "https://avatars1.githubusercontent.com/u/23721?v=3",
+        "handle": "artemave",
+        "name": "artem avetisyan"
+    },
+    {
         "apiSpeakerUrl": "https://api.github.com/users/tonyyates",
         "speakerUrl": "https://github.com/tonyyates",
         "title": "Our future is in little hands",
@@ -1577,14 +1587,6 @@ module.exports=[
         "img": "https://avatars1.githubusercontent.com/u/769623?v=3",
         "handle": "tonyyates",
         "name": "Tony Yates"
-    },
-    {
-        "title": "Slot available",
-        "name": "Submit your talk!",
-        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
-        "img": "/images/favicon/favicon-128.png",
-        "speakerUrl": "/speak.html",
-        "milestone": "March 22nd 2017"
     },
     {
         "title": "Slot available",
