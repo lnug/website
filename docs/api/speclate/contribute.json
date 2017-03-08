@@ -1,9 +1,4 @@
 {
     "page": "contribute",
-    "selectors": {
-        "nav a.sponsor": {
-            "className": "active"
-        },
-        "title": "Sponsor - LNUG"
-    }
+    "spec": {}
 }

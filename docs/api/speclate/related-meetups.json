@@ -1,6 +1,4 @@
 {
     "page": "related-meetups",
-    "selectors": {
-        "title": "Related Meetups - LNUG"
-    }
+    "spec": {}
 }
