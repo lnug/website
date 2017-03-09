@@ -1,6 +1,4 @@
 CACHE MANIFEST
-# v-1488908654779
-
 /
 /pages/layout.html
 css.css
@@ -43,6 +41,6 @@ appcache-loader.html
 /related-meetups.html
 /pages/related-meetups/related-meetups.html
 /api/speclate/related-meetups.json
-# v-1489050107404
+# v-1489050651781
 NETWORK:
 *
