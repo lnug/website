@@ -1,4 +1,9 @@
 {
     "page": "contact",
-    "spec": {}
+    "spec": {
+        "title": "Contact - LNUG",
+        "nav a.contact": {
+            "className": "active"
+        }
+    }
 }

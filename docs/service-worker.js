@@ -2146,6 +2146,18 @@ module.exports = {
 //      'small.notice': "Map provided by © <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> &amp; © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a>",
       '.lnug-ticket': {
         component: 'ticket',
+        data: {
+          '.lnug-nextmeetup': eventDate,
+          '.venue': venue.title,
+          '.detail': venue.detail,
+          'address': venue.address.join('<br />'),
+          '.address a': {
+            href: 'https://www.google.co.uk/maps/search/' + venue.address.join(',%20')
+          },
+          'a.cta': {
+            'href': titoLink()
+          }
+        }
       },
       '.lnug-content': {
         component: 'speaker',

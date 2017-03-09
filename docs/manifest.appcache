@@ -1,5 +1,48 @@
 CACHE MANIFEST
 # v-1488908654779
 
+/
+/pages/layout.html
+css.css
+images/texture.png
+images/lnug-logo-monochrome.svg
+images/lnug-logo.svg
+images/maps/thin.png
+images/maps/wide.png
+images/favicon/favicon-16x16.png
+images/favicon/favicon-128.png
+manifest.json
+client/index-compiled.js
+appcache-loader.html
+/index.html
+/pages/home/home.html
+/api/speclate/index.json
+/components/ticket/ticket.html
+/components/speaker/speaker.html
+/components/sign-up/sign-up.html
+/image-gallery.html
+/pages/image-gallery/image-gallery.html
+/api/speclate/image-gallery.json
+/components/image-gallery/image-gallery.html
+/archive.html
+/pages/archive/archive.html
+/api/speclate/archive.json
+/components/archive/archive.html
+/code-of-conduct.html
+/pages/code-of-conduct/code-of-conduct.html
+/api/speclate/code-of-conduct.json
+/speak.html
+/pages/speak/speak.html
+/api/speclate/speak.json
+/contribute.html
+/pages/contribute/contribute.html
+/api/speclate/contribute.json
+/contact.html
+/pages/contact/contact.html
+/api/speclate/contact.json
+/related-meetups.html
+/pages/related-meetups/related-meetups.html
+/api/speclate/related-meetups.json
+# v-1489050107404
 NETWORK:
 *

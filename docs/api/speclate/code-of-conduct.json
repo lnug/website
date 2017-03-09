@@ -1,4 +1,6 @@
 {
     "page": "code-of-conduct",
-    "spec": {}
+    "spec": {
+        "title": "Code of Conduct - LNUG"
+    }
 }

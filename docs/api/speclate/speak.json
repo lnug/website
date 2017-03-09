@@ -1,4 +1,9 @@
 {
     "page": "speak",
-    "spec": {}
+    "spec": {
+        "nav a.speak": {
+            "className": "active"
+        },
+        "title": "Speak - LNUG"
+    }
 }

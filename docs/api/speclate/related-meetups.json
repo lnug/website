@@ -1,4 +1,6 @@
 {
     "page": "related-meetups",
-    "spec": {}
+    "spec": {
+        "title": "Related Meetups - LNUG"
+    }
 }
