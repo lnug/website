@@ -23,6 +23,17 @@
             "component": "speaker",
             "data": [
                 {
+                    ".name": "James Porter",
+                    ".title": "&#39;Minecraft&#39; in VR in 30 lines of Javascript",
+                    ".desc": "<p>Leveraging A-Frame and React we will discover just how easy it is to build interactive WebVR experiences.</p>\n<p>Just as you create web front ends with React you can place images, text and 3D objects in an interactive 3D VR world. We will learn the basics of A-Frame and how React and Modern Javascript allows us to encapsulate and manage the complexities of it; allowing us to quickly create maintainable/extensible Apps and Visualisations.</p>\n<p>The talk will be very much focused on the code/running samples (which are available on Github).</p>\n<p>It will be a shorter and improved version of part of a workshop I gave last November <a href=\"http://lanyrd.com/2016/over-the-air/sfphcd/\">http://lanyrd.com/2016/over-the-air/sfphcd/</a></p>\n<p>I&#39;m James Porter @complexview I work at Motivii as a polyglot (but often Javascript) developer and data scientist, though a few years ago was an economic researcher. Recently I have been exploring WebVR, React Native and Elm in various side projects.</p>\n",
+                    "img": {
+                        "src": "https://avatars2.githubusercontent.com/u/383353?v=3"
+                    },
+                    ".lnug-twitterhandle a": {
+                        "href": "https://github.com/jamesporter"
+                    }
+                },
+                {
                     ".name": "artem avetisyan",
                     ".title": "Fullstack integration testing that doesn&#39;t suck",
                     ".desc": "<p>With the help of electron, it is now possible to run your entire web stack (SPA + backend) in a single process. When applied to testing, this becomes a compelling alternative to webdriver based testing, as it is much faster and easier to debug.</p>\n<p>In this talk, I am going to start with setting some base terminology of what types of tests there are in a typical web app, what they&#39;re for and then show off a <a href=\"https://github.com/featurist/full-stack-js-testing-demo\">real example</a>.</p>\n<p>My name is Artem Avetisyan. I work at <a href=\"http://www.featurist.co.uk/\">Featurist</a>. We&#39;re a small bunch of like minded individuals who believe that Javascript is the one. We&#39;re also very serious about testing and we like good tools. Oh, and we&#39;re hiring too.</p>\n",
@@ -42,17 +53,6 @@
                     },
                     ".lnug-twitterhandle a": {
                         "href": "https://github.com/tonyyates"
-                    }
-                },
-                {
-                    ".name": "Submit your talk!",
-                    ".title": "Slot available",
-                    ".desc": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
-                    "img": {
-                        "src": "/images/favicon/favicon-128.png"
-                    },
-                    ".lnug-twitterhandle a": {
-                        "href": "https://github.com/undefined"
                     }
                 }
             ]

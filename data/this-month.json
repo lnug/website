@@ -1,5 +1,15 @@
 [
     {
+        "apiSpeakerUrl": "https://api.github.com/users/jamesporter",
+        "speakerUrl": "https://github.com/jamesporter",
+        "title": "&#39;Minecraft&#39; in VR in 30 lines of Javascript",
+        "description": "<p>Leveraging A-Frame and React we will discover just how easy it is to build interactive WebVR experiences.</p>\n<p>Just as you create web front ends with React you can place images, text and 3D objects in an interactive 3D VR world. We will learn the basics of A-Frame and how React and Modern Javascript allows us to encapsulate and manage the complexities of it; allowing us to quickly create maintainable/extensible Apps and Visualisations.</p>\n<p>The talk will be very much focused on the code/running samples (which are available on Github).</p>\n<p>It will be a shorter and improved version of part of a workshop I gave last November <a href=\"http://lanyrd.com/2016/over-the-air/sfphcd/\">http://lanyrd.com/2016/over-the-air/sfphcd/</a></p>\n<p>I&#39;m James Porter @complexview I work at Motivii as a polyglot (but often Javascript) developer and data scientist, though a few years ago was an economic researcher. Recently I have been exploring WebVR, React Native and Elm in various side projects.</p>\n",
+        "milestone": "March 22nd 2017",
+        "img": "https://avatars2.githubusercontent.com/u/383353?v=3",
+        "handle": "jamesporter",
+        "name": "James Porter"
+    },
+    {
         "apiSpeakerUrl": "https://api.github.com/users/artemave",
         "speakerUrl": "https://github.com/artemave",
         "title": "Fullstack integration testing that doesn&#39;t suck",
@@ -18,13 +28,5 @@
         "img": "https://avatars1.githubusercontent.com/u/769623?v=3",
         "handle": "tonyyates",
         "name": "Tony Yates"
-    },
-    {
-        "title": "Slot available",
-        "name": "Submit your talk!",
-        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
-        "img": "/images/favicon/favicon-128.png",
-        "speakerUrl": "/speak.html",
-        "milestone": "March 22nd 2017"
     }
 ]
