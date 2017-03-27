@@ -20,6 +20,26 @@
         ]
     },
     {
+        "date": "April 2017",
+        "speakers": [
+            {
+                "name": "andrew-coleman",
+                "url": "https://github.com/andrew-coleman",
+                "title": "JSONata: A declarative syntax for querying your JSON data"
+            },
+            {
+                "name": "Submit your talk!",
+                "url": "/speak.html",
+                "title": "Slot available"
+            },
+            {
+                "name": "Submit your talk!",
+                "url": "/speak.html",
+                "title": "Slot available"
+            }
+        ]
+    },
+    {
         "date": "March 2017",
         "speakers": [
             {

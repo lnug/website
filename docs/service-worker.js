@@ -29,6 +29,26 @@ module.exports=[
         ]
     },
     {
+        "date": "April 2017",
+        "speakers": [
+            {
+                "name": "andrew-coleman",
+                "url": "https://github.com/andrew-coleman",
+                "title": "JSONata: A declarative syntax for querying your JSON data"
+            },
+            {
+                "name": "Submit your talk!",
+                "url": "/speak.html",
+                "title": "Slot available"
+            },
+            {
+                "name": "Submit your talk!",
+                "url": "/speak.html",
+                "title": "Slot available"
+            }
+        ]
+    },
+    {
         "date": "March 2017",
         "speakers": [
             {
@@ -1569,34 +1589,30 @@ module.exports=[
 },{}],4:[function(require,module,exports){
 module.exports=[
     {
-        "apiSpeakerUrl": "https://api.github.com/users/jamesporter",
-        "speakerUrl": "https://github.com/jamesporter",
-        "title": "&#39;Minecraft&#39; in VR in 30 lines of Javascript",
-        "description": "<p>Leveraging A-Frame and React we will discover just how easy it is to build interactive WebVR experiences.</p>\n<p>Just as you create web front ends with React you can place images, text and 3D objects in an interactive 3D VR world. We will learn the basics of A-Frame and how React and Modern Javascript allows us to encapsulate and manage the complexities of it; allowing us to quickly create maintainable/extensible Apps and Visualisations.</p>\n<p>The talk will be very much focused on the code/running samples (which are available on Github).</p>\n<p>It will be a shorter and improved version of part of a workshop <a href=\"http://lanyrd.com/2016/over-the-air/sfphcd/\">I gave last November</a> </p>\n<p>I&#39;m James Porter <a href=\"https://twitter.com/complexview\">@complexview</a>. I work at Motivii as a polyglot (but often Javascript) developer and data scientist, though a few years ago was an economic researcher. Recently I have been exploring WebVR, React Native and Elm in various side projects.</p>\n",
-        "milestone": "March 22nd 2017",
-        "img": "https://avatars2.githubusercontent.com/u/383353?v=3",
-        "handle": "jamesporter",
-        "name": "James Porter"
+        "apiSpeakerUrl": "https://api.github.com/users/andrew-coleman",
+        "speakerUrl": "https://github.com/andrew-coleman",
+        "title": "JSONata: A declarative syntax for querying your JSON data",
+        "description": "<p>JSON is becoming the de facto standard format for exchanging data between systems over the Internet.  Its key strengths are its lightweight syntax and its simple data model, which have helped propel it to be the dominant payload format in RESTful web services.</p>\n<p>A lightweight data format deserves a lightweight query and transformation technology that is accessible to non-programmers.  <a href=\"http://jsonata.org\">JSONata</a> provides that in an open-source module that can be embedded in a web page or used in a node.js app.  Designed with the principle that queries should be simple to write, JSONata has a very shallow learning curve. Yet sophisticated expressions can be quickly mastered by combining the simple navigation syntax with a rich set of operators and functions for extracting, manipulating and aggregating JSON data. </p>\n<p>This session will introduce you to JSONata and show you how to find buried treasure in your JSON data.</p>\n<p>Andrew Coleman is a senior software engineer at IBM specialising in data transformation and application integration.  He is currently building a graphical data mapper for <a href=\"http://www-03.ibm.com/software/products/en/ibm-app-connect\">integrating cloud based services</a>.</p>\n<p>Andrew is the Chair of the <a href=\"https://www.w3.org/XML/2015/05/query-charter.html\">W3C XML Query Working Group</a> responsible for developing the <a href=\"https://www.w3.org/TR/xpath-31/\">XPath</a> and <a href=\"https://www.w3.org/TR/xquery-31/\">XQuery</a> family of specifications.  He has borrowed heavily on the experience gained from this to create the <a href=\"http://jsonata.org\">JSONata</a> query and transformation language for JSON.</p>\n",
+        "milestone": "April 26th 2017",
+        "img": "https://avatars2.githubusercontent.com/u/7985120?v=3",
+        "handle": "andrew-coleman",
+        "name": "andrew-coleman"
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/artemave",
-        "speakerUrl": "https://github.com/artemave",
-        "title": "Fullstack integration testing that doesn&#39;t suck",
-        "description": "<p>With the help of electron, it is now possible to run your entire web stack (SPA + backend) in a single process. When applied to testing, this becomes a compelling alternative to webdriver based testing, as it is much faster and easier to debug.</p>\n<p>In this talk, I am going to start with setting some base terminology of what types of tests there are in a typical web app, what they&#39;re for and then show off a <a href=\"https://github.com/featurist/full-stack-js-testing-demo\">real example</a>.</p>\n<p>My name is Artem Avetisyan. I work at <a href=\"http://www.featurist.co.uk/\">Featurist</a>. We&#39;re a small bunch of like minded individuals who believe that Javascript is the one. We&#39;re also very serious about testing and we like good tools. Oh, and we&#39;re hiring too.</p>\n",
-        "milestone": "March 22nd 2017",
-        "img": "https://avatars1.githubusercontent.com/u/23721?v=3",
-        "handle": "artemave",
-        "name": "artem avetisyan"
+        "title": "Slot available",
+        "name": "Submit your talk!",
+        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
+        "img": "/images/favicon/favicon-128.png",
+        "speakerUrl": "/speak.html",
+        "milestone": "April 26th 2017"
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/tonyyates",
-        "speakerUrl": "https://github.com/tonyyates",
-        "title": "Our future is in little hands",
-        "description": "<p>I am a huge advocate of women in technology, and I am active in the Health Tech Women movement. I think it is essential that we teach children both boys and girls the fundamentals of computing and engineering at an early age.</p>\n<p>I practice what I preach with my own daughter who hacked a chromebook at 3 years old. We also took some unique approaches to her homework which she has shared with school.&#10;Basically the aim of my talk is to encourage others to get involved with technology and their children at an early age, they love it more than gazing at iPads too.</p>\n<p>I wrote a <a href=\"http://www.tonyyates.co.uk/my-3-year-old-daughter-hacked-a-google-chromebook/\">blog post</a> which shows one of the many projects we have create. We also done some using nodered, arduiono and shrimpkit which form the basis of my talk.</p>\n<p>About Me</p>\n<p><a href=\"https://twitter.com/tonyyates\">@TonyYates</a> on Twitter&#10;I am currently lead technical architect for NHS.UK, Citizen ID, Personal Health Records, and NHS Public WIFI all these are going through a major transformation at the moment but that is another talk as we use nodejs heavily.</p>\n<p>Lover of most technologies (except Ruby, I don&#39;t know why), keen cyclist, dad to 3 children under 5 years old so I get little sleep.</p>\n",
-        "milestone": "March 22nd 2017",
-        "img": "https://avatars1.githubusercontent.com/u/769623?v=3",
-        "handle": "tonyyates",
-        "name": "Tony Yates"
+        "title": "Slot available",
+        "name": "Submit your talk!",
+        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
+        "img": "/images/favicon/favicon-128.png",
+        "speakerUrl": "/speak.html",
+        "milestone": "April 26th 2017"
     }
 ]
 },{}],5:[function(require,module,exports){

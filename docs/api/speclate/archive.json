@@ -10,6 +10,10 @@
                     ".speakers": "<li>Don&#39;t Let Just Node.js Take the Blame! -  <a href=\"https://github.com/danielkhan\">Daniel Khan</a> </li> <li>Slot available -  <a href=\"/speak.html\">Submit your talk!</a> </li> <li>Slot available -  <a href=\"/speak.html\">Submit your talk!</a> </li>"
                 },
                 {
+                    ".date": "April 2017",
+                    ".speakers": "<li>JSONata: A declarative syntax for querying your JSON data -  <a href=\"https://github.com/andrew-coleman\">andrew-coleman</a> </li> <li>Slot available -  <a href=\"/speak.html\">Submit your talk!</a> </li> <li>Slot available -  <a href=\"/speak.html\">Submit your talk!</a> </li>"
+                },
+                {
                     ".date": "March 2017",
                     ".speakers": "<li>&#39;Minecraft&#39; in VR in 30 lines of Javascript -  <a href=\"https://github.com/jamesporter\">James Porter</a> </li> <li>Fullstack integration testing that doesn&#39;t suck -  <a href=\"https://github.com/artemave\">artem avetisyan</a> </li> <li>Our future is in little hands -  <a href=\"https://github.com/tonyyates\">Tony Yates</a> </li>"
                 },
