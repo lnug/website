@@ -38,12 +38,12 @@ module.exports=[
             },
             {
                 "name": "Submit your talk!",
-                "url": "/speak.html",
+                "url": "https://lnug.org/speak.html",
                 "title": "Slot available"
             },
             {
                 "name": "Submit your talk!",
-                "url": "/speak.html",
+                "url": "https://lnug.org/speak.html",
                 "title": "Slot available"
             }
         ]
@@ -1603,7 +1603,7 @@ module.exports=[
         "name": "Submit your talk!",
         "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
         "img": "/images/favicon/favicon-128.png",
-        "speakerUrl": "/speak.html",
+        "speakerUrl": "https://lnug.org/speak.html",
         "milestone": "April 26th 2017"
     },
     {
@@ -1611,7 +1611,7 @@ module.exports=[
         "name": "Submit your talk!",
         "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
         "img": "/images/favicon/favicon-128.png",
-        "speakerUrl": "/speak.html",
+        "speakerUrl": "https://lnug.org/speak.html",
         "milestone": "April 26th 2017"
     }
 ]
@@ -1717,6 +1717,15 @@ module.exports = function () {
 var thisMonth = require('../data/this-month.json')
 
 function speakerSelectors (speaker) {
+
+  var speakerUrl
+
+  if (speaker.speakerUrl) {
+    speakerUrl = speaker.speakerUrl
+  } else {
+    speakerUrl = 'https://github.com/' + speaker.handle
+  }
+
   return {
     '.name': speaker.name,
     '.title': speaker.title,
@@ -1725,7 +1734,7 @@ function speakerSelectors (speaker) {
       src: speaker.img
     },
     '.lnug-twitterhandle a': {
-      href: 'https://github.com/' + speaker.handle
+      href: speakerUrl
     }
   }
 }

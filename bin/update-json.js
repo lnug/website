@@ -44,7 +44,7 @@ superagent
           name: 'Submit your talk!',
           description: 'This slot is still available, help us out: <a href="/speak.html">Submit a talk proposal</a>.',
           img: '/images/favicon/favicon-128.png',
-          speakerUrl: '/speak.html',
+          speakerUrl: 'https://lnug.org/speak.html',
           milestone: completeAcceptedTalks[0].milestone
         })
       }
