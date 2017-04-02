@@ -32,14 +32,14 @@ module.exports=[
         "date": "April 2017",
         "speakers": [
             {
+                "name": "Bruno Vieira",
+                "url": "https://github.com/bmpvieira",
+                "title": "How Bionode.io uses Node.JS Streams to handle genomic big data"
+            },
+            {
                 "name": "andrew-coleman",
                 "url": "https://github.com/andrew-coleman",
                 "title": "JSONata: A declarative syntax for querying your JSON data"
-            },
-            {
-                "name": "Submit your talk!",
-                "url": "https://lnug.org/speak.html",
-                "title": "Slot available"
             },
             {
                 "name": "Submit your talk!",
@@ -1589,6 +1589,16 @@ module.exports=[
 },{}],4:[function(require,module,exports){
 module.exports=[
     {
+        "apiSpeakerUrl": "https://api.github.com/users/bmpvieira",
+        "speakerUrl": "https://github.com/bmpvieira",
+        "title": "How Bionode.io uses Node.JS Streams to handle genomic big data",
+        "description": "<p>Bionode.io is an open source community. We aim to provide highly reusable code and tools for genomics by leveraging the Node.JS ecosystem. We are big fans of Node.JS Streams! I will talk about what they are and how you can use them to process large data in chunks.</p>\n<p>Bruno Vieira | @bmpvieira&#10;PhD Student in Bioinformatics at WurmLab.github.io (Queen Mary U. of London)&#10;Mozilla Science Lab fellow and Founder of Bionode.io</p>\n",
+        "milestone": "April 26th 2017",
+        "img": "https://avatars0.githubusercontent.com/u/263386?v=3",
+        "handle": "bmpvieira",
+        "name": "Bruno Vieira"
+    },
+    {
         "apiSpeakerUrl": "https://api.github.com/users/andrew-coleman",
         "speakerUrl": "https://github.com/andrew-coleman",
         "title": "JSONata: A declarative syntax for querying your JSON data",
@@ -1597,14 +1607,6 @@ module.exports=[
         "img": "https://avatars2.githubusercontent.com/u/7985120?v=3",
         "handle": "andrew-coleman",
         "name": "andrew-coleman"
-    },
-    {
-        "title": "Slot available",
-        "name": "Submit your talk!",
-        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
-        "img": "/images/favicon/favicon-128.png",
-        "speakerUrl": "https://lnug.org/speak.html",
-        "milestone": "April 26th 2017"
     },
     {
         "title": "Slot available",
