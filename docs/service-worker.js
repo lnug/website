@@ -37,14 +37,14 @@ module.exports=[
                 "title": "How Bionode.io uses Node.JS Streams to handle genomic big data"
             },
             {
+                "name": "Martin Wimpress",
+                "url": "https://github.com/flexiondotorg",
+                "title": "Automatically build and publish Node and Electron applications for Linux"
+            },
+            {
                 "name": "andrew-coleman",
                 "url": "https://github.com/andrew-coleman",
                 "title": "JSONata: A declarative syntax for querying your JSON data"
-            },
-            {
-                "name": "Submit your talk!",
-                "url": "https://lnug.org/speak.html",
-                "title": "Slot available"
             }
         ]
     },
@@ -1599,6 +1599,16 @@ module.exports=[
         "name": "Bruno Vieira"
     },
     {
+        "apiSpeakerUrl": "https://api.github.com/users/flexiondotorg",
+        "speakerUrl": "https://github.com/flexiondotorg",
+        "title": "Automatically build and publish Node and Electron applications for Linux",
+        "description": "<p>An introduction to snapcraft.io and electron-builder, tools that enable you to deliver your Node and Electron applications to millions of Linux users. Packaging for Linux used to be hard, that has changed. The Snapcraft team have built a platform that makes it simple to build and publish your applications so they run on all the major Linux distributions. It gives you  tools to deliver updates at a high frequency without compromising stability. Push a commit and it will automatically build for free in the store for your users.</p>\n<p>Martin WImpress is a passionate Open Source advocate, Linux enthusiast and Podcaster. Lives in Hampshire, England, with his wife and daughter. Works at Canonical making Ubuntu and Snapcraft. Martin is <a href=\"https://twitter.com/m_wimpress\">@m_wimpress</a> on Twitter.</p>\n",
+        "milestone": "April 26th 2017",
+        "img": "https://avatars0.githubusercontent.com/u/304639?v=3",
+        "handle": "flexiondotorg",
+        "name": "Martin Wimpress"
+    },
+    {
         "apiSpeakerUrl": "https://api.github.com/users/andrew-coleman",
         "speakerUrl": "https://github.com/andrew-coleman",
         "title": "JSONata: A declarative syntax for querying your JSON data",
@@ -1607,14 +1617,6 @@ module.exports=[
         "img": "https://avatars2.githubusercontent.com/u/7985120?v=3",
         "handle": "andrew-coleman",
         "name": "andrew-coleman"
-    },
-    {
-        "title": "Slot available",
-        "name": "Submit your talk!",
-        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
-        "img": "/images/favicon/favicon-128.png",
-        "speakerUrl": "https://lnug.org/speak.html",
-        "milestone": "April 26th 2017"
     }
 ]
 },{}],5:[function(require,module,exports){
