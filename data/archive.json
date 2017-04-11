@@ -23,19 +23,19 @@
         "date": "April 2017",
         "speakers": [
             {
+                "name": "Bruno Vieira",
+                "url": "https://github.com/bmpvieira",
+                "title": "How Bionode.io uses Node.JS Streams to handle genomic big data"
+            },
+            {
+                "name": "Martin Wimpress",
+                "url": "https://github.com/flexiondotorg",
+                "title": "Automatically build and publish Node and Electron applications for Linux"
+            },
+            {
                 "name": "andrew-coleman",
                 "url": "https://github.com/andrew-coleman",
                 "title": "JSONata: A declarative syntax for querying your JSON data"
-            },
-            {
-                "name": "Submit your talk!",
-                "url": "https://lnug.org/speak.html",
-                "title": "Slot available"
-            },
-            {
-                "name": "Submit your talk!",
-                "url": "https://lnug.org/speak.html",
-                "title": "Slot available"
             }
         ]
     },

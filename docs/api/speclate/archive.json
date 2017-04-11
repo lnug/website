@@ -11,7 +11,7 @@
                 },
                 {
                     ".date": "April 2017",
-                    ".speakers": "<li>JSONata: A declarative syntax for querying your JSON data -  <a href=\"https://github.com/andrew-coleman\">andrew-coleman</a> </li> <li>Slot available -  <a href=\"https://lnug.org/speak.html\">Submit your talk!</a> </li> <li>Slot available -  <a href=\"https://lnug.org/speak.html\">Submit your talk!</a> </li>"
+                    ".speakers": "<li>How Bionode.io uses Node.JS Streams to handle genomic big data -  <a href=\"https://github.com/bmpvieira\">Bruno Vieira</a> </li> <li>Automatically build and publish Node and Electron applications for Linux -  <a href=\"https://github.com/flexiondotorg\">Martin Wimpress</a> </li> <li>JSONata: A declarative syntax for querying your JSON data -  <a href=\"https://github.com/andrew-coleman\">andrew-coleman</a> </li>"
                 },
                 {
                     ".date": "March 2017",
