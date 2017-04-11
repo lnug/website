@@ -2,7 +2,7 @@
 'use strict'
 var serviceWorker = require('speclate-service-worker')
 var spec = require('../spec')
-var version = '2.0'
+var version = '2.2'
 
 serviceWorker(spec, version)
 
@@ -42,7 +42,7 @@ module.exports=[
                 "title": "Automatically build and publish Node and Electron applications for Linux"
             },
             {
-                "name": "andrew-coleman",
+                "name": null,
                 "url": "https://github.com/andrew-coleman",
                 "title": "JSONata: A declarative syntax for querying your JSON data"
             }
@@ -1616,7 +1616,7 @@ module.exports=[
         "milestone": "April 26th 2017",
         "img": "https://avatars2.githubusercontent.com/u/7985120?v=3",
         "handle": "andrew-coleman",
-        "name": "andrew-coleman"
+        "name": null
     }
 ]
 },{}],5:[function(require,module,exports){
@@ -1721,7 +1721,6 @@ module.exports = function () {
 var thisMonth = require('../data/this-month.json')
 
 function speakerSelectors (speaker) {
-
   var speakerUrl
 
   if (speaker.speakerUrl) {
@@ -1742,10 +1741,10 @@ function speakerSelectors (speaker) {
     }
   }
 }
-var sortByTitle = function(a, b) {
-  if(a.title < b.title) return -1;
-  if(a.title > b.title) return 1;
-  return 0;
+var sortByTitle = function (a, b) {
+  if (a.title < b.title) return -1
+  if (a.title > b.title) return 1
+  return 0
 }
 
 module.exports = function (callback) {
@@ -2146,11 +2145,10 @@ var options = {
     var getImages = function (selectors) {
       var images = []
       Object.keys(selectors).forEach(function (selector) {
-        if(selectors[selector].data) {
+        if (selectors[selector].data) {
           selectors[selector].data.forEach(function (item) {
             images.push(item.img.src)
           })
-
         }
       })
       return images
@@ -2261,6 +2259,5 @@ module.exports = {
   },
   options: options
 }
-
 
 },{"./data/venues/makers.json":5,"./lib/archive-selectors":6,"./lib/image-gallery":7,"./lib/next-event-from-file":8,"./lib/speaker-selectors":9,"./lib/tito-link":10}]},{},[1]);

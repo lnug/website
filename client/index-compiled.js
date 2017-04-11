@@ -1,6 +1,16 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+
+/* eslint-disable */
+
+// just a hack because the analytics stopped working, this should be moved back to a module.
+var analytics = function () {};
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','analytics');
+/* eslint-enable */
+
 var router = require('speclate-router')
-var analytics = require('ga-browser')(window)
 var appCacheNanny = require('appcache-nanny')
 
 window.$ = require('jquery')
@@ -42,7 +52,7 @@ appCacheNanny.on('updateready', function () {
   location.reload()
 })
 
-},{"appcache-nanny":2,"ga-browser":15,"jquery":16,"speclate-router":34}],2:[function(require,module,exports){
+},{"appcache-nanny":2,"jquery":14,"speclate-router":32}],2:[function(require,module,exports){
 // appCacheNanny
 // =============
 //
@@ -647,189 +657,6 @@ module.exports = function restParam(func, startIndex) {
 };
 
 },{}],14:[function(require,module,exports){
-/*!
- * escape-html
- * Copyright(c) 2012-2013 TJ Holowaychuk
- * Copyright(c) 2015 Andreas Lubbe
- * Copyright(c) 2015 Tiancheng "Timothy" Gu
- * MIT Licensed
- */
-
-'use strict';
-
-/**
- * Module variables.
- * @private
- */
-
-var matchHtmlRegExp = /["'&<>]/;
-
-/**
- * Module exports.
- * @public
- */
-
-module.exports = escapeHtml;
-
-/**
- * Escape special characters in the given string of html.
- *
- * @param  {string} string The string to escape for inserting into HTML
- * @return {string}
- * @public
- */
-
-function escapeHtml(string) {
-  var str = '' + string;
-  var match = matchHtmlRegExp.exec(str);
-
-  if (!match) {
-    return str;
-  }
-
-  var escape;
-  var html = '';
-  var index = 0;
-  var lastIndex = 0;
-
-  for (index = match.index; index < str.length; index++) {
-    switch (str.charCodeAt(index)) {
-      case 34: // "
-        escape = '&quot;';
-        break;
-      case 38: // &
-        escape = '&amp;';
-        break;
-      case 39: // '
-        escape = '&#39;';
-        break;
-      case 60: // <
-        escape = '&lt;';
-        break;
-      case 62: // >
-        escape = '&gt;';
-        break;
-      default:
-        continue;
-    }
-
-    if (lastIndex !== index) {
-      html += str.substring(lastIndex, index);
-    }
-
-    lastIndex = index + 1;
-    html += escape;
-  }
-
-  return lastIndex !== index
-    ? html + str.substring(lastIndex, index)
-    : html;
-}
-
-},{}],15:[function(require,module,exports){
-(function (global){
-'use strict';
-var htmlEscape = require('escape-html');
-
-/**
- * @module ga-browser
- */
-module.exports = function(windowObject)
-{
-        var window = windowObject || global.window;
-
-        if (!window)
-        {
-                // e.g. server side in node.js
-                return function() { /* noop */ };
-        }
-
-        var ga = function googleAnalytics()
-        {
-                return window[ga.globalName].apply(window, arguments);
-        };
-
-        ga.globalName = 'ga';
-        if (typeof window.GoogleAnalyticsObject === 'string')
-        {
-                ga.globalName = window.GoogleAnalyticsObject.trim() || 'ga';
-        }
-
-        if (!window[ga.globalName])
-        {
-                window[ga.globalName] = function()
-                {
-                        (window[ga.globalName].q = window[ga.globalName].q || []).push(arguments);
-                };
-
-                window[ga.globalName].l = +new Date();
-        }
-
-        return ga;
-};
-
-/**
- * URL referencing Google's Universal Analytics script
- * @type {string}
- */
-module.exports.scriptUrl = '//www.google-analytics.com/analytics.js';
-
-/**
- * URL referencing the debug version of Google's Universal Analytics script
- * @type {string}
- */
-module.exports.debugScriptUrl = '//www.google-analytics.com/analytics_debug.js';
-
-/**
- * Returns the html markup of the script element for the google analytics script
- * @param {Boolean} [debug=false] If set, use the debug version instead
- * @returns {string}
- */
-module.exports.getScriptMarkup = function(debug)
-{
-        var url = debug ? module.exports.debugScriptUrl : module.exports.scriptUrl;
-        return '<script async="async" src="' + htmlEscape(url) + '"></script>';
-};
-
-/**
- * Add a script element for the google analytics script to the given DOM document
- * @param {HTMLDocument|HTMLHeadElement} documentOrHead
- * @param {Boolean} [debug=false] If set, use the debug version instead
- * @returns {HTMLScriptElement}
- */
-module.exports.insertScript = function(documentOrHead, debug)
-{
-        if (!documentOrHead)
-        {
-                throw Error('Missing argument');
-        }
-
-        var document = documentOrHead.nodeType === 9 // DOCUMENT_NODE
-                ? documentOrHead
-                : documentOrHead.ownerDocument;
-
-        var head = documentOrHead.nodeType === 1 // ELEMENT_NODE
-                ? documentOrHead
-                : document.getElementsByTagName('head')[0];
-
-        var url = debug
-                ? module.exports.debugScriptUrl
-                : module.exports.scriptUrl;
-
-        if (!head)
-        {
-                throw Error('Missing <head> element');
-        }
-
-        var script = document.createElement('script');
-        script.setAttribute('async', 'async');
-        script.setAttribute('src', url);
-        head.appendChild(script);
-        return script;
-};
-
-}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"escape-html":14}],16:[function(require,module,exports){
 /*!
  * jQuery JavaScript Library v3.2.1
  * https://jquery.com/
@@ -11084,7 +10911,7 @@ if ( !noGlobal ) {
 return jQuery;
 } );
 
-},{}],17:[function(require,module,exports){
+},{}],15:[function(require,module,exports){
 /**
  * lodash 4.0.0 (Custom Build) <https://lodash.com/>
  * Build: `lodash modularize exports="npm" -o ./`
@@ -11121,7 +10948,7 @@ var isArray = Array.isArray;
 
 module.exports = isArray;
 
-},{}],18:[function(require,module,exports){
+},{}],16:[function(require,module,exports){
 /**
  * lodash 3.0.2 (Custom Build) <https://lodash.com/>
  * Build: `lodash modern modularize exports="npm" -o ./`
@@ -11160,7 +10987,7 @@ function isObject(value) {
 
 module.exports = isObject;
 
-},{}],19:[function(require,module,exports){
+},{}],17:[function(require,module,exports){
 /**
  * lodash 4.0.1 (Custom Build) <https://lodash.com/>
  * Build: `lodash modularize exports="npm" -o ./`
@@ -11257,7 +11084,7 @@ function isString(value) {
 
 module.exports = isString;
 
-},{}],20:[function(require,module,exports){
+},{}],18:[function(require,module,exports){
 (function (process){
   /* globals require, module */
 
@@ -11883,7 +11710,7 @@ module.exports = isString;
   page.sameOrigin = sameOrigin;
 
 }).call(this,require('_process'))
-},{"_process":24,"path-to-regexp":22}],21:[function(require,module,exports){
+},{"_process":22,"path-to-regexp":20}],19:[function(require,module,exports){
 (function (process){
 // Copyright Joyent, Inc. and other Node contributors.
 //
@@ -12111,7 +11938,7 @@ var substr = 'ab'.substr(-1) === 'b'
 ;
 
 }).call(this,require('_process'))
-},{"_process":24}],22:[function(require,module,exports){
+},{"_process":22}],20:[function(require,module,exports){
 var isarray = require('isarray')
 
 /**
@@ -12503,12 +12330,12 @@ function pathToRegexp (path, keys, options) {
   return stringToRegexp(path, keys, options)
 }
 
-},{"isarray":23}],23:[function(require,module,exports){
+},{"isarray":21}],21:[function(require,module,exports){
 module.exports = Array.isArray || function (arr) {
   return Object.prototype.toString.call(arr) == '[object Array]';
 };
 
-},{}],24:[function(require,module,exports){
+},{}],22:[function(require,module,exports){
 // shim for using process in browser
 var process = module.exports = {};
 
@@ -12690,7 +12517,7 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}],25:[function(require,module,exports){
+},{}],23:[function(require,module,exports){
 'use strict';
 
 exports.load = function (str) {
@@ -12720,7 +12547,7 @@ exports.get = function (item) {
     return $(item);
 };
 
-},{}],26:[function(require,module,exports){
+},{}],24:[function(require,module,exports){
 /**
  * In the case of input we should update the value and not just set the innerHTML property.
  * @param  {Object} $node sizzle object
@@ -12744,7 +12571,7 @@ module.exports = function ($node, data) {
 	return $node;
 };
 
-},{}],27:[function(require,module,exports){
+},{}],25:[function(require,module,exports){
 'use strict';
 
 module.exports = function (data, options) {
@@ -12763,7 +12590,7 @@ module.exports = function (data, options) {
     return retArray;
 };
 
-},{}],28:[function(require,module,exports){
+},{}],26:[function(require,module,exports){
 'use strict';
 
 var dom = require('../server/dom.js');
@@ -12792,7 +12619,7 @@ module.exports = function (str, selectors) {
     }
 };
 
-},{"../server/dom.js":25,"./update-node":31}],29:[function(require,module,exports){
+},{"../server/dom.js":23,"./update-node":29}],27:[function(require,module,exports){
 'use strict';
 
 // given a regex or function updates the value.
@@ -12805,7 +12632,7 @@ module.exports = function (oldValue, newValue) {
     return newValue;
 };
 
-},{}],30:[function(require,module,exports){
+},{}],28:[function(require,module,exports){
 'use strict';
 
 var newValue = require('./new-value');
@@ -12867,7 +12694,7 @@ module.exports = function ($node, obj) {
     return $node;
 };
 
-},{"../server/dom":25,"./new-value":29}],31:[function(require,module,exports){
+},{"../server/dom":23,"./new-value":27}],29:[function(require,module,exports){
 'use strict';
 var checkForInputs = require('./check-for-inputs');
 var updateNodeWithObject = require('./update-node-with-object');
@@ -12888,7 +12715,7 @@ function updateNode($node, selector, data, $) {
             $node = checkForInputs($node, data, $);
         break;
         case 'object':
-            if (data.length) {
+            if (data && data.length) {
                 var $parent = $node.parent();
                 var $newNode = $node.clone();
                 data.forEach(function (item, c) {
@@ -12909,11 +12736,11 @@ function updateNode($node, selector, data, $) {
 
 module.exports = updateNode;
 
-},{"./check-for-inputs":26,"./update-node-with-object":30}],32:[function(require,module,exports){
+},{"./check-for-inputs":24,"./update-node-with-object":28}],30:[function(require,module,exports){
 exports.render = require('./lib/do-render');
 exports.classifyKeys = require('./lib/classify-keys');
 
-},{"./lib/classify-keys":27,"./lib/do-render":28}],33:[function(require,module,exports){
+},{"./lib/classify-keys":25,"./lib/do-render":26}],31:[function(require,module,exports){
 'use strict';
 
 
@@ -12975,7 +12802,7 @@ exports.text = function(file, callback) {
 };
 
 
-},{}],34:[function(require,module,exports){
+},{}],32:[function(require,module,exports){
 'use strict'
 
 var page = require('page')
@@ -12987,6 +12814,7 @@ module.exports = function (routerOptions, speclateOptions, pageRenderCallback) {
   routerOptions = routerOptions || {}
   var $container = $(speclateOptions.container || '#container')
   var loadingClass = routerOptions.loadingClass || 'loading'
+
   page('*', function (context, next) {
     var routeName = context.pathname.slice(0, -5)
     if (routeName === '') {
@@ -12994,7 +12822,12 @@ module.exports = function (routerOptions, speclateOptions, pageRenderCallback) {
     }
     var specPath = '/api/speclate' + routeName + '.json'
     $container.addClass(loadingClass)
+
+    var el = document.querySelector('html')
+    el.setAttribute('data-speclate-url', context.pathname)
+
     fetchJson(specPath, function (err, pageSpec) {
+      el.setAttribute('data-speclate-page', pageSpec.page)
       if (err) {
         $container.removeClass(loadingClass)
         return routerOptions.error(err, $container)
@@ -13013,7 +12846,57 @@ module.exports = function (routerOptions, speclateOptions, pageRenderCallback) {
   page()
 }
 
-},{"./page-render":40,"page":20,"speclate-fetch":33}],35:[function(require,module,exports){
+},{"./page-render":33,"page":18,"speclate-fetch":31}],33:[function(require,module,exports){
+'use strict'
+
+var asyncParallel = require('async.parallel')
+var sizlate = require('sizlate')
+var getFile = require('speclate-fetch').readFile
+
+var doSizlate = require('speclate/lib/page/do-sizlate')
+var loadComponents = require('speclate/lib/page/load-components')
+
+/**
+ * used for client side render.
+ */
+module.exports = function ($container, page, options) {
+  asyncParallel({
+    pageLayout: function (next) {
+      var pageLayoutPath = '/pages/' + page.page + '/' + page.page + '.html'
+      getFile(pageLayoutPath, {encoding: 'utf-8'}, next)
+    },
+    components: function (next) {
+      if (page.spec) {
+        loadComponents(page.spec, next)
+      } else {
+        next()
+      }
+    }
+  }, function (err, data) {
+    if (err) {
+      options.error && options.error(err, $container)
+      return
+    }
+
+    if (options.before) {
+      options.before(null, markup, page)
+    }
+
+    sizlate.render($('html'), {
+      '#container': {
+        innerHTML: data.pageLayout
+      }
+    })
+
+    var markup = doSizlate(page, $('html'), data.components)
+
+    if (options.after) {
+      options.after(null, markup, page)
+    }
+  })
+}
+
+},{"async.parallel":4,"sizlate":30,"speclate-fetch":31,"speclate/lib/page/do-sizlate":37,"speclate/lib/page/load-components":38}],34:[function(require,module,exports){
 'use strict'
 
 var speclateFetch = require('speclate-fetch')
@@ -13021,7 +12904,7 @@ var speclateFetch = require('speclate-fetch')
 // override readfile with request to fetch.
 exports.readFile = speclateFetch.readFile
 
-},{"speclate-fetch":33}],36:[function(require,module,exports){
+},{"speclate-fetch":31}],35:[function(require,module,exports){
 (function (process){
 'use strict'
 
@@ -13043,7 +12926,7 @@ module.exports = function (url) {
 }
 
 }).call(this,require('_process'))
-},{"_process":24,"path":21}],37:[function(require,module,exports){
+},{"_process":22,"path":19}],36:[function(require,module,exports){
 'use strict'
 
 var loadFile = require('fs').readFile
@@ -13059,7 +12942,7 @@ module.exports = function (component, callback) {
   loadFile(path, 'utf-8', callback)
 }
 
-},{"./file/get-path":36,"fs":35}],38:[function(require,module,exports){
+},{"./file/get-path":35,"fs":34}],37:[function(require,module,exports){
 var sizlate = require('sizlate')
 
 /**
@@ -13070,6 +12953,7 @@ var sizlate = require('sizlate')
 module.exports = function (page, layout, renderedComponents) {
   var componentSelectors = {}
   var simpleSelectors = {}
+
 
   var spec = page.spec
   // add components into selectors
@@ -13086,6 +12970,10 @@ module.exports = function (page, layout, renderedComponents) {
   if (Object.keys(simpleSelectors).length > 0) {
     var place
     if (typeof document === 'undefined') {
+      simpleSelectors.html = {
+        'data-speclate-page': page.page,
+        'data-speclate-url': page.route || 'unknown'
+      }
       // if serverside user the existing page.
       place = out
     } else {
@@ -13099,7 +12987,7 @@ module.exports = function (page, layout, renderedComponents) {
   }
 }
 
-},{"sizlate":32}],39:[function(require,module,exports){
+},{"sizlate":30}],38:[function(require,module,exports){
 'use strict'
 
 var forEachOf = require('async.eachof')
@@ -13180,54 +13068,4 @@ module.exports = function (components, callback) {
   })
 }
 
-},{"../load-component":37,"async.eachof":3,"lodash.isarray":17,"lodash.isobject":18,"lodash.isstring":19,"sizlate":32}],40:[function(require,module,exports){
-'use strict'
-
-var asyncParallel = require('async.parallel')
-var sizlate = require('sizlate')
-var getFile = require('speclate-fetch').readFile
-
-var doSizlate = require('speclate/lib/page/do-sizlate')
-var loadComponents = require('speclate/lib/page/load-components')
-
-/**
- * used for client side render.
- */
-module.exports = function ($container, page, options) {
-  asyncParallel({
-    pageLayout: function (next) {
-      var pageLayoutPath = '/pages/' + page.page + '/' + page.page + '.html'
-      getFile(pageLayoutPath, {encoding: 'utf-8'}, next)
-    },
-    components: function (next) {
-      if (page.spec) {
-        loadComponents(page.spec, next)
-      } else {
-        next()
-      }
-    }
-  }, function (err, data) {
-    if (err) {
-      options.error && options.error(err, $container)
-      return
-    }
-
-    if (options.before) {
-      options.before(null, markup, page)
-    }
-
-    sizlate.render($('html'), {
-      '#container': {
-        innerHTML: data.pageLayout
-      }
-    })
-
-    var markup = doSizlate(page, $('html'), data.components)
-
-    if (options.after) {
-      options.after(null, markup, page)
-    }
-  })
-}
-
-},{"async.parallel":4,"sizlate":32,"speclate-fetch":33,"speclate/lib/page/do-sizlate":38,"speclate/lib/page/load-components":39}]},{},[1]);
+},{"../load-component":36,"async.eachof":3,"lodash.isarray":15,"lodash.isobject":16,"lodash.isstring":17,"sizlate":30}]},{},[1]);

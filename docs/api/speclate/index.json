@@ -45,7 +45,7 @@
                     }
                 },
                 {
-                    ".name": "andrew-coleman",
+                    ".name": null,
                     ".title": "JSONata: A declarative syntax for querying your JSON data",
                     ".desc": "<p>JSON is becoming the de facto standard format for exchanging data between systems over the Internet.  Its key strengths are its lightweight syntax and its simple data model, which have helped propel it to be the dominant payload format in RESTful web services.</p>\n<p>A lightweight data format deserves a lightweight query and transformation technology that is accessible to non-programmers.  <a href=\"http://jsonata.org\">JSONata</a> provides that in an open-source module that can be embedded in a web page or used in a node.js app.  Designed with the principle that queries should be simple to write, JSONata has a very shallow learning curve. Yet sophisticated expressions can be quickly mastered by combining the simple navigation syntax with a rich set of operators and functions for extracting, manipulating and aggregating JSON data. </p>\n<p>This session will introduce you to JSONata and show you how to find buried treasure in your JSON data.</p>\n<p>Andrew Coleman is a senior software engineer at IBM specialising in data transformation and application integration.  He is currently building a graphical data mapper for <a href=\"http://www-03.ibm.com/software/products/en/ibm-app-connect\">integrating cloud based services</a>.</p>\n<p>Andrew is the Chair of the <a href=\"https://www.w3.org/XML/2015/05/query-charter.html\">W3C XML Query Working Group</a> responsible for developing the <a href=\"https://www.w3.org/TR/xpath-31/\">XPath</a> and <a href=\"https://www.w3.org/TR/xquery-31/\">XQuery</a> family of specifications.  He has borrowed heavily on the experience gained from this to create the <a href=\"http://jsonata.org\">JSONata</a> query and transformation language for JSON.</p>\n",
                     "img": {
@@ -60,5 +60,6 @@
         ".lnug-mailing-list": {
             "component": "sign-up"
         }
-    }
+    },
+    "route": "/index.html"
 }

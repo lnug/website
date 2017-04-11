@@ -178,5 +178,6 @@
                 }
             ]
         }
-    }
+    },
+    "route": "/image-gallery.html"
 }
