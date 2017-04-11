@@ -28,11 +28,10 @@ var options = {
     var getImages = function (selectors) {
       var images = []
       Object.keys(selectors).forEach(function (selector) {
-        if(selectors[selector].data) {
+        if (selectors[selector].data) {
           selectors[selector].data.forEach(function (item) {
             images.push(item.img.src)
           })
-
         }
       })
       return images
@@ -143,4 +142,3 @@ module.exports = {
   },
   options: options
 }
-
