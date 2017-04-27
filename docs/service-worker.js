@@ -62,7 +62,7 @@ module.exports=[
                 "title": "Automatically build and publish Node and Electron applications for Linux"
             },
             {
-                "name": null,
+                "name": "Andrew Coleman",
                 "url": "https://github.com/andrew-coleman",
                 "title": "JSONata: A declarative syntax for querying your JSON data"
             }
@@ -1612,7 +1612,7 @@ module.exports=[
         "apiSpeakerUrl": "https://api.github.com/users/willm",
         "speakerUrl": "https://github.com/willm",
         "title": "Speeding up CI with node and docker",
-        "description": "<p>[Abstract of your talk]&#10;Tips for running faster builds with nodejs and docker. This talk mainly outlines lessons learned and optimisations which will hopefully help you get quicker feedback from your CI pipeline and make your deployments run quicker.&#10;[A bit about you, e.g. current job, twitter handle, etc.]&#10;Although I have more experience in the back end side of things, I strive to be a full stack developer. I like working on well tested codebases with a well oiled CI pipeline</p>\n",
+        "description": "<p>Tips for running faster builds with nodejs and docker. This talk mainly outlines lessons learned and optimisations which will hopefully help you get quicker feedback from your CI pipeline and make your deployments run quicker.</p>\n<p>Although I have more experience in the back end side of things, I strive to be a full stack developer. I like working on well tested codebases with a well oiled CI pipeline</p>\n",
         "milestone": "May 24th 2017",
         "img": "https://avatars2.githubusercontent.com/u/771001?v=3",
         "handle": "willm",
