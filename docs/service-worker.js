@@ -29,6 +29,26 @@ module.exports=[
         ]
     },
     {
+        "date": "May 2017",
+        "speakers": [
+            {
+                "name": "Will Munn",
+                "url": "https://github.com/willm",
+                "title": "Speeding up CI with node and docker"
+            },
+            {
+                "name": "Submit your talk!",
+                "url": "https://lnug.org/speak.html",
+                "title": "Slot available"
+            },
+            {
+                "name": "Submit your talk!",
+                "url": "https://lnug.org/speak.html",
+                "title": "Slot available"
+            }
+        ]
+    },
+    {
         "date": "April 2017",
         "speakers": [
             {
@@ -1589,34 +1609,30 @@ module.exports=[
 },{}],4:[function(require,module,exports){
 module.exports=[
     {
-        "apiSpeakerUrl": "https://api.github.com/users/bmpvieira",
-        "speakerUrl": "https://github.com/bmpvieira",
-        "title": "How Bionode.io uses Node.JS Streams to handle genomic big data",
-        "description": "<p>Bionode.io is an open source community. We aim to provide highly reusable code and tools for genomics by leveraging the Node.JS ecosystem. We are big fans of Node.JS Streams! I will talk about what they are and how you can use them to process large data in chunks.</p>\n<p>Bruno Vieira | @bmpvieira&#10;PhD Student in Bioinformatics at WurmLab.github.io (Queen Mary U. of London)&#10;Mozilla Science Lab fellow and Founder of Bionode.io</p>\n",
-        "milestone": "April 26th 2017",
-        "img": "https://avatars0.githubusercontent.com/u/263386?v=3",
-        "handle": "bmpvieira",
-        "name": "Bruno Vieira"
+        "apiSpeakerUrl": "https://api.github.com/users/willm",
+        "speakerUrl": "https://github.com/willm",
+        "title": "Speeding up CI with node and docker",
+        "description": "<p>[Abstract of your talk]&#10;Tips for running faster builds with nodejs and docker. This talk mainly outlines lessons learned and optimisations which will hopefully help you get quicker feedback from your CI pipeline and make your deployments run quicker.&#10;[A bit about you, e.g. current job, twitter handle, etc.]&#10;Although I have more experience in the back end side of things, I strive to be a full stack developer. I like working on well tested codebases with a well oiled CI pipeline</p>\n",
+        "milestone": "May 24th 2017",
+        "img": "https://avatars2.githubusercontent.com/u/771001?v=3",
+        "handle": "willm",
+        "name": "Will Munn"
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/flexiondotorg",
-        "speakerUrl": "https://github.com/flexiondotorg",
-        "title": "Automatically build and publish Node and Electron applications for Linux",
-        "description": "<p>An introduction to snapcraft.io and electron-builder, tools that enable you to deliver your Node and Electron applications to millions of Linux users. Packaging for Linux used to be hard, that has changed. The Snapcraft team have built a platform that makes it simple to build and publish your applications so they run on all the major Linux distributions. It gives you  tools to deliver updates at a high frequency without compromising stability. Push a commit and it will automatically build for free in the store for your users.</p>\n<p>Martin WImpress is a passionate Open Source advocate, Linux enthusiast and Podcaster. Lives in Hampshire, England, with his wife and daughter. Works at Canonical making Ubuntu and Snapcraft. Martin is <a href=\"https://twitter.com/m_wimpress\">@m_wimpress</a> on Twitter.</p>\n",
-        "milestone": "April 26th 2017",
-        "img": "https://avatars0.githubusercontent.com/u/304639?v=3",
-        "handle": "flexiondotorg",
-        "name": "Martin Wimpress"
+        "title": "Slot available",
+        "name": "Submit your talk!",
+        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
+        "img": "/images/favicon/favicon-128.png",
+        "speakerUrl": "https://lnug.org/speak.html",
+        "milestone": "May 24th 2017"
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/andrew-coleman",
-        "speakerUrl": "https://github.com/andrew-coleman",
-        "title": "JSONata: A declarative syntax for querying your JSON data",
-        "description": "<p>JSON is becoming the de facto standard format for exchanging data between systems over the Internet.  Its key strengths are its lightweight syntax and its simple data model, which have helped propel it to be the dominant payload format in RESTful web services.</p>\n<p>A lightweight data format deserves a lightweight query and transformation technology that is accessible to non-programmers.  <a href=\"http://jsonata.org\">JSONata</a> provides that in an open-source module that can be embedded in a web page or used in a node.js app.  Designed with the principle that queries should be simple to write, JSONata has a very shallow learning curve. Yet sophisticated expressions can be quickly mastered by combining the simple navigation syntax with a rich set of operators and functions for extracting, manipulating and aggregating JSON data. </p>\n<p>This session will introduce you to JSONata and show you how to find buried treasure in your JSON data.</p>\n<p>Andrew Coleman is a senior software engineer at IBM specialising in data transformation and application integration.  He is currently building a graphical data mapper for <a href=\"http://www-03.ibm.com/software/products/en/ibm-app-connect\">integrating cloud based services</a>.</p>\n<p>Andrew is the Chair of the <a href=\"https://www.w3.org/XML/2015/05/query-charter.html\">W3C XML Query Working Group</a> responsible for developing the <a href=\"https://www.w3.org/TR/xpath-31/\">XPath</a> and <a href=\"https://www.w3.org/TR/xquery-31/\">XQuery</a> family of specifications.  He has borrowed heavily on the experience gained from this to create the <a href=\"http://jsonata.org\">JSONata</a> query and transformation language for JSON.</p>\n",
-        "milestone": "April 26th 2017",
-        "img": "https://avatars2.githubusercontent.com/u/7985120?v=3",
-        "handle": "andrew-coleman",
-        "name": null
+        "title": "Slot available",
+        "name": "Submit your talk!",
+        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
+        "img": "/images/favicon/favicon-128.png",
+        "speakerUrl": "https://lnug.org/speak.html",
+        "milestone": "May 24th 2017"
     }
 ]
 },{}],5:[function(require,module,exports){

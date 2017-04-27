@@ -20,6 +20,26 @@
         ]
     },
     {
+        "date": "May 2017",
+        "speakers": [
+            {
+                "name": "Will Munn",
+                "url": "https://github.com/willm",
+                "title": "Speeding up CI with node and docker"
+            },
+            {
+                "name": "Submit your talk!",
+                "url": "https://lnug.org/speak.html",
+                "title": "Slot available"
+            },
+            {
+                "name": "Submit your talk!",
+                "url": "https://lnug.org/speak.html",
+                "title": "Slot available"
+            }
+        ]
+    },
+    {
         "date": "April 2017",
         "speakers": [
             {
