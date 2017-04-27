@@ -9,6 +9,7 @@ images/maps/thin.png
 images/maps/wide.png
 images/favicon/favicon-16x16.png
 images/favicon/favicon-128.png
+images/favicon/favicon-196x196.png
 manifest.json
 client/index-compiled.js
 appcache-loader.html
@@ -41,6 +42,6 @@ appcache-loader.html
 /related-meetups.html
 /pages/related-meetups/related-meetups.html
 /api/speclate/related-meetups.json
-# v-1493283162843
+# v-1493283280523
 NETWORK:
 *

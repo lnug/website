@@ -21,6 +21,7 @@ var options = {
     'images/maps/wide.png',
     'images/favicon/favicon-16x16.png',
     'images/favicon/favicon-128.png',
+    'images/favicon/favicon-196x196.png',
     'manifest.json',
     'client/index-compiled.js'
   ],
