@@ -23,14 +23,14 @@
         "date": "May 2017",
         "speakers": [
             {
+                "name": "Paul Jensen",
+                "url": "https://github.com/paulbjensen",
+                "title": "From LNUG presentation to published book - my tale of writing &quot;Cross Platform Desktop Applications&quot;"
+            },
+            {
                 "name": "Will Munn",
                 "url": "https://github.com/willm",
                 "title": "Speeding up CI with node and docker"
-            },
-            {
-                "name": "Submit your talk!",
-                "url": "https://lnug.org/speak.html",
-                "title": "Slot available"
             },
             {
                 "name": "Submit your talk!",

@@ -1,5 +1,15 @@
 [
     {
+        "apiSpeakerUrl": "https://api.github.com/users/paulbjensen",
+        "speakerUrl": "https://github.com/paulbjensen",
+        "title": "From LNUG presentation to published book - my tale of writing &quot;Cross Platform Desktop Applications&quot;",
+        "description": "<p>3 years ago I gave a talk at LNUG on Node Webkit, and then posted online. Little did I know that the end result would be writing a book for Manning publications on Electron and NW.js.</p>\n<p>This talk is about how that happened, the process of writing a book about those Node.js frameworks, and the learnings from undertaking the whole project. </p>\n<p>My name is Paul Jensen, and I&#39;m a Senior Pre-Sales Consultant at Starcount. My Twitter handle is @paulbjensen.</p>\n",
+        "milestone": "May 24th 2017",
+        "img": "https://avatars0.githubusercontent.com/u/3840?v=3",
+        "handle": "paulbjensen",
+        "name": "Paul Jensen"
+    },
+    {
         "apiSpeakerUrl": "https://api.github.com/users/willm",
         "speakerUrl": "https://github.com/willm",
         "title": "Speeding up CI with node and docker",
@@ -8,14 +18,6 @@
         "img": "https://avatars2.githubusercontent.com/u/771001?v=3",
         "handle": "willm",
         "name": "Will Munn"
-    },
-    {
-        "title": "Slot available",
-        "name": "Submit your talk!",
-        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
-        "img": "/images/favicon/favicon-128.png",
-        "speakerUrl": "https://lnug.org/speak.html",
-        "milestone": "May 24th 2017"
     },
     {
         "title": "Slot available",
