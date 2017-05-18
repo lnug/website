@@ -23,6 +23,11 @@
         "date": "May 2017",
         "speakers": [
             {
+                "name": null,
+                "url": "https://github.com/flyingunicorn222",
+                "title": "Trading cryptocurrencies, forex, commodities stocks and more using node.js"
+            },
+            {
                 "name": "Paul Jensen",
                 "url": "https://github.com/paulbjensen",
                 "title": "From LNUG presentation to published book - my tale of writing &quot;Cross Platform Desktop Applications&quot;"
@@ -31,11 +36,6 @@
                 "name": "Will Munn",
                 "url": "https://github.com/willm",
                 "title": "Speeding up CI with node and docker"
-            },
-            {
-                "name": "Submit your talk!",
-                "url": "https://lnug.org/speak.html",
-                "title": "Slot available"
             }
         ]
     },

@@ -34,17 +34,6 @@
                     }
                 },
                 {
-                    ".name": "Submit your talk!",
-                    ".title": "Slot available",
-                    ".desc": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
-                    "img": {
-                        "src": "/images/favicon/favicon-128.png"
-                    },
-                    ".lnug-twitterhandle a": {
-                        "href": "https://lnug.org/speak.html"
-                    }
-                },
-                {
                     ".name": "Will Munn",
                     ".title": "Speeding up CI with node and docker",
                     ".desc": "<p>Tips for running faster builds with nodejs and docker. This talk mainly outlines lessons learned and optimisations which will hopefully help you get quicker feedback from your CI pipeline and make your deployments run quicker.</p>\n<p>Although I have more experience in the back end side of things, I strive to be a full stack developer. I like working on well tested codebases with a well oiled CI pipeline</p>\n",
@@ -53,6 +42,17 @@
                     },
                     ".lnug-twitterhandle a": {
                         "href": "https://github.com/willm"
+                    }
+                },
+                {
+                    ".name": null,
+                    ".title": "Trading cryptocurrencies, forex, commodities stocks and more using node.js",
+                    ".desc": "<p>Description: The aim of the talk is to show what i have learnt and the libraries and tools i have developed over the last couple years after getting into trading bitcoin and ethereum, which turned out later into trading all sorts of things based on technical analysis and a bit of flaky statistics. I&#39;m really bad at making graphs and charts and what not, so expect some hands on approach, the talk should cover the very basics of trading and then how to use trading APIs to actually buy and sell stuff online directly from your command line.</p>\n<p>About me: The first time i programmed javascript was twenty years ago and since them i have played around with pretty much all the interesting programming languages i have found in front of me just to discover in 2011 i would actually end up doing everything again using only node.js. During this long journey i have worked on backend and frontend applications, interactive games, multiplayer applications, and whatnot. The last few years my big interest turned to be blockchain, cryptocurrencies and trading. After moving to London nearly seven years ago i worked for a few years in a very nice design studio and then later left to create my own little technology company where all those crazy experiments happen.</p>\n",
+                    "img": {
+                        "src": "https://avatars0.githubusercontent.com/u/20960175?v=3"
+                    },
+                    ".lnug-twitterhandle a": {
+                        "href": "https://github.com/flyingunicorn222"
                     }
                 }
             ]
