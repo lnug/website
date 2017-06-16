@@ -3,18 +3,18 @@
         "date": "June 2017",
         "speakers": [
             {
+                "name": "Irina Shestak",
+                "url": "https://github.com/lrlna",
+                "title": "knock-knock-who-there-file-compression-talk_FINAL_2.tar.trz.bz2.gz"
+            },
+            {
                 "name": "Daniel Khan",
                 "url": "https://github.com/danielkhan",
                 "title": "Don&#39;t Let Just Node.js Take the Blame!"
             },
             {
                 "name": "Submit your talk!",
-                "url": "/speak.html",
-                "title": "Slot available"
-            },
-            {
-                "name": "Submit your talk!",
-                "url": "/speak.html",
+                "url": "https://lnug.org/speak.html",
                 "title": "Slot available"
             }
         ]

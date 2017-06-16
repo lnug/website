@@ -12,18 +12,18 @@ module.exports=[
         "date": "June 2017",
         "speakers": [
             {
+                "name": "Irina Shestak",
+                "url": "https://github.com/lrlna",
+                "title": "knock-knock-who-there-file-compression-talk_FINAL_2.tar.trz.bz2.gz"
+            },
+            {
                 "name": "Daniel Khan",
                 "url": "https://github.com/danielkhan",
                 "title": "Don&#39;t Let Just Node.js Take the Blame!"
             },
             {
                 "name": "Submit your talk!",
-                "url": "/speak.html",
-                "title": "Slot available"
-            },
-            {
-                "name": "Submit your talk!",
-                "url": "/speak.html",
+                "url": "https://lnug.org/speak.html",
                 "title": "Slot available"
             }
         ]
@@ -1609,34 +1609,32 @@ module.exports=[
 },{}],4:[function(require,module,exports){
 module.exports=[
     {
-        "apiSpeakerUrl": "https://api.github.com/users/flyingunicorn222",
-        "speakerUrl": "https://github.com/flyingunicorn222",
-        "title": "Trading cryptocurrencies, forex, commodities stocks and more using node.js",
-        "description": "<p>Description: The aim of the talk is to show what i have learnt and the libraries and tools i have developed over the last couple years after getting into trading bitcoin and ethereum, which turned out later into trading all sorts of things based on technical analysis and a bit of flaky statistics. I&#39;m really bad at making graphs and charts and what not, so expect some hands on approach, the talk should cover the very basics of trading and then how to use trading APIs to actually buy and sell stuff online directly from your command line.</p>\n<p>About me: The first time i programmed javascript was twenty years ago and since them i have played around with pretty much all the interesting programming languages i have found in front of me just to discover in 2011 i would actually end up doing everything again using only node.js. During this long journey i have worked on backend and frontend applications, interactive games, multiplayer applications, and whatnot. The last few years my big interest turned to be blockchain, cryptocurrencies and trading. After moving to London nearly seven years ago i worked for a few years in a very nice design studio and then later left to create my own little technology company where all those crazy experiments happen.</p>\n",
-        "milestone": "May 24th 2017",
-        "img": "https://avatars0.githubusercontent.com/u/20960175?v=3",
-        "handle": "flyingunicorn222",
-        "name": null
+        "apiSpeakerUrl": "https://api.github.com/users/lrlna",
+        "speakerUrl": "https://github.com/lrlna",
+        "title": "knock-knock-who-there-file-compression-talk_FINAL_2.tar.trz.bz2.gz",
+        "description": "<h2 id=\"abstract\">abstract</h2>\n<p>Fade in. An opened terminal window. iTerm2 is the flavour. Dracula, the theme. You split the panes in two. You are at it again: a stash of audio buffers and that dream of manipulating a lossless file. With node as your language of choice you embark on the night. You manipulate, you transform, you have your byte order sorted, on their own accord your fingers start to type <code>gzip -f yourFavPhilCollinsSong.wav</code>. All of a sudden, a whisper: </p>\n<p><em>But what if</em>.</p>\n<p>we <strong>stream</strong>.</p>\n<p><em>file compression</em>.</p>\n<p>on the <strong>fly</strong>.</p>\n<p>Fade to black. </p>\n<p>In this talk we will walk through file compression algorithms in node as well compression standards. We will cover working with streams, audio buffers, and typed arrays to get us to compress and decompress files, and yourFavPhilCollinsSong.wav.</p>\n<h2 id=\"bio\">bio</h2>\n<p>tl;dr javascript, infrastructure, &#55356;&#57180; &#55356;&#57180; &#55356;&#57180;.</p>\n<p>The not so short: <a href=\"twitter.com/_lrlna\">Irina</a> is a Berlin via London via Vancouver (geeeez grrrl) software developer who is, oh hey, hello, really into node.js. She writes node over at scripto.cc and <a href=\"https://github.com/lrlna\">contributes to a few open-source projects</a> in the meantime. Outside of coding, she spends quite a bit of her time exploring the outdoors, gushing over trains, and reading some Beatniks.</p>\n",
+        "milestone": "June 28th 2017",
+        "img": "https://avatars1.githubusercontent.com/u/8107784?v=3",
+        "handle": "lrlna",
+        "name": "Irina Shestak"
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/paulbjensen",
-        "speakerUrl": "https://github.com/paulbjensen",
-        "title": "From LNUG presentation to published book - my tale of writing &quot;Cross Platform Desktop Applications&quot;",
-        "description": "<p>3 years ago I gave a talk at LNUG on Node Webkit, and then posted online. Little did I know that the end result would be writing a book for Manning publications on Electron and NW.js.</p>\n<p>This talk is about how that happened, the process of writing a book about those Node.js frameworks, and the learnings from undertaking the whole project. </p>\n<p>My name is Paul Jensen, and I&#39;m a Senior Pre-Sales Consultant at Starcount. My Twitter handle is @paulbjensen.</p>\n",
-        "milestone": "May 24th 2017",
-        "img": "https://avatars0.githubusercontent.com/u/3840?v=3",
-        "handle": "paulbjensen",
-        "name": "Paul Jensen"
+        "apiSpeakerUrl": "https://api.github.com/users/danielkhan",
+        "speakerUrl": "https://github.com/danielkhan",
+        "title": "Don&#39;t Let Just Node.js Take the Blame!",
+        "description": "<h2 id=\"abstract\">Abstract</h2>\n<p>Most likely you are choosing Node.js because it has the reputation to be super-fast, easy to use and you heard a lot of success stories at meetups and conferences. Sure you did performance and scalability tests which confirmed that your decision was correct to go with Node.js. </p>\n<p>What Daniel has seen is that in enterprise environments Node.js often acts as the (often microservice based) gluing tier that connects legacy services to modern offerings like mobile apps or your HTML5 SPA (Single Page Apps) via a REST API Layer. </p>\n<p>This means that once you integrate your application into the company infrastructure, connect it to internal &amp; external services and go productive you may be the first person to be blamed because &quot;the website is slow&quot; or even better &quot;something broke &ndash; there is an error we have not seen before&quot;. But who knows if in fact a service consumed or brokered by Node or a database is slow?  In this session Daniel will cover - how to trace down problems inside Node - the challenges operations is facing in todays highly heterogeneous applications - how to protect the boundaries of your service to pinpoint problems in other tiers - new tracing features in upcoming versions of Node.</p>\n<h2 id=\"bio\">Bio</h2>\n<p>Pragmatic fullstack engineer from BGP to AJAX. Speaker, mentor and course author. I am leading the Node.js technology efforts of Dynatrace. Member of Node.js Diagnostics WG. Let&#39;s chat about the old days, todays cutting edge technologies, (web) performance ... you name it.</p>\n<p><a href=\"https://twitter.com/dkhan\">@dkhan</a> on twitter</p>\n",
+        "milestone": "June 28th 2017",
+        "img": "https://avatars2.githubusercontent.com/u/2722161?v=3",
+        "handle": "danielkhan",
+        "name": "Daniel Khan"
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/willm",
-        "speakerUrl": "https://github.com/willm",
-        "title": "Speeding up CI with node and docker",
-        "description": "<p>Tips for running faster builds with nodejs and docker. This talk mainly outlines lessons learned and optimisations which will hopefully help you get quicker feedback from your CI pipeline and make your deployments run quicker.</p>\n<p>Although I have more experience in the back end side of things, I strive to be a full stack developer. I like working on well tested codebases with a well oiled CI pipeline</p>\n",
-        "milestone": "May 24th 2017",
-        "img": "https://avatars2.githubusercontent.com/u/771001?v=3",
-        "handle": "willm",
-        "name": "Will Munn"
+        "title": "Slot available",
+        "name": "Submit your talk!",
+        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
+        "img": "/images/favicon/favicon-128.png",
+        "speakerUrl": "https://lnug.org/speak.html",
+        "milestone": "June 28th 2017"
     }
 ]
 },{}],5:[function(require,module,exports){
