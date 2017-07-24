@@ -45,7 +45,7 @@
   <div id="container"><div class="map-holder">
   <div class="lnug-ticket"><div class="box split">
   <div class="inner">
-    <h1 class="animated bounceInTop">Next meetup - <span class="lnug-nextmeetup">June 28th 2017</span></h1>
+    <h1 class="animated bounceInTop">Next meetup - <span class="lnug-nextmeetup">August 23rd 2017</span></h1>
     <div class="info clearfix">
       <div class="wp desc">A friendly monthly meetup for people using Node.js for fun or profit.</div>
       <div class="wp">Doors open<h2>6:30</h2>pm</div>
@@ -72,18 +72,24 @@
 
   <h1 class="animated bounceInTop">Talks</h1>
   <ul class="lnug-content"><li class="row lnug-talk">
-  <h2 class="title">Don&apos;t Let Just Node.js Take the Blame!</h2>
+  <h2 class="title">Node microservices at Pizza Hut</h2>
   <div>
-    <img class="img-circle avatar" alt="Speaker image" src="https://avatars2.githubusercontent.com/u/2722161?v=3">
-    <span class="lnug-twitterhandle"><a href="https://github.com/danielkhan"><span class="name">Daniel Khan</span></a></span>
+    <img class="img-circle avatar" alt="Speaker image" src="https://avatars1.githubusercontent.com/u/6726858?v=4">
+    <span class="lnug-twitterhandle"><a href="https://github.com/lithin"><span class="name">Anna Doubkova</span></a></span>
   </div>
-  <div class="desc"><h2 id="abstract">Abstract</h2>
-<p>Most likely you are choosing Node.js because it has the reputation to be super-fast, easy to use and you heard a lot of success stories at meetups and conferences. Sure you did performance and scalability tests which confirmed that your decision was correct to go with Node.js. </p>
-<p>What Daniel has seen is that in enterprise environments Node.js often acts as the (often microservice based) gluing tier that connects legacy services to modern offerings like mobile apps or your HTML5 SPA (Single Page Apps) via a REST API Layer. </p>
-<p>This means that once you integrate your application into the company infrastructure, connect it to internal &amp; external services and go productive you may be the first person to be blamed because &quot;the website is slow&quot; or even better &quot;something broke &#x2013; there is an error we have not seen before&quot;. But who knows if in fact a service consumed or brokered by Node or a database is slow?  In this session Daniel will cover - how to trace down problems inside Node - the challenges operations is facing in todays highly heterogeneous applications - how to protect the boundaries of your service to pinpoint problems in other tiers - new tracing features in upcoming versions of Node.</p>
-<h2 id="bio">Bio</h2>
-<p>Pragmatic fullstack engineer from BGP to AJAX. Speaker, mentor and course author. I am leading the Node.js technology efforts of Dynatrace. Member of Node.js Diagnostics WG. Let&apos;s chat about the old days, todays cutting edge technologies, (web) performance ... you name it.</p>
-<p><a href="https://twitter.com/dkhan">@dkhan</a> on twitter</p>
+  <div class="desc"><p><strong>Abstract</strong>
+Pizza Hut website is powered by a system of 20+ microservices, all docker-ised and running in AWS. What challenges did we meet while writing it? How do you maintain, develop for, and test a system with extremely high availability on such a scale? It&apos;s a bit like juggling twenty fragile glass balls while riding a bicycle. Nevertheless, it&apos;s a surprisingly reliable way of delivering the best user experience, and pizza, to our users.</p>
+<p><strong>More info</strong>
+I&apos;ll introduce our (complex) infrastructure and will talk a bit more about challenges we have faced and how we solved them.</p>
+<ol>
+<li>Splitting logic into microservices; changes made into several microservices at once &amp; deployment.</li>
+<li>Testing our huge products API; running over 20000 unit tests on one microservice, we need to micro-optimise.</li>
+<li>Making sure it actually works; a system of logging, monitoring, and support</li>
+</ol>
+<p>I believe Pizza Hut will be also happy to sponsor the event and deliver some free pizza ;)</p>
+<p><strong>About me</strong>
+I&apos;m a software engineer at Pizza Hut (contractor), speaker, node and react developer. Previously worked at Red Badger and Time Out. I recently spoke at JeffConf, React London 2017, several meetups.
+Twitter handler: @lithinn</p>
 </div>
 </li>
 <li class="row lnug-talk">
@@ -95,23 +101,12 @@
   <div class="desc">This slot is still available, help us out: <a href="/speak.html">Submit a talk proposal</a>.</div>
 </li>
 <li class="row lnug-talk">
-  <h2 class="title">knock-knock-who-there-file-compression-talk_FINAL_2.tar.trz.bz2.gz</h2>
+  <h2 class="title">Slot available</h2>
   <div>
-    <img class="img-circle avatar" alt="Speaker image" src="https://avatars1.githubusercontent.com/u/8107784?v=3">
-    <span class="lnug-twitterhandle"><a href="https://github.com/lrlna"><span class="name">Irina Shestak</span></a></span>
+    <img class="img-circle avatar" alt="Speaker image" src="/images/favicon/favicon-128.png">
+    <span class="lnug-twitterhandle"><a href="https://lnug.org/speak.html"><span class="name">Submit your talk!</span></a></span>
   </div>
-  <div class="desc"><h2 id="abstract">abstract</h2>
-<p>Fade in. An opened terminal window. iTerm2 is the flavour. Dracula, the theme. You split the panes in two. You are at it again: a stash of audio buffers and that dream of manipulating a lossless file. With node as your language of choice you embark on the night. You manipulate, you transform, you have your byte order sorted, on their own accord your fingers start to type <code>gzip -f yourFavPhilCollinsSong.wav</code>. All of a sudden, a whisper: </p>
-<p><em>But what if</em>.</p>
-<p>we <strong>stream</strong>.</p>
-<p><em>file compression</em>.</p>
-<p>on the <strong>fly</strong>.</p>
-<p>Fade to black. </p>
-<p>In this talk we will walk through file compression algorithms in node as well compression standards. We will cover working with streams, audio buffers, and typed arrays to get us to compress and decompress files, and yourFavPhilCollinsSong.wav.</p>
-<h2 id="bio">bio</h2>
-<p>tl;dr javascript, infrastructure, &#xFFFD;&#xFFFD; &#xFFFD;&#xFFFD; &#xFFFD;&#xFFFD;.</p>
-<p>The not so short: <a href="twitter.com/_lrlna">Irina</a> is a Berlin via London via Vancouver (geeeez grrrl) software developer who is, oh hey, hello, really into node.js. She writes node over at scripto.cc and <a href="https://github.com/lrlna">contributes to a few open-source projects</a> in the meantime. Outside of coding, she spends quite a bit of her time exploring the outdoors, gushing over trains, and reading some Beatniks.</p>
-</div>
+  <div class="desc">This slot is still available, help us out: <a href="/speak.html">Submit a talk proposal</a>.</div>
 </li>
 </ul>
 

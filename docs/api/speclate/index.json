@@ -8,7 +8,7 @@
         ".lnug-ticket": {
             "component": "ticket",
             "data": {
-                ".lnug-nextmeetup": "June 28th 2017",
+                ".lnug-nextmeetup": "August 23rd 2017",
                 ".venue": "Makers Academy",
                 "address": "50 - 52 Commercial St<br />London E1 6LT",
                 ".address a": {
@@ -23,14 +23,14 @@
             "component": "speaker",
             "data": [
                 {
-                    ".name": "Daniel Khan",
-                    ".title": "Don&#39;t Let Just Node.js Take the Blame!",
-                    ".desc": "<h2 id=\"abstract\">Abstract</h2>\n<p>Most likely you are choosing Node.js because it has the reputation to be super-fast, easy to use and you heard a lot of success stories at meetups and conferences. Sure you did performance and scalability tests which confirmed that your decision was correct to go with Node.js. </p>\n<p>What Daniel has seen is that in enterprise environments Node.js often acts as the (often microservice based) gluing tier that connects legacy services to modern offerings like mobile apps or your HTML5 SPA (Single Page Apps) via a REST API Layer. </p>\n<p>This means that once you integrate your application into the company infrastructure, connect it to internal &amp; external services and go productive you may be the first person to be blamed because &quot;the website is slow&quot; or even better &quot;something broke &ndash; there is an error we have not seen before&quot;. But who knows if in fact a service consumed or brokered by Node or a database is slow?  In this session Daniel will cover - how to trace down problems inside Node - the challenges operations is facing in todays highly heterogeneous applications - how to protect the boundaries of your service to pinpoint problems in other tiers - new tracing features in upcoming versions of Node.</p>\n<h2 id=\"bio\">Bio</h2>\n<p>Pragmatic fullstack engineer from BGP to AJAX. Speaker, mentor and course author. I am leading the Node.js technology efforts of Dynatrace. Member of Node.js Diagnostics WG. Let&#39;s chat about the old days, todays cutting edge technologies, (web) performance ... you name it.</p>\n<p><a href=\"https://twitter.com/dkhan\">@dkhan</a> on twitter</p>\n",
+                    ".name": "Anna Doubkova",
+                    ".title": "Node microservices at Pizza Hut",
+                    ".desc": "<p><strong>Abstract</strong>&#10;Pizza Hut website is powered by a system of 20+ microservices, all docker-ised and running in AWS. What challenges did we meet while writing it? How do you maintain, develop for, and test a system with extremely high availability on such a scale? It&#39;s a bit like juggling twenty fragile glass balls while riding a bicycle. Nevertheless, it&#39;s a surprisingly reliable way of delivering the best user experience, and pizza, to our users.</p>\n<p><strong>More info</strong>&#10;I&#39;ll introduce our (complex) infrastructure and will talk a bit more about challenges we have faced and how we solved them.</p>\n<ol>\n<li>Splitting logic into microservices; changes made into several microservices at once &amp; deployment.</li>\n<li>Testing our huge products API; running over 20000 unit tests on one microservice, we need to micro-optimise.</li>\n<li>Making sure it actually works; a system of logging, monitoring, and support</li>\n</ol>\n<p>I believe Pizza Hut will be also happy to sponsor the event and deliver some free pizza ;)</p>\n<p><strong>About me</strong>&#10;I&#39;m a software engineer at Pizza Hut (contractor), speaker, node and react developer. Previously worked at Red Badger and Time Out. I recently spoke at JeffConf, React London 2017, several meetups.&#10;Twitter handler: @lithinn</p>\n",
                     "img": {
-                        "src": "https://avatars2.githubusercontent.com/u/2722161?v=3"
+                        "src": "https://avatars1.githubusercontent.com/u/6726858?v=4"
                     },
                     ".lnug-twitterhandle a": {
-                        "href": "https://github.com/danielkhan"
+                        "href": "https://github.com/lithin"
                     }
                 },
                 {
@@ -45,14 +45,14 @@
                     }
                 },
                 {
-                    ".name": "Irina Shestak",
-                    ".title": "knock-knock-who-there-file-compression-talk_FINAL_2.tar.trz.bz2.gz",
-                    ".desc": "<h2 id=\"abstract\">abstract</h2>\n<p>Fade in. An opened terminal window. iTerm2 is the flavour. Dracula, the theme. You split the panes in two. You are at it again: a stash of audio buffers and that dream of manipulating a lossless file. With node as your language of choice you embark on the night. You manipulate, you transform, you have your byte order sorted, on their own accord your fingers start to type <code>gzip -f yourFavPhilCollinsSong.wav</code>. All of a sudden, a whisper: </p>\n<p><em>But what if</em>.</p>\n<p>we <strong>stream</strong>.</p>\n<p><em>file compression</em>.</p>\n<p>on the <strong>fly</strong>.</p>\n<p>Fade to black. </p>\n<p>In this talk we will walk through file compression algorithms in node as well compression standards. We will cover working with streams, audio buffers, and typed arrays to get us to compress and decompress files, and yourFavPhilCollinsSong.wav.</p>\n<h2 id=\"bio\">bio</h2>\n<p>tl;dr javascript, infrastructure, &#55356;&#57180; &#55356;&#57180; &#55356;&#57180;.</p>\n<p>The not so short: <a href=\"twitter.com/_lrlna\">Irina</a> is a Berlin via London via Vancouver (geeeez grrrl) software developer who is, oh hey, hello, really into node.js. She writes node over at scripto.cc and <a href=\"https://github.com/lrlna\">contributes to a few open-source projects</a> in the meantime. Outside of coding, she spends quite a bit of her time exploring the outdoors, gushing over trains, and reading some Beatniks.</p>\n",
+                    ".name": "Submit your talk!",
+                    ".title": "Slot available",
+                    ".desc": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
                     "img": {
-                        "src": "https://avatars1.githubusercontent.com/u/8107784?v=3"
+                        "src": "/images/favicon/favicon-128.png"
                     },
                     ".lnug-twitterhandle a": {
-                        "href": "https://github.com/lrlna"
+                        "href": "https://lnug.org/speak.html"
                     }
                 }
             ]
