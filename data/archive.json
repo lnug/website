@@ -3,14 +3,14 @@
         "date": "August 2017",
         "speakers": [
             {
+                "name": null,
+                "url": "https://github.com/BrunoGodefroy",
+                "title": "Do not yield to javascript generators!"
+            },
+            {
                 "name": "Anna Doubkova",
                 "url": "https://github.com/lithin",
                 "title": "Node microservices at Pizza Hut"
-            },
-            {
-                "name": "Submit your talk!",
-                "url": "https://lnug.org/speak.html",
-                "title": "Slot available"
             },
             {
                 "name": "Submit your talk!",

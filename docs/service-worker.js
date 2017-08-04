@@ -12,14 +12,14 @@ module.exports=[
         "date": "August 2017",
         "speakers": [
             {
+                "name": null,
+                "url": "https://github.com/BrunoGodefroy",
+                "title": "Do not yield to javascript generators!"
+            },
+            {
                 "name": "Anna Doubkova",
                 "url": "https://github.com/lithin",
                 "title": "Node microservices at Pizza Hut"
-            },
-            {
-                "name": "Submit your talk!",
-                "url": "https://lnug.org/speak.html",
-                "title": "Slot available"
             },
             {
                 "name": "Submit your talk!",
@@ -1629,6 +1629,16 @@ module.exports=[
 },{}],4:[function(require,module,exports){
 module.exports=[
     {
+        "apiSpeakerUrl": "https://api.github.com/users/BrunoGodefroy",
+        "speakerUrl": "https://github.com/BrunoGodefroy",
+        "title": "Do not yield to javascript generators!",
+        "description": "<p><strong>Abstract</strong> Have you ever found yourself completely lost in front of a yield statement? What is this? Where does my promise go? How come I get the result back?</p>\n<p>Generators are widely used amoung Node and javascript libraries to enable developers to write powerful code in a simple way.</p>\n<p>I will try to answer all these questions and we will recreate together the <a href=\"https://github.com/tj/co\">co library</a> that is used, for example, in <a href=\"https://github.com/koajs/koa\">Koajs</a>.</p>\n<p>I would then like to go into a step by step decomposition of <a href=\"https://github.com/redux-saga/redux-saga\">redux-saga</a> to understand how this wonderful library uses generators.</p>\n<p><strong>A bit about me</strong> I&#39;m a full stack developer at Theodo UK, a web agency in central London. We help our clients to solve their business problems through code. Our clients range from young startups to large corporates.&#10;Twitter: <a href=\"https://twitter.com/switcher7707\">@switcher7707</a></p>\n",
+        "milestone": "August 23rd 2017",
+        "img": "https://avatars1.githubusercontent.com/u/20793868?v=4",
+        "handle": "BrunoGodefroy",
+        "name": null
+    },
+    {
         "apiSpeakerUrl": "https://api.github.com/users/lithin",
         "speakerUrl": "https://github.com/lithin",
         "title": "Node microservices at Pizza Hut",
@@ -1637,14 +1647,6 @@ module.exports=[
         "img": "https://avatars1.githubusercontent.com/u/6726858?v=4",
         "handle": "lithin",
         "name": "Anna Doubkova"
-    },
-    {
-        "title": "Slot available",
-        "name": "Submit your talk!",
-        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
-        "img": "/images/favicon/favicon-128.png",
-        "speakerUrl": "https://lnug.org/speak.html",
-        "milestone": "August 23rd 2017"
     },
     {
         "title": "Slot available",
@@ -1758,6 +1760,7 @@ var thisMonth = require('../data/this-month.json')
 
 function speakerSelectors (speaker) {
   var speakerUrl
+  var speakerID
 
   if (speaker.speakerUrl) {
     speakerUrl = speaker.speakerUrl
@@ -1765,8 +1768,14 @@ function speakerSelectors (speaker) {
     speakerUrl = 'https://github.com/' + speaker.handle
   }
 
+  if(speaker.name){
+    speakerID = speaker.name
+  } else {
+    speakerID = speaker.handle
+  }
+
   return {
-    '.name': speaker.name,
+    '.name': speakerID,
     '.title': speaker.title,
     '.desc': speaker.description,
     img: {
