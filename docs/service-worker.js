@@ -12,6 +12,11 @@ module.exports=[
         "date": "August 2017",
         "speakers": [
             {
+                "name": "Zaiste",
+                "url": "https://github.com/zaiste",
+                "title": "Rapid web development with Huncwot &amp; Marko"
+            },
+            {
                 "name": null,
                 "url": "https://github.com/BrunoGodefroy",
                 "title": "Do not yield to javascript generators!"
@@ -20,11 +25,6 @@ module.exports=[
                 "name": "Anna Doubkova",
                 "url": "https://github.com/lithin",
                 "title": "Node microservices at Pizza Hut"
-            },
-            {
-                "name": "Submit your talk!",
-                "url": "https://lnug.org/speak.html",
-                "title": "Slot available"
             }
         ]
     },
@@ -1629,6 +1629,16 @@ module.exports=[
 },{}],4:[function(require,module,exports){
 module.exports=[
     {
+        "apiSpeakerUrl": "https://api.github.com/users/zaiste",
+        "speakerUrl": "https://github.com/zaiste",
+        "title": "Rapid web development with Huncwot &amp; Marko",
+        "description": "<p><strong>Abstract</strong> <a href=\"https://github.com/zaiste/huncwot\">Huncwot</a> is an opinionated &amp; minimal Node.js (yet another) web framework, slightly inspired by Clojure and built for ES6/7 era with &laquo; batteries included &raquo; approach. It tries to formalize conventions and eliminate choices by providing solid defaults for building web applications that increase the programmers productivity. In this talk we&#39;ll explore how to build an application with Huncwot, what it brings to the table and how to make (web) programming more approachable, especially to non-programmers.</p>\n<p><strong>A bit about me</strong> I run a software company called <a href=\"https://nukomeet.com/\">Nukomeet</a>. In my spare time I organise <a href=\"https://polyconf.com/\">PolyConf</a>. Twitter: <a href=\"http://twitter.com/zaiste\">@zaiste</a></p>\n",
+        "milestone": "August 23rd 2017",
+        "img": "https://avatars1.githubusercontent.com/u/200613?v=4",
+        "handle": "zaiste",
+        "name": "Zaiste"
+    },
+    {
         "apiSpeakerUrl": "https://api.github.com/users/BrunoGodefroy",
         "speakerUrl": "https://github.com/BrunoGodefroy",
         "title": "Do not yield to javascript generators!",
@@ -1647,14 +1657,6 @@ module.exports=[
         "img": "https://avatars1.githubusercontent.com/u/6726858?v=4",
         "handle": "lithin",
         "name": "Anna Doubkova"
-    },
-    {
-        "title": "Slot available",
-        "name": "Submit your talk!",
-        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
-        "img": "/images/favicon/favicon-128.png",
-        "speakerUrl": "https://lnug.org/speak.html",
-        "milestone": "August 23rd 2017"
     }
 ]
 },{}],5:[function(require,module,exports){
