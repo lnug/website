@@ -6,6 +6,10 @@
             "component": "archive",
             "data": [
                 {
+                    ".date": "September 2017",
+                    ".speakers": "<li>Having your Node.js Cake and Eating It Too -  <a href=\"https://github.com/robtweed\">null</a> </li> <li>Hapi + Nes + MiniMongo for gloryful reactive apps -  <a href=\"https://github.com/alanshaw\">Alan Shaw</a> </li> <li>Slot available -  <a href=\"https://lnug.org/speak.html\">Submit your talk!</a> </li>"
+                },
+                {
                     ".date": "August 2017",
                     ".speakers": "<li>Rapid web development with Huncwot &amp; Marko -  <a href=\"https://github.com/zaiste\">Zaiste</a> </li> <li>Do not yield to javascript generators! -  <a href=\"https://github.com/BrunoGodefroy\">null</a> </li> <li>Node microservices at Pizza Hut -  <a href=\"https://github.com/lithin\">Anna Doubkova</a> </li>"
                 },

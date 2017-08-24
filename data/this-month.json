@@ -1,32 +1,30 @@
 [
     {
-        "apiSpeakerUrl": "https://api.github.com/users/zaiste",
-        "speakerUrl": "https://github.com/zaiste",
-        "title": "Rapid web development with Huncwot &amp; Marko",
-        "description": "<p><strong>Abstract</strong> <a href=\"https://github.com/zaiste/huncwot\">Huncwot</a> is an opinionated &amp; minimal Node.js (yet another) web framework, slightly inspired by Clojure and built for ES6/7 era with &laquo; batteries included &raquo; approach. It tries to formalize conventions and eliminate choices by providing solid defaults for building web applications that increase the programmers productivity. In this talk we&#39;ll explore how to build an application with Huncwot, what it brings to the table and how to make (web) programming more approachable, especially to non-programmers.</p>\n<p><strong>A bit about me</strong> I run a software company called <a href=\"https://nukomeet.com/\">Nukomeet</a>. In my spare time I organise <a href=\"https://polyconf.com/\">PolyConf</a>. Twitter: <a href=\"http://twitter.com/zaiste\">@zaiste</a></p>\n",
-        "milestone": "August 23rd 2017",
-        "img": "https://avatars1.githubusercontent.com/u/200613?v=4",
-        "handle": "zaiste",
-        "name": "Zaiste"
-    },
-    {
-        "apiSpeakerUrl": "https://api.github.com/users/BrunoGodefroy",
-        "speakerUrl": "https://github.com/BrunoGodefroy",
-        "title": "Do not yield to javascript generators!",
-        "description": "<p><strong>Abstract</strong> Have you ever found yourself completely lost in front of a yield statement? What is this? Where does my promise go? How come I get the result back?</p>\n<p>Generators are widely used amoung Node and javascript libraries to enable developers to write powerful code in a simple way.</p>\n<p>I will try to answer all these questions and we will recreate together the <a href=\"https://github.com/tj/co\">co library</a> that is used, for example, in <a href=\"https://github.com/koajs/koa\">Koajs</a>.</p>\n<p>I would then like to go into a step by step decomposition of <a href=\"https://github.com/redux-saga/redux-saga\">redux-saga</a> to understand how this wonderful library uses generators.</p>\n<p><strong>A bit about me</strong> I&#39;m a full stack developer at Theodo UK, a web agency in central London. We help our clients to solve their business problems through code. Our clients range from young startups to large corporates.&#10;Twitter: <a href=\"https://twitter.com/switcher7707\">@switcher7707</a></p>\n",
-        "milestone": "August 23rd 2017",
-        "img": "https://avatars1.githubusercontent.com/u/20793868?v=4",
-        "handle": "BrunoGodefroy",
+        "apiSpeakerUrl": "https://api.github.com/users/robtweed",
+        "speakerUrl": "https://github.com/robtweed",
+        "title": "Having your Node.js Cake and Eating It Too",
+        "description": "<p>Rob&#39;s article on the <a href=\"https://github.com/robtweed/qewd\">QEWD.js</a> project was recently <a href=\"https://medium.com/the-node-js-collection/having-your-node-js-cake-and-eating-it-too-799e90d40186\">published in the Node.js Foundation&#39;s Collection</a>. &#10; In this presentation, he will expand on the themes discussed in his article, in particular how the architectural design of QEWD.js creates a unique run-time environment that provides a solution to some of the concurrency-related problem areas of Node.js such as CPU-intensive and long-running code.</p>\n<p>Rob Tweed (<a href=\"https://twitter.com/rtweed\">@rtweed</a>) is a Director of M/Gateway Development Ltd,  a consultancy and software development company in the UK that has focused on web and NoSQL database technologies, particularly in the healthcare industry, since the mid-90s.  Rob has been an attendee of LNUG since its earliest meetings - indeed he gave a presentation at the very first meeting in 2011!</p>\n",
+        "milestone": "September 27th 2017",
+        "img": "https://avatars0.githubusercontent.com/u/424546?v=4",
+        "handle": "robtweed",
         "name": null
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/lithin",
-        "speakerUrl": "https://github.com/lithin",
-        "title": "Node microservices at Pizza Hut",
-        "description": "<p><strong>Abstract</strong>&#10;Pizza Hut website is powered by a system of 20+ microservices, all docker-ised and running in AWS. What challenges did we meet while writing it? How do you maintain, develop for, and test a system with extremely high availability on such a scale? It&#39;s a bit like juggling twenty fragile glass balls while riding a bicycle. Nevertheless, it&#39;s a surprisingly reliable way of delivering the best user experience, and pizza, to our users.</p>\n<p><strong>More info</strong>&#10;I&#39;ll introduce our (complex) infrastructure and will talk a bit more about challenges we have faced and how we solved them.</p>\n<ol>\n<li>Splitting logic into microservices; changes made into several microservices at once &amp; deployment.</li>\n<li>Testing our huge products API; running over 20000 unit tests on one microservice, we need to micro-optimise.</li>\n<li>Making sure it actually works; a system of logging, monitoring, and support</li>\n</ol>\n<p><strong>About me</strong>&#10;I&#39;m a software engineer at Pizza Hut (contractor), speaker, node and react developer. Previously worked at Red Badger and Time Out. I recently spoke at JeffConf, React London 2017, several meetups.&#10;Twitter handler: <a href=\"https://twitter.com/lithinn\">@lithinn</a></p>\n",
-        "milestone": "August 23rd 2017",
-        "img": "https://avatars1.githubusercontent.com/u/6726858?v=4",
-        "handle": "lithin",
-        "name": "Anna Doubkova"
+        "apiSpeakerUrl": "https://api.github.com/users/alanshaw",
+        "speakerUrl": "https://github.com/alanshaw",
+        "title": "Hapi + Nes + MiniMongo for gloryful reactive apps",
+        "description": "<p>Ever used Meteor with React? What does it take to recreate the same reactive pub-sub experience using <a href=\"https://hapijs.com/\">Hapi</a>, <a href=\"https://github.com/hapijs/nes\">Nes</a> and a <a href=\"https://github.com/kofrasa/mingo\">MiniMongo</a> library? Turns out, not a lot. Introduckting Nesquirk - a small lib built to give new life to your frontend, without having to re-write your Hapi+Mongo based backend.</p>\n<p>In this talk I explain the merits of the reactive pub-sub experience in Meteor, live coding an example to show how frustrating stale data can be when using a simple JSON HTTP API.</p>\n<p>I then live code a similar app, using Hapi, Nesquirk and React to show how you can bring Meteor&#39;s reactive pub-sub magic to your Hapi app without having to rewrite from scratch.</p>\n<p>I am a recently time-poor developer working at <a href=\"https://tableflip.io/\">TABLEFLIP</a>. I used to think I was time-poor but then I had a child and I realised I had no idea what I was talking about. I&#39;m <a href=\"https://twitter.com/_alanshaw\">@_alanshaw</a> on the Twitters or @alanshaw on the Githubs. I sometimes code things in this language called JavaScript, you might have heard of it. TABLEFLIP &#10084;&#65039; to build awesome apps for startups and entrepreneurs. I help out with the <a href=\"https://www.meetup.com/NodeBots-of-London/\">Nodebots London</a> and <a href=\"https://www.meetup.com/Meteor-London/\">Meteor London</a> meetups sometimes and built this website called <a href=\"https://david-dm.org/\">https://david-dm.org/</a>.</p>\n",
+        "milestone": "September 27th 2017",
+        "img": "https://avatars1.githubusercontent.com/u/152863?v=4",
+        "handle": "alanshaw",
+        "name": "Alan Shaw"
+    },
+    {
+        "title": "Slot available",
+        "name": "Submit your talk!",
+        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
+        "img": "/images/favicon/favicon-128.png",
+        "speakerUrl": "https://lnug.org/speak.html",
+        "milestone": "September 27th 2017"
     }
 ]

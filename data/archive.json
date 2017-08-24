@@ -1,5 +1,25 @@
 [
     {
+        "date": "September 2017",
+        "speakers": [
+            {
+                "name": null,
+                "url": "https://github.com/robtweed",
+                "title": "Having your Node.js Cake and Eating It Too"
+            },
+            {
+                "name": "Alan Shaw",
+                "url": "https://github.com/alanshaw",
+                "title": "Hapi + Nes + MiniMongo for gloryful reactive apps"
+            },
+            {
+                "name": "Submit your talk!",
+                "url": "https://lnug.org/speak.html",
+                "title": "Slot available"
+            }
+        ]
+    },
+    {
         "date": "August 2017",
         "speakers": [
             {
