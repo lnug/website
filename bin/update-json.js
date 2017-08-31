@@ -38,16 +38,15 @@ superagent
         throw err
       }
 
-      while (completeAcceptedTalks.length < 3) {
         completeAcceptedTalks.push({
-          title: 'Slot available',
-          name: 'Submit your talk!',
-          description: 'This slot is still available, help us out: <a href="/speak.html">Submit a talk proposal</a>.',
+          title: 'Talk at LNUG',
+          name: 'Future speakers',
+          description: '<h3>We are a friendly crowd and would love to hear you talk.</h3> You may never have spoken at a meetup before, or you may be a seasoned conference speaker... either way, you probably have a node.js story to tell.  <a href="/speak.html">Submit a talk proposal</a> and we can help you prepare.',
           img: '/images/favicon/favicon-128.png',
           speakerUrl: 'https://lnug.org/speak.html',
           milestone: completeAcceptedTalks[0].milestone
         })
-      }
+
       fs.writeFile('./data/this-month.json', JSON.stringify(completeAcceptedTalks, null, 4), function () {
         console.log('Data file has been updated')
       })
