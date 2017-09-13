@@ -18,13 +18,5 @@
         "img": "https://avatars1.githubusercontent.com/u/152863?v=4",
         "handle": "alanshaw",
         "name": "Alan Shaw"
-    },
-    {
-        "title": "Slot available",
-        "name": "Submit your talk!",
-        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
-        "img": "/images/favicon/favicon-128.png",
-        "speakerUrl": "https://lnug.org/speak.html",
-        "milestone": "September 27th 2017"
     }
 ]
