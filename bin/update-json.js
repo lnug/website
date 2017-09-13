@@ -38,7 +38,7 @@ superagent
         throw err
       }
 
-      while (completeAcceptedTalks.length < 3) {
+      while (completeAcceptedTalks.length < 2) {
         completeAcceptedTalks.push({
           title: 'Slot available',
           name: 'Submit your talk!',
