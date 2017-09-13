@@ -428,7 +428,7 @@ footer {
     list-style: none;
     display: inline-block;
     vertical-align: top;
-    max-width: 31%;
+    max-width: 45%;
 }
 
 #home-gallery img {
@@ -552,7 +552,7 @@ footer {
         width: auto;
         display: inline-block;
         vertical-align: top;
-        max-width: 31%;
+        max-width: 45%;
     }
     .lnug-talk .title {
         min-height: 3em;

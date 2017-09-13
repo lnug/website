@@ -43,17 +43,6 @@
                     ".lnug-twitterhandle a": {
                         "href": "https://github.com/robtweed"
                     }
-                },
-                {
-                    ".name": "Submit your talk!",
-                    ".title": "Slot available",
-                    ".desc": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
-                    "img": {
-                        "src": "/images/favicon/favicon-128.png"
-                    },
-                    ".lnug-twitterhandle a": {
-                        "href": "https://lnug.org/speak.html"
-                    }
                 }
             ]
         },
