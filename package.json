@@ -14,7 +14,7 @@
     "html": "speclate --build",
     "build": "npm run update && npm run make",
     "client": "mkdir -p ./docs/client && browserify  ./client/index.js > ./client/index-compiled.js  && npm run service-worker",
-    "watch": "watchify ./client/index.js -o ./docs/client/index-compiled.js && watchify ./docs/client/service-worker.js -o ./service-worker.js",
+    "watch": "speclate --watch",
     "service-worker": "browserify ./client/service-worker.js > ./docs/service-worker.js"
   },
   "repository": {
