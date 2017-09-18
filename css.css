@@ -40,9 +40,33 @@ h1 {
   background-color:#fff;
 }
 
-#container.loading {
-  background-color:#eee;
+@keyframes loading{
+  0%{
+      background-position: 0px 0;
+  }
+  100%{
+      background-position: 1000px 0;
+  }
 }
+
+#container:before {
+  height: 4px;
+  content: ' ';
+  display: block;
+  position: relative;
+  /* top: 28px; */
+  width: 100%;
+  animation-duration: 4.25s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: loading;
+  animation-timing-function: linear;
+}
+
+#container.loading:before {
+  background: linear-gradient(to right, #fff 0%, #bed52e 20%, #fff 35%);
+}
+
 
 /*#container div > * {
   opacity: 1;
