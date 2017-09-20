@@ -31,7 +31,7 @@
     "appcache-nanny": "^1.1.0",
     "async": "2.x.x",
     "browserify": "14.x.x",
-    "chai": "^3.2.0",
+    "chai": "4.x.x",
     "html-entities": "^1.1.3",
     "imagemagick-stream": "^4.0.1",
     "jquery": "3.x.x",
@@ -39,11 +39,11 @@
     "moment": "^2.10.3",
     "node-html-encoder": "0.0.2",
     "shortid": "^2.2.4",
-    "speclate": "12.x.x",
+    "speclate": "16.x.x",
     "speclate-fetch-markdown": "1.x.x",
-    "speclate-router": "5.x.x",
+    "speclate-router": "8.x.x",
     "speclate-service-worker": "1.x.x",
-    "standard": "9.x.x",
+    "standard": "10.x.x",
     "superagent": "3.x.x"
   },
   "dependencies": {
