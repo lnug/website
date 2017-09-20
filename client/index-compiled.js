@@ -52,7 +52,7 @@ appCacheNanny.on('updateready', function () {
   location.reload()
 })
 
-},{"appcache-nanny":2,"jquery":14,"speclate-router":32}],2:[function(require,module,exports){
+},{"appcache-nanny":2,"jquery":14,"speclate-router":33}],2:[function(require,module,exports){
 // appCacheNanny
 // =============
 //
@@ -12506,6 +12506,10 @@ process.off = noop;
 process.removeListener = noop;
 process.removeAllListeners = noop;
 process.emit = noop;
+process.prependListener = noop;
+process.prependOnceListener = noop;
+
+process.listeners = function (name) { return [] }
 
 process.binding = function (name) {
     throw new Error('process.binding is not supported');
@@ -12714,9 +12718,18 @@ function updateNode($node, selector, data, $) {
         case 'number':
             $node = checkForInputs($node, data, $);
         break;
+        case 'boolean':
+            if(data === false) {
+               return  $node.remove();
+            }
+        break;
         case 'object':
             if (data && data.length) {
+
                 var $parent = $node.parent();
+                if(data.length === 1 && data[0] === false ) { // [ false ]
+                    return  $parent.remove();
+                }
                 var $newNode = $node.clone();
                 data.forEach(function (item, c) {
                     var $itemNode = $newNode.clone();
@@ -12803,100 +12816,87 @@ exports.text = function(file, callback) {
 
 
 },{}],32:[function(require,module,exports){
+
+var fetchJson = require('speclate-fetch').json
+var pageRender = require('./page-render')
+
+module.exports = function (specPath, htmlEl, loadingClass, $container, routerOptions, context) {
+  var active = true
+
+  fetchJson(specPath, function (err, pageSpec) {
+    if (!active) {
+      return
+    }
+    if (err) {
+      htmlEl.classList.remove(loadingClass)
+      return routerOptions.error(err, $container)
+    }
+    htmlEl.setAttribute('data-speclate-page', pageSpec.page)
+
+    var loaded = function () {
+      htmlEl.classList.remove(loadingClass)
+    }
+
+    if (context.init) {
+      // we should check the spec version here
+      // reset options to before /after functions are not passed in.
+      pageRender($container, pageSpec, {}, active, loaded)
+    } else {
+      pageRender($container, pageSpec, routerOptions, active, loaded)
+    }
+  })
+
+  return {
+    cancel: function (isActive) {
+      active = false
+    }
+  }
+}
+
+},{"./page-render":39,"speclate-fetch":31}],33:[function(require,module,exports){
 'use strict'
 
 var page = require('page')
-var pageRender = require('./page-render')
-var fetchJson = require('speclate-fetch').json
 
-module.exports = function (routerOptions, speclateOptions, pageRenderCallback) {
+var FetchPage = require('./fetch-page')
+var requests = []
+
+module.exports = function (routerOptions, speclateOptions) {
   speclateOptions = speclateOptions || {}
   routerOptions = routerOptions || {}
   var $container = $(speclateOptions.container || '#container')
   var loadingClass = routerOptions.loadingClass || 'loading'
+  var el = document.querySelector('html')
+  el.classList.add(loadingClass)
 
   page('*', function (context, next) {
+    el.classList.add(loadingClass)
+
+    routerOptions.preFetch && routerOptions.preFetch($container)
+
     var routeName = context.pathname.slice(0, -5)
     if (routeName === '') {
       routeName = '/index'
     }
     var specPath = '/api/speclate' + routeName + '.json'
-    $container.addClass(loadingClass)
 
-    var el = document.querySelector('html')
+
+
     el.setAttribute('data-speclate-url', context.pathname)
 
-    fetchJson(specPath, function (err, pageSpec) {
-      el.setAttribute('data-speclate-page', pageSpec.page)
-      if (err) {
-        $container.removeClass(loadingClass)
-        return routerOptions.error(err, $container)
-      }
+    if (requests) {
+      requests.forEach(function (req) {
+        req.cancel()
+      })
+      requests = []
+    }
 
-      if (context.init) {
-                    // we should check the spec version here
-                    // reset options to before /after functions are not passed in.
-        pageRender($container, pageSpec, {}, pageRenderCallback)
-      } else {
-        pageRender($container, pageSpec, routerOptions, pageRenderCallback)
-      }
-      $container.removeClass(loadingClass)
-    })
+    requests.push(new FetchPage(specPath, el, loadingClass, $container, routerOptions, context))
   })
   page()
 }
 
-},{"./page-render":33,"page":18,"speclate-fetch":31}],33:[function(require,module,exports){
-'use strict'
-
-var asyncParallel = require('async.parallel')
-var sizlate = require('sizlate')
-var getFile = require('speclate-fetch').readFile
-
-var doSizlate = require('speclate/lib/page/do-sizlate')
-var loadComponents = require('speclate/lib/page/load-components')
-
-/**
- * used for client side render.
- */
-module.exports = function ($container, page, options) {
-  asyncParallel({
-    pageLayout: function (next) {
-      var pageLayoutPath = '/pages/' + page.page + '/' + page.page + '.html'
-      getFile(pageLayoutPath, {encoding: 'utf-8'}, next)
-    },
-    components: function (next) {
-      if (page.spec) {
-        loadComponents(page.spec, next)
-      } else {
-        next()
-      }
-    }
-  }, function (err, data) {
-    if (err) {
-      options.error && options.error(err, $container)
-      return
-    }
-
-    if (options.before) {
-      options.before(null, markup, page)
-    }
-
-    sizlate.render($('html'), {
-      '#container': {
-        innerHTML: data.pageLayout
-      }
-    })
-
-    var markup = doSizlate(page, $('html'), data.components)
-
-    if (options.after) {
-      options.after(null, markup, page)
-    }
-  })
-}
-
-},{"async.parallel":4,"sizlate":30,"speclate-fetch":31,"speclate/lib/page/do-sizlate":37,"speclate/lib/page/load-components":38}],34:[function(require,module,exports){
+},{"./fetch-page":32,"page":18}],34:[function(require,module,exports){
 'use strict'
 
 var speclateFetch = require('speclate-fetch')
@@ -12954,7 +12954,6 @@ module.exports = function (page, layout, renderedComponents) {
   var componentSelectors = {}
   var simpleSelectors = {}
 
-
   var spec = page.spec
   // add components into selectors
   for (var selector in spec) {
@@ -13002,7 +13001,6 @@ var loadComponent = require('../load-component')
 function renderComponent (component, template) {
   if (isString(component.data)) {
     console.log('String passed into data, should be an array or object')
-    return
   } else if (isArray(component.data)) {
     // array of objects
     var outArr = []
@@ -13027,36 +13025,37 @@ function renderComponent (component, template) {
   }
 }
 
-module.exports = function (components, callback) {
+module.exports = function (pageSpec, callback) {
   var out = {}
   // for each component in the spec.
-  forEachOf(components, function (component, selector, next) {
-    if (typeof component.component === 'undefined') {
+  forEachOf(pageSpec, function (item, selector, next) {
+    if (typeof item.component === 'undefined') {
       return next()
-    } else if (!out[component.component]) {
-      out[component.component] = {}
+    } else if (!out[item.component]) {
+      out[item.component] = {}
     }
     // Go and fetch the component
-    loadComponent(component.component, function (err, template) {
+    loadComponent(item.component, function (err, template) {
       if (err) {
-        throw err
+        return callback(err)
       }
 
       // data can be a function.
-      if (typeof component.data === 'function') {
+      if (typeof item.data === 'function') {
         // call it
-        component.data(function (error, data) {
+        item.data(function (error, data) {
           if (error) {
-            throw error
+            return callback(error)
           }
-          out[component.component][selector] = renderComponent({
+
+          out[item.component][selector] = renderComponent({
             data: data,
-            component: component.component
+            component: item.component
           }, template)
           next()
         })
       } else {
-        out[component.component][selector] = renderComponent(component, template)
+        out[item.component][selector] = renderComponent(item, template)
         next()
       }
     })
@@ -13068,4 +13067,58 @@ module.exports = function (components, callback) {
   })
 }
 
-},{"../load-component":36,"async.eachof":3,"lodash.isarray":15,"lodash.isobject":16,"lodash.isstring":17,"sizlate":30}]},{},[1]);
+},{"../load-component":36,"async.eachof":3,"lodash.isarray":15,"lodash.isobject":16,"lodash.isstring":17,"sizlate":30}],39:[function(require,module,exports){
+'use strict'
+
+var asyncParallel = require('async.parallel')
+var sizlate = require('sizlate')
+var getFile = require('speclate-fetch').readFile
+
+var doSizlate = require('speclate/lib/page/do-sizlate')
+var loadComponents = require('speclate/lib/page/load-components')
+
+/**
+ * used for client side render.
+ */
+module.exports = function ($container, page, options, active, callback) {
+
+  asyncParallel({
+    pageLayout: function (next) {
+      var pageLayoutPath = '/pages/' + page.page + '/' + page.page + '.html'
+      getFile(pageLayoutPath, {encoding: 'utf-8'}, next)
+    },
+    components: function (next) {
+      if (page.spec) {
+        loadComponents(page.spec, next)
+      } else {
+        next()
+      }
+    }
+  }, function (err, data) {
+    if (!active) {
+      return
+    }
+    if (err) {
+      options.error && options.error(err, $container)
+      return
+    }
+
+    if (options.before) {
+      options.before(null, null, page)
+    }
+
+    sizlate.render($('html'), {
+      '#container': {
+        innerHTML: data.pageLayout
+      }
+    })
+    var markup = doSizlate(page, $('html'), data.components)
+
+    if (options.after) {
+      options.after(null, markup, page)
+    }
+    callback && callback(null, markup, page)
+  })
+}
+
+},{"async.parallel":4,"sizlate":30,"speclate-fetch":31,"speclate/lib/page/do-sizlate":37,"speclate/lib/page/load-components":38}]},{},[1]);
