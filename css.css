@@ -45,7 +45,7 @@ h1 {
       background-position: 0px 0;
   }
   100%{
-      background-position: 1000px 0;
+      background-position: 5000px 0;
   }
 }
 
@@ -61,14 +61,15 @@ h1 {
   animation-iteration-count: infinite;
   animation-name: loading;
   animation-timing-function: linear;
+  z-index: 10;
 }
 
-#container.loading:before {
+.loading #container:before {
   background: linear-gradient(to right, #fff 0%, #bed52e 20%, #fff 35%);
 }
 
 
-/*#container div > * {
+*#container  * {
   opacity: 1;
   transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
   transition: opacity 3ms;
@@ -76,10 +77,9 @@ h1 {
 
 }
 
-
-#container.loading div > * {
+.loading #container  * {
   opacity: 0;
-}*/
+}
 
 
 
