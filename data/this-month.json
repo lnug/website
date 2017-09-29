@@ -1,22 +1,20 @@
 [
     {
-        "apiSpeakerUrl": "https://api.github.com/users/robtweed",
-        "speakerUrl": "https://github.com/robtweed",
-        "title": "Having your Node.js Cake and Eating It Too",
-        "description": "<p>Rob&#39;s article on the <a href=\"https://github.com/robtweed/qewd\">QEWD.js</a> project was recently <a href=\"https://medium.com/the-node-js-collection/having-your-node-js-cake-and-eating-it-too-799e90d40186\">published in the Node.js Foundation&#39;s Collection</a>. &#10; In this presentation, he will expand on the themes discussed in his article, in particular how the architectural design of QEWD.js creates a unique run-time environment that provides a solution to some of the concurrency-related problem areas of Node.js such as CPU-intensive and long-running code.</p>\n<p>Rob Tweed (<a href=\"https://twitter.com/rtweed\">@rtweed</a>) is a Director of M/Gateway Development Ltd,  a consultancy and software development company in the UK that has focused on web and NoSQL database technologies, particularly in the healthcare industry, since the mid-90s.  Rob has been an attendee of LNUG since its earliest meetings - indeed he gave a presentation at the very first meeting in 2011!</p>\n",
-        "milestone": "September 27th 2017",
-        "img": "https://avatars0.githubusercontent.com/u/424546?v=4",
-        "handle": "robtweed",
-        "name": null
+        "apiSpeakerUrl": "https://api.github.com/users/sp3c1",
+        "speakerUrl": "https://github.com/sp3c1",
+        "title": "Scalable Scraping in Node and a bit of GO",
+        "description": "<p>A story of moving a monolithic Python Twisted application into NodeJs and micro services. Will discuss what problems we have faced, how we resolved particular issues and arrived at truly modular structure on AWS. Will highlight pain points and place we see for future improvements. </p>\n<p>Bartlomiej Specjalny, <del>Head of Internal Services at Flubit Ltd</del>, Lead NodeJs Sofrware Engineer at Pad Innovation Limited,  a fullstack software engineer with background in computer graphics and multimedia.</p>\n",
+        "milestone": "October 25th 2017",
+        "img": "https://avatars0.githubusercontent.com/u/4508208?v=4",
+        "handle": "sp3c1",
+        "name": "sp3c1"
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/alanshaw",
-        "speakerUrl": "https://github.com/alanshaw",
-        "title": "Hapi + Nes + MiniMongo for gloryful reactive apps",
-        "description": "<p>Ever used Meteor with React? What does it take to recreate the same reactive pub-sub experience using <a href=\"https://hapijs.com/\">Hapi</a>, <a href=\"https://github.com/hapijs/nes\">Nes</a> and a <a href=\"https://github.com/kofrasa/mingo\">MiniMongo</a> library? Turns out, not a lot. Introduckting Nesquirk - a small lib built to give new life to your frontend, without having to re-write your Hapi+Mongo based backend.</p>\n<p>In this talk I explain the merits of the reactive pub-sub experience in Meteor, live coding an example to show how frustrating stale data can be when using a simple JSON HTTP API.</p>\n<p>I then live code a similar app, using Hapi, Nesquirk and React to show how you can bring Meteor&#39;s reactive pub-sub magic to your Hapi app without having to rewrite from scratch.</p>\n<p>I am a recently time-poor developer working at <a href=\"https://tableflip.io/\">TABLEFLIP</a>. I used to think I was time-poor but then I had a child and I realised I had no idea what I was talking about. I&#39;m <a href=\"https://twitter.com/_alanshaw\">@_alanshaw</a> on the Twitters or @alanshaw on the Githubs. I sometimes code things in this language called JavaScript, you might have heard of it. TABLEFLIP &#10084;&#65039; to build awesome apps for startups and entrepreneurs. I help out with the <a href=\"https://www.meetup.com/NodeBots-of-London/\">Nodebots London</a> and <a href=\"https://www.meetup.com/Meteor-London/\">Meteor London</a> meetups sometimes and built this website called <a href=\"https://david-dm.org/\">https://david-dm.org/</a>.</p>\n",
-        "milestone": "September 27th 2017",
-        "img": "https://avatars1.githubusercontent.com/u/152863?v=4",
-        "handle": "alanshaw",
-        "name": "Alan Shaw"
+        "title": "Slot available",
+        "name": "Submit your talk!",
+        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
+        "img": "/images/favicon/favicon-128.png",
+        "speakerUrl": "https://lnug.org/speak.html",
+        "milestone": "October 25th 2017"
     }
 ]

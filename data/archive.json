@@ -1,5 +1,20 @@
 [
     {
+        "date": "October 2017",
+        "speakers": [
+            {
+                "name": "sp3c1",
+                "url": "https://github.com/sp3c1",
+                "title": "Scalable Scraping in Node and a bit of GO"
+            },
+            {
+                "name": "Submit your talk!",
+                "url": "https://lnug.org/speak.html",
+                "title": "Slot available"
+            }
+        ]
+    },
+    {
         "date": "September 2017",
         "speakers": [
             {
