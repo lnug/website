@@ -1662,7 +1662,7 @@ module.exports=[
         "apiSpeakerUrl": "https://api.github.com/users/sp3c1",
         "speakerUrl": "https://github.com/sp3c1",
         "title": "Scalable Scraping in Node and a bit of GO",
-        "description": "<p>A story of moving a monolithic Python Twisted application into NodeJs and micro services. Will discuss what problems we have faced, how we resolved particular issues and arrived at truly modular structure on AWS. Will highlight pain points and place we see for future improvements. </p>\n<p>Bartlomiej Specjalny, <del>Head of Internal Services at Flubit Ltd</del>, Lead NodeJs Sofrware Engineer at Pad Innovation Limited,  a fullstack software engineer with background in computer graphics and multimedia.</p>\n",
+        "description": "<p>A story of moving a monolithic Python Twisted application into NodeJs and micro services. Will discuss what problems we have faced, how we resolved particular issues and arrived at truly modular structure on AWS. Will highlight pain points and place we see for future improvements. </p>\n<p>Bartlomiej Specjalny, Lead NodeJs Software Engineer at Pad Innovation Limited,  a fullstack software engineer with background in computer graphics and multimedia.</p>\n",
         "milestone": "October 25th 2017",
         "img": "https://avatars0.githubusercontent.com/u/4508208?v=4",
         "handle": "sp3c1",
@@ -2156,18 +2156,18 @@ module.exports = function (spec) {
       routeName = page.slice(0, -5)
     }
     routes.push(page)
-
     if (pageName) {
       pages.push('/pages/' + pageName + '/' + pageName + '.html')
     }
 
     specs.push('/api/speclate' + routeName + '.json')
-
-    components = components.concat(getComponents(spec[page].spec))
+    for (var selector in spec[page].spec) {
+      var component = spec[page].spec[selector].component
+      if (component) {
+        components.push('/components/' + component + '/' + component + '.html')
+      }
+    }
   })
-  if (spec.defaultSpec) {
-    components = components.concat(getComponents(spec.defaultSpec))
-  }
 
   return {
     components: components,
@@ -2177,18 +2177,6 @@ module.exports = function (spec) {
     layout: layout,
     extras: spec.options.files
   }
-}
-
-
-function getComponents (spec) {
-  var components = []
-  for (var selector in spec) {
-    var component = spec[selector].component
-    if (component) {
-      components.push('/components/' + component + '/' + component + '.html')
-    }
-  }
-  return components
 }
 
 },{}],14:[function(require,module,exports){
