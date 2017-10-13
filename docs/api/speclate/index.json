@@ -23,6 +23,17 @@
             "component": "speaker",
             "data": [
                 {
+                    ".name": "Adam Davis",
+                    ".title": "Node.js lightning talks",
+                    ".desc": "<p>Every month at our meetups we hear anecdotal stories about how people are using node.js beyond enterprise:  self-starters, open source, experimentation, and just having some fun.  Every month we all discover new things worth sharing and explaining about our uses of JavaScript and node.js. </p>\n<p>In this session we will open the mic for some short-burst, quick-fire presentations. Maximum 8 minutes to talk about whatever is getting you thinking and acting. To get on the lineup - add your name, topic and any further info in the comments on <a href=\"https://github.com/lnug/speakers/issues/116\">this issue</a>. </p>\n",
+                    "img": {
+                        "src": "https://avatars3.githubusercontent.com/u/395101?v=4"
+                    },
+                    ".lnug-twitterhandle a": {
+                        "href": "https://github.com/admataz"
+                    }
+                },
+                {
                     ".name": "sp3c1",
                     ".title": "Scalable Scraping in Node and a bit of GO",
                     ".desc": "<p>A story of moving a monolithic Python Twisted application into NodeJs and micro services. Will discuss what problems we have faced, how we resolved particular issues and arrived at truly modular structure on AWS. Will highlight pain points and place we see for future improvements. </p>\n<p>Bartlomiej Specjalny, Lead NodeJs Software Engineer at Pad Innovation Limited,  a fullstack software engineer with background in computer graphics and multimedia.</p>\n",
@@ -31,17 +42,6 @@
                     },
                     ".lnug-twitterhandle a": {
                         "href": "https://github.com/sp3c1"
-                    }
-                },
-                {
-                    ".name": "Submit your talk!",
-                    ".title": "Slot available",
-                    ".desc": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
-                    "img": {
-                        "src": "/images/favicon/favicon-128.png"
-                    },
-                    ".lnug-twitterhandle a": {
-                        "href": "https://lnug.org/speak.html"
                     }
                 }
             ]

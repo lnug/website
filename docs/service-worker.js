@@ -12,14 +12,14 @@ module.exports=[
         "date": "October 2017",
         "speakers": [
             {
+                "name": "Adam Davis",
+                "url": "https://github.com/admataz",
+                "title": "Node.js lightning talks"
+            },
+            {
                 "name": "sp3c1",
                 "url": "https://github.com/sp3c1",
                 "title": "Scalable Scraping in Node and a bit of GO"
-            },
-            {
-                "name": "Submit your talk!",
-                "url": "https://lnug.org/speak.html",
-                "title": "Slot available"
             }
         ]
     },
@@ -1659,6 +1659,16 @@ module.exports=[
 },{}],4:[function(require,module,exports){
 module.exports=[
     {
+        "apiSpeakerUrl": "https://api.github.com/users/admataz",
+        "speakerUrl": "https://github.com/admataz",
+        "title": "Node.js lightning talks",
+        "description": "<p>Every month at our meetups we hear anecdotal stories about how people are using node.js beyond enterprise:  self-starters, open source, experimentation, and just having some fun.  Every month we all discover new things worth sharing and explaining about our uses of JavaScript and node.js. </p>\n<p>In this session we will open the mic for some short-burst, quick-fire presentations. Maximum 8 minutes to talk about whatever is getting you thinking and acting. To get on the lineup - add your name, topic and any further info in the comments on <a href=\"https://github.com/lnug/speakers/issues/116\">this issue</a>. </p>\n",
+        "milestone": "October 25th 2017",
+        "img": "https://avatars3.githubusercontent.com/u/395101?v=4",
+        "handle": "admataz",
+        "name": "Adam Davis"
+    },
+    {
         "apiSpeakerUrl": "https://api.github.com/users/sp3c1",
         "speakerUrl": "https://github.com/sp3c1",
         "title": "Scalable Scraping in Node and a bit of GO",
@@ -1667,14 +1677,6 @@ module.exports=[
         "img": "https://avatars0.githubusercontent.com/u/4508208?v=4",
         "handle": "sp3c1",
         "name": "sp3c1"
-    },
-    {
-        "title": "Slot available",
-        "name": "Submit your talk!",
-        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
-        "img": "/images/favicon/favicon-128.png",
-        "speakerUrl": "https://lnug.org/speak.html",
-        "milestone": "October 25th 2017"
     }
 ]
 },{}],5:[function(require,module,exports){

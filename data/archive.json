@@ -3,14 +3,14 @@
         "date": "October 2017",
         "speakers": [
             {
+                "name": "Adam Davis",
+                "url": "https://github.com/admataz",
+                "title": "Node.js lightning talks"
+            },
+            {
                 "name": "sp3c1",
                 "url": "https://github.com/sp3c1",
                 "title": "Scalable Scraping in Node and a bit of GO"
-            },
-            {
-                "name": "Submit your talk!",
-                "url": "https://lnug.org/speak.html",
-                "title": "Slot available"
             }
         ]
     },
