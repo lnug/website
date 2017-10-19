@@ -1,0 +1,9 @@
+html[data-speclate-page="slides/app-shell"] body header {
+  height: 5em;
+}
+
+html[data-speclate-page="slides/app-shell"] header,
+html[data-speclate-page="slides/app-shell"] footer,
+html[data-speclate-page="slides/app-shell"] body {
+  opacity: 1;
+}

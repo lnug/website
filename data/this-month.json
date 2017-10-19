@@ -1,20 +1,22 @@
 [
     {
+        "apiSpeakerUrl": "https://api.github.com/users/admataz",
+        "speakerUrl": "https://github.com/admataz",
+        "title": "Node.js lightning talks",
+        "description": "<p>We hear anecdotal stories about how people are using node.js:  self-starters, open source, experimentation, and just having some fun beyond enterprise.  Tonight we will open the mic for short-burst, quick-fire presentations. Maximum 8 minutes to talk about whatever is getting you thinking and acting. Add your lighting talk to the lineup in the comments on <a href=\"https://github.com/lnug/speakers/issues/116\">here</a>. </p>\n<h3 id=\"-9889-65039-david-scheiner-moving-on-from-mongoose-how-a-great-thing-finally-cornered-us\">&#9889;&#65039; David Scheiner - Moving on from Mongoose: How a great thing finally cornered us</h3>\n<p>Mongoose has helped us greatly to maintain the integrity of our data against a mongodb database. However, we are not able to share the models we use on our apis anywhere outside those apis. And Mongoose schemas are not shareable, which means we cannot consume them on any other level of our applications. This means either using  conversion plugins, or else writing and maintaining some other solution. In addition, the mongoose models themselves are not shareable, which means even if we solve the schema issue, we still have at least two sets of models to maintain. Finally, we use Typescript, which means ideally we can share schema definitions with that which would allow us to define our entities once and have those definitions propagate to all levels of our applications.  The final part of this presentation will focus on the solution we now intend to adopt as we begin to overhaul our entire architecture in the coming months.</p>\n<h3 id=\"-9889-65039-james-porter-node-powered-static-sites-with-react-graphql-in-minutes\">&#9889;&#65039; James Porter - Node powered static sites with React/GraphQL in minutes</h3>\n<p>Set up and deploy a Node build system + React/Modern JS + GraphQL static site with Continuous Deployment, domain, HTTPs and more with Gatsby and Netlify. The combination of ease of deployment and access to modern Javascript technologies can be a real game changer for side projects and experiments.</p>\n",
+        "milestone": "October 25th 2017",
+        "img": "https://avatars3.githubusercontent.com/u/395101?v=4",
+        "handle": "admataz",
+        "name": "Adam Davis"
+    },
+    {
         "apiSpeakerUrl": "https://api.github.com/users/sp3c1",
         "speakerUrl": "https://github.com/sp3c1",
         "title": "Scalable Scraping in Node and a bit of GO",
-        "description": "<p>A story of moving a monolithic Python Twisted application into NodeJs and micro services. Will discuss what problems we have faced, how we resolved particular issues and arrived at truly modular structure on AWS. Will highlight pain points and place we see for future improvements. </p>\n<p>Bartlomiej Specjalny, <del>Head of Internal Services at Flubit Ltd</del>, Lead NodeJs Sofrware Engineer at Pad Innovation Limited,  a fullstack software engineer with background in computer graphics and multimedia.</p>\n",
+        "description": "<p>A story of moving a monolithic Python Twisted application into NodeJs and micro services. Will discuss what problems we have faced, how we resolved particular issues and arrived at truly modular structure on AWS. Will highlight pain points and place we see for future improvements. </p>\n<p>Bartlomiej Specjalny, Lead NodeJs Software Engineer at Pad Innovation Limited,  a fullstack software engineer with background in computer graphics and multimedia.</p>\n",
         "milestone": "October 25th 2017",
         "img": "https://avatars0.githubusercontent.com/u/4508208?v=4",
         "handle": "sp3c1",
         "name": "sp3c1"
-    },
-    {
-        "title": "Slot available",
-        "name": "Submit your talk!",
-        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
-        "img": "/images/favicon/favicon-128.png",
-        "speakerUrl": "https://lnug.org/speak.html",
-        "milestone": "October 25th 2017"
     }
 ]

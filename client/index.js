@@ -18,7 +18,10 @@ router({
     $('nav a.active').removeClass('active')
   },
   after: function () {
-    $('html,body').scrollTop($('#container'))
+
+    if (window.location.pathname.slice(0, 7) !== '/slides') {
+      $('html,body').scrollTop($('#container'))
+    }
     analytics('send', 'pageview', {
       page: window.location.pathname,
       title: document.title

@@ -7,14 +7,20 @@ var imageGallery = require('./lib/image-gallery')
 var speakerSelectors = require('./lib/speaker-selectors')
 var archiveSelectors = require('./lib/archive-selectors')
 
+var addSlides = require('./slides.spec')
+
 var options = {
   outputDir: '/docs',
+  build: {
+    css: 'scss-global'
+  },
   appCacheFiles: [
     'appcache-loader.html'
   ],
   files: [
     'css.css',
     'images/texture.png',
+    'client/global-styles-compiled.css',
     'images/lnug-logo-monochrome.svg',
     'images/lnug-logo.svg',
     'images/maps/thin.png',
@@ -48,7 +54,7 @@ var options = {
     return spec
   }
 }
-module.exports = {
+var spec = {
   '/index.html': {
     page: 'home',
     spec: {
@@ -101,6 +107,7 @@ module.exports = {
       }
     }
   },
+
   '/code-of-conduct.html': {
     page: 'code-of-conduct',
     spec: {
@@ -143,3 +150,8 @@ module.exports = {
   },
   options: options
 }
+
+
+
+
+module.exports = addSlides(spec)
