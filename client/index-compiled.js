@@ -1,4 +1,6 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+var slideNav = require('../components/slide-nav/slide-nav')
+
 
 /* eslint-disable */
 
@@ -19,7 +21,10 @@ router({
     $('nav a.active').removeClass('active')
   },
   after: function () {
-    $('html,body').scrollTop($('#container'))
+
+    if (window.location.pathname.slice(0, 7) !== '/slides') {
+      $('html,body').scrollTop($('#container'))
+    }
     analytics('send', 'pageview', {
       page: window.location.pathname,
       title: document.title
@@ -52,7 +57,44 @@ appCacheNanny.on('updateready', function () {
   location.reload()
 })
 
-},{"appcache-nanny":2,"jquery":14,"speclate-router":33}],2:[function(require,module,exports){
+$(document).ready(function() {
+  slideNav();
+});
+
+},{"../components/slide-nav/slide-nav":2,"appcache-nanny":3,"jquery":15,"speclate-router":34}],2:[function(require,module,exports){
+'use strict'
+
+module.exports = function () {
+  document.onkeydown = function (e) {
+    e = e || window.event
+
+    if (e.keyCode === 39) {
+      forward()
+    } else if (e.keyCode === 37) {
+      back()
+    }
+  }
+}
+
+var forward = () => {
+  var $old = $('#slide-nav a.active')
+  var $new = $old.parent().next().find('a')
+  if ($new.get(0)) {
+    $old.removeClass('active')
+    $new.get(0).click()
+  }
+}
+
+var back = () => {
+  var $old = $('#slide-nav a.active')
+  var $new = $old.parent().prev().find('a')
+  if ($new.get(0)) {
+    $old.removeClass('active')
+    $new.get(0).click()
+  }
+}
+
+},{}],3:[function(require,module,exports){
 // appCacheNanny
 // =============
 //
@@ -481,7 +523,7 @@ appCacheNanny.on('updateready', function () {
   return appCacheNanny
 })
 
-},{}],3:[function(require,module,exports){
+},{}],4:[function(require,module,exports){
 'use strict';
 
 var once = require('async.util.once');
@@ -516,7 +558,7 @@ module.exports = function eachOf(object, iterator, callback) {
     }
 };
 
-},{"async.util.keyiterator":7,"async.util.noop":9,"async.util.once":10,"async.util.onlyonce":11}],4:[function(require,module,exports){
+},{"async.util.keyiterator":8,"async.util.noop":10,"async.util.once":11,"async.util.onlyonce":12}],5:[function(require,module,exports){
 'use strict';
 
 var eachOf = require('async.eachof');
@@ -526,14 +568,14 @@ module.exports = function parallel(tasks, cb) {
     return _parallel(eachOf, tasks, cb);
 };
 
-},{"async.eachof":3,"async.util.parallel":12}],5:[function(require,module,exports){
+},{"async.eachof":4,"async.util.parallel":13}],6:[function(require,module,exports){
 'use strict';
 
 module.exports = Array.isArray || function isArray(obj) {
     return Object.prototype.toString.call(obj) === '[object Array]';
 };
 
-},{}],6:[function(require,module,exports){
+},{}],7:[function(require,module,exports){
 'use strict';
 
 var isArray = require('async.util.isarray');
@@ -547,7 +589,7 @@ module.exports = function isArrayLike(arr) {
     );
 };
 
-},{"async.util.isarray":5}],7:[function(require,module,exports){
+},{"async.util.isarray":6}],8:[function(require,module,exports){
 'use strict';
 
 var _keys = require('async.util.keys');
@@ -573,7 +615,7 @@ module.exports = function keyIterator(coll) {
     }
 };
 
-},{"async.util.isarraylike":6,"async.util.keys":8}],8:[function(require,module,exports){
+},{"async.util.isarraylike":7,"async.util.keys":9}],9:[function(require,module,exports){
 'use strict';
 
 module.exports = Object.keys || function keys(obj) {
@@ -586,12 +628,12 @@ module.exports = Object.keys || function keys(obj) {
     return _keys;
 };
 
-},{}],9:[function(require,module,exports){
+},{}],10:[function(require,module,exports){
 'use strict';
 
 module.exports = function noop () {};
 
-},{}],10:[function(require,module,exports){
+},{}],11:[function(require,module,exports){
 'use strict';
 
 module.exports = function once(fn) {
@@ -602,7 +644,7 @@ module.exports = function once(fn) {
     };
 };
 
-},{}],11:[function(require,module,exports){
+},{}],12:[function(require,module,exports){
 'use strict';
 
 module.exports = function only_once(fn) {
@@ -613,7 +655,7 @@ module.exports = function only_once(fn) {
     };
 };
 
-},{}],12:[function(require,module,exports){
+},{}],13:[function(require,module,exports){
 'use strict';
 
 var noop = require('async.util.noop');
@@ -637,7 +679,7 @@ module.exports = function parallel(eachfn, tasks, cb) {
     });
 };
 
-},{"async.util.isarraylike":6,"async.util.noop":9,"async.util.restparam":13}],13:[function(require,module,exports){
+},{"async.util.isarraylike":7,"async.util.noop":10,"async.util.restparam":14}],14:[function(require,module,exports){
 'use strict';
 module.exports = function restParam(func, startIndex) {
     startIndex = startIndex == null ? func.length - 1 : +startIndex;
@@ -656,7 +698,7 @@ module.exports = function restParam(func, startIndex) {
     };
 };
 
-},{}],14:[function(require,module,exports){
+},{}],15:[function(require,module,exports){
 /*!
  * jQuery JavaScript Library v3.2.1
  * https://jquery.com/
@@ -10911,7 +10953,7 @@ if ( !noGlobal ) {
 return jQuery;
 } );
 
-},{}],15:[function(require,module,exports){
+},{}],16:[function(require,module,exports){
 /**
  * lodash 4.0.0 (Custom Build) <https://lodash.com/>
  * Build: `lodash modularize exports="npm" -o ./`
@@ -10948,7 +10990,7 @@ var isArray = Array.isArray;
 
 module.exports = isArray;
 
-},{}],16:[function(require,module,exports){
+},{}],17:[function(require,module,exports){
 /**
  * lodash 3.0.2 (Custom Build) <https://lodash.com/>
  * Build: `lodash modern modularize exports="npm" -o ./`
@@ -10987,7 +11029,7 @@ function isObject(value) {
 
 module.exports = isObject;
 
-},{}],17:[function(require,module,exports){
+},{}],18:[function(require,module,exports){
 /**
  * lodash 4.0.1 (Custom Build) <https://lodash.com/>
  * Build: `lodash modularize exports="npm" -o ./`
@@ -11084,7 +11126,7 @@ function isString(value) {
 
 module.exports = isString;
 
-},{}],18:[function(require,module,exports){
+},{}],19:[function(require,module,exports){
 (function (process){
   /* globals require, module */
 
@@ -11710,7 +11752,7 @@ module.exports = isString;
   page.sameOrigin = sameOrigin;
 
 }).call(this,require('_process'))
-},{"_process":22,"path-to-regexp":20}],19:[function(require,module,exports){
+},{"_process":23,"path-to-regexp":21}],20:[function(require,module,exports){
 (function (process){
 // Copyright Joyent, Inc. and other Node contributors.
 //
@@ -11938,7 +11980,7 @@ var substr = 'ab'.substr(-1) === 'b'
 ;
 
 }).call(this,require('_process'))
-},{"_process":22}],20:[function(require,module,exports){
+},{"_process":23}],21:[function(require,module,exports){
 var isarray = require('isarray')
 
 /**
@@ -12330,12 +12372,12 @@ function pathToRegexp (path, keys, options) {
   return stringToRegexp(path, keys, options)
 }
 
-},{"isarray":21}],21:[function(require,module,exports){
+},{"isarray":22}],22:[function(require,module,exports){
 module.exports = Array.isArray || function (arr) {
   return Object.prototype.toString.call(arr) == '[object Array]';
 };
 
-},{}],22:[function(require,module,exports){
+},{}],23:[function(require,module,exports){
 // shim for using process in browser
 var process = module.exports = {};
 
@@ -12521,7 +12563,7 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}],23:[function(require,module,exports){
+},{}],24:[function(require,module,exports){
 'use strict';
 
 exports.load = function (str) {
@@ -12551,7 +12593,7 @@ exports.get = function (item) {
     return $(item);
 };
 
-},{}],24:[function(require,module,exports){
+},{}],25:[function(require,module,exports){
 /**
  * In the case of input we should update the value and not just set the innerHTML property.
  * @param  {Object} $node sizzle object
@@ -12575,7 +12617,7 @@ module.exports = function ($node, data) {
 	return $node;
 };
 
-},{}],25:[function(require,module,exports){
+},{}],26:[function(require,module,exports){
 'use strict';
 
 module.exports = function (data, options) {
@@ -12594,7 +12636,7 @@ module.exports = function (data, options) {
     return retArray;
 };
 
-},{}],26:[function(require,module,exports){
+},{}],27:[function(require,module,exports){
 'use strict';
 
 var dom = require('../server/dom.js');
@@ -12623,7 +12665,7 @@ module.exports = function (str, selectors) {
     }
 };
 
-},{"../server/dom.js":23,"./update-node":29}],27:[function(require,module,exports){
+},{"../server/dom.js":24,"./update-node":30}],28:[function(require,module,exports){
 'use strict';
 
 // given a regex or function updates the value.
@@ -12636,7 +12678,7 @@ module.exports = function (oldValue, newValue) {
     return newValue;
 };
 
-},{}],28:[function(require,module,exports){
+},{}],29:[function(require,module,exports){
 'use strict';
 
 var newValue = require('./new-value');
@@ -12698,7 +12740,7 @@ module.exports = function ($node, obj) {
     return $node;
 };
 
-},{"../server/dom":23,"./new-value":27}],29:[function(require,module,exports){
+},{"../server/dom":24,"./new-value":28}],30:[function(require,module,exports){
 'use strict';
 var checkForInputs = require('./check-for-inputs');
 var updateNodeWithObject = require('./update-node-with-object');
@@ -12749,11 +12791,11 @@ function updateNode($node, selector, data, $) {
 
 module.exports = updateNode;
 
-},{"./check-for-inputs":24,"./update-node-with-object":28}],30:[function(require,module,exports){
+},{"./check-for-inputs":25,"./update-node-with-object":29}],31:[function(require,module,exports){
 exports.render = require('./lib/do-render');
 exports.classifyKeys = require('./lib/classify-keys');
 
-},{"./lib/classify-keys":25,"./lib/do-render":26}],31:[function(require,module,exports){
+},{"./lib/classify-keys":26,"./lib/do-render":27}],32:[function(require,module,exports){
 'use strict';
 
 
@@ -12815,7 +12857,7 @@ exports.text = function(file, callback) {
 };
 
 
-},{}],32:[function(require,module,exports){
+},{}],33:[function(require,module,exports){
 
 var fetchJson = require('speclate-fetch').json
 var pageRender = require('./page-render')
@@ -12853,7 +12895,7 @@ module.exports = function (specPath, htmlEl, loadingClass, $container, routerOpt
   }
 }
 
-},{"./page-render":39,"speclate-fetch":31}],33:[function(require,module,exports){
+},{"./page-render":40,"speclate-fetch":32}],34:[function(require,module,exports){
 'use strict'
 
 var page = require('page')
@@ -12896,7 +12938,7 @@ module.exports = function (routerOptions, speclateOptions) {
   page()
 }
 
-},{"./fetch-page":32,"page":18}],34:[function(require,module,exports){
+},{"./fetch-page":33,"page":19}],35:[function(require,module,exports){
 'use strict'
 
 var speclateFetch = require('speclate-fetch')
@@ -12904,7 +12946,7 @@ var speclateFetch = require('speclate-fetch')
 // override readfile with request to fetch.
 exports.readFile = speclateFetch.readFile
 
-},{"speclate-fetch":31}],35:[function(require,module,exports){
+},{"speclate-fetch":32}],36:[function(require,module,exports){
 (function (process){
 'use strict'
 
@@ -12926,7 +12968,7 @@ module.exports = function (url) {
 }
 
 }).call(this,require('_process'))
-},{"_process":22,"path":19}],36:[function(require,module,exports){
+},{"_process":23,"path":20}],37:[function(require,module,exports){
 'use strict'
 
 var loadFile = require('fs').readFile
@@ -12942,7 +12984,7 @@ module.exports = function (component, callback) {
   loadFile(path, 'utf-8', callback)
 }
 
-},{"./file/get-path":35,"fs":34}],37:[function(require,module,exports){
+},{"./file/get-path":36,"fs":35}],38:[function(require,module,exports){
 var sizlate = require('sizlate')
 
 /**
@@ -12986,7 +13028,7 @@ module.exports = function (page, layout, renderedComponents) {
   }
 }
 
-},{"sizlate":30}],38:[function(require,module,exports){
+},{"sizlate":31}],39:[function(require,module,exports){
 'use strict'
 
 var forEachOf = require('async.eachof')
@@ -13067,7 +13109,7 @@ module.exports = function (pageSpec, callback) {
   })
 }
 
-},{"../load-component":36,"async.eachof":3,"lodash.isarray":15,"lodash.isobject":16,"lodash.isstring":17,"sizlate":30}],39:[function(require,module,exports){
+},{"../load-component":37,"async.eachof":4,"lodash.isarray":16,"lodash.isobject":17,"lodash.isstring":18,"sizlate":31}],40:[function(require,module,exports){
 'use strict'
 
 var asyncParallel = require('async.parallel')
@@ -13121,4 +13163,4 @@ module.exports = function ($container, page, options, active, callback) {
   })
 }
 
-},{"async.parallel":4,"sizlate":30,"speclate-fetch":31,"speclate/lib/page/do-sizlate":37,"speclate/lib/page/load-components":38}]},{},[1]);
+},{"async.parallel":5,"sizlate":31,"speclate-fetch":32,"speclate/lib/page/do-sizlate":38,"speclate/lib/page/load-components":39}]},{},[1]);

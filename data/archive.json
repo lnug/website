@@ -1,5 +1,20 @@
 [
     {
+        "date": "November 2017",
+        "speakers": [
+            {
+                "name": "Simon McManus",
+                "url": "https://github.com/simonmcmanus",
+                "title": "Taking LNUG offline"
+            },
+            {
+                "name": "Submit your talk!",
+                "url": "https://lnug.org/speak.html",
+                "title": "Slot available"
+            }
+        ]
+    },
+    {
         "date": "October 2017",
         "speakers": [
             {

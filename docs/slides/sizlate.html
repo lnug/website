@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html data-speclate-page="code-of-conduct" data-speclate-url="/code-of-conduct.html">
+<html data-speclate-page="slides/sizlate" data-speclate-url="/slides/sizlate.html">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Code of Conduct - LNUG</title>
+  <title>sizlate - Taking LNUG offline</title>
   <meta name="description" content="London Node.js User Group is a meetup for developers but everyone is welcome. We meet every month to talk about Node, Javascript and to network">
 <link rel="icon" type="image/png" href="/images/favicon/favicon-128.png" sizes="128x128">
 
@@ -39,44 +39,55 @@
         <a class="speak" href="/speak.html">Speak</a>
         <a class="sponsor" href="/contribute.html">Contribute</a>
         <a class="contact" href="/contact.html">Contact</a>
-        <a class="slides" href="/slides/hello.html">Slides</a>
+        <a class="slides active" href="/slides/hello.html">Slides</a>
       </nav>
     </div>
   </header>
 
-  <div id="container"><div class="markdown">
+  <div id="container">
+<ol id="slide-nav">
+  <li><a href="/slides/hello.html" id="slide-nav-0">hello</a></li>
 
-    <h1>Code Of Conduct</h1>
-    <p>
-    LNUG is dedicated to providing a harassment-free meetup experience for everyone. We do not tolerate harassment of meetup participants in any form. Participants violating these rules may be sanctioned or expelled from the meetup at the discretion of the organisers.</p>
+  <li><a href="/slides/dev.html" id="slide-nav-1">dev</a></li>
 
-    <p>This code of conduct applies to attendees, speakers, and organisers at the monthly meetups and in related social events. This includes slide decks and listings on the job board.</p>
+  <li><a href="/slides/requirements.html" id="slide-nav-2">requirements</a></li>
 
-    <h1>Unacceptable Behaviour</h1>
+  <li><a href="/slides/sizlate.html" id="slide-nav-3" class="active">sizlate</a></li>
 
-    <p>The following behaviour is considered unacceptable and constitutes harassment:</p>
-    <ul>
-    <li>Offensive verbal comments related to gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, religion.</li>
-    <li>Sexual images in public spaces.</li>
-    <li>Deliberate intimidation, stalking, following, harassing photography or recording.</li>
-    <li>Sustained disruption of talks or other events.</li>
-    <li>Inappropriate physical contact.</li>
-    <li>Unwelcome sexual attention.</li>
-    <li>Participants asked to stop any harassing behavior are expected to comply immediately.</li>
-    </ul>
-    <h1>Consequences Of Unacceptable Behaviour</h1>
+  <li><a href="/slides/spec.html" id="slide-nav-4" class="hidden">spec</a></li>
 
-    <p>If a participant engages in harassing behavior, the meetup organisers may take any action they deem appropriate, including warning the offender or expulsion from the meetup.</p>
+  <li><a href="/slides/speclate.html" id="slide-nav-5" class="hidden">speclate</a></li>
 
-    <h1>Reporting</h1>
+  <li><a href="/slides/offline.html" id="slide-nav-6" class="hidden">offline</a></li>
 
-    <p>If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact one of the organisers immediately.</p>
+  <li><a href="/slides/client-side.html" id="slide-nav-7" class="hidden">client-side</a></li>
 
-    <p>LNUG Organizers</p>
-    <p><code>email: contact@lnug.org</code></p>
+  <li><a href="/slides/app-shell.html" id="slide-nav-8" class="hidden">app-shell</a></li>
 
-    <p>Meetup organisers will also be happy to help participants contact local law enforcement, or otherwise assist those experiencing harassment to feel safe for the duration of the meetup. <strong> We value your attendance.</strong></p>
-</div></div>
+  <li><a href="/slides/loading.html" id="slide-nav-9" class="hidden">loading</a></li>
+
+  <li><a href="/slides/contribute.html" id="slide-nav-10" class="hidden">contribute</a></li>
+</ol>
+<h2>Sizlate</h2>
+<pre>
+<code>
+
+  const markup = &quot;&lt;div&gt;&lt;h2&gt;&lt;/h2&gt;&lt;/div&gt;&quot;;
+
+  const selectors = {
+    h2: &apos;Sizlate Example&apos;,
+    div: {
+      className: &apos;bacon&apos;
+    }
+  }
+
+  var html = sizlate.render(selectors);
+
+  // html: &lt;div class=&quot;bacon&quot; &gt;&lt;h2&gt;Sizlate Example&lt;/h2&gt;&lt;/div&gt;
+</code>
+</pre>
+
+<a href="https://github.com/simonmcmanus/sizlate">https://github.com/simonmcmanus/sizlate</a></div>
 
   <footer>
     <div class="container">

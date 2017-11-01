@@ -3,9 +3,23 @@
 <h2>Spec</h2>
 <pre>
 <code>
-  {
-    title: 'site name',
-    h2: 'title'
+  module.exports = {
+    '/index.html', {  },
+    '/speak.html': {
+      page: 'speak',
+      spec: {
+        'nav a.speak': {
+          className: 'active'
+        },
+        'title': 'Speak - LNUG'
+      }
+
+    }
   }
 </code>
 </pre>
+
+
+
+
+Generates per page spec..
