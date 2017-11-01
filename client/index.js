@@ -1,3 +1,5 @@
+var slideNav = require('../components/slide-nav/slide-nav')
+
 
 /* eslint-disable */
 
@@ -53,3 +55,7 @@ if ('serviceWorker' in navigator) {
 appCacheNanny.on('updateready', function () {
   location.reload()
 })
+
+$(document).ready(function() {
+  slideNav();
+});

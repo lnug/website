@@ -1,0 +1,11 @@
+investigate users folder
+where should js files sit?
+auto relaoad js files?
+
+auto cache invaldiation?
+client side error logging.
+
+
+reload on js changes - currently watch ignores them
+why is service worker so large? it coants the spec for some reason.
+

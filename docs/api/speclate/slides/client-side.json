@@ -1,0 +1,106 @@
+{
+    "page": "slides/client-side",
+    "spec": {
+        "title": "client-side - Taking LNUG offline",
+        "html": {
+            "className": "slide"
+        },
+        "nav a.slides": {
+            "className": "active"
+        },
+        "#slide-nav": {
+            "component": "slide-nav",
+            "data": [
+                {
+                    "a": {
+                        "href": "/slides/hello.html",
+                        "id": "slide-nav-0",
+                        "className": "",
+                        "innerHTML": "hello"
+                    }
+                },
+                {
+                    "a": {
+                        "href": "/slides/dev.html",
+                        "id": "slide-nav-1",
+                        "className": "",
+                        "innerHTML": "dev"
+                    }
+                },
+                {
+                    "a": {
+                        "href": "/slides/requirements.html",
+                        "id": "slide-nav-2",
+                        "className": "",
+                        "innerHTML": "requirements"
+                    }
+                },
+                {
+                    "a": {
+                        "href": "/slides/sizlate.html",
+                        "id": "slide-nav-3",
+                        "className": "",
+                        "innerHTML": "sizlate"
+                    }
+                },
+                {
+                    "a": {
+                        "href": "/slides/spec.html",
+                        "id": "slide-nav-4",
+                        "className": "",
+                        "innerHTML": "spec"
+                    }
+                },
+                {
+                    "a": {
+                        "href": "/slides/speclate.html",
+                        "id": "slide-nav-5",
+                        "className": "",
+                        "innerHTML": "speclate"
+                    }
+                },
+                {
+                    "a": {
+                        "href": "/slides/offline.html",
+                        "id": "slide-nav-6",
+                        "className": "",
+                        "innerHTML": "offline"
+                    }
+                },
+                {
+                    "a": {
+                        "href": "/slides/client-side.html",
+                        "id": "slide-nav-7",
+                        "className": "active",
+                        "innerHTML": "client-side"
+                    }
+                },
+                {
+                    "a": {
+                        "href": "/slides/app-shell.html",
+                        "id": "slide-nav-8",
+                        "className": "hidden",
+                        "innerHTML": "app-shell"
+                    }
+                },
+                {
+                    "a": {
+                        "href": "/slides/loading.html",
+                        "id": "slide-nav-9",
+                        "className": "hidden",
+                        "innerHTML": "loading"
+                    }
+                },
+                {
+                    "a": {
+                        "href": "/slides/contribute.html",
+                        "id": "slide-nav-10",
+                        "className": "hidden",
+                        "innerHTML": "contribute"
+                    }
+                }
+            ]
+        }
+    },
+    "route": "/slides/client-side.html"
+}

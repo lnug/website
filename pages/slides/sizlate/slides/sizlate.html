@@ -3,9 +3,20 @@
 <h2>Sizlate</h2>
 <pre>
 <code>
-  {
-    title: 'site name',
-    h2: 'title'
+
+  const markup = "&lt;div&gt;&lt;h2&gt;&lt;/h2&gt;&lt;/div&gt;";
+
+  const selectors = {
+    h2: 'Sizlate Example',
+    div: {
+      className: 'bacon'
+    }
   }
+
+  var html = sizlate.render(selectors);
+
+  // html: &lt;div class="bacon" &gt;&lt;h2&gt;Sizlate Example&lt;/h2&gt;&lt;/div&gt;
 </code>
 </pre>
+
+<a href="https://github.com/simonmcmanus/sizlate">https://github.com/simonmcmanus/sizlate</a>

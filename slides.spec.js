@@ -1,22 +1,36 @@
 'use strict'
 
-var slides = ['hello', 'requirements', 'dev', 'sizlate', 'speclate', 'spec', 'offline', 'app-shell', 'loading', 'contribute']
+var slides = ['hello', 'dev', 'requirements', 'sizlate', 'spec', 'speclate', 'client-side', 'offline', 'app-shell', 'loading', 'contribute']
 
-var slideNav = slides.map((name, index) => {
-  return {
-    a: {
-      href: `/slides/${name}.html`,
-      id: `slide-nav-${index}`,
-      innerHTML: name
+var slideNav = (activePageName) => {
+
+
+  var active = slides.length
+  return slides.map((name, index) => {
+    var isActive = ''
+    if (name === activePageName) {
+      active = index
+      isActive = 'active'
     }
-  }
-})
+    if (active < index) {
+      isActive = 'hidden'
+    }
+    return {
+      a: {
+        href: `/slides/${name}.html`,
+        id: `slide-nav-${index}`,
+        className: isActive,
+        innerHTML: name
+      }
+    }
+  })
+}
 
 var slideSpec = (name) => {
   return {
     page: 'slides/' + name,
     spec: {
-      title: name + 'Taking LNUG offline',
+      title: name + ' - Taking LNUG offline',
       'html': {
         className: 'slide'
       },
@@ -25,7 +39,7 @@ var slideSpec = (name) => {
       },
       '#slide-nav': {
         component: 'slide-nav',
-        data: slideNav
+        data: slideNav(name)
       }
     }
   }

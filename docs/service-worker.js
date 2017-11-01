@@ -2,24 +2,38 @@
 'use strict'
 var serviceWorker = require('speclate-service-worker')
 var spec = require('../spec')
-var version = '2.3'
+var version = '2.9'
 
 serviceWorker(spec, version)
-
-},{"../spec":14,"speclate-service-worker":12}],2:[function(require,module,exports){
+},{"../spec":15,"speclate-service-worker":12}],2:[function(require,module,exports){
 module.exports=[
     {
-        "date": "October 2017",
+        "date": "November 2017",
         "speakers": [
             {
-                "name": "sp3c1",
-                "url": "https://github.com/sp3c1",
-                "title": "Scalable Scraping in Node and a bit of GO"
+                "name": "Simon McManus",
+                "url": "https://github.com/simonmcmanus",
+                "title": "Taking LNUG offline"
             },
             {
                 "name": "Submit your talk!",
                 "url": "https://lnug.org/speak.html",
                 "title": "Slot available"
+            }
+        ]
+    },
+    {
+        "date": "October 2017",
+        "speakers": [
+            {
+                "name": "Adam Davis",
+                "url": "https://github.com/admataz",
+                "title": "Node.js lightning talks"
+            },
+            {
+                "name": "sp3c1",
+                "url": "https://github.com/sp3c1",
+                "title": "Scalable Scraping in Node and a bit of GO"
             }
         ]
     },
@@ -1659,14 +1673,14 @@ module.exports=[
 },{}],4:[function(require,module,exports){
 module.exports=[
     {
-        "apiSpeakerUrl": "https://api.github.com/users/sp3c1",
-        "speakerUrl": "https://github.com/sp3c1",
-        "title": "Scalable Scraping in Node and a bit of GO",
-        "description": "<p>A story of moving a monolithic Python Twisted application into NodeJs and micro services. Will discuss what problems we have faced, how we resolved particular issues and arrived at truly modular structure on AWS. Will highlight pain points and place we see for future improvements. </p>\n<p>Bartlomiej Specjalny, <del>Head of Internal Services at Flubit Ltd</del>, Lead NodeJs Sofrware Engineer at Pad Innovation Limited,  a fullstack software engineer with background in computer graphics and multimedia.</p>\n",
-        "milestone": "October 25th 2017",
-        "img": "https://avatars0.githubusercontent.com/u/4508208?v=4",
-        "handle": "sp3c1",
-        "name": "sp3c1"
+        "apiSpeakerUrl": "https://api.github.com/users/simonmcmanus",
+        "speakerUrl": "https://github.com/simonmcmanus",
+        "title": "Taking LNUG offline",
+        "description": "<p>I&rsquo;ve alway been keen to provide a good offline experience for the LNUG website. We already use AppCache with the help of <a href=\"https://github.com/gr2m/appcache-nanny\">app-cache-nanny</a> but with its upcoming <a href=\"https://www.fxsitecompat.com/en-CA/docs/2015/application-cache-api-has-been-deprecated/\">depreciation</a> I&rsquo;ve been investigating how service workers might improve the experience as well as as ensuring the site continues to work when you&rsquo;re offline.</p>\n<p>In this talk I will discuss how the LNUG websites uses appCache and services workers, the things I&rsquo;ve learned along the way and what we can still improve the experience. </p>\n<p>I&#39;m a remote Javascript engineer, part time conference organiser and my opinions can often be found on twitter: <a href=\"twitter.com/simonmcmanus\">@simonmcmanus</a>. </p>\n",
+        "milestone": "November 22nd 2017",
+        "img": "https://avatars1.githubusercontent.com/u/55853?v=4",
+        "handle": "simonmcmanus",
+        "name": "Simon McManus"
     },
     {
         "title": "Slot available",
@@ -1674,7 +1688,7 @@ module.exports=[
         "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
         "img": "/images/favicon/favicon-128.png",
         "speakerUrl": "https://lnug.org/speak.html",
-        "milestone": "October 25th 2017"
+        "milestone": "November 22nd 2017"
     }
 ]
 },{}],5:[function(require,module,exports){
@@ -2192,6 +2206,61 @@ function getComponents (spec) {
 }
 
 },{}],14:[function(require,module,exports){
+'use strict'
+
+var slides = ['hello', 'dev', 'requirements', 'sizlate', 'spec', 'speclate', 'client-side', 'offline', 'app-shell', 'loading', 'contribute']
+
+var slideNav = (activePageName) => {
+
+
+  var active = slides.length
+  return slides.map((name, index) => {
+    var isActive = ''
+    if (name === activePageName) {
+      active = index
+      isActive = 'active'
+    }
+    if (active < index) {
+      isActive = 'hidden'
+    }
+    return {
+      a: {
+        href: `/slides/${name}.html`,
+        id: `slide-nav-${index}`,
+        className: isActive,
+        innerHTML: name
+      }
+    }
+  })
+}
+
+var slideSpec = (name) => {
+  return {
+    page: 'slides/' + name,
+    spec: {
+      title: name + ' - Taking LNUG offline',
+      'html': {
+        className: 'slide'
+      },
+      'nav a.slides': {
+        className: 'active'
+      },
+      '#slide-nav': {
+        component: 'slide-nav',
+        data: slideNav(name)
+      }
+    }
+  }
+}
+
+module.exports = (spec) => {
+  slides.forEach((name) => {
+    spec[`/slides/${name}.html`] = slideSpec(name)
+  })
+  return spec
+}
+
+},{}],15:[function(require,module,exports){
 var nextEvent = require('./lib/next-event-from-file')
 var titoLink = require('./lib/tito-link')
 var venue = require('./data/venues/makers.json')
@@ -2201,14 +2270,20 @@ var imageGallery = require('./lib/image-gallery')
 var speakerSelectors = require('./lib/speaker-selectors')
 var archiveSelectors = require('./lib/archive-selectors')
 
+var addSlides = require('./slides.spec')
+
 var options = {
   outputDir: '/docs',
+  build: {
+    css: 'scss-global'
+  },
   appCacheFiles: [
     'appcache-loader.html'
   ],
   files: [
     'css.css',
     'images/texture.png',
+    'client/global-styles-compiled.css',
     'images/lnug-logo-monochrome.svg',
     'images/lnug-logo.svg',
     'images/maps/thin.png',
@@ -2242,7 +2317,7 @@ var options = {
     return spec
   }
 }
-module.exports = {
+var spec = {
   '/index.html': {
     page: 'home',
     spec: {
@@ -2295,6 +2370,7 @@ module.exports = {
       }
     }
   },
+
   '/code-of-conduct.html': {
     page: 'code-of-conduct',
     spec: {
@@ -2338,4 +2414,6 @@ module.exports = {
   options: options
 }
 
-},{"./data/venues/makers.json":5,"./lib/archive-selectors":6,"./lib/image-gallery":7,"./lib/next-event-from-file":8,"./lib/speaker-selectors":9,"./lib/tito-link":10}]},{},[1]);
+module.exports = addSlides(spec)
+
+},{"./data/venues/makers.json":5,"./lib/archive-selectors":6,"./lib/image-gallery":7,"./lib/next-event-from-file":8,"./lib/speaker-selectors":9,"./lib/tito-link":10,"./slides.spec":14}]},{},[1]);

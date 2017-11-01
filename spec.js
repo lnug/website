@@ -151,7 +151,4 @@ var spec = {
   options: options
 }
 
-
-
-
 module.exports = addSlides(spec)

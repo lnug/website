@@ -6,15 +6,11 @@
   li {
     display:inline-block;
     font-size: 0.5em;
-  }
-  li:before {
-    content: '\00a0\2022\00a0\00a0';
-    color:#999;
-    color:rgba(0,0,0,0.5);
-    font-size:11px;
-  }
-  li:first-child:before {
-    content: '';
+    a {
+      padding: 5px 10px 5px;
+      text-decoration: none;
+
+    }
   }
 }
 
@@ -28,4 +24,14 @@ html[data-speclate-page*="slides/"]{
   header, footer {
     opacity: 0;
   }
+}
+
+#slide-nav li a.active {
+  background: #BED52E;
+  border-radius: .4em 0;
+}
+
+#slide-nav li a.hidden {
+  list-style: none;
+  opacity: 0;
 }

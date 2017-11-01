@@ -8,7 +8,7 @@
         ".lnug-ticket": {
             "component": "ticket",
             "data": {
-                ".lnug-nextmeetup": "October 25th 2017",
+                ".lnug-nextmeetup": "November 22nd 2017",
                 ".venue": "Makers Academy",
                 "address": "50 - 52 Commercial St<br />London E1 6LT",
                 ".address a": {
@@ -23,17 +23,6 @@
             "component": "speaker",
             "data": [
                 {
-                    ".name": "sp3c1",
-                    ".title": "Scalable Scraping in Node and a bit of GO",
-                    ".desc": "<p>A story of moving a monolithic Python Twisted application into NodeJs and micro services. Will discuss what problems we have faced, how we resolved particular issues and arrived at truly modular structure on AWS. Will highlight pain points and place we see for future improvements. </p>\n<p>Bartlomiej Specjalny, <del>Head of Internal Services at Flubit Ltd</del>, Lead NodeJs Sofrware Engineer at Pad Innovation Limited,  a fullstack software engineer with background in computer graphics and multimedia.</p>\n",
-                    "img": {
-                        "src": "https://avatars0.githubusercontent.com/u/4508208?v=4"
-                    },
-                    ".lnug-twitterhandle a": {
-                        "href": "https://github.com/sp3c1"
-                    }
-                },
-                {
                     ".name": "Submit your talk!",
                     ".title": "Slot available",
                     ".desc": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
@@ -42,6 +31,17 @@
                     },
                     ".lnug-twitterhandle a": {
                         "href": "https://lnug.org/speak.html"
+                    }
+                },
+                {
+                    ".name": "Simon McManus",
+                    ".title": "Taking LNUG offline",
+                    ".desc": "<p>I&rsquo;ve alway been keen to provide a good offline experience for the LNUG website. We already use AppCache with the help of <a href=\"https://github.com/gr2m/appcache-nanny\">app-cache-nanny</a> but with its upcoming <a href=\"https://www.fxsitecompat.com/en-CA/docs/2015/application-cache-api-has-been-deprecated/\">depreciation</a> I&rsquo;ve been investigating how service workers might improve the experience as well as as ensuring the site continues to work when you&rsquo;re offline.</p>\n<p>In this talk I will discuss how the LNUG websites uses appCache and services workers, the things I&rsquo;ve learned along the way and what we can still improve the experience. </p>\n<p>I&#39;m a remote Javascript engineer, part time conference organiser and my opinions can often be found on twitter: <a href=\"twitter.com/simonmcmanus\">@simonmcmanus</a>. </p>\n",
+                    "img": {
+                        "src": "https://avatars1.githubusercontent.com/u/55853?v=4"
+                    },
+                    ".lnug-twitterhandle a": {
+                        "href": "https://github.com/simonmcmanus"
                     }
                 }
             ]
