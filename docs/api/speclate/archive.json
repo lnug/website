@@ -6,8 +6,12 @@
             "component": "archive",
             "data": [
                 {
+                    ".date": "November 2017",
+                    ".speakers": "<li>Taking LNUG offline -  <a href=\"https://github.com/simonmcmanus\">Simon McManus</a> </li> <li>Slot available -  <a href=\"https://lnug.org/speak.html\">Submit your talk!</a> </li>"
+                },
+                {
                     ".date": "October 2017",
-                    ".speakers": "<li>Scalable Scraping in Node and a bit of GO -  <a href=\"https://github.com/sp3c1\">sp3c1</a> </li> <li>Slot available -  <a href=\"https://lnug.org/speak.html\">Submit your talk!</a> </li>"
+                    ".speakers": "<li>Node.js lightning talks -  <a href=\"https://github.com/admataz\">Adam Davis</a> </li> <li>Scalable Scraping in Node and a bit of GO -  <a href=\"https://github.com/sp3c1\">sp3c1</a> </li>"
                 },
                 {
                     ".date": "September 2017",
