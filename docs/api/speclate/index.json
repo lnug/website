@@ -8,7 +8,7 @@
         ".lnug-ticket": {
             "component": "ticket",
             "data": {
-                ".lnug-nextmeetup": "October 25th 2017",
+                ".lnug-nextmeetup": "November 22nd 2017",
                 ".venue": "Makers Academy",
                 "address": "50 - 52 Commercial St<br />London E1 6LT",
                 ".address a": {
@@ -23,9 +23,20 @@
             "component": "speaker",
             "data": [
                 {
+                    ".name": "Bernard Baker",
+                    ".title": " Building an Electron application with NodeJS",
+                    ".desc": "<p>NodeJS has many uses, but what about taking the traditional web development offline and developing NodeJS application for the desktop. This talk introduces Electron. A nifty framework which makes desktop application development with NodeJS a breeze and stretches the horizon for businesses and developers to offer desktop applications as solutions to client and business needs.</p>\n<p>Watch Bernard Baker (BTAB <a href=\"https://twitter.com/bernibear2000\">@bernibear2000</a>) walk you through the development of a production ready application which is being used at Sky which converts videos into sprite sheets for use by online display campaigns.</p>\n<p>Bernard Baker is an aspiring programmer who has been coding for over ten years. Currently working as a Digital Innovations Specialist - dreaming up new product ideas, mentoring programmers and investigating new technologies for their benefits in his business domain. </p>\n",
+                    "img": {
+                        "src": "https://avatars2.githubusercontent.com/u/13556172?v=4"
+                    },
+                    ".lnug-twitterhandle a": {
+                        "href": "https://github.com/bernardbaker"
+                    }
+                },
+                {
                     ".name": "Adam Davis",
-                    ".title": "Node.js lightning talks",
-                    ".desc": "<p>We hear anecdotal stories about how people are using node.js:  self-starters, open source, experimentation, and just having some fun beyond enterprise.  Tonight we will open the mic for short-burst, quick-fire presentations. Maximum 8 minutes to talk about whatever is getting you thinking and acting. Add your lighting talk to the lineup in the comments on <a href=\"https://github.com/lnug/speakers/issues/116\">here</a>. </p>\n<h3 id=\"-9889-65039-david-scheiner-moving-on-from-mongoose-how-a-great-thing-finally-cornered-us\">&#9889;&#65039; David Scheiner - Moving on from Mongoose: How a great thing finally cornered us</h3>\n<p>Mongoose has helped us greatly to maintain the integrity of our data against a mongodb database. However, we are not able to share the models we use on our apis anywhere outside those apis. And Mongoose schemas are not shareable, which means we cannot consume them on any other level of our applications. This means either using  conversion plugins, or else writing and maintaining some other solution. In addition, the mongoose models themselves are not shareable, which means even if we solve the schema issue, we still have at least two sets of models to maintain. Finally, we use Typescript, which means ideally we can share schema definitions with that which would allow us to define our entities once and have those definitions propagate to all levels of our applications.  The final part of this presentation will focus on the solution we now intend to adopt as we begin to overhaul our entire architecture in the coming months.</p>\n<h3 id=\"-9889-65039-james-porter-node-powered-static-sites-with-react-graphql-in-minutes\">&#9889;&#65039; James Porter - Node powered static sites with React/GraphQL in minutes</h3>\n<p>Set up and deploy a Node build system + React/Modern JS + GraphQL static site with Continuous Deployment, domain, HTTPs and more with Gatsby and Netlify. The combination of ease of deployment and access to modern Javascript technologies can be a real game changer for side projects and experiments.</p>\n",
+                    ".title": "&#9889;&#65039;MOAR lightning community node.js talks! &#9889;&#65039;",
+                    ".desc": "<p>We loved it last month when people stood up with ad hoc talks, tips and tool walkthroughs. Much fun and entertainment all round. (If you missed it - check <a href=\"https://www.youtube.com/watch?v=7gCKAfrlkAk&amp;list=PLam_80-FY3vTo_2mlVajPvnqWqUrECJeK\">all last month&#39;s videos here</a>)</p>\n<p>This month it&#39;s your turn. For 3-8 minutes, the mic is yours. Add your name and topic as a <a href=\"https://github.com/lnug/speakers/issues/119\">comment in this issue</a>. Or turn up on the night and we will try fit you in... </p>\n<p>Also, as usual: community announcements, open source projects, job hunters and offers will have a chance on the mic. </p>\n",
                     "img": {
                         "src": "https://avatars3.githubusercontent.com/u/395101?v=4"
                     },
@@ -34,14 +45,14 @@
                     }
                 },
                 {
-                    ".name": "sp3c1",
-                    ".title": "Scalable Scraping in Node and a bit of GO",
-                    ".desc": "<p>A story of moving a monolithic Python Twisted application into NodeJs and micro services. Will discuss what problems we have faced, how we resolved particular issues and arrived at truly modular structure on AWS. Will highlight pain points and place we see for future improvements. </p>\n<p>Bartlomiej Specjalny, Lead NodeJs Software Engineer at Pad Innovation Limited,  a fullstack software engineer with background in computer graphics and multimedia.</p>\n",
+                    ".name": "Simon McManus",
+                    ".title": "Taking LNUG offline",
+                    ".desc": "<p>The LNUG website uses AppCache with the help of <a href=\"https://github.com/gr2m/appcache-nanny\">app-cache-nanny</a> but with its upcoming <a href=\"https://www.fxsitecompat.com/en-CA/docs/2015/application-cache-api-has-been-deprecated/\">depreciation</a> I&rsquo;ve been investigating how Service Workers might improve the experience as well as as ensuring the site continues to work when you&rsquo;re offline.</p>\n<p>In this talk I will explain how the LNUG website gets built, how it uses appCache / service workers and some of the things I&rsquo;ve learned along the way.</p>\n<p>I&#39;m a remote Javascript engineer, part time conference organiser and my opinions can often be found on twitter: <a href=\"twitter.com/simonmcmanus\">@simonmcmanus</a>. </p>\n",
                     "img": {
-                        "src": "https://avatars0.githubusercontent.com/u/4508208?v=4"
+                        "src": "https://avatars1.githubusercontent.com/u/55853?v=4"
                     },
                     ".lnug-twitterhandle a": {
-                        "href": "https://github.com/sp3c1"
+                        "href": "https://github.com/simonmcmanus"
                     }
                 }
             ]

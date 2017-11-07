@@ -1,5 +1,25 @@
 [
     {
+        "date": "November 2017",
+        "speakers": [
+            {
+                "name": "Adam Davis",
+                "url": "https://github.com/admataz",
+                "title": "&#9889;&#65039;MOAR lightning community node.js talks! &#9889;&#65039;"
+            },
+            {
+                "name": "Bernard Baker",
+                "url": "https://github.com/bernardbaker",
+                "title": " Building an Electron application with NodeJS"
+            },
+            {
+                "name": "Simon McManus",
+                "url": "https://github.com/simonmcmanus",
+                "title": "Taking LNUG offline"
+            }
+        ]
+    },
+    {
         "date": "October 2017",
         "speakers": [
             {
