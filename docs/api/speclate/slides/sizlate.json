@@ -61,18 +61,18 @@
                 },
                 {
                     "a": {
-                        "href": "/slides/offline.html",
+                        "href": "/slides/client-side.html",
                         "id": "slide-nav-6",
                         "className": "hidden",
-                        "innerHTML": "offline"
+                        "innerHTML": "client-side"
                     }
                 },
                 {
                     "a": {
-                        "href": "/slides/client-side.html",
+                        "href": "/slides/offline.html",
                         "id": "slide-nav-7",
                         "className": "hidden",
-                        "innerHTML": "client-side"
+                        "innerHTML": "offline"
                     }
                 },
                 {
