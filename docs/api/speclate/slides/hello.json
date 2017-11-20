@@ -21,18 +21,18 @@
                 },
                 {
                     "a": {
-                        "href": "/slides/dev.html",
+                        "href": "/slides/requirements.html",
                         "id": "slide-nav-1",
                         "className": "hidden",
-                        "innerHTML": "dev"
+                        "innerHTML": "requirements"
                     }
                 },
                 {
                     "a": {
-                        "href": "/slides/requirements.html",
+                        "href": "/slides/dev.html",
                         "id": "slide-nav-2",
                         "className": "hidden",
-                        "innerHTML": "requirements"
+                        "innerHTML": "dev"
                     }
                 },
                 {
@@ -85,10 +85,10 @@
                 },
                 {
                     "a": {
-                        "href": "/slides/loading.html",
+                        "href": "/slides/tips.html",
                         "id": "slide-nav-9",
                         "className": "hidden",
-                        "innerHTML": "loading"
+                        "innerHTML": "tips"
                     }
                 },
                 {
@@ -97,6 +97,14 @@
                         "id": "slide-nav-10",
                         "className": "hidden",
                         "innerHTML": "contribute"
+                    }
+                },
+                {
+                    "a": {
+                        "href": "/slides/thanks.html",
+                        "id": "slide-nav-11",
+                        "className": "hidden",
+                        "innerHTML": "thanks"
                     }
                 }
             ]

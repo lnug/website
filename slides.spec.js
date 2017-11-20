@@ -1,9 +1,8 @@
 'use strict'
 
-var slides = ['hello', 'dev', 'requirements', 'sizlate', 'spec', 'speclate', 'client-side', 'offline', 'app-shell', 'loading', 'contribute']
+var slides = ['hello', 'requirements', 'dev', 'sizlate', 'spec', 'speclate', 'client-side', 'offline', 'app-shell', 'tips', 'contribute', 'thanks']
 
 var slideNav = (activePageName) => {
-
 
   var active = slides.length
   return slides.map((name, index) => {

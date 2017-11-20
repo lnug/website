@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html data-speclate-page="slides/sizlate" data-speclate-url="/slides/sizlate.html">
+<html data-speclate-page="slides/tips" data-speclate-url="/slides/tips.html">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>sizlate - Taking LNUG offline</title>
+  <title>tips - Taking LNUG offline</title>
   <meta name="description" content="London Node.js User Group is a meetup for developers but everyone is welcome. We meet every month to talk about Node, Javascript and to network">
 <link rel="icon" type="image/png" href="/images/favicon/favicon-128.png" sizes="128x128">
 
@@ -44,48 +44,50 @@
     </div>
   </header>
 
-  <div id="container">
-<ol id="slide-nav">
+  <div id="container"><ul id="slide-nav">
   <li><a href="/slides/hello.html" id="slide-nav-0">hello</a></li>
 
   <li><a href="/slides/requirements.html" id="slide-nav-1">requirements</a></li>
 
   <li><a href="/slides/dev.html" id="slide-nav-2">dev</a></li>
 
-  <li><a href="/slides/sizlate.html" id="slide-nav-3" class="active">sizlate</a></li>
+  <li><a href="/slides/sizlate.html" id="slide-nav-3">sizlate</a></li>
 
-  <li><a href="/slides/spec.html" id="slide-nav-4" class="hidden">spec</a></li>
+  <li><a href="/slides/spec.html" id="slide-nav-4">spec</a></li>
 
-  <li><a href="/slides/speclate.html" id="slide-nav-5" class="hidden">speclate</a></li>
+  <li><a href="/slides/speclate.html" id="slide-nav-5">speclate</a></li>
 
-  <li><a href="/slides/client-side.html" id="slide-nav-6" class="hidden">client-side</a></li>
+  <li><a href="/slides/client-side.html" id="slide-nav-6">client-side</a></li>
 
-  <li><a href="/slides/offline.html" id="slide-nav-7" class="hidden">offline</a></li>
+  <li><a href="/slides/offline.html" id="slide-nav-7">offline</a></li>
 
-  <li><a href="/slides/app-shell.html" id="slide-nav-8" class="hidden">app-shell</a></li>
+  <li><a href="/slides/app-shell.html" id="slide-nav-8">app-shell</a></li>
 
-  <li><a href="/slides/tips.html" id="slide-nav-9" class="hidden">tips</a></li>
+  <li><a href="/slides/tips.html" id="slide-nav-9" class="active">tips</a></li>
 
   <li><a href="/slides/contribute.html" id="slide-nav-10" class="hidden">contribute</a></li>
 
   <li><a href="/slides/thanks.html" id="slide-nav-11" class="hidden">thanks</a></li>
-</ol>
-<h2>Sizlate</h2>
-<pre>
-<code>
-  const markup = &quot;&lt;div&gt;&lt;h2&gt;&lt;/h2&gt;&lt;/div&gt;&quot;;
-  const selectors = {
-    h2: &apos;Sizlate Example&apos;,
-    div: {
-      className: &apos;bacon&apos;
-    }
-  }
-  var html = sizlate.render(selectors);
-  // html: &lt;div class=&quot;bacon&quot; &gt;&lt;h2&gt;Sizlate Example&lt;/h2&gt;&lt;/div&gt;
-</code>
-</pre>
+</ul>
 
-<a href="https://github.com/simonmcmanus/sizlate">https://github.com/simonmcmanus/sizlate</a></div>
+<h3>Tools</h3>
+<ul>
+    <li>Lighthouse</li>
+</ul>
+
+<h3>Development tips</h3>
+<ul>
+    <li>Build with Chrome Canary</li>
+    <li>One tab at a a time</li>
+    <li>Test without Chrome Canary</li>
+</ul>
+
+<h3>Making changes to the LNUG site</h3>
+<ul>
+    <li>Updates to page spec can just be pushed</li>
+    <li>Other changes require bump to service worker</li>
+    <li>AppCache still bumps with every change :(</li>
+</ul></div>
 
   <footer>
     <div class="container">

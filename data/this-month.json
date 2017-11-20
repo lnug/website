@@ -1,20 +1,32 @@
 [
     {
+        "apiSpeakerUrl": "https://api.github.com/users/admataz",
+        "speakerUrl": "https://github.com/admataz",
+        "title": "&#9889;&#65039;MOAR lightning community node.js talks! &#9889;&#65039;",
+        "description": "<p>We loved it last month when people stood up with ad hoc talks, tips and tool walkthroughs. Much fun and entertainment all round. (If you missed it - check <a href=\"https://www.youtube.com/watch?v=7gCKAfrlkAk&amp;list=PLam_80-FY3vTo_2mlVajPvnqWqUrECJeK\">all last month&#39;s videos here</a>)</p>\n<p>This month it&#39;s your turn. For 3-8 minutes, the mic is yours. Add your name and topic as a <a href=\"https://github.com/lnug/speakers/issues/119\">comment in this issue</a>. Or turn up on the night and we will try fit you in... </p>\n<p>Also, as usual: community announcements, open source projects, job hunters and offers will have a chance on the mic. </p>\n",
+        "milestone": "November 22nd 2017",
+        "img": "https://avatars3.githubusercontent.com/u/395101?v=4",
+        "handle": "admataz",
+        "name": "Adam Davis"
+    },
+    {
+        "apiSpeakerUrl": "https://api.github.com/users/bernardbaker",
+        "speakerUrl": "https://github.com/bernardbaker",
+        "title": " Building an Electron application with NodeJS",
+        "description": "<p>NodeJS has many uses, but what about taking the traditional web development offline and developing NodeJS application for the desktop. This talk introduces Electron. A nifty framework which makes desktop application development with NodeJS a breeze and stretches the horizon for businesses and developers to offer desktop applications as solutions to client and business needs.</p>\n<p>Watch Bernard Baker (BTAB <a href=\"https://twitter.com/bernibear2000\">@bernibear2000</a>) walk you through the development of a production ready application which is being used at Sky which converts videos into sprite sheets for use by online display campaigns.</p>\n<p>Bernard Baker is an aspiring programmer who has been coding for over ten years. Currently working as a Digital Innovations Specialist - dreaming up new product ideas, mentoring programmers and investigating new technologies for their benefits in his business domain. </p>\n",
+        "milestone": "November 22nd 2017",
+        "img": "https://avatars2.githubusercontent.com/u/13556172?v=4",
+        "handle": "bernardbaker",
+        "name": "Bernard Baker"
+    },
+    {
         "apiSpeakerUrl": "https://api.github.com/users/simonmcmanus",
         "speakerUrl": "https://github.com/simonmcmanus",
         "title": "Taking LNUG offline",
-        "description": "<p>I&rsquo;ve alway been keen to provide a good offline experience for the LNUG website. We already use AppCache with the help of <a href=\"https://github.com/gr2m/appcache-nanny\">app-cache-nanny</a> but with its upcoming <a href=\"https://www.fxsitecompat.com/en-CA/docs/2015/application-cache-api-has-been-deprecated/\">depreciation</a> I&rsquo;ve been investigating how service workers might improve the experience as well as as ensuring the site continues to work when you&rsquo;re offline.</p>\n<p>In this talk I will discuss how the LNUG websites uses appCache and services workers, the things I&rsquo;ve learned along the way and what we can still improve the experience. </p>\n<p>I&#39;m a remote Javascript engineer, part time conference organiser and my opinions can often be found on twitter: <a href=\"twitter.com/simonmcmanus\">@simonmcmanus</a>. </p>\n",
+        "description": "<p>The LNUG website uses AppCache with the help of <a href=\"https://github.com/gr2m/appcache-nanny\">app-cache-nanny</a> but with its upcoming <a href=\"https://www.fxsitecompat.com/en-CA/docs/2015/application-cache-api-has-been-deprecated/\">depreciation</a> I&rsquo;ve been investigating how Service Workers might improve the experience.</p>\n<p>In this talk I will explain how the LNUG website gets built, how it uses appCache / service workers and some of the things I&rsquo;ve learned along the way.</p>\n<p>I&#39;m a remote Javascript engineer, part time conference organiser and my opinions can often be found on twitter: <a href=\"twitter.com/simonmcmanus\">@simonmcmanus</a>. </p>\n",
         "milestone": "November 22nd 2017",
         "img": "https://avatars1.githubusercontent.com/u/55853?v=4",
         "handle": "simonmcmanus",
         "name": "Simon McManus"
-    },
-    {
-        "title": "Slot available",
-        "name": "Submit your talk!",
-        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
-        "img": "/images/favicon/favicon-128.png",
-        "speakerUrl": "https://lnug.org/speak.html",
-        "milestone": "November 22nd 2017"
     }
 ]

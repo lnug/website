@@ -1,7 +1,7 @@
 {
-    "page": "slides/offline",
+    "page": "slides/tips",
     "spec": {
-        "title": "offline - Taking LNUG offline",
+        "title": "tips - Taking LNUG offline",
         "html": {
             "className": "slide"
         },
@@ -71,7 +71,7 @@
                     "a": {
                         "href": "/slides/offline.html",
                         "id": "slide-nav-7",
-                        "className": "active",
+                        "className": "",
                         "innerHTML": "offline"
                     }
                 },
@@ -79,7 +79,7 @@
                     "a": {
                         "href": "/slides/app-shell.html",
                         "id": "slide-nav-8",
-                        "className": "hidden",
+                        "className": "",
                         "innerHTML": "app-shell"
                     }
                 },
@@ -87,7 +87,7 @@
                     "a": {
                         "href": "/slides/tips.html",
                         "id": "slide-nav-9",
-                        "className": "hidden",
+                        "className": "active",
                         "innerHTML": "tips"
                     }
                 },
@@ -110,5 +110,5 @@
             ]
         }
     },
-    "route": "/slides/offline.html"
+    "route": "/slides/tips.html"
 }

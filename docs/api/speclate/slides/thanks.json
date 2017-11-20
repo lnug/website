@@ -1,7 +1,7 @@
 {
-    "page": "slides/offline",
+    "page": "slides/thanks",
     "spec": {
-        "title": "offline - Taking LNUG offline",
+        "title": "thanks - Taking LNUG offline",
         "html": {
             "className": "slide"
         },
@@ -71,7 +71,7 @@
                     "a": {
                         "href": "/slides/offline.html",
                         "id": "slide-nav-7",
-                        "className": "active",
+                        "className": "",
                         "innerHTML": "offline"
                     }
                 },
@@ -79,7 +79,7 @@
                     "a": {
                         "href": "/slides/app-shell.html",
                         "id": "slide-nav-8",
-                        "className": "hidden",
+                        "className": "",
                         "innerHTML": "app-shell"
                     }
                 },
@@ -87,7 +87,7 @@
                     "a": {
                         "href": "/slides/tips.html",
                         "id": "slide-nav-9",
-                        "className": "hidden",
+                        "className": "",
                         "innerHTML": "tips"
                     }
                 },
@@ -95,7 +95,7 @@
                     "a": {
                         "href": "/slides/contribute.html",
                         "id": "slide-nav-10",
-                        "className": "hidden",
+                        "className": "",
                         "innerHTML": "contribute"
                     }
                 },
@@ -103,12 +103,12 @@
                     "a": {
                         "href": "/slides/thanks.html",
                         "id": "slide-nav-11",
-                        "className": "hidden",
+                        "className": "active",
                         "innerHTML": "thanks"
                     }
                 }
             ]
         }
     },
-    "route": "/slides/offline.html"
+    "route": "/slides/thanks.html"
 }

@@ -1,0 +1,1 @@
+// this empty file is used to disabled serviceworkers by overriding the service worker file.
