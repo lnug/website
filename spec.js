@@ -3,6 +3,7 @@ var titoLink = require('./lib/tito-link')
 var venue = require('./data/venues/makers.json')
 var eventDate = nextEvent()
 var imageGallery = require('./lib/image-gallery')
+var ScanSpecForFiles = require('./lib/scan-spec-for-files')
 
 var speakerSelectors = require('./lib/speaker-selectors')
 var archiveSelectors = require('./lib/archive-selectors')
@@ -25,28 +26,7 @@ var options = {
     'manifest.json',
     'client/index-compiled.js'
   ],
-  scanSpecForFiles: function (spec, offline) {
-    var getImages = function (selectors) {
-      var images = []
-      Object.keys(selectors).forEach(function (selector) {
-        if (selectors[selector].data) {
-          selectors[selector].data.forEach(function (item) {
-            images.push(item.img.src)
-          })
-        }
-      })
-      return images
-    }
-    // get image gallery
-    var galleryThumbs = getImages(spec['/image-gallery.html'].spec)
-    var otherFiles = []
-    // we only need to move this for offline (its already in the docs folder)
-    if (offline) {
-      otherFiles.push('client/index-compiled.js')
-    }
-    spec.options.files = spec.options.files.concat(galleryThumbs, otherFiles)
-    return spec
-  }
+  scanSpecForFiles: ScanSpecForFiles
 }
 module.exports = {
   '/index.html': {
