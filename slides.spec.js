@@ -1,6 +1,6 @@
 'use strict'
 
-var slides = ['hello', 'requirements', 'dev', 'sizlate', 'spec', 'speclate', 'client-side', 'offline', 'app-shell', 'tips', 'contribute', 'thanks']
+var slides = ['hello', 'requirements', 'dev', 'sizlate', 'spec', /*'speclate',*/ 'client-side', 'offline', 'app-shell', 'tips', 'contribute', 'thanks']
 
 var slideNav = (activePageName) => {
 

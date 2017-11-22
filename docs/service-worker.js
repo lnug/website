@@ -2,9 +2,10 @@
 'use strict'
 var serviceWorker = require('speclate-service-worker')
 var spec = require('../spec')
-var version = '2.11'
+var version = '2.15'
 
 serviceWorker(spec, version)
+
 },{"../spec":15,"speclate-service-worker":12}],2:[function(require,module,exports){
 module.exports=[
     {
@@ -2225,7 +2226,7 @@ function getComponents (spec) {
 },{}],14:[function(require,module,exports){
 'use strict'
 
-var slides = ['hello', 'requirements', 'dev', 'sizlate', 'spec', 'speclate', 'client-side', 'offline', 'app-shell', 'tips', 'contribute', 'thanks']
+var slides = ['hello', 'requirements', 'dev', 'sizlate', 'spec', /*'speclate',*/ 'client-side', 'offline', 'app-shell', 'tips', 'contribute', 'thanks']
 
 var slideNav = (activePageName) => {
 

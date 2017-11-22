@@ -53,16 +53,8 @@
                 },
                 {
                     "a": {
-                        "href": "/slides/speclate.html",
-                        "id": "slide-nav-5",
-                        "className": "hidden",
-                        "innerHTML": "speclate"
-                    }
-                },
-                {
-                    "a": {
                         "href": "/slides/client-side.html",
-                        "id": "slide-nav-6",
+                        "id": "slide-nav-5",
                         "className": "hidden",
                         "innerHTML": "client-side"
                     }
@@ -70,7 +62,7 @@
                 {
                     "a": {
                         "href": "/slides/offline.html",
-                        "id": "slide-nav-7",
+                        "id": "slide-nav-6",
                         "className": "hidden",
                         "innerHTML": "offline"
                     }
@@ -78,7 +70,7 @@
                 {
                     "a": {
                         "href": "/slides/app-shell.html",
-                        "id": "slide-nav-8",
+                        "id": "slide-nav-7",
                         "className": "hidden",
                         "innerHTML": "app-shell"
                     }
@@ -86,7 +78,7 @@
                 {
                     "a": {
                         "href": "/slides/tips.html",
-                        "id": "slide-nav-9",
+                        "id": "slide-nav-8",
                         "className": "hidden",
                         "innerHTML": "tips"
                     }
@@ -94,7 +86,7 @@
                 {
                     "a": {
                         "href": "/slides/contribute.html",
-                        "id": "slide-nav-10",
+                        "id": "slide-nav-9",
                         "className": "hidden",
                         "innerHTML": "contribute"
                     }
@@ -102,7 +94,7 @@
                 {
                     "a": {
                         "href": "/slides/thanks.html",
-                        "id": "slide-nav-11",
+                        "id": "slide-nav-10",
                         "className": "hidden",
                         "innerHTML": "thanks"
                     }
