@@ -571,12 +571,14 @@ footer {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
+        margin: 0 -1em;
     }
     .lnug-talk {
-        width: auto;
+        width: 31%;
         display: inline-block;
         vertical-align: top;
-        max-width: 31%;
+        margin: 1em 1em 2em;
+        flex: 1 1 auto;
     }
     .lnug-talk .title {
         min-height: 3em;
