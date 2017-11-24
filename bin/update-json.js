@@ -38,6 +38,10 @@ superagent
         throw err
       }
 
+      if (!completeAcceptedTalks.length) {
+        return
+      }
+
       while (completeAcceptedTalks.length < 2) {
         completeAcceptedTalks.push({
           title: 'Slot available',
