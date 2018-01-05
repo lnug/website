@@ -9,6 +9,21 @@ serviceWorker(spec, version)
 },{"../spec":14,"speclate-service-worker":12}],2:[function(require,module,exports){
 module.exports=[
     {
+        "date": "January 2018",
+        "speakers": [
+            {
+                "name": "lazlojuly",
+                "url": "https://github.com/lazlojuly",
+                "title": "Unit testing has never been so much fun!"
+            },
+            {
+                "name": "David Scheiner",
+                "url": "https://github.com/xscheiner",
+                "title": "Moving on from Mongoose: How a great thing finally cornered us"
+            }
+        ]
+    },
+    {
         "date": "November 2017",
         "speakers": [
             {
@@ -1679,34 +1694,24 @@ module.exports=[
 },{}],4:[function(require,module,exports){
 module.exports=[
     {
-        "apiSpeakerUrl": "https://api.github.com/users/admataz",
-        "speakerUrl": "https://github.com/admataz",
-        "title": "&#9889;&#65039;MOAR lightning community node.js talks! &#9889;&#65039;",
-        "description": "<p>We loved it last month when people stood up with ad hoc talks, tips and tool walkthroughs. Much fun and entertainment all round. (If you missed it - check <a href=\"https://www.youtube.com/watch?v=7gCKAfrlkAk&amp;list=PLam_80-FY3vTo_2mlVajPvnqWqUrECJeK\">all last month&#39;s videos here</a>)</p>\n<p>This month it&#39;s your turn. For 3-8 minutes, the mic is yours. Add your name and topic as a <a href=\"https://github.com/lnug/speakers/issues/119\">comment in this issue</a>. Or turn up on the night and we will try fit you in... </p>\n<p>Also, as usual: community announcements, open source projects, job hunters and offers will have a chance on the mic. </p>\n",
-        "milestone": "November 22nd 2017",
-        "img": "https://avatars3.githubusercontent.com/u/395101?v=4",
-        "handle": "admataz",
-        "name": "Adam Davis"
+        "apiSpeakerUrl": "https://api.github.com/users/lazlojuly",
+        "speakerUrl": "https://github.com/lazlojuly",
+        "title": "Unit testing has never been so much fun!",
+        "description": "<ul>\n<li>This is a lightweight and entertaining 15 minutes long talk.</li>\n<li>It is aimed at developers on <strong>ALL</strong> levels.</li>\n<li>Covers basic and advanced concepts.</li>\n</ul>\n<p>Bio: I am a JavaScript Engineer with growth mindset. &#10;Connect with me on <a href=\"https://twitter.com/lazlojuly\">Twitter</a>, <a href=\"https://www.linkedin.com/in/lazlojuly\">LinkedIn</a> or <a href=\"https://github.com/lazlojuly\">GitHub</a></p>\n",
+        "milestone": "January 24th 2018",
+        "img": "https://avatars0.githubusercontent.com/u/7015868?v=4",
+        "handle": "lazlojuly",
+        "name": "lazlojuly"
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/bernardbaker",
-        "speakerUrl": "https://github.com/bernardbaker",
-        "title": " Building an Electron application with NodeJS",
-        "description": "<p>NodeJS has many uses, but what about taking the traditional web development offline and developing NodeJS application for the desktop. This talk introduces Electron. A nifty framework which makes desktop application development with NodeJS a breeze and stretches the horizon for businesses and developers to offer desktop applications as solutions to client and business needs.</p>\n<p>Watch Bernard Baker (BTAB <a href=\"https://twitter.com/bernibear2000\">@bernibear2000</a>) walk you through the development of a production ready application which is being used at Sky which converts videos into sprite sheets for use by online display campaigns.</p>\n<p>Bernard Baker is an aspiring programmer who has been coding for over ten years. Currently working as a Digital Innovations Specialist - dreaming up new product ideas, mentoring programmers and investigating new technologies for their benefits in his business domain. </p>\n",
-        "milestone": "November 22nd 2017",
-        "img": "https://avatars2.githubusercontent.com/u/13556172?v=4",
-        "handle": "bernardbaker",
-        "name": "Bernard Baker"
-    },
-    {
-        "apiSpeakerUrl": "https://api.github.com/users/simonmcmanus",
-        "speakerUrl": "https://github.com/simonmcmanus",
-        "title": "Taking LNUG offline",
-        "description": "<p>The LNUG website uses AppCache with the help of <a href=\"https://github.com/gr2m/appcache-nanny\">app-cache-nanny</a> but with its upcoming <a href=\"https://www.fxsitecompat.com/en-CA/docs/2015/application-cache-api-has-been-deprecated/\">depreciation</a> I&rsquo;ve been investigating how Service Workers might improve the experience as well as as ensuring the site continues to work when you&rsquo;re offline.</p>\n<p>In this talk I will explain how the LNUG website gets built, how it uses appCache / service workers and some of the things I&rsquo;ve learned along the way.</p>\n<p>I&#39;m a remote Javascript engineer, part time conference organiser and my opinions can often be found on twitter: <a href=\"twitter.com/simonmcmanus\">@simonmcmanus</a>. </p>\n",
-        "milestone": "November 22nd 2017",
-        "img": "https://avatars1.githubusercontent.com/u/55853?v=4",
-        "handle": "simonmcmanus",
-        "name": "Simon McManus"
+        "apiSpeakerUrl": "https://api.github.com/users/xscheiner",
+        "speakerUrl": "https://github.com/xscheiner",
+        "title": "Moving on from Mongoose: How a great thing finally cornered us",
+        "description": "<p>Mongoose has helped us greatly to maintain the integrity of our data against a mongodb database. However, we are not able to share the models we use on our apis anywhere outside those apis. And Mongoose schemas are not shareable, which means we cannot consume them on any other level of our applications. This means either using conversion plugins, or else writing and maintaining some other solution. In addition, the mongoose models themselves are not shareable, which means even if we solve the schema issue, we still have at least two sets of models to maintain.</p>\n<p>Finally, we use Typescript, which means ideally we can share schema definitions with that which would allow us to define our entities once and have those definitions propagate to all levels of our applications.</p>\n<p>The final part of this presentation will focus on the solution we now intend to adopt as we begin to overhaul our entire architecture in the coming months.</p>\n",
+        "milestone": "January 24th 2018",
+        "img": "https://avatars3.githubusercontent.com/u/1236507?v=4",
+        "handle": "xscheiner",
+        "name": "David Scheiner"
     }
 ]
 },{}],5:[function(require,module,exports){
@@ -1806,6 +1811,30 @@ module.exports = function () {
 }
 
 },{"../data/this-month.json":4}],9:[function(require,module,exports){
+module.exports = function (spec, offline) {
+  var getImages = function (selectors) {
+    var images = []
+    Object.keys(selectors).forEach(function (selector) {
+      if (selectors[selector].data) {
+        selectors[selector].data.forEach(function (item) {
+          images.push(item.img.src)
+        })
+      }
+    })
+    return images
+  }
+  // get image gallery
+  var galleryThumbs = getImages(spec['/image-gallery.html'].spec)
+  var otherFiles = []
+  // we only need to move this for offline (its already in the docs folder)
+  if (offline) {
+    otherFiles.push('client/index-compiled.js')
+  }
+  spec.options.files = spec.options.files.concat(galleryThumbs, otherFiles)
+  return spec
+}
+
+},{}],10:[function(require,module,exports){
 'use strict'
 
 var thisMonth = require('../data/this-month.json')
@@ -1820,7 +1849,7 @@ function speakerSelectors (speaker) {
     speakerUrl = 'https://github.com/' + speaker.handle
   }
 
-  if(speaker.name){
+  if (speaker.name) {
     speakerID = speaker.name
   } else {
     speakerID = speaker.handle
@@ -1848,13 +1877,7 @@ module.exports = function (callback) {
   return thisMonth.sort(sortByTitle).map(speakerSelectors)
 }
 
-},{"../data/this-month.json":4}],10:[function(require,module,exports){
-
-module.exports = function () {
-  return 'http://www.meetup.com/london-nodejs/'
-}
-
-},{}],11:[function(require,module,exports){
+},{"../data/this-month.json":4}],11:[function(require,module,exports){
 /**
  * NodeJS wrapper for JavaScript HTML Encoder library http://www.strictly-software.com/htmlencode
  * Pavel Minchenkov
@@ -2188,18 +2211,18 @@ module.exports = function (spec) {
       routeName = page.slice(0, -5)
     }
     routes.push(page)
-
     if (pageName) {
       pages.push('/pages/' + pageName + '/' + pageName + '.html')
     }
 
     specs.push('/api/speclate' + routeName + '.json')
-
-    components = components.concat(getComponents(spec[page].spec))
+    for (var selector in spec[page].spec) {
+      var component = spec[page].spec[selector].component
+      if (component) {
+        components.push('/components/' + component + '/' + component + '.html')
+      }
+    }
   })
-  if (spec.defaultSpec) {
-    components = components.concat(getComponents(spec.defaultSpec))
-  }
 
   return {
     components: components,
@@ -2211,24 +2234,12 @@ module.exports = function (spec) {
   }
 }
 
-
-function getComponents (spec) {
-  var components = []
-  for (var selector in spec) {
-    var component = spec[selector].component
-    if (component) {
-      components.push('/components/' + component + '/' + component + '.html')
-    }
-  }
-  return components
-}
-
 },{}],14:[function(require,module,exports){
 var nextEvent = require('./lib/next-event-from-file')
-var titoLink = require('./lib/tito-link')
 var venue = require('./data/venues/makers.json')
 var eventDate = nextEvent()
 var imageGallery = require('./lib/image-gallery')
+var ScanSpecForFiles = require('./lib/scan-spec-for-files')
 
 var speakerSelectors = require('./lib/speaker-selectors')
 var archiveSelectors = require('./lib/archive-selectors')
@@ -2251,28 +2262,7 @@ var options = {
     'manifest.json',
     'client/index-compiled.js'
   ],
-  scanSpecForFiles: function (spec, offline) {
-    var getImages = function (selectors) {
-      var images = []
-      Object.keys(selectors).forEach(function (selector) {
-        if (selectors[selector].data) {
-          selectors[selector].data.forEach(function (item) {
-            images.push(item.img.src)
-          })
-        }
-      })
-      return images
-    }
-    // get image gallery
-    var galleryThumbs = getImages(spec['/image-gallery.html'].spec)
-    var otherFiles = []
-    // we only need to move this for offline (its already in the docs folder)
-    if (offline) {
-      otherFiles.push('client/index-compiled.js')
-    }
-    spec.options.files = spec.options.files.concat(galleryThumbs, otherFiles)
-    return spec
-  }
+  scanSpecForFiles: ScanSpecForFiles
 }
 module.exports = {
   '/index.html': {
@@ -2294,7 +2284,7 @@ module.exports = {
             href: 'https://www.google.co.uk/maps/search/' + venue.address.join(',%20')
           },
           'a.cta': {
-            'href': titoLink()
+            'href': 'http://www.meetup.com/london-nodejs/'
           }
         }
       },
@@ -2370,4 +2360,4 @@ module.exports = {
   options: options
 }
 
-},{"./data/venues/makers.json":5,"./lib/archive-selectors":6,"./lib/image-gallery":7,"./lib/next-event-from-file":8,"./lib/speaker-selectors":9,"./lib/tito-link":10}]},{},[1]);
+},{"./data/venues/makers.json":5,"./lib/archive-selectors":6,"./lib/image-gallery":7,"./lib/next-event-from-file":8,"./lib/scan-spec-for-files":9,"./lib/speaker-selectors":10}]},{},[1]);

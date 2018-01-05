@@ -1,14 +1,7 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 
-/* eslint-disable */
-
-// just a hack because the analytics stopped working, this should be moved back to a module.
-var analytics = function () {};
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','analytics');
-/* eslint-enable */
+var setupAnalytics = require('get-google-tracking-analytics')
+setupAnalytics()
 
 var router = require('speclate-router')
 var appCacheNanny = require('appcache-nanny')
@@ -20,7 +13,7 @@ router({
   },
   after: function () {
     $('html,body').scrollTop($('#container'))
-    analytics('send', 'pageview', {
+    ga('send', 'pageview', {
       page: window.location.pathname,
       title: document.title
     })
@@ -33,8 +26,8 @@ router({
   }
 })
 
-analytics('create', 'UA-2845245-14', 'auto')
-analytics('send', 'pageview')
+ga('create', 'UA-2845245-14', 'auto')
+ga('send', 'pageview')
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/service-worker.js').then(function (registration) {
@@ -52,7 +45,7 @@ appCacheNanny.on('updateready', function () {
   location.reload()
 })
 
-},{"appcache-nanny":2,"jquery":14,"speclate-router":33}],2:[function(require,module,exports){
+},{"appcache-nanny":2,"get-google-tracking-analytics":14,"jquery":15,"speclate-router":33}],2:[function(require,module,exports){
 // appCacheNanny
 // =============
 //
@@ -657,6 +650,21 @@ module.exports = function restParam(func, startIndex) {
 };
 
 },{}],14:[function(require,module,exports){
+'use strict'
+
+module.exports = function () {
+  window.GoogleAnalyticsObject = 'ga'
+  window.ga = window.ga || function () {
+    (window.ga.q = window.ga.q || []).push(arguments)
+  }
+  window.ga.l = 1 * new Date()
+  var a = document.createElement('script')
+  var m = document.getElementsByTagName('script')[0]
+  a.async = 1
+  a.src = 'https://www.google-analytics.com/analytics.js'
+  m.parentNode.insertBefore(a, m)
+}
+},{}],15:[function(require,module,exports){
 /*!
  * jQuery JavaScript Library v3.2.1
  * https://jquery.com/
@@ -10911,7 +10919,7 @@ if ( !noGlobal ) {
 return jQuery;
 } );
 
-},{}],15:[function(require,module,exports){
+},{}],16:[function(require,module,exports){
 /**
  * lodash 4.0.0 (Custom Build) <https://lodash.com/>
  * Build: `lodash modularize exports="npm" -o ./`
@@ -10948,7 +10956,7 @@ var isArray = Array.isArray;
 
 module.exports = isArray;
 
-},{}],16:[function(require,module,exports){
+},{}],17:[function(require,module,exports){
 /**
  * lodash 3.0.2 (Custom Build) <https://lodash.com/>
  * Build: `lodash modern modularize exports="npm" -o ./`
@@ -10987,7 +10995,7 @@ function isObject(value) {
 
 module.exports = isObject;
 
-},{}],17:[function(require,module,exports){
+},{}],18:[function(require,module,exports){
 /**
  * lodash 4.0.1 (Custom Build) <https://lodash.com/>
  * Build: `lodash modularize exports="npm" -o ./`
@@ -11084,7 +11092,7 @@ function isString(value) {
 
 module.exports = isString;
 
-},{}],18:[function(require,module,exports){
+},{}],19:[function(require,module,exports){
 (function (process){
   /* globals require, module */
 
@@ -11710,7 +11718,7 @@ module.exports = isString;
   page.sameOrigin = sameOrigin;
 
 }).call(this,require('_process'))
-},{"_process":22,"path-to-regexp":20}],19:[function(require,module,exports){
+},{"_process":23,"path-to-regexp":21}],20:[function(require,module,exports){
 (function (process){
 // Copyright Joyent, Inc. and other Node contributors.
 //
@@ -11938,7 +11946,7 @@ var substr = 'ab'.substr(-1) === 'b'
 ;
 
 }).call(this,require('_process'))
-},{"_process":22}],20:[function(require,module,exports){
+},{"_process":23}],21:[function(require,module,exports){
 var isarray = require('isarray')
 
 /**
@@ -12330,12 +12338,12 @@ function pathToRegexp (path, keys, options) {
   return stringToRegexp(path, keys, options)
 }
 
-},{"isarray":21}],21:[function(require,module,exports){
+},{"isarray":22}],22:[function(require,module,exports){
 module.exports = Array.isArray || function (arr) {
   return Object.prototype.toString.call(arr) == '[object Array]';
 };
 
-},{}],22:[function(require,module,exports){
+},{}],23:[function(require,module,exports){
 // shim for using process in browser
 var process = module.exports = {};
 
@@ -12521,7 +12529,7 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}],23:[function(require,module,exports){
+},{}],24:[function(require,module,exports){
 'use strict';
 
 exports.load = function (str) {
@@ -12551,7 +12559,7 @@ exports.get = function (item) {
     return $(item);
 };
 
-},{}],24:[function(require,module,exports){
+},{}],25:[function(require,module,exports){
 /**
  * In the case of input we should update the value and not just set the innerHTML property.
  * @param  {Object} $node sizzle object
@@ -12575,7 +12583,7 @@ module.exports = function ($node, data) {
 	return $node;
 };
 
-},{}],25:[function(require,module,exports){
+},{}],26:[function(require,module,exports){
 'use strict';
 
 module.exports = function (data, options) {
@@ -12594,7 +12602,7 @@ module.exports = function (data, options) {
     return retArray;
 };
 
-},{}],26:[function(require,module,exports){
+},{}],27:[function(require,module,exports){
 'use strict';
 
 var dom = require('../server/dom.js');
@@ -12623,7 +12631,7 @@ module.exports = function (str, selectors) {
     }
 };
 
-},{"../server/dom.js":23,"./update-node":29}],27:[function(require,module,exports){
+},{"../server/dom.js":24,"./update-node":30}],28:[function(require,module,exports){
 'use strict';
 
 // given a regex or function updates the value.
@@ -12636,7 +12644,7 @@ module.exports = function (oldValue, newValue) {
     return newValue;
 };
 
-},{}],28:[function(require,module,exports){
+},{}],29:[function(require,module,exports){
 'use strict';
 
 var newValue = require('./new-value');
@@ -12698,7 +12706,7 @@ module.exports = function ($node, obj) {
     return $node;
 };
 
-},{"../server/dom":23,"./new-value":27}],29:[function(require,module,exports){
+},{"../server/dom":24,"./new-value":28}],30:[function(require,module,exports){
 'use strict';
 var checkForInputs = require('./check-for-inputs');
 var updateNodeWithObject = require('./update-node-with-object');
@@ -12749,11 +12757,11 @@ function updateNode($node, selector, data, $) {
 
 module.exports = updateNode;
 
-},{"./check-for-inputs":24,"./update-node-with-object":28}],30:[function(require,module,exports){
+},{"./check-for-inputs":25,"./update-node-with-object":29}],31:[function(require,module,exports){
 exports.render = require('./lib/do-render');
 exports.classifyKeys = require('./lib/classify-keys');
 
-},{"./lib/classify-keys":25,"./lib/do-render":26}],31:[function(require,module,exports){
+},{"./lib/classify-keys":26,"./lib/do-render":27}],32:[function(require,module,exports){
 'use strict';
 
 
@@ -12815,7 +12823,44 @@ exports.text = function(file, callback) {
 };
 
 
-},{}],32:[function(require,module,exports){
+},{}],33:[function(require,module,exports){
+'use strict'
+
+var page = require('page')
+
+var FetchPage = require('./lib/fetch-page')
+var SpecFromRoute = require('./lib/spec-from-route')
+var requests = []
+
+module.exports = function (routerOptions, speclateOptions) {
+  speclateOptions = speclateOptions || {}
+  routerOptions = routerOptions || {}
+  var $container = $(speclateOptions.container || '#container')
+  var loadingClass = routerOptions.loadingClass || 'loading'
+  var el = document.querySelector('html')
+  el.classList.add(loadingClass)
+
+  page('*', function (context, next) {
+    el.classList.add(loadingClass)
+
+    routerOptions.preFetch && routerOptions.preFetch($container)
+    var specPath = SpecFromRoute(context.pathname)
+
+    el.setAttribute('data-speclate-url', context.pathname)
+
+    if (requests) {
+      requests.forEach(function (req) {
+        req.cancel()
+      })
+      requests = []
+    }
+
+    requests.push(new FetchPage(specPath, el, loadingClass, $container, routerOptions, context))
+  })
+  page()
+}
+
+},{"./lib/fetch-page":34,"./lib/spec-from-route":36,"page":19}],34:[function(require,module,exports){
 
 var fetchJson = require('speclate-fetch').json
 var pageRender = require('./page-render')
@@ -12824,6 +12869,7 @@ module.exports = function (specPath, htmlEl, loadingClass, $container, routerOpt
   var active = true
 
   fetchJson(specPath, function (err, pageSpec) {
+    // should carry on rendering without waiting for json to come back.
     if (!active) {
       return
     }
@@ -12853,50 +12899,77 @@ module.exports = function (specPath, htmlEl, loadingClass, $container, routerOpt
   }
 }
 
-},{"./page-render":39,"speclate-fetch":31}],33:[function(require,module,exports){
+},{"./page-render":35,"speclate-fetch":32}],35:[function(require,module,exports){
 'use strict'
 
-var page = require('page')
+var asyncParallel = require('async.parallel')
+var sizlate = require('sizlate')
+var getFile = require('speclate-fetch').readFile
 
-var FetchPage = require('./fetch-page')
-var requests = []
+var doSizlate = require('speclate/lib/page/do-sizlate')
+var loadComponents = require('speclate/lib/page/load-components')
 
-module.exports = function (routerOptions, speclateOptions) {
-  speclateOptions = speclateOptions || {}
-  routerOptions = routerOptions || {}
-  var $container = $(speclateOptions.container || '#container')
-  var loadingClass = routerOptions.loadingClass || 'loading'
-  var el = document.querySelector('html')
-  el.classList.add(loadingClass)
+/**
+ * used for client side render.
+ */
+module.exports = function ($container, page, options, active, callback) {
+  asyncParallel({
+    pageLayout: function (next) {
+      var pageLayoutPath = '/pages/' + page.page + '/' + page.page + '.html'
+      getFile(pageLayoutPath, {encoding: 'utf-8'}, next)
+    },
+    components: function (next) {
+      if (page.spec) {
+        loadComponents(page.spec, next)
+      } else {
+        next()
+      }
+    }
+  }, function (err, data) {
+    if (!active) {
+      return
+    }
+    if (err) {
+      options.error && options.error(err, $container)
+      return
+    }
 
-  page('*', function (context, next) {
-    el.classList.add(loadingClass)
+    if (options.before) {
+      options.before(null, null, page)
+    }
 
-    routerOptions.preFetch && routerOptions.preFetch($container)
+    sizlate.render($('html'), {
+      '#container': {
+        innerHTML: data.pageLayout
+      }
+    })
+    var markup = doSizlate(page, $('html'), data.components)
 
-    var routeName = context.pathname.slice(0, -5)
+    if (options.after) {
+      options.after(null, markup, page)
+    }
+    callback && callback(null, markup, page)
+  })
+}
+
+},{"async.parallel":4,"sizlate":31,"speclate-fetch":32,"speclate/lib/page/do-sizlate":40,"speclate/lib/page/load-components":41}],36:[function(require,module,exports){
+module.exports = function (pathname) {
+  var routeName
+
+  if (pathname.slice(-5) === '.html') { // url ends with .html
+    routeName = pathname.slice(0, -5)
     if (routeName === '') {
       routeName = '/index'
     }
-    var specPath = '/api/speclate' + routeName + '.json'
-
-
-
-    el.setAttribute('data-speclate-url', context.pathname)
-
-    if (requests) {
-      requests.forEach(function (req) {
-        req.cancel()
-      })
-      requests = []
-    }
-
-    requests.push(new FetchPage(specPath, el, loadingClass, $container, routerOptions, context))
-  })
-  page()
+  } else if (pathname.slice(-1) === '/') {
+    routeName = pathname + 'index'
+  } else if (pathname === '') {
+    routeName = '/index'
+  }
+  return '/api/speclate' + routeName + '.json'
 }
 
-},{"./fetch-page":32,"page":18}],34:[function(require,module,exports){
+},{}],37:[function(require,module,exports){
 'use strict'
 
 var speclateFetch = require('speclate-fetch')
@@ -12904,7 +12977,7 @@ var speclateFetch = require('speclate-fetch')
 // override readfile with request to fetch.
 exports.readFile = speclateFetch.readFile
 
-},{"speclate-fetch":31}],35:[function(require,module,exports){
+},{"speclate-fetch":32}],38:[function(require,module,exports){
 (function (process){
 'use strict'
 
@@ -12926,7 +12999,7 @@ module.exports = function (url) {
 }
 
 }).call(this,require('_process'))
-},{"_process":22,"path":19}],36:[function(require,module,exports){
+},{"_process":23,"path":20}],39:[function(require,module,exports){
 'use strict'
 
 var loadFile = require('fs').readFile
@@ -12942,7 +13015,7 @@ module.exports = function (component, callback) {
   loadFile(path, 'utf-8', callback)
 }
 
-},{"./file/get-path":35,"fs":34}],37:[function(require,module,exports){
+},{"./file/get-path":38,"fs":37}],40:[function(require,module,exports){
 var sizlate = require('sizlate')
 
 /**
@@ -12986,7 +13059,7 @@ module.exports = function (page, layout, renderedComponents) {
   }
 }
 
-},{"sizlate":30}],38:[function(require,module,exports){
+},{"sizlate":31}],41:[function(require,module,exports){
 'use strict'
 
 var forEachOf = require('async.eachof')
@@ -13067,58 +13140,4 @@ module.exports = function (pageSpec, callback) {
   })
 }
 
-},{"../load-component":36,"async.eachof":3,"lodash.isarray":15,"lodash.isobject":16,"lodash.isstring":17,"sizlate":30}],39:[function(require,module,exports){
-'use strict'
-
-var asyncParallel = require('async.parallel')
-var sizlate = require('sizlate')
-var getFile = require('speclate-fetch').readFile
-
-var doSizlate = require('speclate/lib/page/do-sizlate')
-var loadComponents = require('speclate/lib/page/load-components')
-
-/**
- * used for client side render.
- */
-module.exports = function ($container, page, options, active, callback) {
-
-  asyncParallel({
-    pageLayout: function (next) {
-      var pageLayoutPath = '/pages/' + page.page + '/' + page.page + '.html'
-      getFile(pageLayoutPath, {encoding: 'utf-8'}, next)
-    },
-    components: function (next) {
-      if (page.spec) {
-        loadComponents(page.spec, next)
-      } else {
-        next()
-      }
-    }
-  }, function (err, data) {
-    if (!active) {
-      return
-    }
-    if (err) {
-      options.error && options.error(err, $container)
-      return
-    }
-
-    if (options.before) {
-      options.before(null, null, page)
-    }
-
-    sizlate.render($('html'), {
-      '#container': {
-        innerHTML: data.pageLayout
-      }
-    })
-    var markup = doSizlate(page, $('html'), data.components)
-
-    if (options.after) {
-      options.after(null, markup, page)
-    }
-    callback && callback(null, markup, page)
-  })
-}
-
-},{"async.parallel":4,"sizlate":30,"speclate-fetch":31,"speclate/lib/page/do-sizlate":37,"speclate/lib/page/load-components":38}]},{},[1]);
+},{"../load-component":39,"async.eachof":3,"lodash.isarray":16,"lodash.isobject":17,"lodash.isstring":18,"sizlate":31}]},{},[1]);
