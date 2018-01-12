@@ -23,6 +23,17 @@
             "component": "speaker",
             "data": [
                 {
+                    ".name": "Paul Jensen",
+                    ".title": "Creating PowerPoint files with Officegen and Node.js",
+                    ".desc": "<p>It turns out that you don&#39;t need Microsoft Office to create PowerPoint files - you can create them in Node.js. In this talk I will show you how libraries like Officegen allow you to generate PowerPoint files containing text, shapes, charts and images, and demonstrate a real-world use of this tool that we&#39;ve been crafting to save us some time.</p>\n<p>My name is Paul Jensen, I&#39;m the author of Manning&#39;s Cross Platform Desktop Applications, and I&#39;m the Lead Innovation Engineer at Starcount. My twitter handle is paulbjensen.</p>\n",
+                    "img": {
+                        "src": "https://avatars3.githubusercontent.com/u/3840?v=4"
+                    },
+                    ".lnug-twitterhandle a": {
+                        "href": "https://github.com/paulbjensen"
+                    }
+                },
+                {
                     ".name": "David Scheiner",
                     ".title": "Moving on from Mongoose: How a great thing finally cornered us",
                     ".desc": "<p>Mongoose has helped us greatly to maintain the integrity of our data against a mongodb database. However, we are not able to share the models we use on our apis anywhere outside those apis. And Mongoose schemas are not shareable, which means we cannot consume them on any other level of our applications. This means either using conversion plugins, or else writing and maintaining some other solution. In addition, the mongoose models themselves are not shareable, which means even if we solve the schema issue, we still have at least two sets of models to maintain.</p>\n<p>Finally, we use Typescript, which means ideally we can share schema definitions with that which would allow us to define our entities once and have those definitions propagate to all levels of our applications.</p>\n<p>The final part of this presentation will focus on the solution we now intend to adopt as we begin to overhaul our entire architecture in the coming months.</p>\n",

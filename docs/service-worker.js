@@ -12,6 +12,11 @@ module.exports=[
         "date": "January 2018",
         "speakers": [
             {
+                "name": "Paul Jensen",
+                "url": "https://github.com/paulbjensen",
+                "title": "Creating PowerPoint files with Officegen and Node.js"
+            },
+            {
                 "name": "lazlojuly",
                 "url": "https://github.com/lazlojuly",
                 "title": "Unit testing has never been so much fun!"
@@ -1693,6 +1698,16 @@ module.exports=[
 ]
 },{}],4:[function(require,module,exports){
 module.exports=[
+    {
+        "apiSpeakerUrl": "https://api.github.com/users/paulbjensen",
+        "speakerUrl": "https://github.com/paulbjensen",
+        "title": "Creating PowerPoint files with Officegen and Node.js",
+        "description": "<p>It turns out that you don&#39;t need Microsoft Office to create PowerPoint files - you can create them in Node.js. In this talk I will show you how libraries like Officegen allow you to generate PowerPoint files containing text, shapes, charts and images, and demonstrate a real-world use of this tool that we&#39;ve been crafting to save us some time.</p>\n<p>My name is Paul Jensen, I&#39;m the author of Manning&#39;s Cross Platform Desktop Applications, and I&#39;m the Lead Innovation Engineer at Starcount. My twitter handle is paulbjensen.</p>\n",
+        "milestone": "January 24th 2018",
+        "img": "https://avatars3.githubusercontent.com/u/3840?v=4",
+        "handle": "paulbjensen",
+        "name": "Paul Jensen"
+    },
     {
         "apiSpeakerUrl": "https://api.github.com/users/lazlojuly",
         "speakerUrl": "https://github.com/lazlojuly",

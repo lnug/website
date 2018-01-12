@@ -7,7 +7,7 @@
             "data": [
                 {
                     ".date": "January 2018",
-                    ".speakers": "<li>Unit testing has never been so much fun! -  <a href=\"https://github.com/lazlojuly\">lazlojuly</a> </li> <li>Moving on from Mongoose: How a great thing finally cornered us -  <a href=\"https://github.com/xscheiner\">David Scheiner</a> </li>"
+                    ".speakers": "<li>Creating PowerPoint files with Officegen and Node.js -  <a href=\"https://github.com/paulbjensen\">Paul Jensen</a> </li> <li>Unit testing has never been so much fun! -  <a href=\"https://github.com/lazlojuly\">lazlojuly</a> </li> <li>Moving on from Mongoose: How a great thing finally cornered us -  <a href=\"https://github.com/xscheiner\">David Scheiner</a> </li>"
                 },
                 {
                     ".date": "November 2017",

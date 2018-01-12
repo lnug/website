@@ -3,6 +3,11 @@
         "date": "January 2018",
         "speakers": [
             {
+                "name": "Paul Jensen",
+                "url": "https://github.com/paulbjensen",
+                "title": "Creating PowerPoint files with Officegen and Node.js"
+            },
+            {
                 "name": "lazlojuly",
                 "url": "https://github.com/lazlojuly",
                 "title": "Unit testing has never been so much fun!"
