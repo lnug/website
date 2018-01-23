@@ -47,7 +47,7 @@ The site will be deployed when merged into master.
 Check the package.json file for a full list of commands you can run.
 
 
-#Caching
+# Caching
 
 The introduction of service workers has changed the way we update the browser cache.
 
@@ -58,7 +58,7 @@ All other static resources will require a bump in the version number in client/s
 There are plans to automate this also.
 
 
-##Ways to update
+## Ways to update
  * Bump version number in ./client/service-worker.js
  *
 
