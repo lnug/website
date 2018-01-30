@@ -8,7 +8,7 @@
         ".lnug-ticket": {
             "component": "ticket",
             "data": {
-                ".lnug-nextmeetup": "January 24th 2018",
+                ".lnug-nextmeetup": "February 28th 2018",
                 ".venue": "Makers Academy",
                 "address": "50 - 52 Commercial St<br />London E1 6LT",
                 ".address a": {
@@ -23,36 +23,25 @@
             "component": "speaker",
             "data": [
                 {
-                    ".name": "Paul Jensen",
-                    ".title": "Creating PowerPoint files with Officegen and Node.js",
-                    ".desc": "<p>It turns out that you don&#39;t need Microsoft Office to create PowerPoint files - you can create them in Node.js. In this talk I will show you how libraries like Officegen allow you to generate PowerPoint files containing text, shapes, charts and images, and demonstrate a real-world use of this tool that we&#39;ve been crafting to save us some time.</p>\n<p>My name is Paul Jensen, I&#39;m the author of Manning&#39;s Cross Platform Desktop Applications, and I&#39;m the Lead Innovation Engineer at Starcount. My twitter handle is paulbjensen.</p>\n",
+                    ".name": "Thanasis Polychronakis",
+                    ".title": "Classical Inheritance in Javascript",
+                    ".desc": "<p>Javascript inheritance has always been a challenging issue for new and seasoned developers. In this talk, we will dive deep into the inner workings of Javascript inheritance and see the beauty of prototypical inheritance and the prototype chain. While this is a classic talk, it is particularly relevant to the current debate in the React community over the use of fat arrow vs pre-bounded methods.&#10;<a href=\"https://speakerdeck.com/thanpolas/classical-inheritance-in-javascript\">Talk slides</a></p>\n<p>Github: <a href=\"https://github.com/thanpolas\">thanpolas</a>, Twitter: <a href=\"https://twitter.com/thanpolas\">@thanpolas</a>, <a href=\"http://www.linkedin.com/in/thanpolas\">LinkedIn</a>, <a href=\"http://thanpol.as\">website</a></p>\n",
                     "img": {
-                        "src": "https://avatars3.githubusercontent.com/u/3840?v=4"
+                        "src": "https://avatars1.githubusercontent.com/u/458813?v=4"
                     },
                     ".lnug-twitterhandle a": {
-                        "href": "https://github.com/paulbjensen"
+                        "href": "https://github.com/thanpolas"
                     }
                 },
                 {
-                    ".name": "David Scheiner",
-                    ".title": "Moving on from Mongoose: How a great thing finally cornered us",
-                    ".desc": "<p>Mongoose has helped us greatly to maintain the integrity of our data against a mongodb database. However, we are not able to share the models we use on our apis anywhere outside those apis. And Mongoose schemas are not shareable, which means we cannot consume them on any other level of our applications. This means either using conversion plugins, or else writing and maintaining some other solution. In addition, the mongoose models themselves are not shareable, which means even if we solve the schema issue, we still have at least two sets of models to maintain.</p>\n<p>Finally, we use Typescript, which means ideally we can share schema definitions with that which would allow us to define our entities once and have those definitions propagate to all levels of our applications.</p>\n<p>The final part of this presentation will focus on the solution we now intend to adopt as we begin to overhaul our entire architecture in the coming months.</p>\n",
+                    ".name": "Oliver Rumbelow",
+                    ".title": "Cultivating a Microservice Culture with Node.js",
+                    ".desc": "<p>We&#39;ve spent the last 14 months working with Node.js to migrate the Holiday Extras engineering team away from Node.js monolith applications and over to Node.js microservices. Node.js is the heart and soul of the operation and the time has come to share how it&#39;s taken us above and beyond our wildest dreams. In this talk I&#39;ll be sharing how we&#39;re using Node.js throughout our stack, some of the key projects we&#39;ve built and the problems they solve, and how to really make the most out of Node.js to build an incredibly powerful engineering experience. </p>\n<p>I&#39;m a software engineer in the tech-foundations pod at <a href=\"http://join.holidayextras.co.uk/\">Holiday Extras</a> with a remit to improve the efficiency of our engineering team. I&#39;ve been writing Node.js day-in-day-out for over 5 years and dabble with infrastructure on the side.</p>\n",
                     "img": {
-                        "src": "https://avatars3.githubusercontent.com/u/1236507?v=4"
+                        "src": "https://avatars2.githubusercontent.com/u/3055120?v=4"
                     },
                     ".lnug-twitterhandle a": {
-                        "href": "https://github.com/xscheiner"
-                    }
-                },
-                {
-                    ".name": "lazlojuly",
-                    ".title": "Unit testing has never been so much fun!",
-                    ".desc": "<ul>\n<li>This is a lightweight and entertaining 15 minutes long talk.</li>\n<li>It is aimed at developers on <strong>ALL</strong> levels.</li>\n<li>Covers basic and advanced concepts.</li>\n</ul>\n<p>Bio: I am a JavaScript Engineer with growth mindset. &#10;Connect with me on <a href=\"https://twitter.com/lazlojuly\">Twitter</a>, <a href=\"https://www.linkedin.com/in/lazlojuly\">LinkedIn</a> or <a href=\"https://github.com/lazlojuly\">GitHub</a></p>\n",
-                    "img": {
-                        "src": "https://avatars0.githubusercontent.com/u/7015868?v=4"
-                    },
-                    ".lnug-twitterhandle a": {
-                        "href": "https://github.com/lazlojuly"
+                        "href": "https://github.com/theninj4"
                     }
                 }
             ]

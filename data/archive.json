@@ -1,5 +1,20 @@
 [
     {
+        "date": "February 2018",
+        "speakers": [
+            {
+                "name": "Oliver Rumbelow",
+                "url": "https://github.com/theninj4",
+                "title": "Cultivating a Microservice Culture with Node.js"
+            },
+            {
+                "name": "Thanasis Polychronakis",
+                "url": "https://github.com/thanpolas",
+                "title": "Classical Inheritance in Javascript"
+            }
+        ]
+    },
+    {
         "date": "January 2018",
         "speakers": [
             {
