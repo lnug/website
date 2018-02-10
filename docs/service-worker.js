@@ -6,7 +6,7 @@ var version = '2.4'
 
 serviceWorker(spec, version)
 
-},{"../spec":14,"speclate-service-worker":12}],2:[function(require,module,exports){
+},{"../spec":17,"speclate-service-worker":15}],2:[function(require,module,exports){
 module.exports=[
     {
         "date": "February 2018",
@@ -1714,6 +1714,49 @@ module.exports=[
 },{}],4:[function(require,module,exports){
 module.exports=[
     {
+        "date": "April 2018",
+        "speakers": [
+            {
+                "name": "Paul Jensen",
+                "url": "https://github.com/paulbjensen",
+                "title": "End-to-end testing Single Page Apps and APIs with Cucumber.js &amp; Puppeteer"
+            }
+        ]
+    },
+    {
+        "date": "March 2018",
+        "speakers": [
+            {
+                "name": "Matteo Collina",
+                "url": "https://github.com/mcollina",
+                "title": "My Node.js process is on Fire"
+            },
+            {
+                "name": "Yan Cui",
+                "url": "https://github.com/theburningmonk",
+                "title": "Serverless in production, an experience report"
+            }
+        ]
+    },
+    {
+        "date": "February 2018",
+        "speakers": [
+            {
+                "name": "Oliver Rumbelow",
+                "url": "https://github.com/theninj4",
+                "title": "Cultivating a Microservice Culture with Node.js"
+            },
+            {
+                "name": "Thanasis Polychronakis",
+                "url": "https://github.com/thanpolas",
+                "title": "Classical Inheritance in Javascript"
+            }
+        ]
+    }
+]
+},{}],5:[function(require,module,exports){
+module.exports=[
+    {
         "apiSpeakerUrl": "https://api.github.com/users/theninj4",
         "speakerUrl": "https://github.com/theninj4",
         "title": "Cultivating a Microservice Culture with Node.js",
@@ -1734,7 +1777,7 @@ module.exports=[
         "name": "Thanasis Polychronakis"
     }
 ]
-},{}],5:[function(require,module,exports){
+},{}],6:[function(require,module,exports){
 module.exports={
   "title": "Makers Academy",
   "address": [
@@ -1760,14 +1803,27 @@ module.exports={
   }
 }
 
-},{}],6:[function(require,module,exports){
+},{}],7:[function(require,module,exports){
 'use strict'
 
 var archive = require('../data/archive.json')
+var eventSelectors = require('./event-selectors');
+
+module.exports = function () {
+  return archive.map(eventSelectors)
+}
+
+
+},{"../data/archive.json":2,"./event-selectors":8}],8:[function(require,module,exports){
+'use strict'
+
 var Encoder = require('node-html-encoder').Encoder
 var encoder = new Encoder('entity')
 
-function eventSelectors (event) {
+module.exports = function eventSelectors (event) {
+  if (!event.speakers) {
+    event.speakers = [];
+  }
   var speakers = event.speakers.map(function (speaker) {
     // naughty.
     if (typeof speaker.video === 'string') {
@@ -1782,11 +1838,17 @@ function eventSelectors (event) {
   }
 }
 
+},{"node-html-encoder":14}],9:[function(require,module,exports){
+'use strict'
+
+var futureEvents = require('../data/next-months.json')
+var eventSelectors = require('./event-selectors');
+
 module.exports = function () {
-  return archive.map(eventSelectors)
+  return futureEvents.map(eventSelectors).reverse();
 }
 
-},{"../data/archive.json":2,"node-html-encoder":11}],7:[function(require,module,exports){
+},{"../data/next-months.json":4,"./event-selectors":8}],10:[function(require,module,exports){
 'use strict'
 
 var items = require('../data/gallery.json')
@@ -1809,7 +1871,7 @@ module.exports = function () {
   return items.map(imageSelectors)
 }
 
-},{"../data/gallery.json":3}],8:[function(require,module,exports){
+},{"../data/gallery.json":3}],11:[function(require,module,exports){
 /**
 
   Returns the dates of the next meetup based on contents of this-month.json
@@ -1830,7 +1892,7 @@ module.exports = function () {
   return date
 }
 
-},{"../data/this-month.json":4}],9:[function(require,module,exports){
+},{"../data/this-month.json":5}],12:[function(require,module,exports){
 module.exports = function (spec, offline) {
   var getImages = function (selectors) {
     var images = []
@@ -1854,7 +1916,7 @@ module.exports = function (spec, offline) {
   return spec
 }
 
-},{}],10:[function(require,module,exports){
+},{}],13:[function(require,module,exports){
 'use strict'
 
 var thisMonth = require('../data/this-month.json')
@@ -1897,7 +1959,7 @@ module.exports = function (callback) {
   return thisMonth.sort(sortByTitle).map(speakerSelectors)
 }
 
-},{"../data/this-month.json":4}],11:[function(require,module,exports){
+},{"../data/this-month.json":5}],14:[function(require,module,exports){
 /**
  * NodeJS wrapper for JavaScript HTML Encoder library http://www.strictly-software.com/htmlencode
  * Pavel Minchenkov
@@ -2113,7 +2175,7 @@ exports.Encoder = function(type) {
     }
 }
 
-},{}],12:[function(require,module,exports){
+},{}],15:[function(require,module,exports){
 var swSortFiles = require('./sort-files')
 
 module.exports = function (spec, version) {
@@ -2209,7 +2271,7 @@ var addToCache = function (cacheKey, request, response) {
   return false
 }
 
-},{"./sort-files":13}],13:[function(require,module,exports){
+},{"./sort-files":16}],16:[function(require,module,exports){
 module.exports = function (spec) {
   var layout = [ '/pages/layout.html' ]
   var components = []
@@ -2231,18 +2293,18 @@ module.exports = function (spec) {
       routeName = page.slice(0, -5)
     }
     routes.push(page)
+
     if (pageName) {
       pages.push('/pages/' + pageName + '/' + pageName + '.html')
     }
 
     specs.push('/api/speclate' + routeName + '.json')
-    for (var selector in spec[page].spec) {
-      var component = spec[page].spec[selector].component
-      if (component) {
-        components.push('/components/' + component + '/' + component + '.html')
-      }
-    }
+
+    components = components.concat(getComponents(spec[page].spec))
   })
+  if (spec.defaultSpec) {
+    components = components.concat(getComponents(spec.defaultSpec))
+  }
 
   return {
     components: components,
@@ -2254,7 +2316,19 @@ module.exports = function (spec) {
   }
 }
 
-},{}],14:[function(require,module,exports){
+
+function getComponents (spec) {
+  var components = []
+  for (var selector in spec) {
+    var component = spec[selector].component
+    if (component) {
+      components.push('/components/' + component + '/' + component + '.html')
+    }
+  }
+  return components
+}
+
+},{}],17:[function(require,module,exports){
 var nextEvent = require('./lib/next-event-from-file')
 var venue = require('./data/venues/makers.json')
 var eventDate = nextEvent()
@@ -2263,6 +2337,7 @@ var ScanSpecForFiles = require('./lib/scan-spec-for-files')
 
 var speakerSelectors = require('./lib/speaker-selectors')
 var archiveSelectors = require('./lib/archive-selectors')
+var futureSelectors = require('./lib/future-selectors')
 
 var options = {
   outputDir: '/docs',
@@ -2337,6 +2412,16 @@ module.exports = {
       }
     }
   },
+  '/future.html': {
+    page: 'future',
+    spec: {
+      'title': 'Future Events - LNUG',
+      'ul.future': {
+        component: 'archive',
+        data: futureSelectors()
+      }
+    }
+  },
   '/code-of-conduct.html': {
     page: 'code-of-conduct',
     spec: {
@@ -2380,4 +2465,4 @@ module.exports = {
   options: options
 }
 
-},{"./data/venues/makers.json":5,"./lib/archive-selectors":6,"./lib/image-gallery":7,"./lib/next-event-from-file":8,"./lib/scan-spec-for-files":9,"./lib/speaker-selectors":10}]},{},[1]);
+},{"./data/venues/makers.json":6,"./lib/archive-selectors":7,"./lib/future-selectors":9,"./lib/image-gallery":10,"./lib/next-event-from-file":11,"./lib/scan-spec-for-files":12,"./lib/speaker-selectors":13}]},{},[1]);

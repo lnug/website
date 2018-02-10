@@ -6,6 +6,7 @@ var ScanSpecForFiles = require('./lib/scan-spec-for-files')
 
 var speakerSelectors = require('./lib/speaker-selectors')
 var archiveSelectors = require('./lib/archive-selectors')
+var futureSelectors = require('./lib/future-selectors')
 
 var options = {
   outputDir: '/docs',
@@ -77,6 +78,16 @@ module.exports = {
       'ul.archive': {
         component: 'archive',
         data: archiveSelectors()
+      }
+    }
+  },
+  '/future.html': {
+    page: 'future',
+    spec: {
+      'title': 'Future Events - LNUG',
+      'ul.future': {
+        component: 'archive',
+        data: futureSelectors()
       }
     }
   },
