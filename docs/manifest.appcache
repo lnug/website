@@ -27,6 +27,10 @@ appcache-loader.html
 /pages/archive/archive.html
 /api/speclate/archive.json
 /components/archive/archive.html
+/future.html
+/pages/future/future.html
+/api/speclate/future.json
+/components/archive/archive.html
 /code-of-conduct.html
 /pages/code-of-conduct/code-of-conduct.html
 /api/speclate/code-of-conduct.json
@@ -42,6 +46,6 @@ appcache-loader.html
 /related-meetups.html
 /pages/related-meetups/related-meetups.html
 /api/speclate/related-meetups.json
-# v-1517348922075
+# v-1518821817957
 NETWORK:
 *
