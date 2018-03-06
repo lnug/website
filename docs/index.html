@@ -45,7 +45,7 @@
   <div id="container"><div class="map-holder">
   <div class="lnug-ticket"><div class="box split">
   <div class="inner">
-    <h1 class="animated bounceInTop">Next meetup - <span class="lnug-nextmeetup">February 28th 2018</span></h1>
+    <h1 class="animated bounceInTop">Next meetup - <span class="lnug-nextmeetup">March 28th 2018</span></h1>
     <div class="info clearfix">
       <div class="wp desc">A friendly monthly meetup for people using Node.js for fun or profit.</div>
       <div class="wp">Doors open<h2>6:30</h2>pm</div>
@@ -72,24 +72,61 @@
 
   <h1 class="animated bounceInTop">Talks</h1>
   <ul class="lnug-content"><li class="row lnug-talk">
-  <h2 class="title">Classical Inheritance in Javascript</h2>
+  <h2 class="title">Internal Server Error</h2>
   <div>
-    <img class="img-circle avatar" alt="Speaker image" src="https://avatars1.githubusercontent.com/u/458813?v=4">
-    <span class="lnug-twitterhandle"><a href="https://github.com/thanpolas"><span class="name">Thanasis Polychronakis</span></a></span>
+    <img class="img-circle avatar" alt="Speaker image" src="https://avatars1.githubusercontent.com/u/5296066?v=4">
+    <span class="lnug-twitterhandle"><a href="https://github.com/claudiamatosa"><span class="name">Claudia</span></a></span>
   </div>
-  <div class="desc"><p>Javascript inheritance has always been a challenging issue for new and seasoned developers. In this talk, we will dive deep into the inner workings of Javascript inheritance and see the beauty of prototypical inheritance and the prototype chain. While this is a classic talk, it is particularly relevant to the current debate in the React community over the use of fat arrow vs pre-bounded methods.
-<a href="https://speakerdeck.com/thanpolas/classical-inheritance-in-javascript">Talk slides</a></p>
-<p>Github: <a href="https://github.com/thanpolas">thanpolas</a>, Twitter: <a href="https://twitter.com/thanpolas">@thanpolas</a>, <a href="http://www.linkedin.com/in/thanpolas">LinkedIn</a>, <a href="http://thanpol.as">website</a></p>
+  <div class="desc"><p>Who hasn&apos;t found themselves in despair after hours of trying to debug a problem that seemed simple, because halfway down the line the stack trace ended in a file called <code>throw-error.js</code>, or simply there were no errors thrown and the code just didn&apos;t work as expected?</p>
+<p>The talk will last between 15 and 20 minutes, will be structured in two parts and there will be plenty of gifs and emojis. It should cover errors in Node and browsers.</p>
+<h3 id="1-common-bad-error-handling-scenarios">1. Common bad error handling scenarios</h3>
+<ul>
+<li>Stacktrace lost.</li>
+<li>Code exits without error.</li>
+<li>Generic error messages (<code>something has failed</code>).</li>
+<li>...</li>
+</ul>
+<h3 id="2-exploring-possible-solutions-examples-">2. Exploring possible solutions (examples)</h3>
+<ul>
+<li>Custom errors.</li>
+<li>Formatting error api responses.</li>
+<li>Displaying errors in the UI.</li>
+<li>Examples when using Apollo (GraphQL), React and maybe other tools.</li>
+</ul>
+<p>Conclusion: your library/utility/api should be built around its users, and they shouldn&apos;t need to read the code to know why something is wrong.</p>
+<p>(I&apos;m really bad with titles &#xFFFD;&#xFFFD;)</p>
+<p>I&apos;m a freelance front-end developer, currently working with React and GraphQL.
+<a href="twitter.com/claudiamatosa">twitter</a> | <a href="github.com/claudiamatosa">github</a></p>
 </div>
 </li>
 <li class="row lnug-talk">
-  <h2 class="title">Cultivating a Microservice Culture with Node.js</h2>
+  <h2 class="title">My Node.js process is on Fire</h2>
   <div>
-    <img class="img-circle avatar" alt="Speaker image" src="https://avatars2.githubusercontent.com/u/3055120?v=4">
-    <span class="lnug-twitterhandle"><a href="https://github.com/theninj4"><span class="name">Oliver Rumbelow</span></a></span>
+    <img class="img-circle avatar" alt="Speaker image" src="https://avatars0.githubusercontent.com/u/52195?v=4">
+    <span class="lnug-twitterhandle"><a href="https://github.com/mcollina"><span class="name">Matteo Collina</span></a></span>
   </div>
-  <div class="desc"><p>We&apos;ve spent the last 14 months working with Node.js to migrate the Holiday Extras engineering team away from Node.js monolith applications and over to Node.js microservices. Node.js is the heart and soul of the operation and the time has come to share how it&apos;s taken us above and beyond our wildest dreams. In this talk I&apos;ll be sharing how we&apos;re using Node.js throughout our stack, some of the key projects we&apos;ve built and the problems they solve, and how to really make the most out of Node.js to build an incredibly powerful engineering experience. </p>
-<p>I&apos;m a software engineer in the tech-foundations pod at <a href="http://join.holidayextras.co.uk/">Holiday Extras</a> with a remit to improve the efficiency of our engineering team. I&apos;ve been writing Node.js day-in-day-out for over 5 years and dabble with infrastructure on the side.</p>
+  <div class="desc"><p>At 10am on Black Friday, your phone rings: the new JS application you deployed came under too much load, and the site has gone down! Your employer is losing sales opportunities... your employer is losing money!</p>
+<p>But you don&#x2019;t lose your cool. You log into your cloud provider and tweak your autoscaling settings. Now the deployment can handle the load spike but with four times the number of servers, which is four times the cost.</p>
+<p>The next day, you try to analyze what happened and begin to optimize your application to prepare for future load spikes. </p>
+<p>This talk is a journey into the world of Node.js performance, taking a look at the available tools and optimization techniques inspired by insight gained from glimpsing under the hood of Node and V8.</p>
+<h3 id="bio">Bio</h3>
+<p>Matteo is a code pirate and mad scientist. He spends most of his days programming in Node.js, but in the past he worked with Ruby, Java and Objective-C. In 2014, he defended his Ph.D. thesis titled &quot;Application Platforms for the Internet of Things&quot;. Now he is a Principal Architect at <a href="http://nearform.com">nearForm</a>, where he consults for the top brands of the world.
+Matteo is also the author of the Node.js MQTT Broker, <a href="http://mosca.io">Mosca</a>, the fast logger <a href="https://github.com/mcollina/pino">Pino</a> and of the <a href="https://www.fastify.io">Fastify</a> web framework. Matteo is also a member of the Node.js Technical Steering Committee. Matteo spoke at several international conferences: Node.js Interactive, NodeConf.eu, NodeSummit, JSConf.Asia, WebRebels, and JsDay to name a few. He is also co-author of the book &quot;Node.js Cookbook, Third Edition&quot; edited by Packt. 
+In the summer he loves sailing the <em>Sirocco</em>.</p>
+<p>Twitter handle: <a href="https://twitter.com/matteocollina">@matteocollina</a></p>
+</div>
+</li>
+<li class="row lnug-talk">
+  <h2 class="title">Serverless in production, an experience report</h2>
+  <div>
+    <img class="img-circle avatar" alt="Speaker image" src="https://avatars3.githubusercontent.com/u/546969?v=4">
+    <span class="lnug-twitterhandle"><a href="https://github.com/theburningmonk"><span class="name">Yan Cui</span></a></span>
+  </div>
+  <div class="desc"><p>AWS Lambda has changed the way we deploy and run software, but this new serverless paradigm has created new challenges to old problems - how do you test a cloud-hosted function locally? How do you monitor them? What about logging and config management? And how do we start migrating from existing architectures? </p>
+<p>In this talk Yan will discuss solutions to these challenges by drawing from real-world experience running Lambda in production and migrating from an existing monolithic architecture.</p>
+<h3 id="about-me-">About me:</h3>
+<p>Yan (@theburningmonk) is a polyglot developer and architect, he is a regular speaker at user groups and conferences internationally. Yan is the author of <code>AWS Lambda in Motion</code>, a co-author of <code>F# Deep Dives</code>, and he keeps an active blog at <a href="http://theburningmonk.com">http://theburningmonk.com</a> where he shares his thoughts on topics such as AWS, serverless, functional programming and chaos engineering.</p>
+<p>my co-speaker is <strong>Scott Smethurst</strong> : Scott&#x2019;s passion for computing began when he was gifted a Commodore 64 for Christmas in 1988 and really took hold while studying Computer Science at the University of Manchester. He&#x2019;s been an architect, lead developer and consultant within a variety of industries, working with organisations ranging from a multi-billion pound corporation to a failed start-up. Scott has spent most of the past 2 years designing and building several serverless architectures and has decided to start sharing some of those experiences.</p>
 </div>
 </li>
 </ul>

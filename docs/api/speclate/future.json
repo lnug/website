@@ -6,12 +6,8 @@
             "component": "archive",
             "data": [
                 {
-                    ".date": "February 2018",
-                    ".speakers": "<li>Cultivating a Microservice Culture with Node.js -  <a href=\"https://github.com/theninj4\">Oliver Rumbelow</a> </li> <li>Classical Inheritance in Javascript -  <a href=\"https://github.com/thanpolas\">Thanasis Polychronakis</a> </li>"
-                },
-                {
                     ".date": "March 2018",
-                    ".speakers": "<li>My Node.js process is on Fire -  <a href=\"https://github.com/mcollina\">Matteo Collina</a> </li> <li>Serverless in production, an experience report -  <a href=\"https://github.com/theburningmonk\">Yan Cui</a> </li>"
+                    ".speakers": "<li>Internal Server Error -  <a href=\"https://github.com/claudiamatosa\">Claudia</a> </li> <li>My Node.js process is on Fire -  <a href=\"https://github.com/mcollina\">Matteo Collina</a> </li> <li>Serverless in production, an experience report -  <a href=\"https://github.com/theburningmonk\">Yan Cui</a> </li>"
                 },
                 {
                     ".date": "April 2018",

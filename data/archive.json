@@ -1,5 +1,25 @@
 [
     {
+        "date": "March 2018",
+        "speakers": [
+            {
+                "name": "Claudia",
+                "url": "https://github.com/claudiamatosa",
+                "title": "Internal Server Error"
+            },
+            {
+                "name": "Matteo Collina",
+                "url": "https://github.com/mcollina",
+                "title": "My Node.js process is on Fire"
+            },
+            {
+                "name": "Yan Cui",
+                "url": "https://github.com/theburningmonk",
+                "title": "Serverless in production, an experience report"
+            }
+        ]
+    },
+    {
         "date": "February 2018",
         "speakers": [
             {
