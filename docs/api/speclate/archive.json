@@ -6,6 +6,10 @@
             "component": "archive",
             "data": [
                 {
+                    ".date": "April 2018",
+                    ".speakers": "<li>A Hobbyist&rsquo;s Quest for a Personal Server -  <a href=\"https://github.com/salmanff\">Salman FF</a> </li> <li>End-to-end testing Single Page Apps and APIs with Cucumber.js &amp; Puppeteer -  <a href=\"https://github.com/paulbjensen\">Paul Jensen</a> </li>"
+                },
+                {
                     ".date": "March 2018",
                     ".speakers": "<li>Internal Server Error -  <a href=\"https://github.com/claudiamatosa\">Claudia</a> </li> <li>My Node.js process is on Fire -  <a href=\"https://github.com/mcollina\">Matteo Collina</a> </li> <li>Serverless in production, an experience report -  <a href=\"https://github.com/theburningmonk\">Yan Cui</a> </li>"
                 },

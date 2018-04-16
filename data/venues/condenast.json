@@ -1,0 +1,25 @@
+{
+  "title": "Condé Nast",
+  "address": [
+    "Adelphi",
+    "1-11 John Adam St",
+    "WC2N 6HT"
+  ],
+  "location": {
+    "lat": "51.51,15",
+    "long": "-0.129",
+    "scale": "15",
+    "wide": {
+      "lat": "51.51,15",
+      "long": "-0.129",
+      "scale": "15",
+      "size": "1280x900.png"
+    },
+    "thin": {
+      "lat": "51.51,15",
+      "long": "-0.129",
+      "scale": "15",
+      "size": "700x900.png"
+    }
+  }
+}

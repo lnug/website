@@ -1,5 +1,20 @@
 [
     {
+        "date": "April 2018",
+        "speakers": [
+            {
+                "name": "Salman FF",
+                "url": "https://github.com/salmanff",
+                "title": "A Hobbyist&rsquo;s Quest for a Personal Server"
+            },
+            {
+                "name": "Paul Jensen",
+                "url": "https://github.com/paulbjensen",
+                "title": "End-to-end testing Single Page Apps and APIs with Cucumber.js &amp; Puppeteer"
+            }
+        ]
+    },
+    {
         "date": "March 2018",
         "speakers": [
             {

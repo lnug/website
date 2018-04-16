@@ -1,32 +1,22 @@
 [
     {
-        "apiSpeakerUrl": "https://api.github.com/users/claudiamatosa",
-        "speakerUrl": "https://github.com/claudiamatosa",
-        "title": "Internal Server Error",
-        "description": "<p>Who hasn&#39;t found themselves in despair after hours of trying to debug a problem that seemed simple, because halfway down the line the stack trace ended in a file called <code>throw-error.js</code>, or simply there were no errors thrown and the code just didn&#39;t work as expected?</p>\n<p>The talk will last between 15 and 20 minutes, will be structured in two parts and there will be plenty of gifs and emojis. It should cover errors in Node and browsers.</p>\n<h3 id=\"1-common-bad-error-handling-scenarios\">1. Common bad error handling scenarios</h3>\n<ul>\n<li>Stacktrace lost.</li>\n<li>Code exits without error.</li>\n<li>Generic error messages (<code>something has failed</code>).</li>\n<li>...</li>\n</ul>\n<h3 id=\"2-exploring-possible-solutions-examples-\">2. Exploring possible solutions (examples)</h3>\n<ul>\n<li>Custom errors.</li>\n<li>Formatting error api responses.</li>\n<li>Displaying errors in the UI.</li>\n<li>Examples when using Apollo (GraphQL), React and maybe other tools.</li>\n</ul>\n<p>Conclusion: your library/utility/api should be built around its users, and they shouldn&#39;t need to read the code to know why something is wrong.</p>\n<p>(I&#39;m really bad with titles &#55357;&#56883;)</p>\n<p>I&#39;m a freelance front-end developer, currently working with React and GraphQL.&#10;<a href=\"twitter.com/claudiamatosa\">twitter</a> | <a href=\"github.com/claudiamatosa\">github</a></p>\n",
-        "milestone": "March 28th 2018",
-        "img": "https://avatars1.githubusercontent.com/u/5296066?v=4",
-        "handle": "claudiamatosa",
-        "name": "Claudia"
+        "apiSpeakerUrl": "https://api.github.com/users/salmanff",
+        "speakerUrl": "https://github.com/salmanff",
+        "title": "A Hobbyist&rsquo;s Quest for a Personal Server",
+        "description": "<p>How easy is it for a non-techie lay-person to set up a personal server and have their own apps running on it?</p>\n<p>There&#39;s been much talk recently about how large companies host our data, control it, and sell ads against it. But what if we all had our own servers with our own applications running on them holding our data which we control? </p>\n<p>Is that doable today, using existing cloud services and node.js? What does it take? How easy is it?</p>\n<p>For the past few years, I&#39;ve been running my personal node.js-based server on AWS, Google Cloud, Openshift and Heroku, using mlabs and Mongo, as well as Dropbox!</p>\n<p>So I&#39;ll talk about what it takes for a non-techie (or at least a newbie) to set up a node.js server using each of those environments - the pluses and minuses of each ... and why doing this would be a good thing in general.</p>\n<p>About me:&#10;I am clean tech entrepreneur (@zemenergy.com) and VC executive (@top-funds.com). I code for fun. See <a href=\"http://freezr.info\">http://freezr.info</a> twitter:salmanff github:salmanff</p>\n",
+        "milestone": "April 25th 2018",
+        "img": "https://avatars1.githubusercontent.com/u/1517629?v=4",
+        "handle": "salmanff",
+        "name": "Salman FF"
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/mcollina",
-        "speakerUrl": "https://github.com/mcollina",
-        "title": "My Node.js process is on Fire",
-        "description": "<p>At 10am on Black Friday, your phone rings: the new JS application you deployed came under too much load, and the site has gone down! Your employer is losing sales opportunities... your employer is losing money!</p>\n<p>But you don&rsquo;t lose your cool. You log into your cloud provider and tweak your autoscaling settings. Now the deployment can handle the load spike but with four times the number of servers, which is four times the cost.</p>\n<p>The next day, you try to analyze what happened and begin to optimize your application to prepare for future load spikes. </p>\n<p>This talk is a journey into the world of Node.js performance, taking a look at the available tools and optimization techniques inspired by insight gained from glimpsing under the hood of Node and V8.</p>\n<h3 id=\"bio\">Bio</h3>\n<p>Matteo is a code pirate and mad scientist. He spends most of his days programming in Node.js, but in the past he worked with Ruby, Java and Objective-C. In 2014, he defended his Ph.D. thesis titled &quot;Application Platforms for the Internet of Things&quot;. Now he is a Principal Architect at <a href=\"http://nearform.com\">nearForm</a>, where he consults for the top brands of the world.&#10;Matteo is also the author of the Node.js MQTT Broker, <a href=\"http://mosca.io\">Mosca</a>, the fast logger <a href=\"https://github.com/mcollina/pino\">Pino</a> and of the <a href=\"https://www.fastify.io\">Fastify</a> web framework. Matteo is also a member of the Node.js Technical Steering Committee. Matteo spoke at several international conferences: Node.js Interactive, NodeConf.eu, NodeSummit, JSConf.Asia, WebRebels, and JsDay to name a few. He is also co-author of the book &quot;Node.js Cookbook, Third Edition&quot; edited by Packt. &#10;In the summer he loves sailing the <em>Sirocco</em>.</p>\n<p>Twitter handle: <a href=\"https://twitter.com/matteocollina\">@matteocollina</a></p>\n",
-        "milestone": "March 28th 2018",
-        "img": "https://avatars0.githubusercontent.com/u/52195?v=4",
-        "handle": "mcollina",
-        "name": "Matteo Collina"
-    },
-    {
-        "apiSpeakerUrl": "https://api.github.com/users/theburningmonk",
-        "speakerUrl": "https://github.com/theburningmonk",
-        "title": "Serverless in production, an experience report",
-        "description": "<p>AWS Lambda has changed the way we deploy and run software, but this new serverless paradigm has created new challenges to old problems - how do you test a cloud-hosted function locally? How do you monitor them? What about logging and config management? And how do we start migrating from existing architectures? </p>\n<p>In this talk Yan will discuss solutions to these challenges by drawing from real-world experience running Lambda in production and migrating from an existing monolithic architecture.</p>\n<h3 id=\"about-me-\">About me:</h3>\n<p>Yan (@theburningmonk) is a polyglot developer and architect, he is a regular speaker at user groups and conferences internationally. Yan is the author of <code>AWS Lambda in Motion</code>, a co-author of <code>F# Deep Dives</code>, and he keeps an active blog at <a href=\"http://theburningmonk.com\">http://theburningmonk.com</a> where he shares his thoughts on topics such as AWS, serverless, functional programming and chaos engineering.</p>\n<p>my co-speaker is <strong>Scott Smethurst</strong> : Scott&rsquo;s passion for computing began when he was gifted a Commodore 64 for Christmas in 1988 and really took hold while studying Computer Science at the University of Manchester. He&rsquo;s been an architect, lead developer and consultant within a variety of industries, working with organisations ranging from a multi-billion pound corporation to a failed start-up. Scott has spent most of the past 2 years designing and building several serverless architectures and has decided to start sharing some of those experiences.</p>\n",
-        "milestone": "March 28th 2018",
-        "img": "https://avatars3.githubusercontent.com/u/546969?v=4",
-        "handle": "theburningmonk",
-        "name": "Yan Cui"
+        "apiSpeakerUrl": "https://api.github.com/users/paulbjensen",
+        "speakerUrl": "https://github.com/paulbjensen",
+        "title": "End-to-end testing Single Page Apps and APIs with Cucumber.js &amp; Puppeteer",
+        "description": "<p>Developing web applications as separate front end and back end parts is a common practice, but brings with it the challenge of how to test those parts together in an end-to-end fashion.</p>\n<p>In this talk, I will show you a strategy for being able to test your web application with Cucumber.js and Puppeteer, a library for running Google Chrome in headless mode. We&#39;ll also explore how to handle things like seeding the database for the API before running tests, how to select elements in the DOM via Cucumber step definitions, and how to do this in a nice fashion using Node 8&#39;s async/await feature. </p>\n<p>My name is Paul Jensen, I&#39;m the author of Manning&#39;s Cross Platform Desktop Applications, and I&#39;m the Lead Innovation Engineer at Starcount. My twitter handle is paulbjensen.</p>\n",
+        "milestone": "April 25th 2018",
+        "img": "https://avatars3.githubusercontent.com/u/3840?v=4",
+        "handle": "paulbjensen",
+        "name": "Paul Jensen"
     }
 ]
