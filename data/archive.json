@@ -1,5 +1,20 @@
 [
     {
+        "date": "May 2018",
+        "speakers": [
+            {
+                "name": "Mr.K",
+                "url": "https://github.com/erankeren",
+                "title": "ExpressLess - 200 OK"
+            },
+            {
+                "name": "Submit your talk!",
+                "url": "https://lnug.org/speak.html",
+                "title": "Slot available"
+            }
+        ]
+    },
+    {
         "date": "April 2018",
         "speakers": [
             {

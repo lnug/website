@@ -9,6 +9,21 @@ serviceWorker(spec, version)
 },{"../spec":17,"speclate-service-worker":15}],2:[function(require,module,exports){
 module.exports=[
     {
+        "date": "May 2018",
+        "speakers": [
+            {
+                "name": "Mr.K",
+                "url": "https://github.com/erankeren",
+                "title": "ExpressLess - 200 OK"
+            },
+            {
+                "name": "Submit your talk!",
+                "url": "https://lnug.org/speak.html",
+                "title": "Slot available"
+            }
+        ]
+    },
+    {
         "date": "April 2018",
         "speakers": [
             {
@@ -1777,24 +1792,22 @@ module.exports=[
 },{}],5:[function(require,module,exports){
 module.exports=[
     {
-        "apiSpeakerUrl": "https://api.github.com/users/salmanff",
-        "speakerUrl": "https://github.com/salmanff",
-        "title": "A Hobbyist&rsquo;s Quest for a Personal Server",
-        "description": "<p>How easy is it for a non-techie lay-person to set up a personal server and have their own apps running on it?</p>\n<p>There&#39;s been much talk recently about how large companies host our data, control it, and sell ads against it. But what if we all had our own servers with our own applications running on them holding our data which we control? </p>\n<p>Is that doable today, using existing cloud services and node.js? What does it take? How easy is it?</p>\n<p>For the past few years, I&#39;ve been running my personal node.js-based server on AWS, Google Cloud, Openshift and Heroku, using mlabs and Mongo, as well as Dropbox!</p>\n<p>So I&#39;ll talk about what it takes for a non-techie (or at least a newbie) to set up a node.js server using each of those environments - the pluses and minuses of each ... and why doing this would be a good thing in general.</p>\n<p>About me:&#10;I am clean tech entrepreneur (@zemenergy.com) and VC executive (@top-funds.com). I code for fun. See <a href=\"http://freezr.info\">http://freezr.info</a> twitter:salmanff github:salmanff</p>\n",
-        "milestone": "April 25th 2018",
-        "img": "https://avatars1.githubusercontent.com/u/1517629?v=4",
-        "handle": "salmanff",
-        "name": "Salman FF"
+        "apiSpeakerUrl": "https://api.github.com/users/erankeren",
+        "speakerUrl": "https://github.com/erankeren",
+        "title": "ExpressLess - 200 OK",
+        "description": "<p>Heard about Serverless? Already know Express.js? Too afraid to use the two? </p>\n<p>My talk will last ~20 mins and will cover the following:</p>\n<ul>\n<li><p>Where are my servers? (Moving from the classic setup to a serverless one)</p>\n</li>\n<li><p>Express.js + Serverless?</p>\n</li>\n<li><p>How can I test my serverless app? (Offline testing)</p>\n</li>\n<li><p>Where are my logs?</p>\n</li>\n<li><p>Wait, are my apis public? (Securing your endpoints)</p>\n</li>\n<li><p>Shhhhh....(Keeping secrets)</p>\n</li>\n</ul>\n<h3 id=\"about-me-\">About me:</h3>\n<p>I started my career over a decade ago writing code for firewalls and security systems (c/c++/java). In recent years I&#39;ve been specialising in cloud engineering, microservices, aws and serverless (mostly in node.js).</p>\n<p>Now: I&#39;m the CTO of a young and still in stealth mode startup - <a href=\"http://sourcingbot.com\">sourcingbot.com</a></p>\n",
+        "milestone": "May 23rd 2018",
+        "img": "https://avatars3.githubusercontent.com/u/16254901?v=4",
+        "handle": "erankeren",
+        "name": "Mr.K"
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/paulbjensen",
-        "speakerUrl": "https://github.com/paulbjensen",
-        "title": "End-to-end testing Single Page Apps and APIs with Cucumber.js &amp; Puppeteer",
-        "description": "<p>Developing web applications as separate front end and back end parts is a common practice, but brings with it the challenge of how to test those parts together in an end-to-end fashion.</p>\n<p>In this talk, I will show you a strategy for being able to test your web application with Cucumber.js and Puppeteer, a library for running Google Chrome in headless mode. We&#39;ll also explore how to handle things like seeding the database for the API before running tests, how to select elements in the DOM via Cucumber step definitions, and how to do this in a nice fashion using Node 8&#39;s async/await feature. </p>\n<p>My name is Paul Jensen, I&#39;m the author of Manning&#39;s Cross Platform Desktop Applications, and I&#39;m the Lead Innovation Engineer at Starcount. My twitter handle is paulbjensen.</p>\n",
-        "milestone": "April 25th 2018",
-        "img": "https://avatars3.githubusercontent.com/u/3840?v=4",
-        "handle": "paulbjensen",
-        "name": "Paul Jensen"
+        "title": "Slot available",
+        "name": "Submit your talk!",
+        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
+        "img": "/images/favicon/favicon-128.png",
+        "speakerUrl": "https://lnug.org/speak.html",
+        "milestone": "May 23rd 2018"
     }
 ]
 },{}],6:[function(require,module,exports){
@@ -2314,18 +2327,18 @@ module.exports = function (spec) {
       routeName = page.slice(0, -5)
     }
     routes.push(page)
+
     if (pageName) {
       pages.push('/pages/' + pageName + '/' + pageName + '.html')
     }
 
     specs.push('/api/speclate' + routeName + '.json')
-    for (var selector in spec[page].spec) {
-      var component = spec[page].spec[selector].component
-      if (component) {
-        components.push('/components/' + component + '/' + component + '.html')
-      }
-    }
+
+    components = components.concat(getComponents(spec[page].spec))
   })
+  if (spec.defaultSpec) {
+    components = components.concat(getComponents(spec.defaultSpec))
+  }
 
   return {
     components: components,
@@ -2335,6 +2348,18 @@ module.exports = function (spec) {
     layout: layout,
     extras: spec.options.files
   }
+}
+
+
+function getComponents (spec) {
+  var components = []
+  for (var selector in spec) {
+    var component = spec[selector].component
+    if (component) {
+      components.push('/components/' + component + '/' + component + '.html')
+    }
+  }
+  return components
 }
 
 },{}],17:[function(require,module,exports){

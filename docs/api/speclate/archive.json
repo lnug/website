@@ -6,6 +6,10 @@
             "component": "archive",
             "data": [
                 {
+                    ".date": "May 2018",
+                    ".speakers": "<li>ExpressLess - 200 OK -  <a href=\"https://github.com/erankeren\">Mr.K</a> </li> <li>Slot available -  <a href=\"https://lnug.org/speak.html\">Submit your talk!</a> </li>"
+                },
+                {
                     ".date": "April 2018",
                     ".speakers": "<li>A Hobbyist&rsquo;s Quest for a Personal Server -  <a href=\"https://github.com/salmanff\">Salman FF</a> </li> <li>End-to-end testing Single Page Apps and APIs with Cucumber.js &amp; Puppeteer -  <a href=\"https://github.com/paulbjensen\">Paul Jensen</a> </li>"
                 },
