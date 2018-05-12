@@ -1,5 +1,6 @@
 {
     "page": "archive",
+    "strategy": "add-only",
     "spec": {
         "title": "Archive - LNUG",
         "ul.archive": {

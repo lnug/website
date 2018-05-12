@@ -2,9 +2,12 @@
 'use strict'
 var serviceWorker = require('speclate-service-worker')
 var spec = require('../spec')
-var version = '2.4'
+var version = '3.2322s2dd2d'
 
 serviceWorker(spec, version)
+
+
+
 
 },{"../spec":17,"speclate-service-worker":15}],2:[function(require,module,exports){
 module.exports=[
@@ -1817,7 +1820,7 @@ module.exports=[
         "title": "http4js: a whirlwind tour",
         "description": "<h2 id=\"abstract\">Abstract</h2>\n<p><a href=\"https://github.com/TomShacham/http4js\">http4js</a> is a lightweight http framework. It&#39;s immutable, has zero dependencies and is written in typescript. The <a href=\"https://tomshacham.github.io/http4js/#intro\">docs</a> are quite descriptive.</p>\n<p>This talk would be mainly live coding to show the main benefits of using http4js over another node http framework. I&#39;ve presented to colleagues who are now adopting http4js. I&#39;d love to show the community why I think it&#39;s a better way to write web apps, by demonstration! </p>\n<p>I will go through the main selling points: </p>\n<ul>\n<li>in memory testing of your routing (no more slow end-to-end tests)</li>\n<li>immutable Req/Res objects (so harder to smear state around your codebase)</li>\n<li>a simple http client </li>\n<li>zero dependencies</li>\n<li>support for Koa/Express backends (so you can use your favourite middleware)</li>\n<li>nice things that typescript brings (autocompleting, type safety, ... ) </li>\n<li>symmetric client and server type signatures (Request =&gt; Promise\\&lt;Response\\&gt; , making proxying a cinch)</li>\n</ul>\n<p>Through live coding and real examples I will show how simple and sane http4js can be!</p>\n<h2 id=\"about-me\">About me</h2>\n<p>I&#39;m an Engineer at <a href=\"https://triptease.com/\">Triptease</a>.</p>\n",
         "milestone": "June 27th 2018",
-        "img": "https://avatars0.githubusercontent.com/u/5289332?v=4",
+        "img": "https://avatars0.githubusercontent.com/u/5289332?v=4&s=40",
         "handle": "TomShacham",
         "name": "Tom Shacham"
     },
@@ -1827,7 +1830,7 @@ module.exports=[
         "title": "Managing cloud resources in a distributed and fault-tolerant manner with EVRYTHNG&rsquo;s resource manager",
         "description": "<p>At <a href=\"http://evrythng.com/\">EVRYTHNG</a> we had to a build a number of Node.js applications that required managing multiple resources in a distributed environment. For example, handling real-time connections to other clouds such as Nest and Honeywell and sending notifications to <a href=\"https://ifttt.com/\">IFTTT</a> applets. What if there was a library that handled the allocation and distribution of these resources so developers could focus on the core business logic of their application?</p>\n<p>The EVRYTHNG distributed resource manager is a Node.js library that solves this problem. Developers don&rsquo;t need to worry about maintaining real-time connections when new nodes are added to the system or if one of them goes down.</p>\n<p>In this talk I would demonstrate the resource manager so attendees will see what problems it solves for us at EVRYTHNG. In addition, they will gain an understanding of how we use Node.js at our company and how it helps us scale. Please note that this library is not currently open source but it should be in the next 1-2 months.</p>\n<p>I work as a Technical Lead for EVRYTHNG who provide an IoT platform for businesses around the world. It&rsquo;s my role to decide on the architecture for various parts of the platform and how we will build these components using Node.js. I&rsquo;ve been programming in Node for five years.</p>\n",
         "milestone": "June 27th 2018",
-        "img": "https://avatars2.githubusercontent.com/u/738733?v=4",
+        "img": "https://avatars2.githubusercontent.com/u/738733?v=4&s=40",
         "handle": "stephendeyoung",
         "name": "Stephen Young"
     }
@@ -2267,64 +2270,102 @@ module.exports = function (spec, version) {
           }
         }),
         caches.open(cacheName + 'routes').then(cache => {
-          // could this be handled in the fetch listener? to save duplicating the layout each time.
-          fetch('/pages/layout.html').then(function (layout) {
-            out.routes.forEach(function (route) {
-              cache.put(route, layout.clone())
-            })
+          out.routes.forEach(function (route) {
+            if (route === '/') {
+              route = '/index.html'
+            }
+
+            if (spec[route].strategy === 'app-shell') {
+              fetch('/pages/layout.html').then(function (layout) {
+                cache.put(route, layout.clone())
+              })
+            } else {
+              fetch(route).then(function (page) {
+                // should we add the blurred class before we add the page to the cache
+                cache.put(route, page.clone())
+              })
+            }
           })
         })
       ])
   })
 
-    // when the browser fetches a url, either response with
-    // the cached object or go ahead and fetch the actual url
   self.addEventListener('fetch', event => {
     var request = event.request
 
-    if (request.url.indexOf('/api/speclate') > 0) {
-      return event.respondWith(
-                fetch(request)
-                    .then(response => response)
-                    .then(response => addToCache(cacheName + 'specs', request, response))
-                    .catch(() => {
-                        // fallback to the cache.
-                      return caches
-                                .match(request)
-                                .then(response => response)
-                    })
-            )
+    if (request.url.indexOf('.json') > 0) {
+      event.respondWith(fromCache(event.request))
+      event.waitUntil(
+          update(event.request)
+
+          .then(refresh)
+      )
     } else {
       return event.respondWith(caches.match(event.request).then(res => res || fetch(event.request)))
     }
   })
 
+  /**
+   * Loads the item from the cache.
+   * @param {*} request
+   */
+  function fromCache (request) {
+    return caches.open(cacheName + 'specs').then(function (cache) {
+      return cache.match(request).then(function (matching) {
+        return matching || Promise.reject(new Error('no-match'))
+      })
+    })
+  }
+
+  /**
+   * update the value in the cache.
+   * @param {*} request
+   */
+  function update (request) {
+    return caches.open(cacheName + 'specs').then(function (cache) {
+      return fetch(request).then(function (response) {
+        return cache.put(request, response.clone()).then(function () {
+          return response
+        })
+      })
+    })
+  }
+
+  /**
+   * Notify the user that the item has changed.
+   * @param {*} response
+   */
+  function refresh (response) {
+    return self.clients.matchAll().then(function (clients) {
+      clients.forEach(function (client) {
+        // console.log(response)
+        var message = {
+          type: 'spec-refresh',
+          url: response.url,
+          eTag: response.headers.get('ETag')
+        }
+        client.postMessage(JSON.stringify(message))
+      })
+    })
+  }
+
   self.addEventListener('activate', event => {
     event.waitUntil(
             caches.keys()
-            .then(function (keys) {
-              return Promise.all(keys
-                .filter(function (key) {
-                  return key.indexOf(cacheName) !== 0
-                })
-                .map(function (key) {
-                  return caches.delete(key)
-                })
-                )
-            })
-        )
+                  .then(function (keys) {
+                    return Promise
+                            .all(
+                              keys
+                                .filter(function (key) {
+                                  return key.indexOf(cacheName) !== 0
+                                })
+                                .map(function (key) {
+                                  return caches.delete(key)
+                                })
+                              )
+                  })
+    )
   })
-}
-
-var addToCache = function (cacheKey, request, response) {
-  if (response.ok) {
-    var copy = response.clone()
-    caches.open(cacheKey).then(cache => {
-      cache.put(request, copy)
-    })
-    return response
-  }
-  return false
 }
 
 },{"./sort-files":16}],16:[function(require,module,exports){
@@ -2354,7 +2395,7 @@ module.exports = function (spec) {
       pages.push('/pages/' + pageName + '/' + pageName + '.html')
     }
 
-    specs.push('/api/speclate' + routeName + '.json')
+    specs.push(routeName + '.json')
 
     components = components.concat(getComponents(spec[page].spec))
   })
@@ -2371,7 +2412,6 @@ module.exports = function (spec) {
     extras: spec.options.files
   }
 }
-
 
 function getComponents (spec) {
   var components = []
@@ -2397,6 +2437,7 @@ var futureSelectors = require('./lib/future-selectors')
 
 var options = {
   outputDir: '/docs',
+
   appCacheFiles: [
     'appcache-loader.html'
   ],
@@ -2418,6 +2459,7 @@ var options = {
 module.exports = {
   '/index.html': {
     page: 'home',
+    strategy: 'blurred-cache',
     spec: {
       title: 'London Node User Group - LNUG',
       h1: {
@@ -2433,9 +2475,6 @@ module.exports = {
           'address': venue.address.join('<br />'),
           '.address a': {
             href: 'https://www.google.co.uk/maps/search/' + venue.address.join(',%20')
-          },
-          'a.cta': {
-            'href': 'http://www.meetup.com/london-nodejs/'
           }
         }
       },
@@ -2450,6 +2489,7 @@ module.exports = {
   },
   '/image-gallery.html': {
     page: 'image-gallery',
+    strategy: 'add-only',
     spec: {
       'title': 'Image Gallery - LNUG',
       'section#gallery': {
@@ -2460,6 +2500,7 @@ module.exports = {
   },
   '/archive.html': {
     page: 'archive',
+    strategy: 'add-only',
     spec: {
       'title': 'Archive - LNUG',
       'ul.archive': {
@@ -2470,6 +2511,7 @@ module.exports = {
   },
   '/future.html': {
     page: 'future',
+    strategy: 'blurred-cache',
     spec: {
       'title': 'Future Events - LNUG',
       'ul.future': {
@@ -2480,12 +2522,14 @@ module.exports = {
   },
   '/code-of-conduct.html': {
     page: 'code-of-conduct',
+    strategy: 'cache-first',
     spec: {
       'title': 'Code of Conduct - LNUG'
     }
   },
   '/speak.html': {
     page: 'speak',
+    strategy: 'cache-first',
     spec: {
       'nav a.speak': {
         className: 'active'
@@ -2496,6 +2540,7 @@ module.exports = {
   },
   '/contribute.html': {
     page: 'contribute',
+    strategy: 'cache-first',
     spec: {
       'nav a.sponsor': {
         className: 'active'
@@ -2505,6 +2550,7 @@ module.exports = {
   },
   '/contact.html': {
     page: 'contact',
+    strategy: 'cache-first',
     spec: {
       'title': 'Contact - LNUG',
       'nav a.contact': {
@@ -2514,6 +2560,7 @@ module.exports = {
   },
   '/related-meetups.html': {
     page: 'related-meetups',
+    strategy: 'cache-first',
     spec: {
       'title': 'Related Meetups - LNUG'
     }
