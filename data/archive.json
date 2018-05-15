@@ -3,14 +3,14 @@
         "date": "May 2018",
         "speakers": [
             {
+                "name": "Paul Jensen",
+                "url": "https://github.com/paulbjensen",
+                "title": "Objection.js, a SQL ORM"
+            },
+            {
                 "name": "Mr.K",
                 "url": "https://github.com/erankeren",
                 "title": "ExpressLess - 200 OK"
-            },
-            {
-                "name": "Submit your talk!",
-                "url": "https://lnug.org/speak.html",
-                "title": "Slot available"
             }
         ]
     },

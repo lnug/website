@@ -1,5 +1,15 @@
 [
     {
+        "apiSpeakerUrl": "https://api.github.com/users/paulbjensen",
+        "speakerUrl": "https://github.com/paulbjensen",
+        "title": "Objection.js, a SQL ORM",
+        "description": "<p>Objection.js is a SQL ORM (Object Relational mapping) for Node.js.</p>\n<p>In this talk, I will walk you through how the module works, show live examples of it in action, and present the case for considering it in your Node.js projects.</p>\n<p>Things that we&#39;ll cover are:</p>\n<ul>\n<li>Quick setup</li>\n<li>Creating the underlying database schema for your models via Knex.js</li>\n<li>Creating models and executing SQL queries via the models</li>\n<li>Implementing validation in your models with JSON schema</li>\n<li>Defining relationships between models</li>\n<li>Doing graph inserts and updates</li>\n<li>Setting up a GraphQL API with the objection-graphql plugin</li>\n<li>Other interesting objection.js plugins</li>\n</ul>\n<p>My name is Paul Jensen, I&#39;m the author of <a href=\"http://manning.com/books/cross-platform-desktop-applications\">Manning&#39;s &quot;Cross Platform Desktop Applications - Using Node, Electron, and NW.js&quot;</a>. You can find me on <a href=\"https://twitter.com/paulbjensen\">Twitter</a> and <a href=\"https://github.com/paulbjensen\">Github</a>.</p>\n",
+        "milestone": "May 23rd 2018",
+        "img": "https://avatars3.githubusercontent.com/u/3840?v=4",
+        "handle": "paulbjensen",
+        "name": "Paul Jensen"
+    },
+    {
         "apiSpeakerUrl": "https://api.github.com/users/erankeren",
         "speakerUrl": "https://github.com/erankeren",
         "title": "ExpressLess - 200 OK",
@@ -8,13 +18,5 @@
         "img": "https://avatars3.githubusercontent.com/u/16254901?v=4",
         "handle": "erankeren",
         "name": "Mr.K"
-    },
-    {
-        "title": "Slot available",
-        "name": "Submit your talk!",
-        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
-        "img": "/images/favicon/favicon-128.png",
-        "speakerUrl": "https://lnug.org/speak.html",
-        "milestone": "May 23rd 2018"
     }
 ]
