@@ -1,5 +1,20 @@
 [
     {
+        "date": "June 2018",
+        "speakers": [
+            {
+                "name": "Stephen Young",
+                "url": "https://github.com/stephendeyoung",
+                "title": "Managing cloud resources in a distributed and fault-tolerant manner with EVRYTHNG&rsquo;s resource manager"
+            },
+            {
+                "name": "Submit your talk!",
+                "url": "https://lnug.org/speak.html",
+                "title": "Slot available"
+            }
+        ]
+    },
+    {
         "date": "May 2018",
         "speakers": [
             {

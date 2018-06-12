@@ -1,16 +1,11 @@
 [
     {
-        "date": "May 2018",
+        "date": "June 2018",
         "speakers": [
             {
-                "name": "Paul Jensen",
-                "url": "https://github.com/paulbjensen",
-                "title": "Objection.js, a SQL ORM"
-            },
-            {
-                "name": "Mr.K",
-                "url": "https://github.com/erankeren",
-                "title": "ExpressLess - 200 OK"
+                "name": "Stephen Young",
+                "url": "https://github.com/stephendeyoung",
+                "title": "Managing cloud resources in a distributed and fault-tolerant manner with EVRYTHNG&rsquo;s resource manager"
             }
         ]
     }

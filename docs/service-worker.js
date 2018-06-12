@@ -1,4 +1,4 @@
-(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+(function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
 'use strict'
 var serviceWorker = require('speclate-service-worker')
 var spec = require('../spec')
@@ -8,6 +8,21 @@ serviceWorker(spec, version)
 
 },{"../spec":17,"speclate-service-worker":15}],2:[function(require,module,exports){
 module.exports=[
+    {
+        "date": "June 2018",
+        "speakers": [
+            {
+                "name": "Stephen Young",
+                "url": "https://github.com/stephendeyoung",
+                "title": "Managing cloud resources in a distributed and fault-tolerant manner with EVRYTHNG&rsquo;s resource manager"
+            },
+            {
+                "name": "Submit your talk!",
+                "url": "https://lnug.org/speak.html",
+                "title": "Slot available"
+            }
+        ]
+    },
     {
         "date": "May 2018",
         "speakers": [
@@ -1764,17 +1779,12 @@ module.exports=[
 },{}],4:[function(require,module,exports){
 module.exports=[
     {
-        "date": "May 2018",
+        "date": "June 2018",
         "speakers": [
             {
-                "name": "Paul Jensen",
-                "url": "https://github.com/paulbjensen",
-                "title": "Objection.js, a SQL ORM"
-            },
-            {
-                "name": "Mr.K",
-                "url": "https://github.com/erankeren",
-                "title": "ExpressLess - 200 OK"
+                "name": "Stephen Young",
+                "url": "https://github.com/stephendeyoung",
+                "title": "Managing cloud resources in a distributed and fault-tolerant manner with EVRYTHNG&rsquo;s resource manager"
             }
         ]
     }
@@ -1782,24 +1792,22 @@ module.exports=[
 },{}],5:[function(require,module,exports){
 module.exports=[
     {
-        "apiSpeakerUrl": "https://api.github.com/users/paulbjensen",
-        "speakerUrl": "https://github.com/paulbjensen",
-        "title": "Objection.js, a SQL ORM",
-        "description": "<p>Objection.js is a SQL ORM (Object Relational mapping) for Node.js.</p>\n<p>In this talk, I will walk you through how the module works, show live examples of it in action, and present the case for considering it in your Node.js projects.</p>\n<p>Things that we&#39;ll cover are:</p>\n<ul>\n<li>Quick setup</li>\n<li>Creating the underlying database schema for your models via Knex.js</li>\n<li>Creating models and executing SQL queries via the models</li>\n<li>Implementing validation in your models with JSON schema</li>\n<li>Defining relationships between models</li>\n<li>Doing graph inserts and updates</li>\n<li>Setting up a GraphQL API with the objection-graphql plugin</li>\n<li>Other interesting objection.js plugins</li>\n</ul>\n<p>My name is Paul Jensen, I&#39;m the author of <a href=\"http://manning.com/books/cross-platform-desktop-applications\">Manning&#39;s &quot;Cross Platform Desktop Applications - Using Node, Electron, and NW.js&quot;</a>. You can find me on <a href=\"https://twitter.com/paulbjensen\">Twitter</a> and <a href=\"https://github.com/paulbjensen\">Github</a>.</p>\n",
-        "milestone": "May 23rd 2018",
-        "img": "https://avatars3.githubusercontent.com/u/3840?v=4",
-        "handle": "paulbjensen",
-        "name": "Paul Jensen"
+        "apiSpeakerUrl": "https://api.github.com/users/stephendeyoung",
+        "speakerUrl": "https://github.com/stephendeyoung",
+        "title": "Managing cloud resources in a distributed and fault-tolerant manner with EVRYTHNG&rsquo;s resource manager",
+        "description": "<p>At <a href=\"http://evrythng.com/\">EVRYTHNG</a> we had to a build a number of Node.js applications that required managing multiple resources in a distributed environment. For example, handling real-time connections to other clouds such as Nest and Honeywell and sending notifications to <a href=\"https://ifttt.com/\">IFTTT</a> applets. What if there was a library that handled the allocation and distribution of these resources so developers could focus on the core business logic of their application?</p>\n<p>The EVRYTHNG distributed resource manager is a Node.js library that solves this problem. Developers don&rsquo;t need to worry about maintaining real-time connections when new nodes are added to the system or if one of them goes down.</p>\n<p>In this talk I would demonstrate the resource manager so attendees will see what problems it solves for us at EVRYTHNG. In addition, they will gain an understanding of how we use Node.js at our company and how it helps us scale. Please note that this library is not currently open source but it should be in the next 1-2 months.</p>\n<p>I work as a Technical Lead for EVRYTHNG who provide an IoT platform for businesses around the world. It&rsquo;s my role to decide on the architecture for various parts of the platform and how we will build these components using Node.js. I&rsquo;ve been programming in Node for five years.</p>\n",
+        "milestone": "June 27th 2018",
+        "img": "https://avatars2.githubusercontent.com/u/738733?v=4",
+        "handle": "stephendeyoung",
+        "name": "Stephen Young"
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/erankeren",
-        "speakerUrl": "https://github.com/erankeren",
-        "title": "ExpressLess - 200 OK",
-        "description": "<p>Heard about Serverless? Already know Express.js? Too afraid to use the two? </p>\n<p>My talk will last ~20 mins and will cover the following:</p>\n<ul>\n<li><p>Where are my servers? (Moving from the classic setup to a serverless one)</p>\n</li>\n<li><p>Express.js + Serverless?</p>\n</li>\n<li><p>How can I test my serverless app? (Offline testing)</p>\n</li>\n<li><p>Where are my logs?</p>\n</li>\n<li><p>Wait, are my apis public? (Securing your endpoints)</p>\n</li>\n<li><p>Shhhhh....(Keeping secrets)</p>\n</li>\n</ul>\n<h3 id=\"about-me-\">About me:</h3>\n<p>I started my career over a decade ago writing code for firewalls and security systems (c/c++/java). In recent years I&#39;ve been specialising in cloud engineering, microservices, aws and serverless (mostly in node.js).</p>\n<p>Now: I&#39;m the CTO of a young and still in stealth mode startup - <a href=\"http://sourcingbot.com\">sourcingbot.com</a></p>\n",
-        "milestone": "May 23rd 2018",
-        "img": "https://avatars3.githubusercontent.com/u/16254901?v=4",
-        "handle": "erankeren",
-        "name": "Mr.K"
+        "title": "Slot available",
+        "name": "Submit your talk!",
+        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
+        "img": "/images/favicon/favicon-128.png",
+        "speakerUrl": "https://lnug.org/speak.html",
+        "milestone": "June 27th 2018"
     }
 ]
 },{}],6:[function(require,module,exports){
@@ -2319,18 +2327,18 @@ module.exports = function (spec) {
       routeName = page.slice(0, -5)
     }
     routes.push(page)
+
     if (pageName) {
       pages.push('/pages/' + pageName + '/' + pageName + '.html')
     }
 
     specs.push('/api/speclate' + routeName + '.json')
-    for (var selector in spec[page].spec) {
-      var component = spec[page].spec[selector].component
-      if (component) {
-        components.push('/components/' + component + '/' + component + '.html')
-      }
-    }
+
+    components = components.concat(getComponents(spec[page].spec))
   })
+  if (spec.defaultSpec) {
+    components = components.concat(getComponents(spec.defaultSpec))
+  }
 
   return {
     components: components,
@@ -2340,6 +2348,18 @@ module.exports = function (spec) {
     layout: layout,
     extras: spec.options.files
   }
+}
+
+
+function getComponents (spec) {
+  var components = []
+  for (var selector in spec) {
+    var component = spec[selector].component
+    if (component) {
+      components.push('/components/' + component + '/' + component + '.html')
+    }
+  }
+  return components
 }
 
 },{}],17:[function(require,module,exports){

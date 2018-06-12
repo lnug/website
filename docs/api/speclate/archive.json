@@ -6,6 +6,10 @@
             "component": "archive",
             "data": [
                 {
+                    ".date": "June 2018",
+                    ".speakers": "<li>Managing cloud resources in a distributed and fault-tolerant manner with EVRYTHNG&rsquo;s resource manager -  <a href=\"https://github.com/stephendeyoung\">Stephen Young</a> </li> <li>Slot available -  <a href=\"https://lnug.org/speak.html\">Submit your talk!</a> </li>"
+                },
+                {
                     ".date": "May 2018",
                     ".speakers": "<li>Objection.js, a SQL ORM -  <a href=\"https://github.com/paulbjensen\">Paul Jensen</a> </li> <li>ExpressLess - 200 OK -  <a href=\"https://github.com/erankeren\">Mr.K</a> </li>"
                 },
