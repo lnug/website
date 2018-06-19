@@ -6,9 +6,6 @@ var version = '3.2322s2dd2d'
 
 serviceWorker(spec, version)
 
-
-
-
 },{"../spec":17,"speclate-service-worker":15}],2:[function(require,module,exports){
 module.exports=[
     {
