@@ -12,14 +12,14 @@ module.exports=[
         "date": "June 2018",
         "speakers": [
             {
+                "name": "Tom Shacham",
+                "url": "https://github.com/TomShacham",
+                "title": "http4js: a whirlwind tour"
+            },
+            {
                 "name": "Stephen Young",
                 "url": "https://github.com/stephendeyoung",
                 "title": "Managing cloud resources in a distributed and fault-tolerant manner with EVRYTHNG&rsquo;s resource manager"
-            },
-            {
-                "name": "Submit your talk!",
-                "url": "https://lnug.org/speak.html",
-                "title": "Slot available"
             }
         ]
     },
@@ -1779,8 +1779,28 @@ module.exports=[
 },{}],4:[function(require,module,exports){
 module.exports=[
     {
+        "date": "July 2018",
+        "speakers": [
+            {
+                "name": "James Porter",
+                "url": "https://github.com/jamesporter",
+                "title": "Elm: your next programming language?"
+            },
+            {
+                "name": "sp3c1",
+                "url": "https://github.com/sp3c1",
+                "title": "Scheduled Messaging with RMQ, Redis, Postgres"
+            }
+        ]
+    },
+    {
         "date": "June 2018",
         "speakers": [
+            {
+                "name": "Tom Shacham",
+                "url": "https://github.com/TomShacham",
+                "title": "http4js: a whirlwind tour"
+            },
             {
                 "name": "Stephen Young",
                 "url": "https://github.com/stephendeyoung",
@@ -1792,6 +1812,16 @@ module.exports=[
 },{}],5:[function(require,module,exports){
 module.exports=[
     {
+        "apiSpeakerUrl": "https://api.github.com/users/TomShacham",
+        "speakerUrl": "https://github.com/TomShacham",
+        "title": "http4js: a whirlwind tour",
+        "description": "<h2 id=\"abstract\">Abstract</h2>\n<p><a href=\"https://github.com/TomShacham/http4js\">http4js</a> is a lightweight http framework. It&#39;s immutable, has zero dependencies and is written in typescript. The <a href=\"https://tomshacham.github.io/http4js/#intro\">docs</a> are quite descriptive.</p>\n<p>This talk would be mainly live coding to show the main benefits of using http4js over another node http framework. I&#39;ve presented to colleagues who are now adopting http4js. I&#39;d love to show the community why I think it&#39;s a better way to write web apps, by demonstration! </p>\n<p>I will go through the main selling points: </p>\n<ul>\n<li>in memory testing of your routing (no more slow end-to-end tests)</li>\n<li>immutable Req/Res objects (so harder to smear state around your codebase)</li>\n<li>a simple http client </li>\n<li>zero dependencies</li>\n<li>support for Koa/Express backends (so you can use your favourite middleware)</li>\n<li>nice things that typescript brings (autocompleting, type safety, ... ) </li>\n<li>symmetric client and server type signatures (Request =&gt; Promise\\&lt;Response\\&gt; , making proxying a cinch)</li>\n</ul>\n<p>Through live coding and real examples I will show how simple and sane http4js can be!</p>\n<h2 id=\"about-me\">About me</h2>\n<p>I&#39;m an Engineer at <a href=\"https://triptease.com/\">Triptease</a>.</p>\n",
+        "milestone": "June 27th 2018",
+        "img": "https://avatars0.githubusercontent.com/u/5289332?v=4",
+        "handle": "TomShacham",
+        "name": "Tom Shacham"
+    },
+    {
         "apiSpeakerUrl": "https://api.github.com/users/stephendeyoung",
         "speakerUrl": "https://github.com/stephendeyoung",
         "title": "Managing cloud resources in a distributed and fault-tolerant manner with EVRYTHNG&rsquo;s resource manager",
@@ -1800,14 +1830,6 @@ module.exports=[
         "img": "https://avatars2.githubusercontent.com/u/738733?v=4",
         "handle": "stephendeyoung",
         "name": "Stephen Young"
-    },
-    {
-        "title": "Slot available",
-        "name": "Submit your talk!",
-        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
-        "img": "/images/favicon/favicon-128.png",
-        "speakerUrl": "https://lnug.org/speak.html",
-        "milestone": "June 27th 2018"
     }
 ]
 },{}],6:[function(require,module,exports){

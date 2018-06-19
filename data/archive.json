@@ -3,14 +3,14 @@
         "date": "June 2018",
         "speakers": [
             {
+                "name": "Tom Shacham",
+                "url": "https://github.com/TomShacham",
+                "title": "http4js: a whirlwind tour"
+            },
+            {
                 "name": "Stephen Young",
                 "url": "https://github.com/stephendeyoung",
                 "title": "Managing cloud resources in a distributed and fault-tolerant manner with EVRYTHNG&rsquo;s resource manager"
-            },
-            {
-                "name": "Submit your talk!",
-                "url": "https://lnug.org/speak.html",
-                "title": "Slot available"
             }
         ]
     },
