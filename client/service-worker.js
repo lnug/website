@@ -4,6 +4,3 @@ var spec = require('../spec')
 var version = '3.2322s2dd2d'
 
 serviceWorker(spec, version)
-
-
-
