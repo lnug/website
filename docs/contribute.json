@@ -1,0 +1,10 @@
+{
+    "page": "contribute",
+    "spec": {
+        "nav a.sponsor": {
+            "className": "active"
+        },
+        "title": "Sponsor - LNUG"
+    },
+    "route": "/contribute.html"
+}

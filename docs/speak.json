@@ -1,0 +1,10 @@
+{
+    "page": "speak",
+    "spec": {
+        "nav a.speak": {
+            "className": "active"
+        },
+        "title": "Speak - LNUG"
+    },
+    "route": "/speak.html"
+}
