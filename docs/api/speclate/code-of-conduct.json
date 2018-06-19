@@ -1,0 +1,8 @@
+{
+    "page": "code-of-conduct",
+    "strategy": "cache-first",
+    "spec": {
+        "title": "Code of Conduct - LNUG"
+    },
+    "route": "/code-of-conduct.html"
+}

@@ -1,0 +1,21 @@
+{
+    "page": "future",
+    "strategy": "blurred-cache",
+    "spec": {
+        "title": "Future Events - LNUG",
+        "ul.future": {
+            "component": "archive",
+            "data": [
+                {
+                    ".date": "June 2018",
+                    ".speakers": "<li>http4js: a whirlwind tour -  <a href=\"https://github.com/TomShacham\">Tom Shacham</a> </li> <li>Managing cloud resources in a distributed and fault-tolerant manner with EVRYTHNG&rsquo;s resource manager -  <a href=\"https://github.com/stephendeyoung\">Stephen Young</a> </li>"
+                },
+                {
+                    ".date": "July 2018",
+                    ".speakers": "<li>Elm: your next programming language? -  <a href=\"https://github.com/jamesporter\">James Porter</a> </li> <li>Scheduled Messaging with RMQ, Redis, Postgres -  <a href=\"https://github.com/sp3c1\">sp3c1</a> </li>"
+                }
+            ]
+        }
+    },
+    "route": "/future.html"
+}

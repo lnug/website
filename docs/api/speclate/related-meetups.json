@@ -1,0 +1,8 @@
+{
+    "page": "related-meetups",
+    "strategy": "cache-first",
+    "spec": {
+        "title": "Related Meetups - LNUG"
+    },
+    "route": "/related-meetups.html"
+}
