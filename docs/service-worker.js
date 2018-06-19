@@ -2459,7 +2459,6 @@ var options = {
 module.exports = {
   '/index.html': {
     page: 'home',
-    strategy: 'blurred-cache',
     spec: {
       title: 'London Node User Group - LNUG',
       h1: {
@@ -2489,7 +2488,6 @@ module.exports = {
   },
   '/image-gallery.html': {
     page: 'image-gallery',
-    strategy: 'add-only',
     spec: {
       'title': 'Image Gallery - LNUG',
       'section#gallery': {
@@ -2500,7 +2498,6 @@ module.exports = {
   },
   '/archive.html': {
     page: 'archive',
-    strategy: 'add-only',
     spec: {
       'title': 'Archive - LNUG',
       'ul.archive': {
@@ -2511,7 +2508,6 @@ module.exports = {
   },
   '/future.html': {
     page: 'future',
-    strategy: 'blurred-cache',
     spec: {
       'title': 'Future Events - LNUG',
       'ul.future': {
@@ -2522,14 +2518,12 @@ module.exports = {
   },
   '/code-of-conduct.html': {
     page: 'code-of-conduct',
-    strategy: 'cache-first',
     spec: {
       'title': 'Code of Conduct - LNUG'
     }
   },
   '/speak.html': {
     page: 'speak',
-    strategy: 'cache-first',
     spec: {
       'nav a.speak': {
         className: 'active'
@@ -2540,7 +2534,6 @@ module.exports = {
   },
   '/contribute.html': {
     page: 'contribute',
-    strategy: 'cache-first',
     spec: {
       'nav a.sponsor': {
         className: 'active'
@@ -2550,7 +2543,6 @@ module.exports = {
   },
   '/contact.html': {
     page: 'contact',
-    strategy: 'cache-first',
     spec: {
       'title': 'Contact - LNUG',
       'nav a.contact': {
@@ -2560,7 +2552,6 @@ module.exports = {
   },
   '/related-meetups.html': {
     page: 'related-meetups',
-    strategy: 'cache-first',
     spec: {
       'title': 'Related Meetups - LNUG'
     }

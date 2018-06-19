@@ -1,6 +1,5 @@
 {
     "page": "future",
-    "strategy": "blurred-cache",
     "spec": {
         "title": "Future Events - LNUG",
         "ul.future": {

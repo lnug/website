@@ -1,6 +1,5 @@
 {
     "page": "home",
-    "strategy": "blurred-cache",
     "spec": {
         "title": "London Node User Group - LNUG",
         "h1": {

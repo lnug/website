@@ -1,6 +1,5 @@
 {
     "page": "contact",
-    "strategy": "cache-first",
     "spec": {
         "title": "Contact - LNUG",
         "nav a.contact": {

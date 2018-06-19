@@ -1,6 +1,5 @@
 {
     "page": "image-gallery",
-    "strategy": "add-only",
     "spec": {
         "title": "Image Gallery - LNUG",
         "section#gallery": {

@@ -1,6 +1,5 @@
 {
     "page": "speak",
-    "strategy": "cache-first",
     "spec": {
         "nav a.speak": {
             "className": "active"
