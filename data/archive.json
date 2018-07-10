@@ -1,5 +1,20 @@
 [
     {
+        "date": "July 2018",
+        "speakers": [
+            {
+                "name": "James Porter",
+                "url": "https://github.com/jamesporter",
+                "title": "Elm: your next programming language?"
+            },
+            {
+                "name": "sp3c1",
+                "url": "https://github.com/sp3c1",
+                "title": "Scheduled Messaging with RMQ, Redis, Postgres"
+            }
+        ]
+    },
+    {
         "date": "June 2018",
         "speakers": [
             {
