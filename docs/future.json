@@ -1,0 +1,16 @@
+{
+    "page": "future",
+    "spec": {
+        "title": "Future Events - LNUG",
+        "ul.future": {
+            "component": "archive",
+            "data": [
+                {
+                    ".date": "July 2018",
+                    ".speakers": "<li>Elm: your next programming language? -  <a href=\"https://github.com/jamesporter\">James Porter</a> </li> <li>Scheduled Messaging with RMQ, Redis, Postgres -  <a href=\"https://github.com/sp3c1\">sp3c1</a> </li>"
+                }
+            ]
+        }
+    },
+    "route": "/future.html"
+}

@@ -29,23 +29,65 @@ router({
 ga('create', 'UA-2845245-14', 'auto')
 ga('send', 'pageview')
 
+var newVersionAvailable = function (newWorker) {
+  $('header').append('<div class="new-version">There is a new version of the LNUG site avaialble.<a href="/">upgrade now</a></div>')
+  $('header div.new-version a').on('click', { newWorker: newWorker }, (event) => {
+    event.data.newWorker.postMessage({ action: 'skipWaiting' })
+    $('header div.new-version').remove()
+  })
+};
+
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/service-worker.js').then(function (registration) {
     // Registration was successful
     console.log('ServiceWorker registration successful with scope: ', registration.scope)
+
+    var newWorker
+
+
+    // now we need to detect updates.
+    registration.addEventListener('updatefound', function () {
+      // An updated service worker has appeared in reg.installing!
+      newWorker = registration.installing
+
+
+      newWorker.addEventListener('statechange', function () {
+
+
+        console.log('nws', newWorker.state)
+        // Has service worker state changed?
+        switch (newWorker.state) {
+          case 'installed':
+
+            // There is a new service worker available, show the notification
+            if (navigator.serviceWorker.controller) {
+              newVersionAvailable(newWorker);
+            }
+            break
+        }
+      })
+    })
   }).catch(function (err) {
     // registration failed :(
     console.log('ServiceWorker registration failed: ', err)
   })
+
 } else {
   appCacheNanny.start()
 }
+
+
+
+
 
 appCacheNanny.on('updateready', function () {
   location.reload()
 })
 
-},{"appcache-nanny":2,"get-google-tracking-analytics":16,"jquery":17,"speclate-router":33}],2:[function(require,module,exports){
+
+
+
+},{"appcache-nanny":2,"get-google-tracking-analytics":14,"jquery":15,"speclate-router":31}],2:[function(require,module,exports){
 // appCacheNanny
 // =============
 //
@@ -13077,7 +13119,7 @@ module.exports = function (pathname) {
   } else if (pathname === '') {
     routeName = '/index'
   }
-  return '/api/speclate' + routeName + '.json'
+  return routeName + '.json'
 }
 
 },{}],37:[function(require,module,exports){

@@ -1,0 +1,10 @@
+{
+    "page": "contact",
+    "spec": {
+        "title": "Contact - LNUG",
+        "nav a.contact": {
+            "className": "active"
+        }
+    },
+    "route": "/contact.html"
+}

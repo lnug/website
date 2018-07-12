@@ -10,6 +10,7 @@ var futureSelectors = require('./lib/future-selectors')
 
 var options = {
   outputDir: '/docs',
+
   appCacheFiles: [
     'appcache-loader.html'
   ],
@@ -46,9 +47,6 @@ module.exports = {
           'address': venue.address.join('<br />'),
           '.address a': {
             href: 'https://www.google.co.uk/maps/search/' + venue.address.join(',%20')
-          },
-          'a.cta': {
-            'href': 'http://www.meetup.com/london-nodejs/'
           }
         }
       },

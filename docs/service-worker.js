@@ -2,7 +2,7 @@
 'use strict'
 var serviceWorker = require('speclate-service-worker')
 var spec = require('../spec')
-var version = '2.4'
+var version = '3.2322s2dd2d'
 
 serviceWorker(spec, version)
 
@@ -1817,7 +1817,7 @@ module.exports=[
         "title": "Elm: your next programming language?",
         "description": "<p>Maybe you have heard of Elm, the functional, front-end web language. But why would you as a full stack or backend Javascript developer learn this? Actually, it is the perfect first functional programming language (way friendlier than the others) and could change the way you think about programming Javascript. In particular you will better understand how and why to use TypeScript or Flow.</p>\n<p>The talk comes in two parts. The first is a quick introduction to Elm via its REPL. We&rsquo;ll take a look at a few of its key features and lightweight syntax. In the second part we will experience one of Elm&rsquo;s superpowers: it makes making changes easy. We&#39;ll take an existing Elm App and add a new feature, letting the friendly compiler guide us to a working version.</p>\n<p>I&#39;m a polyglot developer currently focusing on React and React Native projects, but I dabble in lots other things. For example I recently made Isometrically: an App for creating 3D-ish graphics, ideal for websites thanks to SVG export/tiny file sizes: <a href=\"https://isometrically.amimetic.co.uk\">https://isometrically.amimetic.co.uk</a></p>\n<p>I&#39;m <a href=\"https://twitter.com/complexview\">@complexview</a> on Twitter.</p>\n",
         "milestone": "July 25th 2018",
-        "img": "https://avatars1.githubusercontent.com/u/383353?v=4",
+        "img": "https://avatars1.githubusercontent.com/u/383353?v=4&s=40",
         "handle": "jamesporter",
         "name": "James Porter"
     },
@@ -1827,7 +1827,7 @@ module.exports=[
         "title": "Scheduled Messaging with RMQ, Redis, Postgres",
         "description": "<p>It is kind of interesting how in 2018 we are missing a timed messaging queue system out of the box, and there is no clear standard how to handle the matter. We will showcase some valid use cases, discuss performance, engineering and architectural limitations, implementing and comparing RMQ, Redis and Postgres based solutions.</p>\n<p>Bartlomiej Specjalny, Senior Software Engineer at Bizzby Limited, a fullstack software engineer with background in computer graphics and multimedia.</p>\n",
         "milestone": "July 25th 2018",
-        "img": "https://avatars0.githubusercontent.com/u/4508208?v=4",
+        "img": "https://avatars0.githubusercontent.com/u/4508208?v=4&s=40",
         "handle": "sp3c1",
         "name": "sp3c1"
     }
@@ -2267,64 +2267,102 @@ module.exports = function (spec, version) {
           }
         }),
         caches.open(cacheName + 'routes').then(cache => {
-          // could this be handled in the fetch listener? to save duplicating the layout each time.
-          fetch('/pages/layout.html').then(function (layout) {
-            out.routes.forEach(function (route) {
-              cache.put(route, layout.clone())
-            })
+          out.routes.forEach(function (route) {
+            if (route === '/') {
+              route = '/index.html'
+            }
+
+            if (spec[route].strategy === 'app-shell') {
+              fetch('/pages/layout.html').then(function (layout) {
+                cache.put(route, layout.clone())
+              })
+            } else {
+              fetch(route).then(function (page) {
+                // should we add the blurred class before we add the page to the cache
+                cache.put(route, page.clone())
+              })
+            }
           })
         })
       ])
   })
 
-    // when the browser fetches a url, either response with
-    // the cached object or go ahead and fetch the actual url
   self.addEventListener('fetch', event => {
     var request = event.request
 
-    if (request.url.indexOf('/api/speclate') > 0) {
-      return event.respondWith(
-                fetch(request)
-                    .then(response => response)
-                    .then(response => addToCache(cacheName + 'specs', request, response))
-                    .catch(() => {
-                        // fallback to the cache.
-                      return caches
-                                .match(request)
-                                .then(response => response)
-                    })
-            )
+    if (request.url.indexOf('.json') > 0) {
+      event.respondWith(fromCache(event.request))
+      event.waitUntil(
+          update(event.request)
+
+          .then(refresh)
+      )
     } else {
       return event.respondWith(caches.match(event.request).then(res => res || fetch(event.request)))
     }
   })
 
+  /**
+   * Loads the item from the cache.
+   * @param {*} request
+   */
+  function fromCache (request) {
+    return caches.open(cacheName + 'specs').then(function (cache) {
+      return cache.match(request).then(function (matching) {
+        return matching || Promise.reject(new Error('no-match'))
+      })
+    })
+  }
+
+  /**
+   * update the value in the cache.
+   * @param {*} request
+   */
+  function update (request) {
+    return caches.open(cacheName + 'specs').then(function (cache) {
+      return fetch(request).then(function (response) {
+        return cache.put(request, response.clone()).then(function () {
+          return response
+        })
+      })
+    })
+  }
+
+  /**
+   * Notify the user that the item has changed.
+   * @param {*} response
+   */
+  function refresh (response) {
+    return self.clients.matchAll().then(function (clients) {
+      clients.forEach(function (client) {
+        // console.log(response)
+        var message = {
+          type: 'spec-refresh',
+          url: response.url,
+          eTag: response.headers.get('ETag')
+        }
+        client.postMessage(JSON.stringify(message))
+      })
+    })
+  }
+
   self.addEventListener('activate', event => {
     event.waitUntil(
             caches.keys()
-            .then(function (keys) {
-              return Promise.all(keys
-                .filter(function (key) {
-                  return key.indexOf(cacheName) !== 0
-                })
-                .map(function (key) {
-                  return caches.delete(key)
-                })
-                )
-            })
-        )
+                  .then(function (keys) {
+                    return Promise
+                            .all(
+                              keys
+                                .filter(function (key) {
+                                  return key.indexOf(cacheName) !== 0
+                                })
+                                .map(function (key) {
+                                  return caches.delete(key)
+                                })
+                              )
+                  })
+    )
   })
-}
-
-var addToCache = function (cacheKey, request, response) {
-  if (response.ok) {
-    var copy = response.clone()
-    caches.open(cacheKey).then(cache => {
-      cache.put(request, copy)
-    })
-    return response
-  }
-  return false
 }
 
 },{"./sort-files":16}],16:[function(require,module,exports){
@@ -2354,7 +2392,7 @@ module.exports = function (spec) {
       pages.push('/pages/' + pageName + '/' + pageName + '.html')
     }
 
-    specs.push('/api/speclate' + routeName + '.json')
+    specs.push(routeName + '.json')
 
     components = components.concat(getComponents(spec[page].spec))
   })
@@ -2371,7 +2409,6 @@ module.exports = function (spec) {
     extras: spec.options.files
   }
 }
-
 
 function getComponents (spec) {
   var components = []
@@ -2397,6 +2434,7 @@ var futureSelectors = require('./lib/future-selectors')
 
 var options = {
   outputDir: '/docs',
+
   appCacheFiles: [
     'appcache-loader.html'
   ],
@@ -2433,9 +2471,6 @@ module.exports = {
           'address': venue.address.join('<br />'),
           '.address a': {
             href: 'https://www.google.co.uk/maps/search/' + venue.address.join(',%20')
-          },
-          'a.cta': {
-            'href': 'http://www.meetup.com/london-nodejs/'
           }
         }
       },

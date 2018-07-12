@@ -40,10 +40,10 @@
     "moment": "^2.10.3",
     "node-html-encoder": "0.0.2",
     "shortid": "^2.2.4",
-    "speclate": "16.x.x",
+    "speclate": "18.x.x",
     "speclate-fetch-markdown": "1.x.x",
-    "speclate-router": "8.x.x",
-    "speclate-service-worker": "1.x.x",
+    "speclate-router": "9.x.x",
+    "speclate-service-worker": "2.x.x",
     "standard": "10.x.x",
     "superagent": "3.x.x"
   },

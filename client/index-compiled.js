@@ -13077,7 +13077,7 @@ module.exports = function (pathname) {
   } else if (pathname === '') {
     routeName = '/index'
   }
-  return '/api/speclate' + routeName + '.json'
+  return routeName + '.json'
 }
 
 },{}],37:[function(require,module,exports){
