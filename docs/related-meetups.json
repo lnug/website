@@ -1,7 +1,0 @@
-{
-    "page": "related-meetups",
-    "spec": {
-        "title": "Related Meetups - LNUG"
-    },
-    "route": "/related-meetups.html"
-}
