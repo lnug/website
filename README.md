@@ -76,5 +76,3 @@ To run the update you need permission to execute the bin directory.
   chmod 775 ./bin/*
 
 ---
-
-
