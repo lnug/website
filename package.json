@@ -28,7 +28,7 @@
     "url": "https://github.com/lnug/lnug.github.io/issues"
   },
   "homepage": "https://github.com/lnug/lnug.github.io",
-  "devDependencies": {
+  "dependencies": {
     "appcache-nanny": "^1.1.0",
     "async": "2.x.x",
     "browserify": "14.x.x",
@@ -48,7 +48,6 @@
     "standard": "10.x.x",
     "superagent": "3.x.x"
   },
-  "dependencies": {},
   "standard": {
     "globals": [
       "$",
