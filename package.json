@@ -11,7 +11,7 @@
     "map": "node ./bin/generate-maps.js",
     "start": "speclate --dev 5001",
     "make": "npm run client && npm run html",
-    "html": "NODE_ENV=production speclate --build",
+    "html": "speclate --build",
     "dev": "speclate --build",
     "build": "npm run update && npm run make",
     "client": "mkdir -p ./docs/client && browserify  ./client/index.js > ./client/index-compiled.js  && npm run service-worker",
