@@ -27,7 +27,6 @@ If you want to change the templates look in the pages folder.
 
 Please ensure that any changes you make persist after you run the update command documented above.
 
-
 # Update
 
 This site can be updated by running:
