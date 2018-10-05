@@ -1,22 +1,32 @@
 [
     {
-        "apiSpeakerUrl": "https://api.github.com/users/jamesporter",
-        "speakerUrl": "https://github.com/jamesporter",
-        "title": "Elm: your next programming language?",
-        "description": "<p>Maybe you have heard of Elm, the functional, front-end web language. But why would you as a full stack or backend Javascript developer learn this? Actually, it is the perfect first functional programming language (way friendlier than the others) and could change the way you think about programming Javascript. In particular you will better understand how and why to use TypeScript or Flow.</p>\n<p>The talk comes in two parts. The first is a quick introduction to Elm via its REPL. We&rsquo;ll take a look at a few of its key features and lightweight syntax. In the second part we will experience one of Elm&rsquo;s superpowers: it makes making changes easy. We&#39;ll take an existing Elm App and add a new feature, letting the friendly compiler guide us to a working version.</p>\n<p>I&#39;m a polyglot developer currently focusing on React and React Native projects, but I dabble in lots other things. For example I recently made Isometrically: an App for creating 3D-ish graphics, ideal for websites thanks to SVG export/tiny file sizes: <a href=\"https://isometrically.amimetic.co.uk\">https://isometrically.amimetic.co.uk</a></p>\n<p>I&#39;m <a href=\"https://twitter.com/complexview\">@complexview</a> on Twitter.</p>\n",
-        "milestone": "July 25th 2018",
-        "img": "https://avatars1.githubusercontent.com/u/383353?v=4&s=40",
-        "handle": "jamesporter",
-        "name": "James Porter"
+        "apiSpeakerUrl": "https://api.github.com/users/BethGriggs",
+        "speakerUrl": "https://github.com/BethGriggs",
+        "title": "Building and deploying Cloud Native Node.js applications",
+        "description": "<p>The CloudNativeJS.io community project provides a number of assets, tools and core modules for building Cloud Native Node.js applications. This session will show users how to use those to easily take an existing application and deploy it to Kubernetes with full support for liveness checks, metrics and request tracking.</p>\n<p>Beth Griggs, Developer &amp; Node.js Core Collaborator, IBM Runtimes (<a href=\"https://twitter.com/BethGriggs_\">@BethGriggs_</a> )&#10;Neeraj Laad, Developer, IBM Runtimes (<a href=\"https://twitter.com/NeerajLaad\">@NeerajLaad</a>)</p>\n",
+        "milestone": "October 24th 2018",
+        "img": "https://avatars2.githubusercontent.com/u/8297234?v=4&s=40",
+        "handle": "BethGriggs",
+        "name": "Bethany Nicolle Griggs"
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/sp3c1",
-        "speakerUrl": "https://github.com/sp3c1",
-        "title": "Scheduled Messaging with RMQ, Redis, Postgres",
-        "description": "<p>It is kind of interesting how in 2018 we are missing a timed messaging queue system out of the box, and there is no clear standard how to handle the matter. We will showcase some valid use cases, discuss performance, engineering and architectural limitations, implementing and comparing RMQ, Redis and Postgres based solutions.</p>\n<p>Bartlomiej Specjalny, Senior Software Engineer at Bizzby Limited, a fullstack software engineer with background in computer graphics and multimedia.</p>\n",
-        "milestone": "July 25th 2018",
-        "img": "https://avatars0.githubusercontent.com/u/4508208?v=4&s=40",
-        "handle": "sp3c1",
-        "name": "sp3c1"
+        "apiSpeakerUrl": "https://api.github.com/users/muttoni",
+        "speakerUrl": "https://github.com/muttoni",
+        "title": "Building an Alexa Skill in 20 minutes using NodeJS",
+        "description": "<p><strong>Title:</strong> How to Build an Alexa Skill in 20 minutes using NodeJS&#10;<strong>Body:</strong>&#10;Developers can build engaging voice experiences, aka Skills, for their services with the Alexa Skills Kit. In this 20 minute session, learn how to build a voice experience for Amazon Alexa: from idea to working skill including some best practices to consider along the way.</p>\n<p><em>Note: 20 minutes can be 20-30-40 depending on how much time you want to allocate to this talk! Fine to stick to 20 although I&#39;ll be going quick ;)</em></p>\n<p><strong>Personal Info:</strong>&#10;Tech Evangelist at Amazon, Twitter: muttonia@</p>\n<p>I confirm my talk is 20 mins long in total.&#10;I confirm that I will abide by the Code of Conduct</p>\n",
+        "milestone": "October 24th 2018",
+        "img": "https://avatars2.githubusercontent.com/u/27052451?v=4&s=40",
+        "handle": "muttoni",
+        "name": "Andrea Muttoni"
+    },
+    {
+        "apiSpeakerUrl": "https://api.github.com/users/d4nyll",
+        "speakerUrl": "https://github.com/d4nyll",
+        "title": "Dockerizing JavaScript Applications",
+        "description": "<blockquote>\n<p>I see that #117 is currently on hold, and so would like to propose a similar talk that I&#39;ve given previously.</p>\n</blockquote>\n<h2 id=\"abstract\">Abstract</h2>\n<p>Docker is an ecosystem that allows you to work with containers. Whilst the initial learning curve can be steep, it can ultimately make your development and deployment cycles much faster.</p>\n<p>In this talk, I will show you how to deploy a simple front- and back-end application using Docker, and show how much faster it is than the traditional, more manual approach.</p>\n<h2 id=\"resources\">Resources</h2>\n<ul>\n<li>You can try out the code yourself using the repository on <a href=\"https://github.com/d4nyll/docker-demo\">GitHub</a></li>\n<li>A variation of the presentation is also available on <a href=\"https://docs.google.com/presentation/d/1ELRYLJI2Lgqk0zK0qQnVIYeZA2Nc0IG8jRaYRFr_TTM/\">Google Slides</a></li>\n<li>A recording of the talk is available on <a href=\"https://www.youtube.com/watch?v=N5WKMVF_qlw\">YouTube</a></li>\n</ul>\n<h2 id=\"about-me\">About Me</h2>\n<p>I am a JavaScript developer at <a href=\"https://www.nexmo.com/\">Nexmo</a>. Before that, I ran my own digital agency, <a href=\"http://www.brew.com.hk/\">Brew</a>, in Hong Kong, specializing in <a href=\"https://www.meteor.com/\">Meteor</a>.</p>\n<h2 id=\"notes\">Notes</h2>\n<p>Since each talk is limited to ~20 minutes, I suggest this as an introductory talk. I can foresee some follow-up presentations that can build from this:</p>\n<ul>\n<li>Optimizing Docker Images</li>\n<li>Deploying a simple Node.js Application on Kubernetes with Persistent Storage</li>\n</ul>\n",
+        "milestone": "October 24th 2018",
+        "img": "https://avatars2.githubusercontent.com/u/9997953?v=4&s=40",
+        "handle": "d4nyll",
+        "name": "Daniel Li"
     }
 ]

@@ -1,5 +1,40 @@
 [
     {
+        "date": "October 2018",
+        "speakers": [
+            {
+                "name": "Bethany Nicolle Griggs",
+                "url": "https://github.com/BethGriggs",
+                "title": "Building and deploying Cloud Native Node.js applications"
+            },
+            {
+                "name": "Andrea Muttoni",
+                "url": "https://github.com/muttoni",
+                "title": "Building an Alexa Skill in 20 minutes using NodeJS"
+            },
+            {
+                "name": "Daniel Li",
+                "url": "https://github.com/d4nyll",
+                "title": "Dockerizing JavaScript Applications"
+            }
+        ]
+    },
+    {
+        "date": "September 2018",
+        "speakers": [
+            {
+                "name": "alex",
+                "url": "https://github.com/SomeHats",
+                "title": "Intro to GraphQL"
+            },
+            {
+                "name": "Michelle",
+                "url": "https://github.com/msmichellegar",
+                "title": "A Journey with GraphQL in Production"
+            }
+        ]
+    },
+    {
         "date": "July 2018",
         "speakers": [
             {

@@ -1,16 +1,36 @@
 [
     {
-        "date": "July 2018",
+        "date": "November 2018",
         "speakers": [
             {
-                "name": "James Porter",
-                "url": "https://github.com/jamesporter",
-                "title": "Elm: your next programming language?"
+                "name": "Edd Yerburgh",
+                "url": "https://github.com/eddyerburgh",
+                "title": "Large-scale refactoring with codemods"
             },
             {
-                "name": "sp3c1",
-                "url": "https://github.com/sp3c1",
-                "title": "Scheduled Messaging with RMQ, Redis, Postgres"
+                "name": "Matt Forrester",
+                "url": "https://github.com/forbesmyester",
+                "title": "The JavaScript/JSON PostgreSQL masterclass!"
+            }
+        ]
+    },
+    {
+        "date": "October 2018",
+        "speakers": [
+            {
+                "name": "Bethany Nicolle Griggs",
+                "url": "https://github.com/BethGriggs",
+                "title": "Building and deploying Cloud Native Node.js applications"
+            },
+            {
+                "name": "Andrea Muttoni",
+                "url": "https://github.com/muttoni",
+                "title": "Building an Alexa Skill in 20 minutes using NodeJS"
+            },
+            {
+                "name": "Daniel Li",
+                "url": "https://github.com/d4nyll",
+                "title": "Dockerizing JavaScript Applications"
             }
         ]
     }
