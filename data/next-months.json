@@ -1,36 +1,36 @@
 [
     {
-        "date": "November 2018",
+        "date": "February 2019",
         "speakers": [
             {
-                "name": "Edd Yerburgh",
-                "url": "https://github.com/eddyerburgh",
-                "title": "Large-scale refactoring with codemods"
-            },
-            {
-                "name": "Matt Forrester",
-                "url": "https://github.com/forbesmyester",
-                "title": "The JavaScript/JSON PostgreSQL masterclass!"
+                "name": "Jamie McCrindle",
+                "url": "https://github.com/jamiemccrindle",
+                "title": "Async Iterators"
             }
         ]
     },
     {
-        "date": "October 2018",
+        "date": "January 2019",
         "speakers": [
             {
-                "name": "Bethany Nicolle Griggs",
-                "url": "https://github.com/BethGriggs",
-                "title": "Building and deploying Cloud Native Node.js applications"
+                "name": "Shane Osbourne",
+                "url": "https://github.com/shakyShane",
+                "title": "Rust for Javascript devs - your first Web Assembly App."
+            }
+        ]
+    },
+    {
+        "date": "November 2018",
+        "speakers": [
+            {
+                "name": "Andy Trevorah",
+                "url": "https://github.com/trevorah",
+                "title": "ECMAScript Modules: They&#39;re Coming..."
             },
             {
-                "name": "Andrea Muttoni",
-                "url": "https://github.com/muttoni",
-                "title": "Building an Alexa Skill in 20 minutes using NodeJS"
-            },
-            {
-                "name": "Daniel Li",
-                "url": "https://github.com/d4nyll",
-                "title": "Dockerizing JavaScript Applications"
+                "name": "Edd Yerburgh",
+                "url": "https://github.com/eddyerburgh",
+                "title": "Large-scale refactoring with codemods"
             }
         ]
     }

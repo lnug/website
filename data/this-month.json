@@ -1,32 +1,22 @@
 [
     {
-        "apiSpeakerUrl": "https://api.github.com/users/BethGriggs",
-        "speakerUrl": "https://github.com/BethGriggs",
-        "title": "Building and deploying Cloud Native Node.js applications",
-        "description": "<p>The CloudNativeJS.io community project provides a number of assets, tools and core modules for building Cloud Native Node.js applications. This session will show users how to use those to easily take an existing application and deploy it to Kubernetes with full support for liveness checks, metrics and request tracking.</p>\n<p>Beth Griggs, Developer &amp; Node.js Core Collaborator, IBM Runtimes (<a href=\"https://twitter.com/BethGriggs_\">@BethGriggs_</a> )&#10;Neeraj Laad, Developer, IBM Runtimes (<a href=\"https://twitter.com/NeerajLaad\">@NeerajLaad</a>)</p>\n",
-        "milestone": "October 24th 2018",
-        "img": "https://avatars2.githubusercontent.com/u/8297234?v=4&s=40",
-        "handle": "BethGriggs",
-        "name": "Bethany Nicolle Griggs"
+        "apiSpeakerUrl": "https://api.github.com/users/trevorah",
+        "speakerUrl": "https://github.com/trevorah",
+        "title": "ECMAScript Modules: They&#39;re Coming...",
+        "description": "<p>ECMAScript modules are just around the corner, but they may not be what you expect. I&#39;ll go into the reasoning behind the change and what it means for the future of javascript.</p>\n<p>I&#39;m Andy, a full stack JS developer with a love of native apps. I&#39;m a contractor @ DAZN and my twitter handle is <code>@trevorah_</code>.</p>\n",
+        "milestone": "November 28th 2018",
+        "img": "https://avatars0.githubusercontent.com/u/298742?v=4&s=40",
+        "handle": "trevorah",
+        "name": "Andy Trevorah"
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/muttoni",
-        "speakerUrl": "https://github.com/muttoni",
-        "title": "Building an Alexa Skill in 20 minutes using NodeJS",
-        "description": "<p><strong>Title:</strong> How to Build an Alexa Skill in 20 minutes using NodeJS&#10;<strong>Body:</strong>&#10;Developers can build engaging voice experiences, aka Skills, for their services with the Alexa Skills Kit. In this 20 minute session, learn how to build a voice experience for Amazon Alexa: from idea to working skill including some best practices to consider along the way.</p>\n<p><em>Note: 20 minutes can be 20-30-40 depending on how much time you want to allocate to this talk! Fine to stick to 20 although I&#39;ll be going quick ;)</em></p>\n<p><strong>Personal Info:</strong>&#10;Tech Evangelist at Amazon, Twitter: muttonia@</p>\n<p>I confirm my talk is 20 mins long in total.&#10;I confirm that I will abide by the Code of Conduct</p>\n",
-        "milestone": "October 24th 2018",
-        "img": "https://avatars2.githubusercontent.com/u/27052451?v=4&s=40",
-        "handle": "muttoni",
-        "name": "Andrea Muttoni"
-    },
-    {
-        "apiSpeakerUrl": "https://api.github.com/users/d4nyll",
-        "speakerUrl": "https://github.com/d4nyll",
-        "title": "Dockerizing JavaScript Applications",
-        "description": "<blockquote>\n<p>I see that #117 is currently on hold, and so would like to propose a similar talk that I&#39;ve given previously.</p>\n</blockquote>\n<h2 id=\"abstract\">Abstract</h2>\n<p>Docker is an ecosystem that allows you to work with containers. Whilst the initial learning curve can be steep, it can ultimately make your development and deployment cycles much faster.</p>\n<p>In this talk, I will show you how to deploy a simple front- and back-end application using Docker, and show how much faster it is than the traditional, more manual approach.</p>\n<h2 id=\"resources\">Resources</h2>\n<ul>\n<li>You can try out the code yourself using the repository on <a href=\"https://github.com/d4nyll/docker-demo\">GitHub</a></li>\n<li>A variation of the presentation is also available on <a href=\"https://docs.google.com/presentation/d/1ELRYLJI2Lgqk0zK0qQnVIYeZA2Nc0IG8jRaYRFr_TTM/\">Google Slides</a></li>\n<li>A recording of the talk is available on <a href=\"https://www.youtube.com/watch?v=N5WKMVF_qlw\">YouTube</a></li>\n</ul>\n<h2 id=\"about-me\">About Me</h2>\n<p>I am a JavaScript developer at <a href=\"https://www.nexmo.com/\">Nexmo</a>. Before that, I ran my own digital agency, <a href=\"http://www.brew.com.hk/\">Brew</a>, in Hong Kong, specializing in <a href=\"https://www.meteor.com/\">Meteor</a>.</p>\n<h2 id=\"notes\">Notes</h2>\n<p>Since each talk is limited to ~20 minutes, I suggest this as an introductory talk. I can foresee some follow-up presentations that can build from this:</p>\n<ul>\n<li>Optimizing Docker Images</li>\n<li>Deploying a simple Node.js Application on Kubernetes with Persistent Storage</li>\n</ul>\n",
-        "milestone": "October 24th 2018",
-        "img": "https://avatars2.githubusercontent.com/u/9997953?v=4&s=40",
-        "handle": "d4nyll",
-        "name": "Daniel Li"
+        "apiSpeakerUrl": "https://api.github.com/users/eddyerburgh",
+        "speakerUrl": "https://github.com/eddyerburgh",
+        "title": "Large-scale refactoring with codemods",
+        "description": "<p>Refactoring is part of the process of maintaining an application, but large scale refactoring that are more complicated than a find and replace are time consuming. </p>\n<p>Codemods are a tool to refactor code by manipulating the abstract syntax tree (AST). In this talk I&#39;ll teach you what ASTs are, why we use ASTs in tools like Babel and eslint, and how to write a codemod that manipulates an AST.</p>\n<p><strong>About me</strong>&#10;I&#39;m a Vue core contributor, and software engineer at the BBC. <a href=\"https://twitter.com/EddYerburgh\">https://twitter.com/EddYerburgh</a></p>\n",
+        "milestone": "November 28th 2018",
+        "img": "https://avatars3.githubusercontent.com/u/13196123?v=4&s=40",
+        "handle": "eddyerburgh",
+        "name": "Edd Yerburgh"
     }
 ]

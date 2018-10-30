@@ -1,5 +1,20 @@
 [
     {
+        "date": "November 2018",
+        "speakers": [
+            {
+                "name": "Andy Trevorah",
+                "url": "https://github.com/trevorah",
+                "title": "ECMAScript Modules: They&#39;re Coming..."
+            },
+            {
+                "name": "Edd Yerburgh",
+                "url": "https://github.com/eddyerburgh",
+                "title": "Large-scale refactoring with codemods"
+            }
+        ]
+    },
+    {
         "date": "October 2018",
         "speakers": [
             {
