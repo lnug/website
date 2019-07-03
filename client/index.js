@@ -2,16 +2,16 @@
 var setupAnalytics = require('get-google-tracking-analytics')
 setupAnalytics()
 
-var router = require('speclate-router')
+var router = require('../node_modules/speclate/router/index.js')
+
 var appCacheNanny = require('appcache-nanny')
 
-window.$ = require('jquery')
 router({
   before: function () {
-    $('nav a.active').removeClass('active')
+    document.querySelector('nav a.active').classList.remove('active')
   },
   after: function () {
-    $('html,body').scrollTop($('#container'))
+    document.querySelector('html,body').scroll({ top: 0 })
     ga('send', 'pageview', {
       page: window.location.pathname,
       title: document.title
@@ -19,8 +19,8 @@ router({
   },
   error: function (err, $container) {
     if (err) {
-      $('nav a.active').removeClass('active')
-      $container.html('<div class="markdown"><h1>Error</h1><p>Something went wrong fetching the page.</p><p>' + err + '</p></div>')
+      document.querySelector('nav a.active').classList.remove('active')
+      $container.innerHTML = '<div class="markdown"><h1>Error</h1><p>Something went wrong fetching the page.</p><p>' + err + '</p></div>'
     }
   }
 })
