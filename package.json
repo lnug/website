@@ -41,7 +41,7 @@
     "node-html-encoder": "0.0.2",
     "shortid": "^2.2.14",
     "speclate": "19.x.x",
-    "speclate-fetch-markdown": "^1.1.0",
+    "speclate-fetch-markdown": "^1.2.0",
     "speclate-service-worker": "2.x.x",
     "standard": "12.x.x",
     "superagent": "^3.8.3"
