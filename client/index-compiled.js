@@ -15,7 +15,7 @@ router({
     }
   },
   after: function () {
-    document.querySelector('html,body').scroll({ top: 0 })
+    window.scroll({ top: 0 })
     ga('send', 'pageview', {
       page: window.location.pathname,
       title: document.title
