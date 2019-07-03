@@ -34,9 +34,6 @@ module.exports = {
     page: 'home',
     spec: {
       title: 'London Node User Group - LNUG',
-      h1: {
-        className: 'animated bounceInTop'
-      },
 //      'small.notice': "Map provided by © <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> &amp; © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a>",
       '.lnug-ticket': {
         component: 'ticket',
