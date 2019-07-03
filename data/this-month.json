@@ -1,22 +1,20 @@
 [
     {
-        "apiSpeakerUrl": "https://api.github.com/users/trevorah",
-        "speakerUrl": "https://github.com/trevorah",
-        "title": "ECMAScript Modules: They&#39;re Coming...",
-        "description": "<p>ECMAScript modules are just around the corner, but they may not be what you expect. I&#39;ll go into the reasoning behind the change and what it means for the future of javascript.</p>\n<p>I&#39;m Andy, a full stack JS developer with a love of native apps. I&#39;m a contractor @ DAZN and my twitter handle is <code>@trevorah_</code>.</p>\n",
-        "milestone": "November 28th 2018",
-        "img": "https://avatars0.githubusercontent.com/u/298742?v=4&s=40",
-        "handle": "trevorah",
-        "name": "Andy Trevorah"
+        "apiSpeakerUrl": "https://api.github.com/users/jamesporter",
+        "speakerUrl": "https://github.com/jamesporter",
+        "title": "Create your own state management library",
+        "description": "<h2 id=\"abstract\">Abstract</h2>\n<p>How hard is it to make your own state management library? By using React hooks, Context and other open source projects you can easily build your own useful library.</p>\n<p>I wanted first class TypeScript support, immutable data, zero boilerplate and hassle free wiring. I built it in a few dozen lines of code: <a href=\"https://github.com/jamesporter/immutable-context\">Immutable Context</a>.</p>\n<p>I&#39;ll demo how to use it via a <a href=\"https://codesandbox.io/s/intelligent-kowalevski-6evy9?fontsize=14\">Code Sandbox demo</a>, how it works under the hood and then look at some lessons learned, with suggestions on how to build your own state management library in 2019.</p>\n<h2 id=\"about\">About</h2>\n<p>I&#39;m a polyglot developer and data scientist. I&#39;ve built lots of apps, for example this <a href=\"https://isometrically.amimetic.co.uk\">iPhone app for Isometric graphics</a>. My website/blog is <a href=\"https://www.amimetic.co.uk\">www.amimetic.co.uk</a>. I work with React/React Native at JPMorgan. My Twitter handle is @complexview</p>\n",
+        "milestone": "July 24th 2019",
+        "img": "https://avatars1.githubusercontent.com/u/383353?v=4&s=40",
+        "handle": "jamesporter",
+        "name": "James Porter"
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/eddyerburgh",
-        "speakerUrl": "https://github.com/eddyerburgh",
-        "title": "Large-scale refactoring with codemods",
-        "description": "<p>Refactoring is part of the process of maintaining an application, but large scale refactoring that are more complicated than a find and replace are time consuming. </p>\n<p>Codemods are a tool to refactor code by manipulating the abstract syntax tree (AST). In this talk I&#39;ll teach you what ASTs are, why we use ASTs in tools like Babel and eslint, and how to write a codemod that manipulates an AST.</p>\n<p><strong>About me</strong>&#10;I&#39;m a Vue core contributor, and software engineer at the BBC. <a href=\"https://twitter.com/EddYerburgh\">https://twitter.com/EddYerburgh</a></p>\n",
-        "milestone": "November 28th 2018",
-        "img": "https://avatars3.githubusercontent.com/u/13196123?v=4&s=40",
-        "handle": "eddyerburgh",
-        "name": "Edd Yerburgh"
+        "title": "Slot available",
+        "name": "Submit your talk!",
+        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
+        "img": "/images/favicon/favicon-128.png",
+        "speakerUrl": "https://lnug.org/speak.html",
+        "milestone": "July 24th 2019"
     }
 ]

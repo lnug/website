@@ -9,7 +9,10 @@ var appCacheNanny = require('appcache-nanny')
 
 router({
   before: function () {
-    document.querySelector('nav a.active').classList.remove('active')
+    var activeItem = document.querySelector('nav a.active')
+    if (activeItem) {
+      activeItem.classList.remove('active')
+    }
   },
   after: function () {
     document.querySelector('html,body').scroll({ top: 0 })
@@ -20,7 +23,10 @@ router({
   },
   error: function (err, $container) {
     if (err) {
-      document.querySelector('nav a.active').classList.remove('active')
+      var activeItem = document.querySelector('nav a.active')
+      if (activeItem) {
+        activeItem.classList.remove('active')
+      }
       $container.innerHTML = '<div class="markdown"><h1>Error</h1><p>Something went wrong fetching the page.</p><p>' + err + '</p></div>'
     }
   }
