@@ -31,26 +31,23 @@
   "dependencies": {
     "appcache-nanny": "^1.1.0",
     "async": "^2.6.1",
-    "browserify": "14.x.x",
+    "browserify": "16.x.x",
     "chai": "^4.2.0",
     "get-google-tracking-analytics": "^1.0.2",
     "html-entities": "^1.1.3",
     "imagemagick-stream": "^4.0.1",
-    "jquery": "3.x.x",
-    "marked": "^0.3.19",
+    "marked": "^0.6.3",
     "moment": "^2.22.2",
     "node-html-encoder": "0.0.2",
     "shortid": "^2.2.14",
-    "speclate": "18.3.0",
+    "speclate": "19.x.x",
     "speclate-fetch-markdown": "^1.1.0",
-    "speclate-router": "9.x.x",
     "speclate-service-worker": "2.x.x",
     "standard": "10.x.x",
     "superagent": "^3.8.3"
   },
   "standard": {
     "globals": [
-      "$",
       "location",
       "ga"
     ],
