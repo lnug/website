@@ -43,7 +43,7 @@
     "speclate": "19.x.x",
     "speclate-fetch-markdown": "^1.1.0",
     "speclate-service-worker": "2.x.x",
-    "standard": "10.x.x",
+    "standard": "12.x.x",
     "superagent": "^3.8.3"
   },
   "standard": {
