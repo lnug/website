@@ -27,21 +27,21 @@ superagent
 
     var nextEventDate = nextEvent(readyTalks)
 
-    var future = nextEvent.futureEvents(readyTalks, nextEventDate).map(function(date) {
+    var future = nextEvent.futureEvents(readyTalks, nextEventDate).map(function (date) {
       return date.format('MMMM Do YYYY')
-    }); 
+    })
 
     function isNextEvent (talk) {
       return (talk.milestone.title === nextEventDate)
     }
 
-    function isFutureEvent(talk) {
-      return (future.indexOf(talk.milestone.title) !== -1);
+    function isFutureEvent (talk) {
+      return (future.indexOf(talk.milestone.title) !== -1)
     }
 
     var acceptedTalks = readyTalks.filter(isNextEvent).map(modelTalk)
 
-    var futureTalks = readyTalks.filter(isFutureEvent).map(modelTalk);
+    var futureTalks = readyTalks.filter(isFutureEvent).map(modelTalk)
 
     async.map(acceptedTalks, getSpeakerDetails, function (err, completeAcceptedTalks) {
       if (err) {
@@ -87,6 +87,5 @@ superagent
       fs.writeFile('./data/next-months.json', JSON.stringify(nextMonths, null, 4), function () {
         console.log('Future data file has been updated')
       })
-
     })
   })

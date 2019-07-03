@@ -34,7 +34,7 @@ module.exports = {
     page: 'home',
     spec: {
       title: 'London Node User Group - LNUG',
-//      'small.notice': "Map provided by © <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> &amp; © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a>",
+      //      'small.notice': "Map provided by © <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> &amp; © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a>",
       '.lnug-ticket': {
         component: 'ticket',
         data: {
