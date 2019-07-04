@@ -100,16 +100,20 @@
         text-align: center;
         display: flex;
         justify-content: space-around;
+        flex-direction: column;
     }
 
     .header-menu a {
         width: 100%;
-        max-width: 180px;
+        padding: .4em;
         font-family: "Open Sans";
         font-size: 1em;
     }
 
     @media (min-width: 700px) {
+        
+        
+
         /* Header *****************************************/
         header {
             text-align: left;
@@ -117,13 +121,16 @@
         .header-menu {
             float: right;
             height: 80px;
+            flex-direction: row;
             justify-content: flex-end;
             align-items: center;
         }
         .header-menu a {
+            max-width: 180px;
             vertical-align: middle;
             font-size: 1.25em;
-            margin: 0 1.5em;
+            padding: 0 1.5em;
+            margin: 0.5em;
             line-height: 100%;
         }
     }
@@ -145,8 +152,7 @@
         margin: 0;
         list-style: none;
     }
-
-    nav a {
+    nav a {       
         transition: color .6s;
     }
 
@@ -304,7 +310,7 @@ h1.talks {
   <title>LNUG - London Node User Group</title>
   <meta name="description" content="London Node.js User Group is a meetup for developers but everyone is welcome. We meet every month to talk about Node, Javascript and to network">
 <link rel="icon" type="image/png" href="./images/favicon/favicon-128.png" sizes="128x128" />
-
+<link rel="preconnect" href="https://www.google-analytics.com">
   <!-- og  + meta data -->
   <meta property="og:title" content="LNUG - London Node User Group">
   <meta property="og:type" content="website">
