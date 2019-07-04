@@ -89,6 +89,7 @@
     header a,
     footer a {
         text-decoration: none;
+        padding: 2em 0;
         color: inherit;
     }
 
@@ -104,6 +105,8 @@
     }
 
     .header-menu a {
+        min-height: 50px;
+        line-height: 50px;
         width: 100%;
         padding: .4em;
         font-family: "Open Sans";
@@ -127,6 +130,8 @@
         }
         .header-menu a {
             max-width: 180px;
+            min-height: 0;
+            line-height: auto;
             vertical-align: middle;
             font-size: 1.25em;
             padding: 0 1.5em;
@@ -150,7 +155,12 @@
     .footer-links {
         padding: 0;
         margin: 0;
-        list-style: none;
+        list-style: none; 
+ 
+    }
+
+    .footer-links li {
+            margin:  1em 0;
     }
     nav a {       
         transition: color .6s;
