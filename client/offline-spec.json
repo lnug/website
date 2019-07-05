@@ -1,0 +1,63 @@
+{
+    "lists": [
+        "foh"
+    ],
+    "components": [
+        "ticket/ticket.html",
+        "speaker/speaker.html",
+        "sign-up/sign-up.html",
+        "image-gallery/image-gallery.html",
+        "archive/archive.html",
+        "archive/archive.html"
+    ],
+    "pages": [
+        "home/home.html",
+        "image-gallery/image-gallery.html",
+        "archive/archive.html",
+        "future/future.html",
+        "code-of-conduct/code-of-conduct.html",
+        "speak/speak.html",
+        "contribute/contribute.html",
+        "contact/contact.html",
+        "related-meetups/related-meetups.html"
+    ],
+    "routes": [
+        "/",
+        "/index.html",
+        "/image-gallery.html",
+        "/archive.html",
+        "/future.html",
+        "/code-of-conduct.html",
+        "/speak.html",
+        "/contribute.html",
+        "/contact.html",
+        "/related-meetups.html"
+    ],
+    "specs": [
+        "/index.json",
+        "/image-gallery.json",
+        "/archive.json",
+        "/future.json",
+        "/code-of-conduct.json",
+        "/speak.json",
+        "/contribute.json",
+        "/contact.json",
+        "/related-meetups.json"
+    ],
+    "layout": [
+        "/pages/layout.html"
+    ],
+    "extras": [
+        "css.css",
+        "images/texture.png",
+        "images/lnug-logo-monochrome.svg",
+        "images/lnug-logo.svg",
+        "images/maps/thin.png",
+        "images/maps/wide.png",
+        "images/favicon/favicon-16x16.png",
+        "images/favicon/favicon-128.png",
+        "images/favicon/favicon-196x196.png",
+        "manifest.json",
+        "client/index-compiled.js"
+    ]
+}

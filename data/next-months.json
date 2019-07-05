@@ -1,41 +1,11 @@
 [
     {
-        "date": "February 2019",
+        "date": "August 2019",
         "speakers": [
             {
-                "name": "Jamie McCrindle",
-                "url": "https://github.com/jamiemccrindle",
-                "title": "Async Iterators"
-            }
-        ]
-    },
-    {
-        "date": "January 2019",
-        "speakers": [
-            {
-                "name": "Shane Osbourne",
-                "url": "https://github.com/shakyShane",
-                "title": "Rust for Javascript devs - your first Web Assembly App."
-            },
-            {
-                "name": "Errietta Kostala",
-                "url": "https://github.com/errietta",
-                "title": "Build APIs with node, Lambda &amp; Serverless"
-            }
-        ]
-    },
-    {
-        "date": "November 2018",
-        "speakers": [
-            {
-                "name": "Andy Trevorah",
-                "url": "https://github.com/trevorah",
-                "title": "ECMAScript Modules: They&#39;re Coming..."
-            },
-            {
-                "name": "Edd Yerburgh",
-                "url": "https://github.com/eddyerburgh",
-                "title": "Large-scale refactoring with codemods"
+                "name": "Thomas Ankcorn",
+                "url": "https://github.com/Ankcorn",
+                "title": "Build a GraphQL API with Postgraphile"
             }
         ]
     }
