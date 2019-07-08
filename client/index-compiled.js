@@ -3,7 +3,7 @@
 var setupAnalytics = require('get-google-tracking-analytics')
 setupAnalytics()
 
-var router = require('../node_modules/speclate/router/index.js')
+var router = require('../node_modules/speclate/router')
 
 var appCacheNanny = require('appcache-nanny')
 
@@ -51,7 +51,7 @@ appCacheNanny.on('updateready', function () {
   location.reload()
 })
 
-},{"../node_modules/speclate/router/index.js":34,"appcache-nanny":2,"get-google-tracking-analytics":3}],2:[function(require,module,exports){
+},{"../node_modules/speclate/router":42,"appcache-nanny":2,"get-google-tracking-analytics":3}],2:[function(require,module,exports){
 // appCacheNanny
 // =============
 //
@@ -990,12 +990,304 @@ process.umask = function() { return 0; };
 },{}],6:[function(require,module,exports){
 'use strict'
 
+var updateNode = require('../lib/update-node')
+var newValue = require('../lib/new-value')
+
+exports.load = function (html) {
+  var template = document.createElement('div')
+  template.innerHTML = html.trim()
+  return template
+}
+
+exports.init = function (str) {
+  return str
+}
+
+exports.find = function ($domNode, selector) {
+  return $domNode.querySelectorAll(selector)
+}
+
+// only available in the browser
+exports.getMarkup = function ($page) {
+  var container = document.createElement('div')
+  container.appendChild($page.cloneNode(true))
+  return container.innerHTML
+}
+
+exports.setMarkup = function ($node, markup) {
+  $node.innerHTML = markup
+}
+
+exports.get = function (item) {
+  return item
+}
+exports.setAttribute = function ($node, attribute, value) {
+  $node.setAttribute(attribute, value)
+}
+
+exports.getAttribute = function ($node, attribute) {
+  return $node.getAttribute(attribute)
+}
+
+exports.addClass = function ($node, className) {
+  $node.classList.add(className)
+}
+
+exports.clone = function ($node) {
+  return $node.cloneNode()
+}
+
+exports.append = function ($parent, $node) {
+  return $parent.appendChild($node)
+}
+
+exports.parent = function ($node) {
+  return $node.parentNode
+}
+
+exports.getTag = function ($node) {
+  return $node.tagName.toUpperCase()
+}
+
+exports.getText = function ($node) {
+  return $node.innerText
+}
+
+exports.setText = function ($node, value) {
+  $node.innerText = value
+  return $node
+}
+
+exports.query = function ($node, selector) {
+  return $node.querySelector(selector)
+}
+
+exports.updateNodes = function ($nodes, selector, data) {
+  $nodes.forEach(function ($node) {
+    updateNode($node, selector, data)  // might need to clone the node here.
+  })
+}
+
+exports.newValue = function ($node, selectors) {
+  var newText = newValue(exports.getText($node), selectors)
+  exports.setText($node, newText)
+}
+
+},{"../lib/new-value":10,"../lib/update-node":12}],7:[function(require,module,exports){
+
+
+var dom = require('../server/dom')
+/**
+ * In the case of input we should update the value and not just set the innerHTML property.
+ * @param  {Object} $node selector object
+ * @param  {String} data  The value to be set on the html.
+ */
+module.exports = function ($node, data) {
+  if (dom.getTag($node) === 'INPUT') {
+    dom.setAttribute($node, 'value', data)
+  } else {
+    dom.setMarkup($node, data)
+  }
+  return $node
+}
+
+},{"../server/dom":6}],8:[function(require,module,exports){
+'use strict'
+
+module.exports = function (data, options) {
+  if (!options.classifyKeys || typeof data === 'undefined') {
+    return data
+  }
+  var c = data.length
+  var retArray = []
+  while (c--) {
+    var newObj = {}
+    for (var key in data[c]) {
+      newObj['.' + key] = data[c][key]
+    }
+    retArray.push(newObj)
+  }
+  return retArray
+}
+
+},{}],9:[function(require,module,exports){
+'use strict'
+
+var dom = require('../server/dom.js')
+
+module.exports = function (str, selectors) {
+
+  if (!selectors) {
+    return str
+  }
+
+  selectors = (typeof selectors[0] === 'undefined') ? [selectors] : selectors // make sure we have an array.
+  var selectorCount = selectors.length
+  selectors = selectors.reverse()
+  var $page
+  var sourceType = null // so we can out the same thing we got in.
+  if (typeof str === 'string') {
+    $page = dom.load(str)
+    sourceType = 'string'
+  } else {
+    $page = str // its already a dom obj
+    sourceType = 'dom'
+  }
+  // iterate over the array.
+  while (selectorCount--) {
+    Object.keys(selectors[selectorCount]).forEach(function (selector) {
+      var $nodes = dom.find($page, selector)
+      dom.updateNodes($nodes, selector, selectors[selectorCount][selector])
+    })
+  }
+
+  if (dom.getMarkup) { // browserside
+    if (sourceType === 'string') {
+      return $page.innerHTML
+    } else if (sourceType === 'dom') {
+      return $page
+    }
+  } else {
+    return $page.html()
+  }
+}
+
+},{"../server/dom.js":6}],10:[function(require,module,exports){
+'use strict'
+
+// given a regex or function updates the value.
+module.exports = function (oldValue, newValue) {
+
+  if (typeof newValue === 'object' && newValue.regex && newValue.value) {
+    return oldValue.replace(newValue.regex, newValue.value)
+  } else if (typeof newValue === 'function') {
+    return newValue(oldValue)
+  }
+  return newValue
+}
+
+},{}],11:[function(require,module,exports){
+'use strict'
+
+var newValue = require('./new-value')
+
+var dom = require('../server/dom')
+
+module.exports = function ($node, obj) {
+  // Iterate over the actions to be applied to the dom node.
+  for (var key in obj) {
+    //   console.log('key', $node, key, obj[key])
+    switch (key) {
+      case 'selectors':
+        var selectors = obj[key]
+        for (var selector in selectors) {
+          // really this should call update-node. so that it can handle something other than html.
+
+          var $item = dom.query($node, selector)
+          dom.setMarkup($item, selectors[selector])        
+        }
+        break
+      case 'className':
+        dom.addClass($node, obj[key])
+        break
+      case 'innerHTML' :
+        // if we need to apply something the each value we need to iterate over each dom node.
+        if (obj[key] && obj[key].regex || typeof obj[key] === 'function') {
+          $node.each(function (i, node) {
+            var $domNode = dom.get(this)
+            $domNode.innerHTML = obj[key]
+          })
+        } else {
+          dom.setMarkup($node, obj[key])
+        }
+        break
+      case 'innerText':
+
+        // if we need to apply something the each value we need to iterate over each dom node.
+        if (obj[key] && obj[key].regex || typeof obj[key] === 'function') {
+          dom.newValue($node, obj[key])
+        } else {
+          $node.text(obj[key])
+        }
+        break
+
+      default:
+        if (obj[key] && obj[key].regex || typeof obj[key] === 'function') {
+          //$node.each(function (i, node) {
+          var newText = newValue(dom.getAttribute($node, key), obj[key])
+          dom.setAttribute($node, key, newText)
+          //})
+        } else {
+          dom.setAttribute($node, key, obj[key])
+        }
+    }
+  }
+  return $node
+}
+
+},{"../server/dom":6,"./new-value":10}],12:[function(require,module,exports){
+'use strict'
+var checkForInputs = require('./check-for-inputs')
+var updateNodeWithObject = require('./update-node-with-object')
+var dom = require('../server/dom')
+
+function updateNode ($node, selector, data) { 
+  if (selector === '.id') {
+    $node.attr('id', data)
+    return $node
+  }
+  switch (typeof data) {
+    case 'string':
+      if (data !== '') {
+        $node = checkForInputs($node, data)
+      }
+      break
+    case 'number':
+      $node = checkForInputs($node, data)
+      break
+    case 'boolean':
+      if (data === false) {
+        return $node.remove()
+      }
+      break
+    case 'object':
+      if (data && data.length) {
+        var $parent = dom.parent($node) 
+        if (data.length === 1 && data[0] === false) { // [ false ]
+          return $parent.remove()
+        } 
+        var $newNode = dom.clone($node)
+        data.forEach(function (item, c) {
+          var $itemNode = dom.clone($newNode)
+          if (c === 0) {
+            $node.remove()
+          }
+          var $updatedNode = updateNode($itemNode, selector, data[c])
+          dom.append($parent, $updatedNode)
+        })
+      } else {
+        $node = updateNodeWithObject($node, data)
+      }
+      break
+  }
+  return $node
+}
+
+module.exports = updateNode
+
+},{"../server/dom":6,"./check-for-inputs":7,"./update-node-with-object":11}],13:[function(require,module,exports){
+exports.render = require('./lib/do-render')
+exports.classifyKeys = require('./lib/classify-keys')
+
+},{"./lib/classify-keys":8,"./lib/do-render":9}],14:[function(require,module,exports){
+'use strict'
+
 var speclateFetch = require('speclate-fetch')
 
 // override readfile with request to fetch.
 exports.readFile = speclateFetch.readFile
 
-},{"speclate-fetch":33}],7:[function(require,module,exports){
+},{"speclate-fetch":41}],15:[function(require,module,exports){
 (function (process){
 'use strict'
 
@@ -1017,7 +1309,7 @@ module.exports = function (url) {
 }
 
 }).call(this,require('_process'))
-},{"_process":5,"path":4}],8:[function(require,module,exports){
+},{"_process":5,"path":4}],16:[function(require,module,exports){
 'use strict'
 
 var loadFile = require('fs').readFile
@@ -1033,7 +1325,7 @@ module.exports = function (component, callback) {
   loadFile(path, 'utf-8', callback)
 }
 
-},{"./file/get-path":7,"fs":6}],9:[function(require,module,exports){
+},{"./file/get-path":15,"fs":14}],17:[function(require,module,exports){
 var sizlate = require('sizlate')
 
 /**
@@ -1066,7 +1358,7 @@ module.exports = function (page, layout, renderedComponents) {
   return sizlate.render(out, simpleSelectors)
 }
 
-},{"sizlate":32}],10:[function(require,module,exports){
+},{"sizlate":40}],18:[function(require,module,exports){
 'use strict'
 
 var forEachOf = require('async.eachof')
@@ -1147,7 +1439,7 @@ module.exports = function (pageSpec, callback) {
   })
 }
 
-},{"../load-component":8,"async.eachof":11,"lodash.isarray":22,"lodash.isobject":23,"lodash.isstring":24,"sizlate":32}],11:[function(require,module,exports){
+},{"../load-component":16,"async.eachof":19,"lodash.isarray":30,"lodash.isobject":31,"lodash.isstring":32,"sizlate":40}],19:[function(require,module,exports){
 'use strict';
 
 var once = require('async.util.once');
@@ -1182,7 +1474,7 @@ module.exports = function eachOf(object, iterator, callback) {
     }
 };
 
-},{"async.util.keyiterator":15,"async.util.noop":17,"async.util.once":18,"async.util.onlyonce":19}],12:[function(require,module,exports){
+},{"async.util.keyiterator":23,"async.util.noop":25,"async.util.once":26,"async.util.onlyonce":27}],20:[function(require,module,exports){
 'use strict';
 
 var eachOf = require('async.eachof');
@@ -1192,14 +1484,14 @@ module.exports = function parallel(tasks, cb) {
     return _parallel(eachOf, tasks, cb);
 };
 
-},{"async.eachof":11,"async.util.parallel":20}],13:[function(require,module,exports){
+},{"async.eachof":19,"async.util.parallel":28}],21:[function(require,module,exports){
 'use strict';
 
 module.exports = Array.isArray || function isArray(obj) {
     return Object.prototype.toString.call(obj) === '[object Array]';
 };
 
-},{}],14:[function(require,module,exports){
+},{}],22:[function(require,module,exports){
 'use strict';
 
 var isArray = require('async.util.isarray');
@@ -1213,7 +1505,7 @@ module.exports = function isArrayLike(arr) {
     );
 };
 
-},{"async.util.isarray":13}],15:[function(require,module,exports){
+},{"async.util.isarray":21}],23:[function(require,module,exports){
 'use strict';
 
 var _keys = require('async.util.keys');
@@ -1239,7 +1531,7 @@ module.exports = function keyIterator(coll) {
     }
 };
 
-},{"async.util.isarraylike":14,"async.util.keys":16}],16:[function(require,module,exports){
+},{"async.util.isarraylike":22,"async.util.keys":24}],24:[function(require,module,exports){
 'use strict';
 
 module.exports = Object.keys || function keys(obj) {
@@ -1252,12 +1544,12 @@ module.exports = Object.keys || function keys(obj) {
     return _keys;
 };
 
-},{}],17:[function(require,module,exports){
+},{}],25:[function(require,module,exports){
 'use strict';
 
 module.exports = function noop () {};
 
-},{}],18:[function(require,module,exports){
+},{}],26:[function(require,module,exports){
 'use strict';
 
 module.exports = function once(fn) {
@@ -1268,7 +1560,7 @@ module.exports = function once(fn) {
     };
 };
 
-},{}],19:[function(require,module,exports){
+},{}],27:[function(require,module,exports){
 'use strict';
 
 module.exports = function only_once(fn) {
@@ -1279,7 +1571,7 @@ module.exports = function only_once(fn) {
     };
 };
 
-},{}],20:[function(require,module,exports){
+},{}],28:[function(require,module,exports){
 'use strict';
 
 var noop = require('async.util.noop');
@@ -1303,7 +1595,7 @@ module.exports = function parallel(eachfn, tasks, cb) {
     });
 };
 
-},{"async.util.isarraylike":14,"async.util.noop":17,"async.util.restparam":21}],21:[function(require,module,exports){
+},{"async.util.isarraylike":22,"async.util.noop":25,"async.util.restparam":29}],29:[function(require,module,exports){
 'use strict';
 module.exports = function restParam(func, startIndex) {
     startIndex = startIndex == null ? func.length - 1 : +startIndex;
@@ -1322,7 +1614,7 @@ module.exports = function restParam(func, startIndex) {
     };
 };
 
-},{}],22:[function(require,module,exports){
+},{}],30:[function(require,module,exports){
 /**
  * lodash 4.0.0 (Custom Build) <https://lodash.com/>
  * Build: `lodash modularize exports="npm" -o ./`
@@ -1359,7 +1651,7 @@ var isArray = Array.isArray;
 
 module.exports = isArray;
 
-},{}],23:[function(require,module,exports){
+},{}],31:[function(require,module,exports){
 /**
  * lodash 3.0.2 (Custom Build) <https://lodash.com/>
  * Build: `lodash modern modularize exports="npm" -o ./`
@@ -1398,7 +1690,7 @@ function isObject(value) {
 
 module.exports = isObject;
 
-},{}],24:[function(require,module,exports){
+},{}],32:[function(require,module,exports){
 /**
  * lodash 4.0.1 (Custom Build) <https://lodash.com/>
  * Build: `lodash modularize exports="npm" -o ./`
@@ -1495,7 +1787,7 @@ function isString(value) {
 
 module.exports = isString;
 
-},{}],25:[function(require,module,exports){
+},{}],33:[function(require,module,exports){
 'use strict';
 
 exports.load = function (str) {
@@ -1525,7 +1817,7 @@ exports.get = function (item) {
     return $(item);
 };
 
-},{}],26:[function(require,module,exports){
+},{}],34:[function(require,module,exports){
 /**
  * In the case of input we should update the value and not just set the innerHTML property.
  * @param  {Object} $node sizzle object
@@ -1549,7 +1841,7 @@ module.exports = function ($node, data) {
 	return $node;
 };
 
-},{}],27:[function(require,module,exports){
+},{}],35:[function(require,module,exports){
 'use strict';
 
 module.exports = function (data, options) {
@@ -1568,7 +1860,7 @@ module.exports = function (data, options) {
     return retArray;
 };
 
-},{}],28:[function(require,module,exports){
+},{}],36:[function(require,module,exports){
 'use strict';
 
 var dom = require('../server/dom.js');
@@ -1597,7 +1889,7 @@ module.exports = function (str, selectors) {
     }
 };
 
-},{"../server/dom.js":25,"./update-node":31}],29:[function(require,module,exports){
+},{"../server/dom.js":33,"./update-node":39}],37:[function(require,module,exports){
 'use strict';
 
 // given a regex or function updates the value.
@@ -1610,7 +1902,7 @@ module.exports = function (oldValue, newValue) {
     return newValue;
 };
 
-},{}],30:[function(require,module,exports){
+},{}],38:[function(require,module,exports){
 'use strict';
 
 var newValue = require('./new-value');
@@ -1672,7 +1964,7 @@ module.exports = function ($node, obj) {
     return $node;
 };
 
-},{"../server/dom":25,"./new-value":29}],31:[function(require,module,exports){
+},{"../server/dom":33,"./new-value":37}],39:[function(require,module,exports){
 'use strict';
 var checkForInputs = require('./check-for-inputs');
 var updateNodeWithObject = require('./update-node-with-object');
@@ -1723,11 +2015,11 @@ function updateNode($node, selector, data, $) {
 
 module.exports = updateNode;
 
-},{"./check-for-inputs":26,"./update-node-with-object":30}],32:[function(require,module,exports){
+},{"./check-for-inputs":34,"./update-node-with-object":38}],40:[function(require,module,exports){
 exports.render = require('./lib/do-render');
 exports.classifyKeys = require('./lib/classify-keys');
 
-},{"./lib/classify-keys":27,"./lib/do-render":28}],33:[function(require,module,exports){
+},{"./lib/classify-keys":35,"./lib/do-render":36}],41:[function(require,module,exports){
 'use strict';
 
 
@@ -1789,7 +2081,7 @@ exports.text = function(file, callback) {
 };
 
 
-},{}],34:[function(require,module,exports){
+},{}],42:[function(require,module,exports){
 'use strict'
 
 var FetchPage = require('./lib/fetch-page')
@@ -1861,7 +2153,7 @@ module.exports = function (routerOptions, speclateOptions) {
   // TODO: add mechanism to remove listeners
 }
 
-},{"./lib/fetch-page":35,"./lib/spec-from-route":37}],35:[function(require,module,exports){
+},{"./lib/fetch-page":43,"./lib/spec-from-route":45}],43:[function(require,module,exports){
 
 var fetchJson = require('speclate-fetch').json
 var pageRender = require('./page-render')
@@ -1894,11 +2186,12 @@ module.exports = function (specPath, elements, selectors, loadingClass, routerOp
   }
 }
 
-},{"./page-render":36,"speclate-fetch":33}],36:[function(require,module,exports){
+},{"./page-render":44,"speclate-fetch":41}],44:[function(require,module,exports){
 'use strict'
 
 var asyncParallel = require('async.parallel')
-var sizlate = require('sizlate')
+var sizlate = require('../../../sizlate')
+
 var getFile = require('speclate-fetch').readFile
 
 var doSizlate = require('../../lib/page/do-sizlate')
@@ -1949,7 +2242,7 @@ module.exports = function (elements, selectors, page, options, active, callback)
   })
 }
 
-},{"../../lib/page/do-sizlate":9,"../../lib/page/load-components":10,"async.parallel":12,"sizlate":32,"speclate-fetch":33}],37:[function(require,module,exports){
+},{"../../../sizlate":13,"../../lib/page/do-sizlate":17,"../../lib/page/load-components":18,"async.parallel":20,"speclate-fetch":41}],45:[function(require,module,exports){
 module.exports = function (pathname) {
   var routeName
 

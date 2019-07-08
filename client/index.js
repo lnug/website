@@ -2,7 +2,7 @@
 var setupAnalytics = require('get-google-tracking-analytics')
 setupAnalytics()
 
-var router = require('../node_modules/speclate/router/index.js')
+var router = require('../node_modules/speclate/router')
 
 var appCacheNanny = require('appcache-nanny')
 
