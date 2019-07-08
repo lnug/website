@@ -43,7 +43,7 @@
     "shortid": "^2.2.14",
     "speclate": "19.x.x",
     "speclate-fetch-markdown": "^1.2.0",
-    "speclate-service-worker": "2.x.x",
+    "speclate-service-worker": "3.x.x",
     "standard": "12.x.x",
     "superagent": "^3.8.3"
   },
