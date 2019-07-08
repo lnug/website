@@ -1,13 +1,9 @@
 {
-    "lists": [
-        "foh"
-    ],
     "components": [
         "ticket/ticket.html",
         "speaker/speaker.html",
         "sign-up/sign-up.html",
         "image-gallery/image-gallery.html",
-        "archive/archive.html",
         "archive/archive.html"
     ],
     "pages": [

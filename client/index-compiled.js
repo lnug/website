@@ -51,7 +51,7 @@ appCacheNanny.on('updateready', function () {
   location.reload()
 })
 
-},{"../node_modules/speclate/router":42,"appcache-nanny":2,"get-google-tracking-analytics":3}],2:[function(require,module,exports){
+},{"../node_modules/speclate/router":34,"appcache-nanny":2,"get-google-tracking-analytics":14}],2:[function(require,module,exports){
 // appCacheNanny
 // =============
 //
@@ -481,6 +481,181 @@ appCacheNanny.on('updateready', function () {
 })
 
 },{}],3:[function(require,module,exports){
+'use strict';
+
+var once = require('async.util.once');
+var noop = require('async.util.noop');
+var onlyOnce = require('async.util.onlyonce');
+var keyIterator = require('async.util.keyiterator');
+
+module.exports = function eachOf(object, iterator, callback) {
+    callback = once(callback || noop);
+    object = object || [];
+
+    var iter = keyIterator(object);
+    var key, completed = 0;
+
+    while ((key = iter()) != null) {
+        completed += 1;
+        iterator(object[key], key, onlyOnce(done));
+    }
+
+    if (completed === 0) callback(null);
+
+    function done(err) {
+        completed--;
+        if (err) {
+            callback(err);
+        }
+        // Check key is null in case iterator isn't exhausted
+        // and done resolved synchronously.
+        else if (key === null && completed <= 0) {
+            callback(null);
+        }
+    }
+};
+
+},{"async.util.keyiterator":7,"async.util.noop":9,"async.util.once":10,"async.util.onlyonce":11}],4:[function(require,module,exports){
+'use strict';
+
+var eachOf = require('async.eachof');
+var _parallel = require('async.util.parallel');
+
+module.exports = function parallel(tasks, cb) {
+    return _parallel(eachOf, tasks, cb);
+};
+
+},{"async.eachof":3,"async.util.parallel":12}],5:[function(require,module,exports){
+'use strict';
+
+module.exports = Array.isArray || function isArray(obj) {
+    return Object.prototype.toString.call(obj) === '[object Array]';
+};
+
+},{}],6:[function(require,module,exports){
+'use strict';
+
+var isArray = require('async.util.isarray');
+
+module.exports = function isArrayLike(arr) {
+    return isArray(arr) || (
+        // has a positive integer length property
+        typeof arr.length === 'number' &&
+        arr.length >= 0 &&
+        arr.length % 1 === 0
+    );
+};
+
+},{"async.util.isarray":5}],7:[function(require,module,exports){
+'use strict';
+
+var _keys = require('async.util.keys');
+var isArrayLike = require('async.util.isarraylike');
+
+module.exports = function keyIterator(coll) {
+    var i = -1;
+    var len;
+    var keys;
+    if (isArrayLike(coll)) {
+        len = coll.length;
+        return function next() {
+            i++;
+            return i < len ? i : null;
+        };
+    } else {
+        keys = _keys(coll);
+        len = keys.length;
+        return function next() {
+            i++;
+            return i < len ? keys[i] : null;
+        };
+    }
+};
+
+},{"async.util.isarraylike":6,"async.util.keys":8}],8:[function(require,module,exports){
+'use strict';
+
+module.exports = Object.keys || function keys(obj) {
+    var _keys = [];
+    for (var k in obj) {
+        if (obj.hasOwnProperty(k)) {
+            _keys.push(k);
+        }
+    }
+    return _keys;
+};
+
+},{}],9:[function(require,module,exports){
+'use strict';
+
+module.exports = function noop () {};
+
+},{}],10:[function(require,module,exports){
+'use strict';
+
+module.exports = function once(fn) {
+    return function() {
+        if (fn === null) return;
+        fn.apply(this, arguments);
+        fn = null;
+    };
+};
+
+},{}],11:[function(require,module,exports){
+'use strict';
+
+module.exports = function only_once(fn) {
+    return function() {
+        if (fn === null) throw new Error('Callback was already called.');
+        fn.apply(this, arguments);
+        fn = null;
+    };
+};
+
+},{}],12:[function(require,module,exports){
+'use strict';
+
+var noop = require('async.util.noop');
+var restParam = require('async.util.restparam');
+var isArrayLike = require('async.util.isarraylike');
+
+module.exports = function parallel(eachfn, tasks, cb) {
+    cb = cb || noop;
+    var results = isArrayLike(tasks) ? [] : {};
+
+    eachfn(tasks, function(task, key, cb) {
+        task(restParam(function(err, args) {
+            if (args.length <= 1) {
+                args = args[0];
+            }
+            results[key] = args;
+            cb(err);
+        }));
+    }, function(err) {
+        cb(err, results);
+    });
+};
+
+},{"async.util.isarraylike":6,"async.util.noop":9,"async.util.restparam":13}],13:[function(require,module,exports){
+'use strict';
+module.exports = function restParam(func, startIndex) {
+    startIndex = startIndex == null ? func.length - 1 : +startIndex;
+    return function() {
+        var length = Math.max(arguments.length - startIndex, 0);
+        var rest = new Array(length);
+        for (var index = 0; index < length; index++) {
+            rest[index] = arguments[index + startIndex];
+        }
+        switch (startIndex) {
+            case 0:
+                return func.call(this, rest);
+            case 1:
+                return func.call(this, arguments[0], rest);
+        }
+    };
+};
+
+},{}],14:[function(require,module,exports){
 'use strict'
 
 module.exports = function () {
@@ -495,7 +670,180 @@ module.exports = function () {
   a.src = 'https://www.google-analytics.com/analytics.js'
   m.parentNode.insertBefore(a, m)
 }
-},{}],4:[function(require,module,exports){
+},{}],15:[function(require,module,exports){
+/**
+ * lodash 4.0.0 (Custom Build) <https://lodash.com/>
+ * Build: `lodash modularize exports="npm" -o ./`
+ * Copyright 2012-2016 The Dojo Foundation <http://dojofoundation.org/>
+ * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+ * Copyright 2009-2016 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+ * Available under MIT license <https://lodash.com/license>
+ */
+
+/**
+ * Checks if `value` is classified as an `Array` object.
+ *
+ * @static
+ * @memberOf _
+ * @type Function
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
+ * @example
+ *
+ * _.isArray([1, 2, 3]);
+ * // => true
+ *
+ * _.isArray(document.body.children);
+ * // => false
+ *
+ * _.isArray('abc');
+ * // => false
+ *
+ * _.isArray(_.noop);
+ * // => false
+ */
+var isArray = Array.isArray;
+
+module.exports = isArray;
+
+},{}],16:[function(require,module,exports){
+/**
+ * lodash 3.0.2 (Custom Build) <https://lodash.com/>
+ * Build: `lodash modern modularize exports="npm" -o ./`
+ * Copyright 2012-2015 The Dojo Foundation <http://dojofoundation.org/>
+ * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+ * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+ * Available under MIT license <https://lodash.com/license>
+ */
+
+/**
+ * Checks if `value` is the [language type](https://es5.github.io/#x8) of `Object`.
+ * (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
+ *
+ * @static
+ * @memberOf _
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is an object, else `false`.
+ * @example
+ *
+ * _.isObject({});
+ * // => true
+ *
+ * _.isObject([1, 2, 3]);
+ * // => true
+ *
+ * _.isObject(1);
+ * // => false
+ */
+function isObject(value) {
+  // Avoid a V8 JIT bug in Chrome 19-20.
+  // See https://code.google.com/p/v8/issues/detail?id=2291 for more details.
+  var type = typeof value;
+  return !!value && (type == 'object' || type == 'function');
+}
+
+module.exports = isObject;
+
+},{}],17:[function(require,module,exports){
+/**
+ * lodash 4.0.1 (Custom Build) <https://lodash.com/>
+ * Build: `lodash modularize exports="npm" -o ./`
+ * Copyright 2012-2016 The Dojo Foundation <http://dojofoundation.org/>
+ * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+ * Copyright 2009-2016 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+ * Available under MIT license <https://lodash.com/license>
+ */
+
+/** `Object#toString` result references. */
+var stringTag = '[object String]';
+
+/** Used for built-in method references. */
+var objectProto = Object.prototype;
+
+/**
+ * Used to resolve the [`toStringTag`](http://ecma-international.org/ecma-262/6.0/#sec-object.prototype.tostring)
+ * of values.
+ */
+var objectToString = objectProto.toString;
+
+/**
+ * Checks if `value` is classified as an `Array` object.
+ *
+ * @static
+ * @memberOf _
+ * @type Function
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
+ * @example
+ *
+ * _.isArray([1, 2, 3]);
+ * // => true
+ *
+ * _.isArray(document.body.children);
+ * // => false
+ *
+ * _.isArray('abc');
+ * // => false
+ *
+ * _.isArray(_.noop);
+ * // => false
+ */
+var isArray = Array.isArray;
+
+/**
+ * Checks if `value` is object-like. A value is object-like if it's not `null`
+ * and has a `typeof` result of "object".
+ *
+ * @static
+ * @memberOf _
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is object-like, else `false`.
+ * @example
+ *
+ * _.isObjectLike({});
+ * // => true
+ *
+ * _.isObjectLike([1, 2, 3]);
+ * // => true
+ *
+ * _.isObjectLike(_.noop);
+ * // => false
+ *
+ * _.isObjectLike(null);
+ * // => false
+ */
+function isObjectLike(value) {
+  return !!value && typeof value == 'object';
+}
+
+/**
+ * Checks if `value` is classified as a `String` primitive or object.
+ *
+ * @static
+ * @memberOf _
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
+ * @example
+ *
+ * _.isString('abc');
+ * // => true
+ *
+ * _.isString(1);
+ * // => false
+ */
+function isString(value) {
+  return typeof value == 'string' ||
+    (!isArray(value) && isObjectLike(value) && objectToString.call(value) == stringTag);
+}
+
+module.exports = isString;
+
+},{}],18:[function(require,module,exports){
 (function (process){
 // .dirname, .basename, and .extname methods are extracted from Node.js v8.11.1,
 // backported and transplited with Babel, with backwards-compat fixes
@@ -801,7 +1149,7 @@ var substr = 'ab'.substr(-1) === 'b'
 ;
 
 }).call(this,require('_process'))
-},{"_process":5}],5:[function(require,module,exports){
+},{"_process":19}],19:[function(require,module,exports){
 // shim for using process in browser
 var process = module.exports = {};
 
@@ -987,7 +1335,7 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}],6:[function(require,module,exports){
+},{}],20:[function(require,module,exports){
 'use strict'
 
 var updateNode = require('../lib/update-node')
@@ -1073,7 +1421,7 @@ exports.newValue = function ($node, selectors) {
   exports.setText($node, newText)
 }
 
-},{"../lib/new-value":10,"../lib/update-node":12}],7:[function(require,module,exports){
+},{"../lib/new-value":24,"../lib/update-node":26}],21:[function(require,module,exports){
 
 
 var dom = require('../server/dom')
@@ -1091,7 +1439,7 @@ module.exports = function ($node, data) {
   return $node
 }
 
-},{"../server/dom":6}],8:[function(require,module,exports){
+},{"../server/dom":20}],22:[function(require,module,exports){
 'use strict'
 
 module.exports = function (data, options) {
@@ -1110,7 +1458,7 @@ module.exports = function (data, options) {
   return retArray
 }
 
-},{}],9:[function(require,module,exports){
+},{}],23:[function(require,module,exports){
 'use strict'
 
 var dom = require('../server/dom.js')
@@ -1152,7 +1500,7 @@ module.exports = function (str, selectors) {
   }
 }
 
-},{"../server/dom.js":6}],10:[function(require,module,exports){
+},{"../server/dom.js":20}],24:[function(require,module,exports){
 'use strict'
 
 // given a regex or function updates the value.
@@ -1166,7 +1514,7 @@ module.exports = function (oldValue, newValue) {
   return newValue
 }
 
-},{}],11:[function(require,module,exports){
+},{}],25:[function(require,module,exports){
 'use strict'
 
 var newValue = require('./new-value')
@@ -1225,7 +1573,7 @@ module.exports = function ($node, obj) {
   return $node
 }
 
-},{"../server/dom":6,"./new-value":10}],12:[function(require,module,exports){
+},{"../server/dom":20,"./new-value":24}],26:[function(require,module,exports){
 'use strict'
 var checkForInputs = require('./check-for-inputs')
 var updateNodeWithObject = require('./update-node-with-object')
@@ -1275,11 +1623,73 @@ function updateNode ($node, selector, data) {
 
 module.exports = updateNode
 
-},{"../server/dom":6,"./check-for-inputs":7,"./update-node-with-object":11}],13:[function(require,module,exports){
+},{"../server/dom":20,"./check-for-inputs":21,"./update-node-with-object":25}],27:[function(require,module,exports){
 exports.render = require('./lib/do-render')
 exports.classifyKeys = require('./lib/classify-keys')
 
-},{"./lib/classify-keys":8,"./lib/do-render":9}],14:[function(require,module,exports){
+},{"./lib/classify-keys":22,"./lib/do-render":23}],28:[function(require,module,exports){
+'use strict';
+
+
+function loadXMLDoc(url, type, callback) {
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+        if (xmlhttp.readyState == XMLHttpRequest.DONE ) {
+           if (xmlhttp.status == 200) {
+               var out = xmlhttp.responseText;
+               if (type === 'json') {
+                out = JSON.parse(xmlhttp.responseText)
+               }
+               callback(null, out)
+           }
+           else {
+               callback(new Error('Not Found'))
+           }
+        }
+    };
+
+    xmlhttp.open("GET", url, true);
+    xmlhttp.send();
+}
+
+
+var doFetch = function(url, type, callback) {
+
+    if(typeof window.fetch === 'undefined') {
+        return loadXMLDoc(url, type, callback);
+    }
+
+    fetch(url, {
+        method: 'get'
+    }).then(function(response) {
+
+        if (!response.ok) {
+            throw Error(response.statusText);
+        }
+        return response[type]();
+    }).then(function(text) {
+        callback(null, text);
+    }).catch(function(err) {
+        console.error(err, url)
+        callback(err)
+    });
+};
+
+
+exports.readFile = function(file, options, callback) {
+    doFetch(file, 'text', callback)
+};
+
+exports.json = function(file, callback) {
+    doFetch(file, 'json', callback)
+};
+
+exports.text = function(file, callback) {
+    doFetch(file, 'text', callback)
+};
+
+
+},{}],29:[function(require,module,exports){
 'use strict'
 
 var speclateFetch = require('speclate-fetch')
@@ -1287,7 +1697,7 @@ var speclateFetch = require('speclate-fetch')
 // override readfile with request to fetch.
 exports.readFile = speclateFetch.readFile
 
-},{"speclate-fetch":41}],15:[function(require,module,exports){
+},{"speclate-fetch":28}],30:[function(require,module,exports){
 (function (process){
 'use strict'
 
@@ -1309,7 +1719,7 @@ module.exports = function (url) {
 }
 
 }).call(this,require('_process'))
-},{"_process":5,"path":4}],16:[function(require,module,exports){
+},{"_process":19,"path":18}],31:[function(require,module,exports){
 'use strict'
 
 var loadFile = require('fs').readFile
@@ -1325,7 +1735,7 @@ module.exports = function (component, callback) {
   loadFile(path, 'utf-8', callback)
 }
 
-},{"./file/get-path":15,"fs":14}],17:[function(require,module,exports){
+},{"./file/get-path":30,"fs":29}],32:[function(require,module,exports){
 var sizlate = require('sizlate')
 
 /**
@@ -1358,7 +1768,7 @@ module.exports = function (page, layout, renderedComponents) {
   return sizlate.render(out, simpleSelectors)
 }
 
-},{"sizlate":40}],18:[function(require,module,exports){
+},{"sizlate":27}],33:[function(require,module,exports){
 'use strict'
 
 var forEachOf = require('async.eachof')
@@ -1439,649 +1849,7 @@ module.exports = function (pageSpec, callback) {
   })
 }
 
-},{"../load-component":16,"async.eachof":19,"lodash.isarray":30,"lodash.isobject":31,"lodash.isstring":32,"sizlate":40}],19:[function(require,module,exports){
-'use strict';
-
-var once = require('async.util.once');
-var noop = require('async.util.noop');
-var onlyOnce = require('async.util.onlyonce');
-var keyIterator = require('async.util.keyiterator');
-
-module.exports = function eachOf(object, iterator, callback) {
-    callback = once(callback || noop);
-    object = object || [];
-
-    var iter = keyIterator(object);
-    var key, completed = 0;
-
-    while ((key = iter()) != null) {
-        completed += 1;
-        iterator(object[key], key, onlyOnce(done));
-    }
-
-    if (completed === 0) callback(null);
-
-    function done(err) {
-        completed--;
-        if (err) {
-            callback(err);
-        }
-        // Check key is null in case iterator isn't exhausted
-        // and done resolved synchronously.
-        else if (key === null && completed <= 0) {
-            callback(null);
-        }
-    }
-};
-
-},{"async.util.keyiterator":23,"async.util.noop":25,"async.util.once":26,"async.util.onlyonce":27}],20:[function(require,module,exports){
-'use strict';
-
-var eachOf = require('async.eachof');
-var _parallel = require('async.util.parallel');
-
-module.exports = function parallel(tasks, cb) {
-    return _parallel(eachOf, tasks, cb);
-};
-
-},{"async.eachof":19,"async.util.parallel":28}],21:[function(require,module,exports){
-'use strict';
-
-module.exports = Array.isArray || function isArray(obj) {
-    return Object.prototype.toString.call(obj) === '[object Array]';
-};
-
-},{}],22:[function(require,module,exports){
-'use strict';
-
-var isArray = require('async.util.isarray');
-
-module.exports = function isArrayLike(arr) {
-    return isArray(arr) || (
-        // has a positive integer length property
-        typeof arr.length === 'number' &&
-        arr.length >= 0 &&
-        arr.length % 1 === 0
-    );
-};
-
-},{"async.util.isarray":21}],23:[function(require,module,exports){
-'use strict';
-
-var _keys = require('async.util.keys');
-var isArrayLike = require('async.util.isarraylike');
-
-module.exports = function keyIterator(coll) {
-    var i = -1;
-    var len;
-    var keys;
-    if (isArrayLike(coll)) {
-        len = coll.length;
-        return function next() {
-            i++;
-            return i < len ? i : null;
-        };
-    } else {
-        keys = _keys(coll);
-        len = keys.length;
-        return function next() {
-            i++;
-            return i < len ? keys[i] : null;
-        };
-    }
-};
-
-},{"async.util.isarraylike":22,"async.util.keys":24}],24:[function(require,module,exports){
-'use strict';
-
-module.exports = Object.keys || function keys(obj) {
-    var _keys = [];
-    for (var k in obj) {
-        if (obj.hasOwnProperty(k)) {
-            _keys.push(k);
-        }
-    }
-    return _keys;
-};
-
-},{}],25:[function(require,module,exports){
-'use strict';
-
-module.exports = function noop () {};
-
-},{}],26:[function(require,module,exports){
-'use strict';
-
-module.exports = function once(fn) {
-    return function() {
-        if (fn === null) return;
-        fn.apply(this, arguments);
-        fn = null;
-    };
-};
-
-},{}],27:[function(require,module,exports){
-'use strict';
-
-module.exports = function only_once(fn) {
-    return function() {
-        if (fn === null) throw new Error('Callback was already called.');
-        fn.apply(this, arguments);
-        fn = null;
-    };
-};
-
-},{}],28:[function(require,module,exports){
-'use strict';
-
-var noop = require('async.util.noop');
-var restParam = require('async.util.restparam');
-var isArrayLike = require('async.util.isarraylike');
-
-module.exports = function parallel(eachfn, tasks, cb) {
-    cb = cb || noop;
-    var results = isArrayLike(tasks) ? [] : {};
-
-    eachfn(tasks, function(task, key, cb) {
-        task(restParam(function(err, args) {
-            if (args.length <= 1) {
-                args = args[0];
-            }
-            results[key] = args;
-            cb(err);
-        }));
-    }, function(err) {
-        cb(err, results);
-    });
-};
-
-},{"async.util.isarraylike":22,"async.util.noop":25,"async.util.restparam":29}],29:[function(require,module,exports){
-'use strict';
-module.exports = function restParam(func, startIndex) {
-    startIndex = startIndex == null ? func.length - 1 : +startIndex;
-    return function() {
-        var length = Math.max(arguments.length - startIndex, 0);
-        var rest = new Array(length);
-        for (var index = 0; index < length; index++) {
-            rest[index] = arguments[index + startIndex];
-        }
-        switch (startIndex) {
-            case 0:
-                return func.call(this, rest);
-            case 1:
-                return func.call(this, arguments[0], rest);
-        }
-    };
-};
-
-},{}],30:[function(require,module,exports){
-/**
- * lodash 4.0.0 (Custom Build) <https://lodash.com/>
- * Build: `lodash modularize exports="npm" -o ./`
- * Copyright 2012-2016 The Dojo Foundation <http://dojofoundation.org/>
- * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
- * Copyright 2009-2016 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
- * Available under MIT license <https://lodash.com/license>
- */
-
-/**
- * Checks if `value` is classified as an `Array` object.
- *
- * @static
- * @memberOf _
- * @type Function
- * @category Lang
- * @param {*} value The value to check.
- * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
- * @example
- *
- * _.isArray([1, 2, 3]);
- * // => true
- *
- * _.isArray(document.body.children);
- * // => false
- *
- * _.isArray('abc');
- * // => false
- *
- * _.isArray(_.noop);
- * // => false
- */
-var isArray = Array.isArray;
-
-module.exports = isArray;
-
-},{}],31:[function(require,module,exports){
-/**
- * lodash 3.0.2 (Custom Build) <https://lodash.com/>
- * Build: `lodash modern modularize exports="npm" -o ./`
- * Copyright 2012-2015 The Dojo Foundation <http://dojofoundation.org/>
- * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
- * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
- * Available under MIT license <https://lodash.com/license>
- */
-
-/**
- * Checks if `value` is the [language type](https://es5.github.io/#x8) of `Object`.
- * (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
- *
- * @static
- * @memberOf _
- * @category Lang
- * @param {*} value The value to check.
- * @returns {boolean} Returns `true` if `value` is an object, else `false`.
- * @example
- *
- * _.isObject({});
- * // => true
- *
- * _.isObject([1, 2, 3]);
- * // => true
- *
- * _.isObject(1);
- * // => false
- */
-function isObject(value) {
-  // Avoid a V8 JIT bug in Chrome 19-20.
-  // See https://code.google.com/p/v8/issues/detail?id=2291 for more details.
-  var type = typeof value;
-  return !!value && (type == 'object' || type == 'function');
-}
-
-module.exports = isObject;
-
-},{}],32:[function(require,module,exports){
-/**
- * lodash 4.0.1 (Custom Build) <https://lodash.com/>
- * Build: `lodash modularize exports="npm" -o ./`
- * Copyright 2012-2016 The Dojo Foundation <http://dojofoundation.org/>
- * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
- * Copyright 2009-2016 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
- * Available under MIT license <https://lodash.com/license>
- */
-
-/** `Object#toString` result references. */
-var stringTag = '[object String]';
-
-/** Used for built-in method references. */
-var objectProto = Object.prototype;
-
-/**
- * Used to resolve the [`toStringTag`](http://ecma-international.org/ecma-262/6.0/#sec-object.prototype.tostring)
- * of values.
- */
-var objectToString = objectProto.toString;
-
-/**
- * Checks if `value` is classified as an `Array` object.
- *
- * @static
- * @memberOf _
- * @type Function
- * @category Lang
- * @param {*} value The value to check.
- * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
- * @example
- *
- * _.isArray([1, 2, 3]);
- * // => true
- *
- * _.isArray(document.body.children);
- * // => false
- *
- * _.isArray('abc');
- * // => false
- *
- * _.isArray(_.noop);
- * // => false
- */
-var isArray = Array.isArray;
-
-/**
- * Checks if `value` is object-like. A value is object-like if it's not `null`
- * and has a `typeof` result of "object".
- *
- * @static
- * @memberOf _
- * @category Lang
- * @param {*} value The value to check.
- * @returns {boolean} Returns `true` if `value` is object-like, else `false`.
- * @example
- *
- * _.isObjectLike({});
- * // => true
- *
- * _.isObjectLike([1, 2, 3]);
- * // => true
- *
- * _.isObjectLike(_.noop);
- * // => false
- *
- * _.isObjectLike(null);
- * // => false
- */
-function isObjectLike(value) {
-  return !!value && typeof value == 'object';
-}
-
-/**
- * Checks if `value` is classified as a `String` primitive or object.
- *
- * @static
- * @memberOf _
- * @category Lang
- * @param {*} value The value to check.
- * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
- * @example
- *
- * _.isString('abc');
- * // => true
- *
- * _.isString(1);
- * // => false
- */
-function isString(value) {
-  return typeof value == 'string' ||
-    (!isArray(value) && isObjectLike(value) && objectToString.call(value) == stringTag);
-}
-
-module.exports = isString;
-
-},{}],33:[function(require,module,exports){
-'use strict';
-
-exports.load = function (str) {
-    return $(str);
-};
-
-exports.find = function ($domNode, selector) {
-    var out = $domNode.filter(selector);;
-    if (out.length > 0) { // filter doesnt catch em all.
-        return out;
-    }else {
-        return $domNode.find(selector); // jquery
-    }
-};
-
-// only available in the browser
-exports.getMarkup = function ($page) {
-    var out = [];
-    $page.each(function (i, item) {
-        out.push(item.outerHTML);
-    });
-    return out.join('');
-};
-
-// jqueryify node
-exports.get = function (item) {
-    return $(item);
-};
-
-},{}],34:[function(require,module,exports){
-/**
- * In the case of input we should update the value and not just set the innerHTML property.
- * @param  {Object} $node sizzle object
- * @param  {String} data  The value to be set on the html.
- */
-module.exports = function ($node, data) {
-	$node.each(function (i, elem) {
-        var type = elem.tagName;
-
-        if(this[i] && this[i].name) {
-            type = this[i].name;
-        }else {
-            type = 'none';
-        }
-		if(type.toUpperCase() === 'INPUT') {
-			$node.eq(i).attr('value', data);
-		}else {
-			$node.eq(i).html(data);
-		}
-	});
-	return $node;
-};
-
-},{}],35:[function(require,module,exports){
-'use strict';
-
-module.exports = function (data, options) {
-    if (!options.classifyKeys || typeof data === 'undefined') {
-        return data;
-    }
-    var c = data.length;
-    var retArray = [];
-    while (c--) {
-        var newObj = {};
-        for (var key in data[c]){
-            newObj['.' + key] = data[c][key];
-        }
-        retArray.push(newObj);
-    }
-    return retArray;
-};
-
-},{}],36:[function(require,module,exports){
-'use strict';
-
-var dom = require('../server/dom.js');
-
-var updateNode =  require('./update-node');
-
-module.exports = function (str, selectors) {
-    if (!selectors){
-        return str;
-    }
-    selectors = (typeof selectors[0] === 'undefined') ? [selectors] : selectors; // make sure we have an array.
-    var selectorCount = selectors.length;
-    selectors = selectors.reverse();
-    var $page = dom.load(str);
-    // iterate over the array.
-    while (selectorCount--){
-        Object.keys(selectors[selectorCount]).forEach(function (selector) {
-            updateNode(dom.find($page, selector), selector, selectors[selectorCount][selector]);
-        });
-    }
-
-    if (dom.getMarkup) { // browserside
-        return dom.getMarkup($page);
-    } else {
-        return $page.html();
-    }
-};
-
-},{"../server/dom.js":33,"./update-node":39}],37:[function(require,module,exports){
-'use strict';
-
-// given a regex or function updates the value.
-module.exports = function (oldValue, newValue) {
-    if (typeof newValue === 'object' && newValue.regex && newValue.value) {
-        return oldValue.replace(newValue.regex, newValue.value);
-    } else if (typeof newValue === 'function') {
-        return newValue(oldValue);
-    }
-    return newValue;
-};
-
-},{}],38:[function(require,module,exports){
-'use strict';
-
-var newValue = require('./new-value');
-
-var dom = require('../server/dom');
-
-module.exports = function ($node, obj) {
-    // Iterate over the actions to be applied to the dom node.
-    for (var key in obj){
-        switch (key) {
-            case 'selectors':
-                var selectors = obj[key];
-                for (var selector in selectors) {
-                    // really this should call update-node. so that it can handle something other than html.
-                    $node.find(selector).html(selectors[selector]);
-                }
-            break;
-            case 'className':
-                $node.addClass(obj[key]);
-            break;
-            case'innerHTML' :
-                // if we need to apply something the each value we need to iterate over each dom node.
-                if (obj[key] && obj[key].regex || typeof obj[key] === 'function') {
-
-                    $node.each(function (i, node) {
-                        var $domNode = dom.get(this)
-                        $domNode.html(obj[key])
-                    });
-                } else {
-                    $node.html(obj[key]);
-                }
-            break;
-            case 'innerText':
-
-                // if we need to apply something the each value we need to iterate over each dom node.
-                if (obj[key] && obj[key].regex || typeof obj[key] === 'function' ) {
-
-                    $node.each(function (i, node) {
-                        var $node = dom.init(node);
-                        var newText = newValue($node.text(), obj[key]);
-                        $node.text(newText);
-                    });
-                }else {
-                    $node.text(obj[key]);
-                }
-            break;
-
-            default:
-                if (obj[key] && obj[key].regex || typeof obj[key] === 'function') {
-                    $node.each(function (i, node) {
-                        var newText = newValue(node.attribs[key], obj[key]);
-                        node.attribs[key] = newText;
-                    });
-                }else {
-                    $node.attr(key, obj[key]);
-                }
-        }
-    }
-    return $node;
-};
-
-},{"../server/dom":33,"./new-value":37}],39:[function(require,module,exports){
-'use strict';
-var checkForInputs = require('./check-for-inputs');
-var updateNodeWithObject = require('./update-node-with-object');
-
-function updateNode($node, selector, data, $) {
-
-    if (selector === '.id'){
-        $node.attr('id', data);
-        return $node;
-    }
-    switch (typeof data) {
-        case 'string':
-            if (data !== ''){
-                $node = checkForInputs($node, data, $);
-            }
-        break;
-        case 'number':
-            $node = checkForInputs($node, data, $);
-        break;
-        case 'boolean':
-            if(data === false) {
-               return  $node.remove();
-            }
-        break;
-        case 'object':
-            if (data && data.length) {
-
-                var $parent = $node.parent();
-                if(data.length === 1 && data[0] === false ) { // [ false ]
-                    return  $parent.remove();
-                }
-                var $newNode = $node.clone();
-                data.forEach(function (item, c) {
-                    var $itemNode = $newNode.clone();
-                    if (c === 0) {
-                        $node.remove();
-                    }
-                    var $updatedNode = updateNode($itemNode, selector, data[c], $);
-                    $parent.append($updatedNode);
-                });
-            } else {
-                $node = updateNodeWithObject($node, data, $);
-            }
-        break;
-    }
-    return $node;
-}
-
-module.exports = updateNode;
-
-},{"./check-for-inputs":34,"./update-node-with-object":38}],40:[function(require,module,exports){
-exports.render = require('./lib/do-render');
-exports.classifyKeys = require('./lib/classify-keys');
-
-},{"./lib/classify-keys":35,"./lib/do-render":36}],41:[function(require,module,exports){
-'use strict';
-
-
-function loadXMLDoc(url, type, callback) {
-    var xmlhttp = new XMLHttpRequest();
-    xmlhttp.onreadystatechange = function() {
-        if (xmlhttp.readyState == XMLHttpRequest.DONE ) {
-           if (xmlhttp.status == 200) {
-               var out = xmlhttp.responseText;
-               if (type === 'json') {
-                out = JSON.parse(xmlhttp.responseText)
-               }
-               callback(null, out)
-           }
-           else {
-               callback(new Error('Not Found'))
-           }
-        }
-    };
-
-    xmlhttp.open("GET", url, true);
-    xmlhttp.send();
-}
-
-
-var doFetch = function(url, type, callback) {
-
-    if(typeof window.fetch === 'undefined') {
-        return loadXMLDoc(url, type, callback);
-    }
-
-    fetch(url, {
-        method: 'get'
-    }).then(function(response) {
-
-        if (!response.ok) {
-            throw Error(response.statusText);
-        }
-        return response[type]();
-    }).then(function(text) {
-        callback(null, text);
-    }).catch(function(err) {
-        console.error(err, url)
-        callback(err)
-    });
-};
-
-
-exports.readFile = function(file, options, callback) {
-    doFetch(file, 'text', callback)
-};
-
-exports.json = function(file, callback) {
-    doFetch(file, 'json', callback)
-};
-
-exports.text = function(file, callback) {
-    doFetch(file, 'text', callback)
-};
-
-
-},{}],42:[function(require,module,exports){
+},{"../load-component":31,"async.eachof":3,"lodash.isarray":15,"lodash.isobject":16,"lodash.isstring":17,"sizlate":27}],34:[function(require,module,exports){
 'use strict'
 
 var FetchPage = require('./lib/fetch-page')
@@ -2153,7 +1921,7 @@ module.exports = function (routerOptions, speclateOptions) {
   // TODO: add mechanism to remove listeners
 }
 
-},{"./lib/fetch-page":43,"./lib/spec-from-route":45}],43:[function(require,module,exports){
+},{"./lib/fetch-page":35,"./lib/spec-from-route":37}],35:[function(require,module,exports){
 
 var fetchJson = require('speclate-fetch').json
 var pageRender = require('./page-render')
@@ -2186,12 +1954,11 @@ module.exports = function (specPath, elements, selectors, loadingClass, routerOp
   }
 }
 
-},{"./page-render":44,"speclate-fetch":41}],44:[function(require,module,exports){
+},{"./page-render":36,"speclate-fetch":28}],36:[function(require,module,exports){
 'use strict'
 
 var asyncParallel = require('async.parallel')
-var sizlate = require('../../../sizlate')
-
+var sizlate = require('sizlate')
 var getFile = require('speclate-fetch').readFile
 
 var doSizlate = require('../../lib/page/do-sizlate')
@@ -2242,7 +2009,7 @@ module.exports = function (elements, selectors, page, options, active, callback)
   })
 }
 
-},{"../../../sizlate":13,"../../lib/page/do-sizlate":17,"../../lib/page/load-components":18,"async.parallel":20,"speclate-fetch":41}],45:[function(require,module,exports){
+},{"../../lib/page/do-sizlate":32,"../../lib/page/load-components":33,"async.parallel":4,"sizlate":27,"speclate-fetch":28}],37:[function(require,module,exports){
 module.exports = function (pathname) {
   var routeName
 
