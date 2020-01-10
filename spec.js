@@ -1,5 +1,5 @@
 var nextEvent = require('./lib/next-event-from-file')
-var venue = require('./data/venues/condenast.json')
+var venue = require('./data/venues/beamery.json')
 var eventDate = nextEvent()
 var imageGallery = require('./lib/image-gallery')
 var ScanSpecForFiles = require('./lib/scan-spec-for-files')

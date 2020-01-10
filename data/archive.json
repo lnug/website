@@ -1,5 +1,20 @@
 [
     {
+        "date": "January 2020",
+        "speakers": [
+            {
+                "name": "Adam Davis",
+                "url": "https://github.com/admataz",
+                "title": "LNUG 2020 retro buzz"
+            },
+            {
+                "name": null,
+                "url": "https://github.com/robtweed",
+                "title": "QEWD-JSdb: It&#39;s a Database, Jim, but not as we know it!"
+            }
+        ]
+    },
+    {
         "date": "July 2019",
         "speakers": [
             {

@@ -1958,7 +1958,8 @@ module.exports = function (specPath, elements, selectors, loadingClass, routerOp
 'use strict'
 
 var asyncParallel = require('async.parallel')
-var sizlate = require('sizlate')
+var sizlate = require('../../../sizlate')
+
 var getFile = require('speclate-fetch').readFile
 
 var doSizlate = require('../../lib/page/do-sizlate')
@@ -2009,7 +2010,7 @@ module.exports = function (elements, selectors, page, options, active, callback)
   })
 }
 
-},{"../../lib/page/do-sizlate":32,"../../lib/page/load-components":33,"async.parallel":4,"sizlate":27,"speclate-fetch":28}],37:[function(require,module,exports){
+},{"../../../sizlate":27,"../../lib/page/do-sizlate":32,"../../lib/page/load-components":33,"async.parallel":4,"speclate-fetch":28}],37:[function(require,module,exports){
 module.exports = function (pathname) {
   var routeName
 

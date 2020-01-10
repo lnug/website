@@ -1,0 +1,25 @@
+{
+  "title": "Beamery",
+  "address": [
+    "WeWork",
+    "131 Finsbury Pavement",
+    "EC2A 1NT"
+  ],
+  "location": {
+    "lat": "51.5201758",
+    "long": "-0.0897586,17z",
+    "scale": "15",
+    "wide": {
+      "lat": "51.5201758",
+      "long": "-0.0897586,17z",
+      "scale": "15",
+      "size": "1280x900.png"
+    },
+    "thin": {
+      "lat": "51.5201758",
+      "long": "-0.0897586,17z",
+      "scale": "15",
+      "size": "700x900.png"
+    }
+  }
+}

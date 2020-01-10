@@ -1,20 +1,22 @@
 [
     {
-        "apiSpeakerUrl": "https://api.github.com/users/jamesporter",
-        "speakerUrl": "https://github.com/jamesporter",
-        "title": "Create your own state management library",
-        "description": "<h2 id=\"abstract\">Abstract</h2>\n<p>How hard is it to make your own state management library? By using React hooks, Context and other open source projects you can easily build your own useful library.</p>\n<p>I wanted first class TypeScript support, immutable data, zero boilerplate and hassle free wiring. I built it in a few dozen lines of code: <a href=\"https://github.com/jamesporter/immutable-context\">Immutable Context</a>.</p>\n<p>I&#39;ll demo how to use it via a <a href=\"https://codesandbox.io/s/intelligent-kowalevski-6evy9?fontsize=14\">Code Sandbox demo</a>, how it works under the hood and then look at some lessons learned, with suggestions on how to build your own state management library in 2019.</p>\n<h2 id=\"about\">About</h2>\n<p>I&#39;m a polyglot developer and data scientist. I&#39;ve built lots of apps, for example this <a href=\"https://isometrically.amimetic.co.uk\">iPhone app for Isometric graphics</a>. My website/blog is <a href=\"https://www.amimetic.co.uk\">www.amimetic.co.uk</a>. I work with React/React Native at JPMorgan. My Twitter handle is @complexview</p>\n",
-        "milestone": "July 24th 2019",
-        "img": "https://avatars1.githubusercontent.com/u/383353?v=4&s=40",
-        "handle": "jamesporter",
-        "name": "James Porter"
+        "apiSpeakerUrl": "https://api.github.com/users/admataz",
+        "speakerUrl": "https://github.com/admataz",
+        "title": "LNUG 2020 retro buzz",
+        "description": "<p>Last year - while the rest of the world was losing its mind,  LNUG continued to grow its solid community of friends among professionals. We  saw major milestones for node.js  and we also hosted some great  talks  and events.</p>\n<p>It&rsquo;s 2020! </p>\n<p>This year we want  to strengthen and grow - and support the communities and individuals  to continue to learn and create amazing work with node.js.  We want to  welcome visitors, out of town developers and guest speakers to add to our mix of local talent. </p>\n<p>It&rsquo;s 2020! </p>\n<p>So we&rsquo;re kicking off the decade with a fresh look back - and a new look forward.  What&rsquo;s upcoming for node.js in 2020? And what are we going to do about it? </p>\n<p>This is your chance to get involved - have a laugh and a look back with us, and have your say with what happens  next. </p>\n",
+        "milestone": "January 22nd 2020",
+        "img": "https://avatars3.githubusercontent.com/u/395101?v=4&s=40",
+        "handle": "admataz",
+        "name": "Adam Davis"
     },
     {
-        "title": "Slot available",
-        "name": "Submit your talk!",
-        "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
-        "img": "/images/favicon/favicon-128.png",
-        "speakerUrl": "https://lnug.org/speak.html",
-        "milestone": "July 24th 2019"
+        "apiSpeakerUrl": "https://api.github.com/users/robtweed",
+        "speakerUrl": "https://github.com/robtweed",
+        "title": "QEWD-JSdb: It&#39;s a Database, Jim, but not as we know it!",
+        "description": "<p>QEWD-JSdb is a new concept for databases in Node.js.  Although it&#39;s implemented on top of two incredibly fast, industrial-strength (though little-known) physical database technologies (the Open Source YottaDB and the proprietary IRIS databases), QEWD-JSdb abstracts their underlying hierarchical physical storage as on-disk JavaScript objects, blurring the boundary between what&#39;s in-memory and what&#39;s on-disk.  </p>\n<p>With QEWD-JSdb, the database is no longer something that exists on another server, no longer effectively a separate technology that you access via a network connection using its in-built APIs, and which imposes on you a database model over which you have no control.  Let&#39;s face it: most mainstream databases are &quot;one trick ponies&quot; that model data in one particular way: fine if all your database requirements fit that model, but most likely you&#39;ll have circumstances that mean you either end up consuming valuable time fighting that model to fit your needs. or end up having to support multiple databases with all the resulting additional pain, aggravation and maintenance overhead.</p>\n<p>With QEWD-JSdb, there&#39;s none of those restrictions and annoyances: your persistent data and its modelling is in your direct control within your Node.js processes!  As far as you&#39;re concerned, you&#39;re just dealing with JavaScript objects/JSON, but rather than being in-memory, they happen to be on-disk!</p>\n<p>But you&#39;re not limited to persistent JSON: it&#39;s easy to model pretty much any type of database, both NoSQL and Relational/SQL on top of the basic persistent JSON data structures.  In fact, QEWD-JSdb comes with some already created for you to use and/or explore, including:</p>\n<ul>\n<li>Redis-like Key/Value (actually Key/Object) store</li>\n<li>Redis-like Lists</li>\n<li>Document/JSON database storage</li>\n<li>XML DOM database storage via the DOM API, with XPath querying</li>\n<li>Relational with SQL read/write access</li>\n</ul>\n<p>Once you&#39;re familiar with the basics of QEWD-JSdb, you can create your own custom database model if the built-in models don&#39;t meet your needs: no more time wasted fighting the database!</p>\n<p>It&#39;s even possible to simultaneously apply different database models to the same physical QEWD-JSdb data!</p>\n<p>All sounds too good to be true? Come and find out at Rob&#39;s talk on QEWD-JSdb.</p>\n<hr>\n<p>Rob Tweed (<a href=\"https://twitter.com/rtweed\">@rtweed</a>) is a Director of M/Gateway Developments Ltd, and has been part of the LNUG scene since its earliest days - he was one of the speakers at its inaugural meeting, and has given a number of talks over the years, mainly focused on his Node.js-based QEWD technology/platform.  </p>\n<p>Rob has several decades of experience, developing and advising on real-world complex, business-critical applications around the world, in sectors such as healthcare IT, financial services and retail systems.  He&#39;s specialised in database integration for Web and Internet technologies since the early days in the mid-90s, and has been immersed in Node.js since its earliest days in 2011!</p>\n<p>A keen proponent of Open Source software, you can find all his work (including QEWD-JSdb) at <a href=\"https://github.com/robtweed\">@robtweed</a></p>\n",
+        "milestone": "January 22nd 2020",
+        "img": "https://avatars0.githubusercontent.com/u/424546?v=4&s=40",
+        "handle": "robtweed",
+        "name": null
     }
 ]
