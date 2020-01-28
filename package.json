@@ -57,5 +57,8 @@
       "app-cache-nanny.js",
       "client/index-compiled.js"
     ]
+  },
+  "devDependencies": {
+    "mocha": "^7.0.1"
   }
 }
