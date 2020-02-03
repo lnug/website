@@ -1,5 +1,20 @@
 [
     {
+        "date": "February 2020",
+        "speakers": [
+            {
+                "name": "Tatenda Chawanzwa",
+                "url": "https://github.com/shadrech",
+                "title": "State Management with React Apollo"
+            },
+            {
+                "name": "Submit your talk!",
+                "url": "https://lnug.org/speak.html",
+                "title": "Slot available"
+            }
+        ]
+    },
+    {
         "date": "January 2020",
         "speakers": [
             {
