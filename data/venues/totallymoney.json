@@ -1,0 +1,26 @@
+{
+  "title": "TotallyMoney.com",
+  "address": [
+    "Chapter House ",
+    "16 Brunswick Place ",
+    "London ",
+    "N1 6DZ "
+  ],
+  "location": {
+    "lat": "51.520",
+    "long": "-0.089",
+    "scale": "15",
+    "wide": {
+      "lat": "51.5271411",
+      "long": "-0.0882679",
+      "scale": "15",
+      "size": "1280x900.png"
+    },
+    "thin": {
+      "lat": "51.5271411",
+      "long": "-0.0882679",
+      "scale": "15",
+      "size": "700x900.png"
+    }
+  }
+}
