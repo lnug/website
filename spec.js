@@ -51,6 +51,14 @@ module.exports = {
         component: 'speaker',
         data: speakerSelectors()
       },
+      '.venue-detail': {
+        component: 'venue-detail',
+        data: {
+        '.detail': venue.about, 
+        '.title': venue.title,
+        '.address': venue.address.join('<br />')
+        }
+      },
       '.lnug-mailing-list': {
         component: 'sign-up'
       }
