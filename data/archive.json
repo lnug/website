@@ -1,5 +1,20 @@
 [
     {
+        "date": "March 2020",
+        "speakers": [
+            {
+                "name": "Craig Taub",
+                "url": "https://github.com/craigtaub",
+                "title": "Under-the-hood of web bundlers"
+            },
+            {
+                "name": "Submit your talk!",
+                "url": "https://lnug.org/speak.html",
+                "title": "Slot available"
+            }
+        ]
+    },
+    {
         "date": "February 2020",
         "speakers": [
             {

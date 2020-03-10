@@ -1,13 +1,13 @@
 [
     {
-        "apiSpeakerUrl": "https://api.github.com/users/shadrech",
-        "speakerUrl": "https://github.com/shadrech",
-        "title": "State Management with React Apollo",
-        "description": "<p>In this talk I&#39;ll divulge into Graphql and the main differences between REST. Then I&#39;ll talk of how Frontend has changed to accommodate the rise of Graphql, specifically React Apollo. From then it&#39;ll be a live coding session where I&#39;ll go through connecting to a Graphql server in a React application and fetching/mutating data both on server and client side data (with React Apollo @client directive)</p>\n<p>I&#39;ve been a professional developer for about 3 years. In that time I&#39;ve worked for small startups to large corporations. List includes Ruby, Sky and Eurostar where I&#39;m currently working.&#10;Twitter handle is @shadrech17</p>\n<p>I confirm my talk will be 20 mins long &#55358;&#56606;&#55356;&#57342;</p>\n<p>I will abide by the code of conduct </p>\n",
-        "milestone": "February 26th 2020",
-        "img": "https://avatars0.githubusercontent.com/u/6001129?v=4&s=40",
-        "handle": "shadrech",
-        "name": "Tatenda Chawanzwa"
+        "apiSpeakerUrl": "https://api.github.com/users/craigtaub",
+        "speakerUrl": "https://github.com/craigtaub",
+        "title": "Under-the-hood of web bundlers",
+        "description": "<h2 id=\"abstract\">Abstract</h2>\n<p>A look at the mechanisms inside web bundlers e.g Webpack.</p>\n<p>Starting with why they are still useful.&#10;Then how to build a small compiler, akin to Webpack. There are many interesting topics in a very small space here.&#10;Next how to use the output of our compiler with an application.&#10;Finishing with all the additional parts Webpack does which ours doesn&#39;t, hopefully with some idea on how those could be done.</p>\n<p>The talk should take around 30 (to 40) minutes including questions, that&#39;s roughly how long it took when I performed it at work.</p>\n<h2 id=\"about-me\">About me</h2>\n<p>I&#39;m a senior developer at Nested with over 10 years experience. We do dev team talks every week and I have taken a couple, usually on the &quot;under-the-hood of&quot; theme. I was previously at the BBC.</p>\n<p>My medium page is <a href=\"https://medium.com/@tabu_craig\">https://medium.com/@tabu_craig</a>, I enjoy blogging.</p>\n<p>Look forward to hearing all your thoughts.&#10;Thanks, Craig</p>\n",
+        "milestone": "March 25th 2020",
+        "img": "https://avatars1.githubusercontent.com/u/3532787?v=4&s=40",
+        "handle": "craigtaub",
+        "name": "Craig Taub"
     },
     {
         "title": "Slot available",
@@ -15,6 +15,6 @@
         "description": "This slot is still available, help us out: <a href=\"/speak.html\">Submit a talk proposal</a>.",
         "img": "/images/favicon/favicon-128.png",
         "speakerUrl": "https://lnug.org/speak.html",
-        "milestone": "February 26th 2020"
+        "milestone": "March 25th 2020"
     }
 ]
