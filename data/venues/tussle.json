@@ -1,0 +1,26 @@
+{
+  "title": "Trussle",
+  "address": [
+    "1-3 Dufferin St",
+    "London ",
+    "EC1Y 8NA "
+  ],
+  "about": "[Trussle Mortgages: Free Mortgage Advice & Broker](https://trussle.com/)",
+  "location": {
+    "lat": "51.520",
+    "long": "-0.089",
+    "scale": "15",
+    "wide": {
+      "lat": "51.5271411",
+      "long": "-0.0882679",
+      "scale": "15",
+      "size": "1280x900.png"
+    },
+    "thin": {
+      "lat": "51.5271411",
+      "long": "-0.0882679",
+      "scale": "15",
+      "size": "700x900.png"
+    }
+  }
+}
