@@ -3,14 +3,14 @@
         "date": "March 2020",
         "speakers": [
             {
-                "name": "Craig Taub",
-                "url": "https://github.com/craigtaub",
-                "title": "Under-the-hood of web bundlers"
+                "name": "Thomas Schoffelen",
+                "url": "https://github.com/tschoffelen",
+                "title": "Transactional emails at scale"
             },
             {
-                "name": "Submit your talk!",
-                "url": "https://lnug.org/speak.html",
-                "title": "Slot available"
+                "name": "Bernard Baker",
+                "url": "https://github.com/bernardbaker",
+                "title": "Authentication &amp;&amp; Serverless &amp;&amp; Node"
             }
         ]
     },

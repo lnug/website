@@ -1,5 +1,5 @@
 var nextEvent = require('./lib/next-event-from-file')
-var venue = require('./data/venues/trussle.json')
+var venue = require('./data/venues/streamingvideo.json')
 var eventDate = nextEvent()
 var imageGallery = require('./lib/image-gallery')
 var ScanSpecForFiles = require('./lib/scan-spec-for-files')
@@ -43,7 +43,8 @@ module.exports = {
           '.detail': venue.detail,
           'address': venue.address.join('<br />'),
           '.address a': {
-            href: 'https://www.google.co.uk/maps/search/' + venue.address.join(',%20')
+            // href: 'https://www.google.co.uk/maps/search/' + venue.address.join(',%20')
+            href: 'https://www.youtube.com/channel/UC-qjgj2TnRoI1ZmFFaN3FeQ'
           }
         }
       },

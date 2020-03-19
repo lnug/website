@@ -1,11 +1,10 @@
 {
-  "title": "Trussle",
+  "title": "Live feed",
   "address": [
-    "1-3 Dufferin St",
-    "London ",
-    "EC1Y 8NA "
+    "LNUG Team",
+    "YouTube"
   ],
-  "about": "<a href='https://trussle.com'>Trussle Mortgages: Free Mortgage Advice & Broker</a>",
+  "about": "This month we are meeting remotely. The feed will be hosted on the <a href='https://www.youtube.com/channel/UC-qjgj2TnRoI1ZmFFaN3FeQ'>The LNUG YouTube channel</a>",
   "location": {
     "lat": ",51.5225792",
     "long": "-0.0922662",

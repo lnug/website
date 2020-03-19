@@ -1,16 +1,16 @@
 [
     {
-        "date": "January 2020",
+        "date": "March 2020",
         "speakers": [
             {
-                "name": "Adam Davis",
-                "url": "https://github.com/admataz",
-                "title": "LNUG 2020 retro buzz"
+                "name": "Thomas Schoffelen",
+                "url": "https://github.com/tschoffelen",
+                "title": "Transactional emails at scale"
             },
             {
-                "name": null,
-                "url": "https://github.com/robtweed",
-                "title": "QEWD-JSdb: It&#39;s a Database, Jim, but not as we know it!"
+                "name": "Bernard Baker",
+                "url": "https://github.com/bernardbaker",
+                "title": "Authentication &amp;&amp; Serverless &amp;&amp; Node"
             }
         ]
     }
