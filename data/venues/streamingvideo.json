@@ -1,25 +1,21 @@
 {
   "title": "Live feed",
   "address": [
-    "LNUG Team",
     "YouTube"
   ],
   "about": "This month we are meeting remotely. The feed will be hosted on the <a href='https://www.youtube.com/channel/UC-qjgj2TnRoI1ZmFFaN3FeQ'>The LNUG YouTube channel</a>",
   "location": {
-    "lat": ",51.5225792",
-    "long": "-0.0922662",
-    "scale": "15",
     "wide": {
-      "lat": ",51.5225792",
-      "long": "-0.0922662",
-      "scale": "15",
-      "size": "1280x900.png"
+      "lat": "51.5021333",
+      "scale": "11",
+      "long": "-0.0960868",
+      "size": "1280x400.png"
     },
     "thin": {
-      "lat": ",51.5225792",
-      "long": "-0.0922662",
-      "scale": "15",
-      "size": "700x900.png"
+      "lat": "51.5741333",
+      "long": "-0.0960868",
+      "scale": "11",
+      "size": "700x700.png"
     }
   }
 }
