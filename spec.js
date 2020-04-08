@@ -34,7 +34,6 @@ module.exports = {
     page: 'home',
     spec: {
       title: 'London Node User Group - LNUG',
-      //      'small.notice': "Map provided by © <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> &amp; © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a>",
       '.lnug-ticket': {
         component: 'ticket',
         data: {
@@ -43,7 +42,6 @@ module.exports = {
           '.detail': venue.detail,
           'address': venue.address.join('<br />'),
           '.address a': {
-            // href: 'https://www.google.co.uk/maps/search/' + venue.address.join(',%20')
             href: 'https://www.youtube.com/channel/UC-qjgj2TnRoI1ZmFFaN3FeQ'
           }
         }
@@ -51,14 +49,6 @@ module.exports = {
       '.lnug-content': {
         component: 'speaker',
         data: speakerSelectors()
-      },
-      '.venue-detail': {
-        component: 'venue-detail',
-        data: {
-        '.detail': venue.about, 
-        '.title': venue.title,
-        '.address': venue.address.join('<br />')
-        }
       },
       '.lnug-mailing-list': {
         component: 'sign-up'

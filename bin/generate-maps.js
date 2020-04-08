@@ -3,6 +3,6 @@
 'use strict'
 
 var generateMaps = require('../lib/generate-maps')
-var venue = require('../data/venues/beamery.json')
+var venue = require('../data/venues/streamingvideo.json')
 
 generateMaps(venue.location)
