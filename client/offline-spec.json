@@ -2,7 +2,6 @@
     "components": [
         "ticket/ticket.html",
         "speaker/speaker.html",
-        "venue-detail/venue-detail.html",
         "sign-up/sign-up.html",
         "image-gallery/image-gallery.html",
         "archive/archive.html"
