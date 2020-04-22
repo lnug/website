@@ -46,10 +46,10 @@ module.exports = {
           }
         }
       },
-      '.lnug-content': {
-        component: 'speaker',
-        data: speakerSelectors()
-      },
+      // '.lnug-content': {
+      //   component: 'speaker',
+      //   data: speakerSelectors()
+      // },
       '.lnug-mailing-list': {
         component: 'sign-up'
       }
