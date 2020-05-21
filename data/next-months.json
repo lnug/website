@@ -1,16 +1,21 @@
 [
     {
-        "date": "March 2020",
+        "date": "May 2020",
         "speakers": [
             {
-                "name": "Thomas Schoffelen",
-                "url": "https://github.com/tschoffelen",
-                "title": "Transactional emails at scale"
+                "name": "Anna Henningsen",
+                "url": "https://github.com/addaleax",
+                "title": "11 years of Node: Let&rsquo;s have an honest conversation"
             },
             {
-                "name": "Bernard Baker",
-                "url": "https://github.com/bernardbaker",
-                "title": "Authentication &amp;&amp; Serverless &amp;&amp; Node"
+                "name": null,
+                "url": "https://github.com/tamartwe",
+                "title": "Writing A CPU Intensive Node.js Server With Worker Threads API"
+            },
+            {
+                "name": "David Gonzalez",
+                "url": "https://github.com/dgonzalez",
+                "title": "How to write a DevOps friendly Node application"
             }
         ]
     }

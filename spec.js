@@ -42,14 +42,14 @@ module.exports = {
           '.detail': venue.detail,
           'address': venue.address.join('<br />'),
           '.address a': {
-            href: 'https://www.youtube.com/channel/UC-qjgj2TnRoI1ZmFFaN3FeQ'
+            href: 'https://live.remo.co/e/lnug-meetup'
           }
         }
       },
-      // '.lnug-content': {
-      //   component: 'speaker',
-      //   data: speakerSelectors()
-      // },
+      '.lnug-content': {
+        component: 'speaker',
+        data: speakerSelectors()
+      },
       '.lnug-mailing-list': {
         component: 'sign-up'
       }

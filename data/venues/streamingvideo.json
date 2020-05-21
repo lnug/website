@@ -1,9 +1,9 @@
 {
   "title": "Live feed",
   "address": [
-    "YouTube"
+    "live.remo.co/e/lnug-meetup"
   ],
-  "about": "This month we are meeting remotely. The feed will be hosted on the <a href='https://www.youtube.com/channel/UC-qjgj2TnRoI1ZmFFaN3FeQ'>The LNUG YouTube channel</a>",
+  "about": "This month we are meeting remotely. The feed will be hosted at <a href='https://live.remo.co/e/lnug-meetup'>Remo.co</a>",
   "location": {
     "wide": {
       "lat": "51.5021333",

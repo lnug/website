@@ -1,22 +1,32 @@
 [
     {
-        "apiSpeakerUrl": "https://api.github.com/users/tschoffelen",
-        "speakerUrl": "https://github.com/tschoffelen",
-        "title": "Transactional emails at scale",
-        "description": "<p>Almost all tech startups send out a bunch of emails to their users. Many of those will be based on certain triggers, like creating accounts, new posts, invoice creation, etc. Based on my experience building some companies and apps that rely heavily on transactional emails, I&#39;d like to talk about how to manage and structure those.</p>\n<ul>\n<li>Building and managing templates with involvement of stakeholders (marketing/partnerships team, designers, etc.)</li>\n<li>My solution: Macaw (<a href=\"https://github.com/macaw-email/macaw\">repo</a> | <a href=\"https://schof.co/macaw\">blog</a>) - a Node.js toolset to streamline email sending and template management</li>\n<li>Setting up an email sending flow in your serverless app</li>\n<li>(optional - depending on time) Ensuring your emails arrive: your own IP address, SPF and DKIM, reply-to, etc.</li>\n</ul>\n<h2 id=\"bio\">Bio</h2>\n<p>Starting my first tech company at age 16, I&#39;ve co-founded several startups that focus on improving communication and helping small businesses, including <a href=\"https://near.st\">NearSt</a>, which partners with Google to help local shops make their products searchable and <a href=\"https://infowijs.nl\">Infowijs</a>, which helps Dutch high schools communicate better with their students, parents and teachers.</p>\n<p>I&#39;m on Twitter as <a href=\"https://twitter.com/tschoffelen\">@tschoffelen</a>.</p>\n<hr>\n<p>I confirm my talk is 20 mins long in total.&#10;I confirm that I will abide by the Code of Conduct.</p>\n",
-        "milestone": "March 25th 2020",
-        "img": "https://avatars3.githubusercontent.com/u/666220?v=4&s=40",
-        "handle": "tschoffelen",
-        "name": "Thomas Schoffelen"
+        "apiSpeakerUrl": "https://api.github.com/users/addaleax",
+        "speakerUrl": "https://github.com/addaleax",
+        "title": "11 years of Node: Let&rsquo;s have an honest conversation",
+        "description": "<p>Node.js has been around for a long time now, and it&rsquo;s worth looking at what went great, what went well, what didn&rsquo;t go so well, and where we&rsquo;ll go from here.&#10;Having been a core contributor for a long time now, I&rsquo;ll reflect on the processes around Node.js and the results we&rsquo;re getting out of them, and try to have an honest conversation on where the community stands and how fresh new projects like deno will change the landscape of JS outside of the browser.</p>\n<hr>\n<p>Over the last 4 years, Anna has been one of the most active contributors to Node.js core. She is fueled by a passion for Node.js and its community.</p>\n<p><a href=\"https://twitter.com/addaleax\">@addaleax</a> on twitter, working at <a href=\"https://www.nearform.com/\">NearForm</a></p>\n",
+        "milestone": "May 27th 2020",
+        "img": "https://avatars2.githubusercontent.com/u/899444?v=4&s=40",
+        "handle": "addaleax",
+        "name": "Anna Henningsen"
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/bernardbaker",
-        "speakerUrl": "https://github.com/bernardbaker",
-        "title": "Authentication &amp;&amp; Serverless &amp;&amp; Node",
-        "description": "<p>Auth0 is a leading world class authentification platform. And I&#39;d like to present it using Node and Serverless.</p>\n<p>Regular methods of authentication include setting up a custom authentification API, user, session and token management. Which is time consuming, not productive and plainly put, not very secure if a solution doesn&#39;t aspire to RFC specifications.</p>\n<p>In my talk I will present to the audience; Auth0 as a solution, Netlify serverless functions, a Node API implementation of passwordless authentication, and basic API endpoint protection using JWT.</p>\n<p>I&#39;m Bernard, I&#39;m working for myself. An e-commerce startup. <a href=\"https://twitter.com/bernibear2000\">@bernibear2000</a>.</p>\n",
-        "milestone": "March 25th 2020",
-        "img": "https://avatars2.githubusercontent.com/u/13556172?v=4&s=40",
-        "handle": "bernardbaker",
-        "name": "Bernard Baker"
+        "apiSpeakerUrl": "https://api.github.com/users/tamartwe",
+        "speakerUrl": "https://github.com/tamartwe",
+        "title": "Writing A CPU Intensive Node.js Server With Worker Threads API",
+        "description": "<p>Node.js provides the developer a system with single threaded event loop architecture, that provides non blocking I/O mechanism. This work great until we get to CPU intensive tasks. In this case, Node doesn&rsquo;t perform up to mark. This has changed with the release of the worker threads in latest Node versions. We can use threads and write CPU intensive code in Node. This can make Node popular in many other fields of software development, starting from algorithms , AI , complicated computations and more. In this talk I will go over the concept, API and architecture of worker threads. I will show a demo of a Node server that implements CPU intensive task , to assist you to retain a cool new ability to you Node.js coding skills</p>\n<hr>\n<p>I am a software manager and architect. In the past, I managed large development teams, and was a CTO of a start up of my own. I have a decade of software engineering experience in various technologies: Server side, big data, mobile, web technologies, and security. I am currently focusing on Node.js, and have a deep knowledge of Node.js server architecture and Node.js performance optimizations.</p>\n<p><a href=\"https://twitter.com/SternTwena\">@SternTwena</a> on twitter</p>\n",
+        "milestone": "May 27th 2020",
+        "img": "https://avatars2.githubusercontent.com/u/39020547?v=4&s=40",
+        "handle": "tamartwe",
+        "name": null
+    },
+    {
+        "apiSpeakerUrl": "https://api.github.com/users/dgonzalez",
+        "speakerUrl": "https://github.com/dgonzalez",
+        "title": "How to write a DevOps friendly Node application",
+        "description": "<p>DevOps is a necessity nowadays. It is not a job title itself but a set of practices, many of them spanning across development. It is extremely important that the applications that we write are adapted to run in a DevOps environment:</p>\n<ul>\n<li>Monitoring</li>\n<li>Process management</li>\n<li>Log aggregation\nAre only few of the aspects to be considered when building a Node application in order to succeed on DevOps environments, specially containers and Kubernetes.</li>\n</ul>\n<hr>\n<p>David Gonzalez is a DevOps Architect at NearForm, building systems at scale for our customers. He is also a Google Developer Expert on Kubernetes and avid coder. Author of three books around microservices and DevOps, he is always challenging the comfort zone of his day to day work finding new ways of delivering highly transactional systems.</p>\n<ul>\n<li>Twitter: <a href=\"https://twitter.com/dagonzago\">@dagonzago</a></li>\n<li><a href=\"https://www.linkedin.com/in/david-gonzalez-microservices/\">LinkedIn</a></li>\n<li>GitHub: <a href=\"https://github.com/dgonzalez\">@dgonzalez</a></li>\n</ul>\n",
+        "milestone": "May 27th 2020",
+        "img": "https://avatars2.githubusercontent.com/u/123962?v=4&s=40",
+        "handle": "dgonzalez",
+        "name": "David Gonzalez"
     }
 ]
