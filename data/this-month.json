@@ -1,32 +1,22 @@
 [
     {
-        "apiSpeakerUrl": "https://api.github.com/users/addaleax",
-        "speakerUrl": "https://github.com/addaleax",
-        "title": "11 years of Node: Let&rsquo;s have an honest conversation",
-        "description": "<p>Node.js has been around for a long time now, and it&rsquo;s worth looking at what went great, what went well, what didn&rsquo;t go so well, and where we&rsquo;ll go from here.&#10;Having been a core contributor for a long time now, I&rsquo;ll reflect on the processes around Node.js and the results we&rsquo;re getting out of them, and try to have an honest conversation on where the community stands and how fresh new projects like deno will change the landscape of JS outside of the browser.</p>\n<hr>\n<p>Over the last 4 years, Anna has been one of the most active contributors to Node.js core. She is fueled by a passion for Node.js and its community.</p>\n<p><a href=\"https://twitter.com/addaleax\">@addaleax</a> on twitter, working at <a href=\"https://www.nearform.com/\">NearForm</a></p>\n",
-        "milestone": "May 27th 2020",
-        "img": "https://avatars2.githubusercontent.com/u/899444?v=4&s=40",
-        "handle": "addaleax",
-        "name": "Anna Henningsen"
+        "apiSpeakerUrl": "https://api.github.com/users/arismarko",
+        "speakerUrl": "https://github.com/arismarko",
+        "title": "How to develop a emergency website using Prisma2 ORM, NodeJS, NextJS and deploy it in heroku, and Zeit",
+        "description": "<p>On those critical times, I took the chance to learn something new and tried to PRISMA 2, to create a small website, that shows where there are supplies [Bread, Pasta and ToiletRolls]. </p>\n<p>I will go through all the difficulties of developing the app as Prisma2 is still in development, and how to deploy the app in Heroku. </p>\n<p>For the frontend I used NextJS that connects to a nodejs API (very simple) that uses the Prisma client. </p>\n<p>Aris is a developer for a number of years in FullStack development and a servant of the London&#39;s community powering <a href=\"https://cityjsconf.org\">CityJS</a> and <a href=\"https://www.meetup.com/js-monthly/\">JSMonthly</a>. </p>\n",
+        "milestone": "June 24th 2020",
+        "img": "https://avatars0.githubusercontent.com/u/281849?v=4&s=40",
+        "handle": "arismarko",
+        "name": "Aris Markogiannakis"
     },
     {
-        "apiSpeakerUrl": "https://api.github.com/users/tamartwe",
-        "speakerUrl": "https://github.com/tamartwe",
-        "title": "Writing A CPU Intensive Node.js Server With Worker Threads API",
-        "description": "<p>Node.js provides the developer a system with single threaded event loop architecture, that provides non blocking I/O mechanism. This work great until we get to CPU intensive tasks. In this case, Node doesn&rsquo;t perform up to mark. This has changed with the release of the worker threads in latest Node versions. We can use threads and write CPU intensive code in Node. This can make Node popular in many other fields of software development, starting from algorithms , AI , complicated computations and more. In this talk I will go over the concept, API and architecture of worker threads. I will show a demo of a Node server that implements CPU intensive task , to assist you to retain a cool new ability to you Node.js coding skills</p>\n<hr>\n<p>I am a software manager and architect. In the past, I managed large development teams, and was a CTO of a start up of my own. I have a decade of software engineering experience in various technologies: Server side, big data, mobile, web technologies, and security. I am currently focusing on Node.js, and have a deep knowledge of Node.js server architecture and Node.js performance optimizations.</p>\n<p><a href=\"https://twitter.com/SternTwena\">@SternTwena</a> on twitter</p>\n",
-        "milestone": "May 27th 2020",
-        "img": "https://avatars2.githubusercontent.com/u/39020547?v=4&s=40",
-        "handle": "tamartwe",
-        "name": null
-    },
-    {
-        "apiSpeakerUrl": "https://api.github.com/users/dgonzalez",
-        "speakerUrl": "https://github.com/dgonzalez",
-        "title": "How to write a DevOps friendly Node application",
-        "description": "<p>DevOps is a necessity nowadays. It is not a job title itself but a set of practices, many of them spanning across development. It is extremely important that the applications that we write are adapted to run in a DevOps environment:</p>\n<ul>\n<li>Monitoring</li>\n<li>Process management</li>\n<li>Log aggregation\nAre only few of the aspects to be considered when building a Node application in order to succeed on DevOps environments, specially containers and Kubernetes.</li>\n</ul>\n<hr>\n<p>David Gonzalez is a DevOps Architect at NearForm, building systems at scale for our customers. He is also a Google Developer Expert on Kubernetes and avid coder. Author of three books around microservices and DevOps, he is always challenging the comfort zone of his day to day work finding new ways of delivering highly transactional systems.</p>\n<ul>\n<li>Twitter: <a href=\"https://twitter.com/dagonzago\">@dagonzago</a></li>\n<li><a href=\"https://www.linkedin.com/in/david-gonzalez-microservices/\">LinkedIn</a></li>\n<li>GitHub: <a href=\"https://github.com/dgonzalez\">@dgonzalez</a></li>\n</ul>\n",
-        "milestone": "May 27th 2020",
-        "img": "https://avatars2.githubusercontent.com/u/123962?v=4&s=40",
-        "handle": "dgonzalez",
-        "name": "David Gonzalez"
+        "apiSpeakerUrl": "https://api.github.com/users/craigtaub",
+        "speakerUrl": "https://github.com/craigtaub",
+        "title": "Under-the-hood of web bundlers",
+        "description": "<p>A look at the mechanisms inside web bundlers e.g Webpack.</p>\n<p>Starting with why they are still useful.</p>\n<p>Then how to build a small compiler, akin to Webpack. There are many interesting topics in a very small space here.</p>\n<p>Next how to use the output of our compiler with an application.</p>\n<p>Finishing with all the additional parts Webpack does which ours doesn&#39;t, hopefully with some idea on how those could be done.</p>\n<h2 id=\"about-me\">About me</h2>\n<p>I&#39;m a senior developer at Nested with over 10 years experience. We do dev team talks every week and I have taken a couple, usually on the &quot;under-the-hood of&quot; theme. I was previously at the BBC.</p>\n<p>My medium page is <a href=\"https://medium.com/@tabu_craig\">https://medium.com/@tabu_craig</a>, I enjoy blogging.</p>\n",
+        "milestone": "June 24th 2020",
+        "img": "https://avatars1.githubusercontent.com/u/3532787?v=4&s=40",
+        "handle": "craigtaub",
+        "name": "Craig Taub"
     }
 ]

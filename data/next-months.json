@@ -1,21 +1,16 @@
 [
     {
-        "date": "May 2020",
+        "date": "June 2020",
         "speakers": [
             {
-                "name": "Anna Henningsen",
-                "url": "https://github.com/addaleax",
-                "title": "11 years of Node: Let&rsquo;s have an honest conversation"
+                "name": "Aris Markogiannakis",
+                "url": "https://github.com/arismarko",
+                "title": "How to develop a emergency website using Prisma2 ORM, NodeJS, NextJS and deploy it in heroku, and Zeit"
             },
             {
-                "name": null,
-                "url": "https://github.com/tamartwe",
-                "title": "Writing A CPU Intensive Node.js Server With Worker Threads API"
-            },
-            {
-                "name": "David Gonzalez",
-                "url": "https://github.com/dgonzalez",
-                "title": "How to write a DevOps friendly Node application"
+                "name": "Craig Taub",
+                "url": "https://github.com/craigtaub",
+                "title": "Under-the-hood of web bundlers"
             }
         ]
     }
