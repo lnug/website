@@ -42,7 +42,7 @@ module.exports = {
           '.detail': venue.detail,
           'address': venue.address.join('<br />'),
           '.address a': {
-            href: 'https://live.remo.co/e/lnug-meetup'
+            href: 'https://live.remo.co/e/lnug-meetup-june'
           }
         }
       },
