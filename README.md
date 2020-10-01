@@ -59,7 +59,6 @@ There are plans to automate this also.
 
 ## Ways to update
  * Bump version number in ./client/service-worker.js
- *
 
 ### For the image-gallery:
 Just add the URLS to the images inside file `api\gallery.json`.
