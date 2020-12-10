@@ -844,7 +844,7 @@ function isString(value) {
 module.exports = isString;
 
 },{}],18:[function(require,module,exports){
-(function (process){
+(function (process){(function (){
 // .dirname, .basename, and .extname methods are extracted from Node.js v8.11.1,
 // backported and transplited with Babel, with backwards-compat fixes
 
@@ -1148,7 +1148,7 @@ var substr = 'ab'.substr(-1) === 'b'
     }
 ;
 
-}).call(this,require('_process'))
+}).call(this)}).call(this,require('_process'))
 },{"_process":19}],19:[function(require,module,exports){
 // shim for using process in browser
 var process = module.exports = {};
@@ -1698,7 +1698,7 @@ var speclateFetch = require('speclate-fetch')
 exports.readFile = speclateFetch.readFile
 
 },{"speclate-fetch":28}],30:[function(require,module,exports){
-(function (process){
+(function (process){(function (){
 'use strict'
 
 // prepare a file path for use in speclate
@@ -1718,7 +1718,7 @@ module.exports = function (url) {
   return path.join(folder, url)
 }
 
-}).call(this,require('_process'))
+}).call(this)}).call(this,require('_process'))
 },{"_process":19,"path":18}],31:[function(require,module,exports){
 'use strict'
 
