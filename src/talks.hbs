@@ -1,0 +1,24 @@
+---
+layout: layout.hbs
+---
+<div class="talks-intro">
+    <h2>LNUG talks archive </h2>
+
+    <p>Apart from our recent lockdown break, we've been hosting node.js meetups on the 4th Wednesday of every month since late 2011. Many of these have been captured on video. Many, alas, have been lost. Sorry, you had to be there.</p>
+
+    <p>Scroll below for videos of talks from over the years. </p>
+</div>
+
+
+<div class="talks-list">
+    {{#each videoTalks}}
+    <div class="talk-link">
+        <a href="/talks/{{slugify this.title}}-{{this.videoId}}">
+            <div class="talk-date">{{ talkdateformat this.date}}</div>
+            <h3>{{this.title}}</h3>
+            <div class="talk-thumbnail"><img src="{{this.thumbnailUrl}}" alt="{{this.title}}"  /></div>
+            <div class="talk-description">{{this.description}}</div>
+        </a>
+    </div>
+    {{/each}}
+</div>

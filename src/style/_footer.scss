@@ -1,0 +1,34 @@
+
+footer a {
+  text-decoration: none;
+  padding: 2em 0;
+  color: inherit;
+}
+
+footer {
+  padding-bottom: 3em;
+  text-align: left;
+  color: #dedede;
+  padding: 1em 0;
+  color: #fff;
+  text-align: center;
+//  background-color: #46483d;
+}
+
+.footer-logo {
+  height: 70px;
+}
+
+.footer-links {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.footer-links li {
+  margin: 0;
+}
+
+.footer-links li a {
+  display: inline-block;
+  padding: 0.5em 0;
+}

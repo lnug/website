@@ -1,0 +1,2237 @@
+[
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "VNiPil6g5EBL9C55kZwhCKZq-X4",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLnV5QXRLYkR1eVIw",
+    "snippet": {
+      "publishedAt": "2020-07-29T15:29:06Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "How to develop an emergency website using Prisma2 ORM, NodeJS, NextJS and deploy it in heroku & Zeit",
+      "description": "Aris Markogiannakis\n\nOn those critical times, I took the chance to learn something new and tried to PRISMA 2, to create a small website, that shows where there are supplies [Bread, Pasta and ToiletRolls].\n\nI will go through all the difficulties of developing the app as Prisma2 is still in development, and how to deploy the app in Heroku.\n\nFor the frontend I used NextJS that connects to a nodejs API (very simple) that uses the Prisma client.\n\nAris is a developer for a number of years in FullStack development and a servant of the London's community powering CityJS and JSMonthly.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/uyAtKbDuyR0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/uyAtKbDuyR0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/uyAtKbDuyR0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/uyAtKbDuyR0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/uyAtKbDuyR0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 0,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "uyAtKbDuyR0"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "x5fSgt4EFGxZIscdNsWORg5AVyc",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLnhyZGFXSVhZMUhV",
+    "snippet": {
+      "publishedAt": "2020-07-29T15:34:28Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Under-the-hood of web bundlers - Craig Taub LNUG June 2020",
+      "description": "A look at the mechanisms inside web bundlers e.g Webpack.\n\nStarting with why they are still useful.\n\nThen how to build a small compiler, akin to Webpack. There are many interesting topics in a very small space here.\n\nNext how to use the output of our compiler with an application.\n\nFinishing with all the additional parts Webpack does which ours doesn't, hopefully with some idea on how those could be done.\n\nAbout me\nI'm a senior developer at Nested with over 10 years experience. We do dev team talks every week and I have taken a couple, usually on the \"under-the-hood of\" theme. I was previously at the BBC.\n\nI enjoy blogging at https://craigtaub.dev",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/xrdaWIXY1HU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/xrdaWIXY1HU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/xrdaWIXY1HU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/xrdaWIXY1HU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/xrdaWIXY1HU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 1,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "xrdaWIXY1HU"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "_0Q2uRc7fXTEGW3BGzJ7HgdnJC0",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLkdKTkpJMHZDMUFn",
+    "snippet": {
+      "publishedAt": "2020-05-28T18:13:08Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Writing A CPU Intensive Node.js Server With Worker Threads API - Tamar Twena Stern  (LNUG May 2020)",
+      "description": "Node.js provides the developer a system with single threaded event loop architecture, that provides non blocking I/O mechanism. This work great until we get to CPU intensive tasks. In this case, Node doesn’t perform up to mark. This has changed with the release of the worker threads in latest Node versions. We can use threads and write CPU intensive code in Node. This can make Node popular in many other fields of software development, starting from algorithms , AI , complicated computations and more. In this talk I will go over the concept, API and architecture of worker threads. I will show a demo of a Node server that implements CPU intensive task , to assist you to retain a cool new ability to you Node.js coding skills\n\nI am a software manager and architect. In the past, I managed large development teams, and was a CTO of a start up of my own. I have a decade of software engineering experience in various technologies: Server side, big data, mobile, web technologies, and security. I am currently focusing on Node.js, and have a deep knowledge of Node.js server architecture and Node.js performance optimizations.\n\n@SternTwena on twitter",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/GJNJI0vC1Ag/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/GJNJI0vC1Ag/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/GJNJI0vC1Ag/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/GJNJI0vC1Ag/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/GJNJI0vC1Ag/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 2,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "GJNJI0vC1Ag"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "mhL-w-YRM0VzjkV4Bc82G86pjqc",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLlR0aHVlUmd2VlE0",
+    "snippet": {
+      "publishedAt": "2020-05-28T18:09:51Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "11 years of Node: Let’s have an honest conversation - Anna Henningsen (LNUG May 2020)",
+      "description": "Node.js has been around for a long time now, and it’s worth looking at what went great, what went well, what didn’t go so well, and where we’ll go from here. Having been a core contributor for a long time now, I’ll reflect on the processes around Node.js and the results we’re getting out of them, and try to have an honest conversation on where the community stands and how fresh new projects like deno will change the landscape of JS outside of the browser.\n\nOver the last 4 years, Anna has been one of the most active contributors to Node.js core. She is fueled by a passion for Node.js and its community.\n\n@addaleax on twitter, working at NearForm",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/TthueRgvVQ4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/TthueRgvVQ4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/TthueRgvVQ4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/TthueRgvVQ4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/TthueRgvVQ4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 3,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "TthueRgvVQ4"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "3eyVBSQTqiV_FM4UZ6Ta3KcvDmM",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLjhNbVowcWgtVGkw",
+    "snippet": {
+      "publishedAt": "2020-05-28T18:11:54Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "How to write a DevOps friendly Node application -  David Gonzalez  (LNUG May 2020)",
+      "description": "[Editor's note: apologies, we lost the last couple minutes of the talk - but the best bits are here :)]\n\nDevOps is a necessity nowadays. It is not a job title itself but a set of practices, many of them spanning across development. It is extremely important that the applications that we write are adapted to run in a DevOps environment:\n\nMonitoring\nProcess management\nLog aggregation Are only few of the aspects to be considered when building a Node application in order to succeed on DevOps environments, specially containers and Kubernetes.\nDavid Gonzalez is a DevOps Architect at NearForm, building systems at scale for our customers. He is also a Google Developer Expert on Kubernetes and avid coder. Author of three books around microservices and DevOps, he is always challenging the comfort zone of his day to day work finding new ways of delivering highly transactional systems.\n\nTwitter: @dagonzago\nLinkedIn\nGitHub: @dgonzalez",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/8MmZ0qh-Ti0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/8MmZ0qh-Ti0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/8MmZ0qh-Ti0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/8MmZ0qh-Ti0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/8MmZ0qh-Ti0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 4,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "8MmZ0qh-Ti0"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "jLyCFMXpNQni8DJdNcM4_U06o4A",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLk9KYWR3R050eTc4",
+    "snippet": {
+      "publishedAt": "2020-04-15T15:37:00Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Bernard Baker - Authentication && Serverless && Node - LNUG #93 - March 2020 - The Remote Edition",
+      "description": "Auth0 is a leading world class authentification platform. And I'd like to present it using Node and Serverless.\n\nRegular methods of authentication include setting up a custom authentification API, user, session and token management. Which is time consuming, not productive and plainly put, not very secure if a solution doesn't aspire to RFC specifications.\n\nIn my talk I will present to the audience; Auth0 as a solution, Netlify serverless functions, a Node API implementation of passwordless authentication, and basic API endpoint protection using JWT.\n\nI'm Bernard, I'm working for myself. An e-commerce startup. @bernibear2000.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/OJadwGNty78/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/OJadwGNty78/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/OJadwGNty78/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/OJadwGNty78/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/OJadwGNty78/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 5,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "OJadwGNty78"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "yjDbpy120BWahMFmI578xwbl-JA",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLjNoNUw2N3ZvdWZJ",
+    "snippet": {
+      "publishedAt": "2020-04-15T15:40:15Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Thomas Schoffelen - Transactional emails at scale LNUG #93 - March 2020 - The Remote Edition",
+      "description": "Almost all tech startups send out a bunch of emails to their users. Many of those will be based on certain triggers, like creating accounts, new posts, invoice creation, etc. Based on my experience building some companies and apps that rely heavily on transactional emails, I'd like to talk about how to manage and structure those.\n\nBuilding and managing templates with involvement of stakeholders (marketing/partnerships team, designers, etc.)\nMy solution: Macaw (repo | blog) - a Node.js toolset to streamline email sending and template management\nSetting up an email sending flow in your serverless app\n(optional - depending on time) Ensuring your emails arrive: your own IP address, SPF and DKIM, reply-to, etc.\nBio\n\nStarting my first tech company at age 16, I've co-founded several startups that focus on improving communication and helping small businesses, including NearSt, which partners with Google to help local shops make their products searchable and Infowijs, which helps Dutch high schools communicate better with their students, parents and teachers.\n\nI'm on Twitter as @tschoffelen.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/3h5L67voufI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/3h5L67voufI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/3h5L67voufI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/3h5L67voufI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/3h5L67voufI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 6,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "3h5L67voufI"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "jTRIzee05T9ZCGJUhBVjzb86KFE",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLnBQS2c4czNJM3pj",
+    "snippet": {
+      "publishedAt": "2020-03-25T20:09:21Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "The mergence of Graphql and Serverless",
+      "description": "In this talk we'll go over why these two technologies (Graphql & Serverless) have drastically gained popularity and what problems they were made to solve. Then we'll go through how the two can be used together and I'll do a little demo with the Serverless framework\n\nI've been a professional developer for about 3 years. In that time I've worked for small startups to large corporations. List includes Ruuby, Sky and Eurostar to name a few.\nTwitter handle is @shadrech17",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/pPKg8s3I3zc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/pPKg8s3I3zc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/pPKg8s3I3zc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/pPKg8s3I3zc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/pPKg8s3I3zc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 7,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "pPKg8s3I3zc"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "nayEeTBNB_JcrAxlsX6lPEDs6YY",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLnlIQkpWNFFHU3JN",
+    "snippet": {
+      "publishedAt": "2020-03-25T20:12:05Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Coronavirus News A Practical Guide for Building Alexa Skills",
+      "description": "There is a lot of noise about the Coronavirus for a few latest weeks.\nI've created a simple Alexa Skill which provides users with the latest update about the figures. Here it is https://www.amazon.co.uk/Artsiom-Mezin-Coronavirus-News/dp/B084M81B6Q\n\nHowever, it feels like there are tons of stuff that could be improved.\nI'd like to talk about the following things:\n\nHow to design and implement an Alexa app for less than one weekend?\nWhat to expect from validation and rolling out processes?\nWhere to get and how to store the data?\nHow to automate the routine?\nHow this sort of app can help people?\nWhat else could be done?\nI am eager to collaborate!\nGiven the fact that I'm doing this in a little rush, it feels more like a lightning talk.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/yHBJV4QGSrM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/yHBJV4QGSrM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/yHBJV4QGSrM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/yHBJV4QGSrM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/yHBJV4QGSrM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 8,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "yHBJV4QGSrM"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "hDnuU0NQFowcRDZstLrPD0xcEFA",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLlZWOS1wTHpfNkJv",
+    "snippet": {
+      "publishedAt": "2020-03-23T23:35:45Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "LNUG #93 - (FULL STREAM) March 2020 - The Remote Edition",
+      "description": "We will not be meeting in person this month, alas no beer or pizza - you'll have to get your own and join us as we meet online with talks starting at 6:30pm UK time.\n\nThis is the unaltered live stream - see the other videos in this playlist fo the  individual talks.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/VV9-pLz_6Bo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/VV9-pLz_6Bo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/VV9-pLz_6Bo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/VV9-pLz_6Bo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/VV9-pLz_6Bo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 9,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "VV9-pLz_6Bo"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "Fbvxdyc1L71SeXMp5X9UdqwyZkI",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLjFUbEFLVHcxNjdz",
+    "snippet": {
+      "publishedAt": "2020-02-18T13:35:38Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "QEWD-JSdb: It's a Database, Jim, but not as we know it! - Rob Tweed at LNUG, Jan 2020",
+      "description": "QEWD-JSdb is a new concept for databases in Node.js. Although it's implemented on top of two incredibly fast, industrial-strength (though little-known) physical database technologies (the Open Source YottaDB and the proprietary IRIS databases), QEWD-JSdb abstracts their underlying hierarchical physical storage as on-disk JavaScript objects, blurring the boundary between what's in-memory and what's on-disk.\n\nWith QEWD-JSdb, the database is no longer something that exists on another server, no longer effectively a separate technology that you access via a network connection using its in-built APIs, and which imposes on you a database model over which you have no control. Let's face it: most mainstream databases are \"one trick ponies\" that model data in one particular way: fine if all your database requirements fit that model, but most likely you'll have circumstances that mean you either end up consuming valuable time fighting that model to fit your needs. or end up having to support multiple databases with all the resulting additional pain, aggravation and maintenance overhead.\n\nWith QEWD-JSdb, there's none of those restrictions and annoyances: your persistent data and its modelling is in your direct control within your Node.js processes! As far as you're concerned, you're just dealing with JavaScript objects/JSON, but rather than being in-memory, they happen to be on-disk!\n\nBut you're not limited to persistent JSON: it's easy to model pretty much any type of database, both NoSQL and Relational/SQL on top of the basic persistent JSON data structures. In fact, QEWD-JSdb comes with some already created for you to use and/or explore, including:\n\nRedis-like Key/Value (actually Key/Object) store\nRedis-like Lists\nDocument/JSON database storage\nXML DOM database storage via the DOM API, with XPath querying\nRelational with SQL read/write access\nOnce you're familiar with the basics of QEWD-JSdb, you can create your own custom database model if the built-in models don't meet your needs: no more time wasted fighting the database!\n\nIt's even possible to simultaneously apply different database models to the same physical QEWD-JSdb data!\n\nAll sounds too good to be true? Come and find out at Rob's talk on QEWD-JSdb.\n\nRob Tweed (@rtweed) is a Director of M/Gateway Developments Ltd, and has been part of the LNUG scene since its earliest days - he was one of the speakers at its inaugural meeting, and has given a number of talks over the years, mainly focused on his Node.js-based QEWD technology/platform.\n\nRob has several decades of experience, developing and advising on real-world complex, business-critical applications around the world, in sectors such as healthcare IT, financial services and retail systems. He's specialised in database integration for Web and Internet technologies since the early days in the mid-90s, and has been immersed in Node.js since its earliest days in 2011!\n\nA keen proponent of Open Source software, you can find all his work (including QEWD-JSdb) at @robtweed",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/1TlAKTw167s/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/1TlAKTw167s/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/1TlAKTw167s/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/1TlAKTw167s/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/1TlAKTw167s/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 10,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "1TlAKTw167s"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "ilAWy1bj7X0t_2Ki30a-czfV5QQ",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLnhOMm1DbXozcmln",
+    "snippet": {
+      "publishedAt": "2020-02-18T13:31:01Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Introducing Bangle JS The Node Watch - admataz at LNUG - Jan 2020",
+      "description": "\"The world’s first hackable open source JavaScript-powered and TensorFlow-powered smartwatch\"\n\nNodewatch/ Bangle.js  was introduced as the conference badge at Nodeconf EU in November. A Kickstarter that followed was swiftly funded. \n\nI received my watch from NearForm in the post the other day - and I don't know what to do with it yet - but this is too good not to share for a quick lightning demo. \n\nAdam aka admataz is a core LNUG organiser, a hacker, and a software developer at NearForm\n\nSome links: \nhttps://nodewatch.dev\nhttps://www.nearform.com/blog/bangle-js-hackable-oss-js-and-tensorflow-smartwatch/\nhttps://nearform.com\nhttps://admataz.com",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/xN2mCmz3rig/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/xN2mCmz3rig/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/xN2mCmz3rig/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 11,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "xN2mCmz3rig"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "-l664JAJqKrpzKFH74bN9gTKKgs",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLi1XRGlRSjB6cU5F",
+    "snippet": {
+      "publishedAt": "2020-01-24T08:42:33Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "A hundred players - multiplayer simultaneous game in node.js (@admataz)",
+      "description": "Adam Davis (admataz) explores the pusher.com Channels and messaging platform with a game developed using svelte.js and fastify.js - getting the audience to join and play. A talk for London Node User Group (LNUG) in November 2019",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/-WDiQJ0zqNE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/-WDiQJ0zqNE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/-WDiQJ0zqNE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/-WDiQJ0zqNE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/-WDiQJ0zqNE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 12,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "-WDiQJ0zqNE"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "MGBI5aOY6TOuSCgwaaIJeewwxLQ",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLnZEN0xST0lTYUxR",
+    "snippet": {
+      "publishedAt": "2020-01-24T08:39:56Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Step aside chat ops, Bat Ops is the future. (@star_suit)",
+      "description": "Lightning talk at LNUG - November 2019",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/vD7LROISaLQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/vD7LROISaLQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/vD7LROISaLQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/vD7LROISaLQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/vD7LROISaLQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 13,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "vD7LROISaLQ"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "Q7TbPKNtsUdsbleBiDQ4yhrce7Y",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLnNnQXhLLU1XQ1A4",
+    "snippet": {
+      "publishedAt": "2020-01-06T01:00:26Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Hew Ingram (@hewIngram ): \"A talk not at all about node...\"",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/sgAxK-MWCP8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/sgAxK-MWCP8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/sgAxK-MWCP8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/sgAxK-MWCP8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/sgAxK-MWCP8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 14,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "sgAxK-MWCP8"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "84XDlqrhFrVnZbGnA32Ttq9Tp7U",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLmp5aFFLWEYtRkU4",
+    "snippet": {
+      "publishedAt": "2020-01-06T00:59:02Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Lucas Fernandes da Costa (@lucasfcosta): \"How I’m Still not Using GUIs in 2019\"",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/jyhQKXF-FE8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/jyhQKXF-FE8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/jyhQKXF-FE8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/jyhQKXF-FE8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/jyhQKXF-FE8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 15,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "jyhQKXF-FE8"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "Ou_oj3VVYxtKybZBFs_Slx-lSoM",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLkcySWlZTVNTUHlR",
+    "snippet": {
+      "publishedAt": "2020-01-06T01:01:53Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Diogo (@diogofcunha): \"Async generators in real life\"",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/G2IiYMSSPyQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/G2IiYMSSPyQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/G2IiYMSSPyQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/G2IiYMSSPyQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/G2IiYMSSPyQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 16,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "G2IiYMSSPyQ"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "12Q_Zhu8yOy6zBCnM1eutHrY5Uc",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLk9zMWpmbFdzS3VR",
+    "snippet": {
+      "publishedAt": "2020-01-06T00:57:34Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Enrique Lacal (@EnriqueL8) : \"Simplify deploying cloud-native apps to Kubernetes\"",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/Os1jflWsKuQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Os1jflWsKuQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Os1jflWsKuQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Os1jflWsKuQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/Os1jflWsKuQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 17,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "Os1jflWsKuQ"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "DMMZwu7RvprKFOdlRSaKfTusT-8",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLjE2SE5iOGhpUVRN",
+    "snippet": {
+      "publishedAt": "2020-01-06T00:51:20Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Beth Griggs (@BethGriggs) : \"What's new to LTS with Node.js 12\"",
+      "description": "LNUG lightning talks - October 2019",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/16HNb8hiQTM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/16HNb8hiQTM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/16HNb8hiQTM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/16HNb8hiQTM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/16HNb8hiQTM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 18,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "16HNb8hiQTM"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "nLSJdRQvMR08Wx4CIjUPteivFRE",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLnNMd2pYampaOUhz",
+    "snippet": {
+      "publishedAt": "2019-10-04T21:37:44Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Transformational Operations   September 2019",
+      "description": "You often want to build an app as quickly as possible. To get some kind of MVP in the hands of users, giving them value and something for you to incrementally improve. Most features can come later, but if you ever intend to offer a shared editing experience of any kind, you really need to think about it up front.\n\nAt Threads Styling we were faced with such a prospect when planning their Social Story builder. Having worked with CMSs in the past, we knew the pain of managing document locks with all their edge cases. We also knew that eventually the use case will arise to concurrently edit the document, and if you haven’t planned for it, it is a monumental task.\n\nBy treating the document as a stream of JSON patch changes from the very beginning, we were able to offer real-time collaborative editing with conflict resolution smoothly handled by an Operational Transformation algorithm. In this talk, Jason will discuss the concepts involved and demonstrate a simple, but working example of a shared document using our open source library.\n\nBy Jason Green, Principal Developer at Threads Styling - Twitter: @aziraphael",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/sLwjXjjZ9Hs/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/sLwjXjjZ9Hs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/sLwjXjjZ9Hs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/sLwjXjjZ9Hs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/sLwjXjjZ9Hs/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 19,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "sLwjXjjZ9Hs"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "97uYr3cFDWNCmwH_dHvt1_yFJ48",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLl9yNGVtRFdsQXBB",
+    "snippet": {
+      "publishedAt": "2019-10-04T21:24:17Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Managing Multiple NPM Modules in a Single Repo   September 2019",
+      "description": "### Abstract\n\nEver since the start of [Node-RED](https://nodered.org), the runtime and editor components have been packaged together as a single blob of npm module.\n\nWith the 0.20 release we split the internals apart into 6 separate new npm modules, along with the original node-red module to glue it all back together - and we did it without end users ever knowing (apart from us talking about it at every chance we got).\n\nThis talk reveals how we went about this refactoring and the challenges of managing multiple modules in a single repo. I'll talk about why we ultimately decided not to use one of the various mono-repo tools, such as Lerna, and ultimately decided to roll our own approach.\n\n### About me\n\nI'm an Open Source developer at IBM and the creator of Node-RED.\nI can be found online as @knolleary in lots of the usual places.\n\nI presented about Node-RED at LNUG in its very early days of September 2013, not long after we'd first open sourced it.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/_r4emDWlApA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/_r4emDWlApA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/_r4emDWlApA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/_r4emDWlApA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/_r4emDWlApA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 20,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "_r4emDWlApA"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "MHOD91IH9d_hSPd9a53f50gPVi4",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLlFyYi1nd2xCVXpv",
+    "snippet": {
+      "publishedAt": "2019-09-16T10:01:00Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Security in Node JS   - Forbes Lindesay- August 2019 1",
+      "description": "While working on large node.js projects, I’ve noticed that there is no clear answer to common questions like “how do I securely store passwords”. I’ve also noticed that all the popular frameworks lack key security features such as CSRF protection and Rate Limiting by default. It’s really easy to get security wrong, and it’s not your fault that this is so difficult.\n\nIn this talk, I’ll present some practical steps you can take to secure your applications, including protecting against some of the most common attack vectors. I’ll also attempt to inspire you to think differently about what the defaults should be when you build new applications and libraries. We can make our code default to security; it doesn’t have to be this way.\n\nI'm a tech lead at Threads Styling and maintain several large open source projects, such as Pug, [@authentication](https://www.atauthentication.com/) and [@databases](https://www.atdatabases.org/). My twitter handle is @ForbesLindesay",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/Qrb-gwlBUzo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Qrb-gwlBUzo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Qrb-gwlBUzo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Qrb-gwlBUzo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/Qrb-gwlBUzo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 21,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "Qrb-gwlBUzo"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "m4UrtZsUM-DAXQyrhdShApNDnqM",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLmRwYzE2SDFEOTBF",
+    "snippet": {
+      "publishedAt": "2019-09-16T09:33:49Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Indie Hacking with Postgraphile  Thomas Ankcorn  August 2019",
+      "description": "Sometimes I get jealous of the speed people can build complex apps with things like laravel/rails. Node is a great run time but it is arguably a more complex choice for your tech stack, there is no standout MVC framework that does it all for you, instead, there are lots of small specialised tools. I want to talk about one of those. It’s called [Postgraphile](https://www.graphile.org/). It lets you generate a GraphQL API from a schema in a Postgres database. By writing just a little SQL you can create an application that would take a long time to create normally!\n\nI'm going to show you how you can use it to build a meetup.com clone complete with JWT based authentication, real-time meetup ratings, and role-based access control. \n\nI'm a senior software engineer at Near.st. We are building a real-time local inventory data platform to help small businesses fight back against the growth of online shopping. Outside of work, I'm chasing my life long dream of having a dog, and building silly things with javascript. [Follow me on twitter](https://twitter.com/thomasankcorn)",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/dpc16H1D90E/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/dpc16H1D90E/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/dpc16H1D90E/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/dpc16H1D90E/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/dpc16H1D90E/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 22,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "dpc16H1D90E"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "Mj443U7hPkL19vBtAkqSRuK0ZYg",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLlpydHFyeF9wY09Z",
+    "snippet": {
+      "publishedAt": "2019-08-07T16:52:36Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Robots and Food   London Node User Group - June 2019",
+      "description": "At Karakuri we build robots for the food industry. I would love to share a peek into our decentralised architecture and how the different robot components interact and communicate with each other. As the physical world is quite I/O heavy, Node.js (TypeScript) was a great choice as our main programming language/framework.\n\nhttps://www.linkedin.com/in/orfeonicolai/\nI'm a computer scientist with almost 20 years of industry experience. I have a double Masters degree in Innovation Design Engineering and am the course leader of the robotics course at the Imperial College Global Summer School. I work as Head of Software at Karakuri, a robotics startup. We just secured a seed funding round led by Ocado (https://techcrunch.com/2019/05/09/robotics-startups-wont-win-without-also-incorporating-ai-as-karakuris-fundraise-shows/?guccounter=1)",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/Zrtqrx_pcOY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Zrtqrx_pcOY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Zrtqrx_pcOY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Zrtqrx_pcOY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/Zrtqrx_pcOY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 23,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "Zrtqrx_pcOY"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "C5NS9-vXHZEqmep4EIr5ULS7nTE",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLkNnX3BzeXFKbzhJ",
+    "snippet": {
+      "publishedAt": "2019-08-07T15:33:02Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Preoccupy the User's Tab   London Node User Group   June 2019",
+      "description": "Remote desktop apps are widely used. All of them work pretty much the same way: you can see the user's desktop and control their mouse and keyboard. And one of the main purposes of using them is providing support to users. Assuming you are not Microsoft or RedHat probably you are interested only in resolving issues which are related to that piece of software that had been delivered by you. E.g. your web application.\n\nBut what if you can't obligate your users to install additional software only for support purposes? Or they simply don't want to install anything.\n\nI'm going to talk about how to add a remote control functionality to your web apps using pure JavaScript and native browser APIs.\n\nSPOILER: Even without using browser extensions!\n\nAbout me: I am a Senior Frontend Engineer at Behavox. I have almost 10 years of experience in JavaScript development behind my back. Originally I am from Minsk, Belarus. For now, working for a very promising AI company in London. And the topic of this talk is inspired by the real issue which we resolved recently.\n\nYou can find more about me on [LinkedIn](https://www.linkedin.com/in/artsiommezin/).",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/Cg_psyqJo8I/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Cg_psyqJo8I/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Cg_psyqJo8I/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Cg_psyqJo8I/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/Cg_psyqJo8I/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 24,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "Cg_psyqJo8I"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "cMS5lpIm3bAUZ23ILJ-wvLLPQpc",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLlRKSTFOemhEQUdF",
+    "snippet": {
+      "publishedAt": "2019-08-07T13:10:34Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Using ML in NodeJS - LNUG July 2019",
+      "description": "Abstract\n\nAn overview of ML in JS and what I was able to do with it.\n\nHow and why would you use Machine Learning in NodeJS.\n\nI’ll go over some general concepts in ML and then dive into how I leveraged limdu and created a multi-label classifier (called ac-learn) and how you can do the same. All while seeing how fun and amazing it can be.\n\nThe talk would be focused on giving you the pointers and tools to solve problems where ML is usually the best solution as well as how you can hit the ground running.\n\nAbout me\n\nI'm a Computer Science placement student working at BWC in Project Management, Web Dev and various other things (e.g. GDPR and IT support).\nI've been working with JS for about 7 years and with NodeJS for about 3 years and simply love almost everything about it.\n\nTwitter: @Berkmann18",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/TJI1NzhDAGE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/TJI1NzhDAGE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/TJI1NzhDAGE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/TJI1NzhDAGE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/TJI1NzhDAGE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 25,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "TJI1NzhDAGE"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "RuEXQiEG-ujUUncBMLfiQNGpGVY",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLjhoOE5JLTZ6dmEw",
+    "snippet": {
+      "publishedAt": "2019-08-07T12:53:49Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Create your own state management library - LNUG July 2019",
+      "description": "Abstract\n\nHow hard is it to make your own state management library? By using React hooks, Context and other open source projects you can easily build your own useful library.\n\nI wanted first class TypeScript support, immutable data, zero boilerplate and hassle free wiring. I built it in a few dozen lines of code: Immutable Context.\n\nI'll demo how to use it via a Code Sandbox demo, how it works under the hood and then look at some lessons learned, with suggestions on how to build your own state management library in 2019.\n\nAbout\n\nI'm a polyglot developer and data scientist. I've built lots of apps, for example this iPhone app for Isometric graphics. My website/blog is www.amimetic.co.uk. I work with React/React Native at JPMorgan. My Twitter handle is @complexview",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/8h8NI-6zva0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/8h8NI-6zva0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/8h8NI-6zva0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/8h8NI-6zva0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/8h8NI-6zva0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 26,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "8h8NI-6zva0"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "rEpC1UgwSqSIGwTGmp8-bb-y03E",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLmNCSDJMMkxEUmVr",
+    "snippet": {
+      "publishedAt": "2019-08-07T12:18:10Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Native implementation of curl in node   LNUG   May 2019",
+      "description": "Abstract\n\nOver my last holiday I started a project I am quite enjoying. It is an implementation of the functionality of curl written done purely in node. It presently is nothing close to done, but you can do some basic curl stuff with it (e.g. make multipart form data posts to some url, pipe responses to files, handle http and https proxies (provided they support the connect header) to do requests over to http or https, recursively follow location headers, set headers, etc.).\n\nThere's presently some vague ftp ideas that are not at all done.\n\nThe rather bigger challenge I was working on last time I was doing my project was to establish an ssh connection, (which on account of doing everything from scratch will make a number of assumptions about the server it's connecting to).\n\nI'm hoping to over the next month or so get it all done nicely.\n\nOverall it's a pleasant way to learn some details of networking, starting to write an ssh client in particular requires manually writing the packets as per the ssh protocol which has been a reasonable education in how that sort of things works. It has also been good for me to appreicate how excellent node is, it really does seem to provide nice apis for everything you want.\n\nAbout me\n\nI'm a former mathematician who over the last 9 or so months has turned programmer, I currently work as a developer mostly working with JavaScript. I mostly like doing algorithms and stuff and have only recently begun to learn the broader aspects of programming. I really love doing things from 'scratch' (in the sense of just using the stuff provided by the language) as I find it quite insightful.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/cBH2L2LDRek/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/cBH2L2LDRek/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/cBH2L2LDRek/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/cBH2L2LDRek/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/cBH2L2LDRek/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 27,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "cBH2L2LDRek"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "fxAnUQIcr8favGtvQ1BFAazlCZY",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLkVaQnBkcThSVS1j",
+    "snippet": {
+      "publishedAt": "2019-08-07T11:45:18Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "From Zero To Prod in 2 Minutes   LNUG   May 2019",
+      "description": "Zero to prod in 2 hours\nWriting code is great, working out how to host it is less great (for most people!). We recently ran a workshop at CityJs and made sure that everyone walked out of that workshop with an app deployed. In this talk we’ll chat through some of the things that helped us do that (Netlify, serverless functions and Vue) as well as some alternatives (The Serverless framework + lambda etc, firebase and other SPA hosting). The aim? To get everyone to feel empowered to build something fun (and potentially silly).\n\nAbout Us\nHew Ingram\nI’m a Full Stack engineer at Applied (a little startup striving to make hiring fairer, smarter and easier - driving forward diversity in companies). I predominantly use JS but dabble with bits of python, PHP and others. Lover of all things Javascript + a big fan of building cool (weird) things, often for the hell of it.\n\nThomas Ankcorn\nI'm a Software Engineer at BAE. I like JavaScript , starting but not finishing side projects and cats. Often referred to as some dude with a scooter.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/EZBpdq8RU-c/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/EZBpdq8RU-c/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/EZBpdq8RU-c/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/EZBpdq8RU-c/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/EZBpdq8RU-c/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 28,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "EZBpdq8RU-c"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "kNKv8mT1Kc1ogECedc4idJMilRg",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLmRJOFBEUlZSSVE0",
+    "snippet": {
+      "publishedAt": "2019-05-21T14:33:59Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Build Your Own WebAssembly Compiler   LNUG April 2019",
+      "description": "## Build your own WebAssembly Compiler \n\nFor more than 20 years JavaScript has been the only 'native' language of the web. That's all changed with the release of WebAssembly. In the coming years, you'll see people writing web apps in Rust, C#, C++ and all manner of other languages. But just what is WebAssembly? And what’s all the fuss about? WebAssembly is a low-level compilation target, which means that it is unlikely you’ll use it directly. However, as developers and hackers, we love to know how technology works! In this talk, Colin will look at some of the internals of WebAssembly, explore how it works ‘under the hood’, and look at how you can create your own (simple) compiler that targets this runtime.\n\nAbout me - \nI'm a technology enthusiast, working for a consultancy by day, and enjoying myself with open source by night. Here's [my blog](https://blog.scottlogic.com/ceberhardt/) if you want to find out more about me! I'm a keen WebAssembly enthusiast, I run [WebAssembly weekly](https://wasmweekly.news/) and did quite a few 'scene setting' talks on WebAssembly last year.\n\nFor this talk I want to do something different, delving into the details of what WebAssembly actually is, through the process of creating a compiler that targets WebAssembly.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/dI8PDRVRIQ4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/dI8PDRVRIQ4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/dI8PDRVRIQ4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/dI8PDRVRIQ4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/dI8PDRVRIQ4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 29,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "dI8PDRVRIQ4"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "lYq3LtZUT2qf7mWUgaxRUBr0sig",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLl94Y0Y3REJxZDA4",
+    "snippet": {
+      "publishedAt": "2019-05-21T14:20:15Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Bootstrapping a Startup with SailsJS   LNUG April 2019",
+      "description": "Over the last 18 months I have bootstrapped my startup using SailsJS. What did I learn? What do you get out of the box? How has the project evolved? Am I happy with my choice 18 months later?\nI have previously used Rails, ASP.MVC and Laravell. I had decided on Node for the backend - but what framework would I choose? What do I really need? What can I trust? How does SailsJS differ to the aforementioned frameworks and how much bang can my buck get?\n\n\n## About  Me\nHi I'm Simon, physics graduate, software engineer, team lead and now technical co-founder of Kiffgo.com.\nAfter previously working at a consumer facing marketplace startup I teamed up with a motivated co-founder to create my own. As the technical co-founder I had some stack decisions to make. I arrived at Node + SailsJS. From webpack integration, unit testing to production deployment I've done it with SailsJS and am willing to share my experience. I've been to LNUG a number of times in the past and have always found it a friendly, welcoming and informative experience.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/_xcF7DBqd08/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/_xcF7DBqd08/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/_xcF7DBqd08/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/_xcF7DBqd08/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/_xcF7DBqd08/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 30,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "_xcF7DBqd08"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "0rJdtDesUDWH5qnNcNyu2v-YwKo",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLlpGUkc1SEtFUmo4",
+    "snippet": {
+      "publishedAt": "2019-04-21T20:00:04Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "When You Assume You Make An Error Out of You and Me - Gabrielle von Koss",
+      "description": "Our choices in wording are frequently more powerful than we realise, and we risk using this power liberally and erroneously. Let’s take a look at our ideas about how we communicate in our code and in our speech, and what effects those ideas have.\n\nMy name is Gabrielle von Koss, and I work as a developer at the Financial Times. You can find my retweeting activity on @gvonkoss",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/ZFRG5HKERj8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/ZFRG5HKERj8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/ZFRG5HKERj8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/ZFRG5HKERj8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/ZFRG5HKERj8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 31,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "ZFRG5HKERj8"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "0DKX9y_WcC4GBFLEVg1xu0aXyQY",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLktGaVNFUXRUZHBr",
+    "snippet": {
+      "publishedAt": "2019-04-21T19:47:48Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Testing Apps with Third Party Integrations - Mike Solomon",
+      "description": "In this talk we will examine strategies and best practices to develop and test node apps that make heavy use of third-party API integrations. As reliance on third-party services becomes more and more prevalent in the node ecosystem, developers need cost-effective, secure, reliable and fast ways to mock these services for both dev/staging environments and testing.\n\nWe will start with looking at nock, and open-source mocking solution for local development, and move onto unmock which provides mocks-as-a-service of popular APIs.\n\nThe session will have live coding for both nock and unmock using express to create a simple microservice and jest for testing. It will also present several popular design patterns for isolating and testing third-party integrations as well as strategies for integration testing apps that rely on third-party APIs, including corner-case and error testing.\n\nPresenters will be myself (Mike Solomon - unmock.io) and I will invite some of our London-based clients to chime in about the importance of testing third-party integrations and the emerging ecosystem of developer sandbox environments for API testing.\n\nThis is the same talk that we are giving at SFNode (sfnode/sfnode#98). We'd love to bring it to your community, share our learnings and hear your feedback.\n\nBio\nMike Solomon is the founder and CEO of Meeshkan (meeshkan.com), a Helsinki-based DevOps company. A music major at Stanford University, Queen's University Belfast and the University of Florida, Mike has been a guest researcher at the University of Paris VI and has held the post of artistic director of the Ensemble 101 (ensemble101.fr) from 2011 until the present day. While working at the IRCAM as a computer music designer, he fell in love with Machine Learning and founded Meeshkan to ease several DevOps pain points in the ML pipeline. Since then, Meeshkan has expanded to other areas of DevOps, including API testing with unmock (unmock.io).",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/KFiSEQtTdpk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/KFiSEQtTdpk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/KFiSEQtTdpk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/KFiSEQtTdpk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/KFiSEQtTdpk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 32,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "KFiSEQtTdpk"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "QmYPyktK_yq_6qHsgRfudcuH0sA",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLjBsengxNWg5SnA0",
+    "snippet": {
+      "publishedAt": "2019-03-14T14:35:34Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Simons Hot Tip - Automating with Apple Shortcuts. LNUG February 2019",
+      "description": "Nothing to do with node.js - a lightning talk at our last meetup extending to Apple Shortcuts and probably the most elaborate RSS reader replacement...  ever.  Simon is a JavaScript / Node developer at the FT",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/0lzx15h9Jp4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/0lzx15h9Jp4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/0lzx15h9Jp4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/0lzx15h9Jp4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/0lzx15h9Jp4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 33,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "0lzx15h9Jp4"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "KNOakvvUi_dnwgzLx6_Z_K3hITA",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLlBOOUhRb1lXMnZj",
+    "snippet": {
+      "publishedAt": "2019-03-14T14:04:22Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Async Iterators  -Jamie McCrindle",
+      "description": "Abstract\nAn exploration of async iterators in NodeJS including when and why to use them, how they compare to other reactive libraries, how they perform and what to look out for when you do use them.\n\nAbout me\nJavaScript enthusiast, Open Source Contributor, Co-founder of a number of successful startups, OpenBankHack17 hackathon winner, Head of Technology for Business Banking at Investec. You can find me at https://jamie.mccrindle.org",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/PN9HQoYW2vc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/PN9HQoYW2vc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/PN9HQoYW2vc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/PN9HQoYW2vc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/PN9HQoYW2vc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 34,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "PN9HQoYW2vc"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "PpgUM5Rr-IDcr0ENniKp9F9tVKc",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLjEyR0E5b0RLNWdV",
+    "snippet": {
+      "publishedAt": "2019-03-14T13:27:06Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Building Cross Platform apps with Titanium -  Rene Pot",
+      "description": "If you don’t want to learn a new language but still want to make a quality mobile app, then a cross platform tool like Titanium is what you’re looking for. In this talk you’ll be shown how easy it is to start building your app using skills you already know from web and NodeJS.\n\nAbout me\nRene Pot, Developer Evangelist at Axway Appcelerator since 2018. I've been developing since I was 12, full time cross-platform mobile developer since 2011.\n\nTwitter: @Wraldpyk",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/12GA9oDK5gU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/12GA9oDK5gU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/12GA9oDK5gU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/12GA9oDK5gU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/12GA9oDK5gU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 35,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "12GA9oDK5gU"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "s4Nw9nO0PMBysUDXRt4G5VoWsxs",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLnFQTFZuMkZ0M3Z3",
+    "snippet": {
+      "publishedAt": "2019-03-14T12:44:33Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "TypeScript It's time to migrate  - Marco Talento",
+      "description": "TypeScript adoption it's been a reality in the last years. This presentation is going to be a demonstration on how we can take advantage of the TypeScript compiler to have a smooth migration from JavaScript to TypeScript.\n\nI am Marco, Software Engineer that believes software must be simple, intuitive and reliable. Currently working at Beamery. https://twitter.com/Talento90",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/qPLVn2Ft3vw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/qPLVn2Ft3vw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/qPLVn2Ft3vw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/qPLVn2Ft3vw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/qPLVn2Ft3vw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 36,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "qPLVn2Ft3vw"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "uJ7hhiE8AZg3f_HVQvkl_ijdp3o",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLkZqdlNsclNmYS00",
+    "snippet": {
+      "publishedAt": "2019-01-25T11:40:06Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Sean M Tracey - Bottomless hard drives w. Node.js, FUSE & Object Storage (lighting talk)",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/FjvSlrSfa-4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/FjvSlrSfa-4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/FjvSlrSfa-4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/FjvSlrSfa-4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/FjvSlrSfa-4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 37,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "FjvSlrSfa-4"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "BJzS0gBHC3FFZ0EZ8cjTS_cW0bc",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLjlzS3B4NjB6Qk5J",
+    "snippet": {
+      "publishedAt": "2019-01-25T11:59:41Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "James Porter - MobX State Tree is better than Redux (lightning talk)",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/9sKpx60zBNI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/9sKpx60zBNI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/9sKpx60zBNI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/9sKpx60zBNI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/9sKpx60zBNI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 38,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "9sKpx60zBNI"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "fHV6Db9f83AYXZ3MQHUqjiYEiHs",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLlZpQldiZ3RVWDVB",
+    "snippet": {
+      "publishedAt": "2019-01-25T12:17:36Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Errietta Kostala - Build APIs with node, Lambda & Serverless",
+      "description": "AWS lambda allows you to build microservices that can be triggered both through HTTP and other ways such as when something is added to a queue, or on a schedule. We'll show how it is possible to build an API which consists of small, individual functions that respond to different HTTP requests using AWS lambda and API gateway. In addition to this, we will be deploying using serverless within minutes!\n\nAbout me\nPolyglot developer with a passion for learning new things.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/ViBWbgtUX5A/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/ViBWbgtUX5A/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/ViBWbgtUX5A/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/ViBWbgtUX5A/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/ViBWbgtUX5A/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 39,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "ViBWbgtUX5A"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "LjhxashGorFnUdG_3KA7OL-3tos",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLm9iUXJFRWU5djc0",
+    "snippet": {
+      "publishedAt": "2019-01-25T11:03:25Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Shane Osbourne - Web Assembly and the future of the Web",
+      "description": "Over the years we've seen many attempts by developers to avoid writing Javascript at all costs - creating new languages that compile into JavaScript is still a common practice in many language communities.\n\nBut things are changing, for the better. We're reaching an age where potentially any high-level language will one day be able run in a browser, with greater speed and safety - all thanks to Web Assembly.\n\nThis talk will provide practical information about how you can take code written in a shiny new language like Rust, compile it to a Web Assembly module and then execute it in the browser.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/obQrEEe9v74/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/obQrEEe9v74/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/obQrEEe9v74/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/obQrEEe9v74/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/obQrEEe9v74/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 40,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "obQrEEe9v74"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "nVh0We1rq58l_kZtuxURXN-xpps",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLklrOFlDOEQ0X0Rv",
+    "snippet": {
+      "publishedAt": "2019-01-18T17:20:26Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Large-scale refactoring with codemods - London Node User Group 2018",
+      "description": "Refactoring is part of the process of maintaining an application, but large scale refactoring that are more complicated than a find and replace are time consuming.\n\nCodemods are a tool to refactor code by manipulating the abstract syntax tree (AST). In this talk I'll teach you what ASTs are, why we use ASTs in tools like Babel and eslint, and how to write a codemod that manipulates an AST.\n\nAbout me I'm a Vue core contributor, and software engineer at the BBC. https://twitter.com/EddYerburgh",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/Ik8YC8D4_Do/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Ik8YC8D4_Do/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Ik8YC8D4_Do/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Ik8YC8D4_Do/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 41,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "Ik8YC8D4_Do"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "sSpZfJ_KBMJOpEIAoveLnLqHoGQ",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLjNpZUhJaF9BOGRV",
+    "snippet": {
+      "publishedAt": "2018-12-04T10:31:49Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "ECMAScript Modules: They're Coming...London Node User Group",
+      "description": "ECMAScript modules are just around the corner, but they may not be what you expect. I'll go into the reasoning behind the change and what it means for the future of javascript.\n\nI'm Andy, a full stack JS developer with a love of native apps.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/3ieHIh_A8dU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/3ieHIh_A8dU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/3ieHIh_A8dU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/3ieHIh_A8dU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/3ieHIh_A8dU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 42,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "3ieHIh_A8dU"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "_OofkwGpqOQdGdY9qOWYLJfbQgU",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLjNmYkt2a0xrRmxB",
+    "snippet": {
+      "publishedAt": "2018-11-22T21:06:50Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Dockerising JavaScript Applications   London Node User Group   October 2018",
+      "description": "Docker is an ecosystem that allows you to work with containers. Whilst the initial learning curve can be steep, it can ultimately make your development and deployment cycles much faster.\n\nIn this talk, I will show you how to deploy a simple front- and back-end application using Docker, and show how much faster it is than the traditional, more manual approach.\n\n### Resources\n* You can try out the code yourself using the repository on [GitHub](https://github.com/d4nyll/docker-demo)\n* A variation of the presentation is also available on [Google Slides](https://docs.google.com/presentation/d/1ELRYLJI2Lgqk0zK0qQnVIYeZA2Nc0IG8jRaYRFr_TTM/)\n* A recording of the talk is available on [YouTube](https://www.youtube.com/watch?v=N5WKMVF_qlw)\n\n### About Me\nI am a JavaScript developer at [Nexmo](https://www.nexmo.com/). Before that, I ran my own digital agency, [Brew](http://www.brew.com.hk/), in Hong Kong, specializing in [Meteor](https://www.meteor.com/).",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/3fbKvkLkFlA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/3fbKvkLkFlA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/3fbKvkLkFlA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/3fbKvkLkFlA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/3fbKvkLkFlA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 43,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "3fbKvkLkFlA"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "EMeQV1Nn3vKxc8zKAlea0MP9m00",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLnhOejFMTl9WdE9N",
+    "snippet": {
+      "publishedAt": "2018-11-22T20:44:55Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Create and Deploy Cloud Native Node js Applications   London Node User Group   October 2018",
+      "description": "The CloudNativeJS.io community project provides a number of assets, tools and core modules for building Cloud Native Node.js applications. This session will show users how to use those to easily take an existing application and deploy it to Kubernetes with full support for liveness checks, metrics and request tracking.\n\nBeth Griggs, Developer & Node.js Core Collaborator, IBM Runtimes ([@BethGriggs_](https://twitter.com/BethGriggs_) )\nNeeraj Laad, Developer, IBM Runtimes ([@NeerajLaad](https://twitter.com/NeerajLaad))",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/xNz1LN_VtOM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/xNz1LN_VtOM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/xNz1LN_VtOM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/xNz1LN_VtOM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/xNz1LN_VtOM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 44,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "xNz1LN_VtOM"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "OOspRMkEM2CBIuv_M09V4vudejk",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLjR1SWkwUDM0bHFv",
+    "snippet": {
+      "publishedAt": "2018-11-22T20:18:56Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Building an Alexa Skill in 20 minutes using Node js   London Node User Group   October 2018",
+      "description": "Developers can build engaging voice experiences, aka Skills, for their services with the Alexa Skills Kit. In this 20 minute session, learn how to build a voice experience for Amazon Alexa: from idea to working skill including some best practices to consider along the way.\n\n**Personal Info:**\nTech Evangelist at Amazon, Twitter: [@muttonia](https://twitter.com/muttonia)",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/4uIi0P34lqo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/4uIi0P34lqo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/4uIi0P34lqo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/4uIi0P34lqo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/4uIi0P34lqo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 45,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "4uIi0P34lqo"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "xI9_ioH0h6VveUHi45znbYLUwxM",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLmlFMS1mYm13bWNr",
+    "snippet": {
+      "publishedAt": "2018-10-15T18:34:01Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Intro to GraphQL",
+      "description": "Speaker: Alex Dytrych\n\nGraphQL is kind of a buzzword right now - but what even is this new API tech from Facebook? In this talk, we’ll take a look at GraphQL and understand what it is, why you might use it, and how it fits in with the existing API landscape. We’ll have a go at writing some simple GraphQL queries together, and hopefully you’ll go away excited about using this awesome tech in your own work & projects.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/iE1-fbmwmck/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/iE1-fbmwmck/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/iE1-fbmwmck/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/iE1-fbmwmck/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/iE1-fbmwmck/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 46,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "iE1-fbmwmck"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "pLskeJi7123csr9vbENSa8zt8gI",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLkRpYy1oUmJXYnRJ",
+    "snippet": {
+      "publishedAt": "2018-10-15T18:15:51Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "A Journey with GraphQL in Production",
+      "description": "Speakers: Michelle and Faduma\n\nYou've heard of GraphQL. But what kind of problems can it solve? This is the story of why we chose GraphQL to power the Vogue and GQ websites, and how it helped us get the data we needed for our frontend. You'll learn about some ways in which GraphQL can improve your application, and understand how you might implement it.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/Dic-hRbWbtI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Dic-hRbWbtI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Dic-hRbWbtI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Dic-hRbWbtI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/Dic-hRbWbtI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 47,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "Dic-hRbWbtI"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "6tTIPtYw4gUouw1bq2O3rdBbWmA",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLldWbjl5ZVYzdkxv",
+    "snippet": {
+      "publishedAt": "2018-09-07T21:23:11Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "GraphQL on the Edge - Sevki Hasirci",
+      "description": "An introduction to GraphQL on Serverless. We'll talk about the benefits of running GraphQL (and other API gateway patterns) on the Edge (the performance benefits batching and so on).",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/WVn9yeV3vLo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/WVn9yeV3vLo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/WVn9yeV3vLo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/WVn9yeV3vLo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/WVn9yeV3vLo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 48,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "WVn9yeV3vLo"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "HBp0yqvZwN67i7HakMvGjihrYio",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLnk3UFo0cTVnazhv",
+    "snippet": {
+      "publishedAt": "2018-09-07T21:07:06Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Bubbleprof - A new way to profile Node.js - David Mark Clements",
+      "description": "It’s been weeks and the organisation you work for seems to be slowly turning against you. At least that’s what it feels like. User experience is poor because of slow API’s, sales are being missed, performance-linked SEO heuristics are causing a drop in page ranking. Mobile users have all but given up. Operations have reported that a critical Node.js service owned by your team is spinning at 70-100% CPU, and all parts of the application dependent on the service are experiencing intermittent slowdowns or in some cases, complete unavailability. What are you going to do now?",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/y7PZ4q5gk8o/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/y7PZ4q5gk8o/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/y7PZ4q5gk8o/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/y7PZ4q5gk8o/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/y7PZ4q5gk8o/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 49,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "y7PZ4q5gk8o"
+      }
+    }
+  }
+]

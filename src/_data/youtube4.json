@@ -1,0 +1,182 @@
+[
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "PMPCjARtp2zHwtnoJBBzx2bABMI",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLkU5MTdFMEUyM0UwM0QzRjM=",
+    "snippet": {
+      "publishedAt": "2014-11-01T15:45:59Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Ben Hall - Node Anti-patterns",
+      "description": "Node Anti-patterns",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/YyR4PdX-1O4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/YyR4PdX-1O4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/YyR4PdX-1O4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/YyR4PdX-1O4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/YyR4PdX-1O4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 150,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "YyR4PdX-1O4"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "lVW5R1V2LTuGjyhxfXOfT-p19FY",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLkE1NEZBMTVCNjY1QTk1MDM=",
+    "snippet": {
+      "publishedAt": "2014-11-01T10:29:17Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "James Halliday (Substack) - Data Wizzard",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/ID8hP4aXdBg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/ID8hP4aXdBg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/ID8hP4aXdBg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/ID8hP4aXdBg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/ID8hP4aXdBg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 151,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "ID8hP4aXdBg"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "tJkUW7DTPNk6fiqDJZi0GEo3Pzs",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLjY2MEYyREU0NzAyMzY3NjE=",
+    "snippet": {
+      "publishedAt": "2014-10-29T15:21:19Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Ian Crowther - Introducing October's LNUG",
+      "description": "Ian Crowther, the host of LNUG can be found on twitter and github\n\n- http://twitter.com/iancrowther\n- http://github.com/iancrowther",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/a_NAn3L-WJc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/a_NAn3L-WJc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/a_NAn3L-WJc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/a_NAn3L-WJc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/a_NAn3L-WJc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 152,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "a_NAn3L-WJc"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "xSS_yZQgPRTVgVFDLWlAp-tPsbw",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLjQ1MEZEMTkwODZDQ0Q4Mjg=",
+    "snippet": {
+      "publishedAt": "2014-10-29T21:17:30Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Philipp Fehre - JSON throughout the Stack",
+      "description": "JSON throughout the Stack",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/mZKp3xuzKeQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/mZKp3xuzKeQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/mZKp3xuzKeQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/mZKp3xuzKeQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/mZKp3xuzKeQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 153,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "mZKp3xuzKeQ"
+      }
+    }
+  }
+]

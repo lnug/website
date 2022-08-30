@@ -1,0 +1,1931 @@
+[
+  {
+    "speakers": [
+      {
+        "name": "Aris Markogiannakis",
+        "url": "https://github.com/arismarko",
+        "title": "How to develop a emergency website using Prisma2 ORM, NodeJS, NextJS and deploy it in heroku, and Zeit",
+        "video": {
+      "title": "How to develop an emergency website using Prisma2 ORM, NodeJS, NextJS and deploy it in heroku & Zeit",
+      "description": "Aris Markogiannakis\n\nOn those critical times, I took the chance to learn something new and tried to PRISMA 2, to create a small website, that shows where there are supplies [Bread, Pasta and ToiletRolls].\n\nI will go through all the difficulties of developing the app as Prisma2 is still in development, and how to deploy the app in Heroku.\n\nFor the frontend I used NextJS that connects to a nodejs API (very simple) that uses the Prisma client.\n\nAris is a developer for a number of years in FullStack development and a servant of the London's community powering CityJS and JSMonthly.",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uyAtKbDuyR0/mqdefault.jpg",
+      "videoId": "uyAtKbDuyR0",
+      "url": "https://www.youtube.com/watch?v=uyAtKbDuyR0",
+      "type": "youtube",
+      "date": "2020-07-29T15:29:06Z"
+    }
+      },
+      {
+        "name": "Craig Taub",
+        "url": "https://github.com/craigtaub",
+        "title": "Under-the-hood of web bundlers",
+         "video": {
+      "title": "Under-the-hood of web bundlers - Craig Taub LNUG June 2020",
+      "description": "A look at the mechanisms inside web bundlers e.g Webpack.\n\nStarting with why they are still useful.\n\nThen how to build a small compiler, akin to Webpack. There are many interesting topics in a very small space here.\n\nNext how to use the output of our compiler with an application.\n\nFinishing with all the additional parts Webpack does which ours doesn't, hopefully with some idea on how those could be done.\n\nAbout me\nI'm a senior developer at Nested with over 10 years experience. We do dev team talks every week and I have taken a couple, usually on the \"under-the-hood of\" theme. I was previously at the BBC.\n\nI enjoy blogging at https://craigtaub.dev",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xrdaWIXY1HU/mqdefault.jpg",
+      "videoId": "xrdaWIXY1HU",
+      "url": "https://www.youtube.com/watch?v=xrdaWIXY1HU",
+      "type": "youtube",
+      "date": "2020-07-29T15:34:28Z"
+    }
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2020-06-23T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": "Anna Henningsen",
+        "url": "https://github.com/addaleax",
+        "title": "11 years of Node: Let&rsquo;s have an honest conversation",
+        "video": {
+      "title": "11 years of Node: Let’s have an honest conversation - Anna Henningsen (LNUG May 2020)",
+      "description": "Node.js has been around for a long time now, and it’s worth looking at what went great, what went well, what didn’t go so well, and where we’ll go from here. Having been a core contributor for a long time now, I’ll reflect on the processes around Node.js and the results we’re getting out of them, and try to have an honest conversation on where the community stands and how fresh new projects like deno will change the landscape of JS outside of the browser.\n\nOver the last 4 years, Anna has been one of the most active contributors to Node.js core. She is fueled by a passion for Node.js and its community.\n\n@addaleax on twitter, working at NearForm",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TthueRgvVQ4/mqdefault.jpg",
+      "videoId": "TthueRgvVQ4",
+      "url": "https://www.youtube.com/watch?v=TthueRgvVQ4",
+      "type": "youtube",
+      "date": "2020-05-28T18:09:51Z"
+    }
+      },
+      {
+        "name": null,
+        "url": "https://github.com/tamartwe",
+        "title": "Writing A CPU Intensive Node.js Server With Worker Threads API",
+         "video": {
+      "title": "Writing A CPU Intensive Node.js Server With Worker Threads API - Tamar Twena Stern  (LNUG May 2020)",
+      "description": "Node.js provides the developer a system with single threaded event loop architecture, that provides non blocking I/O mechanism. This work great until we get to CPU intensive tasks. In this case, Node doesn’t perform up to mark. This has changed with the release of the worker threads in latest Node versions. We can use threads and write CPU intensive code in Node. This can make Node popular in many other fields of software development, starting from algorithms , AI , complicated computations and more. In this talk I will go over the concept, API and architecture of worker threads. I will show a demo of a Node server that implements CPU intensive task , to assist you to retain a cool new ability to you Node.js coding skills\n\nI am a software manager and architect. In the past, I managed large development teams, and was a CTO of a start up of my own. I have a decade of software engineering experience in various technologies: Server side, big data, mobile, web technologies, and security. I am currently focusing on Node.js, and have a deep knowledge of Node.js server architecture and Node.js performance optimizations.\n\n@SternTwena on twitter",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GJNJI0vC1Ag/mqdefault.jpg",
+      "videoId": "GJNJI0vC1Ag",
+      "url": "https://www.youtube.com/watch?v=GJNJI0vC1Ag",
+      "type": "youtube",
+      "date": "2020-05-28T18:13:08Z"
+    }
+      },
+      {
+        "name": "David Gonzalez",
+        "url": "https://github.com/dgonzalez",
+        "title": "How to write a DevOps friendly Node application",
+        "video": {
+      "title": "How to write a DevOps friendly Node application -  David Gonzalez  (LNUG May 2020)",
+      "description": "[Editor's note: apologies, we lost the last couple minutes of the talk - but the best bits are here :)]\n\nDevOps is a necessity nowadays. It is not a job title itself but a set of practices, many of them spanning across development. It is extremely important that the applications that we write are adapted to run in a DevOps environment:\n\nMonitoring\nProcess management\nLog aggregation Are only few of the aspects to be considered when building a Node application in order to succeed on DevOps environments, specially containers and Kubernetes.\nDavid Gonzalez is a DevOps Architect at NearForm, building systems at scale for our customers. He is also a Google Developer Expert on Kubernetes and avid coder. Author of three books around microservices and DevOps, he is always challenging the comfort zone of his day to day work finding new ways of delivering highly transactional systems.\n\nTwitter: @dagonzago\nLinkedIn\nGitHub: @dgonzalez",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8MmZ0qh-Ti0/mqdefault.jpg",
+      "videoId": "8MmZ0qh-Ti0",
+      "url": "https://www.youtube.com/watch?v=8MmZ0qh-Ti0",
+      "type": "youtube",
+      "date": "2020-05-28T18:11:54Z"
+    }
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2020-05-26T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": "Thomas Schoffelen",
+        "url": "https://github.com/tschoffelen",
+        "title": "Transactional emails at scale",
+        "video": {
+      "title": "Thomas Schoffelen - Transactional emails at scale LNUG #93 - March 2020 - The Remote Edition",
+      "description": "Almost all tech startups send out a bunch of emails to their users. Many of those will be based on certain triggers, like creating accounts, new posts, invoice creation, etc. Based on my experience building some companies and apps that rely heavily on transactional emails, I'd like to talk about how to manage and structure those.\n\nBuilding and managing templates with involvement of stakeholders (marketing/partnerships team, designers, etc.)\nMy solution: Macaw (repo | blog) - a Node.js toolset to streamline email sending and template management\nSetting up an email sending flow in your serverless app\n(optional - depending on time) Ensuring your emails arrive: your own IP address, SPF and DKIM, reply-to, etc.\nBio\n\nStarting my first tech company at age 16, I've co-founded several startups that focus on improving communication and helping small businesses, including NearSt, which partners with Google to help local shops make their products searchable and Infowijs, which helps Dutch high schools communicate better with their students, parents and teachers.\n\nI'm on Twitter as @tschoffelen.",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3h5L67voufI/mqdefault.jpg",
+      "videoId": "3h5L67voufI",
+      "url": "https://www.youtube.com/watch?v=3h5L67voufI",
+      "type": "youtube",
+      "date": "2020-04-15T15:40:15Z"
+    }
+      },
+      {
+        "name": "Bernard Baker",
+        "url": "https://github.com/bernardbaker",
+        "title": "Authentication &amp;&amp; Serverless &amp;&amp; Node",
+        "video": {
+      "title": "Bernard Baker - Authentication && Serverless && Node - LNUG #93 - March 2020 - The Remote Edition",
+      "description": "Auth0 is a leading world class authentification platform. And I'd like to present it using Node and Serverless.\n\nRegular methods of authentication include setting up a custom authentification API, user, session and token management. Which is time consuming, not productive and plainly put, not very secure if a solution doesn't aspire to RFC specifications.\n\nIn my talk I will present to the audience; Auth0 as a solution, Netlify serverless functions, a Node API implementation of passwordless authentication, and basic API endpoint protection using JWT.\n\nI'm Bernard, I'm working for myself. An e-commerce startup. @bernibear2000.",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OJadwGNty78/mqdefault.jpg",
+      "videoId": "OJadwGNty78",
+      "url": "https://www.youtube.com/watch?v=OJadwGNty78",
+      "type": "youtube",
+      "date": "2020-04-15T15:37:00Z"
+    }
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2020-03-25T00:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": "Tatenda Chawanzwa",
+        "url": "https://github.com/shadrech",
+        "title": "State Management with React Apollo",
+        "video": {
+      "title": "The mergence of Graphql and Serverless",
+      "description": "In this talk we'll go over why these two technologies (Graphql & Serverless) have drastically gained popularity and what problems they were made to solve. Then we'll go through how the two can be used together and I'll do a little demo with the Serverless framework\n\nI've been a professional developer for about 3 years. In that time I've worked for small startups to large corporations. List includes Ruuby, Sky and Eurostar to name a few.\nTwitter handle is @shadrech17",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pPKg8s3I3zc/mqdefault.jpg",
+      "videoId": "pPKg8s3I3zc",
+      "url": "https://www.youtube.com/watch?v=pPKg8s3I3zc",
+      "type": "youtube",
+      "date": "2020-03-25T20:09:21Z"
+    }
+      },
+      {
+      	"name":"",
+      	"url": "",
+      	"title":"Coronavirus News A Practical Guide for Building Alexa Skills",
+      	"video": {
+      "title": "Coronavirus News A Practical Guide for Building Alexa Skills",
+      "description": "There is a lot of noise about the Coronavirus for a few latest weeks.\nI've created a simple Alexa Skill which provides users with the latest update about the figures. Here it is https://www.amazon.co.uk/Artsiom-Mezin-Coronavirus-News/dp/B084M81B6Q\n\nHowever, it feels like there are tons of stuff that could be improved.\nI'd like to talk about the following things:\n\nHow to design and implement an Alexa app for less than one weekend?\nWhat to expect from validation and rolling out processes?\nWhere to get and how to store the data?\nHow to automate the routine?\nHow this sort of app can help people?\nWhat else could be done?\nI am eager to collaborate!\nGiven the fact that I'm doing this in a little rush, it feels more like a lightning talk.",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yHBJV4QGSrM/mqdefault.jpg",
+      "videoId": "yHBJV4QGSrM",
+      "url": "https://www.youtube.com/watch?v=yHBJV4QGSrM",
+      "type": "youtube",
+      "date": "2020-03-25T20:12:05Z"
+    }
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2020-02-26T00:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": "Adam Davis",
+        "url": "https://github.com/admataz",
+        "title": "Introducing Bangle JS The Node Watch",
+        "video": {
+      "title": "Introducing Bangle JS The Node Watch - admataz at LNUG - Jan 2020",
+      "description": "\"The world’s first hackable open source JavaScript-powered and TensorFlow-powered smartwatch\"\n\nNodewatch/ Bangle.js  was introduced as the conference badge at Nodeconf EU in November. A Kickstarter that followed was swiftly funded. \n\nI received my watch from NearForm in the post the other day - and I don't know what to do with it yet - but this is too good not to share for a quick lightning demo. \n\nAdam aka admataz is a core LNUG organiser, a hacker, and a software developer at NearForm\n\nSome links: \nhttps://nodewatch.dev\nhttps://www.nearform.com/blog/bangle-js-hackable-oss-js-and-tensorflow-smartwatch/\nhttps://nearform.com\nhttps://admataz.com",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xN2mCmz3rig/mqdefault.jpg",
+      "videoId": "xN2mCmz3rig",
+      "url": "https://www.youtube.com/watch?v=xN2mCmz3rig",
+      "type": "youtube",
+      "date": "2020-02-18T13:31:01Z"
+    }
+      },
+      {
+        "name": null,
+        "url": "https://github.com/robtweed",
+        "title": "QEWD-JSdb: It&#39;s a Database, Jim, but not as we know it!",
+         "video": {
+      "title": "QEWD-JSdb: It's a Database, Jim, but not as we know it! - Rob Tweed at LNUG, Jan 2020",
+      "description": "QEWD-JSdb is a new concept for databases in Node.js. Although it's implemented on top of two incredibly fast, industrial-strength (though little-known) physical database technologies (the Open Source YottaDB and the proprietary IRIS databases), QEWD-JSdb abstracts their underlying hierarchical physical storage as on-disk JavaScript objects, blurring the boundary between what's in-memory and what's on-disk.\n\nWith QEWD-JSdb, the database is no longer something that exists on another server, no longer effectively a separate technology that you access via a network connection using its in-built APIs, and which imposes on you a database model over which you have no control. Let's face it: most mainstream databases are \"one trick ponies\" that model data in one particular way: fine if all your database requirements fit that model, but most likely you'll have circumstances that mean you either end up consuming valuable time fighting that model to fit your needs. or end up having to support multiple databases with all the resulting additional pain, aggravation and maintenance overhead.\n\nWith QEWD-JSdb, there's none of those restrictions and annoyances: your persistent data and its modelling is in your direct control within your Node.js processes! As far as you're concerned, you're just dealing with JavaScript objects/JSON, but rather than being in-memory, they happen to be on-disk!\n\nBut you're not limited to persistent JSON: it's easy to model pretty much any type of database, both NoSQL and Relational/SQL on top of the basic persistent JSON data structures. In fact, QEWD-JSdb comes with some already created for you to use and/or explore, including:\n\nRedis-like Key/Value (actually Key/Object) store\nRedis-like Lists\nDocument/JSON database storage\nXML DOM database storage via the DOM API, with XPath querying\nRelational with SQL read/write access\nOnce you're familiar with the basics of QEWD-JSdb, you can create your own custom database model if the built-in models don't meet your needs: no more time wasted fighting the database!\n\nIt's even possible to simultaneously apply different database models to the same physical QEWD-JSdb data!\n\nAll sounds too good to be true? Come and find out at Rob's talk on QEWD-JSdb.\n\nRob Tweed (@rtweed) is a Director of M/Gateway Developments Ltd, and has been part of the LNUG scene since its earliest days - he was one of the speakers at its inaugural meeting, and has given a number of talks over the years, mainly focused on his Node.js-based QEWD technology/platform.\n\nRob has several decades of experience, developing and advising on real-world complex, business-critical applications around the world, in sectors such as healthcare IT, financial services and retail systems. He's specialised in database integration for Web and Internet technologies since the early days in the mid-90s, and has been immersed in Node.js since its earliest days in 2011!\n\nA keen proponent of Open Source software, you can find all his work (including QEWD-JSdb) at @robtweed",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1TlAKTw167s/mqdefault.jpg",
+      "videoId": "1TlAKTw167s",
+      "url": "https://www.youtube.com/watch?v=1TlAKTw167s",
+      "type": "youtube",
+      "date": "2020-02-18T13:35:38Z"
+    }
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2020-01-22T00:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": "James Porter",
+        "url": "https://github.com/jamesporter",
+        "title": "Create your own state management library"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2019-07-23T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": "Andy Trevorah",
+        "url": "https://github.com/trevorah",
+        "title": "ECMAScript Modules: They&#39;re Coming..."
+      },
+      {
+        "name": "Edd Yerburgh",
+        "url": "https://github.com/eddyerburgh",
+        "title": "Large-scale refactoring with codemods"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2018-11-28T00:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": "Bethany Nicolle Griggs",
+        "url": "https://github.com/BethGriggs",
+        "title": "Building and deploying Cloud Native Node.js applications"
+      },
+      {
+        "name": "Andrea Muttoni",
+        "url": "https://github.com/muttoni",
+        "title": "Building an Alexa Skill in 20 minutes using NodeJS"
+      },
+      {
+        "name": "Daniel Li",
+        "url": "https://github.com/d4nyll",
+        "title": "Dockerizing JavaScript Applications"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2018-10-23T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": "alex",
+        "url": "https://github.com/SomeHats",
+        "title": "Intro to GraphQL"
+      },
+      {
+        "name": "Michelle",
+        "url": "https://github.com/msmichellegar",
+        "title": "A Journey with GraphQL in Production"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2018-09-25T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": "James Porter",
+        "url": "https://github.com/jamesporter",
+        "title": "Elm: your next programming language?"
+      },
+      {
+        "name": "sp3c1",
+        "url": "https://github.com/sp3c1",
+        "title": "Scheduled Messaging with RMQ, Redis, Postgres"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2018-07-24T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": "Tom Shacham",
+        "url": "https://github.com/TomShacham",
+        "title": "http4js: a whirlwind tour"
+      },
+      {
+        "name": "Stephen Young",
+        "url": "https://github.com/stephendeyoung",
+        "title": "Managing cloud resources in a distributed and fault-tolerant manner with EVRYTHNG&rsquo;s resource manager"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2018-06-26T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": "Paul Jensen",
+        "url": "https://github.com/paulbjensen",
+        "title": "Objection.js, a SQL ORM"
+      },
+      {
+        "name": "Mr.K",
+        "url": "https://github.com/erankeren",
+        "title": "ExpressLess - 200 OK"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2018-05-22T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": "Salman FF",
+        "url": "https://github.com/salmanff",
+        "title": "A Hobbyist&rsquo;s Quest for a Personal Server"
+      },
+      {
+        "name": "Paul Jensen",
+        "url": "https://github.com/paulbjensen",
+        "title": "End-to-end testing Single Page Apps and APIs with Cucumber.js &amp; Puppeteer"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2018-04-24T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": "Claudia",
+        "url": "https://github.com/claudiamatosa",
+        "title": "Internal Server Error"
+      },
+      {
+        "name": "Matteo Collina",
+        "url": "https://github.com/mcollina",
+        "title": "My Node.js process is on Fire"
+      },
+      {
+        "name": "Yan Cui",
+        "url": "https://github.com/theburningmonk",
+        "title": "Serverless in production, an experience report"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2018-03-27T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": "Oliver Rumbelow",
+        "url": "https://github.com/theninj4",
+        "title": "Cultivating a Microservice Culture with Node.js"
+      },
+      {
+        "name": "Thanasis Polychronakis",
+        "url": "https://github.com/thanpolas",
+        "title": "Classical Inheritance in Javascript"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2018-02-28T00:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": "Paul Jensen",
+        "url": "https://github.com/paulbjensen",
+        "title": "Creating PowerPoint files with Officegen and Node.js"
+      },
+      {
+        "name": "lazlojuly",
+        "url": "https://github.com/lazlojuly",
+        "title": "Unit testing has never been so much fun!"
+      },
+      {
+        "name": "David Scheiner",
+        "url": "https://github.com/xscheiner",
+        "title": "Moving on from Mongoose: How a great thing finally cornered us"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2018-01-24T00:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": "Adam Davis",
+        "url": "https://github.com/admataz",
+        "title": "&#9889;&#65039;MOAR lightning community node.js talks! &#9889;&#65039;"
+      },
+      {
+        "name": "Bernard Baker",
+        "url": "https://github.com/bernardbaker",
+        "title": " Building an Electron application with NodeJS"
+      },
+      {
+        "name": "Simon McManus",
+        "url": "https://github.com/simonmcmanus",
+        "title": "Taking LNUG offline"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2017-11-22T00:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": "Adam Davis",
+        "url": "https://github.com/admataz",
+        "title": "Node.js lightning talks"
+      },
+      {
+        "name": "sp3c1",
+        "url": "https://github.com/sp3c1",
+        "title": "Scalable Scraping in Node and a bit of GO"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2017-10-24T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": null,
+        "url": "https://github.com/robtweed",
+        "title": "Having your Node.js Cake and Eating It Too"
+      },
+      {
+        "name": "Alan Shaw",
+        "url": "https://github.com/alanshaw",
+        "title": "Hapi + Nes + MiniMongo for gloryful reactive apps"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2017-09-26T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": "Zaiste",
+        "url": "https://github.com/zaiste",
+        "title": "Rapid web development with Huncwot &amp; Marko"
+      },
+      {
+        "name": null,
+        "url": "https://github.com/BrunoGodefroy",
+        "title": "Do not yield to javascript generators!"
+      },
+      {
+        "name": "Anna Doubkova",
+        "url": "https://github.com/lithin",
+        "title": "Node microservices at Pizza Hut"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2017-08-22T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": "Irina Shestak",
+        "url": "https://github.com/lrlna",
+        "title": "knock-knock-who-there-file-compression-talk_FINAL_2.tar.trz.bz2.gz"
+      },
+      {
+        "name": "Daniel Khan",
+        "url": "https://github.com/danielkhan",
+        "title": "Don&#39;t Let Just Node.js Take the Blame!"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2017-06-27T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": null,
+        "url": "https://github.com/flyingunicorn222",
+        "title": "Trading cryptocurrencies, forex, commodities stocks and more using node.js"
+      },
+      {
+        "name": "Paul Jensen",
+        "url": "https://github.com/paulbjensen",
+        "title": "From LNUG presentation to published book - my tale of writing &quot;Cross Platform Desktop Applications&quot;"
+      },
+      {
+        "name": "Will Munn",
+        "url": "https://github.com/willm",
+        "title": "Speeding up CI with node and docker"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2017-05-23T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": "Bruno Vieira",
+        "url": "https://github.com/bmpvieira",
+        "title": "How Bionode.io uses Node.JS Streams to handle genomic big data"
+      },
+      {
+        "name": "Martin Wimpress",
+        "url": "https://github.com/flexiondotorg",
+        "title": "Automatically build and publish Node and Electron applications for Linux"
+      },
+      {
+        "name": "Andrew Coleman",
+        "url": "https://github.com/andrew-coleman",
+        "title": "JSONata: A declarative syntax for querying your JSON data"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2017-04-25T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": "James Porter",
+        "url": "https://github.com/jamesporter",
+        "title": "&#39;Minecraft&#39; in VR in 30 lines of Javascript"
+      },
+      {
+        "name": "artem avetisyan",
+        "url": "https://github.com/artemave",
+        "title": "Fullstack integration testing that doesn&#39;t suck"
+      },
+      {
+        "name": "Tony Yates",
+        "url": "https://github.com/tonyyates",
+        "title": "Our future is in little hands"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2017-03-22T00:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": "B. August",
+        "url": "https://github.com/TheBenji",
+        "title": "Promises &amp; Generator in node.js"
+      },
+      {
+        "name": "Marcel Cutts",
+        "url": "https://github.com/MarcelCutts",
+        "title": "Serverless and You"
+      },
+      {
+        "name": "Jonny Arnold",
+        "url": "https://github.com/jonnyarnold",
+        "title": "Modelling with Pencils (and JavaScript)"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2017-02-22T00:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": "Andy Trevorah",
+        "url": "https://github.com/trevorah",
+        "title": "Native app tips to save your sanity",
+        "video": "https://youtu.be/UpELu7rfRVk?list=PLam_80-FY3vTFIdJyDA-EJCOEYCVGO85F"
+      },
+      {
+        "name": "Clement Hannicq",
+        "url": "https://github.com/clementhannicq",
+        "title": "GraphQL: an API convention that you will actually follow",
+        "video": "https://youtu.be/Bv89egC_v6A?list=PLam_80-FY3vTFIdJyDA-EJCOEYCVGO85F"
+      },
+      {
+        "name": "Clarkie",
+        "url": "https://github.com/clarkie",
+        "title": "A year with AWS",
+        "video": "https://youtu.be/4yxHjeWvnR4?list=PLam_80-FY3vTFIdJyDA-EJCOEYCVGO85F"
+      }
+    ],
+    "videoPlayist": "https://www.youtube.com/playlist?list=PLam_80-FY3vTFIdJyDA-EJCOEYCVGO85F",
+    "date": "2017-01-25T00:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": "Andreas Møller",
+        "url": "https://github.com/cullophid",
+        "title": "Keep calm and curry on",
+        "video": "https://youtu.be/4SGqCiU1_9E?list=PLam_80-FY3vRiyq1PZW3iaT114EKdEIRL"
+      },
+      {
+        "name": "Stefano Vozza",
+        "url": "https://github.com/svozza",
+        "title": "Null Can&#39;t Hurt You Anymore",
+        "video": "https://youtu.be/-FV3ia_SyxA?list=PLam_80-FY3vRiyq1PZW3iaT114EKdEIRL"
+      },
+      {
+        "name": "James Chow (dsc)",
+        "url": "https://github.com/jc888",
+        "title": "Readable Microservices, with functional programming.",
+        "video": "https://youtu.be/enXqi3jGHIs?list=PLam_80-FY3vRiyq1PZW3iaT114EKdEIRL"
+      }
+    ],
+    "videoPlayist": "https://www.youtube.com/playlist?list=PLam_80-FY3vRiyq1PZW3iaT114EKdEIRL",
+    "date": "2016-11-23T00:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": "Booker ⚡",
+        "url": "https://github.com/bookercodes",
+        "title": "Write More Resilient JavaScript with Flow",
+        "video": "https://youtu.be/RTtujG65DiE?list=PLam_80-FY3vRuXxmiB74vjZzWZRAUPowu"
+      },
+      {
+        "name": "lazlojuly",
+        "url": "https://github.com/lazlojuly",
+        "title": "How to build a RESTful API",
+        "video": "https://youtu.be/2SPBrczIzr0?list=PLam_80-FY3vRuXxmiB74vjZzWZRAUPowu"
+      },
+      {
+        "name": "Mike MacCana",
+        "url": "https://github.com/mikemaccana",
+        "title": "Quick wins with node and Google AMP",
+        "video": "https://youtu.be/0sVjKPTvOMA?list=PLam_80-FY3vRuXxmiB74vjZzWZRAUPowu"
+      }
+    ],
+    "videoPlayist": "https://www.youtube.com/playlist?list=PLam_80-FY3vRuXxmiB74vjZzWZRAUPowu",
+    "date": "2016-10-25T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": "Fox Reymann",
+        "url": "https://github.com/foxreymann",
+        "title": "Ace JavaScript Interviews: Scoping and Hoisting",
+        "video": "https://youtu.be/hr61xyYSP6k?list=PLam_80-FY3vQm4oeCUsqhgIjcs3TojrbE"
+      },
+      {
+        "name": "Loïc Faugeron",
+        "url": "https://github.com/gnugat",
+        "title": "Event Driven Architecture",
+        "video": "https://youtu.be/BwqouUxn-bg?list=PLam_80-FY3vQm4oeCUsqhgIjcs3TojrbE"
+      },
+      {
+        "name": "Tanzim",
+        "url": "https://github.com/tanzim",
+        "title": "I&#39;ve got swagger. Have you?",
+        "video": "https://youtu.be/Dlo3e-0wB1E?list=PLam_80-FY3vQm4oeCUsqhgIjcs3TojrbE"
+      }
+    ],
+    "videoPlayist": "https://www.youtube.com/playlist?list=PLam_80-FY3vQm4oeCUsqhgIjcs3TojrbE",
+    "date": "2016-09-27T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": "Daniel Magliola",
+        "url": "https://github.com/dmagliola",
+        "title": "Harnessing the full power of Redis"
+      },
+      {
+        "name": "Bernard Baker",
+        "url": "https://github.com/bernardbaker",
+        "title": "NodeJS a professional case study"
+      },
+      {
+        "name": "Submit your talk!",
+        "url": "/speak.html",
+        "title": "Slot available"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2016-08-23T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": "Dominique Guinard",
+        "url": "https://github.com/domguinard",
+        "title": "Node.js, the Web and the IoT"
+      },
+      {
+        "name": "Mete Atamel",
+        "url": "https://github.com/meteatamel",
+        "title": "Node.js on Google Cloud"
+      },
+      {
+        "name": "Mark Wubben",
+        "url": "https://github.com/novemberborn",
+        "title": "AVA: Futuristic JavaScript test runner"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2016-07-26T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": "Keith Woods",
+        "url": "https://github.com/KeithWoods",
+        "title": "Building Complex SPAs with React and ESP"
+      },
+      {
+        "name": "Oliver Rumbelow",
+        "url": "https://github.com/theninj4",
+        "title": "NodeJS Failure in Production - a Blameless PostMortem"
+      },
+      {
+        "name": "luca mezzalira",
+        "url": "https://github.com/lucamezzalira",
+        "title": "Isomorphic apps with Hapi.js and React"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2016-06-21T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": "Alex J Burke",
+        "url": "https://github.com/alexjeffburke",
+        "title": "Declaratively mocking HTTP"
+      },
+      {
+        "name": "Samuel Rounce",
+        "url": "https://github.com/srounce",
+        "title": "Debugging Node.JS"
+      },
+      {
+        "name": "Tanzim",
+        "url": "https://github.com/tanzim",
+        "title": "I&#39;ve got swagger. Have you?"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2016-05-24T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": "Nelson",
+        "url": "https://github.com/nelsonic",
+        "title": "Infinitely scalable chat"
+      },
+      {
+        "name": "Michael Lennox",
+        "url": "https://github.com/michaellennox",
+        "title": "What learning to code in 12 weeks really means"
+      },
+      {
+        "name": "Mike MacCana",
+        "url": "https://github.com/mikemaccana",
+        "title": "Shotguns and Scalpels: Cheerio and Casper at scale"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2016-04-26T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": "Simon Ordish",
+        "url": "https://github.com/ordishs",
+        "title": "Rethink DB and Node.js",
+        "video": "https://youtu.be/idOuNyE6cXY"
+      },
+      {
+        "name": "Mike Elsmore",
+        "url": "https://github.com/ukmadlz",
+        "title": "NoSQL is a lie",
+        "video": "https://youtu.be/gECA-f78kWI"
+      },
+      {
+        "name": "Tanzim",
+        "url": "https://github.com/tanzim",
+        "title": "Computing at scale. Why you should already be using AWS Lambda",
+        "video": "https://youtu.be/r4a7aIBNlg0"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2016-03-23T00:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": "Guy Podjarny",
+        "url": "https://github.com/guypod",
+        "title": "Stranger Danger: addressing the security risk in npm dependencies"
+      },
+      {
+        "name": "Shane Osbourne",
+        "url": "https://github.com/shakyShane",
+        "title": "Taming Asynchronous Programming with RxJS"
+      },
+      {
+        "name": "Zhivko Siderov",
+        "url": "https://github.com/zsid",
+        "title": "How to build a real-time application with Node"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2016-02-24T00:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": "Oliver Rumbelow",
+        "url": "https://github.com/hxoliverrumbelow",
+        "title": "NodeJS Supercomputing?!",
+        "video": "https://youtu.be/1mYl6v0Kzt0?list=PLam_80-FY3vSSYKqfaj0YB9X06Vi5un5j"
+      },
+      {
+        "name": "Hugo Di Francesco",
+        "url": "https://github.com/HugoDF",
+        "title": "Going cross-platform with React: ~1 codebase, 3 platforms",
+        "video": "https://youtu.be/b3wYEn2r_Ac?list=PLam_80-FY3vSSYKqfaj0YB9X06Vi5un5j"
+      },
+      {
+        "name": "Phil Nash",
+        "url": "https://github.com/philnash",
+        "title": "2FA, WTF?",
+        "video": "https://youtu.be/Wuc4Nh3lmSE?list=PLam_80-FY3vSSYKqfaj0YB9X06Vi5un5j"
+      }
+    ],
+    "videoPlayist": "https://www.youtube.com/playlist?list=PLam_80-FY3vSSYKqfaj0YB9X06Vi5un5j",
+    "date": "2016-01-27T00:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": "Ben Hall",
+        "url": "https://github.com/BenHall",
+        "title": "Scaling Node.js using Docker",
+        "video": "https://youtu.be/nBBJh75SqS4?list=PLam_80-FY3vQczbx9kqFfzbXoCiTAGKnm"
+      },
+      {
+        "name": "Fábio Santos",
+        "url": "https://github.com/fabiosantoscode",
+        "title": "A javascript to c++ transpiler!",
+        "video": "https://youtu.be/6RKxkINidvk?list=PLam_80-FY3vQczbx9kqFfzbXoCiTAGKnm"
+      },
+      {
+        "name": "Matt Forrester",
+        "url": "https://github.com/forbesmyester",
+        "title": "MVP Diagrams that can do things",
+        "video": "https://youtu.be/qPCF4JUyllc?list=PLam_80-FY3vQczbx9kqFfzbXoCiTAGKnm"
+      }
+    ],
+    "videoPlayist": "https://www.youtube.com/playlist?list=PLam_80-FY3vQczbx9kqFfzbXoCiTAGKnm",
+    "date": "2015-11-25T00:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": "Milo Mordaunt",
+        "url": "https://github.com/bananaoomarang",
+        "title": "Flux to Redux, Thinking with Data",
+        "video": "https://youtu.be/n99Jhop6K8Y?list=PLam_80-FY3vT--2u55HKoZRAwfrHHP1aC"
+      },
+      {
+        "name": "Alistair Stead",
+        "url": "https://github.com/alistairstead",
+        "title": "Full-stack BDD and its side effects",
+        "video": "https://youtu.be/YP_YIH4GoGE?list=PLam_80-FY3vT--2u55HKoZRAwfrHHP1aC"
+      },
+      {
+        "name": "Tom Gallacher",
+        "url": "https://github.com/tomgco",
+        "title": "White water streams",
+        "video": "https://youtu.be/iBEjz38ppe4?list=PLam_80-FY3vT--2u55HKoZRAwfrHHP1aC"
+      }
+    ],
+    "videoPlayist": "https://www.youtube.com/playlist?list=PLam_80-FY3vT--2u55HKoZRAwfrHHP1aC",
+    "date": "2015-10-28T00:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": "Bodil Stokke",
+        "url": "https://github.com/bodil",
+        "title": "The Miracle of Generators"
+      },
+      {
+        "name": "Hassy Veldstra",
+        "url": "https://github.com/hassy",
+        "title": "Load-testing for fun and profit"
+      },
+      {
+        "name": "Jacob Burton",
+        "url": "https://github.com/burtonjc",
+        "title": "How Waffle.io separated its API from its core web app"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2015-09-22T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "name": "Tomasz Janczuk",
+        "url": "https://github.com/tjanczuk",
+        "title": "Rethinking backend with webtasks",
+        "video": "https://youtu.be/bhQ3Ov4niPs?list=PLam_80-FY3vQ-qa-AqFDWCAjGHhDRcKoQ"
+      },
+      {
+        "name": "Dan Jenkins",
+        "url": "https://github.com/danjenkins",
+        "title": "WebRTC Reborn",
+        "video": "https://youtu.be/tB9z4ZOoSwg?list=PLam_80-FY3vQ-qa-AqFDWCAjGHhDRcKoQ"
+      },
+      {
+        "name": "Tim Perry",
+        "url": "https://github.com/pimterry",
+        "title": "TypeScript will finally bring peace to your troubled soul",
+        "video": "https://youtu.be/UI9cgrMxGi0?list=PLam_80-FY3vQ-qa-AqFDWCAjGHhDRcKoQ"
+      }
+    ],
+    "videoPlayist": "https://www.youtube.com/playlist?list=PLam_80-FY3vQ-qa-AqFDWCAjGHhDRcKoQ",
+    "date": "2015-08-25T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "https://github.com/jdNash",
+        "name": "Joe Nash",
+        "title": "Insert Token: Immersive UX with Tokenization",
+        "video": "https://youtu.be/3pwsbVOxvYk?list=PLam_80-FY3vSRhu1NfVXVN01xBX0Gf8EV"
+      },
+      {
+        "url": "https://github.com/mikeal",
+        "name": "Mikeal Rogers",
+        "title": "Node Foundation Q&A",
+        "video": "https://youtu.be/AIr_dkcql9E?list=PLam_80-FY3vSRhu1NfVXVN01xBX0Gf8EV"
+      },
+      {
+        "url": "https://github.com/sofer",
+        "name": "Dan Sofer",
+        "title": "Founders & Coders",
+        "video": "https://youtu.be/3oXhmHDDEro?list=PLam_80-FY3vSRhu1NfVXVN01xBX0Gf8EV"
+      }
+    ],
+    "videoPlayist": "https://www.youtube.com/playlist?list=PLam_80-FY3vSRhu1NfVXVN01xBX0Gf8EV",
+    "date": "2015-07-21T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "https://github.com/hxoliverrumbelow",
+        "name": "Oliver Rumbelow",
+        "title": "Blowing out the LAMP",
+        "video": "https://youtu.be/L5JO1KCLGX4?list=PLam_80-FY3vSVQxWpSQD5vi8ZSgtQUcLB"
+      },
+      {
+        "url": "https://github.com/mikemaccana",
+        "name": "Mike MacCana",
+        "title": "Deploying and running Node apps in 2015",
+        "video": "https://youtu.be/ivzVLM1Zknw?list=PLam_80-FY3vSVQxWpSQD5vi8ZSgtQUcLB"
+      },
+      {
+        "url": "https://github.com/maxwellito",
+        "name": "Max Dulduc",
+        "title": "Liwe, an open source remote control for WebApps",
+        "video": "https://youtu.be/Vr9sH9fZN-8?list=PLam_80-FY3vSVQxWpSQD5vi8ZSgtQUcLB"
+      }
+    ],
+    "videoPlayist": "https://www.youtube.com/playlist?list=PLam_80-FY3vSVQxWpSQD5vi8ZSgtQUcLB",
+    "date": "2015-06-23T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "https://github.com/ohjames",
+        "name": "James Pike",
+        "title": "The state of web asset pipelines and the description of a new pipeline that combines the best of all worlds."
+      },
+      {
+        "url": "https://github.com/sideshowcoder",
+        "name": "Philipp Fehre",
+        "title": "Server mocking with canned"
+      },
+      {
+        "url": "http://twitter.com/matteofigus",
+        "name": "Matteo Figus",
+        "title": "OpenComponents as microservices in the front-end world",
+        "video": "https://youtu.be/rrEsXvoU0Go?list=PLam_80-FY3vQ1Z6PXeG4xOuwDFtGuSBmh"
+      }
+    ],
+    "videoPlayist": "https://www.youtube.com/playlist?list=PLam_80-FY3vQ1Z6PXeG4xOuwDFtGuSBmh",
+    "date": "2015-05-26T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "https://github.com/achingbrain",
+        "name": "Alex Potsides",
+        "title": "Guvnor: running your processes like a boss",
+        "video": "https://youtu.be/LZEShD2fOzo?list=PLam_80-FY3vQ9tBPgllITvduAI_g86YYA"
+      },
+      {
+        "url": "https://github.com/jamesallardice",
+        "name": "James Allardice",
+        "title": "Writing and publishing ES6 code today",
+        "video": "https://youtu.be/w0mGM5rFqeA?list=PLam_80-FY3vQ9tBPgllITvduAI_g86YYA"
+      },
+      {
+        "url": "https://github.com/simonmcmanus",
+        "name": "Simon McManus",
+        "title": "Progressive Enhancement Strategies",
+        "video": "https://youtu.be/KPrC-udTDi8?list=PLam_80-FY3vQ9tBPgllITvduAI_g86YYA"
+      }
+    ],
+    "videoPlayist": "https://www.youtube.com/playlist?list=PLam_80-FY3vQ9tBPgllITvduAI_g86YYA",
+    "date": "2015-04-21T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "https://github.com/Globegitter",
+        "name": "Markus Padourek",
+        "title": "Benefits of using Convention over Configuration",
+        "video": "https://youtu.be/uVtXNNmvYwg?list=PLam_80-FY3vSpdpbWLhHF7sdS0GIfGkJW"
+      },
+      {
+        "url": "https://github.com/rosskukulinski",
+        "name": "Ross Kukulinski",
+        "title": "Building NodeJS Applications with Docker & CoreOS",
+        "video": "https://youtu.be/s0qfSevw2UU?list=PLam_80-FY3vSpdpbWLhHF7sdS0GIfGkJW"
+      },
+      {
+        "url": "https://github.com/alanshaw",
+        "name": "Alan Shaw",
+        "title": "Super simple service health monitoring with upmon",
+        "video": "https://youtu.be/hC0xwgUpz6M?list=PLam_80-FY3vSpdpbWLhHF7sdS0GIfGkJW"
+      }
+    ],
+    "videoPlayist": "https://www.youtube.com/playlist?list=PLam_80-FY3vSpdpbWLhHF7sdS0GIfGkJW",
+    "date": "2015-03-25T00:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "https://github.com/ForbesLindesay",
+        "name": "Forbes Lindesay",
+        "title": "Everything you didn't dare asking about jade",
+        "video": "https://youtu.be/m7oosgdDdSY?list=PLam_80-FY3vTopJJMuZ1iM-Uo0Omk72Ai"
+      },
+      {
+        "url": "https://github.com/lukebond",
+        "name": "Luke Bond",
+        "title": "Paz: A Simple Docker PaaS Written in Node.js",
+        "video": "https://youtu.be/cQOPoDmkFg8?list=PLam_80-FY3vTopJJMuZ1iM-Uo0Omk72Ai"
+      },
+      {
+        "url": "https://github.com/basicallydan",
+        "name": "Daniel Hough",
+        "title": "I'm a Node Module Maintainer (And so can you!)",
+        "video": "https://youtu.be/rCM2paoike0?list=PLam_80-FY3vTopJJMuZ1iM-Uo0Omk72Ai"
+      }
+    ],
+    "videoPlayist": "https://www.youtube.com/playlist?list=PLam_80-FY3vTopJJMuZ1iM-Uo0Omk72Ai",
+    "date": "2015-02-25T00:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "https://twitter.com/flomotlik",
+        "name": "Florian Motlik",
+        "title": "Servers Are Dead, Long Live the Service",
+        "video": "https://youtu.be/bU5Dre5MrI8?list=PLam_80-FY3vQR3NZJAUNeVdtYTYuP1qlS"
+      },
+      {
+        "url": "https://twitter.com/rosskukulinski",
+        "name": "Ross Kukulinski",
+        "title": "What to expect when expecting IOJS",
+        "video": "https://youtu.be/JhEf6JngpdQ?list=PLam_80-FY3vQR3NZJAUNeVdtYTYuP1qlS"
+      },
+      {
+        "url": "https://twitter.com/fmsf303",
+        "name": "Francisco Ferreira",
+        "title": "Javascript Craftsmanship",
+        "video": "https://youtu.be/g-1cefQvFYc?list=PLam_80-FY3vQR3NZJAUNeVdtYTYuP1qlS"
+      },
+      {
+        "url": "https://twitter.com/pimterry",
+        "name": "Tim Perry",
+        "title": "Web Components & Microservices Are The Same Thing",
+        "video": "https://youtu.be/EivKc3HpElQ?list=PLam_80-FY3vQR3NZJAUNeVdtYTYuP1qlS"
+      }
+    ],
+    "videoPlayist": "https://www.youtube.com/playlist?list=PLam_80-FY3vQR3NZJAUNeVdtYTYuP1qlS",
+    "date": "2015-01-28T00:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "https://twitter.com/tomgco",
+        "name": "Tom Gallacher",
+        "title": "Async: the battle"
+      },
+      {
+        "url": "https://twitter.com/shapeshed",
+        "name": "George Ornbo",
+        "title": "Realtime Node.js from the trenches"
+      },
+      {
+        "url": "https://twitter.com/tomcartwrightuk",
+        "name": "Tom Cartwright",
+        "title": "Peer connect all the things"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2014-11-26T00:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "https://twitter.com/ischi",
+        "name": "Philipp Fehre",
+        "title": "JSON throughout the Stack",
+        "video": "https://youtu.be/mZKp3xuzKeQ?list=PLam_80-FY3vShsm-u6lmGrgHCYPVv4wiX"
+      },
+      {
+        "url": "https://twitter.com/ben_hall",
+        "name": "Ben Hall",
+        "title": "Node Anti-patterns",
+        "video": "https://youtu.be/YyR4PdX-1O4?list=PLam_80-FY3vShsm-u6lmGrgHCYPVv4wiX"
+      },
+      {
+        "url": "https://twitter.com/substack",
+        "name": "James Halliday",
+        "title": "Data Wizzard",
+        "video": "https://youtu.be/ID8hP4aXdBg?list=PLam_80-FY3vShsm-u6lmGrgHCYPVv4wiX"
+      }
+    ],
+    "videoPlayist": "https://www.youtube.com/playlist?list=PLam_80-FY3vShsm-u6lmGrgHCYPVv4wiX",
+    "date": "2014-10-21T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "https://twitter.com/racekjakub",
+        "name": "Jakub Racek",
+        "title": "Scanner and Printer Pi with Node sides"
+      },
+      {
+        "url": "https://twitter.com/fmsf303",
+        "name": "Francisco Ferreira",
+        "title": "JavaScript, Java and Dart! Asynch all around us."
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2014-09-23T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "https://twitter.com/forbesmyester",
+        "name": "Matt Forrester",
+        "title": "Offline Apps and Data Synchronization"
+      },
+      {
+        "url": "https://twitter.com/ischi",
+        "name": "Philipp Fehre",
+        "title": "node.js and native code"
+      },
+      {
+        "url": "https://twitter.com/adam_baldwin",
+        "name": "Adam Baldwin",
+        "title": "node security"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2014-08-26T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "https://twitter.com/dscape",
+        "name": "Nuno Job",
+        "title": "process.env.NODE_ENV === 'PRODUCTION' for all your 'webscale' apps!"
+      },
+      {
+        "url": "https://twitter.com/sublimino",
+        "name": "Andrew Martin",
+        "title": "Deployment Pipelines: Disproving the Big Bang"
+      },
+      {
+        "url": "https://twitter.com/lukebond",
+        "name": "Luke Bond",
+        "title": "ZeroMQ with Node"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2014-07-22T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "https://twitter.com/cutandpastey",
+        "name": "Jon Parsons",
+        "title": "Isomorphic Javascript What, Why and How"
+      },
+      {
+        "url": "https://twitter.com/paulbjensen",
+        "name": "Paul Jensen",
+        "title": "Building desktop apps with Node Webkit"
+      },
+      {
+        "url": "https://twitter.com/jna_sh",
+        "name": "Joe Nash",
+        "title": "Functional programming on the clientside with Fay and Elm"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2014-06-24T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "https://twitter.com/thomasheymann",
+        "name": "Thomas Heymann",
+        "title": "Slicing it up: How we built a micro-service for rendering shared client/server-side one-page apps"
+      },
+      {
+        "url": "https://twitter.com/malditogeek",
+        "name": "Mauro Pompilio",
+        "title": "VMUX 2.0"
+      },
+      {
+        "url": "https://twitter.com/yrezgui",
+        "name": "Yacine Rezgui",
+        "title": "Develop HTML5 mobile apps in 2014"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2014-05-27T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "https://twitter.com/Jermolene",
+        "name": "Jeremy Ruston",
+        "title": "A Tale of Two Hosts: rebooting TiddlyWiki for Node.js and the browser"
+      },
+      {
+        "url": "https://twitter.com/simonmcmanus",
+        "name": "Simon McManus",
+        "title": "Home Automation With Javascript"
+      },
+      {
+        "url": "https://twitter.com/ismasan",
+        "name": "Ismael Celis",
+        "title": "Streaming downloads proxy service with Node.js"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2014-04-22T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "https://twitter.com/timruffles",
+        "name": "Tim Ruffles",
+        "title": "NodeUP Podcast Live: featuring Geoff Wagstaff, Forbes Lindesay, Tancredi Trugenberge,Remy Sharp"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2014-03-26T00:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "http://twitter.com/tomgco",
+        "name": "Tom Gallacher",
+        "title": "Easy CPU profiling in Nodejs"
+      },
+      {
+        "url": "http://twitter.com/ForbesLindesay",
+        "name": "Forbes Lindesay",
+        "title": "An introduction to the Jade templating language"
+      },
+      {
+        "url": "http://twitter.com/matteofigus",
+        "name": "Matteo Figus",
+        "title": "Performance tests on APIs using Node.js"
+      },
+      {
+        "url": "http://twitter.com/jaimefjorge",
+        "name": "Jaime Jorge",
+        "title": "Node in Codacy"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2014-02-26T00:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "http://twitter.com/alexHacked",
+        "name": "Alex Roche",
+        "title": "NodeJS & Arduino; What, Why & How"
+      },
+      {
+        "url": "http://twitter.com/alexandrosM",
+        "name": "Alexandros Marinos",
+        "title": "Resin.io - JS on your Raspberry Pi with a simple 'git push'"
+      },
+      {
+        "url": "http://twitter.com/rowanmanning",
+        "name": "Rowan Manning",
+        "title": "UX For Your Node Modules"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2014-01-22T00:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "http://twitter.com/tfoureur",
+        "name": "Tristan Foureur",
+        "title": "Megatron: Javascript-to-javascript compiler"
+      },
+      {
+        "url": "http://twitter.com/NoWayJA",
+        "name": "Jonathan Anthony",
+        "title": "Selling Javascript to Clients"
+      },
+      {
+        "url": "http://twitter.com/_alanshaw",
+        "name": "Alan Shaw",
+        "title": "Hoodie plugins"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2013-11-27T00:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "http://twitter.com/rem",
+        "name": "Remy Sharp",
+        "title": "The Bits Behind JS Bin"
+      },
+      {
+        "url": "http://twitter.com/dwynne",
+        "name": "David Wynne",
+        "title": "Something witty about DocPad and SSGs"
+      },
+      {
+        "url": "http://twitter.com/ForbesLindesay",
+        "name": "Forbes Lindesay",
+        "title": "Dissecting a real world node.js application: esdiscuss.org"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2013-10-22T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "http://twitter.com/ErisDS",
+        "name": "Hannah Wolfe",
+        "title": "Ghost, Just a Blogging Platform"
+      },
+      {
+        "url": "http://twitter.com/tgrall",
+        "name": "Tugdual Grall",
+        "title": "Building a node application with Couchbase, Node and Angular"
+      },
+      {
+        "url": "http://twitter.com/knolleary",
+        "name": "Nick O'Leary",
+        "title": "Node-RED, a visual tool for wiring the Internet of Things"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2013-09-24T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "http://twitter.com/richmarr",
+        "name": "Richard Marr",
+        "title": "Lightning Talk"
+      },
+      {
+        "url": "http://twitter.com/kittylyst",
+        "name": "Ben Evans",
+        "title": "Lightning Talk"
+      },
+      {
+        "url": "http://twitter.com/rtweed",
+        "name": "Rob Tweed",
+        "title": "Lightning Talk"
+      },
+      {
+        "url": "http://twitter.com/olizilla",
+        "name": "Oli Evans",
+        "title": "Lightning Talk"
+      },
+      {
+        "url": "http://twitter.com/alexHacked",
+        "name": "Alex Roche",
+        "title": "Lightning Talk"
+      },
+      {
+        "url": "http://twitter.com/paul_tanner",
+        "name": "Paul Tanner",
+        "title": "Lightning Talk"
+      },
+      {
+        "url": "http://twitter.com/_alanshaw",
+        "name": "Alan Shaw",
+        "title": "Lightning Talk"
+      },
+      {
+        "url": "http://twitter.com/bjnortier",
+        "name": "Benjamin Nortier",
+        "title": "Lightning Talk"
+      },
+      {
+        "url": "http://twitter.com/danielepolencic",
+        "name": "Daniele Polencic",
+        "title": "Lightning Talk"
+      },
+      {
+        "url": "http://twitter.com/thattommyhall",
+        "name": "Tommy Hall",
+        "title": "Lightning Talk"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2013-08-27T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "http://twitter.com/timruffles",
+        "name": "Tim Ruffles",
+        "title": "No more pyramids - Approaches to keeping callbacks clean"
+      },
+      {
+        "url": "http://twitter.com/teabass",
+        "name": "Andrew Nesbitt",
+        "title": "Node.js + Quadcopters - What could go wrong?"
+      },
+      {
+        "url": "http://twitter.com/joe_stant",
+        "name": "Joe Stanton and David Wynne",
+        "title": "BBC Now that's what I call Node"
+      },
+      {
+        "url": "http://twitter.com/dwynne",
+        "name": "David Wynne and Joe Stanton",
+        "title": "BBC Now that's what I call Node"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2013-07-23T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "http://twitter.com/adamyeats",
+        "name": "Adam Yeats",
+        "title": "Promises in Node.js"
+      },
+      {
+        "url": "http://twitter.com/malditogeek",
+        "name": "Mauro Pompilio",
+        "title": "WebRTC 101"
+      },
+      {
+        "url": "http://twitter.com/antonwhalley",
+        "name": "Anton Whalley",
+        "title": "Thoughts on LevelDB"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2013-06-25T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "http://twitter.com/shaundunne",
+        "name": "Shaun Dunne",
+        "title": "Grunt your way to Glory"
+      },
+      {
+        "url": "http://twitter.com/MathieuLoutre",
+        "name": "Mathieu Triay",
+        "title": "Up and running with Hapi"
+      },
+      {
+        "url": "http://twitter.com/suprememoocow",
+        "name": "Andrew Newdigate and Mike Bartlett ",
+        "title": "Live Collections with Backbone and Faye"
+      },
+      {
+        "url": "http://twitter.com/mydigitalself",
+        "name": "Mike Bartlett and Andrew Newdigate",
+        "title": "Live Collections with Backbone and Faye"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2013-05-21T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "http://twitter.com/insertcoffee",
+        "name": "Peter Johnson and Tancredi Trugenberge",
+        "title": "All your base are belong to us"
+      },
+      {
+        "url": "http://twitter.com/Liquidimage_",
+        "name": "Tancredi Trugenberge and Peter Johnson",
+        "title": "All your base are belong to us"
+      },
+      {
+        "url": "http://twitter.com/_alanshaw",
+        "name": "Alan Shaw",
+        "title": "Node dependency management - David is watching"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2013-04-23T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "http://twitter.com/bahulneel",
+        "name": "Bahul Neel Upadhyaya",
+        "title": "To infinity and beyond! Protocols and lazy sequences in node #2"
+      },
+      {
+        "url": "http://twitter.com/simonmcmanus",
+        "name": "Simon McManus",
+        "title": "Building Roca style web apps with Sizlate and Node.js"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2013-03-27T00:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "http://twitter.com/henryoswald",
+        "name": "Henry Oswald",
+        "title": "Practical patterns for building and testing Node.js apps"
+      },
+      {
+        "url": "http://twitter.com/dshaw",
+        "name": "Daniel Shaw",
+        "title": "Adventures in Production Node.js"
+      },
+      {
+        "url": "http://twitter.com/bfirsh",
+        "name": "Ben Firshman",
+        "title": "The future of single-page apps"
+      },
+      {
+        "url": "http://twitter.com/lloydwatkin",
+        "name": "Lloyd Watkin",
+        "title": "pinitto.me: what, why, how"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2013-02-27T00:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "http://twitter.com/bahulneel",
+        "name": "Bahul Neel Upadhyaya",
+        "title": "To infinity and beyond! Protocols and lazy sequences in node."
+      },
+      {
+        "url": "http://twitter.com/darachennis",
+        "name": "Darach Ennis",
+        "title": "Embedded Event Processing with Streams & Pipes"
+      },
+      {
+        "url": "http://twitter.com/pdp",
+        "name": "Petko D. Petkov",
+        "title": "Node.js Security"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2013-01-23T00:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "http://twitter.com/ludvik_pl",
+        "name": "Paweł Ledwoń",
+        "title": "Benchmarking Pusher using Node.js"
+      },
+      {
+        "url": "http://twitter.com/thatshems",
+        "name": "Henrique Matias",
+        "title": "Toasted coffee for the lazy"
+      },
+      {
+        "url": "http://twitter.com/domenicdenicola",
+        "name": "Domenic Denicola",
+        "title": "JavaScript on the Desktop"
+      },
+      {
+        "url": "http://twitter.com/thattommyhall",
+        "name": "Tom Hall",
+        "title": "Sound Doodle, A Node Knockout project"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2012-11-28T00:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "http://twitter.com/serby",
+        "name": "Paul Serby",
+        "title": "The future of wearable computing with node.js, Raspberry PI and bowler hats"
+      },
+      {
+        "url": "http://twitter.com/teabass",
+        "name": "Andrew Nesbitt",
+        "title": "Integrating Node.js into your existing technology stack"
+      },
+      {
+        "url": "http://twitter.com/insertcoffee",
+        "name": "Peter Johnson and Tancredi Trugenberge",
+        "title": "Writing real-time games in coffeescript with node.js + socket.io & HTML5"
+      },
+      {
+        "url": "http://twitter.com/Liquidimage_",
+        "name": "Tancredi Trugenberge and Peter Johnson",
+        "title": "Writing real-time games in coffeescript with node.js + socket.io & HTML5"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2012-10-23T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "http://twitter.com/antonwhalley",
+        "name": "Anton Whalley",
+        "title": "Growing Turtles In Brown Fields : Node in the Microsoft Apps that you have already have"
+      },
+      {
+        "url": "http://twitter.com/dominictarr",
+        "name": "Dominic Tarr",
+        "title": "Writing Custom Streams"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2012-09-25T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "http://twitter.com/thattommyhall",
+        "name": "Tom Hall",
+        "title": "Evolving Genetic Algorithms In The Browser"
+      },
+      {
+        "url": "http://twitter.com/webdigi",
+        "name": "Roshan Abraham",
+        "title": "Using your iPhone as a game controller with NodeJS, HTML5"
+      },
+      {
+        "url": "http://twitter.com/Keithamus",
+        "name": "Keith Cirkel",
+        "title": "A brief history of time"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2012-08-21T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "#",
+        "name": "Hack Evening",
+        "title": "Hack Evening"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2012-07-24T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "http://twitter.com/abhinay",
+        "name": "Abhinay Mehta",
+        "title": "Timothy: writing Hadoop MapReduce jobs in JS"
+      },
+      {
+        "url": "http://twitter.com/jbpros",
+        "name": "Julien Biezemans",
+        "title": "Cucumber.js: Cuke up your JavaScript!"
+      },
+      {
+        "url": "http://twitter.com/vowelnoun",
+        "name": "Phil Deschaine",
+        "title": "Building a Real-Time Twitter Game in Node.js"
+      },
+      {
+        "url": "http://twitter.com/felixge",
+        "name": "Felix Geisendörfer",
+        "title": "As fast as C? Writing high performance JavaScript parsers"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2012-06-26T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "http://twitter.com/hylomorphism",
+        "name": "Matthew Sackman",
+        "title": "Atomize JS - Safe Distributed Shared Objects"
+      },
+      {
+        "url": "http://twitter.com/socketstream",
+        "name": "Owen Barnes",
+        "title": "SocketStream"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2012-05-22T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "http://twitter.com/m0wfo",
+        "name": "Chris Mowforth",
+        "title": "Rhinode"
+      },
+      {
+        "url": "http://twitter.com/dscape",
+        "name": "Nuno Job",
+        "title": "The good and the bad Open-Source"
+      },
+      {
+        "url": "http://twitter.com/petexgraham",
+        "name": "Pete X. Graham",
+        "title": "McLaren F1 and Node.js"
+      },
+      {
+        "url": "http://twitter.com/simonmcmanus",
+        "name": "Simon McManus",
+        "title": "Sizlate and Frameworked"
+      },
+      {
+        "url": "http://twitter.com/thattommyhall",
+        "name": "Tom Hall",
+        "title": "Readability Counts"
+      },
+      {
+        "url": "http://twitter.com/teabass",
+        "name": "Andrew Nesbitt",
+        "title": "Using Node.js and Ruby on Rails for uber productivity"
+      },
+      {
+        "url": "http://twitter.com/domharrington",
+        "name": "Dom Harrington",
+        "title": "Building command line interfaces in Node.js"
+      },
+      {
+        "url": "http://twitter.com/PitaPoison",
+        "name": "Pita Poison",
+        "title": "Etherpad and Etherpad Lite"
+      },
+      {
+        "url": "http://twitter.com/sleepyfox",
+        "name": "Sleepy Fox",
+        "title": "BDD with Jasmine-node and CoffeeScript"
+      },
+      {
+        "url": "http://twitter.com/tonydenyer",
+        "name": "Tony Denyer",
+        "title": "cucumber.js with zombie.js"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2012-04-24T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "http://twitter.com/henryoswald",
+        "name": "Henry Oswald",
+        "title": "sharelatex.com - Experiences building and running a node.js site"
+      },
+      {
+        "url": "http://twitter.com/mikepilsbury",
+        "name": "Mike Pilsbury",
+        "title": "Arduino + Node == Fun"
+      },
+      {
+        "url": "#",
+        "name": "Chris Munt",
+        "title": "Higher Order Software for Node.js"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2012-03-27T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "http://twitter.com/andykent",
+        "name": "Andy Kent",
+        "title": "River and SQL parsing in javascript"
+      },
+      {
+        "url": "http://twitter.com/PabloSerbo",
+        "name": "Paul Serby",
+        "title": "Building for clients with Node.js"
+      },
+      {
+        "url": "http://twitter.com/hiddentao",
+        "name": "Ramesh Nair",
+        "title": "Squel - an SQL query string builder for Javascript"
+      },
+      {
+        "url": "http://twitter.com/Keithamus",
+        "name": "Keith Cirkel",
+        "title": "Time for a new Date()"
+      },
+      {
+        "url": "http://twitter.com/dscape",
+        "name": "Nuno Job",
+        "title": "Streaming JSON parsing"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2012-02-22T00:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "http://twitter.com/richmarr",
+        "name": "Richard Marr",
+        "title": "Powerful data layers with CouchDB and Elasticsearch"
+      },
+      {
+        "url": "http://twitter.com/simonmcmanus",
+        "name": "Simon McManus",
+        "title": "Sizlate: HTML templating with Sizzle (jQuery) selectors"
+      },
+      {
+        "url": "http://twitter.com/paddybyers",
+        "name": "Paddy Byers",
+        "title": "Node.js for Android"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2012-01-25T00:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "http://twitter.com/alex_young",
+        "name": "Alex Young",
+        "title": "Node Flow Control"
+      },
+      {
+        "url": "http://twitter.com/appltn",
+        "name": "Andrew Appleton",
+        "title": "Introducing Mint Source"
+      },
+      {
+        "url": "http://twitter.com/majek04",
+        "name": "Marek Majkowski",
+        "title": "SockJS - WebSocket Emulation Kept Simple, Stupid"
+      },
+      {
+        "url": "http://twitter.com/mloughran",
+        "name": "Martyn Loughran",
+        "title": "Websockets and the Pusher Pipe"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2011-11-23T00:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "http://twitter.com/mikedeboer",
+        "name": "Mike de Boer",
+        "title": "Developing large NodeJS libraries with Cloud9 IDE"
+      },
+      {
+        "url": "http://twitter.com/seddonandrew",
+        "name": "Andrew Seddon",
+        "title": "Massive-git, a revision controlled database"
+      },
+      {
+        "url": "http://twitter.com/detillen",
+        "name": "Richard Miller-Smith",
+        "title": "State machines and asynchronous programming"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2011-10-25T23:00:00.000Z"
+  },
+  {
+    "speakers": [
+      {
+        "url": "http://twitter.com/andykent",
+        "name": "Andy Kent",
+        "title": "Realtime data analysis over unbounded streams"
+      },
+      {
+        "url": "http://twitter.com/GarrenSmith",
+        "name": "Garren Smith",
+        "title": "These are the ORM's you are looking for"
+      },
+      {
+        "url": "http://twitter.com/rtweed",
+        "name": "Rob Tweed",
+        "title": "The Globals Database: its significance for Node developers"
+      }
+    ],
+    "videoPlayist": null,
+    "date": "2011-09-27T23:00:00.000Z"
+  }
+]

@@ -1,0 +1,81 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    background: rgb(29,29,29);
+    background: linear-gradient(0deg, rgba(29,29,29,1) 0%, rgba(70,72,61,1) 100%);
+    //background-color: #46483d;dd
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+#main {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    .content {
+        width: 100%;
+        padding: 0 8px;
+        max-width: 1000px;
+    }
+}
+
+h1 {
+    margin: 0;
+    padding: 1em 0 0.5em;
+    font-size: 2.5em;
+    color: #1d1d1d;
+}
+
+
+nav a {
+    transition: color 0.6s;
+}
+
+nav a.active {
+    color: #aba7a7;
+    cursor: default;
+}
+
+
+.home-banner{
+    background-color: #46483d;
+}
+
+
+
+
+.lnug-ticket {
+    min-width: 200px;
+    text-align: center;
+}
+
+.cta {
+    color: #1b1b1b;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    background: #bed52e;
+    border-radius: 5px;
+    padding: 2em;
+    margin: 10px auto 0;
+    font-size: 25px;
+    padding: 0.3em 1em;
+    border: 0 !important;
+    max-width: 10em;
+}
+
+.cta:hover {
+    cursor: pointer;
+}

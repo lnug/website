@@ -1,0 +1,2227 @@
+[
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "vGTzBeNSNBPKgbllBv8E5sHjNug",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLkJ2ODllZ0NfdjZB",
+    "snippet": {
+      "publishedAt": "2017-02-02T08:36:37Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "GraphQL: an API convention that you will actually follow by Clement Hannicq",
+      "description": "REST is recognized as the \"good practice\" in terms of web APIs, but can quickly become a hassle as your application grows and evolves. QraphQL is a new paradigm, allowing developers to request deeply nested information in a single call, without cluttering the response with unneeded fields. In this talk, I will show how GraphQL overcomes the rest limitations to send only the information a caller wants, without changing anything on your backend. I am currently working at Theodo (http://www.theodo.co.uk/) and have been for the past 18 months, as a fullstack developer.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/Bv89egC_v6A/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Bv89egC_v6A/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Bv89egC_v6A/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Bv89egC_v6A/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/Bv89egC_v6A/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 100,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "Bv89egC_v6A"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "fP1Lth2FASVQjPu9pKprLbJB-xc",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLmVuWHFpM2pHSElz",
+    "snippet": {
+      "publishedAt": "2017-02-01T17:13:07Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Readable Microservices, with Functional Programming by James Chow",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/enXqi3jGHIs/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/enXqi3jGHIs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/enXqi3jGHIs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/enXqi3jGHIs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/enXqi3jGHIs/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 101,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "enXqi3jGHIs"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "ieSEvIGF6_wJ_wjLoYDoBkY3ahc",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLjRTR3FDaVUxXzlF",
+    "snippet": {
+      "publishedAt": "2017-02-01T17:12:53Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Keep Calm and Curry On by Andreas MØller",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/4SGqCiU1_9E/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/4SGqCiU1_9E/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/4SGqCiU1_9E/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/4SGqCiU1_9E/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/4SGqCiU1_9E/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 102,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "4SGqCiU1_9E"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "b6HK6LixX2McVeab7bc9JWOdh7g",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLjJTUEJyY3pJenIw",
+    "snippet": {
+      "publishedAt": "2017-02-01T17:06:04Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "How to Build a REST API by Laszlo Gyulai",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/2SPBrczIzr0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/2SPBrczIzr0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/2SPBrczIzr0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/2SPBrczIzr0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/2SPBrczIzr0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 103,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "2SPBrczIzr0"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "wYjIaIO2dGSA704LzZH6SrINVp0",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLlJUdHVqRzY1RGlF",
+    "snippet": {
+      "publishedAt": "2017-02-01T17:06:27Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "The Fundamentals of Flow in 10 ish Minutes by Alex Booker",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/RTtujG65DiE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/RTtujG65DiE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/RTtujG65DiE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/RTtujG65DiE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/RTtujG65DiE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 104,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "RTtujG65DiE"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "iY-ITPc4lsN1vD6jLsXwqq1wc8k",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLi1GVjNpYV9TeXhB",
+    "snippet": {
+      "publishedAt": "2017-02-01T17:13:02Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Null Can't Hurt You Anymore by Stefano Vozza",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/-FV3ia_SyxA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/-FV3ia_SyxA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/-FV3ia_SyxA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/-FV3ia_SyxA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/-FV3ia_SyxA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 105,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "-FV3ia_SyxA"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "9622kERMgpnpX0wiMyAO3v1Ta4Q",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLjBzVmpLUFR2T01B",
+    "snippet": {
+      "publishedAt": "2017-02-01T17:06:18Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Quick Wins with Node and Google AMP by Mike MacCana",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/0sVjKPTvOMA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/0sVjKPTvOMA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/0sVjKPTvOMA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/0sVjKPTvOMA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/0sVjKPTvOMA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 106,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "0sVjKPTvOMA"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "qnmOKcxdztjoWsfzfS3aylLs2kA",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLmhyNjF4eVlTUDZr",
+    "snippet": {
+      "publishedAt": "2016-10-23T17:40:46Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Ace JavaScript Interviews: Scoping and Hoisting by Fox Reymann",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/hr61xyYSP6k/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/hr61xyYSP6k/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/hr61xyYSP6k/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/hr61xyYSP6k/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/hr61xyYSP6k/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 107,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "hr61xyYSP6k"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "Ab8N7Mxfw6o_D0n6M_aTbg5Zo_4",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLkRsbzNlLTB3QjFF",
+    "snippet": {
+      "publishedAt": "2016-10-23T16:56:42Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Ive got swagger, have you? by Tanzim Husain",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/Dlo3e-0wB1E/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Dlo3e-0wB1E/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Dlo3e-0wB1E/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Dlo3e-0wB1E/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/Dlo3e-0wB1E/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 108,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "Dlo3e-0wB1E"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "3Vg47xOBxSfjPA4QRCFXOyLOR78",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLkJ3cW91VXhuLWJn",
+    "snippet": {
+      "publishedAt": "2016-10-23T16:21:45Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Event Driven Archtecture by Loic",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/BwqouUxn-bg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/BwqouUxn-bg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/BwqouUxn-bg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/BwqouUxn-bg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/BwqouUxn-bg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 109,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "BwqouUxn-bg"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "wDExPxqbO0KAwlSKfq7e2_RByLw",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLmdFQ0EtZjc4a1dJ",
+    "snippet": {
+      "publishedAt": "2016-04-21T16:20:05Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "No SQL Is A Lie",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/gECA-f78kWI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/gECA-f78kWI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/gECA-f78kWI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/gECA-f78kWI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/gECA-f78kWI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 110,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "gECA-f78kWI"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "JOMWvkIohFjuyYI_csLFUAYS-og",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLmlkT3VOeUU2Y1hZ",
+    "snippet": {
+      "publishedAt": "2016-04-21T14:05:07Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Mar 2016   Rethink DB",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/idOuNyE6cXY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/idOuNyE6cXY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/idOuNyE6cXY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/idOuNyE6cXY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/idOuNyE6cXY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 111,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "idOuNyE6cXY"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "tAJIhKSFOz1kznqFJ_dTVgF5OTM",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLnI0YTdhSUJObGcw",
+    "snippet": {
+      "publishedAt": "2016-04-21T14:04:39Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Mar 2016   AWS Lambda",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/r4a7aIBNlg0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/r4a7aIBNlg0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/r4a7aIBNlg0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/r4a7aIBNlg0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/r4a7aIBNlg0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 112,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "r4a7aIBNlg0"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "w7PgYKY20GDPiM_PsNdxI2OSz1g",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLm9tVF9iQ01PM0VR",
+    "snippet": {
+      "publishedAt": "2016-03-23T20:12:31Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "LNUG March 2016 Live!",
+      "description": "Best game ever!",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/omT_bCMO3EQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/omT_bCMO3EQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/omT_bCMO3EQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/omT_bCMO3EQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 113,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "omT_bCMO3EQ"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "Zax2xW6RgCs945lyzsutUdCi9kQ",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLjFvckZHU2xTUno0",
+    "snippet": {
+      "publishedAt": "2016-03-23T19:26:15Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "LNUG March 2016 Live!",
+      "description": "Best game ever!",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/1orFGSlSRz4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/1orFGSlSRz4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/1orFGSlSRz4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/1orFGSlSRz4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 114,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "1orFGSlSRz4"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "nRgz0mMFY6-4JlUUCC-ANaAH3rA",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLld1YzROaDNsbVNF",
+    "snippet": {
+      "publishedAt": "2016-03-01T14:06:23Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Phil Nash - 2FA, WTF",
+      "description": "Everyone is hacking everything. Everything is vulnerable. Your site, your users, even you. Are you worried about this? You should be!\n\nDon't worry, I'm not trying to scare you (that much). We have plenty of safeguards against attempts on our applications' user data. We all (hopefully) recognise Two Factor Auth as one of those safeguards, but what actually goes on under the hood of 2FA?\n\nWe'll take a look into generating one time passwords in JavaScript, implementing 2FA in Node.js applications and the only real life compelling use case for QR codes. Together, we'll make the web a more secure place.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/Wuc4Nh3lmSE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Wuc4Nh3lmSE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Wuc4Nh3lmSE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Wuc4Nh3lmSE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/Wuc4Nh3lmSE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 115,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "Wuc4Nh3lmSE"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "Sf3-rDLthnRd4TitvRuzbTt80-I",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLjFtWWw2djBLenQw",
+    "snippet": {
+      "publishedAt": "2016-03-01T14:06:33Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Oliver Rumbelow - NodeJS Supercomputing",
+      "description": "Join me in a wild adventure to take a computationally heavy single-use NodeJS application and automagically scale it across many cores and many servers in the hunt for lazy performance. Disclaimer: This is all for fun, games and science.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/1mYl6v0Kzt0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/1mYl6v0Kzt0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/1mYl6v0Kzt0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/1mYl6v0Kzt0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/1mYl6v0Kzt0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 116,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "1mYl6v0Kzt0"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "8LlkpnPcUKUIs_Yxf6eVMnhAV6g",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLmIzd1lFbjJyX0Fj",
+    "snippet": {
+      "publishedAt": "2016-03-01T14:06:18Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Hugo Di Francesco - Going Cross-Platform With React",
+      "description": "What's the fastest way to ship a Web, iOS and Android app?\n\nReact Native goes beyond making native apps with web technology. You use javascript, granted that's a web technology, to make a fully fledged React app, using native components.\n\nIt's more than leveraging the power of the state -- UI mapping of React. It's about code reuse. Being this DRY hurts. All the high-level logic is portable and you have one single codebase for all three target platforms.\n\nAll of this is free, as long as you embrace React.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/b3wYEn2r_Ac/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/b3wYEn2r_Ac/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/b3wYEn2r_Ac/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/b3wYEn2r_Ac/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/b3wYEn2r_Ac/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 117,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "b3wYEn2r_Ac"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "mxtDSuxr4fsX_LhePO0KM39bkVQ",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLjh5a1pxek9hMUNj",
+    "snippet": {
+      "publishedAt": "2016-02-24T20:36:22Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "LNUG February 2016 Live!",
+      "description": "Best game ever!",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/8ykZqzOa1Cc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/8ykZqzOa1Cc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/8ykZqzOa1Cc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/8ykZqzOa1Cc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 118,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "8ykZqzOa1Cc"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "OgJQlxvScdaLQJNhJr4ZruDMVFc",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLmhrWUF1Nkg2bmM4",
+    "snippet": {
+      "publishedAt": "2016-02-24T18:44:24Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "LNUG February 2016 Live!",
+      "description": "Best game ever!",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/hkYAu6H6nc8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/hkYAu6H6nc8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/hkYAu6H6nc8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/hkYAu6H6nc8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 119,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "hkYAu6H6nc8"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "HJ9pXe7-H3uQcNY0zTk-sdYHKxM",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLjF4TE5oeEF5YXVJ",
+    "snippet": {
+      "publishedAt": "2016-02-24T18:19:56Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "LNUG February 2016 Live!",
+      "description": "Best game ever!",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/1xLNhxAyauI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/1xLNhxAyauI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/1xLNhxAyauI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/1xLNhxAyauI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 120,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "1xLNhxAyauI"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "gfP4kJRVSQRJ7L_AG53KpPrMpM0",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLkw1Sk8xS0NMR1g0",
+    "snippet": {
+      "publishedAt": "2015-09-22T21:31:07Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Oliver Rumbelow - Blowing out the LAMP",
+      "description": "Holiday Extras, a times top 100 company, maintains a big online presence selling airport parking, travel insurance and overnight stays in hotels. We made over 4,000,000 bookings last year and our API serves around 35 requests/second - we aren't big big, but we're big enough to have to deal with 'big website' problems.\n\nWe've spent 3 years fully migrating our production traffic away from a 10 year old LAMP stack to a NodeJS API. I want to share our journey - the migration plan, the evolution of our NodeJS codebase from beginning to end, our biggest mistakes and our biggest victories.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/L5JO1KCLGX4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/L5JO1KCLGX4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/L5JO1KCLGX4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/L5JO1KCLGX4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/L5JO1KCLGX4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 121,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "L5JO1KCLGX4"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "TYKNSd5dsdO6lwsUVOuDgMLQj8w",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLml2elZMTTFaa253",
+    "snippet": {
+      "publishedAt": "2015-09-22T21:44:11Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Mike Maccana - Deploying and running Node apps in 2015",
+      "description": "Everything you need to take advantage of npm in your browser side code, and avoid the pitfalls!\n\nIncluding:\n\nBuilding browser bundles with gulp and npm build - and how they compare\nHow to identify the modules that contribute to bundle file size\nPros, cons and workarounds for the izs style 'no lib dir, everything is a module' coding style\nEnsuring consistent versioning during deploys\nHow to include templates in your browserify bundles\nBased on experiences in a real world, production, profitable application.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/ivzVLM1Zknw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/ivzVLM1Zknw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/ivzVLM1Zknw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/ivzVLM1Zknw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/ivzVLM1Zknw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 122,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "ivzVLM1Zknw"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "EAfQILSRYtNKauSOdA6mkkjKIQc",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLlZyOXNIOWZaTi04",
+    "snippet": {
+      "publishedAt": "2015-09-22T22:02:33Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Max Duluc - Liwe, an open source remote control for WebApps",
+      "description": "This is a project I've been working on for few months and I just released it on github.com/liwe (under MIT). It's a service to let web developers (frontend guys) to use smartphones as remote for their webapps. Of course it's built with NodeJS. But at the moment it look more like a prototype than a robust piece of code.\n\nIt won't be very techy, especially in front of NodeJS developers. The talk would be axed on two main points:\n\nMake a technology accessible to other developers. Like sockets (think about jQuery and PHP devs)\nFind contributors\nI have absolutely no idea if this talk respect the idea of LNUG. I think I can hold 20 minutes demo included.\n\nhttps://github.com/liwe\nhttp://liwe.co",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/Vr9sH9fZN-8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Vr9sH9fZN-8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Vr9sH9fZN-8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Vr9sH9fZN-8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/Vr9sH9fZN-8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 123,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "Vr9sH9fZN-8"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "gzdTj8lxnwucevBTrH88sg1ZyWI",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLkFJcl9ka2NxbDlF",
+    "snippet": {
+      "publishedAt": "2015-09-28T17:26:26Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Mikeal Rogers - Node Foundation Q&A",
+      "description": "Mikeal giving an overview of the state of node following the merge or io.js and node.js, and the engagement of the Linux Foundation.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/AIr_dkcql9E/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/AIr_dkcql9E/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/AIr_dkcql9E/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/AIr_dkcql9E/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/AIr_dkcql9E/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 124,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "AIr_dkcql9E"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "-s6WUXcdZa7MbIJvth9n-elNi4E",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLjNvWGhtSERERXJv",
+    "snippet": {
+      "publishedAt": "2015-09-28T17:25:40Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Dan Sofer - Founders & Coders",
+      "description": "Founders & Coders are a non-profit organisation, run with the objective of providing a first class training in full-stack JS, for free.\n\nIn this talk we will discuss the origins of Founders & Coders; why we started and our original goals. We will then talk about the last 18 months; how the organisation has developed and how our curriculum has shifted dramatically as we have experimented with different educational models. We will then talk briefly about the future of F&C; what we have planned and where we think our organisation is going.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/3oXhmHDDEro/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/3oXhmHDDEro/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/3oXhmHDDEro/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/3oXhmHDDEro/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/3oXhmHDDEro/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 125,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "3oXhmHDDEro"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "58bn37yBsVhu7_k2XFPSBJigfnY",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLjNwd3NiVk94dllr",
+    "snippet": {
+      "publishedAt": "2015-09-28T17:27:23Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Joe Nash - Insert Token: Immersive UX with Tokenization",
+      "description": "Users of our apps and products yearn to be immersed; but so often, the worlds we build with software show surprising seams, shattering immersion for our users. In this talk, we'll look at the magic of tokenization, and how it can transform the UX of your application.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/3pwsbVOxvYk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/3pwsbVOxvYk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/3pwsbVOxvYk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/3pwsbVOxvYk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/3pwsbVOxvYk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 126,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "3pwsbVOxvYk"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "5vIqsn1ICWNzPT1oGlsjZ3YXVKo",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLm5CQkpoNzVTcVM0",
+    "snippet": {
+      "publishedAt": "2015-12-23T12:01:41Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Ben Hall - Scaling Node.js using Docker",
+      "description": "With great load comes great scaling responsibility. If we need to scale then hopefully it means we're doing something right. The problem is how to scale without increasing complexity and re-writing the application.\n\nIn this talk, Ben will discuss how he scales Katacoda.com, an online learning platform for developers. Ben will show how to deploy Node.js applications with Docker. Once deployed, Ben will highlight how to scale the processes and take advantage of container based deployments.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/nBBJh75SqS4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/nBBJh75SqS4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/nBBJh75SqS4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/nBBJh75SqS4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/nBBJh75SqS4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 127,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "nBBJh75SqS4"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "QqEiTqclYtzp7gKipiCT7jqv-rw",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLjZSS3hrSU5pZHZr",
+    "snippet": {
+      "publishedAt": "2015-12-23T12:02:23Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Fábio Santos - A javascript to c++ transpiler!",
+      "description": "A talk about an in-development javascript to c++ transpiler which currently kind of works and implements closures, numbers, objects, functions and strings.\n\nWatch it compile and run hello world, and beat node in an EPIC FIB() BENCHMARK!\n\nBe compelled by the power of tern.js to figure out what you think you're actually writing!",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/6RKxkINidvk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/6RKxkINidvk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/6RKxkINidvk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/6RKxkINidvk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/6RKxkINidvk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 128,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "6RKxkINidvk"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "EvETpbuEtYtHanf-kjDY2AMSUJM",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLnFQQ0Y0SlV5bGxj",
+    "snippet": {
+      "publishedAt": "2015-12-23T12:03:15Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Matt Forrester - MVP Diagrams that can do things",
+      "description": "A short talk on DB DiaYAML, which is a journey-to-work and weekend project for drawing simple database diagrams. It's not particularly a serious project but it scratches an itch I had and has a nice MVP feel to it. There's a blog post about it at http://keyboardwritescode.blogspot.co.uk/2015/07/weekend-project-db-diayaml.html",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/qPCF4JUyllc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/qPCF4JUyllc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/qPCF4JUyllc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/qPCF4JUyllc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/qPCF4JUyllc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 129,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "qPCF4JUyllc"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "2pGWcapa9Rd_txobaVQzCsOHFaM",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLmJoUTNPdjRuaVBz",
+    "snippet": {
+      "publishedAt": "2015-09-28T17:24:55Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Tomasz Janczuk - Rethinking backend with webtasks [Bad Audio]",
+      "description": "You are writing a mobile or HTML5 web application that needs just a little bit of a backend. Maybe you want to access MongoDB, send an SMS, or an e-mail. Do you really need to host your own Node.js service to run this small snippet of backend logic?\n\nIn this talk I will take a hard look at the role of the backend in modern applications. I will introduce the concept of a webtask - a lightweight representation of backend logic that can safely be embedded in a client application. I will show how you can use modern container technologies based on CoreOS and Docker to build a generic, multi-tenant runtime for securely executing webtasks directly from a mobile or HTML5 application. You don’t need a backend to run backend code.\n\nThis talk is based on lessons learned when building the Node.js sandboxing technology for internal use in our core operations at Auth0.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/bhQ3Ov4niPs/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/bhQ3Ov4niPs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/bhQ3Ov4niPs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/bhQ3Ov4niPs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/bhQ3Ov4niPs/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 130,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "bhQ3Ov4niPs"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "6TijGQgdf36eiFizc5VgceQUiO8",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLnRCOXo0Wk9vU3dn",
+    "snippet": {
+      "publishedAt": "2015-09-28T17:23:50Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Dan Jenkins - WebRTC Reborn",
+      "description": "WebRTC has had a real tough 3 or 4 years, and so have those working with it. Only a few short years ago, the development world were excited about WebRTC and proclaiming how awesome it was.\n\nYou might have played with the technology a couple of years ago, only to find the extra infrastructure requirements were painful to implement and poorly documented. This probably left a bitter taste in your mouth, especially when things went wrong.\n\nThose in the industry have been working hard to sweeten the deal again - efforts have been made to bring WebRTC into the mainstream and as a result the technology is experiencing a rebirth. Thanks to those who have remained dedicated to improving the situation for those around them, WebRTC is finally starting to fulfil the original expectations that were had of it. Both the technology and the support networks have been built up to make experimenting with it again a pleasure, not a pain.\n\nWebRTC has grown up; in this talk you will learn how far along the tech has come, its current capabilities, the amazing things that people are starting to do with it, and how simple getting started with the new toolsets available.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/tB9z4ZOoSwg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/tB9z4ZOoSwg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/tB9z4ZOoSwg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/tB9z4ZOoSwg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/tB9z4ZOoSwg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 131,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "tB9z4ZOoSwg"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "-VlM26qsZCTOKU-PWNNkj9Cjnfg",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLlVJOWNnck14R2kw",
+    "snippet": {
+      "publishedAt": "2015-09-28T17:22:13Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Tim Perry - TypeScript will finally bring peace to your troubled soul",
+      "description": "You've heard of TypeScript, but you're not sure if it's a good idea, and you've never really seen it in action. TypeScript is powerful though, rapidly gaining momentum, and has a lot more to offer than just JS + classes. Let's take a proper look.\n\nIn this talk, we'll dig a bit deeper and play around with some of the more interesting features TypeScript gives you. We'll walk through the extras that TypeScript provides and how they'll solve your every woe, learn a bit about where the types come in and why you care, and see how exactly you might put it into action on your next Node project.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/UI9cgrMxGi0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/UI9cgrMxGi0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/UI9cgrMxGi0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/UI9cgrMxGi0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/UI9cgrMxGi0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 132,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "UI9cgrMxGi0"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "YEFjalN09yXzZugswTaIwltCWG4",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLmlCRWp6MzhwcGU0",
+    "snippet": {
+      "publishedAt": "2015-11-12T10:28:32Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Tom Gallacher - White Water Streams",
+      "description": "We use streams on a daily basis when handling data with our Node.js applications, but how do they work, and more importantly, how do we keep them efficient and performant?\n\nThis talk focus mainly on analysing applications that utilises streaming data, identifying bottlenecks and making improvements. Be wow’ed by Flame{graphs,charts}, awed by benchmarks and take away some tips in writing decent stream implementations.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/iBEjz38ppe4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/iBEjz38ppe4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/iBEjz38ppe4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/iBEjz38ppe4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/iBEjz38ppe4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 133,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "iBEjz38ppe4"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "vQmY_lADo1OvFCZBvVyk6DJEMxw",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLm45OUpob3A2SzhZ",
+    "snippet": {
+      "publishedAt": "2015-11-12T10:29:14Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Milo Mordaunt - Flux to Redux, Thinking with Data",
+      "description": "Flux is one of the newer cool kids on the block, but it has it's fair share of problems. With all of the different implementations fighting for recognition, to first time users and abusers it can seem overly complicated.\n\nRedux is one Flux framework which has gained a lot of traction recently, thanks to its novel take on the architecture (vastly simpler than Facebooks sample implementation, for instance) and neat debugging features.\n\nThis talk can show the differences between Redux's approach and more 'traditional' Flux architectures, running over its benefits for developers. It will also briefly explain the difference between Flux applications and other MVC implementations, for anyone curious and unfamiliar.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/n99Jhop6K8Y/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/n99Jhop6K8Y/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/n99Jhop6K8Y/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/n99Jhop6K8Y/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/n99Jhop6K8Y/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 134,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "n99Jhop6K8Y"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "p8pjqVnS7HmJ2dlT0HXhPFowvag",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLllQX1lJSDRHb0dF",
+    "snippet": {
+      "publishedAt": "2015-11-12T10:29:43Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Alistair Stead - Full-stack BDD and its side effects",
+      "description": "This is not yet another how do you do BDD in JavaScript talk. This is a talk about how you can apply widespread software design practices such as Design Patterns, BDD, TDD, DDD and SOLID to full-stack development. Less how to use these practices, more how to select and use them effectively.\n\nJust using these tools on their own can lead to unnecessary complexity that can be hard to understand or avoid. So let’s set aside discussions of the language syntax or capabilities and focus on what is important - delivering value to the customer.\n\nThis presentation will show how BDD practices can be applied to the different contexts of developing features through a multi-layer stack whilst smoothing the communication, providing detailed direction and showing the value for business owners and developers alike. The result is a feature that meets the business owner’s expectations with happy side effects such as the code being clean, well designed, understandable, fully tested and documented.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/YP_YIH4GoGE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/YP_YIH4GoGE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/YP_YIH4GoGE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/YP_YIH4GoGE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/YP_YIH4GoGE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 135,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "YP_YIH4GoGE"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "l1tLWBL6HdwNblCUxlsCi8EecXg",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLnJyRXNYdm9VMEdv",
+    "snippet": {
+      "publishedAt": "2015-06-09T00:21:45Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Matteo Figus - OpenComponents as microservices in the front-end world",
+      "description": "Writing front-end code today is very challenging when you have to be resilient and robust in a big corporation. Working on a website that involves dozens of engineers based in three different continents, I learned that the complexity lies not only within the code itself. Allowing people to develop new features and deploy the code multiple times a day, keeping it up and running, is hard to achieve: we want small teams to be independent and not to interfere each other, in order to be quick and happy, but we also want to optimise cooperation when it is needed.\n\nIn the front-end world components are very small units of code providing application functionality that are all connected in order to become a web-site.\n\nDuring this talk I’m going to speak about how we tried to approach to components at OpenTable. After breaking our monolithic back-end into smaller parts, we tried to break the front-end into smaller parts too, called micro-sites. Then, following the SOA principles, we tried to elevate components as services, in order to make engineers able to create and consume them via clear and well-defined contracts and interfaces. This allowed us to put in place the infrastructure to optimise testing and to have hundreds of changes live every day without conflicts. The result is OpenComponents, a framework that we recently open-sourced.\n\nReferences:\nhttp://tech.opentable.co.uk/blog/2015/02/09/dismantling-the-monolith-microsites-at-opentable/\nhttps://github.com/opentable/oc",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/rrEsXvoU0Go/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/rrEsXvoU0Go/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/rrEsXvoU0Go/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/rrEsXvoU0Go/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/rrEsXvoU0Go/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 136,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "rrEsXvoU0Go"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "0BvBRfh4cf0Wn38W8IN0Rn2w4Ek",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLmhDMHh3Z1VwejZN",
+    "snippet": {
+      "publishedAt": "2015-05-22T00:07:29Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Alan Shaw -  Super simple service health monitoring with upmon",
+      "description": "A talk about this thing I built called upmon. It's essentially a description of what it is and how to use it and how using node streams is a great way to create modular and compose-able software.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/hC0xwgUpz6M/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/hC0xwgUpz6M/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/hC0xwgUpz6M/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/hC0xwgUpz6M/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/hC0xwgUpz6M/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 137,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "hC0xwgUpz6M"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "Grbjm-Q1amGLGV52pqeA_2I-2eM",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLncwbUdNNXJGcWVB",
+    "snippet": {
+      "publishedAt": "2015-05-22T00:55:40Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "James Allardice - Writing and publishing ES2015 today",
+      "description": "On February 20th the first release candidate of the 6th edition of the ECMAScript specification (ECMAScript 2015 as it is now officially known) was released. The language is rapidly stabilising and the new features are slowly but surely making their way into the existing JavaScript engines. Unfortunately, it will still be a while before we're able to write ES6 code and have it run natively in either browsers or Node and io.js. Thankfully TC39 (the group responsible for the development of the ECMAScript specification) put a lot of effort into ensuring backwards compatibility so it is possible to use a large and growing proportion of ES6 today.\n\nThis talk will look into some of the technologies and techniques that can be used to write, publish and deploy ES6 code today, without having to wait until the engines catch up. We'll explore source-to-source compilation, standard library polyfills, publishing modules written in ES6 to npm and the consumption of those modules by existing ES5 and new ES6 code.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/w0mGM5rFqeA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/w0mGM5rFqeA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/w0mGM5rFqeA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/w0mGM5rFqeA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/w0mGM5rFqeA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 138,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "w0mGM5rFqeA"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "IPzEgUSp5Vh0RQfTxA4ctvn5fQM",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLktQckMtdWRURGk4",
+    "snippet": {
+      "publishedAt": "2015-05-22T01:11:00Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Simon McManus - Progressive Enhancement Strategies",
+      "description": "Advances in JavaScript are changing the way that we think about the web; it's no longer just a platform for information, but for complex interactions too.\n\nAs we race into the future, we risk losing some of the things that make the web so special.\n\nIn this talk I will outline why I believe progressive enhancement is still important. Demonstrating processes, techniques and architectures which provide the benefits without introducing an overhead.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/KPrC-udTDi8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/KPrC-udTDi8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/KPrC-udTDi8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/KPrC-udTDi8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/KPrC-udTDi8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 139,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "KPrC-udTDi8"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "r5rZmeZIEaUqvgFfH0DfUWVvUpk",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLnVWdFhOTm12WXdn",
+    "snippet": {
+      "publishedAt": "2015-05-22T01:34:36Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Markus Padourek - Benefits of using Convention over Configuration",
+      "description": "Node/io.js and npm is now the most flourishing ecosystem with over 200 npm modules being published a day*. While this poses a lot of opportunities for us to work together and build better software, it also comes with problems we as developers have to face: Which package should I now choose? How do I use it in my app? What input does it expect? etc. Making a multitude of these simple decision drains a lot of our energy - more than you might even think initially. Imagine now npm install and you are ready to go. You installed your addon, you already know what to expect and it hooks itself up into your app.\n\nThis is the philosophy behind convention-over-configuration: having a standard we all work with to automate mundane decisions. So we can focus on making our software better.\n\n*Source: http://www.modulecounts.com/",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/uVtXNNmvYwg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/uVtXNNmvYwg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/uVtXNNmvYwg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/uVtXNNmvYwg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/uVtXNNmvYwg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 140,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "uVtXNNmvYwg"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "bjF1J0TD1jHxWP1wbMVUG9SxCT8",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLkxaRVNoRDJmT3pv",
+    "snippet": {
+      "publishedAt": "2015-05-21T23:26:22Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Alex Potsides - Guvnor: running your processes like a boss",
+      "description": "Guvnor is a fully featured, multi user process manager for node.js/io.js that leans heavily on the Unix permissions model for security. It's also got a neat web interface that monitors multiple hosts, reports live statistics about your application and lets you interact with it - debugging, monitoring resource usage, live logs, restarting, etc.\n\nThe talk will cover why the world needs another process manager, CLI usage, deploying apps from git repositories, cluster management, using the web interface and live coding a small app that uses the programmatic interface.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/LZEShD2fOzo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/LZEShD2fOzo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/LZEShD2fOzo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/LZEShD2fOzo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/LZEShD2fOzo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 141,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "LZEShD2fOzo"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "tzSf5RCul4iTV9fAYznhm_FFTbQ",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLnMwcWZTZXZ3MlVV",
+    "snippet": {
+      "publishedAt": "2015-05-22T01:53:54Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Ross Kukulinski - Building a SaaS with NodeJS, Docker, and CoreOS",
+      "description": "Building NodeJS Applications with Docker & CoreOS",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/s0qfSevw2UU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/s0qfSevw2UU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/s0qfSevw2UU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/s0qfSevw2UU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/s0qfSevw2UU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 142,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "s0qfSevw2UU"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "0Hk8dBX0dUB6LZXqwGXHNKkIKlI",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLkVpdktjM0hwRWxR",
+    "snippet": {
+      "publishedAt": "2015-03-29T02:17:04Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Tim Perry - Web Components & Microservices Are The Same Thing",
+      "description": "web components, microservices, and the shared principles behind both of them (complete with node-based example)",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/EivKc3HpElQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/EivKc3HpElQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/EivKc3HpElQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/EivKc3HpElQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/EivKc3HpElQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 143,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "EivKc3HpElQ"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "xNnAb-6jQ0r-vJF3fgPZNwun-5M",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLmJVNURyZTVNckk4",
+    "snippet": {
+      "publishedAt": "2015-03-29T02:22:16Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Florian Motlik - Flo Servers are dead, long live the service",
+      "description": "Why the days of the server are numbered as our most basic building block and building on top of services is the future.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/bU5Dre5MrI8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/bU5Dre5MrI8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/bU5Dre5MrI8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/bU5Dre5MrI8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/bU5Dre5MrI8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 144,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "bU5Dre5MrI8"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "fQS8mmqfILXPhq62f1lIOaB_pyo",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLkpoRWY2Sm5ncGRR",
+    "snippet": {
+      "publishedAt": "2015-03-29T01:37:51Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Ross Kukulinski - What to expect when expecting io.js",
+      "description": "- Why fork node?\n- What new/broken IOJS 1.0.0\n- Node/IOJS Compatibility\n- Should I be scared / Should I deploy it?\n- My take on what the future holds for the node community\n\nSlides @ http://rosskukulinski.github.io/iojs_talk",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/JhEf6JngpdQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/JhEf6JngpdQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/JhEf6JngpdQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/JhEf6JngpdQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/JhEf6JngpdQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 145,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "JhEf6JngpdQ"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "KWI9fTVwFkLZ14UKHsYqWOPfmSw",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLmctMWNlZlF2Rllj",
+    "snippet": {
+      "publishedAt": "2015-03-29T01:14:11Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Francisco Ferreira - Javascript Craftmanship",
+      "description": "Avoid stepping into the rabbit hole with common anti-patterns and bad code. With a strong emphasis on how JavaScript code can be done beautiful and maintainable, this talk explains how to write very readable and testable code. At eBay we love to have our code clean, so we’ll use some examples of eBay’s code during this presentation.\n\nWe’ll touch topics on how functional can intersect with object oriented programming to decrease the learning curve to your code. Or how choosing the correct data structures is more important than ever to guarantee optimal performance.\n\nAll of this in a framework agnostic way, so that it is easy to take home and apply to your projects with ease.\n\nHopefully after you have attended this talk you will code cleaner.\n\nTopics covered:\n\nCode readability\nFunctional JS\nObject Oriented JS\nUnit Testing\nCode structuring",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/g-1cefQvFYc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/g-1cefQvFYc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/g-1cefQvFYc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/g-1cefQvFYc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/g-1cefQvFYc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 146,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "g-1cefQvFYc"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "Mr052s1ebGzLmWVk0BAjy6xhFjg",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLmNRT1BvRG1rRmc4",
+    "snippet": {
+      "publishedAt": "2015-03-04T09:39:56Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Luke Bond - Paz: a simple Docker PaaS written in Node.js",
+      "description": "Luke's talk at the London Node User Group meetup, 25th February 2015, in which he launches Open Source project, Paz to the world - live on stage.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/cQOPoDmkFg8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/cQOPoDmkFg8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/cQOPoDmkFg8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/cQOPoDmkFg8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/cQOPoDmkFg8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 147,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "cQOPoDmkFg8"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "AR5mgsIFT-nMjetlu9OwXuJuC1I",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLm03b29zZ2REZFNZ",
+    "snippet": {
+      "publishedAt": "2015-03-04T08:46:11Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Forbes Lindesay - Everything you didn't know to ask about jade",
+      "description": "This talk will start with a very brief overview of what the jade templating language is and why it's so powerful. It will then deep dive into how the nitty gritty of the compiler is implemented, this will include some discussion of the many other modules that jade depends on. I will then take the audience on a tour of a couple of my favourite spinoffs of jade. Finally, I will end with a description of how we have built a community around the jade project that is capable of achieving far more than I could on my own.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/m7oosgdDdSY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/m7oosgdDdSY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/m7oosgdDdSY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/m7oosgdDdSY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/m7oosgdDdSY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 148,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "m7oosgdDdSY"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "UZzqo6Q9F1Tmpzl1RQJgPkpUX7U",
+    "id": "VVUtcWpnajJUblJvSTFabUZGYU4zRmVRLnJDTTJwYW9pa2Uw",
+    "snippet": {
+      "publishedAt": "2015-03-02T21:42:47Z",
+      "channelId": "UC-qjgj2TnRoI1ZmFFaN3FeQ",
+      "title": "Dan Hough - I'm a node module maintainer (And so can you!)",
+      "description": "Creating, releasing, maintaining, versioning, getting input for, etc, etc an open-source node module. Including:\n\nSome good practices when versioning, releasing, and documenting your open-source code:\n\n- Some NPM tips\n- How to make your code inclusive\n- Some GitHub tips",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/rCM2paoike0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/rCM2paoike0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/rCM2paoike0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/rCM2paoike0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/rCM2paoike0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "LNUG",
+      "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+      "position": 149,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "rCM2paoike0"
+      }
+    }
+  }
+]

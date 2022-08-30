@@ -1,0 +1,20 @@
+---
+pagination:
+  data: videoTalks
+  size: 1
+  alias: talkvideo
+permalink: "talks/{{ slugify talkvideo.title }}-{{talkvideo.videoId}}/"
+layout: layout.hbs
+
+---
+
+
+<div class="talk-item">
+    <h3>{{talkvideo.title}}</h3>
+    <div class="talk-date">{{ talkdateformat talkvideo.date}}</div>
+    <div class="talk-video">
+        <iframe src="https://youtube.com/embed/{{talkvideo.videoId}}" width="100%" height="400"></iframe>
+    </div>
+    <div class="talk-description">{{{markdown talkvideo.description}}}</div>
+</div>
+

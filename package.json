@@ -1,0 +1,28 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lnug/website.git"
+  },
+  "keywords": [],
+  "author": "Adam Davis <adam@admataz.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lnug/website/issues"
+  },
+  "homepage": "https://github.com/lnug/website#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2"
+  },
+  "dependencies": {
+    "eleventy-sass": "^2.1.2",
+    "sass": "^1.54.4"
+  }
+}

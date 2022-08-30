@@ -1,0 +1,6 @@
+---
+layout: layout.hbs
+permalink: /
+---
+
+

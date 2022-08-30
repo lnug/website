@@ -1,0 +1,1472 @@
+[
+  {
+    "title": "How to develop an emergency website using Prisma2 ORM, NodeJS, NextJS and deploy it in heroku & Zeit",
+    "description": "Aris Markogiannakis\n\nOn those critical times, I took the chance to learn something new and tried to PRISMA 2, to create a small website, that shows where there are supplies [Bread, Pasta and ToiletRolls].\n\nI will go through all the difficulties of developing the app as Prisma2 is still in development, and how to deploy the app in Heroku.\n\nFor the frontend I used NextJS that connects to a nodejs API (very simple) that uses the Prisma client.\n\nAris is a developer for a number of years in FullStack development and a servant of the London's community powering CityJS and JSMonthly.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/uyAtKbDuyR0/mqdefault.jpg",
+    "videoId": "uyAtKbDuyR0",
+    "url": "https://www.youtube.com/watch?v=uyAtKbDuyR0",
+    "type": "youtube",
+    "date": "2020-06-23T23:00:00.000Z"
+  },
+  {
+    "title": "Under-the-hood of web bundlers - Craig Taub LNUG June 2020",
+    "description": "A look at the mechanisms inside web bundlers e.g Webpack.\n\nStarting with why they are still useful.\n\nThen how to build a small compiler, akin to Webpack. There are many interesting topics in a very small space here.\n\nNext how to use the output of our compiler with an application.\n\nFinishing with all the additional parts Webpack does which ours doesn't, hopefully with some idea on how those could be done.\n\nAbout me\nI'm a senior developer at Nested with over 10 years experience. We do dev team talks every week and I have taken a couple, usually on the \"under-the-hood of\" theme. I was previously at the BBC.\n\nI enjoy blogging at https://craigtaub.dev",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/xrdaWIXY1HU/mqdefault.jpg",
+    "videoId": "xrdaWIXY1HU",
+    "url": "https://www.youtube.com/watch?v=xrdaWIXY1HU",
+    "type": "youtube",
+    "date": "2020-06-23T23:00:00.000Z"
+  },
+  {
+    "title": "Writing A CPU Intensive Node.js Server With Worker Threads API - Tamar Twena Stern  (LNUG May 2020)",
+    "description": "Node.js provides the developer a system with single threaded event loop architecture, that provides non blocking I/O mechanism. This work great until we get to CPU intensive tasks. In this case, Node doesn’t perform up to mark. This has changed with the release of the worker threads in latest Node versions. We can use threads and write CPU intensive code in Node. This can make Node popular in many other fields of software development, starting from algorithms , AI , complicated computations and more. In this talk I will go over the concept, API and architecture of worker threads. I will show a demo of a Node server that implements CPU intensive task , to assist you to retain a cool new ability to you Node.js coding skills\n\nI am a software manager and architect. In the past, I managed large development teams, and was a CTO of a start up of my own. I have a decade of software engineering experience in various technologies: Server side, big data, mobile, web technologies, and security. I am currently focusing on Node.js, and have a deep knowledge of Node.js server architecture and Node.js performance optimizations.\n\n@SternTwena on twitter",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/GJNJI0vC1Ag/mqdefault.jpg",
+    "videoId": "GJNJI0vC1Ag",
+    "url": "https://www.youtube.com/watch?v=GJNJI0vC1Ag",
+    "type": "youtube",
+    "date": "2020-05-26T23:00:00.000Z"
+  },
+  {
+    "title": "11 years of Node: Let’s have an honest conversation - Anna Henningsen (LNUG May 2020)",
+    "description": "Node.js has been around for a long time now, and it’s worth looking at what went great, what went well, what didn’t go so well, and where we’ll go from here. Having been a core contributor for a long time now, I’ll reflect on the processes around Node.js and the results we’re getting out of them, and try to have an honest conversation on where the community stands and how fresh new projects like deno will change the landscape of JS outside of the browser.\n\nOver the last 4 years, Anna has been one of the most active contributors to Node.js core. She is fueled by a passion for Node.js and its community.\n\n@addaleax on twitter, working at NearForm",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/TthueRgvVQ4/mqdefault.jpg",
+    "videoId": "TthueRgvVQ4",
+    "url": "https://www.youtube.com/watch?v=TthueRgvVQ4",
+    "type": "youtube",
+    "date": "2020-05-26T23:00:00.000Z"
+  },
+  {
+    "title": "How to write a DevOps friendly Node application -  David Gonzalez  (LNUG May 2020)",
+    "description": "[Editor's note: apologies, we lost the last couple minutes of the talk - but the best bits are here :)]\n\nDevOps is a necessity nowadays. It is not a job title itself but a set of practices, many of them spanning across development. It is extremely important that the applications that we write are adapted to run in a DevOps environment:\n\nMonitoring\nProcess management\nLog aggregation Are only few of the aspects to be considered when building a Node application in order to succeed on DevOps environments, specially containers and Kubernetes.\nDavid Gonzalez is a DevOps Architect at NearForm, building systems at scale for our customers. He is also a Google Developer Expert on Kubernetes and avid coder. Author of three books around microservices and DevOps, he is always challenging the comfort zone of his day to day work finding new ways of delivering highly transactional systems.\n\nTwitter: @dagonzago\nLinkedIn\nGitHub: @dgonzalez",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/8MmZ0qh-Ti0/mqdefault.jpg",
+    "videoId": "8MmZ0qh-Ti0",
+    "url": "https://www.youtube.com/watch?v=8MmZ0qh-Ti0",
+    "type": "youtube",
+    "date": "2020-05-26T23:00:00.000Z"
+  },
+  {
+    "title": "Bernard Baker - Authentication && Serverless && Node - LNUG #93 - March 2020 - The Remote Edition",
+    "description": "Auth0 is a leading world class authentification platform. And I'd like to present it using Node and Serverless.\n\nRegular methods of authentication include setting up a custom authentification API, user, session and token management. Which is time consuming, not productive and plainly put, not very secure if a solution doesn't aspire to RFC specifications.\n\nIn my talk I will present to the audience; Auth0 as a solution, Netlify serverless functions, a Node API implementation of passwordless authentication, and basic API endpoint protection using JWT.\n\nI'm Bernard, I'm working for myself. An e-commerce startup. @bernibear2000.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/OJadwGNty78/mqdefault.jpg",
+    "videoId": "OJadwGNty78",
+    "url": "https://www.youtube.com/watch?v=OJadwGNty78",
+    "type": "youtube",
+    "date": "2020-03-25T00:00:00.000Z"
+  },
+  {
+    "title": "Thomas Schoffelen - Transactional emails at scale LNUG #93 - March 2020 - The Remote Edition",
+    "description": "Almost all tech startups send out a bunch of emails to their users. Many of those will be based on certain triggers, like creating accounts, new posts, invoice creation, etc. Based on my experience building some companies and apps that rely heavily on transactional emails, I'd like to talk about how to manage and structure those.\n\nBuilding and managing templates with involvement of stakeholders (marketing/partnerships team, designers, etc.)\nMy solution: Macaw (repo | blog) - a Node.js toolset to streamline email sending and template management\nSetting up an email sending flow in your serverless app\n(optional - depending on time) Ensuring your emails arrive: your own IP address, SPF and DKIM, reply-to, etc.\nBio\n\nStarting my first tech company at age 16, I've co-founded several startups that focus on improving communication and helping small businesses, including NearSt, which partners with Google to help local shops make their products searchable and Infowijs, which helps Dutch high schools communicate better with their students, parents and teachers.\n\nI'm on Twitter as @tschoffelen.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/3h5L67voufI/mqdefault.jpg",
+    "videoId": "3h5L67voufI",
+    "url": "https://www.youtube.com/watch?v=3h5L67voufI",
+    "type": "youtube",
+    "date": "2020-03-25T00:00:00.000Z"
+  },
+  {
+    "title": "The mergence of Graphql and Serverless",
+    "description": "In this talk we'll go over why these two technologies (Graphql & Serverless) have drastically gained popularity and what problems they were made to solve. Then we'll go through how the two can be used together and I'll do a little demo with the Serverless framework\n\nI've been a professional developer for about 3 years. In that time I've worked for small startups to large corporations. List includes Ruuby, Sky and Eurostar to name a few.\nTwitter handle is @shadrech17",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/pPKg8s3I3zc/mqdefault.jpg",
+    "videoId": "pPKg8s3I3zc",
+    "url": "https://www.youtube.com/watch?v=pPKg8s3I3zc",
+    "type": "youtube",
+    "date": "2020-02-26T00:00:00.000Z"
+  },
+  {
+    "title": "Coronavirus News A Practical Guide for Building Alexa Skills",
+    "description": "There is a lot of noise about the Coronavirus for a few latest weeks.\nI've created a simple Alexa Skill which provides users with the latest update about the figures. Here it is https://www.amazon.co.uk/Artsiom-Mezin-Coronavirus-News/dp/B084M81B6Q\n\nHowever, it feels like there are tons of stuff that could be improved.\nI'd like to talk about the following things:\n\nHow to design and implement an Alexa app for less than one weekend?\nWhat to expect from validation and rolling out processes?\nWhere to get and how to store the data?\nHow to automate the routine?\nHow this sort of app can help people?\nWhat else could be done?\nI am eager to collaborate!\nGiven the fact that I'm doing this in a little rush, it feels more like a lightning talk.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/yHBJV4QGSrM/mqdefault.jpg",
+    "videoId": "yHBJV4QGSrM",
+    "url": "https://www.youtube.com/watch?v=yHBJV4QGSrM",
+    "type": "youtube",
+    "date": "2020-02-26T00:00:00.000Z"
+  },
+  {
+    "title": "QEWD-JSdb: It's a Database, Jim, but not as we know it! - Rob Tweed at LNUG, Jan 2020",
+    "description": "QEWD-JSdb is a new concept for databases in Node.js. Although it's implemented on top of two incredibly fast, industrial-strength (though little-known) physical database technologies (the Open Source YottaDB and the proprietary IRIS databases), QEWD-JSdb abstracts their underlying hierarchical physical storage as on-disk JavaScript objects, blurring the boundary between what's in-memory and what's on-disk.\n\nWith QEWD-JSdb, the database is no longer something that exists on another server, no longer effectively a separate technology that you access via a network connection using its in-built APIs, and which imposes on you a database model over which you have no control. Let's face it: most mainstream databases are \"one trick ponies\" that model data in one particular way: fine if all your database requirements fit that model, but most likely you'll have circumstances that mean you either end up consuming valuable time fighting that model to fit your needs. or end up having to support multiple databases with all the resulting additional pain, aggravation and maintenance overhead.\n\nWith QEWD-JSdb, there's none of those restrictions and annoyances: your persistent data and its modelling is in your direct control within your Node.js processes! As far as you're concerned, you're just dealing with JavaScript objects/JSON, but rather than being in-memory, they happen to be on-disk!\n\nBut you're not limited to persistent JSON: it's easy to model pretty much any type of database, both NoSQL and Relational/SQL on top of the basic persistent JSON data structures. In fact, QEWD-JSdb comes with some already created for you to use and/or explore, including:\n\nRedis-like Key/Value (actually Key/Object) store\nRedis-like Lists\nDocument/JSON database storage\nXML DOM database storage via the DOM API, with XPath querying\nRelational with SQL read/write access\nOnce you're familiar with the basics of QEWD-JSdb, you can create your own custom database model if the built-in models don't meet your needs: no more time wasted fighting the database!\n\nIt's even possible to simultaneously apply different database models to the same physical QEWD-JSdb data!\n\nAll sounds too good to be true? Come and find out at Rob's talk on QEWD-JSdb.\n\nRob Tweed (@rtweed) is a Director of M/Gateway Developments Ltd, and has been part of the LNUG scene since its earliest days - he was one of the speakers at its inaugural meeting, and has given a number of talks over the years, mainly focused on his Node.js-based QEWD technology/platform.\n\nRob has several decades of experience, developing and advising on real-world complex, business-critical applications around the world, in sectors such as healthcare IT, financial services and retail systems. He's specialised in database integration for Web and Internet technologies since the early days in the mid-90s, and has been immersed in Node.js since its earliest days in 2011!\n\nA keen proponent of Open Source software, you can find all his work (including QEWD-JSdb) at @robtweed",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/1TlAKTw167s/mqdefault.jpg",
+    "videoId": "1TlAKTw167s",
+    "url": "https://www.youtube.com/watch?v=1TlAKTw167s",
+    "type": "youtube",
+    "date": "2020-01-22T00:00:00.000Z"
+  },
+  {
+    "title": "Introducing Bangle JS The Node Watch - admataz at LNUG - Jan 2020",
+    "description": "\"The world’s first hackable open source JavaScript-powered and TensorFlow-powered smartwatch\"\n\nNodewatch/ Bangle.js  was introduced as the conference badge at Nodeconf EU in November. A Kickstarter that followed was swiftly funded. \n\nI received my watch from NearForm in the post the other day - and I don't know what to do with it yet - but this is too good not to share for a quick lightning demo. \n\nAdam aka admataz is a core LNUG organiser, a hacker, and a software developer at NearForm\n\nSome links: \nhttps://nodewatch.dev\nhttps://www.nearform.com/blog/bangle-js-hackable-oss-js-and-tensorflow-smartwatch/\nhttps://nearform.com\nhttps://admataz.com",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/xN2mCmz3rig/mqdefault.jpg",
+    "videoId": "xN2mCmz3rig",
+    "url": "https://www.youtube.com/watch?v=xN2mCmz3rig",
+    "type": "youtube",
+    "date": "2020-01-22T00:00:00.000Z"
+  },
+  {
+    "title": "A hundred players - multiplayer simultaneous game in node.js (@admataz)",
+    "description": "Adam Davis (admataz) explores the pusher.com Channels and messaging platform with a game developed using svelte.js and fastify.js - getting the audience to join and play. A talk for London Node User Group (LNUG) in November 2019",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/-WDiQJ0zqNE/mqdefault.jpg",
+    "videoId": "-WDiQJ0zqNE",
+    "url": "https://www.youtube.com/watch?v=-WDiQJ0zqNE",
+    "type": "youtube",
+    "date": "2019-11-27T08:42:33Z"
+  },
+  {
+    "title": "Step aside chat ops, Bat Ops is the future. (@star_suit)",
+    "description": "Lightning talk at LNUG - November 2019",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/vD7LROISaLQ/mqdefault.jpg",
+    "videoId": "vD7LROISaLQ",
+    "url": "https://www.youtube.com/watch?v=vD7LROISaLQ",
+    "type": "youtube",
+    "date": "2019-11-27T08:42:33Z"
+  },
+  {
+    "title": "Hew Ingram (@hewIngram ): \"A talk not at all about node...\"",
+    "description": "",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/sgAxK-MWCP8/mqdefault.jpg",
+    "videoId": "sgAxK-MWCP8",
+    "url": "https://www.youtube.com/watch?v=sgAxK-MWCP8",
+    "type": "youtube",
+    "date": "2019-10-23T08:42:33Z"
+  },
+  {
+    "title": "Lucas Fernandes da Costa (@lucasfcosta): \"How I’m Still not Using GUIs in 2019\"",
+    "description": "",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/jyhQKXF-FE8/mqdefault.jpg",
+    "videoId": "jyhQKXF-FE8",
+    "url": "https://www.youtube.com/watch?v=jyhQKXF-FE8",
+    "type": "youtube",
+    "date": "2019-10-23T08:42:33Z"
+  },
+  {
+    "title": "Diogo (@diogofcunha): \"Async generators in real life\"",
+    "description": "",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/G2IiYMSSPyQ/mqdefault.jpg",
+    "videoId": "G2IiYMSSPyQ",
+    "url": "https://www.youtube.com/watch?v=G2IiYMSSPyQ",
+    "type": "youtube",
+    "date": "2019-10-23T08:42:33Z"
+  },
+  {
+    "title": "Enrique Lacal (@EnriqueL8) : \"Simplify deploying cloud-native apps to Kubernetes\"",
+    "description": "",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/Os1jflWsKuQ/mqdefault.jpg",
+    "videoId": "Os1jflWsKuQ",
+    "url": "https://www.youtube.com/watch?v=Os1jflWsKuQ",
+    "type": "youtube",
+    "date": "2019-10-23T08:42:33Z"
+  },
+  {
+    "title": "Beth Griggs (@BethGriggs) : \"What's new to LTS with Node.js 12\"",
+    "description": "LNUG lightning talks - October 2019",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/16HNb8hiQTM/mqdefault.jpg",
+    "videoId": "16HNb8hiQTM",
+    "url": "https://www.youtube.com/watch?v=16HNb8hiQTM",
+    "type": "youtube",
+    "date": "2019-10-23T08:42:33Z"
+  },
+  {
+    "title": "Transformational Operations   September 2019",
+    "description": "You often want to build an app as quickly as possible. To get some kind of MVP in the hands of users, giving them value and something for you to incrementally improve. Most features can come later, but if you ever intend to offer a shared editing experience of any kind, you really need to think about it up front.\n\nAt Threads Styling we were faced with such a prospect when planning their Social Story builder. Having worked with CMSs in the past, we knew the pain of managing document locks with all their edge cases. We also knew that eventually the use case will arise to concurrently edit the document, and if you haven’t planned for it, it is a monumental task.\n\nBy treating the document as a stream of JSON patch changes from the very beginning, we were able to offer real-time collaborative editing with conflict resolution smoothly handled by an Operational Transformation algorithm. In this talk, Jason will discuss the concepts involved and demonstrate a simple, but working example of a shared document using our open source library.\n\nBy Jason Green, Principal Developer at Threads Styling - Twitter: @aziraphael",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/sLwjXjjZ9Hs/mqdefault.jpg",
+    "videoId": "sLwjXjjZ9Hs",
+    "url": "https://www.youtube.com/watch?v=sLwjXjjZ9Hs",
+    "type": "youtube",
+    "date": "2019-09-25T21:37:44Z"
+  },
+  {
+    "title": "Managing Multiple NPM Modules in a Single Repo   September 2019",
+    "description": "### Abstract\n\nEver since the start of [Node-RED](https://nodered.org), the runtime and editor components have been packaged together as a single blob of npm module.\n\nWith the 0.20 release we split the internals apart into 6 separate new npm modules, along with the original node-red module to glue it all back together - and we did it without end users ever knowing (apart from us talking about it at every chance we got).\n\nThis talk reveals how we went about this refactoring and the challenges of managing multiple modules in a single repo. I'll talk about why we ultimately decided not to use one of the various mono-repo tools, such as Lerna, and ultimately decided to roll our own approach.\n\n### About me\n\nI'm an Open Source developer at IBM and the creator of Node-RED.\nI can be found online as @knolleary in lots of the usual places.\n\nI presented about Node-RED at LNUG in its very early days of September 2013, not long after we'd first open sourced it.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/_r4emDWlApA/mqdefault.jpg",
+    "videoId": "_r4emDWlApA",
+    "url": "https://www.youtube.com/watch?v=_r4emDWlApA",
+    "type": "youtube",
+    "date": "2019-09-25T21:24:17Z"
+  },
+  {
+    "title": "Security in Node JS   - Forbes Lindesay- August 2019 1",
+    "description": "While working on large node.js projects, I’ve noticed that there is no clear answer to common questions like “how do I securely store passwords”. I’ve also noticed that all the popular frameworks lack key security features such as CSRF protection and Rate Limiting by default. It’s really easy to get security wrong, and it’s not your fault that this is so difficult.\n\nIn this talk, I’ll present some practical steps you can take to secure your applications, including protecting against some of the most common attack vectors. I’ll also attempt to inspire you to think differently about what the defaults should be when you build new applications and libraries. We can make our code default to security; it doesn’t have to be this way.\n\nI'm a tech lead at Threads Styling and maintain several large open source projects, such as Pug, [@authentication](https://www.atauthentication.com/) and [@databases](https://www.atdatabases.org/). My twitter handle is @ForbesLindesay",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/Qrb-gwlBUzo/mqdefault.jpg",
+    "videoId": "Qrb-gwlBUzo",
+    "url": "https://www.youtube.com/watch?v=Qrb-gwlBUzo",
+    "type": "youtube",
+    "date": "2019-08-28T10:01:00Z"
+  },
+  {
+    "title": "Indie Hacking with Postgraphile  Thomas Ankcorn  August 2019",
+    "description": "Sometimes I get jealous of the speed people can build complex apps with things like laravel/rails. Node is a great run time but it is arguably a more complex choice for your tech stack, there is no standout MVC framework that does it all for you, instead, there are lots of small specialised tools. I want to talk about one of those. It’s called [Postgraphile](https://www.graphile.org/). It lets you generate a GraphQL API from a schema in a Postgres database. By writing just a little SQL you can create an application that would take a long time to create normally!\n\nI'm going to show you how you can use it to build a meetup.com clone complete with JWT based authentication, real-time meetup ratings, and role-based access control. \n\nI'm a senior software engineer at Near.st. We are building a real-time local inventory data platform to help small businesses fight back against the growth of online shopping. Outside of work, I'm chasing my life long dream of having a dog, and building silly things with javascript. [Follow me on twitter](https://twitter.com/thomasankcorn)",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/dpc16H1D90E/mqdefault.jpg",
+    "videoId": "dpc16H1D90E",
+    "url": "https://www.youtube.com/watch?v=dpc16H1D90E",
+    "type": "youtube",
+    "date": "2019-08-28T09:33:49Z"
+  },
+  {
+    "title": "Robots and Food   London Node User Group - June 2019",
+    "description": "At Karakuri we build robots for the food industry. I would love to share a peek into our decentralised architecture and how the different robot components interact and communicate with each other. As the physical world is quite I/O heavy, Node.js (TypeScript) was a great choice as our main programming language/framework.\n\nhttps://www.linkedin.com/in/orfeonicolai/\nI'm a computer scientist with almost 20 years of industry experience. I have a double Masters degree in Innovation Design Engineering and am the course leader of the robotics course at the Imperial College Global Summer School. I work as Head of Software at Karakuri, a robotics startup. We just secured a seed funding round led by Ocado (https://techcrunch.com/2019/05/09/robotics-startups-wont-win-without-also-incorporating-ai-as-karakuris-fundraise-shows/?guccounter=1)",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/Zrtqrx_pcOY/mqdefault.jpg",
+    "videoId": "Zrtqrx_pcOY",
+    "url": "https://www.youtube.com/watch?v=Zrtqrx_pcOY",
+    "type": "youtube",
+    "date": "2019-06-26T16:52:36Z"
+  },
+  {
+    "title": "Preoccupy the User's Tab   London Node User Group   June 2019",
+    "description": "Remote desktop apps are widely used. All of them work pretty much the same way: you can see the user's desktop and control their mouse and keyboard. And one of the main purposes of using them is providing support to users. Assuming you are not Microsoft or RedHat probably you are interested only in resolving issues which are related to that piece of software that had been delivered by you. E.g. your web application.\n\nBut what if you can't obligate your users to install additional software only for support purposes? Or they simply don't want to install anything.\n\nI'm going to talk about how to add a remote control functionality to your web apps using pure JavaScript and native browser APIs.\n\nSPOILER: Even without using browser extensions!\n\nAbout me: I am a Senior Frontend Engineer at Behavox. I have almost 10 years of experience in JavaScript development behind my back. Originally I am from Minsk, Belarus. For now, working for a very promising AI company in London. And the topic of this talk is inspired by the real issue which we resolved recently.\n\nYou can find more about me on [LinkedIn](https://www.linkedin.com/in/artsiommezin/).",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/Cg_psyqJo8I/mqdefault.jpg",
+    "videoId": "Cg_psyqJo8I",
+    "url": "https://www.youtube.com/watch?v=Cg_psyqJo8I",
+    "type": "youtube",
+    "date": "2019-06-26T15:33:02Z"
+  },
+  {
+    "title": "Using ML in NodeJS - LNUG July 2019",
+    "description": "Abstract\n\nAn overview of ML in JS and what I was able to do with it.\n\nHow and why would you use Machine Learning in NodeJS.\n\nI’ll go over some general concepts in ML and then dive into how I leveraged limdu and created a multi-label classifier (called ac-learn) and how you can do the same. All while seeing how fun and amazing it can be.\n\nThe talk would be focused on giving you the pointers and tools to solve problems where ML is usually the best solution as well as how you can hit the ground running.\n\nAbout me\n\nI'm a Computer Science placement student working at BWC in Project Management, Web Dev and various other things (e.g. GDPR and IT support).\nI've been working with JS for about 7 years and with NodeJS for about 3 years and simply love almost everything about it.\n\nTwitter: @Berkmann18",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/TJI1NzhDAGE/mqdefault.jpg",
+    "videoId": "TJI1NzhDAGE",
+    "url": "https://www.youtube.com/watch?v=TJI1NzhDAGE",
+    "type": "youtube",
+    "date": "2019-07-24T13:10:34Z"
+  },
+  {
+    "title": "Create your own state management library - LNUG July 2019",
+    "description": "Abstract\n\nHow hard is it to make your own state management library? By using React hooks, Context and other open source projects you can easily build your own useful library.\n\nI wanted first class TypeScript support, immutable data, zero boilerplate and hassle free wiring. I built it in a few dozen lines of code: Immutable Context.\n\nI'll demo how to use it via a Code Sandbox demo, how it works under the hood and then look at some lessons learned, with suggestions on how to build your own state management library in 2019.\n\nAbout\n\nI'm a polyglot developer and data scientist. I've built lots of apps, for example this iPhone app for Isometric graphics. My website/blog is www.amimetic.co.uk. I work with React/React Native at JPMorgan. My Twitter handle is @complexview",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/8h8NI-6zva0/mqdefault.jpg",
+    "videoId": "8h8NI-6zva0",
+    "url": "https://www.youtube.com/watch?v=8h8NI-6zva0",
+    "type": "youtube",
+    "date": "2019-07-24T12:53:49Z"
+  },
+  {
+    "title": "Native implementation of curl in node   LNUG   May 2019",
+    "description": "Abstract\n\nOver my last holiday I started a project I am quite enjoying. It is an implementation of the functionality of curl written done purely in node. It presently is nothing close to done, but you can do some basic curl stuff with it (e.g. make multipart form data posts to some url, pipe responses to files, handle http and https proxies (provided they support the connect header) to do requests over to http or https, recursively follow location headers, set headers, etc.).\n\nThere's presently some vague ftp ideas that are not at all done.\n\nThe rather bigger challenge I was working on last time I was doing my project was to establish an ssh connection, (which on account of doing everything from scratch will make a number of assumptions about the server it's connecting to).\n\nI'm hoping to over the next month or so get it all done nicely.\n\nOverall it's a pleasant way to learn some details of networking, starting to write an ssh client in particular requires manually writing the packets as per the ssh protocol which has been a reasonable education in how that sort of things works. It has also been good for me to appreicate how excellent node is, it really does seem to provide nice apis for everything you want.\n\nAbout me\n\nI'm a former mathematician who over the last 9 or so months has turned programmer, I currently work as a developer mostly working with JavaScript. I mostly like doing algorithms and stuff and have only recently begun to learn the broader aspects of programming. I really love doing things from 'scratch' (in the sense of just using the stuff provided by the language) as I find it quite insightful.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/cBH2L2LDRek/mqdefault.jpg",
+    "videoId": "cBH2L2LDRek",
+    "url": "https://www.youtube.com/watch?v=cBH2L2LDRek",
+    "type": "youtube",
+    "date": "2019-05-22T12:18:10Z"
+  },
+  {
+    "title": "From Zero To Prod in 2 Minutes   LNUG   May 2019",
+    "description": "Zero to prod in 2 hours\nWriting code is great, working out how to host it is less great (for most people!). We recently ran a workshop at CityJs and made sure that everyone walked out of that workshop with an app deployed. In this talk we’ll chat through some of the things that helped us do that (Netlify, serverless functions and Vue) as well as some alternatives (The Serverless framework + lambda etc, firebase and other SPA hosting). The aim? To get everyone to feel empowered to build something fun (and potentially silly).\n\nAbout Us\nHew Ingram\nI’m a Full Stack engineer at Applied (a little startup striving to make hiring fairer, smarter and easier - driving forward diversity in companies). I predominantly use JS but dabble with bits of python, PHP and others. Lover of all things Javascript + a big fan of building cool (weird) things, often for the hell of it.\n\nThomas Ankcorn\nI'm a Software Engineer at BAE. I like JavaScript , starting but not finishing side projects and cats. Often referred to as some dude with a scooter.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/EZBpdq8RU-c/mqdefault.jpg",
+    "videoId": "EZBpdq8RU-c",
+    "url": "https://www.youtube.com/watch?v=EZBpdq8RU-c",
+    "type": "youtube",
+    "date": "2019-05-22T11:45:18Z"
+  },
+  {
+    "title": "Build Your Own WebAssembly Compiler   LNUG April 2019",
+    "description": "## Build your own WebAssembly Compiler \n\nFor more than 20 years JavaScript has been the only 'native' language of the web. That's all changed with the release of WebAssembly. In the coming years, you'll see people writing web apps in Rust, C#, C++ and all manner of other languages. But just what is WebAssembly? And what’s all the fuss about? WebAssembly is a low-level compilation target, which means that it is unlikely you’ll use it directly. However, as developers and hackers, we love to know how technology works! In this talk, Colin will look at some of the internals of WebAssembly, explore how it works ‘under the hood’, and look at how you can create your own (simple) compiler that targets this runtime.\n\nAbout me - \nI'm a technology enthusiast, working for a consultancy by day, and enjoying myself with open source by night. Here's [my blog](https://blog.scottlogic.com/ceberhardt/) if you want to find out more about me! I'm a keen WebAssembly enthusiast, I run [WebAssembly weekly](https://wasmweekly.news/) and did quite a few 'scene setting' talks on WebAssembly last year.\n\nFor this talk I want to do something different, delving into the details of what WebAssembly actually is, through the process of creating a compiler that targets WebAssembly.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/dI8PDRVRIQ4/mqdefault.jpg",
+    "videoId": "dI8PDRVRIQ4",
+    "url": "https://www.youtube.com/watch?v=dI8PDRVRIQ4",
+    "type": "youtube",
+    "date": "2019-04-24T14:33:59Z"
+  },
+  {
+    "title": "Bootstrapping a Startup with SailsJS   LNUG April 2019",
+    "description": "Over the last 18 months I have bootstrapped my startup using SailsJS. What did I learn? What do you get out of the box? How has the project evolved? Am I happy with my choice 18 months later?\nI have previously used Rails, ASP.MVC and Laravell. I had decided on Node for the backend - but what framework would I choose? What do I really need? What can I trust? How does SailsJS differ to the aforementioned frameworks and how much bang can my buck get?\n\n\n## About  Me\nHi I'm Simon, physics graduate, software engineer, team lead and now technical co-founder of Kiffgo.com.\nAfter previously working at a consumer facing marketplace startup I teamed up with a motivated co-founder to create my own. As the technical co-founder I had some stack decisions to make. I arrived at Node + SailsJS. From webpack integration, unit testing to production deployment I've done it with SailsJS and am willing to share my experience. I've been to LNUG a number of times in the past and have always found it a friendly, welcoming and informative experience.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/_xcF7DBqd08/mqdefault.jpg",
+    "videoId": "_xcF7DBqd08",
+    "url": "https://www.youtube.com/watch?v=_xcF7DBqd08",
+    "type": "youtube",
+    "date": "2019-04-24T14:20:15Z"
+  },
+  {
+    "title": "When You Assume You Make An Error Out of You and Me - Gabrielle von Koss",
+    "description": "Our choices in wording are frequently more powerful than we realise, and we risk using this power liberally and erroneously. Let’s take a look at our ideas about how we communicate in our code and in our speech, and what effects those ideas have.\n\nMy name is Gabrielle von Koss, and I work as a developer at the Financial Times. You can find my retweeting activity on @gvonkoss",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/ZFRG5HKERj8/mqdefault.jpg",
+    "videoId": "ZFRG5HKERj8",
+    "url": "https://www.youtube.com/watch?v=ZFRG5HKERj8",
+    "type": "youtube",
+    "date": "2019-03-27T20:00:04Z"
+  },
+  {
+    "title": "Testing Apps with Third Party Integrations - Mike Solomon",
+    "description": "In this talk we will examine strategies and best practices to develop and test node apps that make heavy use of third-party API integrations. As reliance on third-party services becomes more and more prevalent in the node ecosystem, developers need cost-effective, secure, reliable and fast ways to mock these services for both dev/staging environments and testing.\n\nWe will start with looking at nock, and open-source mocking solution for local development, and move onto unmock which provides mocks-as-a-service of popular APIs.\n\nThe session will have live coding for both nock and unmock using express to create a simple microservice and jest for testing. It will also present several popular design patterns for isolating and testing third-party integrations as well as strategies for integration testing apps that rely on third-party APIs, including corner-case and error testing.\n\nPresenters will be myself (Mike Solomon - unmock.io) and I will invite some of our London-based clients to chime in about the importance of testing third-party integrations and the emerging ecosystem of developer sandbox environments for API testing.\n\nThis is the same talk that we are giving at SFNode (sfnode/sfnode#98). We'd love to bring it to your community, share our learnings and hear your feedback.\n\nBio\nMike Solomon is the founder and CEO of Meeshkan (meeshkan.com), a Helsinki-based DevOps company. A music major at Stanford University, Queen's University Belfast and the University of Florida, Mike has been a guest researcher at the University of Paris VI and has held the post of artistic director of the Ensemble 101 (ensemble101.fr) from 2011 until the present day. While working at the IRCAM as a computer music designer, he fell in love with Machine Learning and founded Meeshkan to ease several DevOps pain points in the ML pipeline. Since then, Meeshkan has expanded to other areas of DevOps, including API testing with unmock (unmock.io).",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/KFiSEQtTdpk/mqdefault.jpg",
+    "videoId": "KFiSEQtTdpk",
+    "url": "https://www.youtube.com/watch?v=KFiSEQtTdpk",
+    "type": "youtube",
+    "date": "2019-03-27T19:47:48Z"
+  },
+  {
+    "title": "Simons Hot Tip - Automating with Apple Shortcuts. LNUG February 2019",
+    "description": "Nothing to do with node.js - a lightning talk at our last meetup extending to Apple Shortcuts and probably the most elaborate RSS reader replacement...  ever.  Simon is a JavaScript / Node developer at the FT",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/0lzx15h9Jp4/mqdefault.jpg",
+    "videoId": "0lzx15h9Jp4",
+    "url": "https://www.youtube.com/watch?v=0lzx15h9Jp4",
+    "type": "youtube",
+    "date": "2019-02-27T14:35:34Z"
+  },
+  {
+    "title": "Async Iterators  -Jamie McCrindle",
+    "description": "Abstract\nAn exploration of async iterators in NodeJS including when and why to use them, how they compare to other reactive libraries, how they perform and what to look out for when you do use them.\n\nAbout me\nJavaScript enthusiast, Open Source Contributor, Co-founder of a number of successful startups, OpenBankHack17 hackathon winner, Head of Technology for Business Banking at Investec. You can find me at https://jamie.mccrindle.org",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/PN9HQoYW2vc/mqdefault.jpg",
+    "videoId": "PN9HQoYW2vc",
+    "url": "https://www.youtube.com/watch?v=PN9HQoYW2vc",
+    "type": "youtube",
+    "date": "2019-02-27T14:04:22Z"
+  },
+  {
+    "title": "Building Cross Platform apps with Titanium -  Rene Pot",
+    "description": "If you don’t want to learn a new language but still want to make a quality mobile app, then a cross platform tool like Titanium is what you’re looking for. In this talk you’ll be shown how easy it is to start building your app using skills you already know from web and NodeJS.\n\nAbout me\nRene Pot, Developer Evangelist at Axway Appcelerator since 2018. I've been developing since I was 12, full time cross-platform mobile developer since 2011.\n\nTwitter: @Wraldpyk",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/12GA9oDK5gU/mqdefault.jpg",
+    "videoId": "12GA9oDK5gU",
+    "url": "https://www.youtube.com/watch?v=12GA9oDK5gU",
+    "type": "youtube",
+    "date": "2019-02-27T13:27:06Z"
+  },
+  {
+    "title": "TypeScript It's time to migrate  - Marco Talento",
+    "description": "TypeScript adoption it's been a reality in the last years. This presentation is going to be a demonstration on how we can take advantage of the TypeScript compiler to have a smooth migration from JavaScript to TypeScript.\n\nI am Marco, Software Engineer that believes software must be simple, intuitive and reliable. Currently working at Beamery. https://twitter.com/Talento90",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/qPLVn2Ft3vw/mqdefault.jpg",
+    "videoId": "qPLVn2Ft3vw",
+    "url": "https://www.youtube.com/watch?v=qPLVn2Ft3vw",
+    "type": "youtube",
+    "date": "2019-01-23T12:44:33Z"
+  },
+  {
+    "title": "Sean M Tracey - Bottomless hard drives w. Node.js, FUSE & Object Storage (lighting talk)",
+    "description": "",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/FjvSlrSfa-4/mqdefault.jpg",
+    "videoId": "FjvSlrSfa-4",
+    "url": "https://www.youtube.com/watch?v=FjvSlrSfa-4",
+    "type": "youtube",
+    "date": "2019-01-25T11:40:06Z"
+  },
+  {
+    "title": "James Porter - MobX State Tree is better than Redux (lightning talk)",
+    "description": "",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/9sKpx60zBNI/mqdefault.jpg",
+    "videoId": "9sKpx60zBNI",
+    "url": "https://www.youtube.com/watch?v=9sKpx60zBNI",
+    "type": "youtube",
+    "date": "2019-01-25T11:59:41Z"
+  },
+  {
+    "title": "Errietta Kostala - Build APIs with node, Lambda & Serverless",
+    "description": "AWS lambda allows you to build microservices that can be triggered both through HTTP and other ways such as when something is added to a queue, or on a schedule. We'll show how it is possible to build an API which consists of small, individual functions that respond to different HTTP requests using AWS lambda and API gateway. In addition to this, we will be deploying using serverless within minutes!\n\nAbout me\nPolyglot developer with a passion for learning new things.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/ViBWbgtUX5A/mqdefault.jpg",
+    "videoId": "ViBWbgtUX5A",
+    "url": "https://www.youtube.com/watch?v=ViBWbgtUX5A",
+    "type": "youtube",
+    "date": "2019-01-23T12:17:36Z"
+  },
+  {
+    "title": "Shane Osbourne - Web Assembly and the future of the Web",
+    "description": "Over the years we've seen many attempts by developers to avoid writing Javascript at all costs - creating new languages that compile into JavaScript is still a common practice in many language communities.\n\nBut things are changing, for the better. We're reaching an age where potentially any high-level language will one day be able run in a browser, with greater speed and safety - all thanks to Web Assembly.\n\nThis talk will provide practical information about how you can take code written in a shiny new language like Rust, compile it to a Web Assembly module and then execute it in the browser.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/obQrEEe9v74/mqdefault.jpg",
+    "videoId": "obQrEEe9v74",
+    "url": "https://www.youtube.com/watch?v=obQrEEe9v74",
+    "type": "youtube",
+    "date": "2019-01-23T11:03:25Z"
+  },
+  {
+    "title": "Large-scale refactoring with codemods - London Node User Group 2018",
+    "description": "Refactoring is part of the process of maintaining an application, but large scale refactoring that are more complicated than a find and replace are time consuming.\n\nCodemods are a tool to refactor code by manipulating the abstract syntax tree (AST). In this talk I'll teach you what ASTs are, why we use ASTs in tools like Babel and eslint, and how to write a codemod that manipulates an AST.\n\nAbout me I'm a Vue core contributor, and software engineer at the BBC. https://twitter.com/EddYerburgh",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/Ik8YC8D4_Do/mqdefault.jpg",
+    "videoId": "Ik8YC8D4_Do",
+    "url": "https://www.youtube.com/watch?v=Ik8YC8D4_Do",
+    "type": "youtube",
+    "date": "2018-11-28T17:20:26Z"
+  },
+  {
+    "title": "ECMAScript Modules: They're Coming...London Node User Group",
+    "description": "ECMAScript modules are just around the corner, but they may not be what you expect. I'll go into the reasoning behind the change and what it means for the future of javascript.\n\nI'm Andy, a full stack JS developer with a love of native apps.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/3ieHIh_A8dU/mqdefault.jpg",
+    "videoId": "3ieHIh_A8dU",
+    "url": "https://www.youtube.com/watch?v=3ieHIh_A8dU",
+    "type": "youtube",
+    "date": "2018-11-284T10:31:49Z"
+  },
+  {
+    "title": "Dockerising JavaScript Applications   London Node User Group   October 2018",
+    "description": "Docker is an ecosystem that allows you to work with containers. Whilst the initial learning curve can be steep, it can ultimately make your development and deployment cycles much faster.\n\nIn this talk, I will show you how to deploy a simple front- and back-end application using Docker, and show how much faster it is than the traditional, more manual approach.\n\n### Resources\n* You can try out the code yourself using the repository on [GitHub](https://github.com/d4nyll/docker-demo)\n* A variation of the presentation is also available on [Google Slides](https://docs.google.com/presentation/d/1ELRYLJI2Lgqk0zK0qQnVIYeZA2Nc0IG8jRaYRFr_TTM/)\n* A recording of the talk is available on [YouTube](https://www.youtube.com/watch?v=N5WKMVF_qlw)\n\n### About Me\nI am a JavaScript developer at [Nexmo](https://www.nexmo.com/). Before that, I ran my own digital agency, [Brew](http://www.brew.com.hk/), in Hong Kong, specializing in [Meteor](https://www.meteor.com/).",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/3fbKvkLkFlA/mqdefault.jpg",
+    "videoId": "3fbKvkLkFlA",
+    "url": "https://www.youtube.com/watch?v=3fbKvkLkFlA",
+    "type": "youtube",
+    "date": "2018-10-24T21:06:50Z"
+  },
+  {
+    "title": "Create and Deploy Cloud Native Node js Applications   London Node User Group   October 2018",
+    "description": "The CloudNativeJS.io community project provides a number of assets, tools and core modules for building Cloud Native Node.js applications. This session will show users how to use those to easily take an existing application and deploy it to Kubernetes with full support for liveness checks, metrics and request tracking.\n\nBeth Griggs, Developer & Node.js Core Collaborator, IBM Runtimes ([@BethGriggs_](https://twitter.com/BethGriggs_) )\nNeeraj Laad, Developer, IBM Runtimes ([@NeerajLaad](https://twitter.com/NeerajLaad))",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/xNz1LN_VtOM/mqdefault.jpg",
+    "videoId": "xNz1LN_VtOM",
+    "url": "https://www.youtube.com/watch?v=xNz1LN_VtOM",
+    "type": "youtube",
+    "date": "2018-10-2T20:44:55Z"
+  },
+  {
+    "title": "Building an Alexa Skill in 20 minutes using Node js   London Node User Group   October 2018",
+    "description": "Developers can build engaging voice experiences, aka Skills, for their services with the Alexa Skills Kit. In this 20 minute session, learn how to build a voice experience for Amazon Alexa: from idea to working skill including some best practices to consider along the way.\n\n**Personal Info:**\nTech Evangelist at Amazon, Twitter: [@muttonia](https://twitter.com/muttonia)",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/4uIi0P34lqo/mqdefault.jpg",
+    "videoId": "4uIi0P34lqo",
+    "url": "https://www.youtube.com/watch?v=4uIi0P34lqo",
+    "type": "youtube",
+    "date": "2018-10-24T20:18:56Z"
+  },
+  {
+    "title": "Intro to GraphQL",
+    "description": "Speaker: Alex Dytrych\n\nGraphQL is kind of a buzzword right now - but what even is this new API tech from Facebook? In this talk, we’ll take a look at GraphQL and understand what it is, why you might use it, and how it fits in with the existing API landscape. We’ll have a go at writing some simple GraphQL queries together, and hopefully you’ll go away excited about using this awesome tech in your own work & projects.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/iE1-fbmwmck/mqdefault.jpg",
+    "videoId": "iE1-fbmwmck",
+    "url": "https://www.youtube.com/watch?v=iE1-fbmwmck",
+    "type": "youtube",
+    "date": "2018-09-26T18:34:01Z"
+  },
+  {
+    "title": "A Journey with GraphQL in Production",
+    "description": "Speakers: Michelle and Faduma\n\nYou've heard of GraphQL. But what kind of problems can it solve? This is the story of why we chose GraphQL to power the Vogue and GQ websites, and how it helped us get the data we needed for our frontend. You'll learn about some ways in which GraphQL can improve your application, and understand how you might implement it.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/Dic-hRbWbtI/mqdefault.jpg",
+    "videoId": "Dic-hRbWbtI",
+    "url": "https://www.youtube.com/watch?v=Dic-hRbWbtI",
+    "type": "youtube",
+    "date": "2018-09-26T18:15:51Z"
+  },
+  {
+    "title": "GraphQL on the Edge - Sevki Hasirci",
+    "description": "An introduction to GraphQL on Serverless. We'll talk about the benefits of running GraphQL (and other API gateway patterns) on the Edge (the performance benefits batching and so on).",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/WVn9yeV3vLo/mqdefault.jpg",
+    "videoId": "WVn9yeV3vLo",
+    "url": "https://www.youtube.com/watch?v=WVn9yeV3vLo",
+    "type": "youtube",
+    "date": "2018-08-22T21:23:11Z"
+  },
+  {
+    "title": "Bubbleprof - A new way to profile Node.js - David Mark Clements",
+    "description": "It’s been weeks and the organisation you work for seems to be slowly turning against you. At least that’s what it feels like. User experience is poor because of slow API’s, sales are being missed, performance-linked SEO heuristics are causing a drop in page ranking. Mobile users have all but given up. Operations have reported that a critical Node.js service owned by your team is spinning at 70-100% CPU, and all parts of the application dependent on the service are experiencing intermittent slowdowns or in some cases, complete unavailability. What are you going to do now?",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/y7PZ4q5gk8o/mqdefault.jpg",
+    "videoId": "y7PZ4q5gk8o",
+    "url": "https://www.youtube.com/watch?v=y7PZ4q5gk8o",
+    "type": "youtube",
+    "date": "2018-08-22T21:07:06Z"
+  },
+  {
+    "title": "Zero Knowledge Proofs in Node.JS - Federico Rampazzo",
+    "description": "Zero Knowledge Proofs in Node.JS - Federico Rampazzo (@framp)\nLNUG - August 2018\n\nZero Knowledge Proofs are one of cryptography's best hidden gems and they're behind recent advancements in privacy conscious crypto-currencies.\nWe're going to see how to use them in node.js and improve your applications' security, whether centralised or distributed.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/cMoD0wIxIpQ/mqdefault.jpg",
+    "videoId": "cMoD0wIxIpQ",
+    "url": "https://www.youtube.com/watch?v=cMoD0wIxIpQ",
+    "type": "youtube",
+    "date": "2018-08-22T20:51:13Z"
+  },
+  {
+    "title": "http4js  A Whirlwind Tour - Tom Shacham",
+    "description": "LNUG meetup talk June 2018 \n\nhttp4js is a lightweight http framework. It's immutable, has zero dependencies and is written in typescript. The docs are quite descriptive.\n\nThis talk would be mainly live coding to show the main benefits of using http4js over another node http framework. I've presented to colleagues who are now adopting http4js. I'd love to show the community why I think it's a better way to write web apps, by demonstration!",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/emYuYJfgZs4/mqdefault.jpg",
+    "videoId": "emYuYJfgZs4",
+    "url": "https://www.youtube.com/watch?v=emYuYJfgZs4",
+    "type": "youtube",
+    "date": "2018-06-26T21:34:41Z"
+  },
+  {
+    "title": "Stephen Young - Managing cloud resources in a distributed and fault-tolerant manner",
+    "description": "LNUG meetup talk, June 2018\n\nAt EVRYTHNG we had to a build a number of Node.js applications that required managing multiple resources in a distributed environment. For example, handling real-time connections to other clouds such as Nest and Honeywell and sending notifications to IFTTT applets. What if there was a library that handled the allocation and distribution of these resources so developers could focus on the core business logic of their application?\n\nThe EVRYTHNG distributed resource manager is a Node.js library that solves this problem. Developers don’t need to worry about maintaining real-time connections when new nodes are added to the system or if one of them goes down.\n\nIn this talk I would demonstrate the resource manager so attendees will see what problems it solves for us at EVRYTHNG. In addition, they will gain an understanding of how we use Node.js at our company and how it helps us scale. Please note that this library is not currently open source but it should be in the next 1-2 months.\n\nI work as a Technical Lead for EVRYTHNG who provide an IoT platform for businesses around the world. It’s my role to decide on the architecture for various parts of the platform and how we will build these components using Node.js. I’ve been programming in Node for five years.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/lwmYq8KtvJA/mqdefault.jpg",
+    "videoId": "lwmYq8KtvJA",
+    "url": "https://www.youtube.com/watch?v=lwmYq8KtvJA",
+    "type": "youtube",
+    "date": "2018-06-26T20:43:24Z"
+  },
+  {
+    "title": "Expressless 200 OK - Eran Keren London Node User Group  May 2018",
+    "description": "Heard about Serverless? Already know Express.js? Too afraid to use the two? \n\nMy talk will last ~20 mins and will cover the following:\n\n- Where are my servers? (Moving from the classic setup to a serverless one)\n\n- Express.js + Serverless?\n\n- How can I test my serverless app? (Offline testing)\n\n- Where are my logs?\n\n- Wait, are my apis public? (Securing your endpoints)\n\n- Shhhhh....(Keeping secrets)\n\n### About me:\nI started my career over a decade ago writing code for firewalls and security systems (c/c++/java). In recent years I've been specialising in cloud engineering, microservices, aws and serverless (mostly in node.js).\n\nNow: I'm the CTO of a young and still in stealth mode startup - [sourcingbot.com](http://sourcingbot.com)",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/vCxRp9zIHgY/mqdefault.jpg",
+    "videoId": "vCxRp9zIHgY",
+    "url": "https://www.youtube.com/watch?v=vCxRp9zIHgY",
+    "type": "youtube",
+    "date": "2018-05-22T11:43:55Z"
+  },
+  {
+    "title": "Simon's Hot Tip   London Node User Group May 2018",
+    "description": "",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/LR8sZo0_es0/mqdefault.jpg",
+    "videoId": "LR8sZo0_es0",
+    "url": "https://www.youtube.com/watch?v=LR8sZo0_es0",
+    "type": "youtube",
+    "date": "2018-05-22T10:05:47Z"
+  },
+  {
+    "title": "Objection.js a SQL ORM - Paul Jensen  London Node User Group May 2018",
+    "description": "Objection.js is a SQL ORM (Object Relational mapping) for Node.js.\n\nIn this talk, I will walk you through how the module works, show live examples of it in action, and present the case for considering it in your Node.js projects.\n\nThings that we'll cover are:\n\n- Quick setup\n- Creating the underlying database schema for your models via Knex.js\n- Creating models and executing SQL queries via the models\n- Implementing validation in your models with JSON schema\n- Defining relationships between models\n- Doing graph inserts and updates\n- Setting up a GraphQL API with the objection-graphql plugin\n- Other interesting objection.js plugins\n\nMy name is Paul Jensen, I'm the author of [Manning's \"Cross Platform Desktop Applications - Using Node, Electron, and NW.js\"](http://manning.com/books/cross-platform-desktop-applications). You can find me on [Twitter](https://twitter.com/paulbjensen) and [Github](https://github.com/paulbjensen).",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/Jl-3p9Yq4io/mqdefault.jpg",
+    "videoId": "Jl-3p9Yq4io",
+    "url": "https://www.youtube.com/watch?v=Jl-3p9Yq4io",
+    "type": "youtube",
+    "date": "2018-05-22T07:53:24Z"
+  },
+  {
+    "title": "End to End Testing Single Page Apps… with Cucumberjs and Puppeteer - Paul Jensen",
+    "description": "Developing web applications as separate front end and back end parts is a common practice, but brings with it the challenge of how to test those parts together in an end-to-end fashion.\n\nIn this talk, I will show you a strategy for being able to test your web application with Cucumber.js and Puppeteer, a library for running Google Chrome in headless mode. We'll also explore how to handle things like seeding the database for the API before running tests, how to select elements in the DOM via Cucumber step definitions, and how to do this in a nice fashion using Node 8's async/await feature.\n\nMy name is Paul Jensen, I'm the author of Manning's Cross Platform Desktop Applications, and I'm the Lead Innovation Engineer at Starcount. My twitter handle is paulbjensen.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/5MB-jGWqoJU/mqdefault.jpg",
+    "videoId": "5MB-jGWqoJU",
+    "url": "https://www.youtube.com/watch?v=5MB-jGWqoJU",
+    "type": "youtube",
+    "date": "2018-04-24T14:25:36Z"
+  },
+  {
+    "title": "A Hobbyist's Quest for a Personal Server - Salman FF -  LNUG April 2018",
+    "description": "How easy is it for a non-techie lay-person to set up a personal server and have their own apps running on it?\n\nThere's been much talk recently about how large companies host our data, control it, and sell ads against it. But what if we all had our own servers with our own applications running on them holding our data which we control?\n\nIs that doable today, using existing cloud services and node.js? What does it take? How easy is it?\n\nFor the past few years, I've been running my personal node.js-based server on AWS, Google Cloud, Openshift and Heroku, using mlabs and Mongo, as well as Dropbox!\n\nSo I'll talk about what it takes for a non-techie (or at least a newbie) to set up a node.js server using each of those environments - the pluses and minuses of each ... and why doing this would be a good thing in general.\n\nAbout me:\nI am clean tech entrepreneur (@zemenergy.com) and VC executive (@top-funds.com). I code for fun. See http://freezr.info twitter:salmanff github:salmanff",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/VKHZJvRicx8/mqdefault.jpg",
+    "videoId": "VKHZJvRicx8",
+    "url": "https://www.youtube.com/watch?v=VKHZJvRicx8",
+    "type": "youtube",
+    "date": "2018-04-24T13:22:05Z"
+  },
+  {
+    "title": "Serverless in Production An Experience Report - Yan Cui & Scott Smethurst - LNUG   March 2018 1",
+    "description": "AWS Lambda has changed the way we deploy and run software, but this new serverless paradigm has created new challenges to old problems - how do you test a cloud-hosted function locally? How do you monitor them? What about logging and config management? And how do we start migrating from existing architectures? \n\nIn this talk Yan will discuss solutions to these challenges by drawing from real-world experience running Lambda in production and migrating from an existing monolithic architecture.\n\n### About me:\nYan (@theburningmonk) is a polyglot developer and architect, he is a regular speaker at user groups and conferences internationally. Yan is the author of `AWS Lambda in Motion`, a co-author of `F# Deep Dives`, and he keeps an active blog at http://theburningmonk.com where he shares his thoughts on topics such as AWS, serverless, functional programming and chaos engineering.\n\nmy co-speaker is **Scott Smethurst** : Scott’s passion for computing began when he was gifted a Commodore 64 for Christmas in 1988 and really took hold while studying Computer Science at the University of Manchester. He’s been an architect, lead developer and consultant within a variety of industries, working with organisations ranging from a multi-billion pound corporation to a failed start-up. Scott has spent most of the past 2 years designing and building several serverless architectures and has decided to start sharing some of those experiences.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/EAeX0LCsEg8/mqdefault.jpg",
+    "videoId": "EAeX0LCsEg8",
+    "url": "https://www.youtube.com/watch?v=EAeX0LCsEg8",
+    "type": "youtube",
+    "date": "2018-03-27T20:59:08Z"
+  },
+  {
+    "title": "My Node.js Process is on Fire  - Matteo Collina -  LNUG   March 18",
+    "description": "At 10am on Black Friday, your phone rings: the new JS application you deployed came under too much load, and the site has gone down! Your employer is losing sales opportunities... your employer is losing money!\n\nBut you don’t lose your cool. You log into your cloud provider and tweak your autoscaling settings. Now the deployment can handle the load spike but with four times the number of servers, which is four times the cost.\n\nThe next day, you try to analyze what happened and begin to optimize your application to prepare for future load spikes. \n\nThis talk is a journey into the world of Node.js performance, taking a look at the available tools and optimization techniques inspired by insight gained from glimpsing under the hood of Node and V8.\n\n### Bio\n\nMatteo is a code pirate and mad scientist. He spends most of his days programming in Node.js, but in the past he worked with Ruby, Java and Objective-C. In 2014, he defended his Ph.D. thesis titled \"Application Platforms for the Internet of Things\". Now he is a Principal Architect at [nearForm](http://nearform.com), where he consults for the top brands of the world.\nMatteo is also the author of the Node.js MQTT Broker, [Mosca](http://mosca.io), the fast logger [Pino](https://github.com/mcollina/pino) and of the [Fastify](https://www.fastify.io) web framework. Matteo is also a member of the Node.js Technical Steering Committee. Matteo spoke at several international conferences: Node.js Interactive, NodeConf.eu, NodeSummit, JSConf.Asia, WebRebels, and JsDay to name a few. He is also co-author of the book \"Node.js Cookbook, Third Edition\" edited by Packt. \nIn the summer he loves sailing the _Sirocco_.\n\nTwitter handle: [@matteocollina](https://twitter.com/matteocollina)",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/makLO64Rzsc/mqdefault.jpg",
+    "videoId": "makLO64Rzsc",
+    "url": "https://www.youtube.com/watch?v=makLO64Rzsc",
+    "type": "youtube",
+    "date": "2018-03-27T20:44:50Z"
+  },
+  {
+    "title": "Internal Server Error Horror Stories about APIs and the Browser - Claudia Matosa - LNUG March 18",
+    "description": "Who hasn't found themselves in despair after hours of trying to debug a problem that seemed simple, because halfway down the line the stack trace ended in a file called `throw-error.js`, or simply there were no errors thrown and the code just didn't work as expected?\n\nThe talk will last between 15 and 20 minutes, will be structured in two parts and there will be plenty of gifs and emojis. It should cover errors in Node and browsers.\n\n### 1. Common bad error handling scenarios\n\n- Stacktrace lost.\n- Code exits without error.\n- Generic error messages (`something has failed`).\n- ...\n\n### 2. Exploring possible solutions (examples)\n\n- Custom errors.\n- Formatting error api responses.\n- Displaying errors in the UI.\n- Examples when using Apollo (GraphQL), React and maybe other tools.\n\nConclusion: your library/utility/api should be built around its users, and they shouldn't need to read the code to know why something is wrong.\n\n(I'm really bad with titles 😳)\n\nI'm a freelance front-end developer, currently working with React and GraphQL.\n[twitter](twitter.com/claudiamatosa) | [github](github.com/claudiamatosa)",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/L55zj7nGZDg/mqdefault.jpg",
+    "videoId": "L55zj7nGZDg",
+    "url": "https://www.youtube.com/watch?v=L55zj7nGZDg",
+    "type": "youtube",
+    "date": "2018-03-27T20:33:00Z"
+  },
+  {
+    "title": "Hot Tips Lightning Talk  LNUG   March 18",
+    "description": "",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/yvFlPJQFQQc/mqdefault.jpg",
+    "videoId": "yvFlPJQFQQc",
+    "url": "https://www.youtube.com/watch?v=yvFlPJQFQQc",
+    "type": "youtube",
+    "date": "2018-03-27T20:31:03Z"
+  },
+  {
+    "title": "Classical Inheritance in Javascript - Thanasis Polychronakis -  LNUG  February 2018",
+    "description": "Javascript inheritance has always been a challenging issue for new and seasoned developers. In this talk, we will dive deep into the inner workings of Javascript inheritance and see the beauty of prototypical inheritance and the prototype chain. While this is a classic talk, it is particularly relevant to the current debate in the React community over the use of fat arrow vs pre-bounded methods.\n[Talk slides](https://speakerdeck.com/thanpolas/classical-inheritance-in-javascript)\n\nGithub: [thanpolas](https://github.com/thanpolas), Twitter: [@thanpolas](https://twitter.com/thanpolas), [LinkedIn](http://www.linkedin.com/in/thanpolas), [website](http://thanpol.as)",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/2DWmHN2c_10/mqdefault.jpg",
+    "videoId": "2DWmHN2c_10",
+    "url": "https://www.youtube.com/watch?v=2DWmHN2c_10",
+    "type": "youtube",
+    "date": "2018-02-28T19:38:41Z"
+  },
+  {
+    "title": "Cultivating a Microservice Culture with Node.js   - Oliver Rumbelow - LNUG    February 18",
+    "description": "We've spent the last 14 months working with Node.js to migrate the Holiday Extras engineering team away from Node.js monolith applications and over to Node.js microservices. Node.js is the heart and soul of the operation and the time has come to share how it's taken us above and beyond our wildest dreams. In this talk I'll be sharing how we're using Node.js throughout our stack, some of the key projects we've built and the problems they solve, and how to really make the most out of Node.js to build an incredibly powerful engineering experience. \n\nI'm a software engineer in the tech-foundations pod at [Holiday Extras](http://join.holidayextras.co.uk/) with a remit to improve the efficiency of our engineering team. I've been writing Node.js day-in-day-out for over 5 years and dabble with infrastructure on the side.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/8y306u5BVV0/mqdefault.jpg",
+    "videoId": "8y306u5BVV0",
+    "url": "https://www.youtube.com/watch?v=8y306u5BVV0",
+    "type": "youtube",
+    "date": "2018-02-28T19:55:37Z"
+  },
+  {
+    "title": "Naval Saini - My Experiments with Chess",
+    "description": "I have been experimenting with different variations of chess as a tool to improve memory and abstract thinking, as a tool for social interventions, a variation for blind people and more. I started my experiments in 2015 and have created an app www.Halfchess.com at a slow pace since 2016.\n\nThe talk is a flash talk and starts with why I got interested in the particular topic; and, the things I built and experiments I did along the way. I also briefly talk about the technologies I used and show how easy it is to hack a chess engine (p4wn) for making your own variations.\n\n[A bit about you, e.g. current job, twitter handle, etc.]\n\nI currently work at Mckinsey and am visiting London (from New Delhi) for a quarterly sprint planning meet . If you are really interested in reaching out to me - you can find my CV at www.flipflopapp.com, which has my email address.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/TgfQT5Hw29E/mqdefault.jpg",
+    "videoId": "TgfQT5Hw29E",
+    "url": "https://www.youtube.com/watch?v=TgfQT5Hw29E",
+    "type": "youtube",
+    "date": "2018-01-24T11:34:00Z"
+  },
+  {
+    "title": "lazlojuly - Unit Testing Is Life!",
+    "description": "* This is a lightweight and entertaining 15 minutes long talk.\n* It is aimed at developers on **ALL** levels.\n* Covers basic and advanced concepts.\n\nBio: I am a JavaScript Engineer with growth mindset. \nConnect with me on [Twitter](https://twitter.com/lazlojuly), [LinkedIn](https://www.linkedin.com/in/lazlojuly) or [GitHub](https://github.com/lazlojuly)",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/rmXAQCefmqg/mqdefault.jpg",
+    "videoId": "rmXAQCefmqg",
+    "url": "https://www.youtube.com/watch?v=rmXAQCefmqg",
+    "type": "youtube",
+    "date": "2018-01-24T14:47:14Z"
+  },
+  {
+    "title": "David Scheiner -  Moving on From Mongoose  How a Great Thing Finally Cornered Us",
+    "description": "Mongoose has helped us greatly to maintain the integrity of our data against a mongodb database. However, we are not able to share the models we use on our apis anywhere outside those apis. And Mongoose schemas are not shareable, which means we cannot consume them on any other level of our applications. This means either using conversion plugins, or else writing and maintaining some other solution. In addition, the mongoose models themselves are not shareable, which means even if we solve the schema issue, we still have at least two sets of models to maintain.\n\nFinally, we use Typescript, which means ideally we can share schema definitions with that which would allow us to define our entities once and have those definitions propagate to all levels of our applications.\n\nThe final part of this presentation will focus on the solution we now intend to adopt as we begin to overhaul our entire architecture in the coming months.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/ANquyJdSzOQ/mqdefault.jpg",
+    "videoId": "ANquyJdSzOQ",
+    "url": "https://www.youtube.com/watch?v=ANquyJdSzOQ",
+    "type": "youtube",
+    "date": "2018-01-24T11:10:51Z"
+  },
+  {
+    "title": "Paul Jensen - Creating PowerPoint Files with Officegen and Node.js",
+    "description": "It turns out that you don't need Microsoft Office to create PowerPoint files - you can create them in Node.js. In this talk I will show you how libraries like Officegen allow you to generate PowerPoint files containing text, shapes, charts and images, and demonstrate a real-world use of this tool that we've been crafting to save us some time.\n\nMy name is Paul Jensen, I'm the author of Manning's Cross Platform Desktop Applications, and I'm the Lead Innovation Engineer at Starcount. My twitter handle is @paulbjensen.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/U7l3Rw3H-8Q/mqdefault.jpg",
+    "videoId": "U7l3Rw3H-8Q",
+    "url": "https://www.youtube.com/watch?v=U7l3Rw3H-8Q",
+    "type": "youtube",
+    "date": "2018-01-24T10:58:18Z"
+  },
+  {
+    "title": "Using the Traverse module - Lightning Talk - Rob Tweed",
+    "description": "",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/gCiX7kESsrI/mqdefault.jpg",
+    "videoId": "gCiX7kESsrI",
+    "url": "https://www.youtube.com/watch?v=gCiX7kESsrI",
+    "type": "youtube",
+    "date": "2017-11-22T17:21:52Z"
+  },
+  {
+    "title": "Taking LNUG Offline - Simon McManus",
+    "description": "The LNUG website uses AppCache with the help of app-cache-nanny but with its upcoming depreciation I’ve been investigating how Service Workers might improve the experience.\n\nIn this talk I will explain how the LNUG website gets built, how it uses appCache / service workers and some of the things I’ve learned along the way.\n\nI'm a remote Javascript engineer, part time conference organiser and my opinions can often be found on twitter: @simonmcmanus.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/P6r3ze2X5Qw/mqdefault.jpg",
+    "videoId": "P6r3ze2X5Qw",
+    "url": "https://www.youtube.com/watch?v=P6r3ze2X5Qw",
+    "type": "youtube",
+    "date": "2017-11-22T16:00:45Z"
+  },
+  {
+    "title": "Console Logging Lightning Talk - Simon Legg",
+    "description": "",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/Z1ThHCApQtc/mqdefault.jpg",
+    "videoId": "Z1ThHCApQtc",
+    "url": "https://www.youtube.com/watch?v=Z1ThHCApQtc",
+    "type": "youtube",
+    "date": "2017-11-22T15:49:09Z"
+  },
+  {
+    "title": "Binary Respository and Node Streams - Matt Forrester",
+    "description": "Would like to introduce my project binary-repository (https://github.com/forbesmyester/binary-repository) and solicit contributions / talk briefly about the components yargs, GPG, BASH(!), AWS S3, AWS CLI(!) etc and what I have learnt using them.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/pcrOet9jjMs/mqdefault.jpg",
+    "videoId": "pcrOet9jjMs",
+    "url": "https://www.youtube.com/watch?v=pcrOet9jjMs",
+    "type": "youtube",
+    "date": "2017-11-22T15:12:53Z"
+  },
+  {
+    "title": "Building an Electron Application with NodeJS - Bernard Baker",
+    "description": "NodeJS has many uses, but what about taking the traditional web development offline and developing NodeJS application for the desktop. This talk introduces Electron. A nifty framework which makes desktop application development with NodeJS a breeze and stretches the horizon for businesses and developers to offer desktop applications as solutions to client and business needs.\n\nWatch Bernard Baker (BTAB @bernibear2000) walk you through the development of a production ready application which is being used at Sky which converts videos into sprite sheets for use by online display campaigns.\n\nBernard Baker is an aspiring programmer who has been coding for over ten years. Currently working as a Digital Innovations Specialist - dreaming up new product ideas, mentoring programmers and investigating new technologies for their benefits in his business domain.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/QQri69gZv6w/mqdefault.jpg",
+    "videoId": "QQri69gZv6w",
+    "url": "https://www.youtube.com/watch?v=QQri69gZv6w",
+    "type": "youtube",
+    "date": "2017-11-22T11:06:17Z"
+  },
+  {
+    "title": "Node powered static sites with React/GraphQL in minutes - Lightning Talk - James Porter",
+    "description": "",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/WT_IBPz7DPo/mqdefault.jpg",
+    "videoId": "WT_IBPz7DPo",
+    "url": "https://www.youtube.com/watch?v=WT_IBPz7DPo",
+    "type": "youtube",
+    "date": "2017-10-24T14:55:54Z"
+  },
+  {
+    "title": "Nesquirk  Hapi + Nes + MiniMongo for gloryful reactive apps - Alan Shaw",
+    "description": "",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/0QEQn9v3OJI/mqdefault.jpg",
+    "videoId": "0QEQn9v3OJI",
+    "url": "https://www.youtube.com/watch?v=0QEQn9v3OJI",
+    "type": "youtube",
+    "date": "2017-09-26T14:11:03Z"
+  },
+  {
+    "title": "Having Your Node js Cake and Eating It Too  - Rob Tweed",
+    "description": "",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/2P46Qc2z1xo/mqdefault.jpg",
+    "videoId": "2P46Qc2z1xo",
+    "url": "https://www.youtube.com/watch?v=2P46Qc2z1xo",
+    "type": "youtube",
+    "date": "2017-09-26T14:07:42Z"
+  },
+  {
+    "title": "Scraping With Node.js and a bit of Golang",
+    "description": "",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/7gCKAfrlkAk/mqdefault.jpg",
+    "videoId": "7gCKAfrlkAk",
+    "url": "https://www.youtube.com/watch?v=7gCKAfrlkAk",
+    "type": "youtube",
+    "date": "2017-10-24T13:35:35Z"
+  },
+  {
+    "title": "Streaming from accelerometer to webaudio with Node.js and a Tessel - Lightning Talk - Adam Davis",
+    "description": "What you could be doing with node.js. A quick node--on-hardware demo lightning talk.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/bez6Z4zgf-E/mqdefault.jpg",
+    "videoId": "bez6Z4zgf-E",
+    "url": "https://www.youtube.com/watch?v=bez6Z4zgf-E",
+    "type": "youtube",
+    "date": "2017-10-24T13:30:07Z"
+  },
+  {
+    "title": "Ever Written Command Line Scripts in Node.js -  Lighting Talk - Rob Tweed",
+    "description": "Some tips for writing a command line scripts. Watch out for passwords though,",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/nltlS355B2M/mqdefault.jpg",
+    "videoId": "nltlS355B2M",
+    "url": "https://www.youtube.com/watch?v=nltlS355B2M",
+    "type": "youtube",
+    "date": "2017-10-24T13:25:53Z"
+  },
+  {
+    "title": "Building Search in a Week ish   Lightning Talk - Andrew Clarke",
+    "description": "Quickly compiled lightning talk with some great insights from CTO at Tido",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/pzGwE3M7Ezc/mqdefault.jpg",
+    "videoId": "pzGwE3M7Ezc",
+    "url": "https://www.youtube.com/watch?v=pzGwE3M7Ezc",
+    "type": "youtube",
+    "date": "2017-10-24T13:19:46Z"
+  },
+  {
+    "title": "Arrow Functions Lightning Talk - Simon Legg",
+    "description": "An ad-hoc talk and great tip",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/3eLgm9QP8m4/mqdefault.jpg",
+    "videoId": "3eLgm9QP8m4",
+    "url": "https://www.youtube.com/watch?v=3eLgm9QP8m4",
+    "type": "youtube",
+    "date": "2017-10-24T13:18:09Z"
+  },
+  {
+    "title": "Do not yield to javascript generators! - Bruno Godefroy",
+    "description": "Have you ever found yourself completely lost in front of a yield statement? What is this? Where does my promise go? How come I get the result back?\n\nGenerators are widely used amoung Node and javascript libraries to enable developers to write powerful code in a simple way.\n\nI will try to answer all these questions and we will recreate together the co library that is used, for example, in Koajs.\n\nI would then like to go into a step by step decomposition of redux-saga to understand how this wonderful library uses generators.\n\nA bit about me I'm a full stack developer at Theodo UK, a web agency in central London. We help our clients to solve their business problems through code. Our clients range from young startups to large corporates.\nTwitter: @switcher7707",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/aYZIhQ3KGXQ/mqdefault.jpg",
+    "videoId": "aYZIhQ3KGXQ",
+    "url": "https://www.youtube.com/watch?v=aYZIhQ3KGXQ",
+    "type": "youtube",
+    "date": "2017-08-22T10:26:38Z"
+  },
+  {
+    "title": "Node microservices at Pizza Hut - Anna Doubkova",
+    "description": "Pizza Hut website is powered by a system of 20+ microservices, all docker-ised and running in AWS. What challenges did we meet while writing it? How do you maintain, develop for, and test a system with extremely high availability on such a scale? It's a bit like juggling twenty fragile glass balls while riding a bicycle. Nevertheless, it's a surprisingly reliable way of delivering the best user experience, and pizza, to our users.\n\nMore info\nI'll introduce our (complex) infrastructure and will talk a bit more about challenges we have faced and how we solved them.\n\nSplitting logic into microservices; changes made into several microservices at once & deployment.\nTesting our huge products API; running over 20000 unit tests on one microservice, we need to micro-optimise.\nMaking sure it actually works; a system of logging, monitoring, and support\nAbout me\nI'm a software engineer at Pizza Hut (contractor), speaker, node and react developer. Previously worked at Red Badger and Time Out. I recently spoke at JeffConf, React London 2017, several meetups.\nTwitter handler: @lithinn",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/Hnyik7oi-Mk/mqdefault.jpg",
+    "videoId": "Hnyik7oi-Mk",
+    "url": "https://www.youtube.com/watch?v=Hnyik7oi-Mk",
+    "type": "youtube",
+    "date": "2017-08-22T10:24:38Z"
+  },
+  {
+    "title": "Rapid Web Development with Huncwot & Marko - Zaiste",
+    "description": "Huncwot is an opinionated & minimal Node.js (yet another) web framework, slightly inspired by Clojure and built for ES6/7 era with « batteries included » approach. It tries to formalize conventions and eliminate choices by providing solid defaults for building web applications that increase the programmers productivity. In this talk we'll explore how to build an application with Huncwot, what it brings to the table and how to make (web) programming more approachable, especially to non-programmers.\n\nA bit about me I run a software company called Nukomeet. In my spare time I organise PolyConf. Twitter: @zaiste",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/Pis98a6RL-Y/mqdefault.jpg",
+    "videoId": "Pis98a6RL-Y",
+    "url": "https://www.youtube.com/watch?v=Pis98a6RL-Y",
+    "type": "youtube",
+    "date": "2017-08-22T10:22:53Z"
+  },
+  {
+    "title": "Don't Let Just Node.js Take the Blame! - Daniel Khan",
+    "description": "Abstract\n\nMost likely you are choosing Node.js because it has the reputation to be super-fast, easy to use and you heard a lot of success stories at meetups and conferences. Sure you did performance and scalability tests which confirmed that your decision was correct to go with Node.js.\n\nWhat Daniel has seen is that in enterprise environments Node.js often acts as the (often microservice based) gluing tier that connects legacy services to modern offerings like mobile apps or your HTML5 SPA (Single Page Apps) via a REST API Layer.\n\nThis means that once you integrate your application into the company infrastructure, connect it to internal & external services and go productive you may be the first person to be blamed because \"the website is slow\" or even better \"something broke – there is an error we have not seen before\". But who knows if in fact a service consumed or brokered by Node or a database is slow? In this session Daniel will cover - how to trace down problems inside Node - the challenges operations is facing in todays highly heterogeneous applications - how to protect the boundaries of your service to pinpoint problems in other tiers - new tracing features in upcoming versions of Node.\n\nBio\n\nPragmatic fullstack engineer from BGP to AJAX. Speaker, mentor and course author. I am leading the Node.js technology efforts of Dynatrace. Member of Node.js Diagnostics WG. Let's chat about the old days, todays cutting edge technologies, (web) performance ... you name it.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/r1omVx3Phrw/mqdefault.jpg",
+    "videoId": "r1omVx3Phrw",
+    "url": "https://www.youtube.com/watch?v=r1omVx3Phrw",
+    "type": "youtube",
+    "date": "2017-06-27T21:02:53Z"
+  },
+  {
+    "title": "knock-knock-who-there-file-compression-talk_FINAL_2.tar.trz.bz2.gz - Irina Shestak",
+    "description": "Fade in. An opened terminal window. iTerm2 is the flavour. Dracula, the theme. You split the panes in two. You are at it again: a stash of audio buffers and that dream of manipulating a lossless file. With node as your language of choice you embark on the night. You manipulate, you transform, you have your byte order sorted, on their own accord your fingers start to type gzip -f yourFavPhilCollinsSong.wav. All of a sudden, a whisper:\n\nBut what if.\n\nwe stream.\n\nfile compression.\n\non the fly.\n\nFade to black.\n\nIn this talk we will walk through file compression algorithms in node as well compression standards. We will cover working with streams, audio buffers, and typed arrays to get us to compress and decompress files, and yourFavPhilCollinsSong.wav.\n\nbio\n\ntl;dr javascript, infrastructure, 🍜 🍜 🍜.\n\nThe not so short: Irina is a Berlin via London via Vancouver (geeeez grrrl) software developer who is, oh hey, hello, really into node.js. She writes node over at scripto.cc and contributes to a few open-source projects in the meantime. Outside of coding, she spends quite a bit of her time exploring the outdoors, gushing over trains, and reading some Beatniks.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/Gbq0NRGo-zM/mqdefault.jpg",
+    "videoId": "Gbq0NRGo-zM",
+    "url": "https://www.youtube.com/watch?v=Gbq0NRGo-zM",
+    "type": "youtube",
+    "date": "2017-06-27T20:31:31Z"
+  },
+  {
+    "title": "Trading cryptocurrencies, forex, commodities stocks and more using node.js",
+    "description": "Description: The aim of the talk is to show what i have learnt and the libraries and tools i have developed over the last couple years after getting into trading bitcoin and ethereum, which turned out later into trading all sorts of things based on technical analysis and a bit of flaky statistics. I'm really bad at making graphs and charts and what not, so expect some hands on approach, the talk should cover the very basics of trading and then how to use trading APIs to actually buy and sell stuff online directly from your command line.\n\nAbout me: The first time i programmed javascript was twenty years ago and since them i have played around with pretty much all the interesting programming languages i have found in front of me just to discover in 2011 i would actually end up doing everything again using only node.js. During this long journey i have worked on backend and frontend applications, interactive games, multiplayer applications, and whatnot. The last few years my big interest turned to be blockchain, cryptocurrencies and trading. After moving to London nearly seven years ago i worked for a few years in a very nice design studio and then later left to create my own little technology company where all those crazy experiments happen.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/JmzWD038qtM/mqdefault.jpg",
+    "videoId": "JmzWD038qtM",
+    "url": "https://www.youtube.com/watch?v=JmzWD038qtM",
+    "type": "youtube",
+    "date": "2017-05-23T21:21:26Z"
+  },
+  {
+    "title": "From LNUG presentation to published book - Paul Jensen",
+    "description": "My tale of writing \"Cross Platform Desktop Applications\" \n\n3 years ago I gave a talk at LNUG on Node Webkit, and then posted online. Little did I know that the end result would be writing a book for Manning publications on Electron and NW.js.\n\nThis talk is about how that happened, the process of writing a book about those Node.js frameworks, and the learnings from undertaking the whole project.\n\nMy name is Paul Jensen, and I'm a Senior Pre-Sales Consultant at Starcount. My Twitter handle is @paulbjensen.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/TCAQLu4IYUs/mqdefault.jpg",
+    "videoId": "TCAQLu4IYUs",
+    "url": "https://www.youtube.com/watch?v=TCAQLu4IYUs",
+    "type": "youtube",
+    "date": "2017-05-23T21:11:08Z"
+  },
+  {
+    "title": "Speeding up CI with node and docker - Will Munn",
+    "description": "Tips for running faster builds with nodejs and docker. This talk mainly outlines lessons learned and optimisations which will hopefully help you get quicker feedback from your CI pipeline and make your deployments run quicker.\n\nAlthough I have more experience in the back end side of things, I strive to be a full stack developer. I like working on well tested codebases with a well oiled CI pipeline",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/USiUNWVrDYo/mqdefault.jpg",
+    "videoId": "USiUNWVrDYo",
+    "url": "https://www.youtube.com/watch?v=USiUNWVrDYo",
+    "type": "youtube",
+    "date": "2017-05-23T21:00:58Z"
+  },
+  {
+    "title": "Automatically Build and Publish Node and Electron Applications for Linux - Martin Wimpress",
+    "description": "",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/D6OsTTcVON4/mqdefault.jpg",
+    "videoId": "D6OsTTcVON4",
+    "url": "https://www.youtube.com/watch?v=D6OsTTcVON4",
+    "type": "youtube",
+    "date": "2017-04-25T07:13:08Z"
+  },
+  {
+    "title": "JSONata  A Declarative Syntax for Querying Your JSON Data - Andrew Coleman",
+    "description": "",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/TDWf6R8aqDo/mqdefault.jpg",
+    "videoId": "TDWf6R8aqDo",
+    "url": "https://www.youtube.com/watch?v=TDWf6R8aqDo",
+    "type": "youtube",
+    "date": "2017-04-25T13:08:03Z"
+  },
+  {
+    "title": "How Bionode io Uses Node JS Streams to Handle Genomic Big Data - Bruno Vieira",
+    "description": "",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/p0v_uls8h-0/mqdefault.jpg",
+    "videoId": "p0v_uls8h-0",
+    "url": "https://www.youtube.com/watch?v=p0v_uls8h-0",
+    "type": "youtube",
+    "date": "2017-04-25T13:07:52Z"
+  },
+  {
+    "title": "Fullstack Integration Testing That Doesn't Suck - Artem Avetisyan",
+    "description": "",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/0ftpLBVd__A/mqdefault.jpg",
+    "videoId": "0ftpLBVd__A",
+    "url": "https://www.youtube.com/watch?v=0ftpLBVd__A",
+    "type": "youtube",
+    "date": "2017-04-12T11:49:06Z"
+  },
+  {
+    "title": "Serverless and You - Marcel Cutts",
+    "description": "",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/sj4lwJLPGbQ/mqdefault.jpg",
+    "videoId": "sj4lwJLPGbQ",
+    "url": "https://www.youtube.com/watch?v=sj4lwJLPGbQ",
+    "type": "youtube",
+    "date": "2017-02-22T11:48:33Z"
+  },
+  {
+    "title": "Our Future Is in Little Hands - Tony Yates",
+    "description": "",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/V_ehDbo2YvY/mqdefault.jpg",
+    "videoId": "V_ehDbo2YvY",
+    "url": "https://www.youtube.com/watch?v=V_ehDbo2YvY",
+    "type": "youtube",
+    "date": "2017-03-22T11:49:27Z"
+  },
+  {
+    "title": "Promises & Generators in Node js - Ben August",
+    "description": "",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/1j9-M-jTLow/mqdefault.jpg",
+    "videoId": "1j9-M-jTLow",
+    "url": "https://www.youtube.com/watch?v=1j9-M-jTLow",
+    "type": "youtube",
+    "date": "2017-02-22T11:48:24Z"
+  },
+  {
+    "title": "Modelling with Pencils and JavaScript - Jonny Arnold",
+    "description": "",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/BPCV32RVEiU/mqdefault.jpg",
+    "videoId": "BPCV32RVEiU",
+    "url": "https://www.youtube.com/watch?v=BPCV32RVEiU",
+    "type": "youtube",
+    "date": "2017-02-22T11:48:14Z"
+  },
+  {
+    "title": "Minecraft in VR in 30 Lines of Javascript - James Porter",
+    "description": "",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/Qwwp4SVaWNM/mqdefault.jpg",
+    "videoId": "Qwwp4SVaWNM",
+    "url": "https://www.youtube.com/watch?v=Qwwp4SVaWNM",
+    "type": "youtube",
+    "date": "2017-03-22T11:49:19Z"
+  },
+  {
+    "title": "A year with AWS by Clarkie",
+    "description": "Moving from a company where everything ran on 'bare metal' in a DC on Goswell Road to a startup where everything was already running in AWS has proven to be an interesting learning curve. This talk will take you through some of my learnings along the way and some of the ways we use bits of the AWS toolkit now at Tido. \nClarkie CTO @ Tido \ntwitter.com/@clarkieclarkie",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/4yxHjeWvnR4/mqdefault.jpg",
+    "videoId": "4yxHjeWvnR4",
+    "url": "https://www.youtube.com/watch?v=4yxHjeWvnR4",
+    "type": "youtube",
+    "date": "2017-01-25T08:35:03Z"
+  },
+  {
+    "title": "Native app tips to save your sanity by Andy Trevorah",
+    "description": "9 months after you’ve started writing a hybrid app, you’re going to stumble across some unexpected native problems that don’t show up in tutorials. This talk will go over these and other oddities that most web developers wouldn’t expect. Talk includes: classic Android and iOS architecture for restful apps weird native bugs (with fixes) * great things that javascript/web should have I'm Andy Trevorah, app developer for hire. Twitter: @trevorah_ Website: https://trev.sh",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/UpELu7rfRVk/mqdefault.jpg",
+    "videoId": "UpELu7rfRVk",
+    "url": "https://www.youtube.com/watch?v=UpELu7rfRVk",
+    "type": "youtube",
+    "date": "2017-01-25T08:33:28Z"
+  },
+  {
+    "title": "GraphQL: an API convention that you will actually follow by Clement Hannicq",
+    "description": "REST is recognized as the \"good practice\" in terms of web APIs, but can quickly become a hassle as your application grows and evolves. QraphQL is a new paradigm, allowing developers to request deeply nested information in a single call, without cluttering the response with unneeded fields. In this talk, I will show how GraphQL overcomes the rest limitations to send only the information a caller wants, without changing anything on your backend. I am currently working at Theodo (http://www.theodo.co.uk/) and have been for the past 18 months, as a fullstack developer.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/Bv89egC_v6A/mqdefault.jpg",
+    "videoId": "Bv89egC_v6A",
+    "url": "https://www.youtube.com/watch?v=Bv89egC_v6A",
+    "type": "youtube",
+    "date": "2016-11-23T08:36:37Z"
+  },
+  {
+    "title": "Readable Microservices, with Functional Programming by James Chow",
+    "description": "",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/enXqi3jGHIs/mqdefault.jpg",
+    "videoId": "enXqi3jGHIs",
+    "url": "https://www.youtube.com/watch?v=enXqi3jGHIs",
+    "type": "youtube",
+    "date": "2016-11-23T17:13:07Z"
+  },
+  {
+    "title": "Keep Calm and Curry On by Andreas MØller",
+    "description": "",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/4SGqCiU1_9E/mqdefault.jpg",
+    "videoId": "4SGqCiU1_9E",
+    "url": "https://www.youtube.com/watch?v=4SGqCiU1_9E",
+    "type": "youtube",
+    "date": "2016-11-23T17:12:53Z"
+  },
+  {
+    "title": "How to Build a REST API by Laszlo Gyulai",
+    "description": "",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/2SPBrczIzr0/mqdefault.jpg",
+    "videoId": "2SPBrczIzr0",
+    "url": "https://www.youtube.com/watch?v=2SPBrczIzr0",
+    "type": "youtube",
+    "date": "2016-10-25T17:06:04Z"
+  },
+  {
+    "title": "The Fundamentals of Flow in 10 ish Minutes by Alex Booker",
+    "description": "",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/RTtujG65DiE/mqdefault.jpg",
+    "videoId": "RTtujG65DiE",
+    "url": "https://www.youtube.com/watch?v=RTtujG65DiE",
+    "type": "youtube",
+    "date": "2016-10-25T17:06:27Z"
+  },
+  {
+    "title": "Null Can't Hurt You Anymore by Stefano Vozza",
+    "description": "",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/-FV3ia_SyxA/mqdefault.jpg",
+    "videoId": "-FV3ia_SyxA",
+    "url": "https://www.youtube.com/watch?v=-FV3ia_SyxA",
+    "type": "youtube",
+    "date": "2016-11-23T17:13:02Z"
+  },
+  {
+    "title": "Quick Wins with Node and Google AMP by Mike MacCana",
+    "description": "",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/0sVjKPTvOMA/mqdefault.jpg",
+    "videoId": "0sVjKPTvOMA",
+    "url": "https://www.youtube.com/watch?v=0sVjKPTvOMA",
+    "type": "youtube",
+    "date": "2016-10-25T17:06:18Z"
+  },
+  {
+    "title": "Ace JavaScript Interviews: Scoping and Hoisting by Fox Reymann",
+    "description": "",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/hr61xyYSP6k/mqdefault.jpg",
+    "videoId": "hr61xyYSP6k",
+    "url": "https://www.youtube.com/watch?v=hr61xyYSP6k",
+    "type": "youtube",
+    "date": "2016-09-27T17:40:46Z"
+  },
+  {
+    "title": "Ive got swagger, have you? by Tanzim Husain",
+    "description": "",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/Dlo3e-0wB1E/mqdefault.jpg",
+    "videoId": "Dlo3e-0wB1E",
+    "url": "https://www.youtube.com/watch?v=Dlo3e-0wB1E",
+    "type": "youtube",
+    "date": "2016-05-24T16:56:42Z"
+  },
+  {
+    "title": "Event Driven Archtecture by Loic",
+    "description": "",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/BwqouUxn-bg/mqdefault.jpg",
+    "videoId": "BwqouUxn-bg",
+    "url": "https://www.youtube.com/watch?v=BwqouUxn-bg",
+    "type": "youtube",
+    "date": "2016-09-27T16:21:45Z"
+  },
+  {
+    "title": "No SQL Is A Lie",
+    "description": "",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/gECA-f78kWI/mqdefault.jpg",
+    "videoId": "gECA-f78kWI",
+    "url": "https://www.youtube.com/watch?v=gECA-f78kWI",
+    "type": "youtube",
+    "date": "2016-03-23T16:20:05Z"
+  },
+  {
+    "title": "Mar 2016   Rethink DB",
+    "description": "",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/idOuNyE6cXY/mqdefault.jpg",
+    "videoId": "idOuNyE6cXY",
+    "url": "https://www.youtube.com/watch?v=idOuNyE6cXY",
+    "type": "youtube",
+    "date": "2016-03-23T14:05:07Z"
+  },
+  {
+    "title": "Mar 2016   AWS Lambda",
+    "description": "",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/r4a7aIBNlg0/mqdefault.jpg",
+    "videoId": "r4a7aIBNlg0",
+    "url": "https://www.youtube.com/watch?v=r4a7aIBNlg0",
+    "type": "youtube",
+    "date": "2016-03-231T14:04:39Z"
+  },
+  {
+    "title": "Phil Nash - 2FA, WTF",
+    "description": "Everyone is hacking everything. Everything is vulnerable. Your site, your users, even you. Are you worried about this? You should be!\n\nDon't worry, I'm not trying to scare you (that much). We have plenty of safeguards against attempts on our applications' user data. We all (hopefully) recognise Two Factor Auth as one of those safeguards, but what actually goes on under the hood of 2FA?\n\nWe'll take a look into generating one time passwords in JavaScript, implementing 2FA in Node.js applications and the only real life compelling use case for QR codes. Together, we'll make the web a more secure place.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/Wuc4Nh3lmSE/mqdefault.jpg",
+    "videoId": "Wuc4Nh3lmSE",
+    "url": "https://www.youtube.com/watch?v=Wuc4Nh3lmSE",
+    "type": "youtube",
+    "date": "2016-01-27T14:06:23Z"
+  },
+  {
+    "title": "Oliver Rumbelow - NodeJS Supercomputing",
+    "description": "Join me in a wild adventure to take a computationally heavy single-use NodeJS application and automagically scale it across many cores and many servers in the hunt for lazy performance. Disclaimer: This is all for fun, games and science.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/1mYl6v0Kzt0/mqdefault.jpg",
+    "videoId": "1mYl6v0Kzt0",
+    "url": "https://www.youtube.com/watch?v=1mYl6v0Kzt0",
+    "type": "youtube",
+    "date": "2016-01-27T14:06:33Z"
+  },
+  {
+    "title": "Hugo Di Francesco - Going Cross-Platform With React",
+    "description": "What's the fastest way to ship a Web, iOS and Android app?\n\nReact Native goes beyond making native apps with web technology. You use javascript, granted that's a web technology, to make a fully fledged React app, using native components.\n\nIt's more than leveraging the power of the state -- UI mapping of React. It's about code reuse. Being this DRY hurts. All the high-level logic is portable and you have one single codebase for all three target platforms.\n\nAll of this is free, as long as you embrace React.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/b3wYEn2r_Ac/mqdefault.jpg",
+    "videoId": "b3wYEn2r_Ac",
+    "url": "https://www.youtube.com/watch?v=b3wYEn2r_Ac",
+    "type": "youtube",
+    "date": "2016-01-27T14:06:18Z"
+  },
+  {
+    "title": "Oliver Rumbelow - Blowing out the LAMP",
+    "description": "Holiday Extras, a times top 100 company, maintains a big online presence selling airport parking, travel insurance and overnight stays in hotels. We made over 4,000,000 bookings last year and our API serves around 35 requests/second - we aren't big big, but we're big enough to have to deal with 'big website' problems.\n\nWe've spent 3 years fully migrating our production traffic away from a 10 year old LAMP stack to a NodeJS API. I want to share our journey - the migration plan, the evolution of our NodeJS codebase from beginning to end, our biggest mistakes and our biggest victories.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/L5JO1KCLGX4/mqdefault.jpg",
+    "videoId": "L5JO1KCLGX4",
+    "url": "https://www.youtube.com/watch?v=L5JO1KCLGX4",
+    "type": "youtube",
+    "date": "2015-06-232T21:31:07Z"
+  },
+  {
+    "title": "Mike Maccana - Deploying and running Node apps in 2015",
+    "description": "Everything you need to take advantage of npm in your browser side code, and avoid the pitfalls!\n\nIncluding:\n\nBuilding browser bundles with gulp and npm build - and how they compare\nHow to identify the modules that contribute to bundle file size\nPros, cons and workarounds for the izs style 'no lib dir, everything is a module' coding style\nEnsuring consistent versioning during deploys\nHow to include templates in your browserify bundles\nBased on experiences in a real world, production, profitable application.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/ivzVLM1Zknw/mqdefault.jpg",
+    "videoId": "ivzVLM1Zknw",
+    "url": "https://www.youtube.com/watch?v=ivzVLM1Zknw",
+    "type": "youtube",
+    "date": "2015-06-23T21:44:11Z"
+  },
+  {
+    "title": "Max Duluc - Liwe, an open source remote control for WebApps",
+    "description": "This is a project I've been working on for few months and I just released it on github.com/liwe (under MIT). It's a service to let web developers (frontend guys) to use smartphones as remote for their webapps. Of course it's built with NodeJS. But at the moment it look more like a prototype than a robust piece of code.\n\nIt won't be very techy, especially in front of NodeJS developers. The talk would be axed on two main points:\n\nMake a technology accessible to other developers. Like sockets (think about jQuery and PHP devs)\nFind contributors\nI have absolutely no idea if this talk respect the idea of LNUG. I think I can hold 20 minutes demo included.\n\nhttps://github.com/liwe\nhttp://liwe.co",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/Vr9sH9fZN-8/mqdefault.jpg",
+    "videoId": "Vr9sH9fZN-8",
+    "url": "https://www.youtube.com/watch?v=Vr9sH9fZN-8",
+    "type": "youtube",
+    "date": "2015-06-23T22:02:33Z"
+  },
+  {
+    "title": "Mikeal Rogers - Node Foundation Q&A",
+    "description": "Mikeal giving an overview of the state of node following the merge or io.js and node.js, and the engagement of the Linux Foundation.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/AIr_dkcql9E/mqdefault.jpg",
+    "videoId": "AIr_dkcql9E",
+    "url": "https://www.youtube.com/watch?v=AIr_dkcql9E",
+    "type": "youtube",
+    "date": "2015-07-21T17:26:26Z"
+  },
+  {
+    "title": "Dan Sofer - Founders & Coders",
+    "description": "Founders & Coders are a non-profit organisation, run with the objective of providing a first class training in full-stack JS, for free.\n\nIn this talk we will discuss the origins of Founders & Coders; why we started and our original goals. We will then talk about the last 18 months; how the organisation has developed and how our curriculum has shifted dramatically as we have experimented with different educational models. We will then talk briefly about the future of F&C; what we have planned and where we think our organisation is going.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/3oXhmHDDEro/mqdefault.jpg",
+    "videoId": "3oXhmHDDEro",
+    "url": "https://www.youtube.com/watch?v=3oXhmHDDEro",
+    "type": "youtube",
+    "date": "2015-07-21T17:25:40Z"
+  },
+  {
+    "title": "Joe Nash - Insert Token: Immersive UX with Tokenization",
+    "description": "Users of our apps and products yearn to be immersed; but so often, the worlds we build with software show surprising seams, shattering immersion for our users. In this talk, we'll look at the magic of tokenization, and how it can transform the UX of your application.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/3pwsbVOxvYk/mqdefault.jpg",
+    "videoId": "3pwsbVOxvYk",
+    "url": "https://www.youtube.com/watch?v=3pwsbVOxvYk",
+    "type": "youtube",
+    "date": "2015-07-21T17:27:23Z"
+  },
+  {
+    "title": "Ben Hall - Scaling Node.js using Docker",
+    "description": "With great load comes great scaling responsibility. If we need to scale then hopefully it means we're doing something right. The problem is how to scale without increasing complexity and re-writing the application.\n\nIn this talk, Ben will discuss how he scales Katacoda.com, an online learning platform for developers. Ben will show how to deploy Node.js applications with Docker. Once deployed, Ben will highlight how to scale the processes and take advantage of container based deployments.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/nBBJh75SqS4/mqdefault.jpg",
+    "videoId": "nBBJh75SqS4",
+    "url": "https://www.youtube.com/watch?v=nBBJh75SqS4",
+    "type": "youtube",
+    "date": "2015-11-25T12:01:41Z"
+  },
+  {
+    "title": "Fábio Santos - A javascript to c++ transpiler!",
+    "description": "A talk about an in-development javascript to c++ transpiler which currently kind of works and implements closures, numbers, objects, functions and strings.\n\nWatch it compile and run hello world, and beat node in an EPIC FIB() BENCHMARK!\n\nBe compelled by the power of tern.js to figure out what you think you're actually writing!",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/6RKxkINidvk/mqdefault.jpg",
+    "videoId": "6RKxkINidvk",
+    "url": "https://www.youtube.com/watch?v=6RKxkINidvk",
+    "type": "youtube",
+    "date": "2015-11-25T12:02:23Z"
+  },
+  {
+    "title": "Matt Forrester - MVP Diagrams that can do things",
+    "description": "A short talk on DB DiaYAML, which is a journey-to-work and weekend project for drawing simple database diagrams. It's not particularly a serious project but it scratches an itch I had and has a nice MVP feel to it. There's a blog post about it at http://keyboardwritescode.blogspot.co.uk/2015/07/weekend-project-db-diayaml.html",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/qPCF4JUyllc/mqdefault.jpg",
+    "videoId": "qPCF4JUyllc",
+    "url": "https://www.youtube.com/watch?v=qPCF4JUyllc",
+    "type": "youtube",
+    "date": "2015-11-25T12:03:15Z"
+  },
+  {
+    "title": "Tomasz Janczuk - Rethinking backend with webtasks [Bad Audio]",
+    "description": "You are writing a mobile or HTML5 web application that needs just a little bit of a backend. Maybe you want to access MongoDB, send an SMS, or an e-mail. Do you really need to host your own Node.js service to run this small snippet of backend logic?\n\nIn this talk I will take a hard look at the role of the backend in modern applications. I will introduce the concept of a webtask - a lightweight representation of backend logic that can safely be embedded in a client application. I will show how you can use modern container technologies based on CoreOS and Docker to build a generic, multi-tenant runtime for securely executing webtasks directly from a mobile or HTML5 application. You don’t need a backend to run backend code.\n\nThis talk is based on lessons learned when building the Node.js sandboxing technology for internal use in our core operations at Auth0.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/bhQ3Ov4niPs/mqdefault.jpg",
+    "videoId": "bhQ3Ov4niPs",
+    "url": "https://www.youtube.com/watch?v=bhQ3Ov4niPs",
+    "type": "youtube",
+    "date": "2015-08-25T17:24:55Z"
+  },
+  {
+    "title": "Dan Jenkins - WebRTC Reborn",
+    "description": "WebRTC has had a real tough 3 or 4 years, and so have those working with it. Only a few short years ago, the development world were excited about WebRTC and proclaiming how awesome it was.\n\nYou might have played with the technology a couple of years ago, only to find the extra infrastructure requirements were painful to implement and poorly documented. This probably left a bitter taste in your mouth, especially when things went wrong.\n\nThose in the industry have been working hard to sweeten the deal again - efforts have been made to bring WebRTC into the mainstream and as a result the technology is experiencing a rebirth. Thanks to those who have remained dedicated to improving the situation for those around them, WebRTC is finally starting to fulfil the original expectations that were had of it. Both the technology and the support networks have been built up to make experimenting with it again a pleasure, not a pain.\n\nWebRTC has grown up; in this talk you will learn how far along the tech has come, its current capabilities, the amazing things that people are starting to do with it, and how simple getting started with the new toolsets available.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/tB9z4ZOoSwg/mqdefault.jpg",
+    "videoId": "tB9z4ZOoSwg",
+    "url": "https://www.youtube.com/watch?v=tB9z4ZOoSwg",
+    "type": "youtube",
+    "date": "2015-08-25T17:23:50Z"
+  },
+  {
+    "title": "Tim Perry - TypeScript will finally bring peace to your troubled soul",
+    "description": "You've heard of TypeScript, but you're not sure if it's a good idea, and you've never really seen it in action. TypeScript is powerful though, rapidly gaining momentum, and has a lot more to offer than just JS + classes. Let's take a proper look.\n\nIn this talk, we'll dig a bit deeper and play around with some of the more interesting features TypeScript gives you. We'll walk through the extras that TypeScript provides and how they'll solve your every woe, learn a bit about where the types come in and why you care, and see how exactly you might put it into action on your next Node project.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/UI9cgrMxGi0/mqdefault.jpg",
+    "videoId": "UI9cgrMxGi0",
+    "url": "https://www.youtube.com/watch?v=UI9cgrMxGi0",
+    "type": "youtube",
+    "date": "2015-08-25T17:22:13Z"
+  },
+  {
+    "title": "Tom Gallacher - White Water Streams",
+    "description": "We use streams on a daily basis when handling data with our Node.js applications, but how do they work, and more importantly, how do we keep them efficient and performant?\n\nThis talk focus mainly on analysing applications that utilises streaming data, identifying bottlenecks and making improvements. Be wow’ed by Flame{graphs,charts}, awed by benchmarks and take away some tips in writing decent stream implementations.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/iBEjz38ppe4/mqdefault.jpg",
+    "videoId": "iBEjz38ppe4",
+    "url": "https://www.youtube.com/watch?v=iBEjz38ppe4",
+    "type": "youtube",
+    "date": "2015-10-28T10:28:32Z"
+  },
+  {
+    "title": "Milo Mordaunt - Flux to Redux, Thinking with Data",
+    "description": "Flux is one of the newer cool kids on the block, but it has it's fair share of problems. With all of the different implementations fighting for recognition, to first time users and abusers it can seem overly complicated.\n\nRedux is one Flux framework which has gained a lot of traction recently, thanks to its novel take on the architecture (vastly simpler than Facebooks sample implementation, for instance) and neat debugging features.\n\nThis talk can show the differences between Redux's approach and more 'traditional' Flux architectures, running over its benefits for developers. It will also briefly explain the difference between Flux applications and other MVC implementations, for anyone curious and unfamiliar.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/n99Jhop6K8Y/mqdefault.jpg",
+    "videoId": "n99Jhop6K8Y",
+    "url": "https://www.youtube.com/watch?v=n99Jhop6K8Y",
+    "type": "youtube",
+    "date": "2015-10-28T10:29:14Z"
+  },
+  {
+    "title": "Alistair Stead - Full-stack BDD and its side effects",
+    "description": "This is not yet another how do you do BDD in JavaScript talk. This is a talk about how you can apply widespread software design practices such as Design Patterns, BDD, TDD, DDD and SOLID to full-stack development. Less how to use these practices, more how to select and use them effectively.\n\nJust using these tools on their own can lead to unnecessary complexity that can be hard to understand or avoid. So let’s set aside discussions of the language syntax or capabilities and focus on what is important - delivering value to the customer.\n\nThis presentation will show how BDD practices can be applied to the different contexts of developing features through a multi-layer stack whilst smoothing the communication, providing detailed direction and showing the value for business owners and developers alike. The result is a feature that meets the business owner’s expectations with happy side effects such as the code being clean, well designed, understandable, fully tested and documented.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/YP_YIH4GoGE/mqdefault.jpg",
+    "videoId": "YP_YIH4GoGE",
+    "url": "https://www.youtube.com/watch?v=YP_YIH4GoGE",
+    "type": "youtube",
+    "date": "2015-10-28T10:29:43Z"
+  },
+  {
+    "title": "Matteo Figus - OpenComponents as microservices in the front-end world",
+    "description": "Writing front-end code today is very challenging when you have to be resilient and robust in a big corporation. Working on a website that involves dozens of engineers based in three different continents, I learned that the complexity lies not only within the code itself. Allowing people to develop new features and deploy the code multiple times a day, keeping it up and running, is hard to achieve: we want small teams to be independent and not to interfere each other, in order to be quick and happy, but we also want to optimise cooperation when it is needed.\n\nIn the front-end world components are very small units of code providing application functionality that are all connected in order to become a web-site.\n\nDuring this talk I’m going to speak about how we tried to approach to components at OpenTable. After breaking our monolithic back-end into smaller parts, we tried to break the front-end into smaller parts too, called micro-sites. Then, following the SOA principles, we tried to elevate components as services, in order to make engineers able to create and consume them via clear and well-defined contracts and interfaces. This allowed us to put in place the infrastructure to optimise testing and to have hundreds of changes live every day without conflicts. The result is OpenComponents, a framework that we recently open-sourced.\n\nReferences:\nhttp://tech.opentable.co.uk/blog/2015/02/09/dismantling-the-monolith-microsites-at-opentable/\nhttps://github.com/opentable/oc",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/rrEsXvoU0Go/mqdefault.jpg",
+    "videoId": "rrEsXvoU0Go",
+    "url": "https://www.youtube.com/watch?v=rrEsXvoU0Go",
+    "type": "youtube",
+    "date": "2015-05-26T00:21:45Z"
+  },
+  {
+    "title": "Alan Shaw -  Super simple service health monitoring with upmon",
+    "description": "A talk about this thing I built called upmon. It's essentially a description of what it is and how to use it and how using node streams is a great way to create modular and compose-able software.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/hC0xwgUpz6M/mqdefault.jpg",
+    "videoId": "hC0xwgUpz6M",
+    "url": "https://www.youtube.com/watch?v=hC0xwgUpz6M",
+    "type": "youtube",
+    "date": "2015-03-25T00:07:29Z"
+  },
+  {
+    "title": "James Allardice - Writing and publishing ES2015 today",
+    "description": "On February 20th the first release candidate of the 6th edition of the ECMAScript specification (ECMAScript 2015 as it is now officially known) was released. The language is rapidly stabilising and the new features are slowly but surely making their way into the existing JavaScript engines. Unfortunately, it will still be a while before we're able to write ES6 code and have it run natively in either browsers or Node and io.js. Thankfully TC39 (the group responsible for the development of the ECMAScript specification) put a lot of effort into ensuring backwards compatibility so it is possible to use a large and growing proportion of ES6 today.\n\nThis talk will look into some of the technologies and techniques that can be used to write, publish and deploy ES6 code today, without having to wait until the engines catch up. We'll explore source-to-source compilation, standard library polyfills, publishing modules written in ES6 to npm and the consumption of those modules by existing ES5 and new ES6 code.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/w0mGM5rFqeA/mqdefault.jpg",
+    "videoId": "w0mGM5rFqeA",
+    "url": "https://www.youtube.com/watch?v=w0mGM5rFqeA",
+    "type": "youtube",
+    "date": "2015-04-21T00:55:40Z"
+  },
+  {
+    "title": "Simon McManus - Progressive Enhancement Strategies",
+    "description": "Advances in JavaScript are changing the way that we think about the web; it's no longer just a platform for information, but for complex interactions too.\n\nAs we race into the future, we risk losing some of the things that make the web so special.\n\nIn this talk I will outline why I believe progressive enhancement is still important. Demonstrating processes, techniques and architectures which provide the benefits without introducing an overhead.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/KPrC-udTDi8/mqdefault.jpg",
+    "videoId": "KPrC-udTDi8",
+    "url": "https://www.youtube.com/watch?v=KPrC-udTDi8",
+    "type": "youtube",
+    "date": "2015-04-21T01:11:00Z"
+  },
+  {
+    "title": "Markus Padourek - Benefits of using Convention over Configuration",
+    "description": "Node/io.js and npm is now the most flourishing ecosystem with over 200 npm modules being published a day*. While this poses a lot of opportunities for us to work together and build better software, it also comes with problems we as developers have to face: Which package should I now choose? How do I use it in my app? What input does it expect? etc. Making a multitude of these simple decision drains a lot of our energy - more than you might even think initially. Imagine now npm install and you are ready to go. You installed your addon, you already know what to expect and it hooks itself up into your app.\n\nThis is the philosophy behind convention-over-configuration: having a standard we all work with to automate mundane decisions. So we can focus on making our software better.\n\n*Source: http://www.modulecounts.com/",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/uVtXNNmvYwg/mqdefault.jpg",
+    "videoId": "uVtXNNmvYwg",
+    "url": "https://www.youtube.com/watch?v=uVtXNNmvYwg",
+    "type": "youtube",
+    "date": "2015-03-25T01:34:36Z"
+  },
+  {
+    "title": "Alex Potsides - Guvnor: running your processes like a boss",
+    "description": "Guvnor is a fully featured, multi user process manager for node.js/io.js that leans heavily on the Unix permissions model for security. It's also got a neat web interface that monitors multiple hosts, reports live statistics about your application and lets you interact with it - debugging, monitoring resource usage, live logs, restarting, etc.\n\nThe talk will cover why the world needs another process manager, CLI usage, deploying apps from git repositories, cluster management, using the web interface and live coding a small app that uses the programmatic interface.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/LZEShD2fOzo/mqdefault.jpg",
+    "videoId": "LZEShD2fOzo",
+    "url": "https://www.youtube.com/watch?v=LZEShD2fOzo",
+    "type": "youtube",
+    "date": "2015-04-21T23:26:22Z"
+  },
+  {
+    "title": "Ross Kukulinski - Building a SaaS with NodeJS, Docker, and CoreOS",
+    "description": "Building NodeJS Applications with Docker & CoreOS",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/s0qfSevw2UU/mqdefault.jpg",
+    "videoId": "s0qfSevw2UU",
+    "url": "https://www.youtube.com/watch?v=s0qfSevw2UU",
+    "type": "youtube",
+    "date": "2015-03-25T01:53:54Z"
+  },
+  {
+    "title": "Tim Perry - Web Components & Microservices Are The Same Thing",
+    "description": "web components, microservices, and the shared principles behind both of them (complete with node-based example)",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/EivKc3HpElQ/mqdefault.jpg",
+    "videoId": "EivKc3HpElQ",
+    "url": "https://www.youtube.com/watch?v=EivKc3HpElQ",
+    "type": "youtube",
+    "date": "2015-01-28T02:17:04Z"
+  },
+  {
+    "title": "Florian Motlik - Flo Servers are dead, long live the service",
+    "description": "Why the days of the server are numbered as our most basic building block and building on top of services is the future.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/bU5Dre5MrI8/mqdefault.jpg",
+    "videoId": "bU5Dre5MrI8",
+    "url": "https://www.youtube.com/watch?v=bU5Dre5MrI8",
+    "type": "youtube",
+    "date": "2015-01-28T02:22:16Z"
+  },
+  {
+    "title": "Ross Kukulinski - What to expect when expecting io.js",
+    "description": "- Why fork node?\n- What new/broken IOJS 1.0.0\n- Node/IOJS Compatibility\n- Should I be scared / Should I deploy it?\n- My take on what the future holds for the node community\n\nSlides @ http://rosskukulinski.github.io/iojs_talk",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/JhEf6JngpdQ/mqdefault.jpg",
+    "videoId": "JhEf6JngpdQ",
+    "url": "https://www.youtube.com/watch?v=JhEf6JngpdQ",
+    "type": "youtube",
+    "date": "2015-01-28T01:37:51Z"
+  },
+  {
+    "title": "Francisco Ferreira - Javascript Craftmanship",
+    "description": "Avoid stepping into the rabbit hole with common anti-patterns and bad code. With a strong emphasis on how JavaScript code can be done beautiful and maintainable, this talk explains how to write very readable and testable code. At eBay we love to have our code clean, so we’ll use some examples of eBay’s code during this presentation.\n\nWe’ll touch topics on how functional can intersect with object oriented programming to decrease the learning curve to your code. Or how choosing the correct data structures is more important than ever to guarantee optimal performance.\n\nAll of this in a framework agnostic way, so that it is easy to take home and apply to your projects with ease.\n\nHopefully after you have attended this talk you will code cleaner.\n\nTopics covered:\n\nCode readability\nFunctional JS\nObject Oriented JS\nUnit Testing\nCode structuring",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/g-1cefQvFYc/mqdefault.jpg",
+    "videoId": "g-1cefQvFYc",
+    "url": "https://www.youtube.com/watch?v=g-1cefQvFYc",
+    "type": "youtube",
+    "date": "2015-01-28T01:14:11Z"
+  },
+  {
+    "title": "Luke Bond - Paz: a simple Docker PaaS written in Node.js",
+    "description": "Luke's talk at the London Node User Group meetup, 25th February 2015, in which he launches Open Source project, Paz to the world - live on stage.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/cQOPoDmkFg8/mqdefault.jpg",
+    "videoId": "cQOPoDmkFg8",
+    "url": "https://www.youtube.com/watch?v=cQOPoDmkFg8",
+    "type": "youtube",
+    "date": "2015-02-25T09:39:56Z"
+  },
+  {
+    "title": "Forbes Lindesay - Everything you didn't know to ask about jade",
+    "description": "This talk will start with a very brief overview of what the jade templating language is and why it's so powerful. It will then deep dive into how the nitty gritty of the compiler is implemented, this will include some discussion of the many other modules that jade depends on. I will then take the audience on a tour of a couple of my favourite spinoffs of jade. Finally, I will end with a description of how we have built a community around the jade project that is capable of achieving far more than I could on my own.",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/m7oosgdDdSY/mqdefault.jpg",
+    "videoId": "m7oosgdDdSY",
+    "url": "https://www.youtube.com/watch?v=m7oosgdDdSY",
+    "type": "youtube",
+    "date": "2015-02-25T08:46:11Z"
+  },
+  {
+    "title": "Dan Hough - I'm a node module maintainer (And so can you!)",
+    "description": "Creating, releasing, maintaining, versioning, getting input for, etc, etc an open-source node module. Including:\n\nSome good practices when versioning, releasing, and documenting your open-source code:\n\n- Some NPM tips\n- How to make your code inclusive\n- Some GitHub tips",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/rCM2paoike0/mqdefault.jpg",
+    "videoId": "rCM2paoike0",
+    "url": "https://www.youtube.com/watch?v=rCM2paoike0",
+    "type": "youtube",
+    "date": "2015-02-25T21:42:47Z"
+  },
+  {
+    "title": "Ben Hall - Node Anti-patterns",
+    "description": "Node Anti-patterns",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/YyR4PdX-1O4/mqdefault.jpg",
+    "videoId": "YyR4PdX-1O4",
+    "url": "https://www.youtube.com/watch?v=YyR4PdX-1O4",
+    "type": "youtube",
+    "date": "2014-10-21T15:45:59Z"
+  },
+  {
+    "title": "James Halliday (Substack) - Data Wizzard",
+    "description": "",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/ID8hP4aXdBg/mqdefault.jpg",
+    "videoId": "ID8hP4aXdBg",
+    "url": "https://www.youtube.com/watch?v=ID8hP4aXdBg",
+    "type": "youtube",
+    "date": "2014-10-21T10:29:17Z"
+  },
+  {
+    "title": "Philipp Fehre - JSON throughout the Stack",
+    "description": "JSON throughout the Stack",
+    "playlistId": "UU-qjgj2TnRoI1ZmFFaN3FeQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/mZKp3xuzKeQ/mqdefault.jpg",
+    "videoId": "mZKp3xuzKeQ",
+    "url": "https://www.youtube.com/watch?v=mZKp3xuzKeQ",
+    "type": "youtube",
+    "date": "2014-10-21T21:17:30Z"
+  }
+]
