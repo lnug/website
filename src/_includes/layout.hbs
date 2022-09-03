@@ -1,35 +1,25 @@
 <!DOCTYPE html>
 <html lang="en-gb">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LNUG - London Node User Group</title>
-
-  {{> header-meta }}
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-  <link rel="manifest" href="/manifest.json">
-  <link rel="stylesheet" href="/style/style.css">
-</head>
-
-<body>
-  <div id="container">
-    
-  
-  {{> header}}
-  <div id="main">
-    <div class="content">
-      
-    {{{content}}}
-    </div>
-  </div>
-
-  {{> footer}}
-  
-  </div>
-</body>
-
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>LNUG - London Node User Group</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="manifest" href="/manifest.json">
+        <link rel="stylesheet" href="/style/style.css">
+    </head>
+    <body>
+        <div id="container">
+            <div>
+            </div>
+            {{> header}}
+            <div id="main">
+                <div class="content">
+                    {{{content}}}
+                </div>
+            </div>
+            {{> footer}}
+        </div>
+    </body>
 </html>

@@ -1,9 +1,7 @@
 header{
     color: #fff;
     text-align: center;
-//    background-color: #46483d;
     padding: 10px 0;
- //   position: fixed;
     width: 100%;
     h1{
         font-size: 24px;
@@ -25,11 +23,16 @@ header{
 
 
 @media (min-width: 700px) {
-    .container{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: 0 20px;
+    header{
+        .header-logo{
+            width: auto;
+        }
+        .container a{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 20px;
+        }
     }
 }
 

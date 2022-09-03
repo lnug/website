@@ -1,6 +1,0 @@
----
-layout: layout.hbs
-permalink: /
----
-
-

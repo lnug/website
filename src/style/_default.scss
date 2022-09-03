@@ -24,9 +24,11 @@ body {
     background-color: #fff;
     display: flex;
     justify-content: center;
+    border-top: 4px solid $lnug_hi_green;
+    border-bottom: 4px solid $lnug_hi_green;
     .content {
         width: 100%;
-        padding: 0 8px;
+        padding: 0 20px;
         max-width: 1000px;
     }
 }

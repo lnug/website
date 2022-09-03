@@ -51,3 +51,12 @@
         }
     }
 }
+
+
+@media (min-width: 700px) {
+    .talks-list{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-column-gap: 20px;
+    }
+}
