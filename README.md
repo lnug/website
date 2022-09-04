@@ -1,1 +1,6 @@
-# Page header
+# LNUG website
+
+For the sake of maintenance - the LNUG website is now using [Eleventy, a simpler static site generator](https://www.11ty.dev/)  - Simon's custom static site builder worked for us for many years - but it's time to move on... 
+
+I will add more detail of the new changes here soon... 
+ 
