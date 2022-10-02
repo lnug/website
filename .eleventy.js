@@ -16,7 +16,13 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy({"src/manifest.json": "manifest.json"});
     eleventyConfig.addPlugin(eleventySass);
-    eleventyConfig.addShortcode("talkdateformat", function(date){
+
+
+    eleventyConfig.addFilter("markdown", (content) => {
+        return md.render(content);
+    });
+
+    eleventyConfig.addFilter("talkdateformat", function(date){
         return new Date(date).toLocaleString('en-GB', {
             weekday: 'long',
             year: 'numeric',
@@ -24,11 +30,6 @@ module.exports = function(eleventyConfig) {
             day: 'numeric'
         });
     })
-
-    eleventyConfig.addFilter("markdown", (content) => {
-        return md.render(content);
-    });
-
     return {
         dir: {
             input: "src",
