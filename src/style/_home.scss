@@ -1,83 +1,98 @@
-#latest{
+#latest {
 
 }
 
-h2{
-    background:#c1d150;
-    padding:8px;
-    margin: 10px 0;
-    font-weight: bold;
-    font-size: 20px;
+h2 {
+  background: #c1d150;
+  padding: 8px;
+  margin: 10px 0;
+  font-weight: bold;
+  font-size: 20px;
 }
 
+#latest-updates {
+  h2 {
+  }
+  .update {
+    border: 1px solid $lnug_hi_green;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin: 40px;
+    background-color: #fff;
+    transform: rotate(-3deg);
 
-#latest-updates{
-    h2{
-
-    }
-    .update{
-
-        border: 1px solid $lnug_hi_green;
-        padding: 10px;
-        margin: 40px;
-        background-color: #fff;
-        transform: rotate(-3deg); 
-        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-        h3{
-
-        }
-    }
-
+  }
 }
 
 #upcoming-events {
-    h2{
+  h1{ 
+    margin: 0;
+    padding: 0;
+  }
+  .event-detail {
+    background-color: #efefef;
+
+
+    padding: 16px;
+    .talk{
+      background : #fff;
+    clear: left;
+  
+    padding: 16px; 
+    margin: 16px 8px; 
 
     }
-    .event-detail{
-
+    .bio-pic {
+        width: 100px;
+        border-radius: 50px;
+        margin: 0 20px 10px 0;
+        float: left;
     }
+  }
+  .event-hosts{
+    
+    padding: 4px 16px; 
+  }
 }
 
-
-.video-thumbs{
-    .thumbs-list{
+.video-thumbs {
+  .thumbs-list {
+  }
+  a {
+    display: inline-block;
+    position: relative;
+    &:before {
+      position: absolute;
+      display: none;
+      content: attr(title);
+      font-size: 11px;
+      color: #000;
+      background-color: #fff;
+      padding: 4px;
     }
-    a{
-        display: inline-block;
-        position: relative;
-        &:before{
-            position: absolute;
-            display: none;
-            content: attr(title);
-            font-size: 11px;
-            color: #000;
-            background-color: #fff;
-            padding: 4px;
-
-        }
-        &:hover:before{
-            display: block;
-        }
+    &:hover:before {
+      display: block;
     }
-    img{
-        width: 110px;
-    }
+  }
+  img {
+    width: 110px;
+  }
 }
-
 
 
 
 
 @media (min-width: 700px) {
-    #latest{
-        display: grid;
-        grid-template-columns: 50% 50%;
-        gap: 20px;
-    }
-    h2{
-        background: none;
-        border-bottom: 2px solid #c1d150;
-}
+  #latest {
+    .talks {
 
+      display: grid;
+      grid-template-columns: 50% 50%;
+   
+    }
+  }
+  h2 {
+    background: none;
+    border-bottom: 2px solid #c1d150;
+  }
 }

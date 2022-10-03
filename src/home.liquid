@@ -3,84 +3,99 @@ layout: layout.hbs
 permalink: /
 ---
 
+
+<p>LNUG is run and organised by London developers. Our commitment is to 
+                          represent London's diverse community, to welcome the wider global node.js 
+                          community to our busy city, and to provide a platform for node.js developers
+                          - local rising stars, newbies and experts alike - to share their expertise, to network, 
+                          and spark new ideas and opportunities.</p>
+
 <div id="latest">
+  {%- comment -%}
     {% if collections.updates.length %}
-        <div id="latest-updates">
-            <h2>Latest</h2>
-            {% for update in collections.updates %}
-                <div class="update">
-                    <h3>{{update.data.title}}</h3>
-                    {{ update.templateContent }}
-                </div>
-            {% endfor %}
-        </div>
-    {% endif %}
+    <div id="latest-updates">
+    <h2>Latest</h2>
+    {% for update in collections.updates %}
+    <div class="update">
+    <h3>{{update.data.title}}
+    </h3>
+    {{ update.templateContent }}
+    </div>
+    {% endfor %}
+    </div>
+    {% endif %}{%- endcomment -%}
 
 
-    {%if collections.events.length %}
-        <div id="upcoming-events">
-            <h2>Upcoming events</h2>
-            {% for event in collections.events %}
-                <div class="event-detail">
-                    <h3>{{event.data.title}}</h3>
-                    {{ event.templateContent }}
-                </div>
-            {% endfor %}
-        </div>
-    {% endif %}
+  {%if collections.nextevent.length %}
+    <div id="upcoming-events">
+      <h1>Next meetup...
+      </h1>
+      {% for event in collections.events %}
+        {{ event.templateContent }}
+      {% endfor %}
+    </div>
+  {% endif %}
 </div>
 
 
 <div class="contribute">
-    <h2>Get involved</h2>
+  <h2>Get involved at LNUG! ⬡ ⬢</h2>
 
-    <p>LNUG is run and organised by London developers. Our commitment is to 
-        represent London's diverse community, to welcome the wider global node.js 
-        community to our busy city, and to provide a platform for node.js developers
-        - local rising stars, newbies and experts alike - to share their expertise, to network, 
-        and spark new ideas and opportunities. </p>
+  <p>As a developer or a supporting company, you can help LNUG in a number of ways:</p>
+  <ul>
+    <li>help organise a meetup event</li>
+    <li>speak at an LNUG meetup event</li>
+    <li>provide a venue to host a meetup event</li>
+    <li>sponsor catering and drinks for a meetup event</li>
+    <li>provide videographer services to record talks</li>
+    <li>promote and spread the word about LNUG and meetups</li>
+    <li>contribute to our newsletter and podcast</li>
+    <li>join the LNUG organisers and help keep things ticking</li>
+  </ul>
 
-    <p>As a developer or a supporting company, you can help LNUG in a number of ways:</p>
-    <ul>
-        <li>help organise a meetup event</li>
-        <li>speak at an LNUG meetup event</li>
-        <li>provide a venue to host a meetup event</li>
-        <li>sponsor catering and drinks for a meetup event</li>
-        <li>provide videographer services to record talks</li>
-        <li>promote and spread the word about LNUG and meetups</li>
-        <li>contribute to our newsletter and podcast</li>
-        <li>join the LNUG organisers and help keep things ticking</li>
-    </ul>
-
-    <p>If you're interested in helping us,  email <a href="mailto:contact@lnug.org">contact@lnug.org</a>
-        or tweet <a href="https://twitter.com/lnugorg" target="_blank">@lnugorg</a></p>
+  <p>If you're interested in helping us,  email
+    <a href="mailto:contact@lnug.org">contact@lnug.org</a>
+    or tweet
+    <a href="https://twitter.com/lnugorg" target="_blank">@lnugorg</a>
+  </p>
 </div>
 
 <div class="contact-lnug">
-    <h2>Get in touch</h2>
-    <p>You can find us online in a few places:</p> 
-    <ul>
-        <li>Meetup: <a href="https://www.meetup.com/london-nodejs/" target="_blank">London Node.js User Group on Meetup</a></li>
-        <li>gitHub: <a href="https://github.com/lnug" target="_blank">LNUG on gitHub</a></li>
-        <li>Twitter: <a href="https://twitter.com/lnugorg" target="_blank">LNUG (@LNUGorg) on Twitter</a></li>
-        <li>Discord: <a href="https://discord.gg/DtPTak5pdQ" target="_blank">LNUG chat on Discord</a></li>
+  <h2>Get in touch</h2>
+  <p>You can find us online in a few places:</p>
+  <ul>
+    <li>Meetup:
+      <a href="https://www.meetup.com/london-nodejs/" target="_blank">London Node.js User Group on Meetup</a>
+    </li>
+    <li>gitHub:
+      <a href="https://github.com/lnug" target="_blank">LNUG on gitHub</a>
+    </li>
+    <li>Twitter:
+      <a href="https://twitter.com/lnugorg" target="_blank">LNUG (@LNUGorg) on Twitter</a>
+    </li>
+    <li>Discord:
+      <a href="https://discord.gg/DtPTak5pdQ" target="_blank">LNUG chat on Discord</a>
+    </li>
 
-    </ul>
+  </ul>
 
 </div>
 
 
 
 <div class="video-thumbs">
-    <h2>View past LNUG talks...</h2>
-    <p>
-        LNUG has been organising node.js meetups since 2011. We have recorded most of the talks, which are available on the <a href="https://www.youtube.com/c/LNUGTeam" target="_blank">LNUG YouTube Channel</a>
-    </p>
+  <h2>View past LNUG talks...</h2>
+  <p>
+    LNUG has been organising node.js meetups since 2011. We have recorded most of the talks, which are available on the
+    <a href="https://www.youtube.com/c/LNUGTeam" target="_blank">LNUG YouTube Channel</a>
+  </p>
 
-    <p>You can pick a talk from the thumbnails below, or read more detail on the <a href="/talks">talks archive</a> page.</p>
-    <div class="thumbs-list">
-        {%for videoTalk in videoTalks %}
-            <a href="/talks/{{ videoTalk.title | slugify }}-{{videoTalk.videoId}}" title="{{videoTalk.title}}"><img src="{{videoTalk.thumbnailUrl}}" alt="{{videoTalk.title}}"  /></a>
-        {% endfor %}
-    </div>
+  <p>You can pick a talk from the thumbnails below, or read more detail on the
+    <a href="/talks">talks archive</a>
+    page.</p>
+  <div class="thumbs-list">
+    {%for videoTalk in videoTalks %}
+      <a href="/talks/{{ videoTalk.title | slugify }}-{{videoTalk.videoId}}" title="{{videoTalk.title}}"><img src="{{videoTalk.thumbnailUrl}}" alt="{{videoTalk.title}}"/></a>
+    {% endfor %}
+  </div>
 </div>
