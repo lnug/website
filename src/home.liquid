@@ -3,30 +3,35 @@ layout: layout.hbs
 permalink: /
 ---
 
+
+<p>LNUG is run and organised by London developers. Our commitment is to 
+                          represent London's diverse community, to welcome the wider global node.js 
+                          community to our busy city, and to provide a platform for node.js developers
+                          - local rising stars, newbies and experts alike - to share their expertise, to network, 
+                          and spark new ideas and opportunities.</p>
+
 <div id="latest">
-  {% if collections.updates.length %}
+  {%- comment -%}
+    {% if collections.updates.length %}
     <div id="latest-updates">
-      <h2>Latest</h2>
-      {% for update in collections.updates %}
-        <div class="update">
-          <h3>{{update.data.title}}
-          </h3>
-          {{ update.templateContent }}
-        </div>
-      {% endfor %}
+    <h2>Latest</h2>
+    {% for update in collections.updates %}
+    <div class="update">
+    <h3>{{update.data.title}}
+    </h3>
+    {{ update.templateContent }}
     </div>
-  {% endif %}
+    {% endfor %}
+    </div>
+    {% endif %}{%- endcomment -%}
 
 
-  {%if collections.events.length %}
+  {%if collections.nextevent.length %}
     <div id="upcoming-events">
-      <h2>Upcoming events</h2>
+      <h1>Next meetup...
+      </h1>
       {% for event in collections.events %}
-        <div class="event-detail">
-          <h3>{{event.data.title}}
-          </h3>
-          {{ event.templateContent }}
-        </div>
+        {{ event.templateContent }}
       {% endfor %}
     </div>
   {% endif %}
@@ -35,12 +40,6 @@ permalink: /
 
 <div class="contribute">
   <h2>Get involved at LNUG! ⬡ ⬢</h2>
-
-  <p>LNUG is run and organised by London developers. Our commitment is to 
-                        represent London's diverse community, to welcome the wider global node.js 
-                        community to our busy city, and to provide a platform for node.js developers
-                        - local rising stars, newbies and experts alike - to share their expertise, to network, 
-                        and spark new ideas and opportunities.</p>
 
   <p>As a developer or a supporting company, you can help LNUG in a number of ways:</p>
   <ul>

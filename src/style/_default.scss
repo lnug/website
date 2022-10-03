@@ -31,6 +31,16 @@ body {
         padding: 0 20px;
         max-width: 1000px;
     }
+
+    a{
+        color: #000;
+        font-weight: bold;
+    }
+
+    a:hover{
+        background-color: $lnug_hi_green;
+    }
+
 }
 
 h1 {
