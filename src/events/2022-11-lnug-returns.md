@@ -14,17 +14,25 @@ talks:
 
     Simon is an independent Node.js consultant and educator. Since the day he learnt HTML from a book in 1999, he’s been hooked on coding. He helps companies use Node.js to ship great products and also helps developers level up with Node.js through his blog. He’s the author of the book Express API Validation Essentials.
 
-    *  [Blog](https://simonplend.com/) 
-    *  [Twitter](https://twitter.com/simonplend) 
-    *  [GitHub](https://github.com/simonplend/) 
+    *  Blog: [simonpland.com](https://simonplend.com/) 
+    *  Twitter: [@simonplend](https://twitter.com/simonplend) 
+    *  GitHub: [@simonplend](https://github.com/simonplend/) 
   speaker: 
     - name: "Simon Plenderleith"
       twitter: "simonplend"
       github: "simonplend"
       website: "https://simonplend.com/"
       avatar: https://avatars.githubusercontent.com/u/2773428?v=4
-- title: "Serverless Transactional Outbox Pattern on AWS"
-  description: (talk abstract coming)
+- title: "JavaScript Runtimes on AWS Lambda"
+  description: | 
+    Node.js is one of the key runtimes to develop applications on AWS Lambda. It was announced 13 years ago and is now considered to be  [boring technology](https://mcfunley.com/choose-boring-technology)  by many. But over the past few years, a few newer JavaScript runtimes have emerged, to solve some of the issues with Node.js.
+    In this talk, we will walk through a few of the newer JavaScript runtimes, and do a comparison of both the developer experience and their performance when deployed on AWS Lambda.
+
+    Boris is the founder of  [Baselime](https://baselime.io/) . Before this, he worked on back-end systems and infrastructure at multiple startups, where he was drawn to cloud-native and serverless technologies. He always ended up being the guardian of the logging and monitoring systems in the teams he joined.
+    Now, he’s helping serverless teams automate their observability configurations with Observability as Code.
+    
+    - Twitter:  [@boristane](https://twitter.com/boristane) 
+    - GitHub:  [@boristane](https://github.com/boristane) 
   speaker: 
     - name: "Boris Tane"
       twitter: "BorisTane"
@@ -47,22 +55,22 @@ talks:
 </p>
 
 <div >
-<a class="lnug-ticket cta" href="{{registration}}" target="_blank">Register on meetup</a>
+<a class="lnug-ticket cta" href="{{registration}}" target="_blank">Register on meetup.com</a>
 </div>
 <div class="talks">
 {% for talk in talks %}
 <div class="talk">
 
-<h4>{{talk.title}}
-</h4>
+<h3>{{talk.title}}
+</h3>
 
 
 
 {%for speaker in talk.speaker %}
 <img src="{{speaker.avatar}}" class="bio-pic"/>
-{{ speaker.name }}
+<h4>{{ speaker.name }}
 (<a href="https://twitter.com/{{speaker.twitter}}">@{{ speaker.twitter }}
-</a>)
+</a>)</h4>
 {% endfor%}
 
 {{talk.description}}
