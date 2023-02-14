@@ -4,33 +4,33 @@ permalink: /
 ---
 
 <div class="lnug-intro">
-<p>LNUG is run and organised by London developers. Our commitment is to 
-                          represent London's diverse community, to welcome the wider global node.js 
-                          community to our busy city, and to provide a platform for node.js developers
-                          - local rising stars, newbies and experts alike - to share their expertise, to network, 
-                          and spark new ideas and opportunities.</p>
+  <p>LNUG is run and organised by London developers. Our commitment is to 
+    represent London's diverse community, to welcome the wider global node.js 
+        community to our busy city, and to provide a platform for node.js developers
+        - local rising stars, newbies and experts alike - to share their expertise, to network, 
+        and spark new ideas and opportunities.</p>
 </div>
 <div id="latest">
   {%- comment -%}
-    {% if collections.updates.length %}
-    <div id="latest-updates">
-    <h2>Latest</h2>
-    {% for update in collections.updates %}
-    <div class="update">
-    <h3>{{update.data.title}}
-    </h3>
-    {{ update.templateContent }}
-    </div>
-    {% endfor %}
-    </div>
-    {% endif %}{%- endcomment -%}
-
-
-  {%if collections.nextevent.length %}
+  {% if collections.updates.length %}
+  <div id="latest-updates">
+  <h2>Latest</h2>
+  {% for update in collections.updates %}
+  <div class="update">
+  <h3>{{update.data.title}}
+  </h3>
+  {{ update.templateContent }}
+  </div>
+  {% endfor %}
+  </div>
+  {% endif %}{%- endcomment -%}
+  
+  {% if collections.nextevent.length %}
     <div id="upcoming-events">
       <h1>Next meetup...
       </h1>
-      {% for event in collections.events %}
+      {% for event in collections.nextevent %}
+
         {{ event.templateContent }}
       {% endfor %}
     </div>
@@ -94,8 +94,8 @@ permalink: /
     <a href="/talks">talks archive</a>
     page.</p>
   <div class="thumbs-list">
-    {%for videoTalk in videoTalks %}
-      <a href="/talks/{{ videoTalk.title | slugify }}-{{videoTalk.videoId}}" title="{{videoTalk.title}}"><img src="{{videoTalk.thumbnailUrl}}" alt="{{videoTalk.title}}"/></a>
+    {% for videoTalk in videoTalks %}
+      <a href="/talks/{{ videoTalk.title | slugify }}-{{videoTalk.videoId}}" title="{{videoTalk.title}}"><img src="{{videoTalk.thumbnailUrl}}" alt="{{videoTalk.title}}" /></a>
     {% endfor %}
   </div>
 </div>
