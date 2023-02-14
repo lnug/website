@@ -3,7 +3,6 @@ layout: layout.hbs
 title: LNUG returns,  22nd November 2022...
 tags:
   - events
-  - nextevent
 date: "2022-11-22"
 venue: beamery
 registration: https://www.meetup.com/london-nodejs/events/288692461/
