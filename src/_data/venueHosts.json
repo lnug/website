@@ -8,5 +8,10 @@
         "title": "Bally's Interactive",
         "address": "70 Berners Street, London. W1T 3NL",
         "info": "[Bally’s Interactive](https://www.ballys.com/) is the digital arm of one of the world’s leading entertainment providers, with tens of millions of players across the globe and an unmatched ecosystem of products spanning across the sports betting, iGaming, free-to-play, and daily fantasy spectrum."
+    },
+    "makersacademy": {
+        "title": "Makers Academy",
+        "address": "5 - 25 Scrutton Street, London.EC2A 4HJ",
+        "info": "At [Makers](https://makers.tech), we are creating a new generation of tech talent who are skilled and ready for the changing world of work. We are inspired by the idea of discovering and unlocking potential in people for the benefit of 21st century business and society."
     }
 }

@@ -3,7 +3,6 @@ layout: layout.hbs
 title: TRPC and Lightning Talks... 
 tags: 
 - events
-- nextevent
 date: "2023-02-22"
 venue: ballys
 registration: https://www.meetup.com/london-nodejs/events/291486309/
