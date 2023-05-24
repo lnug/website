@@ -3,7 +3,6 @@ layout: layout.hbs
 title: LNUG Meetup &#35;98 A Blast From The Past...
 tags:
   - events
-  - nextevent
 date: "2023-04-26"
 venue: makersacademy
 registration: https://www.meetup.com/london-nodejs/events/292579196/
