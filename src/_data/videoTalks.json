@@ -1,7 +1,49 @@
 [
+  
+
+
+  {
+    "title": "London Node User Group - Community Projects - May 2023",
+    "description": "Quick fire community announcements, items of interest and community projects covering: Adobe Firefly, Serverless Frameworks Plug Ins And an anti-social app!",
+    "url": "https://www.youtube.com/watch?v=ufKIEFiXS9I",
+    "videoId": "ufKIEFiXS9I",
+    "thumbnailUrl": "https://i3.ytimg.com/vi/ufKIEFiXS9I/mqdefault.jpg",
+    "type": "youtube",
+    "date": "2023-05-25T23:00:00.000Z"
+  },
+
+  {
+    "title": "Destroying Client-Server Barriers using TypeScript  -  Akash Joshi - May 2023",
+    "description": "Could you access the Prisma client on the frontend - without revealing any environment variables? This talk goes into my experimentation with Object proxies and websockets, allowing a developer to access server-side objects on the client, with type-safety. I'll walk through how the proxying works, the type-safety features, and everything else which makes the library works. https://rocketrpc.com",
+    "url": "https://www.youtube.com/watch?v=wJyqa7COt2E",
+    "videoId": "wJyqa7COt2E",
+    "thumbnailUrl": "https://i3.ytimg.com/vi/wJyqa7COt2E/mqdefault.jpg",
+    "type": "youtube",
+    "date": "2023-05-25T23:00:00.000Z"
+  },
+
+  {
+    "title": "Fastify - Fast web framework with batteries attached & amazing TypeScript support  -  Mike Borozdin - April 2023",
+    "description": "Fastify's remarkable features include native TypeScript support, providing enhanced type safety and productivity during development. By leveraging TypeScript, developers can ensure type correctness in request and response bodies, query string parameters, and even custom HTTP headers. This type safety extends to runtime as well, thanks to Fastify's built-in JSON schema validation, which guarantees the validity of incoming data, enhancing security and stability.",
+    "url": "https://www.youtube.com/watch?v=ksI-v1uXmbk",
+    "videoId": "ksI-v1uXmbk",
+    "thumbnailUrl": "https://i3.ytimg.com/vi/ksI-v1uXmbk/mqdefault.jpg",
+    "type": "youtube",
+    "date": "2023-04-26T23:00:00.000Z"
+  },
+
+  {
+    "title": "Creating best-in-class developer experience for your SDKs -  Allen Helton - April 2023",
+    "description": "Through insightful case studies and examples, explore the key elements that make an SDK exceptional, from intuitiveness and easy documentation discovery to adaptability and tailored experiences. Gain practical tips and best practices for designing SDKs that are easy to use, maintain, and extend.",
+    "url": "https://www.youtube.com/watch?v=lxjhs-BDEw4",
+    "videoId": "lxjhs-BDEw4",
+    "thumbnailUrl": "https://i3.ytimg.com/vi/lxjhs-BDEw4/mqdefault.jpg",
+    "type": "youtube",
+    "date": "2023-04-26T23:00:00.000Z"
+  },
   {
     "title": "JavaScript Runtimes on AWS Lambda - Boris Tane",
-    "description": " Node.js is one of the key runtimes to develop applications on AWS Lambda. It was announced 13 years ago and is now considered to be  [boring technology](https://mcfunley.com/choose-boring-technology)  by many. But over the past few years, a few newer JavaScript runtimes have emerged, to solve some of the issues with Node.js.",
+    "description": "Node.js is one of the key runtimes to develop applications on AWS Lambda. It was announced 13 years ago and is now considered to be  [boring technology](https://mcfunley.com/choose-boring-technology)  by many. But over the past few years, a few newer JavaScript runtimes have emerged, to solve some of the issues with Node.js.",
     "url": "https://www.youtube.com/watch?v=Uqknl_aYFUM",
     "videoId": "Uqknl_aYFUM",
     "thumbnailUrl": "https://i3.ytimg.com/vi/Uqknl_aYFUM/mqdefault.jpg",

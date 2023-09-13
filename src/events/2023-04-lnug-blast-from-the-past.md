@@ -17,7 +17,7 @@ talks:
         twitter: "allenheltondev"
         github: "allenheltondev"
         avatar: https://pbs.twimg.com/profile_images/1323714999479635970/s141v1hV_400x400.jpg
-  - title: "Fastify - a fast web framework with batteries attached and amazing TypeScript suppor"
+  - title: "Fastify - a fast web framework with batteries attached and amazing TypeScript support"
     description: |
         There are more web frameworks for Node.js than Express. [Fastify](https://www.fastify.io/) is a great alternative to Express. It's blazingly fast. It's got a lot of features out of the box that require don't require installing additional package unlike other frameworks. And it's got an amazing TypeScript support.
 

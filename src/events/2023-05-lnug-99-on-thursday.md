@@ -3,7 +3,6 @@ layout: layout.hbs
 title: LNUG Meetup &#35;99 LNUG on a Thursday...
 tags:
   - events
-  - nextevent
 date: "2023-05-25"
 venue: makersacademy
 registration: https://www.meetup.com/london-nodejs/events/293343778/
