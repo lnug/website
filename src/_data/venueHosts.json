@@ -13,5 +13,10 @@
         "title": "Makers Academy",
         "address": "5 - 25 Scrutton Street, London.EC2A 4HJ",
         "info": "At [Makers](https://makers.tech), we are creating a new generation of tech talent who are skilled and ready for the changing world of work. We are inspired by the idea of discovering and unlocking potential in people for the benefit of 21st century business and society."
+    },
+    "cloudflare": {
+        "title": "Cloudflare",
+        "address": "County Hall, Belvedere Rd, London SE1 7GP",
+        "info": "Deploy serverless code instantly across the globe to give it exceptional performance, reliability, and scale."
     }
 }
