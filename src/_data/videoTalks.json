@@ -1,7 +1,112 @@
 [
-  
-
-
+  {
+    "title": "How to build an aerial photos website with Node.js, OpenLayers, SQL Server, ..and an aeroplane!",
+    "description": "Neil Miller at  LNUG 106 August 2024\n\nWith around 8000 360 photos taken from my flights in my plane all across the south of the UK, it is an elegent demonstration of OpenLayers javascript technology compiled with Node.js, SQL Server to process the data, Pannellum to display the images, and OpenStreetMap to provide the background maps.\n\nIn this talk Neil will explain how it all works, including a run-through of the source code.\n\nNeil Miller is a SQL Server Developer, and private pilot.",
+    "url": "https://www.youtube.com/watch?v=iSBCL367tEk",
+    "videoId": "iSBCL367tEk",
+    "thumbnailUrl": "https://i.ytimg.com/vi/iSBCL367tEk/hqdefault.jpg",
+    "type": "YouTube Video",
+    "date": "2024-08-30T22:50:07Z"
+  },
+  {
+    "title": "Sniffing API requests for fun a̶n̶d̶ p̶r̶o̶f̶i̶t̶ - Oscar Pickerill at LNUG #106 - August 2024",
+    "description": "In this talk, I walk through my process of intercepting API requests from the Bereal native app to post custom images. Through this presentation, I reflect on security considerations when building apps, including concerns associated with Firebase.",
+    "url": "https://www.youtube.com/watch?v=baW-b_7rNXA",
+    "videoId": "baW-b_7rNXA",
+    "thumbnailUrl": "https://i.ytimg.com/vi/baW-b_7rNXA/hqdefault.jpg",
+    "type": "YouTube Video",
+    "date": "2024-08-30T21:23:18Z"
+  },
+  {
+    "title": "Lessons Learned Building an AI CLI in 2024 - Akash Joshi @ LNUG #105 July 2024",
+    "description": "How is an AI-powered CLI which allows you to confidently write complex commands and queries in your CLI. This talk goes into how \"How\" was built, talking about the no-build CLI deployment process, type-safety, cross-OS compatibility, and more!\n\nI'm a software engineer at RocketConnect, like to host meetups and write code in my spare time and also run!\nAkash Joshi\n(@thewritingdev )",
+    "url": "https://www.youtube.com/watch?v=C2maxcMr53E",
+    "videoId": "C2maxcMr53E",
+    "thumbnailUrl": "https://i.ytimg.com/vi/C2maxcMr53E/hqdefault.jpg",
+    "type": "YouTube Video",
+    "date": "2024-08-08T18:19:26Z"
+  },
+  {
+    "title": "Type-safe app configuration: a powerful, emerging way to accelerate product development LNUG 07/2024",
+    "description": "Miraan Tabrez @ LNUG #105 July 2024\n\nEveryone has heard of feature flags: boolean switches in your code that you can flip at runtime for different users, environments, etc. But they are just one part of a much broader best practice called “application configuration”. Big tech companies like Meta and Google have internal tools for structured, type-safe app configuration that help them accelerate development of products and backend services. This talk dives into what app configuration is and how it can empower your whole team to move faster, including your nontechnical colleagues.\n\nMiraan is the founder at Hypertune. He was previously at Meta where he led teams across frontend, mobile, backend and machine learning.",
+    "url": "https://www.youtube.com/watch?v=DAqtwllkz3M",
+    "videoId": "DAqtwllkz3M",
+    "thumbnailUrl": "https://i.ytimg.com/vi/DAqtwllkz3M/hqdefault.jpg",
+    "type": "YouTube Video",
+    "date": "2024-08-17T18:30:07Z"
+  },
+  {
+    "title": "Twilio demo competition - Nathaniel Okenwa at LNUG #103",
+    "description": "Twilio are sponsors of this LNUG event - and Nathaniel arrived with more than just swag for attendees  - he had a raffle for a prize - and quickly put together this live coding demo lightning talk to pick a winner -  showing off Twilio capabilities in real time. \n\nThanks to Nathaniel and Twilio for supporting our community and keeping it fun and relevant!",
+    "url": "https://www.youtube.com/watch?v=g243CICWx9Q",
+    "videoId": "g243CICWx9Q",
+    "thumbnailUrl": "https://i.ytimg.com/vi/g243CICWx9Q/hqdefault.jpg",
+    "type": "YouTube Video",
+    "date": "2024-07-06T14:27:42Z"
+  },
+  {
+    "title": "Looking sharp: 10 years of Node.js image processing - Lovell Fuller at LNUG #104 June 2024",
+    "description": "From the history of art, through the worlds of fashion, sustainability and security, this talk details the story of [sharp] https://sharp.pixelplumbing.com/) as it made its way into many of the popular JavaScript frameworks and tools we use today.\n\nLovell is a freelance software developer based in London, coding since the 1990s and still learning, with experience across a wide range of industries.\n\n[lovell.info](https://lovell.info/)",
+    "url": "https://www.youtube.com/watch?v=YEE1Kp4ZS4w",
+    "videoId": "YEE1Kp4ZS4w",
+    "thumbnailUrl": "https://i.ytimg.com/vi/YEE1Kp4ZS4w/hqdefault.jpg",
+    "type": "YouTube Video",
+    "date": "2024-07-04T23:50:17Z"
+  },
+  {
+    "title": "Effect Loves Node.js - Michael Arnaldi at LNUG #103 June 2024",
+    "description": "The reason I created Effect in the first place was to develop production grade backends in TypeScript targeting Node.js, today I'll be showing the result! In this talk we will be looking at a live demo & coding session where we will develop an API server and client from scratch using Effect and Node.js that includes features such as OpenAPI spec generation, OpenTelemetry, Metrics and much more.",
+    "url": "https://www.youtube.com/watch?v=wql4Ci4WLLE",
+    "videoId": "wql4Ci4WLLE",
+    "thumbnailUrl": "https://i.ytimg.com/vi/wql4Ci4WLLE/hqdefault.jpg",
+    "type": "YouTube Video",
+    "date": "2024-07-04T18:46:36Z"
+  },
+  {
+    "title": "Effect Loves Node.js",
+    "description": "The reason I created Effect in the first place was to develop production grade backends in TypeScript targeting Node.js, today I'll be showing the result! In this talk we will be looking at a live demo & coding session where we will develop an API server and client from scratch using Effect and Node.js that includes features such as OpenAPI spec generation, OpenTelemetry, Metrics and much more.",
+    "url": "https://www.youtube.com/watch?v=EntHp33gQ2k",
+    "videoId": "EntHp33gQ2k",
+    "thumbnailUrl": "https://i.ytimg.com/vi/EntHp33gQ2k/hqdefault.jpg",
+    "type": "YouTube Video",
+    "date": "2024-07-04T05:04:09Z"
+  },
+  {
+    "title": "Mastering the Monorepo - Ahmed Elsakaan at LNUG #103 - May 2024",
+    "description": "Monorepos are a fundamental aspect of many codebases, however to get the most out of this architecture, we need to find ways to streamline the process of creating and maintaining them so that we eventually don't end up in config hell, broken builds and pipelines. In this talk I will aim to introduce the concept of monorepos, why are they used and what benefits they try to accomplish and many tips in ways to work in monorepos to eventually get yourself at a place where they make your entire team more productive.",
+    "url": "https://www.youtube.com/watch?v=ILrOGn2Tvrc",
+    "videoId": "ILrOGn2Tvrc",
+    "thumbnailUrl": "https://i.ytimg.com/vi/ILrOGn2Tvrc/hqdefault.jpg",
+    "type": "YouTube Video",
+    "date": "2024-06-30T22:21:44Z"
+  },
+  {
+    "title": "Workflows lightning talk - Sid Chatterjee  at LNUG #103",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=54drNLYs4SM",
+    "videoId": "54drNLYs4SM",
+    "thumbnailUrl": "https://i.ytimg.com/vi/54drNLYs4SM/hqdefault.jpg",
+    "type": "YouTube Video",
+    "date": "2024-06-30T22:19:46Z"
+  },
+  {
+    "title": "Typescript all the way down - Piers Karsenbarg at LNUG #103",
+    "description": "Piers will show that Pulumi allows Typescript and NodeJS developers to expand what is meant by “full stack developers”, going from the Front End all the way down to the Infrastructure level.\n\nPiers is a Senior Solutions Engineer at Pulumi, working with users to build and manage their cloud infrastructure.",
+    "url": "https://www.youtube.com/watch?v=bEZReFIuCPU",
+    "videoId": "bEZReFIuCPU",
+    "thumbnailUrl": "https://i.ytimg.com/vi/bEZReFIuCPU/hqdefault.jpg",
+    "type": "YouTube Video",
+    "date": "2024-06-30T22:15:38Z"
+  },
+  {
+    "title": "LNUG #103 - May 2024 - Introductions",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=9TIjfXDgHto",
+    "videoId": "9TIjfXDgHto",
+    "thumbnailUrl": "https://i.ytimg.com/vi/9TIjfXDgHto/hqdefault.jpg",
+    "type": "YouTube Video",
+    "date": "2024-06-30T22:11:16Z"
+  },
   {
     "title": "London Node User Group - Community Projects - May 2023",
     "description": "Quick fire community announcements, items of interest and community projects covering: Adobe Firefly, Serverless Frameworks Plug Ins And an anti-social app!",
