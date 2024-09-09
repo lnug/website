@@ -14,7 +14,6 @@ layout: layout.hbs
     {{#each videoTalks}}
     <div class="talk-link">
         <a href="/talks/{{slugify this.title}}-{{this.videoId}}">
-            <div class="talk-date">{{ talkdateformat this.date}}</div>
             <h3>{{this.title}}</h3>
             <div class="talk-thumbnail"><img src="{{this.thumbnailUrl}}" alt="{{this.title}}"  /></div>
             <div class="talk-description">{{this.description}}</div>
