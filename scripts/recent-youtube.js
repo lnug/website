@@ -7,7 +7,7 @@ const { stdout } = require('process');
 
 const API_KEY = process.env.YOUTUBE_API_KEY;
 const CHANNEL_ID = 'UC-qjgj2TnRoI1ZmFFaN3FeQ'; // LNUG channel ID
-const MAX_RESULTS = 12; // adjust this to get more or less videos
+const MAX_RESULTS = 2; // adjust this to get more or less videos
 
 function fetchRecentVideos() {
   const url = `https://www.googleapis.com/youtube/v3/search?key=${API_KEY}&channelId=${CHANNEL_ID}&part=id,snippet&order=date&maxResults=${MAX_RESULTS}`;

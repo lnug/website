@@ -1,5 +1,23 @@
 [
   {
+    "title": "Streaming Magic: Unleashing the Power of Node.js Streams for Data Processing - Brian Evans at LNUG",
+    "description": "NodeJS provides a brilliant built-in \"stream\" module for working with data streams. It is well suited for processing large data files and its promises API super-charges working with async iterables, such as paginating items from an API. This talk will feature a real time coding demo of how I've written simple data processing scripts for quick analysis at work, rapidly and effectively crafted using the node:stream/promises module. I'll also present some bonus developer tips on other use cases for the highly flexible Readable stream API.\n\nBrian Evans is a full stack software engineer working in London using Javascript/Typescript.\n\nhttps://brianevans.tech",
+    "url": "https://www.youtube.com/watch?v=lSFvtY_bpAc",
+    "videoId": "lSFvtY_bpAc",
+    "thumbnailUrl": "https://i.ytimg.com/vi/lSFvtY_bpAc/hqdefault.jpg",
+    "type": "YouTube Video",
+    "date": "2024-09-28T20:30:34Z"
+  },
+  {
+    "title": "Collaborative File Systems - Ben Foxall at LNUG 107 - Sept 2024",
+    "description": "Modern browsers have powerful APIs for accessing local files. In this talk, we'll explore these capabilities and how we can combine them with peer-to-peer networking to share capabilities between devices and push edge compute further down to local devices.\n\nTopics covered:\n\nFile System Access\nCRDTs (Conflict-free Replicated Data Types)\nOrigin Private File System\nWebRTC\nEdge compute\n\nYou can find slides here:\nhttps://docs.google.com/presentation/d/1M7U8SuN-OmLri0EuzFuhKQgUXDi_l-bZolAKlkqz9gc/edit?usp=sharing\n\nAnd some things I showed:\nhttps://benjaminbenben.com/hex\nhttps://benjaminbenben.com/ycode\nhttps://benjaminbenben.com/opfs\nhttps://prpc.netlify.app/\n\nAll source on my github repos:\nhttps://github.com/benfoxall?tab=repositories\n\nBen Foxall leads the Robot Web team at Wayve, bringing extensive experience in cutting-edge web technologies and their applications in robotics",
+    "url": "https://www.youtube.com/watch?v=v919R5RuHK0",
+    "videoId": "v919R5RuHK0",
+    "thumbnailUrl": "https://i.ytimg.com/vi/v919R5RuHK0/hqdefault.jpg",
+    "type": "YouTube Video",
+    "date": "2024-09-28T20:28:23Z"
+  },
+  {
     "title": "How to build an aerial photos website with Node.js, OpenLayers, SQL Server, ..and an aeroplane!",
     "description": "Neil Miller at  LNUG 106 August 2024\n\nWith around 8000 360 photos taken from my flights in my plane all across the south of the UK, it is an elegent demonstration of OpenLayers javascript technology compiled with Node.js, SQL Server to process the data, Pannellum to display the images, and OpenStreetMap to provide the background maps.\n\nIn this talk Neil will explain how it all works, including a run-through of the source code.\n\nNeil Miller is a SQL Server Developer, and private pilot.",
     "url": "https://www.youtube.com/watch?v=iSBCL367tEk",
