@@ -3,7 +3,7 @@
         "title": "Beamery",
         "address": "HYLO Building, 103-105 Bunhill Row, London",
         "info": "**Who are Beamery?**\n\nBeamery’s Talent Lifecycle Management platform brings together your data on candidates, employees and alumni.\n\nWe are an AI-powered platform that powers faster recruiting, successful internal mobility, smarter upskilling and more agile workforce planning so enterprise companies can improve the experience for all talent.\n\nWe are a team of creators, problem solvers and engineers. Here from the team directly at Beamery in this [video](https://vimeo.com/652694282) about what life is like in the Engineering, Product & Design Team!\n\nHear more at [Careers.Beamery.com](https://careers.beamery.com/) ",
-        "logo": "/img/beamery-logo-colour.png"
+        "logo": "/img/partners/beamery-logo-colour.png"
     },  
     "ballys": {
         "title": "Bally's Interactive",
@@ -19,5 +19,11 @@
         "title": "Cloudflare",
         "address": "County Hall, Belvedere Rd, London SE1 7GP",
         "info": "Deploy serverless code instantly across the globe to give it exceptional performance, reliability, and scale."
+    },
+    "twilio": {
+        "title": "Twilio",
+        "address": "",
+        "logo": "/img/partners/twilio-logo.svg",
+        "info": "[Twilio](https://twilio.com) is a cloud communications platform for developers. We have many API’s, SDKs and other tools to solve nearly any telecommunications problem you may come across. If you would like to send a SMS, programatically reply to an email, program a phone call, build an AI powered phone secretary or even send Whatsapp messages you can do all of that and more with Twilio. Use the languages you know and love to build the future of communications."
     }
 }
