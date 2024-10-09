@@ -114,8 +114,16 @@
             .talks {
 
               display: grid;
-              grid-template-columns: 50% 50%;
+              // grid-template-columns: 50% 50%;
+              grid-template-columns: repeat(2, 1fr);
+              gap: 10px;
            
+            }
+
+            
+            
+            .talk:nth-child(odd):last-child {
+              grid-column: span 2;
             }
           }
 
