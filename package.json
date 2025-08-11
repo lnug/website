@@ -20,9 +20,14 @@
   },
   "homepage": "https://github.com/lnug/website#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.2",
-    "eleventy-sass": "^2.1.2",
-    "sass": "^1.54.4",
-    "js-yaml": "^4.1.0"
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-plugin-handlebars": "^1.0.0",
+    "eleventy-sass": "^3.0.0-beta.0",
+    "js-yaml": "^4.1.0",
+    "sass": "^1.54.4"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.8",
+    "liquidjs": "^10.21.1"
   }
 }
